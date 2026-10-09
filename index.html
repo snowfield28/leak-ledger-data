@@ -172,7 +172,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
         <optgroup label="サイバー攻撃"><option value="c:cyber">サイバー攻撃（すべて）</option><option value="t:ランサムウェア">ランサムウェア</option><option value="t:不正アクセス">不正アクセス</option><option value="t:委託先経由">委託先経由</option></optgroup>
         <option value="c:loss">紛失・盗難</option><option value="c:mis">誤送信・誤掲載</option><option value="c:insider">内部不正</option><option value="c:config">設定ミス・不具合</option>
       </select>
-      <select id="who" aria-label="対象者"><option value="">すべての対象者</option></select>
+      <select id="who" aria-label="誰の情報"><option value="">誰の情報：すべて</option></select>
       <select id="ind" aria-label="業種"><option value="">すべての業種</option></select>
       <select id="period" aria-label="期間">
         <option value="">すべての期間</option><option value="7">直近1週間</option><option value="30">直近1か月</option><option value="91">直近3か月</option>
@@ -345,7 +345,7 @@ $("#cause").addEventListener("change",e=>{S.cause=e.target.value;render()});
 $("#period").addEventListener("change",e=>{S.period=e.target.value;$("#daterow").hidden=S.period!=="custom";render()});
 $("#from").addEventListener("change",e=>{S.from=e.target.value;render()});
 $("#to").addEventListener("change",e=>{S.to=e.target.value;render()});
-function fillWho(){$("#who").innerHTML='<option value="">すべての対象者</option>'+Object.entries(DB.whoLabels||{}).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join("")}
+function fillWho(){$("#who").innerHTML='<option value="">誰の情報：すべて</option>'+Object.entries(DB.whoLabels||{}).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join("")}
 function fillInd(){fillWho();$("#ind").innerHTML='<option value="">すべての業種</option>'+(DB.industries||[]).map(k=>`<option>${esc(k)}</option>`).join("")}
 (async()=>{
   try{const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;DB=await r.json();LABELS=DB.itemLabels;SL=DB.statusLabels||{};
