@@ -1,87 +1,539 @@
 {
-  "updated": "2026-10-09",
-  "itemLabels": {
-    "name": "氏名",
-    "addr": "住所",
-    "tel": "電話番号",
-    "mail": "メールアドレス",
-    "birth": "生年月日",
-    "work": "勤務先",
-    "deal": "契約・購入情報",
-    "acct": "口座情報",
-    "card": "クレジットカード",
-    "id": "ID・パスワード"
+ "updated": "2026-10-09",
+ "itemLabels": {
+  "name": "氏名",
+  "addr": "住所",
+  "tel": "電話番号",
+  "mail": "メールアドレス",
+  "birth": "生年月日",
+  "work": "勤務先",
+  "deal": "契約・購入情報",
+  "acct": "口座情報",
+  "card": "クレジットカード",
+  "id": "ID・パスワード",
+  "doc": "本人確認書類"
+ },
+ "cases": [
+  {
+   "co": "パーク24（タイムズカー／タイムズモビリティ）",
+   "date": "2026-09-25",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 6600000,
+   "label": "約660万件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "doc"
+   ],
+   "itemsText": "氏名、住所、電話番号、運転免許証などの本人確認書類の画像（約160万件。公共料金の領収書、住民票の写し、学生証の画像を含む）",
+   "notIncl": "",
+   "sum": "カーシェア「タイムズカー」のWebシステムへの不正アクセスを9月25日に検知し、9月28日に公表。会員と過去7年以内の退会者の個人情報約660万件が漏えいし、うち約160万件は本人確認書類の画像。",
+   "src": [
+    [
+     "NHK",
+     "https://news.web.nhk/newsweb/na/nd-20260929de53160"
+    ],
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/02/56371.html"
+    ],
+    [
+     "北海道新聞",
+     "https://www.hokkaido-np.co.jp/article/1384883/"
+    ]
+   ]
   },
-  "cases": [
-    {"co":"大和証券（委託先 スカラコミュニケーションズ）","date":"2026-10-05","types":["不正アクセス","委託先経由"],"n":110000,"label":"約11万人","st":"p",
-     "items":["name","mail","acct"],"itemsText":"氏名、メールアドレス、口座番号など","notIncl":"",
-     "sum":"問い合わせ管理に使う委託先サーバーへの不正アクセスで、顧客情報が不正取得された形跡。個人を特定できない情報を含めると約22万件。大和証券自身のシステムへの不正アクセスは確認されていない。",
-     "src":[["INTERNET Watch","https://internet.watch.impress.co.jp/docs/news/2145818.html"],["ASCII.jp","https://ascii.jp/elem/000/004/439/4439964/"]]},
-    {"co":"大起水産","date":"2026-10-05","types":["不正アクセス"],"n":175000,"label":"約17万5,000人","st":"p",
-     "items":[],"itemsText":"報道見出しのみ確認。項目は同社の公表資料で要確認","notIncl":"",
-     "sum":"不正アクセスにより約17万5,000人分の個人情報が漏えいした可能性があると報じられた。",
-     "src":[["NHK","https://news.web.nhk/newsweb/na/nd-20261006de55037"]]},
-    {"co":"アフラック生命保険","date":"2026-06-30","types":["不正アクセス"],"n":4400000,"label":"約440万人","st":"c",
-     "items":["name","birth","addr","tel","deal","acct"],"itemsText":"氏名、生年月日、性別、住所、電話番号、証券番号、保障内容、保険料振替口座情報（約22万人）など","notIncl":"マイナンバー、カード情報",
-     "sum":"契約者向けサイト「アフラック よりそうネット」などへの不正アクセス。第一報は約438万人（うち口座情報約23万人）、7月13日の第二報で約440万人（同約22万人）に更新。代理店約4万店の情報も漏えい。金融庁から報告徴求命令。",
-     "src":[["Impress Watch","https://www.watch.impress.co.jp/docs/news/2121209.html"],["熊本日日新聞（共同通信）","https://kumanichi.com/articles/2008717"],["ISSOH（第二報の更新点）","https://www.issoh.co.jp/md/tech/18136"],["セキュリティ対策Lab（項目）","https://rocket-boys.co.jp/?p=35923"]]},
-    {"co":"KDDI（ISP向けメールシステム）","date":"2026-06-23","types":["不正アクセス"],"n":12233087,"label":"メールアドレス1,223万件","st":"c",
-     "items":["mail","id"],"itemsText":"メールアドレス約1,223万件、うち約762万件はパスワードも漏えい","notIncl":"",
-     "sum":"ISP事業者向けメール基盤で、第三者製ソフトウェアの未知の脆弱性を悪用された。BIGLOBE、ニフティ、J:COMなど6事業者に影響。auメール等は対象外。総務省が行政指導。",
-     "src":[["INTERNET Watch","https://internet.watch.impress.co.jp/docs/news/2122740.html"],["ケータイ Watch（行政指導）","https://k-tai.watch.impress.co.jp/docs/news/2129178.html"]]},
-    {"co":"メディカ出版","date":"2026-03-17","types":["ランサムウェア"],"n":772000,"label":"約77.2万件","st":"p",
-     "items":["name","mail","addr","tel","work","id"],"itemsText":"メディカID、氏名、メールアドレス、（登録者により）住所・電話番号、一般顧客の勤務先・連絡先など","notIncl":"",
-     "sum":"3月13日にランサムウェア攻撃を検知。4月9日の第3報で、漏えいの可能性がある個人情報は合計77.2万件（重複計上の可能性あり）とした。",
-     "src":[["ScanNetSecurity","https://scan.netsecurity.ne.jp/article/2026/04/30/55173.html"],["セキュリティ対策Lab（項目）","https://rocket-boys.co.jp/?p=31894"]]},
-    {"co":"穴吹ハウジングサービス（あなぶきグループ）","date":"2026-02-03","types":["ランサムウェア"],"n":207773,"label":"207,773件","st":"c",
-     "items":["name","addr","tel","mail"],"itemsText":"氏名、住所、電話番号、メールアドレスなど（対象者により異なる）","notIncl":"カード情報、口座情報、マイナンバー",
-     "claim":"Qilinが犯行声明（攻撃者側の主張）",
-     "sum":"2月3日にランサムウェア被害を確認。第4報では最大約49.6万人分の可能性としていたが、精査の結果207,773件で確定。グループの穴吹興産も漏えいを公表。",
-     "src":[["セキュリティ対策Lab（確定件数）","https://rocket-boys.co.jp/?p=33888"],["セキュリティ対策Lab（第4報）","https://rocket-boys.co.jp/?p=30281"]]},
-    {"co":"エフワン（オーダースーツ）","date":"2026-01-30","types":["ランサムウェア"],"n":170000,"label":"約17万件","st":"c",
-     "items":["name","birth","addr","tel","work","mail"],"itemsText":"氏名、生年月日、性別、住所、電話番号、勤務先名・部署・役職・勤務先連絡先、メールアドレス","notIncl":"クレジットカード番号（保管なし）",
-     "claim":"BlackShrantacが犯行声明（攻撃者側の主張）",
-     "sum":"1月30日にサーバーのファイル暗号化と脅迫文を確認。約17万件（重複を含む可能性あり）の流出を公表。4月8日に最終報。",
-     "src":[["ScanNetSecurity（最終報）","https://scan.netsecurity.ne.jp/article/2026/05/08/55221.html"],["セキュリティ対策Lab","https://rocket-boys.co.jp/?p=30494"]]},
-    {"co":"アスクル","date":"2025-10-19","types":["ランサムウェア","委託先経由"],"n":740000,"label":"約74万件","st":"c",
-     "items":["name","mail","tel","work"],"itemsText":"顧客の氏名、メールアドレス、電話番号、会社名、取引先・仕入先の情報など","notIncl":"クレジットカード情報",
-     "claim":"RansomHouseが犯行声明（攻撃者側の主張）",
-     "sum":"ランサムウェアで物流システムが停止し出荷を全面停止。侵入経路は業務委託先の管理者アカウントの認証情報漏えいで、多要素認証が未適用だった。12月12日の第13報で約74万件の流出を確認（事業所向け約59万件、個人向け約13万件など）。",
-     "src":[["Impress Watch","https://www.watch.impress.co.jp/docs/news/2070955.html"],["IT Leaders","https://it.impress.co.jp/articles/-/28741"],["teiss（項目）","https://www.teiss.co.uk/news/cyberattack-on-japans-askul-exposes-customer-data-halts-operations-16645"]]},
-    {"co":"アサヒグループホールディングス","date":"2025-09-29","types":["ランサムウェア"],"n":1914000,"label":"約191.4万件","st":"p",
-     "items":[],"itemsText":"顧客相談室への問い合わせ者、慶弔対応先、従業員・退職者とその家族の情報（項目の詳細は公表資料で要確認）","notIncl":"クレジットカード情報",
-     "claim":"Qilinによる攻撃と報じられている",
-     "sum":"グループ拠点のネットワーク機器を足がかりにデータセンターへ侵入され、サーバー等が暗号化。11月27日に約191.4万件の漏えい（可能性含む）を公表、2026年2月18日に115,513件の漏えいを確認したと発表。2026年7月には取引先関係者など約37.8万件を「漏えいのおそれ」に追加。",
-     "src":[["ScanNetSecurity（191.4万件）","https://scan.netsecurity.ne.jp/article/2025/12/05/54174.html"],["ScanNetSecurity（115,513件確認）","https://scan.netsecurity.ne.jp/article/2026/02/27/54722.html"],["innovatopia（内訳）","https://innovatopia.jp/?p=72861"]]},
-    {"co":"損害保険ジャパン（SOMPOホールディングス）","date":"2025-04-21","types":["不正アクセス"],"n":17480000,"label":"最大約1,748万件","st":"p",
-     "items":["name","deal","birth","id"],"itemsText":"顧客：氏名、連絡先、証券番号など／代理店：募集人の氏名、生年月日、IDなど／事故番号など","notIncl":"クレジットカード情報、マイナンバー",
-     "sum":"指標管理用のWebサブシステムに不正アクセス。6月の続報で最大約1,748万件の情報が漏えいした可能性（うち顧客関連約726万件）。東京商工リサーチの集計では727万1,004人分。金融庁から報告徴求命令。",
-     "src":[["Web担当者Forum（TSR集計）","https://webtan.impress.co.jp/n/2026/02/06/52123"],["セキュリティ対策Lab","https://rocket-boys.co.jp/?p=18436"]]},
-    {"co":"コナカ（DIFFERENCE）","date":"2025-04-22","types":["不正アクセス"],"n":150491,"label":"150,491人","st":"c",
-     "items":["name","addr","tel","deal"],"itemsText":"氏名、住所、電話番号、注文情報（注文日、商品名、金額、支払い方法など）","notIncl":"クレジットカード番号・セキュリティコード（保持なし）",
-     "sum":"オーダースーツ「DIFFERENCE」の注文詳細ダウンロード機能に不正プログラムで大量アクセスされ、個人情報が漏えい。",
-     "src":[["INTERNET Watch","https://internet.watch.impress.co.jp/docs/news/2009682.html"],["セキュリティ対策Lab（項目）","https://rocket-boys.co.jp/?p=16403"]]},
-    {"co":"トキハ／トキハインダストリー","date":"2025-03-30","types":["ランサムウェア"],"n":421355,"label":"最大421,355件（会員）","st":"p",
-     "items":["name","addr","tel","mail","birth","deal","card"],"itemsText":"氏名、住所、電話番号、メールアドレス、性別、生年月日、会員番号、購入履歴、一部会員（127,263件）のカード番号・名義・有効期限","notIncl":"セキュリティコード",
-     "sum":"大分の百貨店・スーパーのグループでサーバーが暗号化。会員情報最大421,355件が閲覧された可能性。取引先・従業員を含めると約44.9万件。",
-     "src":[["ScanNetSecurity","https://scan.netsecurity.ne.jp/article/2025/08/06/53384.html"],["データ・マックス","https://data-max.co.jp/article/79473"],["セキュリティ対策Lab（項目）","https://rocket-boys.co.jp/?p=20452"]]},
-    {"co":"AOKIホールディングス（快活CLUB・FiT24）","date":"2025-01-18","types":["不正アクセス"],"n":7290087,"label":"7,290,087件","st":"p",
-     "items":["name","addr","tel","birth","deal"],"itemsText":"姓名、性別、住所、電話番号、生年月日、会員番号、保有ポイント、最終会計日時など","notIncl":"クレジットカード情報、身分証明書情報",
-     "sum":"子会社の快活フロンティアのサーバーに不正アクセス。東京商工リサーチの集計で2025年最大の事故。",
-     "src":[["INTERNET Watch","https://internet.watch.impress.co.jp/docs/news/1658143.html"],["FASHIONSNAP（対象者・項目）","https://www.fashionsnap.com/article/2025-01-21/aoki-unauthorized-access/"],["Business Journal","https://biz-journal.jp/company/post_386207.html"]]},
-    {"co":"東京ガス（子会社 東京ガスエンジニアリングソリューションズ）","date":"2024-07-17","types":["不正アクセス"],"n":4160000,"label":"約416万人","st":"p",
-     "items":["name","addr","acct"],"itemsText":"一般消費者の氏名、住所、連絡先など。別途、子会社従業員ら約3,000人分（うち口座情報約1,000件）","notIncl":"消費者の口座・カード情報、東京ガスの家庭用契約情報",
-     "sum":"子会社ネットワークへの不正アクセスで、業務を受託する全国51のガス・水道事業者などから提供された一般消費者の情報が流出した恐れ。",
-     "src":[["INTERNET Watch","https://internet.watch.impress.co.jp/docs/news/1609112.html"],["時事通信","https://sp.m.jiji.com/english/show/34308"]]},
-    {"co":"KADOKAWA（ドワンゴ）","date":"2024-06-08","types":["ランサムウェア"],"n":254241,"label":"254,241人","st":"c",
-     "items":["name","birth","addr","tel","mail","acct"],"itemsText":"氏名、生年月日、住所、電話番号、メールアドレス、（取引先・従業員は）口座情報、人事情報など","notIncl":"ニコニコのアカウント情報・カード情報（漏えい未確認）",
-     "claim":"BlackSuitによる攻撃と報じられている",
-     "sum":"「ニコニコ」を中心としたサービス群が大規模攻撃を受け停止。フィッシング等で従業員アカウントが窃取されたことが端緒。ドワンゴ従業員、取引先、N高等学校などの関係者の個人情報の漏えいを確認。",
-     "src":[["ITmedia NEWS","https://www.itmedia.co.jp/news/article/2408/05/1240805146/"],["PC Watch","https://pc.watch.impress.co.jp/docs/news/1614212.html"]]},
-    {"co":"イセトー（印刷・発送受託）","date":"2024-05-26","types":["ランサムウェア","委託先経由"],"n":null,"label":"委託元ごとに公表","st":"c",
-     "items":["name"],"itemsText":"委託元により異なる（例：氏名、自動車のナンバー、金融機関・支店コード）","notIncl":"",
-     "claim":"8Baseが犯行声明（攻撃者側の主張）",
-     "sum":"帳票の印刷・発送を受託する同社のサーバー等が暗号化され、取引先（金融機関・自治体など）の顧客情報が流出。件数は委託元がそれぞれ公表している。",
-     "src":[["セキュリティ対策Lab","https://rocket-boys.co.jp/?p=5961"],["セキュリティ対策Lab（京都府など）","https://rocket-boys.co.jp/?p=4288"]]}
-  ]
+  {
+   "co": "大和証券（委託先 スカラコミュニケーションズ）",
+   "date": "2026-10-05",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 110000,
+   "label": "約11万人",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "acct"
+   ],
+   "itemsText": "氏名、メールアドレス、口座番号など",
+   "notIncl": "",
+   "sum": "問い合わせ管理に使う委託先サーバーへの不正アクセスで、顧客情報が不正取得された形跡。個人を特定できない情報を含めると約22万件。大和証券自身のシステムへの不正アクセスは確認されていない。",
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2145818.html"
+    ],
+    [
+     "ASCII.jp",
+     "https://ascii.jp/elem/000/004/439/4439964/"
+    ]
+   ]
+  },
+  {
+   "co": "大起水産",
+   "date": "2026-10-05",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 175000,
+   "label": "約17万5,000人",
+   "st": "p",
+   "items": [],
+   "itemsText": "報道見出しのみ確認。項目は同社の公表資料で要確認",
+   "notIncl": "",
+   "sum": "不正アクセスにより約17万5,000人分の個人情報が漏えいした可能性があると報じられた。",
+   "src": [
+    [
+     "NHK",
+     "https://news.web.nhk/newsweb/na/nd-20261006de55037"
+    ]
+   ]
+  },
+  {
+   "co": "アフラック生命保険",
+   "date": "2026-06-30",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 4400000,
+   "label": "約440万人",
+   "st": "c",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "deal",
+    "acct"
+   ],
+   "itemsText": "氏名、生年月日、性別、住所、電話番号、証券番号、保障内容、保険料振替口座情報（約22万人）など",
+   "notIncl": "マイナンバー、カード情報",
+   "sum": "契約者向けサイト「アフラック よりそうネット」などへの不正アクセス。第一報は約438万人（うち口座情報約23万人）、7月13日の第二報で約440万人（同約22万人）に更新。代理店約4万店の情報も漏えい。金融庁から報告徴求命令。",
+   "src": [
+    [
+     "Impress Watch",
+     "https://www.watch.impress.co.jp/docs/news/2121209.html"
+    ],
+    [
+     "熊本日日新聞（共同通信）",
+     "https://kumanichi.com/articles/2008717"
+    ],
+    [
+     "ISSOH（第二報の更新点）",
+     "https://www.issoh.co.jp/md/tech/18136"
+    ],
+    [
+     "セキュリティ対策Lab（項目）",
+     "https://rocket-boys.co.jp/?p=35923"
+    ]
+   ]
+  },
+  {
+   "co": "KDDI（ISP向けメールシステム）",
+   "date": "2026-06-23",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 12233087,
+   "label": "メールアドレス1,223万件",
+   "st": "c",
+   "items": [
+    "mail",
+    "id"
+   ],
+   "itemsText": "メールアドレス約1,223万件、うち約762万件はパスワードも漏えい",
+   "notIncl": "",
+   "sum": "ISP事業者向けメール基盤で、第三者製ソフトウェアの未知の脆弱性を悪用された。BIGLOBE、ニフティ、J:COMなど6事業者に影響。auメール等は対象外。総務省が行政指導。",
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2122740.html"
+    ],
+    [
+     "ケータイ Watch（行政指導）",
+     "https://k-tai.watch.impress.co.jp/docs/news/2129178.html"
+    ]
+   ]
+  },
+  {
+   "co": "メディカ出版",
+   "date": "2026-03-17",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": 772000,
+   "label": "約77.2万件",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "addr",
+    "tel",
+    "work",
+    "id"
+   ],
+   "itemsText": "メディカID、氏名、メールアドレス、（登録者により）住所・電話番号、一般顧客の勤務先・連絡先など",
+   "notIncl": "",
+   "sum": "3月13日にランサムウェア攻撃を検知。4月9日の第3報で、漏えいの可能性がある個人情報は合計77.2万件（重複計上の可能性あり）とした。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/30/55173.html"
+    ],
+    [
+     "セキュリティ対策Lab（項目）",
+     "https://rocket-boys.co.jp/?p=31894"
+    ]
+   ]
+  },
+  {
+   "co": "穴吹ハウジングサービス（あなぶきグループ）",
+   "date": "2026-02-03",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": 207773,
+   "label": "207,773件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "氏名、住所、電話番号、メールアドレスなど（対象者により異なる）",
+   "notIncl": "カード情報、口座情報、マイナンバー",
+   "claim": "Qilinが犯行声明（攻撃者側の主張）",
+   "sum": "2月3日にランサムウェア被害を確認。第4報では最大約49.6万人分の可能性としていたが、精査の結果207,773件で確定。グループの穴吹興産も漏えいを公表。",
+   "src": [
+    [
+     "セキュリティ対策Lab（確定件数）",
+     "https://rocket-boys.co.jp/?p=33888"
+    ],
+    [
+     "セキュリティ対策Lab（第4報）",
+     "https://rocket-boys.co.jp/?p=30281"
+    ]
+   ]
+  },
+  {
+   "co": "エフワン（オーダースーツ）",
+   "date": "2026-01-30",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": 170000,
+   "label": "約17万件",
+   "st": "c",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "work",
+    "mail"
+   ],
+   "itemsText": "氏名、生年月日、性別、住所、電話番号、勤務先名・部署・役職・勤務先連絡先、メールアドレス",
+   "notIncl": "クレジットカード番号（保管なし）",
+   "claim": "BlackShrantacが犯行声明（攻撃者側の主張）",
+   "sum": "1月30日にサーバーのファイル暗号化と脅迫文を確認。約17万件（重複を含む可能性あり）の流出を公表。4月8日に最終報。",
+   "src": [
+    [
+     "ScanNetSecurity（最終報）",
+     "https://scan.netsecurity.ne.jp/article/2026/05/08/55221.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=30494"
+    ]
+   ]
+  },
+  {
+   "co": "アスクル",
+   "date": "2025-10-19",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "n": 740000,
+   "label": "約74万件",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "tel",
+    "work"
+   ],
+   "itemsText": "顧客の氏名、メールアドレス、電話番号、会社名、取引先・仕入先の情報など",
+   "notIncl": "クレジットカード情報",
+   "claim": "RansomHouseが犯行声明（攻撃者側の主張）",
+   "sum": "ランサムウェアで物流システムが停止し出荷を全面停止。侵入経路は業務委託先の管理者アカウントの認証情報漏えいで、多要素認証が未適用だった。12月12日の第13報で約74万件の流出を確認（事業所向け約59万件、個人向け約13万件など）。",
+   "src": [
+    [
+     "Impress Watch",
+     "https://www.watch.impress.co.jp/docs/news/2070955.html"
+    ],
+    [
+     "IT Leaders",
+     "https://it.impress.co.jp/articles/-/28741"
+    ],
+    [
+     "teiss（項目）",
+     "https://www.teiss.co.uk/news/cyberattack-on-japans-askul-exposes-customer-data-halts-operations-16645"
+    ]
+   ]
+  },
+  {
+   "co": "アサヒグループホールディングス",
+   "date": "2025-09-29",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": 1914000,
+   "label": "約191.4万件",
+   "st": "p",
+   "items": [],
+   "itemsText": "顧客相談室への問い合わせ者、慶弔対応先、従業員・退職者とその家族の情報（項目の詳細は公表資料で要確認）",
+   "notIncl": "クレジットカード情報",
+   "claim": "Qilinによる攻撃と報じられている",
+   "sum": "グループ拠点のネットワーク機器を足がかりにデータセンターへ侵入され、サーバー等が暗号化。11月27日に約191.4万件の漏えい（可能性含む）を公表、2026年2月18日に115,513件の漏えいを確認したと発表。2026年7月には取引先関係者など約37.8万件を「漏えいのおそれ」に追加。",
+   "src": [
+    [
+     "ScanNetSecurity（191.4万件）",
+     "https://scan.netsecurity.ne.jp/article/2025/12/05/54174.html"
+    ],
+    [
+     "ScanNetSecurity（115,513件確認）",
+     "https://scan.netsecurity.ne.jp/article/2026/02/27/54722.html"
+    ],
+    [
+     "innovatopia（内訳）",
+     "https://innovatopia.jp/?p=72861"
+    ]
+   ]
+  },
+  {
+   "co": "損害保険ジャパン（SOMPOホールディングス）",
+   "date": "2025-04-21",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 17480000,
+   "label": "最大約1,748万件",
+   "st": "p",
+   "items": [
+    "name",
+    "deal",
+    "birth",
+    "id"
+   ],
+   "itemsText": "顧客：氏名、連絡先、証券番号など／代理店：募集人の氏名、生年月日、IDなど／事故番号など",
+   "notIncl": "クレジットカード情報、マイナンバー",
+   "sum": "指標管理用のWebサブシステムに不正アクセス。6月の続報で最大約1,748万件の情報が漏えいした可能性（うち顧客関連約726万件）。東京商工リサーチの集計では727万1,004人分。金融庁から報告徴求命令。",
+   "src": [
+    [
+     "Web担当者Forum（TSR集計）",
+     "https://webtan.impress.co.jp/n/2026/02/06/52123"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=18436"
+    ]
+   ]
+  },
+  {
+   "co": "コナカ（DIFFERENCE）",
+   "date": "2025-04-22",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 150491,
+   "label": "150,491人",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "氏名、住所、電話番号、注文情報（注文日、商品名、金額、支払い方法など）",
+   "notIncl": "クレジットカード番号・セキュリティコード（保持なし）",
+   "sum": "オーダースーツ「DIFFERENCE」の注文詳細ダウンロード機能に不正プログラムで大量アクセスされ、個人情報が漏えい。",
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2009682.html"
+    ],
+    [
+     "セキュリティ対策Lab（項目）",
+     "https://rocket-boys.co.jp/?p=16403"
+    ]
+   ]
+  },
+  {
+   "co": "トキハ／トキハインダストリー",
+   "date": "2025-03-30",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": 421355,
+   "label": "最大421,355件（会員）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "deal",
+    "card"
+   ],
+   "itemsText": "氏名、住所、電話番号、メールアドレス、性別、生年月日、会員番号、購入履歴、一部会員（127,263件）のカード番号・名義・有効期限",
+   "notIncl": "セキュリティコード",
+   "sum": "大分の百貨店・スーパーのグループでサーバーが暗号化。会員情報最大421,355件が閲覧された可能性。取引先・従業員を含めると約44.9万件。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/08/06/53384.html"
+    ],
+    [
+     "データ・マックス",
+     "https://data-max.co.jp/article/79473"
+    ],
+    [
+     "セキュリティ対策Lab（項目）",
+     "https://rocket-boys.co.jp/?p=20452"
+    ]
+   ]
+  },
+  {
+   "co": "AOKIホールディングス（快活CLUB・FiT24）",
+   "date": "2025-01-18",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 7290087,
+   "label": "7,290,087件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "birth",
+    "deal"
+   ],
+   "itemsText": "姓名、性別、住所、電話番号、生年月日、会員番号、保有ポイント、最終会計日時など",
+   "notIncl": "クレジットカード情報、身分証明書情報",
+   "sum": "子会社の快活フロンティアのサーバーに不正アクセス。東京商工リサーチの集計で2025年最大の事故。",
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/1658143.html"
+    ],
+    [
+     "FASHIONSNAP（対象者・項目）",
+     "https://www.fashionsnap.com/article/2025-01-21/aoki-unauthorized-access/"
+    ],
+    [
+     "Business Journal",
+     "https://biz-journal.jp/company/post_386207.html"
+    ]
+   ]
+  },
+  {
+   "co": "東京ガス（子会社 東京ガスエンジニアリングソリューションズ）",
+   "date": "2024-07-17",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 4160000,
+   "label": "約416万人",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "acct"
+   ],
+   "itemsText": "一般消費者の氏名、住所、連絡先など。別途、子会社従業員ら約3,000人分（うち口座情報約1,000件）",
+   "notIncl": "消費者の口座・カード情報、東京ガスの家庭用契約情報",
+   "sum": "子会社ネットワークへの不正アクセスで、業務を受託する全国51のガス・水道事業者などから提供された一般消費者の情報が流出した恐れ。",
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/1609112.html"
+    ],
+    [
+     "時事通信",
+     "https://sp.m.jiji.com/english/show/34308"
+    ]
+   ]
+  },
+  {
+   "co": "KADOKAWA（ドワンゴ）",
+   "date": "2024-06-08",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": 254241,
+   "label": "254,241人",
+   "st": "c",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "mail",
+    "acct"
+   ],
+   "itemsText": "氏名、生年月日、住所、電話番号、メールアドレス、（取引先・従業員は）口座情報、人事情報など",
+   "notIncl": "ニコニコのアカウント情報・カード情報（漏えい未確認）",
+   "claim": "BlackSuitによる攻撃と報じられている",
+   "sum": "「ニコニコ」を中心としたサービス群が大規模攻撃を受け停止。フィッシング等で従業員アカウントが窃取されたことが端緒。ドワンゴ従業員、取引先、N高等学校などの関係者の個人情報の漏えいを確認。",
+   "src": [
+    [
+     "ITmedia NEWS",
+     "https://www.itmedia.co.jp/news/article/2408/05/1240805146/"
+    ],
+    [
+     "PC Watch",
+     "https://pc.watch.impress.co.jp/docs/news/1614212.html"
+    ]
+   ]
+  },
+  {
+   "co": "イセトー（印刷・発送受託）",
+   "date": "2024-05-26",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "委託元ごとに公表",
+   "st": "c",
+   "items": [
+    "name"
+   ],
+   "itemsText": "委託元により異なる（例：氏名、自動車のナンバー、金融機関・支店コード）",
+   "notIncl": "",
+   "claim": "8Baseが犯行声明（攻撃者側の主張）",
+   "sum": "帳票の印刷・発送を受託する同社のサーバー等が暗号化され、取引先（金融機関・自治体など）の顧客情報が流出。件数は委託元がそれぞれ公表している。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=5961"
+    ],
+    [
+     "セキュリティ対策Lab（京都府など）",
+     "https://rocket-boys.co.jp/?p=4288"
+    ]
+   ]
+  }
+ ]
 }
