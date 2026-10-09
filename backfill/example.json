@@ -1,0 +1,57 @@
+{
+ "co": "コナカ（DIFFERENCE）",
+ "date": "2025-04-22",
+ "types": [
+  "不正アクセス"
+ ],
+ "n": 150491,
+ "label": "150,491人",
+ "st": "c",
+ "items": [
+  "name",
+  "addr",
+  "tel",
+  "deal"
+ ],
+ "itemsText": "氏名、住所、電話番号、注文情報（注文日、商品名、金額、支払い方法など）",
+ "notIncl": "クレジットカード番号・セキュリティコード（保持なし）",
+ "sum": "オーダースーツ「DIFFERENCE」の注文詳細ダウンロード機能に不正プログラムで大量アクセスされ、個人情報が漏えい。",
+ "src": [
+  [
+   "INTERNET Watch",
+   "https://internet.watch.impress.co.jp/docs/news/2009682.html"
+  ],
+  [
+   "セキュリティ対策Lab（項目）",
+   "https://rocket-boys.co.jp/?p=16403"
+  ]
+ ],
+ "id": "konaka",
+ "status": "ongoing",
+ "statusText": "2025年4月24日の公表以降の続報は、この台帳ではまだ確認できていない。",
+ "resp": "オーダー詳細と領収書のダウンロード機能を停止。システム管理会社がサーバーを再構築し、セキュリティ点検を実施。対象者へ個別に連絡し、個人情報保護委員会へ報告する方針。",
+ "official": [
+  [
+   "お知らせ（2025/4/24）",
+   "https://www.konaka.co.jp/ir/assets/2025/04/20250424_1.pdf"
+  ]
+ ],
+ "ind": "小売・EC",
+ "cause": "cyber",
+ "verified": "2026-10-09",
+ "contact": {
+  "tels": [
+   {
+    "tel": "045-825-2151",
+    "hours": "毎日10〜17時"
+   }
+  ],
+  "mails": [
+   "support@difference.tokyo"
+  ],
+  "src": "https://www.konaka.co.jp/ir/assets/2025/04/20250424_1.pdf"
+ },
+ "who": [
+  "cust"
+ ]
+}

@@ -1,0 +1,110 @@
+2026-09-25	times-car	パーク24（タイムズカー／タイムズモビリティ）
+2026-09-15	daiki-suisan	大起水産
+2026-06-30	aflac	アフラック生命保険
+2026-06-23	kddi-isp-mail	KDDI（ISP向けメールシステム）
+2026-03-17	medica	メディカ出版
+2026-02-03	anabuki-housing	穴吹ハウジングサービス（あなぶきグループ）
+2025-10-19	askul	アスクル
+2025-09-29	asahi	アサヒグループホールディングス
+2025-04-21	sompo-japan	損害保険ジャパン（SOMPOホールディングス）
+2025-04-22	konaka	コナカ（DIFFERENCE）
+2025-03-30	tokiha	トキハ／トキハインダストリー
+2025-01-18	kaikatsu-club	AOKIホールディングス（快活CLUB・FiT24）
+2024-07-17	tokyo-gas	東京ガス（子会社 東京ガスエンジニアリングソリューションズ）
+2024-06-08	kadokawa	KADOKAWA（ドワンゴ）
+2024-05-26	iseto	イセトー（印刷・発送受託）
+2026-10-02	daiichikosho	第一興商（委託先 日本コロムビアグループ）
+2026-07-31	epark-relax	EPARKリラク＆エステ（予約・顧客管理「PeakManager」）
+2026-09-11	gyazo	Helpfeel（画像共有サービス Gyazo）
+2026-10-03	mrmax	ミスターマックス（MrMaxアプリ・オンラインストア）
+2026-10-03	gmo-research-infoq	GMOリサーチ&AI（アンケートサイト infoQ）
+2026-10-02	asahi-kasei-pharma	旭化成セラピューティクス（委託先 医薬情報ネット）
+2026-09-18	pfu-shopserve	PFU（委託先 Eストアー「ショップサーブ」）
+2026-08-09	sakura-internet	さくらインターネット
+2026-09-24	dai-ichi-life	第一ライフグループ・第一生命保険（人事システム）
+2026-09-26	ozmall	スターツ出版（オズモール）
+2026-09-28	seicomart	セイコーマート（セイコーマートアプリ）
+2026-09-29	eplus	イープラス（払戻し情報の管理システム）
+2026-09-25	tokyo-metro-metpo	東京地下鉄（メトロポイントクラブ）
+2026-09-25	japanpost-app	日本郵政・日本郵便（郵便局アプリ・ゆうID）
+2026-09-19	nippon-rentacar	ニッポンレンタカーサービス（NRアプリ）
+2026-10-03	citizen	シチズン時計（委託先 スカラコミュニケーションズ）
+2026-09-30	nikkei	日本経済新聞社（社員のメールアカウント）
+2026-08-11	harada-beer	原田産業（ECサイト「ビールの縁側」）
+2026-09-11	dozle-store	ドズル（ドズル社ストア）
+2026-09-11	photogoods	大興印刷（PhotoGoods・プロ野球チップス関連）
+2026-09-09	applynow	ApplyNow（採用管理サービス）
+2026-07-15	fuso-dentsu	扶桑電通（社外共有フォルダ）
+2026-09-25	smaregi-ec	スマレジ（スマレジEC・リピート／B2B）
+2026-09-16	jgc-digital	JGC Digital（アザス・するーぷ）
+2026-10-08	hi-ho	ハイホー（BiZiMo光など）
+2026-10-07	ceres-pointincome	セレス（ポイントインカム）
+2026-10-07	sompo-smilingroad	損害保険ジャパン（SMILING ROAD・委託先）
+2025-12-11	his-thailand	エイチ・アイ・エス（タイ現地法人）
+2026-10-07	toda	戸田建設
+2026-10-06	active-pro	アクティブ（通販サイト）
+2026-06-26	egmkt	エバーグリーン・マーケティング
+2026-08-18	cinra-job	CINRA（求人サービス CINRA JOB）
+2026-10-06	rakuten-drive	楽天モバイル（楽天ドライブ）
+2026-10-04	nimoca	ニモカ
+2026-10-02	kufu-machitalk	くふうカンパニー（くふう まちトーク β版）
+2026-08-05	whiteessence	ホワイトエッセンス（予約サイト・基幹システム）
+2026-09-30	studysapuri	リクルート（スタディサプリ）
+2026-07-04	alsok-joylife	ALSOKジョイライフ
+2026-08-17	voising	VOISING（BIツール）
+2026-09-25	g-point	Gポイント
+2026-09-09	shueisha-happyplus	集英社（HAPPY PLUS COMMUNITY）
+2026-09-25	legoland-hotel	レゴランド・ジャパン・ホテル（外部予約プラットフォーム）
+2026-09-28	ryomo-systems	両毛システムズ（長野都市ガスなどの委託先）
+2026-07-13	nichirei	ニチレイ
+2026-09-03	chibagin-shop	ちばぎん商店（千葉銀行子会社）
+2026-07-08	fivefox	ファイブフォックス
+2026-09-08	revisio	REVISIO
+2026-09-11	digital-agency-gss	デジタル庁（ガバメントソリューションサービス）
+2026-10-06	saitama-shibusawamix	埼玉県（渋沢MIX）
+2026-09-09	jogmec	エネルギー・金属鉱物資源機構（JOGMEC）
+2026-09-25	jaea-jrr3	日本原子力研究開発機構（JRR-3）
+2026-08-09	osaka-city-interview	大阪市（録画面接システム）
+2026-08-26	yamaguchi-u	山口大学
+2026-09-07	science-tokyo	東京科学大学（情報基盤）
+2025-11-01	tokai-u-contractor	東海大学（業務委託先）
+2026-02-09	nms-kosugi	日本医科大学武蔵小杉病院
+2026-09-24	weathercaster-net	気象キャスターネットワーク
+2026-08-30	yotsukaido-shakyo	四街道市社会福祉協議会
+2026-09-23	ihouse-library	国際文化会館（図書室）
+2026-07-29	ieej	日本エネルギー経済研究所
+2026-08-27	coop-yamaguchi	生活協同組合コープやまぐち（LINEミニアプリ）
+2026-10-07	osaka-museum-mail	大阪市博物館機構（大阪歴史博物館）
+2026-09-07	furusato-choice	トラストバンク（ふるさとチョイス）
+2026-07-30	benefit-one	ベネフィット・ワン（ベネワン・プラットフォーム）
+2026-09-17	greencoop-fukuoka	グリーンコープ生協ふくおか
+2026-09-11	nichii-kaigo	ニチイ学館
+2026-09-10	osaka-art-museum	大阪市（大阪市立美術館）
+2026-09-20	aichi-aikon-navi	愛知県（あいこんナビ）
+2026-09-02	istyle-cosme	アイスタイル（@cosme）
+2026-06-01	prudential-ex-employee	プルデンシャル生命保険
+2026-07-01	mitsui-ocean-cruise	商船三井クルーズ（外部記憶媒体の紛失）
+2026-09-10	kamakura-aozora	鎌倉市（児童発達支援センターあおぞら園）
+2026-08-27	saitama-masking	埼玉県（情報公開の黒塗り不備）
+2026-09-06	ichini-senkyo	イチニ（選挙ドットコム）
+2026-10-05	daiwa	大和証券（委託先 スカラコミュニケーションズ）
+2026-01-30	f-one	エフワン（オーダースーツ）
+2026-10-02	yakiniku-king	物語コーポレーション（焼肉きんぐ公式アプリ）
+2026-07-16	murauchi	ムラウチドットコム
+2026-09-30	sagawa	佐川急便（お荷物問い合わせサービス）
+2026-09-15	lean-body	LEAN BODY
+2026-09-22	fines	ファインズ（予約システム）
+2026-09-30	nikkei-bp	日経BP（従業員のメールアカウント）
+2026-09-12	montbell	モンベル（モンベル・グローバルサイト）
+2026-10-03	moonstar	ムーンスター
+2026-09-20	conoha-wing	GMOインターネット（ConoHa WING）
+2026-10-02	omu	大阪公立大学
+2026-09-15	koshigaya-teacher-pc	越谷市（教員の私物PC）
+2026-10-09	kanagawa-police-licenses	神奈川県警察（保土ケ谷警察署）
+2026-10-06	saitama-city-medical-media	さいたま市民医療センター（電子記録媒体）
+2026-10-05	offerbox	i-plug（OfferBox）
+2026-10-02	ticketplus	チケットプラス
+2026-09-30	obihiro-post	日本郵便（帯広郵便局）
+2026-09-30	saitama-city-medical-staff	さいたま市民医療センター（職員向けページ）
+2026-09-11	sankei-respection	産業経済新聞社（RESPECTion!シンポジウム）
+2026-09-08	kyoto-sanga	京都パープルサンガ（ファンクラブ）
