@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>国内サイバー被害企業台帳</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: 台帳（ledger）型。上に集計と注意書き、下に絞り込みバーと事案カードの縦リスト。各カードは件数を対数スケールの帯で示す */
+:root{
+  --bg:#f3f5f7; --surface:#ffffff; --ink:#16202b; --muted:#5b6876; --line:#d9dfe5;
+  --accent:#b4530b; --accent-soft:#fbeadb;
+  --confirmed:#a3271f; --confirmed-soft:#f8e1de; --possible:#7a5d00; --possible-soft:#f6edcc;
+  --bar:#2c4a66;
+  --f-display:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
+  --f-body:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f151c; --surface:#16202a; --ink:#e4eaf0; --muted:#97a5b3; --line:#2a3744;
+  --accent:#f0954a; --accent-soft:#3a2615;
+  --confirmed:#f28b82; --confirmed-soft:#3b1f1d; --possible:#e3c25a; --possible-soft:#332b12;
+  --bar:#7fa6c9; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f151c; --surface:#16202a; --ink:#e4eaf0; --muted:#97a5b3; --line:#2a3744;
+  --accent:#f0954a; --accent-soft:#3a2615;
+  --confirmed:#f28b82; --confirmed-soft:#3b1f1d; --possible:#e3c25a; --possible-soft:#332b12;
+  --bar:#7fa6c9; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);line-height:1.7;padding-inline:16px;padding-block:28px 48px}
+.wrap{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px}
+header{display:flex;flex-direction:column;gap:8px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;color:var(--accent)}
+h1{font-family:var(--f-display);font-weight:900;font-size:clamp(26px,5vw,38px);line-height:1.25;margin:0;text-wrap:balance}
+.lead{color:var(--muted);margin:0;max-width:62ch}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.stat b{font-family:var(--f-mono);font-size:22px;font-variant-numeric:tabular-nums}
+.stat span{font-size:12.5px;color:var(--muted)}
+.stat a{font-size:12px;color:var(--muted)}
+.note{background:var(--accent-soft);border-left:3px solid var(--accent);padding:12px 14px;font-size:13.5px;border-radius:0 6px 6px 0}
+.note p{margin:0}
+.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:2;background:var(--bg);padding-block:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-bottom:1px solid var(--line)}
+.controls input,.controls select{font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
+.controls input{flex:1 1 220px;min-width:0}
+.controls :focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.count{font-size:12.5px;color:var(--muted);font-family:var(--f-mono)}
+.list{display:flex;flex-direction:column;gap:12px}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.top{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;justify-content:space-between}
+.item h2{font-family:var(--f-display);font-weight:700;font-size:18px;margin:0;text-wrap:balance}
+.date{font-family:var(--f-mono);font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:11.5px;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--muted);letter-spacing:.02em}
+.tag.c{background:var(--confirmed-soft);color:var(--confirmed);border-color:transparent}
+.tag.p{background:var(--possible-soft);color:var(--possible);border-color:transparent}
+.scale{display:flex;align-items:center;gap:10px}
+.scale .track{flex:1;height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.scale .fill{height:100%;background:var(--bar)}
+.scale .num{font-family:var(--f-mono);font-size:13.5px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.item p{margin:0;font-size:14px}
+.claim{font-size:12.5px;color:var(--muted)}
+.src{font-size:12.5px;display:flex;flex-wrap:wrap;gap:4px 14px}
+.src a{color:var(--accent)}
+.empty{color:var(--muted);text-align:center;padding:24px}
+.chips{display:flex;flex-direction:column;gap:8px}
+.chips-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:13px;color:var(--muted)}
+.chips-head button{font:inherit;font-size:12.5px;background:none;border:none;color:var(--accent);cursor:pointer;padding:0}
+.chip-row{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;padding:5px 12px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--bar);border-color:var(--bar);color:var(--bg)}
+.chip:focus-visible,.chips-head button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.leaked{display:flex;flex-direction:column;gap:4px;font-size:13px;background:var(--bg);border-radius:4px;padding:8px 10px}
+.leaked .row{display:flex;gap:8px}
+.leaked .k{flex:0 0 auto;color:var(--muted);font-size:12px;min-width:4.5em}
+.leaked .v{min-width:0}
+.leaked mark{background:var(--accent-soft);color:var(--ink);padding:0 3px;border-radius:2px}
+footer{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+footer p{margin:0}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">LEDGER · 2026-10-09 時点</div>
+  <h1>国内サイバー被害企業台帳</h1>
+  <p class="lead">サイバー攻撃（ランサムウェア・不正アクセス・委託先経由）で個人情報の漏えい、または漏えいの可能性を公表した国内企業の主な事案です。件数と状況は、各社の公表を報じた記事で確認したものに限っています。</p>
+</header>
+
+<section class="stats" aria-label="全体の動向">
+  <div class="stat"><b>180件</b><span>2025年に上場企業とその子会社が公表した個人情報漏えい・紛失事故（東京商工リサーチ）</span><a href="https://webtan.impress.co.jp/n/2026/02/06/52123" target="_blank" rel="noopener">Web担当者Forum</a></div>
+  <div class="stat"><b>116件</b><span>うち「ウイルス感染・不正アクセス」が原因の事故。過去最多</span><a href="https://webtan.impress.co.jp/n/2026/02/06/52123" target="_blank" rel="noopener">Web担当者Forum</a></div>
+  <div class="stat"><b>10件</b><span>2026年の100万件以上の漏えい事故（10月5日時点）。2025年通年の6件を上回る</span><a href="https://www.logi-today.com/1008771" target="_blank" rel="noopener">LOGISTICS TODAY</a></div>
+</section>
+
+<div class="note"><p><strong>読み方：</strong>「確認」は企業が漏えいの事実を確認したもの、「可能性」は漏えいの可能性があると公表したものです。件数は各社の数え方（人数・件数・重複の有無）に従っており、続報で変わることがあります。最新の状況は各社の公表資料でご確認ください。犯行声明は攻撃者側の主張で、事実と確定したものではありません。</p></div>
+
+<div class="controls">
+  <label class="sr" for="q" hidden>検索</label>
+  <input id="q" type="search" placeholder="企業名・キーワードで検索" aria-label="企業名・キーワードで検索">
+  <select id="type" aria-label="攻撃の種類">
+    <option value="">すべての種類</option>
+    <option>ランサムウェア</option>
+    <option>不正アクセス</option>
+    <option>委託先経由</option>
+  </select>
+  <select id="status" aria-label="漏えいの状況">
+    <option value="">確認・可能性すべて</option>
+    <option value="c">漏えい確認</option>
+    <option value="p">漏えいの可能性</option>
+  </select>
+  <select id="sort" aria-label="並び順">
+    <option value="date">新しい順</option>
+    <option value="size">件数の多い順</option>
+  </select>
+  <span class="count" id="count"></span>
+</div>
+
+<section class="chips" aria-label="流出した情報で絞り込み">
+  <div class="chips-head"><span>流出した情報で絞り込み（選んだ項目をすべて含む事案）</span><button id="clear" type="button" hidden>選択を解除</button></div>
+  <div class="chip-row" id="chips"></div>
+</section>
+
+<div class="list" id="list"></div>
+
+<footer>
+  <p>収録範囲：2024年〜2026年10月に公表された国内企業の主な事案（大学・病院・自治体は除外）。網羅的な一覧ではありません。</p>
+  <p>流出した情報の分類は、各出典に書かれた項目だけを元にしています。項目が公表されていない事案は、どの項目で絞り込んでも表示されません。</p>
+  <p>日付は被害の発生・検知日、または初回公表日です。件数バーは対数スケールです（1万件〜1,000万件超）。</p>
+</footer>
+</div>
+
+<script>
+let DB,DATA,LABELS;
+const $=s=>document.querySelector(s);
+const sel=new Set();
+const MIN=Math.log10(10000),MAX=Math.log10(20000000);
+function pct(n){if(!n)return 0;return Math.max(3,Math.min(100,(Math.log10(n)-MIN)/(MAX-MIN)*100))}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function chips(){
+  $("#chips").innerHTML=Object.entries(LABELS).map(([k,v])=>{
+    const c=DATA.filter(d=>d.items.includes(k)).length;
+    return `<button type="button" class="chip" data-k="${k}" aria-pressed="${sel.has(k)}">${esc(v)} <span style="opacity:.65">${c}</span></button>`}).join("");
+  $("#clear").hidden=!sel.size;
+}
+function render(){
+  const q=$("#q").value.trim().toLowerCase(),t=$("#type").value,s=$("#status").value,so=$("#sort").value;
+  let rows=DATA.filter(d=>(!t||d.types.includes(t))&&(!s||d.st===s)&&[...sel].every(k=>d.items.includes(k))&&(!q||(d.co+d.sum+d.itemsText+(d.claim||"")).toLowerCase().includes(q)));
+  rows.sort(so==="size"?(a,b)=>(b.n||0)-(a.n||0):(a,b)=>b.date.localeCompare(a.date));
+  $("#count").textContent=rows.length+" / "+DATA.length+" 件";
+  $("#list").innerHTML=rows.length?rows.map(d=>`
+  <article class="item">
+    <div class="top"><h2>${esc(d.co)}</h2><span class="date">${d.date.replace(/-/g,".")}</span></div>
+    <div class="tags">${d.types.map(x=>`<span class="tag">${esc(x)}</span>`).join("")}<span class="tag ${d.st}">${d.st==="c"?"漏えい確認":"漏えいの可能性"}</span>${d.auto?`<span class="tag" style="border-color:var(--accent);color:var(--accent)">自動追加・未確認</span>`:""}</div>
+    <div class="scale"><div class="track"><div class="fill" style="width:${pct(d.n)}%"></div></div><span class="num">${esc(d.label)}</span></div>
+    <div class="leaked">
+      <div class="row"><span class="k">流出情報</span><span class="v">${d.items.length?d.items.map(k=>sel.has(k)?`<mark>${esc(LABELS[k])}</mark>`:esc(LABELS[k])).join("・")+"<br>":""}<span style="color:var(--muted)">${esc(d.itemsText)}</span></span></div>
+      ${d.notIncl?`<div class="row"><span class="k">含まれない</span><span class="v">${esc(d.notIncl)}</span></div>`:""}
+    </div>
+    <p>${esc(d.sum)}</p>
+    ${d.claim?`<div class="claim">${esc(d.claim)}</div>`:""}
+    <div class="src">情報源：${d.src.map(([n,u])=>`<a href="${u}" target="_blank" rel="noopener">${esc(n)}</a>`).join("")}</div>
+  </article>`).join(""):`<div class="empty">条件に合う事案はありません。検索語や絞り込みを変えてください。</div>`;
+}
+$("#chips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const k=b.dataset.k;sel.has(k)?sel.delete(k):sel.add(k);chips();render()});
+$("#clear").addEventListener("click",()=>{sel.clear();chips();render()});
+["#q","#type","#status","#sort"].forEach(id=>$(id).addEventListener("input",render));
+async function boot(){
+  try{
+    const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error(r.status);
+    DB=await r.json();DATA=DB.cases;LABELS=DB.itemLabels;
+    document.querySelector(".eyebrow").textContent="LEDGER · "+DB.updated+" 更新";
+    chips();render();
+  }catch(e){
+    $("#list").innerHTML='<div class="empty">データを読み込めませんでした。時間をおいて再読み込みしてください。</div>';
+  }
+}
+boot();
+</script>
+</body>
+</html>
