@@ -175,8 +175,8 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
       <select id="who" aria-label="誰の情報"><option value="">誰の情報：すべて</option></select>
       <select id="ind" aria-label="業種"><option value="">すべての業種</option></select>
       <select id="period" aria-label="期間">
-        <option value="">すべての期間</option><option value="7">直近1週間</option><option value="30">直近1か月</option><option value="91">直近3か月</option>
-        <option value="y2026">2026年</option><option value="pre2026">2025年以前</option><option value="custom">期間を指定…</option>
+        <option value="">すべての期間</option><option value="7">直近1週間</option><option value="30">直近1か月</option><option value="91">直近3か月</option><option value="730" selected>直近24か月</option>
+        <option value="y2026">2026年</option><option value="y2025">2025年</option><option value="pre2025">2024年以前</option><option value="custom">期間を指定…</option>
       </select>
     </div>
     <div class="daterow" id="daterow" hidden><input type="date" id="from" aria-label="開始日"><span>〜</span><input type="date" id="to" aria-label="終了日"></div>
@@ -199,7 +199,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 <script>
 let DB={cases:[],itemLabels:{},statusLabels:{},industries:[],causeLabels:{},updated:""},LABELS={},SL={};
 const PAGE="https://snowfield28.github.io/leak-ledger-data/";
-const S={who:"",q:"",cause:"",st:"",res:"",sort:"date",sel:new Set(),noauto:"",ind:"",period:"",from:"",to:""};
+const S={who:"",q:"",cause:"",st:"",res:"",sort:"date",sel:new Set(),noauto:"",ind:"",period:"730",from:"",to:""};
 const CL=()=>DB.causeLabels||{};
 function causeOk(d){if(!S.cause)return true;const [k,v]=[S.cause.slice(0,1),S.cause.slice(2)];return k==="c"?(d.cause||"cyber")===v:d.types.includes(v)}
 const $=s=>document.querySelector(s);
@@ -214,7 +214,8 @@ function inPeriod(d){
   const key=d.last||d.date;
   if(!S.period)return true;
   if(S.period==="y2026")return key>="2026-01-01";
-  if(S.period==="pre2026")return d.date<"2026-01-01";
+  if(S.period==="y2025")return key>="2025-01-01"&&d.date<"2026-01-01";
+  if(S.period==="pre2025")return d.date<"2025-01-01";
   if(S.period==="custom")return (!S.from||key>=S.from)&&(!S.to||d.date<=S.to);
   const t=new Date(DB.updated+"T00:00:00");t.setDate(t.getDate()-Number(S.period));
   return key>=t.toISOString().slice(0,10);
@@ -257,7 +258,7 @@ function render(){
   const byW=Object.entries(WL).map(([k,l])=>[k,l,rows.filter(d=>(d.who||[]).includes(k)).length]).filter(x=>x[2]>0||S.who===x[0]);
   const mw=Math.max(1,...byW.map(x=>x[2]));
   $("#whoBars").innerHTML=byW.length?byW.map(([k,l,c])=>`<button class="brow" data-who="${k}" aria-pressed="${S.who===k}" aria-label="${esc(l)} ${c}件"><span class="bname">${esc(l)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mw*100}%;${S.who&&S.who!==k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
-  $("#clear").hidden=!(S.who||S.cause||S.st||S.res||S.sel.size||S.q||S.noauto||S.ind||S.period);
+  $("#clear").hidden=!(S.who||S.cause||S.st||S.res||S.sel.size||S.q||S.noauto||S.ind||S.period!=="730");
   const byInd=(DB.industries||[]).map(k=>[k,rows.filter(d=>d.ind===k).length]).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]);
   const mi=Math.max(1,...byInd.map(x=>x[1]));
   $("#indBars").innerHTML=byInd.length?byInd.map(([k,c])=>`<button class="brow" data-ind="${esc(k)}" aria-pressed="${S.ind===k}" aria-label="${esc(k)} ${c}件"><span class="bname">${esc(k)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mi*100}%;${S.ind&&S.ind!==k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
@@ -287,7 +288,7 @@ function openSheet(id){
     <div class="sh-body">
       <dl class="facts">
         <dt>件数</dt><dd><b>${esc(d.label)}</b></dd>
-        ${d.verified?`<dt>照合</dt><dd>公式発表と照合済み（${md(d.verified)}）</dd>`:""}
+        ${d.verified?`<dt>最終確認日</dt><dd>${md(d.verified)}（公式発表と照合）</dd>`:""}
         <dt>日付</dt><dd>${md(d.date)}（発生・検知または初回公表）</dd>
         <dt>業種</dt><dd>${esc(d.ind||"—")}</dd>
         <dt>原因</dt><dd>${esc((CL()[d.cause||"cyber"]||"")+((d.cause||"cyber")==="cyber"?"（"+d.types.join("・")+"）":""))}</dd>
@@ -332,7 +333,7 @@ document.addEventListener("click",e=>{
   if(b){const i=b.dataset.act.indexOf(":"),k=b.dataset.act.slice(0,i),v=b.dataset.act.slice(i+1);
     if(k==="item")S.sel.has(v)?S.sel.delete(v):S.sel.add(v);else S[k]=v;
     renderChips();render();return}
-  if(e.target.id==="clear"){S.who="";$("#who").value="";S.cause=S.st=S.res=S.noauto=S.ind=S.period=S.from=S.to="";$("#cause").value="";$("#ind").value="";$("#period").value="";$("#from").value="";$("#to").value="";$("#daterow").hidden=true;S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
+  if(e.target.id==="clear"){S.who="";$("#who").value="";S.cause=S.st=S.res=S.noauto=S.ind=S.from=S.to="";S.period="730";$("#cause").value="";$("#ind").value="";$("#period").value="730";$("#from").value="";$("#to").value="";$("#daterow").hidden=true;S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
 });
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape")closeSheet();
