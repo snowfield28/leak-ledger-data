@@ -3,7 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>国内情報漏えい台帳</title>
+<title>国内情報漏えい台帳｜個人情報の漏えい事案まとめ</title>
+<meta name="description" content="国内の企業・公共機関・大学・病院などで起きた個人情報の漏えい事案を、公式発表と照合して一覧にした台帳。件数、流出した情報、調査状況、会社の対応、お問い合わせ先を毎日更新。">
+<meta property="og:title" content="国内情報漏えい台帳">
+<meta property="og:description" content="個人情報の漏えい事案を公式発表と照合して一覧化。毎日更新。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://snowfield28.github.io/leak-ledger-data/">
 <style>
 /* Layout: 1カラムのダッシュボード。集計タイル → 流出件数の横棒 → 流出した情報の内訳 → 事案の表。行をタップすると下から詳細シートが開く */
 :root{
@@ -177,6 +182,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
     <tbody id="rows"></tbody>
   </table>
 
+  <nav class="foot" aria-label="サイト情報" style="display:flex;flex-wrap:wrap;gap:6px 16px"><a href="about.html">このサイトについて</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ・訂正依頼</a></nav>
   <p class="foot" id="rule"></p>
   <p class="foot">原因の「サイバー攻撃」以外（紛失・誤送信・内部不正・設定ミス）は2026年9月以降の事案から収録を始めています。期間は、発生日か最新の続報の日付で判定します。業種は企業の主な事業をもとにした台帳独自の分類です。件数は企業の公表値で、人数と件数が混在し、重複を含む場合があります。「調査完了」は調査結果や最終報が公表された事案です。流出した情報で複数選ぶと、すべてを含む事案に絞り込みます。分類は出典に書かれた項目だけを元にしています。</p>
 </div>
