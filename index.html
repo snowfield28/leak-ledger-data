@@ -174,7 +174,8 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
     <tbody id="rows"></tbody>
   </table>
 
-  <p class="foot">「未確認」は集計サイトの一覧だけを元に載せた事案で、内容を公式発表で確かめていません。原因の「サイバー攻撃」以外（紛失・誤送信・内部不正・設定ミス）は2026年9月以降の事案から収録を始めています。期間は、発生日か最新の続報の日付で判定します。業種は企業の主な事業をもとにした台帳独自の分類です。件数は企業の公表値で、人数と件数が混在し、重複を含む場合があります。「調査完了」は調査結果や最終報が公表された事案です。流出した情報で複数選ぶと、すべてを含む事案に絞り込みます。分類は出典に書かれた項目だけを元にしています。</p>
+  <p class="foot" id="rule"></p>
+  <p class="foot">原因の「サイバー攻撃」以外（紛失・誤送信・内部不正・設定ミス）は2026年9月以降の事案から収録を始めています。期間は、発生日か最新の続報の日付で判定します。業種は企業の主な事業をもとにした台帳独自の分類です。件数は企業の公表値で、人数と件数が混在し、重複を含む場合があります。「調査完了」は調査結果や最終報が公表された事案です。流出した情報で複数選ぶと、すべてを含む事案に絞り込みます。分類は出典に書かれた項目だけを元にしています。</p>
 </div>
 
 <div id="sheetRoot"></div>
@@ -211,7 +212,6 @@ const chip=(label,on,act)=>`<button class="chip" aria-pressed="${on}" data-act="
 function renderChips(){
   const tg=(g,v,l)=>chip(l,S[g]===v,`${g}:${S[g]===v?"":v}`);
   $("#chips").innerHTML=
-    tg("noauto","1","未確認を除く")+'<span class="sep"></span>'+
     tg("st","c","漏えい確認")+tg("st","p","漏えいの可能性")+'<span class="sep"></span>'+
     tg("res","ongoing","調査中")+tg("res","closed","調査完了")+'<span class="sep"></span>'+
     chip("新しい順",S.sort==="date","sort:date")+chip("件数順",S.sort==="size","sort:size");
@@ -261,6 +261,7 @@ function openSheet(id){
     <div class="sh-body">
       <dl class="facts">
         <dt>件数</dt><dd><b>${esc(d.label)}</b></dd>
+        ${d.verified?`<dt>照合</dt><dd>公式発表と照合済み（${md(d.verified)}）</dd>`:""}
         <dt>日付</dt><dd>${md(d.date)}（発生・検知または初回公表）</dd>
         <dt>業種</dt><dd>${esc(d.ind||"—")}</dd>
         <dt>原因</dt><dd>${esc((CL()[d.cause||"cyber"]||"")+((d.cause||"cyber")==="cyber"?"（"+d.types.join("・")+"）":""))}</dd>
@@ -317,7 +318,9 @@ $("#to").addEventListener("change",e=>{S.to=e.target.value;render()});
 function fillInd(){$("#ind").innerHTML='<option value="">すべての業種</option>'+(DB.industries||[]).map(k=>`<option>${esc(k)}</option>`).join("")}
 (async()=>{
   try{const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;DB=await r.json();LABELS=DB.itemLabels;SL=DB.statusLabels||{};
-    $("#upd").textContent=DB.updated+" 更新";fillInd();renderChips();render();
+    $("#upd").textContent=DB.updated+" 更新";
+$("#rule").textContent=`掲載しているのは、報道や一覧で見つけた事案のうち、組織自身の公式発表を開いて内容が一致したものだけです。公式発表と照合できていない候補が${DB.pendingCount||0}件あり、毎日の更新で再確認しています。`;
+fillInd();renderChips();render();
     const id=location.hash.slice(1);if(id&&DB.cases.some(c=>c.id===id))openSheet(id);
   }catch(e){$("#rows").innerHTML='<tr><td colspan="3" class="empty">データを読み込めませんでした。時間をおいて再読み込みしてください。</td></tr>'}
 })();

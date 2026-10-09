@@ -68,52 +68,8 @@
     ]
    ],
    "ind": "運輸・交通",
-   "cause": "cyber"
-  },
-  {
-   "co": "大和証券（委託先 スカラコミュニケーションズ）",
-   "date": "2026-10-05",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": 110000,
-   "label": "約11万人",
-   "st": "p",
-   "items": [
-    "name",
-    "mail",
-    "acct"
-   ],
-   "itemsText": "氏名、メールアドレス、口座番号など",
-   "notIncl": "",
-   "sum": "問い合わせ管理に使う委託先サーバーへの不正アクセスで、顧客情報が不正取得された形跡。個人を特定できない情報を含めると約22万件。大和証券自身のシステムへの不正アクセスは確認されていない。",
-   "src": [
-    [
-     "INTERNET Watch",
-     "https://internet.watch.impress.co.jp/docs/news/2145818.html"
-    ],
-    [
-     "ASCII.jp",
-     "https://ascii.jp/elem/000/004/439/4439964/"
-    ],
-    [
-     "@IT",
-     "https://atmarkit.itmedia.co.jp/ait/articles/2610/07/news030.html"
-    ]
-   ],
-   "id": "daiwa",
-   "status": "ongoing",
-   "statusText": "10月5日に公表。調査結果の続報は、この台帳ではまだ確認できていない。",
-   "resp": "委託先が緊急のセキュリティ強化を実施。漏えいした可能性のある情報では、口座へのアクセスや取引はできないと説明。委託先管理の在り方を検証する方針。",
-   "official": [
-    [
-     "プレスリリース（2026/10/5）",
-     "https://ssl4.eir-parts.net/doc/8601/tdnet/2891437/00.pdf"
-    ]
-   ],
-   "ind": "金融・保険",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "大起水産",
@@ -155,7 +111,8 @@
     ]
    ],
    "ind": "飲食",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "アフラック生命保険",
@@ -218,7 +175,8 @@
     ]
    ],
    "ind": "金融・保険",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "KDDI（ISP向けメールシステム）",
@@ -226,14 +184,14 @@
    "types": [
     "不正アクセス"
    ],
-   "n": 12233087,
-   "label": "メールアドレス1,223万件",
+   "n": 12231954,
+   "label": "メールアドレス12,231,954件",
    "st": "c",
    "items": [
     "mail",
     "id"
    ],
-   "itemsText": "メールアドレス約1,223万件、うち約762万件はパスワードも漏えい",
+   "itemsText": "メールアドレス12,231,954件（7月21日に訂正）、うち7,616,173件はパスワードも漏えい",
    "notIncl": "",
    "sum": "ISP事業者向けメール基盤で、第三者製ソフトウェアの未知の脆弱性を悪用された。BIGLOBE、ニフティ、J:COMなど6事業者に影響。auメール等は対象外。総務省が行政指導。",
    "src": [
@@ -257,7 +215,8 @@
     ]
    ],
    "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "メディカ出版",
@@ -306,7 +265,8 @@
     ]
    ],
    "ind": "メディア・出版",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "穴吹ハウジングサービス（あなぶきグループ）",
@@ -340,7 +300,7 @@
    "id": "anabuki-housing",
    "status": "closed",
    "statusText": "5月21日の第6報で漏えい件数を207,773件に確定。再発防止策は実施中。",
-   "resp": "窓口 0120-185-067（平日9〜18時）。個人情報保護委員会、国土交通省・財務局に報告。VPNを含む旧環境の撤廃、全PCの入れ替え、クラウド利用への多要素認証の追加、ゼロトラストへの移行を進めている。原因はグループ会社のネットワーク機器の脆弱性。",
+   "resp": "専用窓口 0800-111-7120（9〜18時）。個人情報保護委員会、国土交通省・財務局に報告。VPNを含む旧環境の撤廃、全PCの入れ替え、クラウド利用への多要素認証の追加、ゼロトラストへの移行を進めている。原因はグループ会社のネットワーク機器の脆弱性。",
    "official": [
     [
      "第6報（2026/5/21）",
@@ -352,59 +312,8 @@
     ]
    ],
    "ind": "建設・不動産",
-   "cause": "cyber"
-  },
-  {
-   "co": "エフワン（オーダースーツ）",
-   "date": "2026-01-30",
-   "types": [
-    "ランサムウェア"
-   ],
-   "n": 170000,
-   "label": "約17万件",
-   "st": "c",
-   "items": [
-    "name",
-    "birth",
-    "addr",
-    "tel",
-    "work",
-    "mail"
-   ],
-   "itemsText": "氏名、生年月日、性別、住所、電話番号、勤務先名・部署・役職・勤務先連絡先、メールアドレス",
-   "notIncl": "クレジットカード番号（保管なし）",
-   "claim": "BlackShrantacが犯行声明（攻撃者側の主張）",
-   "sum": "1月30日にサーバーのファイル暗号化と脅迫文を確認。約17万件（重複を含む可能性あり）の流出を公表。4月8日に最終報。",
-   "src": [
-    [
-     "ScanNetSecurity（最終報）",
-     "https://scan.netsecurity.ne.jp/article/2026/05/08/55221.html"
-    ],
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/?p=30494"
-    ]
-   ],
-   "id": "f-one",
-   "status": "closed",
-   "statusText": "4月8日に最終報を公表。",
-   "resp": "流出した顧客へ郵送で個別に報告。不審なメールや添付ファイルを開かないよう注意喚起。外部の調査専門会社と調査。",
-   "official": [
-    [
-     "最終報（2026/4/8）",
-     "https://f-one.co.jp/_include/pdf/information20260408.pdf"
-    ],
-    [
-     "第2報（2026/2/25）",
-     "https://f-one.co.jp/_include/pdf/information20260225.pdf"
-    ],
-    [
-     "第1報（2026/2/4）",
-     "https://f-one.co.jp/_include/pdf/information20260204.pdf"
-    ]
-   ],
-   "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "アスクル",
@@ -455,7 +364,8 @@
     ]
    ],
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "アサヒグループホールディングス",
@@ -510,7 +420,8 @@
     ]
    ],
    "ind": "製造",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "損害保険ジャパン（SOMPOホールディングス）",
@@ -551,7 +462,8 @@
     ]
    ],
    "ind": "金融・保険",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "コナカ（DIFFERENCE）",
@@ -592,7 +504,8 @@
     ]
    ],
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "トキハ／トキハインダストリー",
@@ -644,7 +557,8 @@
     ]
    ],
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "AOKIホールディングス（快活CLUB・FiT24）",
@@ -694,7 +608,8 @@
     ]
    ],
    "ind": "生活サービス・レジャー",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "東京ガス（子会社 東京ガスエンジニアリングソリューションズ）",
@@ -738,7 +653,8 @@
     ]
    ],
    "ind": "エネルギー",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "KADOKAWA（ドワンゴ）",
@@ -786,7 +702,8 @@
     ]
    ],
    "ind": "メディア・出版",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "co": "イセトー（印刷・発送受託）",
@@ -830,7 +747,8 @@
     ]
    ],
    "ind": "人材・教育・業務支援",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "daiichikosho",
@@ -868,48 +786,8 @@
     ]
    ],
    "ind": "生活サービス・レジャー",
-   "cause": "cyber"
-  },
-  {
-   "id": "yakiniku-king",
-   "co": "物語コーポレーション（焼肉きんぐ公式アプリ）",
-   "date": "2026-10-02",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 10788963,
-   "label": "10,788,963件",
-   "st": "c",
-   "items": [
-    "deal",
-    "name",
-    "mail",
-    "tel"
-   ],
-   "itemsText": "会員番号、アプリに登録した名前、メールアドレス、電話番号",
-   "notIncl": "ログインパスワード、生年月日、性別、郵便番号、保有ポイント、来店履歴、クレジットカード情報（保有なし）",
-   "sum": "焼肉きんぐ公式アプリの会員管理システムへの不正アクセスを10月2日に確認し、10月3日に会員情報の漏えいを確認。アプリ登録1,080万件のうち約1,079万件が対象。",
-   "status": "ongoing",
-   "statusText": "10月5日に公表。原因と侵入経路をアプリの開発会社などと調査中。",
-   "resp": "通信を遮断し防御策を実施。個人情報保護委員会に報告し、警察に被害を届け出。専用コールセンター 0120-795-775（10〜18時、土日祝も対応）。アプリは防御策を講じたうえで運用を継続。",
-   "official": [
-    [
-     "お知らせ（2026/10/5）",
-     "https://www.monogatari.co.jp/news/261005_news/"
-    ]
-   ],
-   "src": [
-    [
-     "NHK",
-     "https://news.web.nhk/newsweb/na/nd-20261005de54760"
-    ],
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/?p=42522"
-    ]
-   ],
-   "ind": "飲食",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "epark-relax",
@@ -948,7 +826,8 @@
    ],
    "last": "2026-09-24",
    "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "gyazo",
@@ -984,46 +863,8 @@
    ],
    "notIncl": "",
    "ind": "通信・IT",
-   "cause": "cyber"
-  },
-  {
-   "id": "murauchi",
-   "co": "ムラウチドットコム",
-   "date": "2026-07-16",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 7716811,
-   "label": "7,716,811件",
-   "st": "c",
-   "items": [
-    "name",
-    "addr",
-    "tel",
-    "mail",
-    "birth"
-   ],
-   "itemsText": "氏名、住所、電話番号、メールアドレス、生年月日、性別",
-   "sum": "Webシステムの脆弱性を突かれ、複数のシステムに不正アクセスが広がった。7月15日のシステム障害の復旧中に痕跡を発見し、7月24日に初報。9月15日の第2報で件数を公表。",
-   "status": "ongoing",
-   "statusText": "9月15日の第2報。調査の完了は示されていない。",
-   "resp": "外部からのアクセスを遮断し、外部の専門機関がフォレンジック調査。9月15日から対象者へ個別にメールで通知。アクセス権限と認証情報の管理見直し、監視・侵入検知の強化、定期的な脆弱性診断を予定。",
-   "official": [
-    [
-     "お詫びとご報告",
-     "https://murauchi.com/static-pages/privacy/pressrelease.html"
-    ]
-   ],
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html"
-    ]
-   ],
-   "notIncl": "",
-   "last": "2026-09-15",
-   "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "mrmax",
@@ -1064,7 +905,8 @@
     ]
    ],
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "gmo-research-infoq",
@@ -1104,7 +946,8 @@
     ]
    ],
    "ind": "人材・教育・業務支援",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "asahi-kasei-pharma",
@@ -1141,7 +984,8 @@
     ]
    ],
    "ind": "医療・製薬",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "pfu-shopserve",
@@ -1180,7 +1024,8 @@
     ]
    ],
    "ind": "製造",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "sakura-internet",
@@ -1214,7 +1059,8 @@
     ]
    ],
    "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "dai-ichi-life",
@@ -1255,49 +1101,8 @@
     ]
    ],
    "ind": "金融・保険",
-   "cause": "cyber"
-  },
-  {
-   "id": "sagawa",
-   "co": "佐川急便（お荷物問い合わせサービス）",
-   "date": "2026-09-30",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "name",
-    "addr",
-    "tel",
-    "mail",
-    "id"
-   ],
-   "itemsText": "過去約100日分の荷物の送り主・届け先の氏名（法人名・担当者名）、住所、電話番号。スマートクラブ登録者はメールアドレスと会員IDも",
-   "notIncl": "クレジットカード情報、パスワード",
-   "sum": "Webサイトの「お荷物問い合わせサービス」への不正アクセスを9月30日に確認。佐川急便の会員でなくても、荷物の届け先なら対象になりうる。",
-   "status": "ongoing",
-   "statusText": "10月1日の続報で流出の可能性を公表。件数と範囲を調査中。",
-   "resp": "影響を調査中。集荷・配達は継続。",
-   "official": [
-    [
-     "第1報",
-     "https://www2.sagawa-exp.co.jp/information/detail/420/"
-    ],
-    [
-     "第3報",
-     "https://www2.sagawa-exp.co.jp/information/detail/421/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/?p=42308"
-    ]
-   ],
-   "ind": "運輸・交通",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "ozmall",
@@ -1336,74 +1141,8 @@
     ]
    ],
    "ind": "メディア・出版",
-   "cause": "cyber"
-  },
-  {
-   "id": "lean-body",
-   "co": "LEAN BODY",
-   "date": "2026-09-15",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "未公表",
-   "st": "c",
-   "items": [],
-   "itemsText": "顧客情報（項目は公表資料で要確認）",
-   "sum": "利用していた分析ツール「Metabase」の脆弱性を突かれ、データベースから顧客情報を取得されたことを確認。",
-   "status": "ongoing",
-   "statusText": "9月15日の初報。件数や項目、再発防止策は続報待ち。",
-   "resp": "お詫びを公表。具体的な対策は未公表。",
-   "official": [
-    [
-     "お知らせ（2026/9/15）",
-     "https://lean-body.co.jp/news/JlBWMCs7"
-    ]
-   ],
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/10/05/56382.html"
-    ],
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/?p=40986"
-    ]
-   ],
-   "notIncl": "",
-   "ind": "生活サービス・レジャー",
-   "cause": "cyber"
-  },
-  {
-   "id": "fines",
-   "co": "ファインズ（予約システム）",
-   "date": "2026-09-22",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 1536322,
-   "label": "1,536,322件",
-   "st": "p",
-   "items": [
-    "name",
-    "tel",
-    "deal"
-   ],
-   "itemsText": "氏名、連絡先、予約した店舗・日時・利用メニューなど",
-   "sum": "予約システムへの不正アクセスで異常を9月22日に検知し、9月25日に公表。",
-   "status": "ongoing",
-   "statusText": "9月25日の速報。詳細を調査中。",
-   "resp": "公表のみ確認。通知や窓口の情報は未確認。",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/?p=41976"
-    ]
-   ],
-   "notIncl": "",
-   "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "seicomart",
@@ -1415,12 +1154,19 @@
    "n": 570000,
    "label": "約57万アカウント",
    "st": "p",
-   "items": [],
-   "itemsText": "会員情報（項目は公表資料で要確認）",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "氏名、性別、生年月日、住所、電話番号、メールアドレス、クラブカードの入会・退会日",
    "sum": "アプリのサーバーを経由して会員データのサーバーに不正アクセスされた。9月24日夜に1件のアカウントでクラブカードの不正な解約も確認。",
    "status": "ongoing",
    "statusText": "9月29日に第2報。調査中。",
-   "resp": "お詫びと続報を公表。",
+   "resp": "お詫びと第2報を公表。ペコマーケット、公式オンラインストア、商品予約サイトを一時停止して安全を確認。9月末で失効するポイントの期限を1か月延長。",
    "official": [
     [
      "第2報（2026/9/29）",
@@ -1437,9 +1183,10 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/02/56373.html"
     ]
    ],
-   "notIncl": "",
+   "notIncl": "パスワード、クレジットカード情報",
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "eplus",
@@ -1451,22 +1198,37 @@
    "n": 1463,
    "label": "1,463件",
    "st": "c",
-   "items": [],
-   "itemsText": "中止・延期公演の払戻し処理に使う個人情報（項目は公表資料で要確認）",
-   "sum": "電子チケット「スマチケ」の管理システムのうち、払戻し情報を扱う部分に不正アクセス。払戻しを申請した顧客の情報が漏えい。",
+   "items": [
+    "mail",
+    "name",
+    "acct",
+    "addr"
+   ],
+   "itemsText": "全件：メールアドレス、カナ氏名、払戻し対象の公演名・会場・日時。銀行振込751件は口座情報、郵便振替68件は住所と氏名も",
+   "sum": "スマチケの払戻し情報を扱うシステムに9月11〜12日に不正アクセス。2022年6月30日〜2026年9月11日に払戻しを申請した顧客の情報が漏えい。",
    "status": "ongoing",
    "statusText": "9月29日に公表。続報は未確認。",
-   "resp": "お詫びとお知らせを公表。",
-   "official": [],
+   "resp": "9月15日に設定を見直してアクセスを遮断。管理する全システムを再点検。9月29日から対象者へお詫びメール。個人情報保護委員会へ報告し、警察への届け出を準備。",
+   "official": [
+    [
+     "お詫びとお知らせ（2026/9/29）",
+     "https://support-qa.eplus.jp/hc/ja/articles/62711500727961"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
      "https://scan.netsecurity.ne.jp/article/2026/10/02/56372.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=41836"
     ]
    ],
-   "notIncl": "",
+   "notIncl": "クレジットカード情報、パスワード",
    "ind": "生活サービス・レジャー",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "tokyo-metro-metpo",
@@ -1504,7 +1266,8 @@
    ],
    "notIncl": "",
    "ind": "運輸・交通",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "japanpost-app",
@@ -1513,11 +1276,17 @@
    "types": [
     "不正アクセス"
    ],
-   "n": null,
-   "label": "公表資料で要確認",
+   "n": 19,
+   "label": "19人（69件）",
    "st": "c",
-   "items": [],
-   "itemsText": "ゆうIDと郵便局アプリに関する顧客情報（項目は公表資料で要確認）",
+   "items": [
+    "name",
+    "addr",
+    "birth",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "氏名、住所、生年月日、連絡先、送り状の情報（追跡番号、品名など）",
    "sum": "外部からの不正アクセスで、顧客情報が不正に取得されたことを確認。9月25日夜に緊急メンテナンスを実施。",
    "status": "ongoing",
    "statusText": "9月29日に公表。",
@@ -1536,7 +1305,8 @@
    ],
    "notIncl": "",
    "ind": "運輸・交通",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "nippon-rentacar",
@@ -1545,8 +1315,8 @@
    "types": [
     "不正アクセス"
    ],
-   "n": 55,
-   "label": "55人",
+   "n": 96,
+   "label": "96人（41人＋55人）",
    "st": "p",
    "items": [
     "name",
@@ -1559,7 +1329,7 @@
    ],
    "itemsText": "氏名、電話番号、メールアドレス、ログインID、利用履歴、予約情報。登録者は運転免許証の情報（番号・住所・生年月日）と、カード番号の下4桁・名義",
    "notIncl": "カード番号の全桁（記載なし）",
-   "sum": "9月26日にアプリへの不正アクセスを公表。調査中の9月29日に、別の手口による不正アクセス（9月19〜21日、会員情報ページ55人分）も判明し、10月1日に公表。",
+   "sum": "9月26日に、アプリへの不正アクセスで41人の会員情報が閲覧されたおそれを公表。調査中の9月29日に、別の手口による不正アクセス（9月19〜21日、55人分）も判明し、10月1日に公表。",
    "status": "ongoing",
    "statusText": "10月1日の続報。封じ込めは完了し、会員への通知を進めている。",
    "resp": "対象会員へメールで個別に連絡。必要な対策と封じ込めを実施し、セキュリティ体制を強化。",
@@ -1580,7 +1350,8 @@
     ]
    ],
    "ind": "運輸・交通",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "citizen",
@@ -1618,42 +1389,8 @@
    ],
    "notIncl": "",
    "ind": "製造",
-   "cause": "cyber"
-  },
-  {
-   "id": "nikkei-bp",
-   "co": "日経BP（従業員のメールアカウント）",
-   "date": "2026-09-30",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 26,
-   "label": "26人",
-   "st": "p",
-   "items": [
-    "name",
-    "mail"
-   ],
-   "itemsText": "氏名、メールアドレス",
-   "sum": "日本経済新聞社の社員アドレスから届いたフィッシングメールで、従業員のメールアカウントの認証情報が盗まれた。",
-   "status": "ongoing",
-   "statusText": "10月4日に公表。",
-   "resp": "アカウントへのアクセスを遮断。対象のメール受信者へ個別にメールで連絡。",
-   "official": [
-    [
-     "お知らせ（2026/10/4）",
-     "https://www.nikkeibp.co.jp/atcl/newsrelease/corp/100200417/"
-    ]
-   ],
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/10/07/56402.html"
-    ]
-   ],
-   "notIncl": "",
-   "ind": "メディア・出版",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "nikkei",
@@ -1696,7 +1433,8 @@
    ],
    "notIncl": "",
    "ind": "メディア・出版",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "harada-beer",
@@ -1736,7 +1474,8 @@
    "notIncl": "",
    "last": "2026-09-14",
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "dozle-store",
@@ -1770,7 +1509,8 @@
    ],
    "notIncl": "",
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "photogoods",
@@ -1809,7 +1549,8 @@
    ],
    "notIncl": "",
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "applynow",
@@ -1818,12 +1559,20 @@
    "types": [
     "不正アクセス"
    ],
-   "n": null,
-   "label": "調査中",
+   "n": 5784,
+   "label": "5,784件（吉野家・はなまる分）",
    "st": "p",
-   "items": [],
-   "itemsText": "顧客企業と応募者の個人データ（見出しではマイナンバーを含むとされる。項目は公表資料で要確認）",
-   "sum": "利用していたデータ分析ツールの脆弱性を突かれ、データベースの一部に不正アクセスされた。集計サイトによると、利用企業の吉野家・はなまる（5,784件）や自治体も影響を公表している。",
+   "items": [
+    "name",
+    "mail",
+    "tel",
+    "birth",
+    "addr",
+    "work",
+    "id"
+   ],
+   "itemsText": "吉野家4,998件・はなまる368件の応募者：カナ氏名、メールアドレス、電話番号、一部は生年月日・性別・住所の一部・職業。従業員アカウント418件：ユーザー名、メールアドレス、暗号化されたパスワード",
+   "sum": "採用管理サービスが利用するデータ分析ツールの脆弱性を突かれ、データベースの一部に不正アクセスされた。吉野家・はなまるなど利用企業が9月30日に影響を公表。ApplyNow自身の公式発表は自動では読み取れず、利用企業の公表で確認。",
    "status": "ongoing",
    "statusText": "9月9日に公表。",
    "resp": "顧客向けにお詫びと通知を公表。",
@@ -1849,7 +1598,8 @@
    ],
    "notIncl": "",
    "ind": "人材・教育・業務支援",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "fuso-dentsu",
@@ -1861,8 +1611,12 @@
    "n": 26489,
    "label": "最大26,489件",
    "st": "p",
-   "items": [],
-   "itemsText": "個人情報（項目は公表資料で要確認）",
+   "items": [
+    "name",
+    "addr",
+    "tel"
+   ],
+   "itemsText": "氏名、住所、電話番号",
    "sum": "社外とのやりとりに使うクラウドストレージの共有フォルダに不正アクセス。7月22日に初報、9月10日の第2報で件数を公表。",
    "status": "ongoing",
    "statusText": "9月10日の第2報。外部のセキュリティ会社と原因を調査中。",
@@ -1882,7 +1636,8 @@
    "notIncl": "",
    "last": "2026-09-10",
    "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "smaregi-ec",
@@ -1892,11 +1647,17 @@
     "不正アクセス"
    ],
    "n": null,
-   "label": "調査中",
+   "label": "利用4社の顧客情報",
    "st": "p",
-   "items": [],
-   "itemsText": "一部の個人データ（項目は公表資料で要確認）",
-   "sum": "一部の利用事業者の環境で第三者による不正アクセスを確認。個人データが閲覧・取得された可能性。",
+   "items": [
+    "name",
+    "tel",
+    "addr",
+    "deal",
+    "id"
+   ],
+   "itemsText": "顧客・注文・管理者の情報（氏名、連絡先、住所、購入履歴、ログインID、暗号化されたパスワードなど）",
+   "sum": "「スマレジEC・リピート」「スマレジEC・B2B」を使う4社の環境で第三者による不正アクセスを確認。",
    "status": "ongoing",
    "statusText": "9月25日に公表。",
    "resp": "お知らせを公表。",
@@ -1912,41 +1673,10 @@
      "https://scan.netsecurity.ne.jp/article/2026/09/29/56331.html"
     ]
    ],
-   "notIncl": "",
+   "notIncl": "クレジットカード情報（保管なし）",
    "ind": "通信・IT",
-   "cause": "cyber"
-  },
-  {
-   "id": "montbell",
-   "co": "モンベル（モンベル・グローバルサイト）",
-   "date": "2026-09-12",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 15,
-   "label": "最大15人",
-   "st": "p",
-   "items": [],
-   "itemsText": "個人情報（項目は公表資料で要確認）",
-   "sum": "外部からの不正アクセスで、一部の顧客の個人情報が第三者に取得された可能性。",
-   "status": "ongoing",
-   "statusText": "9月18日に公表。",
-   "resp": "ご報告とお詫び、対応状況を公表。",
-   "official": [
-    [
-     "ご報告とお詫び（2026/9/18）",
-     "https://www.montbell.com/jp/ja/contents/882"
-    ]
-   ],
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/09/29/56332.html"
-    ]
-   ],
-   "notIncl": "",
-   "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "jgc-digital",
@@ -1983,7 +1713,8 @@
    ],
    "notIncl": "",
    "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "hi-ho",
@@ -1993,18 +1724,24 @@
     "不正アクセス"
    ],
    "n": 38509,
-   "label": "38,509件",
+   "label": "38,509件（契約単位）",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "ソーシャルエンジニアリングによる不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "氏名、住所、電話番号、メールアドレス、契約・請求情報などマイページに表示される情報",
+   "notIncl": "クレジットカード・口座情報（マイページで扱っていない）",
+   "sum": "乗り換えを勧誘する業者を装った第三者が電話でログイン情報を聞き出し、本人になりすましてマイページにログインした。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月8日に公表。事実確認を続けている。",
+   "resp": "不正とみられるアクセス元を遮断。電話番号・郵便番号・生年月日でのログインを廃止し、より安全な認証に移行中。警察に相談。対象者へ書面で通知。パスワード変更を案内。",
    "official": [
     [
-     "公式発表",
+     "お知らせ（2026/10/8）",
      "https://brand.hi-ho.jp/category/uncategorized/"
     ]
    ],
@@ -2014,9 +1751,9 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "ceres-pointincome",
@@ -2029,15 +1766,15 @@
    "label": "195件",
    "st": "p",
    "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "itemsText": "個人情報（会員88件、従業員など107件。項目は未公表）",
+   "notIncl": "クレジットカードなどの決済情報（保管なし）",
+   "sum": "ポイントサイト「ポイントインカム」で10月5日未明から断続的に不正アクセスを検知。一部アカウントの個人情報が閲覧された可能性。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月7日に公表。10月7日21時にサービス再開予定。",
+   "resp": "不審なアクセスを遮断し原因を特定。システム全体を緊急点検し、サービスを停止してセキュリティを強化。対象者へ個別にメール。ログイン時にパスワード再設定を求める場合あり。個人情報保護委員会に報告。",
    "official": [
     [
-     "公式発表",
+     "お知らせ（2026/10/7）",
      "https://next.ceres-inc.jp/news/detail/20261007-2/"
     ]
    ],
@@ -2047,9 +1784,9 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "sompo-smilingroad",
@@ -2062,16 +1799,23 @@
    "n": 60000,
    "label": "約6万件（延べ）",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "委託先への不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "tel",
+    "addr",
+    "mail",
+    "work",
+    "deal"
+   ],
+   "itemsText": "氏名、電話番号、住所、メールアドレス、勤務先、ドライバーID、運転アラートの種類・時刻、機器のシリアル番号、申込番号、問い合わせ内容",
+   "notIncl": "口座、クレジットカード、マイナンバーカードの情報",
+   "sum": "運転支援サービス「SMILING ROAD」の問い合わせを扱う委託先スカラコミュニケーションズのサーバーに10月2〜3日に不正アクセス。大和証券・シチズン時計と同じ委託先。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月7日に公表。",
+   "resp": "対象者へ個別に連絡。委託先は侵入経路を遮断。原因究明と再発防止を委託先に求め、委託先管理を見直す。窓口 0120-268-567（平日9〜17時）。",
    "official": [
     [
-     "公式発表",
+     "お知らせ（2026/10/7）",
      "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261007_1.pdf"
     ]
    ],
@@ -2081,30 +1825,34 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "金融・保険",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "his-thailand",
    "co": "エイチ・アイ・エス（タイ現地法人）",
-   "date": "2026-10-07",
+   "date": "2025-12-11",
    "types": [
     "不正アクセス"
    ],
    "n": 627,
    "label": "最大627件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "items": [
+    "name",
+    "birth",
+    "doc"
+   ],
+   "itemsText": "ローマ字氏名、パスポートの署名、性別、生年月日、旅券番号、旅券の有効期限、アレルギー情報",
+   "notIncl": "電話番号、住所、メールアドレス、クレジットカード情報",
+   "sum": "タイ現地法人のファイルサーバーに不正アクセスされ、一部データが持ち出された可能性。2025年12月に侵入検知の警告で発覚し、2026年10月7日に公表。",
+   "status": "closed",
+   "statusText": "10月7日に公表。ファイルの精査は完了し、個別通知を進めている。",
+   "resp": "サーバーを切り離し外部アクセスを制限。外部の専門家と調査し、個人情報保護委員会などに報告。対象者へ順次連絡。窓口 0120-945-146（平日11〜18時）。海外拠点のセキュリティと本社の監視を強化。",
    "official": [
     [
-     "公式発表",
+     "お詫びとお知らせ（2026/10/7）",
      "https://www.his.co.jp/assets/20261007.pdf"
     ]
    ],
@@ -2114,9 +1862,10 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "生活サービス・レジャー",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-10-07",
+   "verified": "2026-10-09"
   },
   {
    "id": "toda",
@@ -2126,18 +1875,25 @@
     "不正アクセス"
    ],
    "n": 7200,
-   "label": "最大7,200件ほか（区分別）",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "label": "最大7,200件ほか",
+   "st": "c",
+   "items": [
+    "mail",
+    "deal",
+    "name",
+    "addr",
+    "tel",
+    "work"
+   ],
+   "itemsText": "取引先担当者のメールアドレス最大7,200件、取引データ最大6,000件、従業員4,778人の氏名・住所・電話番号・メールアドレス・所属",
    "notIncl": "",
-   "sum": "不正アクセス。取引先に関する情報が漏えい。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "取引先への支払いを管理するシステムに10月1〜5日に外部から不正アクセスされ、情報が漏えいした痕跡を確認。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月7日に公表。被害の全容と原因を調査中。",
+   "resp": "対象システムをネットワークから遮断。外部の専門家と調査。10月7日に個人情報保護委員会へ報告し、対象者へ順次通知。窓口 0120-805-106、security_m@toda.co.jp。",
    "official": [
     [
-     "公式発表",
+     "お知らせとお詫び（2026/10/7）",
      "https://www.toda.co.jp/news/2026/20261007_006350.html"
     ]
    ],
@@ -2147,9 +1903,9 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "建設・不動産",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "active-pro",
@@ -2161,16 +1917,22 @@
    "n": 54916,
    "label": "最大54,916件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "SQLインジェクション攻撃。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "店舗名、住所、電話番号、メールアドレス、注文内容（金額、商品コード、配送先）",
+   "notIncl": "クレジットカード・口座情報（保有なし）、ログインパスワード",
+   "sum": "通販サイトの特定のページにSQLインジェクション攻撃を受け、不正な管理者アカウントが作られて顧客・注文データが出力された。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月6日に公表。原因と範囲を調査中。",
+   "resp": "脆弱性を修正し、管理画面のデータ出力を無効化。不正なアカウントを削除。個人情報保護委員会へ速報。外部のフォレンジック調査を手配。窓口 0120-30-6550（平日9〜17時30分）。",
    "official": [
     [
-     "公式発表",
+     "お詫びとお知らせ（2026/10/6）",
      "https://www.active-pro.jp/news/4303/"
     ]
    ],
@@ -2180,30 +1942,35 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "egmkt",
    "co": "エバーグリーン・マーケティング",
-   "date": "2026-10-06",
+   "date": "2026-06-26",
    "types": [
     "不正アクセス"
    ],
    "n": 1000,
-   "label": "1,000件（区分の合計）",
+   "label": "1,000件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "work",
+    "mail",
+    "addr",
+    "acct"
+   ],
+   "itemsText": "代理店などの担当者237件：会社名とメールアドレス。電気の高圧契約の法人顧客763件：会社名、住所、口座情報、請求金額など",
    "notIncl": "",
-   "sum": "不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "従業員のメールアカウントに第三者が不正ログインし、メール内の情報が閲覧された可能性。7月31日に初報、10月6日に対象を追加。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月6日の続報。事実関係の確認を続けている。",
+   "resp": "フォレンジック調査。個人情報保護委員会と警察に報告・相談。対象者へ順次個別通知。認証強化、アクセス監視、メールセキュリティ、従業員研修を進める。",
    "official": [
     [
-     "公式発表",
+     "お知らせ（2026/10/6）",
      "https://www.egmkt.co.jp/newsroom/news/2026/10982/"
     ]
    ],
@@ -2213,30 +1980,38 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "人材・教育・業務支援",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-10-06",
+   "verified": "2026-10-09"
   },
   {
    "id": "cinra-job",
    "co": "CINRA（求人サービス CINRA JOB）",
-   "date": "2026-10-06",
+   "date": "2026-08-18",
    "types": [
     "不正アクセス"
    ],
    "n": 21508,
-   "label": "21,508件",
+   "label": "21,508人",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "脆弱性を突いた攻撃（8月27日に初報、10月6日に件数を公表）。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "mail",
+    "work"
+   ],
+   "itemsText": "氏名、生年月日、性別、住所、電話番号、メールアドレス、学歴・職歴、希望条件、応募履歴など",
+   "notIncl": "クレジットカードなどの決済情報（保有なし）",
+   "sum": "プログラムの脆弱性を突いて得た認証情報で、求人サービスのシステムに不正アクセスされた。閲覧・取得を否定できる記録がないため、漏えいのおそれがあると判断。",
+   "status": "closed",
+   "statusText": "10月6日に最終報告。外部と社内の調査が完了。",
+   "resp": "8月18日に認証情報を無効化し脆弱性を修正。監視とアラート、データ取り扱いルールの見直し、定期的な脆弱性診断、従業員研修。問い合わせ incident_support@cinra.net。",
    "official": [
     [
-     "公式発表",
+     "最終報告（2026/10/6）",
      "https://www.cinra.co.jp/news/20261006"
     ]
    ],
@@ -2246,10 +2021,10 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "last": "2026-10-06",
    "ind": "人材・教育・業務支援",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "rakuten-drive",
@@ -2258,19 +2033,21 @@
    "types": [
     "不正アクセス"
    ],
-   "n": 15382,
-   "label": "15,382件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "n": 16382,
+   "label": "16,382アカウント",
+   "st": "c",
+   "items": [
+    "id"
+   ],
+   "itemsText": "アカウント名、表示名、プロフィール画像URL（687件）、暗号化パスワード（313件）、保存されていた写真や文書などのデータ（15,382件）",
    "notIncl": "",
-   "sum": "管理アカウントの乗っ取りによるデータ閲覧。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "楽天ドライブが使うサブシステムの管理アカウントの認証情報が盗まれ、不正にアクセスされた。3件の不正アクセス（2026年1月〜9月）が判明。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月6日時点の情報（10月8日更新）。対応を進めている。",
+   "resp": "不正アクセスの経路を遮断し監視を強化。アプリのダウンロードと新規アカウント発行を制限。対象者へメールで連絡。関係当局に報告。臨時窓口 0800-600-6600（毎日9〜17時）。",
    "official": [
     [
-     "公式発表",
+     "お知らせ",
      "https://support.rakuten-drive.com/hc/ja/articles/62934949147929"
     ]
    ],
@@ -2280,30 +2057,34 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "nimoca",
    "co": "ニモカ",
-   "date": "2026-10-06",
+   "date": "2026-10-04",
    "types": [
     "不正アクセス"
    ],
    "n": 521,
    "label": "521件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "st": "c",
+   "items": [
+    "deal",
+    "birth",
+    "mail"
+   ],
+   "itemsText": "nimocaカード番号、生年月日、登録メールアドレス",
+   "notIncl": "氏名、住所、電話番号、性別、利用履歴",
+   "sum": "利用履歴照会サービスが10月4日に第三者の不正アクセスを受け、登録情報の一部を含むメールが登録アドレスに送られた。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月6日に公表。原因と範囲を調査中。",
+   "resp": "10月4日に利用履歴照会サービス全体を停止。カードは通常どおり利用可。コールセンター 050-3616-2155（8〜20時）。",
    "official": [
     [
-     "公式発表",
+     "お知らせ（2026/10/6）",
      "https://www.nimoca.jp/storage/files/information/107/20261006.pdf"
     ]
    ],
@@ -2313,30 +2094,33 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "運輸・交通",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "kufu-machitalk",
    "co": "くふうカンパニー（くふう まちトーク β版）",
-   "date": "2026-10-05",
+   "date": "2026-10-02",
    "types": [
     "不正アクセス"
    ],
    "n": null,
-   "label": "1人以上（総数未公表）",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "label": "1人以上（調査中）",
+   "st": "c",
+   "items": [
+    "mail",
+    "birth"
+   ],
+   "itemsText": "メールアドレス（少なくとも1人で漏えいを確認）、生年月日・性別（漏えいの可能性）",
    "notIncl": "",
-   "sum": "不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "「くふう まちトーク β版」に第三者の不審なアクセスを10月2日に確認。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月5日に公表。範囲と原因を調査中。",
+   "resp": "不正アクセス対策を実施し、10月5日にサービスを停止。個人情報保護委員会に報告し、対象者へ個別に通知。問い合わせ community@kufu.co.jp。",
    "official": [
     [
-     "公式発表",
+     "お知らせとお詫び（2026/10/5）",
      "https://kufu.co.jp/2026/10/05/kufu-announce/"
     ]
    ],
@@ -2346,92 +2130,74 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "whiteessence",
    "co": "ホワイトエッセンス（予約サイト・基幹システム）",
-   "date": "2026-10-05",
+   "date": "2026-08-05",
    "types": [
     "不正アクセス"
    ],
    "n": 1050000,
-   "label": "約105万件",
+   "label": "約105万アカウント",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "脆弱性を突いた攻撃（8月12日に予約サイトなどへの不正アクセスを初報）。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "work",
+    "id"
+   ],
+   "itemsText": "氏名、住所、電話番号、メールアドレス、生年月日、性別、勤務先、ログインID、暗号化パスワード、利用・対応情報など（対象者により異なる）",
+   "notIncl": "口座情報（保有なし）、顧客の画像",
+   "sum": "予約サイトのプログラムの脆弱性を足がかりに、基幹システムへ不正アクセスされた。8月12日に予約サイトと基幹システムを停止。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月5日に公表。マイページ機能は停止中。",
+   "resp": "脆弱性に対処し、不正通信を検知・遮断する仕組みを導入。個人情報保護委員会に報告し、警察に相談。対象者へ順次個別連絡。窓口 0120-385-035。",
    "official": [
     [
-     "公式発表",
+     "お詫びとお知らせ（2026/10/5、本文は画像）",
      "https://www.whiteessence.com/news/news/20261005/"
     ]
    ],
    "src": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=42502"
     ]
    ],
-   "auto": true,
    "last": "2026-10-05",
    "ind": "医療・製薬",
-   "cause": "cyber"
-  },
-  {
-   "id": "moonstar",
-   "co": "ムーンスター",
-   "date": "2026-10-03",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "未公表",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "不正アクセス。顧客情報の漏えいのおそれ。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
-    ]
-   ],
-   "auto": true,
-   "ind": "製造",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "studysapuri",
    "co": "リクルート（スタディサプリ）",
-   "date": "2026-10-03",
+   "date": "2026-09-30",
    "types": [
     "不正アクセス"
    ],
    "n": 3687,
    "label": "3,687件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "脆弱性を突いた攻撃。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（スタディサプリに登録済みかどうかを確認できた可能性）",
+   "notIncl": "氏名、パスワード、決済情報（漏えいは確認されていない）",
+   "sum": "システムの一部機能の仕様の不備を突かれ、特定のメールアドレスが登録されているかを第三者が確認できた可能性。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月3日に公表。機能は修正済み。",
+   "resp": "9月30日に該当機能を修正。緊急点検と監視強化。対象者へ順次個別通知し、問い合わせ窓口を設置。学校・自治体にも個別に連絡。",
    "official": [
     [
-     "公式発表",
+     "お知らせ一覧（2026/10/3掲載）",
      "https://studysapuri.jp/info/important/"
     ]
    ],
@@ -2441,58 +2207,74 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "人材・教育・業務支援",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "alsok-joylife",
    "co": "ALSOKジョイライフ",
-   "date": "2026-10-01",
+   "date": "2026-07-04",
    "types": [
     "不正アクセス"
    ],
    "n": 134,
    "label": "134件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "name",
+    "birth"
+   ],
+   "itemsText": "有料老人ホームの入居者の氏名、生年月日、居室番号、入退去日など",
    "notIncl": "",
-   "sum": "不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "sum": "有料老人ホーム「ベルパージュ奈良あやめ池」の端末が不正アクセスで遠隔操作された。",
+   "status": "closed",
+   "statusText": "10月1日の最終報告で、フォレンジック調査の結果、個人情報の流出を示す事実は確認されなかったと公表。",
+   "resp": "端末をネットワークから切り離し、アカウントを停止。外部のフォレンジック調査。対象者へ通知。セキュリティ管理と研修を強化。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "調査結果のご報告（2026/10/1）",
+     "https://joylife.alsok.co.jp/files/optionallink/00006134_file.pdf"
     ]
    ],
-   "auto": true,
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=42335"
+    ]
+   ],
    "ind": "生活サービス・レジャー",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-10-01",
+   "verified": "2026-10-09"
   },
   {
    "id": "voising",
    "co": "VOISING（BIツール）",
-   "date": "2026-09-30",
+   "date": "2026-08-17",
    "types": [
     "不正アクセス"
    ],
    "n": 170000,
    "label": "約17万件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "BIツールの脆弱性を突いた攻撃（8月18日に初報）。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "deal"
+   ],
+   "itemsText": "氏名、住所、電話番号、メールアドレス、生年月日、性別、購入履歴、決済金額、サービス加入状況、推しのタレント",
+   "notIncl": "クレジットカード番号・有効期限・セキュリティコード、ログインパスワード",
+   "sum": "利用していたBIツールの脆弱性を、ベンダーの修正適用前に突かれた。8月18日に初報。",
+   "status": "closed",
+   "statusText": "9月30日の第4報で最終調査と社内精査の完了を公表。",
+   "resp": "BIツールを停止し、攻撃者のアカウントとAPIキーを無効化、環境を破棄。脆弱性を修正しアクセス経路を制限。第三者のフォレンジック調査、ダークウェブの監視。警察と個人情報保護委員会に報告。対象者へお詫びメール。",
    "official": [
     [
-     "公式発表",
+     "第4報（2026/9/30）",
      "https://voising-official.com/news/1015"
     ]
    ],
@@ -2502,66 +2284,84 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "last": "2026-09-30",
    "ind": "人材・教育・業務支援",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "g-point",
    "co": "Gポイント",
-   "date": "2026-09-30",
+   "date": "2026-09-25",
    "types": [
     "不正アクセス"
    ],
    "n": 70000,
    "label": "最大約7万件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "id"
+   ],
+   "itemsText": "会員識別子",
    "notIncl": "",
-   "sum": "不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "ポイント交換システムへの外部からの不正アクセスを9月25日に確認。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "statusText": "9月30日に公表。サービス停止中。",
+   "resp": "システムを停止し外部アクセスを遮断。停止期間中に期限を迎えるポイントは失効させない。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "お知らせ（2026/9/30）",
+     "https://www.g-plan.net/news/details/20260930.html"
     ]
    ],
-   "auto": true,
+   "src": [
+    [
+     "ケータイ Watch",
+     "https://k-tai.watch.impress.co.jp/docs/news/2145575.html"
+    ]
+   ],
    "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "shueisha-happyplus",
    "co": "集英社（HAPPY PLUS COMMUNITY）",
-   "date": "2026-09-30",
+   "date": "2026-09-09",
    "types": [
     "不正アクセス"
    ],
    "n": 2835,
-   "label": "2,835件",
+   "label": "ブロガー2,835人ほか",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "name",
+    "mail",
+    "addr",
+    "tel",
+    "birth"
+   ],
+   "itemsText": "雑誌ブロガー2,835人の氏名、メールアドレス、住所、電話番号、生年月日、SNSアカウントなど。ほかに企画630件、送信メール11,237件、取引先リスト10,780件（会社名など）",
    "notIncl": "",
-   "sum": "不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "CMSの設定ミスでAPIの認証情報を攻撃され、権限の高いアカウントを作られた。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "9月28日に公表。外部のフォレンジック調査中。",
+   "resp": "不正アカウントを削除し設定を修正。検知を強化。9月25日に対象ブロガーへメール。個人情報保護委員会へ速報。",
+   "official": [
+    [
+     "お詫びとお知らせ（2026/9/28）",
+     "https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf"
+    ]
+   ],
    "src": [
     [
      "SmartScope（国内漏えい事案の集計一覧）",
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "メディア・出版",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "legoland-hotel",
@@ -2572,30 +2372,39 @@
     "委託先経由"
    ],
    "n": 1557,
-   "label": "1,557件",
+   "label": "1,557件（予約単位）",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "外部の予約プラットフォームへの不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "mail",
+    "tel"
+   ],
+   "itemsText": "氏名、メールアドレス、電話番号",
+   "notIncl": "決済情報、パスワード、金融情報、旅券情報",
+   "sum": "公式予約サイトが使うAmadeus社の予約プラットフォームへの不正アクセス。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "statusText": "9月25日に公表。",
+   "resp": "予約内容を使った詐欺への注意喚起。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "お詫びとお知らせ（2026/9/25）",
+     "https://www.legoland.jp/operation/news/news-release/news20260925/"
     ]
    ],
-   "auto": true,
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=41466"
+    ]
+   ],
    "ind": "生活サービス・レジャー",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "ryomo-systems",
    "co": "両毛システムズ（長野都市ガスなどの委託先）",
-   "date": "2026-09-20",
+   "date": "2026-09-28",
    "types": [
     "ランサムウェア",
     "委託先経由"
@@ -2603,16 +2412,21 @@
    "n": 3600,
    "label": "約3,600件（長野都市ガス分）",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "ランサムウェア攻撃（攻撃者グループが犯行声明）。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "長野都市ガスの保安点検（4月1日〜5月16日）の顧客の氏名、住所、電話番号、契約番号",
+   "notIncl": "口座番号、クレジットカード情報",
+   "sum": "委託先・両毛システムズの社内ネットワークのファイルサーバーに外部から不正アクセスされた。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月5日の第2報。詳細を確認中。",
+   "resp": "10月5日から対象者へ書面でお詫び。電話で口座番号や暗証番号を尋ねることはないと注意喚起。委託先が外部の専門家とセキュリティを強化。",
    "official": [
     [
-     "公式発表",
+     "長野都市ガス 第2報（2026/10/5）",
      "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html"
     ]
    ],
@@ -2622,87 +2436,81 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "通信・IT",
-   "cause": "cyber"
-  },
-  {
-   "id": "conoha-wing",
-   "co": "GMOインターネット（ConoHa WING）",
-   "date": "2026-09-20",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 426,
-   "label": "426アカウント",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
-    ]
-   ],
-   "auto": true,
-   "ind": "通信・IT",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-10-05",
+   "verified": "2026-10-09"
   },
   {
    "id": "nichirei",
    "co": "ニチレイ",
-   "date": "2026-09-19",
+   "date": "2026-07-13",
    "types": [
     "不正アクセス"
    ],
    "n": 53866,
    "label": "53,866件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "サイバー攻撃（7月に発覚した不正アクセスの続報）。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "work",
+    "acct"
+   ],
+   "itemsText": "配送先顧客3,308件（氏名、住所、電話番号）、取引先担当者6,849件、従業員・退職者・家族・応募者43,709件（生年月日、社員番号、給与・賞与、在留資格、人事情報など）",
+   "notIncl": "クレジットカード情報",
+   "sum": "7月13日にサイバー攻撃でシステム障害が発生。9月18日の第7報で、サーバーから個人情報が漏えいしたことを確認。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "statusText": "9月18日の第7報。原因を調査中。",
+   "resp": "対象者へ順次個別通知。個人情報保護委員会に9月11日に報告。監視の強化、BCPの見直し、グループのセキュリティ強化。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "第7報（2026/9/18）",
+     "https://www.nichirei.co.jp/news/2026/524.html"
     ]
    ],
-   "auto": true,
-   "last": "2026-09-19",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=41123"
+    ]
+   ],
+   "last": "2026-09-18",
    "ind": "製造",
-   "cause": "cyber"
+   "cause": "cyber",
+   "claim": "RansomHouseが犯行声明（攻撃者側の主張）",
+   "verified": "2026-10-09"
   },
   {
    "id": "chibagin-shop",
    "co": "ちばぎん商店（千葉銀行子会社）",
-   "date": "2026-09-17",
+   "date": "2026-09-03",
    "types": [
     "不正アクセス"
    ],
    "n": 8584,
    "label": "約8,600件（3区分の合計）",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "外部からの不正アクセス。コーポレートサイトにオンラインカジノのコンテンツも表示。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "addr",
+    "mail",
+    "tel",
+    "id",
+    "acct"
+   ],
+   "itemsText": "氏名、住所、メールアドレス、電話番号、ユーザー名。キャッシュバック申込者約31人は口座情報も",
+   "notIncl": "クレジットカード情報、パスワード（保管なし）",
+   "sum": "コーポレートサイトにオンラインカジノのコンテンツが表示され、サーバーへの不正アクセスが判明。2021年6月以降の情報が対象。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "9月17日に公表。第三者のフォレンジック会社と調査中。",
+   "resp": "コーポレートサイトを停止。警察に相談し関係機関へ報告。対象者へ順次連絡。窓口 043-441-7270（平日9〜17時）。",
    "official": [
     [
-     "公式発表",
+     "お知らせ（2026/9/17）",
      "https://shop.c-value.jp/view/news/20260917153001"
     ]
    ],
@@ -2712,42 +2520,60 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-09-17",
+   "verified": "2026-10-09"
   },
   {
    "id": "fivefox",
    "co": "ファイブフォックス",
-   "date": "2026-09-14",
+   "date": "2026-07-08",
    "types": [
     "ランサムウェア"
    ],
    "n": 73185,
    "label": "最大73,185件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "ランサムウェア攻撃（VIP・GOLDランク顧客の情報流出の可能性）。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "birth",
+    "deal",
+    "acct"
+   ],
+   "itemsText": "VIP・GOLD会員59,504件（氏名、住所、電話番号、生年月日、性別、会員番号など）、問い合わせ8,403件、従業員2,450件、旧コムサ従業員2,828件（口座情報を含む）",
+   "notIncl": "クレジットカード情報、マイナンバー",
+   "sum": "7月8日に不正アクセスを確認し、本社サーバーの一部がランサムウェアに感染した可能性を公表。9月8日の第2報で個人情報流出の可能性を公表。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "statusText": "9月8日の第2報。調査中。",
+   "resp": "システムを停止しネットワークを遮断。外部のフォレンジック会社と調査し、警察と行政機関に報告。対象者へ封書で順次通知。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "第2報（2026/9/8）",
+     "https://www.fivefoxes.co.jp/2026/09/post-23.html"
     ]
    ],
-   "auto": true,
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/25/56300.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=40669"
+    ]
+   ],
    "ind": "小売・EC",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-09-08",
+   "verified": "2026-10-09"
   },
   {
    "id": "revisio",
    "co": "REVISIO",
-   "date": "2026-09-09",
+   "date": "2026-09-08",
    "types": [
     "不正アクセス"
    ],
@@ -2755,66 +2581,27 @@
    "label": "未公表",
    "st": "p",
    "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "itemsText": "取引先などの関係者の情報（項目は未公表）",
    "notIncl": "",
-   "sum": "役職員のPCがマルウェアに感染し、保存されていた個人情報が外部に漏えいした可能性。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "役職員が使う業務用PC 1台がマルウェアに感染。PC内に保存されていた情報が外部に漏えいした可能性を否定できない。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
-    ]
-   ],
-   "auto": true,
-   "ind": "通信・IT",
-   "cause": "cyber"
-  },
-  {
-   "id": "omu",
-   "co": "大阪公立大学",
-   "date": "2026-10-02",
-   "types": [
-    "ランサムウェア"
-   ],
-   "n": 130000,
-   "label": "少なくとも約13万件（保管分）",
-   "st": "p",
-   "items": [
-    "addr",
-    "mail",
-    "tel"
-   ],
-   "itemsText": "在学生・卒業生などの住所、メールアドレス、携帯電話番号など（旧大阪市立大学は1995年以降、旧大阪府立大学は2005年以降の学生を含む）。13万件は被害を受けたシステムに保管されていた件数で、漏えい件数ではない",
-   "notIncl": "",
-   "sum": "情報システムを動かす仮想化基盤に侵入され、約500台のサーバーが停止。バックアップの多くも暗号化された。10月5日にランサムウェア攻撃と判断したと公表。",
-   "status": "ongoing",
-   "statusText": "10月5日時点で、持ち出しの有無を調査中。復旧の見通しは未公表。",
-   "resp": "10月2〜8日の全授業を休講し、対面授業は10月9日に再開予定。被災した基盤とは別の緊急お知らせサイトで情報発信。経済支援の申請・手続きの期限を10月22日まで延長。",
+   "statusText": "9月8日に公表。",
+   "resp": "遠隔接続や社内サーバーへの不正アクセスがないことを確認。",
    "official": [
     [
-     "第1報（2026/10/2）",
-     "https://www.omu.moe/news/2026-10-02-outage-1.html"
-    ],
-    [
-     "第2報",
-     "https://www.omu.moe/news/2026-10-02-outage-2.html"
+     "お詫びとお知らせ",
+     "https://revisio.co.jp/news/qlqXjTs7"
     ]
    ],
    "src": [
     [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/osaka-metropolitan-university-ransomware-update-20261005/"
-    ],
-    [
-     "MBSニュース",
-     "https://newsdig.tbs.co.jp/articles/mbs/2990268?display=1"
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/10/56189.html"
     ]
    ],
-   "ind": "大学・学校",
-   "cause": "cyber"
+   "ind": "通信・IT",
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "digital-agency-gss",
@@ -2826,16 +2613,21 @@
    "n": 246000,
    "label": "約24.6万件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "VPNの脆弱性を突いた不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "mail",
+    "tel",
+    "addr"
+   ],
+   "itemsText": "GSSを使う府省庁の職員、独立行政法人の職員、GSSに関わった事業者・個人の氏名、メールアドレス、電話番号、住所",
+   "notIncl": "マイナンバー、口座、年金番号",
+   "sum": "ガバメントソリューションサービス（GSS）にVPNの脆弱性を突いた不正アクセス。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "9月11日に公表。",
+   "resp": "対象者への対応と今後の対策を公表。",
    "official": [
     [
-     "公式発表",
+     "お知らせ（2026/9/11）",
      "https://www.digital.go.jp/news/2026-0911-01"
     ]
    ],
@@ -2849,30 +2641,33 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "公共機関",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "saitama-shibusawamix",
    "co": "埼玉県（渋沢MIX）",
-   "date": "2026-10-07",
+   "date": "2026-10-06",
    "types": [
     "不正アクセス"
    ],
    "n": 2200,
-   "label": "約2,200件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "label": "約2,200人",
+   "st": "c",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "会員・申込者の氏名、メールアドレスなど（一覧の閲覧約2,200人、詳細情報の閲覧3人）",
    "notIncl": "",
-   "sum": "脆弱性を突いた攻撃。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "管理システムの脆弱性を突かれたとみられ、登録情報の一部が書き換えられて不審なメールが送信された。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月7日に公表。侵入経路を調査中。",
+   "resp": "同日中にシステムをインターネットから切り離し、新規の会員申込と施設予約を停止。メールとWebでお詫びし、詳細を閲覧された3人へ個別に連絡。個人情報保護委員会へ報告。システムを最新版に更新。",
    "official": [
     [
-     "公式発表",
+     "お知らせ（2026/10/7）",
      "https://www.pref.saitama.lg.jp/a0803/news/page/news2026100702.html"
     ]
    ],
@@ -2882,143 +2677,144 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "公共機関",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "jogmec",
    "co": "エネルギー・金属鉱物資源機構（JOGMEC）",
-   "date": "2026-10-05",
+   "date": "2026-09-09",
    "types": [
     "不正アクセス"
    ],
    "n": 8500,
    "label": "約8,500件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "役職員約1,100件と外部の約7,400件のメールアドレス",
    "notIncl": "",
-   "sum": "不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "外部機関からの情報提供で、情報システムへの不正アクセスと漏えいの可能性が判明。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "statusText": "10月2日に公表。",
+   "resp": "アクセス制限と通信制御、認証・監視の強化。個人情報保護委員会などに報告。対象者へ順次連絡。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "お詫びとご報告（2026/10/2）",
+     "https://www.jogmec.go.jp/news/information/information_00706.html"
     ]
    ],
-   "auto": true,
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=42327"
+    ]
+   ],
    "ind": "公共機関",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-10-02",
+   "verified": "2026-10-09"
   },
   {
    "id": "jaea-jrr3",
    "co": "日本原子力研究開発機構（JRR-3）",
-   "date": "2026-10-01",
+   "date": "2026-09-25",
    "types": [
     "不正アクセス"
    ],
    "n": 175,
-   "label": "175人（367ファイル）",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "label": "175人（367件）",
+   "st": "c",
+   "items": [
+    "doc"
+   ],
+   "itemsText": "顔写真付きの公的身分証明書の画像200件、特殊健康診断の結果146件、放射線業務従事者の証明書21件など（6人はマイナンバーも）",
    "notIncl": "",
-   "sum": "不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "研究炉JRR-3の外部向け研究支援サイト（クラウド）に不正アクセスされ、利用者がアップロードしたファイルが取得された。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "statusText": "10月1日に公表。",
+   "resp": "9月25日に外部からのアクセスを遮断。対象者へ連絡しお詫び。個人情報保護委員会、関係省庁、警察に報告。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "お知らせ（2026/10/1）",
+     "https://www.jaea.go.jp/02/press2026/p26100105/"
     ]
    ],
-   "auto": true,
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=42233"
+    ]
+   ],
    "ind": "公共機関",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-10-01",
+   "verified": "2026-10-09"
   },
   {
    "id": "osaka-city-interview",
    "co": "大阪市（録画面接システム）",
-   "date": "2026-09-17",
+   "date": "2026-08-09",
    "types": [
     "不正アクセス",
     "委託先経由"
    ],
    "n": 106,
-   "label": "106件",
+   "label": "最大106人",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "name",
+    "mail",
+    "tel"
+   ],
+   "itemsText": "採用試験の申込者の氏名（ふりがな）、メールアドレス、電話番号",
    "notIncl": "",
-   "sum": "録画面接システムへの不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "録画面接システムを提供する事業者が使うデータ分析ツールを経由して、8月9日〜9月7日に不正アクセスされた。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "statusText": "9月15日に公表。",
+   "resp": "事業者が9月7日に侵入を遮断し、個人情報保護委員会と警察に報告。市は9月11日に申込者へ連絡。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "報道発表（2026/9/15）",
+     "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000687493.html"
     ]
    ],
-   "auto": true,
-   "ind": "公共機関",
-   "cause": "cyber"
-  },
-  {
-   "id": "koshigaya-teacher-pc",
-   "co": "越谷市（教員の私物PC）",
-   "date": "2026-09-15",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 36,
-   "label": "36件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "サポート詐欺で教員の私物PCが遠隔操作された。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
    "src": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=40984"
     ]
    ],
-   "auto": true,
    "ind": "公共機関",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-09-15",
+   "verified": "2026-10-09"
   },
   {
    "id": "yamaguchi-u",
    "co": "山口大学",
-   "date": "2026-10-06",
+   "date": "2026-08-26",
    "types": [
     "不正アクセス"
    ],
    "n": 967,
    "label": "967件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "教職員1人のメールボックス内の連絡先（氏名とメールアドレス631件、メールアドレスのみ336件）",
    "notIncl": "",
-   "sum": "アカウントへの不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "教職員がフィッシングサイトにIDとパスワードを入力し、アカウントが乗っ取られて不審なメール463通が送信された。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月6日に公表。",
+   "resp": "アカウントを停止しパスワードを変更。個人情報保護委員会と文部科学省に報告。関係者へお詫びと注意喚起のメール。アカウント管理の強化と研修。",
    "official": [
     [
-     "公式発表",
+     "お詫びとご報告（2026/10/6）",
      "https://www.yamaguchi-u.ac.jp/news/52728/index.html"
     ]
    ],
@@ -3028,9 +2824,10 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "大学・学校",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-10-06",
+   "verified": "2026-10-09"
   },
   {
    "id": "science-tokyo",
@@ -3040,103 +2837,142 @@
     "不正アクセス"
    ],
    "n": null,
-   "label": "未公表",
+   "label": "調査中",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "name",
+    "addr",
+    "mail"
+   ],
+   "itemsText": "東京科学大学と前身校の関係者の氏名、住所、メールアドレス",
    "notIncl": "",
-   "sum": "情報基盤への不正アクセスで個人情報が漏えいした可能性。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "情報基盤に第三者が不正アクセスし、個人情報が漏えいした疑い。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "9月7日の第一報。範囲を調査中。",
+   "resp": "第一報を公表し、問い合わせ窓口を設置。",
+   "official": [
+    [
+     "第一報（2026/9/7）",
+     "https://www.isct.ac.jp/ja/news/mrep3c3mj6bx"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
      "https://scan.netsecurity.ne.jp/article/2026/09/10/56191.html"
     ]
    ],
-   "auto": true,
    "ind": "大学・学校",
-   "cause": "cyber"
+   "cause": "cyber",
+   "verified": "2026-10-09"
   },
   {
    "id": "tokai-u-contractor",
    "co": "東海大学（業務委託先）",
-   "date": "2026-02-24",
+   "date": "2025-11-01",
    "types": [
     "ランサムウェア",
     "委託先経由"
    ],
    "n": 193118,
-   "label": "最大193,118人",
+   "label": "最大193,118人（延べ）",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "業務委託先へのランサムウェア攻撃で、学生らの個人情報が漏えいした可能性（2月24日に調査結果を公表）。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "birth",
+    "id",
+    "acct"
+   ],
+   "itemsText": "氏名、連絡先、生年月日、学籍・職員番号、システムのログイン情報、所属など。一部は健康診断の結果や口座情報も",
+   "notIncl": "クレジットカード情報",
+   "sum": "業務委託先の東海ソフト開発が、盗まれた認証情報で侵入されランサムウェアに感染した。",
+   "status": "closed",
+   "statusText": "2026年2月18日の第2報で調査結果を公表。",
+   "resp": "パスワードの一括リセット、2月17日から対象者へ通知、専用窓口、関係機関への報告、アクセス管理と委託先管理の強化。",
+   "official": [
     [
-     "セキュリティ対策Lab（2026年の事例まとめ）",
-     "https://rocket-boys.co.jp/?p=30997"
+     "第2報（2026/2/18）",
+     "https://www.u-tokai.ac.jp/uploads/2026/02/8f619ff70dd54597ac4189dff04c9dea.pdf"
     ]
    ],
-   "auto": true,
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/06/54778.html"
+    ]
+   ],
    "ind": "大学・学校",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-02-18",
+   "verified": "2026-10-09"
   },
   {
    "id": "nms-kosugi",
    "co": "日本医科大学武蔵小杉病院",
-   "date": "2026-02-01",
+   "date": "2026-02-09",
    "types": [
     "ランサムウェア"
    ],
-   "n": 130000,
-   "label": "約13万人",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "保守用VPN経由でランサムウェアに侵入され、患者・職員の個人情報が漏えい（3月4日に詳細と対策を公表）。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "n": 131700,
+   "label": "約13.17万人",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "birth",
+    "id"
+   ],
+   "itemsText": "患者約13万人のID、氏名、性別、住所、電話番号、生年月日。職員・実習生約1,700人のID、氏名、性別、生年月日",
+   "notIncl": "診療記録、クレジットカード、マイナンバーカードの情報",
+   "sum": "2月9日未明にナースコール端末の異常から発覚。医療機器の保守用VPN装置から侵入され、サーバーがランサムウェアに感染した。",
+   "status": "closed",
+   "statusText": "2月27日の第5報で、基幹システムのセキュリティ強化の完了と再発防止策を公表。",
+   "resp": "基幹システムのセキュリティ強化を完了し、再発防止策を公表。",
+   "official": [
     [
-     "セキュリティ対策Lab（2026年の事例）",
-     "https://rocket-boys.co.jp/?p=31139"
+     "第5報（2026/2/27）",
+     "https://www.nms.ac.jp/kosugi-h/news/_28850.html"
     ]
    ],
-   "auto": true,
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/09/54788.html"
+    ]
+   ],
    "ind": "病院・医療",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-02-27",
+   "verified": "2026-10-09"
   },
   {
    "id": "weathercaster-net",
    "co": "気象キャスターネットワーク",
-   "date": "2026-10-06",
+   "date": "2026-09-24",
    "types": [
     "不正アクセス"
    ],
    "n": 15959,
    "label": "最大15,959件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "name",
+    "mail",
+    "addr",
+    "tel"
+   ],
+   "itemsText": "2018年12月以降の会員・イベント申込者・問い合わせ者の氏名、メールアドレス（一部は住所・電話番号）",
    "notIncl": "",
-   "sum": "不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "NPO法人の公式サイトが9月24日から不正アクセスを受け、改ざんされて外部サイトに誘導される状態になった。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月6日に公表。外部の専門家による調査を準備中。",
+   "resp": "9月30日にサイトを閉鎖しサーバーのファイルを削除。個人情報保護委員会に報告。フィッシングへの注意喚起。",
    "official": [
     [
-     "公式発表",
+     "お詫びとお知らせ（2026/10/6）",
      "https://weathercaster.jp/notices/20261006_notice.pdf"
     ]
    ],
@@ -3146,84 +2982,107 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "団体",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-10-06",
+   "verified": "2026-10-09"
   },
   {
    "id": "yotsukaido-shakyo",
    "co": "四街道市社会福祉協議会",
-   "date": "2026-10-01",
+   "date": "2026-08-30",
    "types": [
     "不正アクセス"
    ],
    "n": 33,
-   "label": "33件",
+   "label": "33人",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "name"
+   ],
+   "itemsText": "ケアプラン利用者の氏名、要介護度、保険の有効期間、利用サービス、短期入所先、かかりつけ医療機関など",
    "notIncl": "",
-   "sum": "サポート詐欺でPCが遠隔操作された。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "居宅介護支援事業所の職員が業務用PCで偽の警告を見て電話し、遠隔操作ソフトを入れられた（サポート詐欺）。約30分間遠隔操作できる状態だった。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "statusText": "9月29日に公表。",
+   "resp": "PCをネットワークから切り離し、外部のフォレンジック調査。個人情報保護委員会に報告。対象者へ個別に連絡。研修と遠隔操作ソフトの制限。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "お詫びとご報告（2026/9/29）",
+     "https://www.yotsukaido-shakyo.or.jp/info.php?id=941"
     ]
    ],
-   "auto": true,
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=41841"
+    ]
+   ],
    "ind": "団体",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-09-29",
+   "verified": "2026-10-09"
   },
   {
    "id": "ihouse-library",
    "co": "国際文化会館（図書室）",
-   "date": "2026-09-29",
+   "date": "2026-09-23",
    "types": [
     "不正アクセス"
    ],
    "n": null,
-   "label": "未公表",
+   "label": "一部の利用者",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "work",
+    "id"
+   ],
+   "itemsText": "法人会員の会社名、法人代表会員のパスワード、元スタッフの初期パスワード。メールアドレス・住所・電話番号・生年月日へのアクセスの形跡はなし",
    "notIncl": "",
-   "sum": "不正アクセスで一部の情報が漏えいした可能性。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "図書室の蔵書検索システム（OPAC）に9月23〜25日に外部から不正アクセス。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "statusText": "9月29日に公表。",
+   "resp": "IDとパスワードを変更し、接続元を制限。脆弱性の修正を適用。対象者へ直接連絡。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "お知らせ（2026/9/29）",
+     "https://ihj.global/news/new/lib_opac/"
     ]
    ],
-   "auto": true,
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=41913"
+    ]
+   ],
    "ind": "団体",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-09-29",
+   "verified": "2026-10-09"
   },
   {
    "id": "ieej",
    "co": "日本エネルギー経済研究所",
-   "date": "2026-09-11",
+   "date": "2026-07-29",
    "types": [
     "不正アクセス"
    ],
-   "n": 13,
-   "label": "旅券13件ほか",
-   "st": "p",
+   "n": null,
+   "label": "メール5,417件・ファイル3,272件の閲覧痕跡",
+   "st": "c",
    "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "itemsText": "所員6人のメールとファイル（ダウンロードの痕跡2,798件）。個人情報の項目は公表資料で要確認",
    "notIncl": "",
-   "sum": "フィッシングで所員のMicrosoft 365アカウントが乗っ取られた。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "フィッシングでMicrosoft 365のアカウントに不正アクセスされ、メールやファイルを閲覧・ダウンロードされた。外部からの連絡で7月29日に判明。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "9月11日に公表。",
+   "resp": "外部の専門機関と調査。",
+   "official": [
+    [
+     "お詫びとお知らせ（2026/9/11）",
+     "https://eneken.ieej.or.jp/press/press260911.pdf"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
@@ -3234,99 +3093,76 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
    "ind": "団体",
-   "cause": "cyber"
+   "cause": "cyber",
+   "last": "2026-09-11",
+   "verified": "2026-10-09"
   },
   {
    "id": "coop-yamaguchi",
    "co": "生活協同組合コープやまぐち（LINEミニアプリ）",
-   "date": "2026-09-07",
+   "date": "2026-08-27",
    "types": [
     "不正アクセス"
    ],
-   "n": null,
-   "label": "未公表",
+   "n": 217295,
+   "label": "217,295件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "LINEミニアプリへの不正アクセスでデータベースの全データが削除され、漏えいの可能性がある情報を確定。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "tel",
+    "addr",
+    "mail",
+    "deal",
+    "id"
+   ],
+   "itemsText": "組合員コード、名字、電話番号、郵便番号、ここカードの番号とPIN番号など。一部の注文者は氏名、住所、メールアドレスも",
+   "notIncl": "クレジットカード情報、口座情報、パスワード、要配慮個人情報",
+   "sum": "委託先が開発・運用する「コープやまぐちLINEミニアプリ」のデータベースに不正アクセスされ、全データが削除された。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "9月7日の第2報で、漏えいのおそれがある情報を確定。",
+   "resp": "外部の専門家と調査。対象者へ通知。",
+   "official": [
+    [
+     "第2報（2026/9/7）",
+     "https://www.yamaguti-coop.or.jp/line-miniapp-incident-report2/"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
      "https://scan.netsecurity.ne.jp/article/2026/09/24/56292.html"
     ]
    ],
-   "auto": true,
    "ind": "団体",
-   "cause": "cyber"
-  },
-  {
-   "id": "kanagawa-police-licenses",
-   "co": "神奈川県警察（保土ケ谷警察署）",
-   "date": "2026-10-09",
-   "types": [
-    "内部不正"
-   ],
-   "cause": "insider",
-   "n": 30,
-   "label": "約30枚",
-   "st": "p",
-   "items": [
-    "doc",
-    "name",
-    "addr",
-    "birth"
-   ],
-   "itemsText": "更新時に回収した期限切れの運転免許証の現物（氏名、住所、生年月日、顔写真などが記載）",
-   "notIncl": "",
-   "sum": "保土ケ谷署警備課の20代の巡査長が、回収した期限切れの運転免許証約30枚を無断で持ち出していた。8月下旬に酒に酔って駅のホームにリュックサックを置き忘れ、駅員が中の免許証を見つけて警察に届けたことで発覚した。",
-   "status": "ongoing",
-   "statusText": "10月9日に報道。持ち出しの理由を調べている。",
-   "resp": "持ち出しの理由を調べ、処分を検討。警備部門の情報収集のあり方を調査。警備部門が監視対象者の個人情報を確認する手段として使っていたものではないと説明。犯罪などへの悪用は確認されていない。",
-   "official": [],
-   "src": [
-    [
-     "ANNニュース（KSB）",
-     "https://news.ksb.co.jp/ann/article/16951974"
-    ],
-    [
-     "NHK",
-     "https://news.web.nhk/newsweb/na/nd-20261009de56928"
-    ],
-    [
-     "日本経済新聞",
-     "https://www.nikkei.com/article/DGXZQOUD087J80Y6A001C2000000/"
-    ]
-   ],
-   "ind": "公共機関"
+   "cause": "cyber",
+   "last": "2026-09-07",
+   "verified": "2026-10-09"
   },
   {
    "id": "osaka-museum-mail",
-   "co": "大阪市・大阪市博物館機構",
-   "date": "2026-10-08",
+   "co": "大阪市博物館機構（大阪歴史博物館）",
+   "date": "2026-10-07",
    "types": [
     "誤送信・誤掲載"
    ],
    "cause": "mis",
    "n": 4,
-   "label": "4件",
+   "label": "4人",
    "st": "c",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "mail",
+    "name"
+   ],
+   "itemsText": "ボランティア4人のメールアドレス（1人は氏名も）",
    "notIncl": "",
-   "sum": "メールを宛先が見える状態で送信。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "ボランティアへのメールを、BCCではなくCCで送ったため、互いのアドレスが見える状態になった。8月・9月の大阪市立美術館に続く事案。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月8日に公表。",
+   "resp": "電話でお詫びしメールの削除を依頼。一斉メールをBCC設定にし、送信前の複数人チェックを義務化する予定。",
    "official": [
     [
-     "公式発表",
+     "報道発表（2026/10/8）",
      "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000688772.html"
     ]
    ],
@@ -3336,46 +3172,13 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
-   "ind": "公共機関"
-  },
-  {
-   "id": "saitama-city-medical-media",
-   "co": "さいたま市民医療センター（電子記録媒体）",
-   "date": "2026-10-06",
-   "types": [
-    "紛失・盗難"
-   ],
-   "cause": "loss",
-   "n": 200,
-   "label": "画像約200枚",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "個人情報を含む電子記録媒体を紛失。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [
-    [
-     "公式発表",
-     "https://www.scmc.or.jp/contents/wp-content/uploads/2026/10/5763ad0a659a6fd25698aef32192d6f9.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
-    ]
-   ],
-   "auto": true,
-   "ind": "病院・医療"
+   "ind": "公共機関",
+   "verified": "2026-10-09"
   },
   {
    "id": "furusato-choice",
    "co": "トラストバンク（ふるさとチョイス）",
-   "date": "2026-10-05",
+   "date": "2026-09-07",
    "types": [
     "設定ミス・不具合"
    ],
@@ -3383,16 +3186,21 @@
    "n": 254,
    "label": "254件",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "システムの不具合で他人の情報が表示された。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "氏名、住所、電話番号、メールアドレス、返礼品の配送先",
+   "notIncl": "クレジットカード番号・セキュリティコード（保管なし）",
+   "sum": "Amazon Payで寄付する際の不具合で、別の利用者の申込情報が画面に表示されることがあった（2025年11月13日〜2026年9月7日）。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "10月5日に公表。システムは修正済みで、影響を調査中。",
+   "resp": "Amazon Payでの寄付を一時停止し、利用者識別子が欠けた場合に処理を止めるよう修正。当局へ報告し、対象者へ連絡。",
    "official": [
     [
-     "公式発表",
+     "お詫びとお知らせ（2026/10/5）",
      "https://www.trustbank.co.jp/newsroom/news/news261005/"
     ]
    ],
@@ -3402,61 +3210,38 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
-   "ind": "通信・IT"
-  },
-  {
-   "id": "offerbox",
-   "co": "i-plug（OfferBox）",
-   "date": "2026-10-05",
-   "types": [
-    "設定ミス・不具合"
-   ],
-   "cause": "config",
-   "n": 314009,
-   "label": "理論上の最大314,009件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "設定の不備で情報が閲覧可能な状態になっていた。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [
-    [
-     "公式発表",
-     "https://i-plug.co.jp/news/11334/"
-    ]
-   ],
-   "src": [
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
-    ]
-   ],
-   "auto": true,
-   "ind": "人材・教育・業務支援"
+   "ind": "通信・IT",
+   "last": "2026-10-05",
+   "verified": "2026-10-09"
   },
   {
    "id": "benefit-one",
    "co": "ベネフィット・ワン（ベネワン・プラットフォーム）",
-   "date": "2026-09-30",
+   "date": "2026-07-30",
    "types": [
     "設定ミス・不具合"
    ],
    "cause": "config",
    "n": 13460,
-   "label": "13,460件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "label": "13,460人（2,322社・団体）",
+   "st": "c",
+   "items": [
+    "name",
+    "birth",
+    "work"
+   ],
+   "itemsText": "社員・職員番号、氏名、性別、生年月日、企業・団体名、所属・役職、入退社情報",
    "notIncl": "",
-   "sum": "アンケート機能の不具合で、他の企業・団体の個人情報をダウンロードできる状態だった。不具合を認識しながら解消作業が適切に行われていなかった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "アンケート結果のダウンロード機能の不具合で、他の企業・団体の社員情報が見られる状態だった。2025年6月の改修で生じ、10月に把握したが修正が適切に行われていなかった。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "9月30日に公表。",
+   "resp": "ダウンロードした1社にデータの削除を確認。原因を調査し、管理体制を強化。",
+   "official": [
+    [
+     "お知らせとお詫び（2026/9/30）",
+     "https://corp.benefit-one.co.jp/company/news/news/2026/20260930/20260930.pdf"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
@@ -3467,41 +3252,14 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
-   "ind": "人材・教育・業務支援"
-  },
-  {
-   "id": "ticketplus",
-   "co": "チケットプラス",
-   "date": "2026-10-02",
-   "types": [
-    "設定ミス・不具合"
-   ],
-   "cause": "config",
-   "n": 107,
-   "label": "最大107件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "Webキャッシュの設定の誤りで他人の情報が表示された。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
-    ]
-   ],
-   "auto": true,
-   "ind": "生活サービス・レジャー"
+   "ind": "人材・教育・業務支援",
+   "last": "2026-09-30",
+   "verified": "2026-10-09"
   },
   {
    "id": "greencoop-fukuoka",
    "co": "グリーンコープ生協ふくおか",
-   "date": "2026-10-02",
+   "date": "2026-09-17",
    "types": [
     "紛失・盗難"
    ],
@@ -3510,15 +3268,15 @@
    "label": "33,526件",
    "st": "p",
    "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "業務用PCが盗まれた。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "itemsText": "組合員の情報など（データにより異なる）",
+   "notIncl": "口座、クレジットカード、メールアドレス",
+   "sum": "業務用パソコン1台が駐車中の車内から盗まれた。グリーンコープさがの組合員367件、びん牛乳を予約中の組合員33,118件、交通事故関係41件。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
+   "statusText": "警察が窃盗事件として捜査中。",
+   "resp": "警察に被害届、個人情報保護委員会へ報告。共有フォルダへのアクセス停止とメールアカウントの削除。対象者へ書面を順次送付。窓口 0120-121-265（平日9〜17時30分）。持ち出しルールの見直しなど。",
    "official": [
     [
-     "公式発表",
+     "業務用パソコン盗難に関するお知らせ",
      "https://greencoop-fukuoka.jp/wordpress/wp-content/uploads/2026/10/9670516f522e32fb88f5e4899455b2ca.pdf"
     ]
    ],
@@ -3528,144 +3286,102 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
-   "ind": "団体"
+   "ind": "団体",
+   "verified": "2026-10-09"
   },
   {
    "id": "nichii-kaigo",
    "co": "ニチイ学館",
-   "date": "2026-10-02",
+   "date": "2026-09-11",
    "types": [
     "設定ミス・不具合"
    ],
    "cause": "config",
    "n": 583,
-   "label": "583件",
+   "label": "583人",
    "st": "p",
    "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "サーバーの設定ミスで個人情報が閲覧可能な状態だった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "itemsText": "問い合わせフォームの自由記述欄に書かれた内容（氏名、健康状態や障がいの状況など。うち99人は要配慮個人情報）",
+   "notIncl": "暗号化されていた顧客欄（氏名、住所、電話番号、メールアドレス）",
+   "sum": "介護サイトの問い合わせデータのバックアップファイルが、2020年5月から公開領域に置かれたままになっていた。URLを知れば誰でもダウンロードできた。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "10月2日に公表。",
+   "resp": "ファイルを削除。個人情報保護委員会へ報告。対象者へ個別に通知予定。窓口 0120-401-151（9〜17時）。委託先の点検と監査。",
+   "official": [
+    [
+     "お知らせ（2026/10/2）",
+     "https://www.nichiigakkan.co.jp/topics/assets/2ba7ca6c5a8a249293493f6eb40ad90b9be2ce78.pdf"
+    ]
+   ],
    "src": [
     [
      "セキュリティ対策Lab",
      "https://rocket-boys.co.jp/security-measures-lab/nichii-kaigo-personal-data-exposure-20261002/"
-    ],
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
-   "ind": "医療・製薬"
-  },
-  {
-   "id": "obihiro-post",
-   "co": "日本郵便（帯広郵便局）",
-   "date": "2026-09-30",
-   "types": [
-    "内部不正"
-   ],
-   "cause": "insider",
-   "n": null,
-   "label": "未公表",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "社員が業務で知った個人情報を不正に利用した。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
-    ]
-   ],
-   "auto": true,
-   "ind": "運輸・交通"
-  },
-  {
-   "id": "saitama-city-medical-staff",
-   "co": "さいたま市民医療センター（職員向けページ）",
-   "date": "2026-09-30",
-   "types": [
-    "設定ミス・不具合"
-   ],
-   "cause": "config",
-   "n": null,
-   "label": "未公表",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "設定の誤りで情報が閲覧可能な状態だった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
-    ]
-   ],
-   "auto": true,
-   "ind": "病院・医療"
+   "ind": "医療・製薬",
+   "last": "2026-10-02",
+   "verified": "2026-10-09"
   },
   {
    "id": "osaka-art-museum",
    "co": "大阪市（大阪市立美術館）",
-   "date": "2026-09-24",
+   "date": "2026-09-10",
    "types": [
     "誤送信・誤掲載"
    ],
    "cause": "mis",
    "n": 30,
-   "label": "30件",
+   "label": "30人",
    "st": "c",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "講座参加者の氏名、メールアドレス",
    "notIncl": "",
-   "sum": "メールの誤送信。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "講座参加者1人に送るメールの宛先にグループのアドレスを入れたため、全員の情報が見える状態になった。受信者からの連絡で9月16日に判明。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "statusText": "9月24日に公表。",
+   "resp": "お詫びと再発防止。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "報道発表（2026/9/24）",
+     "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000687654.html"
     ]
    ],
-   "auto": true,
-   "ind": "公共機関"
+   "src": [],
+   "ind": "公共機関",
+   "last": "2026-09-24",
+   "verified": "2026-10-09"
   },
   {
    "id": "aichi-aikon-navi",
    "co": "愛知県（あいこんナビ）",
-   "date": "2026-09-22",
+   "date": "2026-09-20",
    "types": [
     "誤送信・誤掲載"
    ],
    "cause": "mis",
    "n": 599,
-   "label": "599件",
+   "label": "599人",
    "st": "c",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "name",
+    "work"
+   ],
+   "itemsText": "氏名、ふりがな、年齢、最終学歴、職業、勤務先の市町村、身長、趣味、特技、続柄",
    "notIncl": "",
-   "sum": "出会いサポートポータルサイトで、非公開の個人情報と気付かずに承認・掲載した。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "出会いサポートポータルサイト「あいこんナビ」で、イベント主催者の非公開資料をイベント情報として掲載してしまった。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "9月22日に公表。",
+   "resp": "掲載を削除し、承認手順を見直す。",
+   "official": [
+    [
+     "お知らせ（2026/9/22更新）",
+     "https://www.pref.aichi.jp/press-release/aiconnavikisya202609.html"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
@@ -3676,112 +3392,117 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
-   "ind": "公共機関"
+   "ind": "公共機関",
+   "last": "2026-09-22",
+   "verified": "2026-10-09"
   },
   {
    "id": "istyle-cosme",
    "co": "アイスタイル（@cosme）",
-   "date": "2026-09-16",
+   "date": "2026-09-02",
    "types": [
     "設定ミス・不具合"
    ],
    "cause": "config",
-   "n": null,
-   "label": "未公表",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "n": 10997,
+   "label": "10,997人",
+   "st": "c",
+   "items": [
+    "mail",
+    "id"
+   ],
+   "itemsText": "メールアドレス、メールマガジンの配信設定、ユーザーID",
    "notIncl": "",
-   "sum": "社内のファイル受け渡しに外部のファイル転送サービスを使い、登録された個人情報が20分間閲覧可能な状態になった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "社内でのファイル受け渡しに外部のファイル転送サービスを使い、公開設定を誤ったため、約20分間URLを知る人がダウンロードできる状態だった。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "9月16日に公表。",
+   "resp": "お知らせとお詫びを公表。",
+   "official": [
+    [
+     "お知らせとお詫び（2026/9/16）",
+     "https://www.istyle.co.jp/news/info/2026/09/20260916-3.html"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
      "https://scan.netsecurity.ne.jp/article/2026/09/28/56314.html"
     ]
    ],
-   "auto": true,
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "last": "2026-09-16",
+   "verified": "2026-10-09"
   },
   {
    "id": "prudential-ex-employee",
    "co": "プルデンシャル生命保険",
-   "date": "2026-09-15",
+   "date": "2026-06-01",
    "types": [
     "内部不正"
    ],
    "cause": "insider",
    "n": 1570,
-   "label": "1,570件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "label": "1,570人",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "addr",
+    "deal",
+    "work"
+   ],
+   "itemsText": "氏名、電話番号、住所、加入商品名、証券番号、勤務先名、契約状況、被保険者氏名など",
    "notIncl": "",
-   "sum": "元社員が個人情報を持ち出し、紛失した。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
+   "sum": "多摩支社の元営業社員が在職中に顧客情報を含む書類を持ち出し、退職後に紛失。拾った第三者からの連絡で6月に発覚。私用スマートフォンにも顧客の連絡先が残っていた。",
+   "status": "closed",
+   "statusText": "9月14日に公表。書類は全て回収済み。",
+   "resp": "書類を回収し、スマートフォンの連絡先を削除。対象者へ説明しお詫び。当局に報告。研修の見直しと退職時の確認手順の強化。",
+   "official": [
     [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+     "お詫びとお知らせ（2026/9/14）",
+     "https://www.prudential.co.jp/news/pdf/1028/20260914.pdf"
     ]
    ],
-   "auto": true,
-   "ind": "金融・保険"
-  },
-  {
-   "id": "sankei-respection",
-   "co": "産業経済新聞社（RESPECTion!シンポジウム）",
-   "date": "2026-09-11",
-   "types": [
-    "設定ミス・不具合"
-   ],
-   "cause": "config",
-   "n": null,
-   "label": "未公表",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "参加申込フォームの設定不備で、他の申込者の回答内容が閲覧可能だった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
    "src": [
     [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/10/01/56355.html"
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=40791"
     ]
    ],
-   "auto": true,
-   "ind": "メディア・出版"
+   "ind": "金融・保険",
+   "last": "2026-09-14",
+   "verified": "2026-10-09"
   },
   {
    "id": "mitsui-ocean-cruise",
-   "co": "商船三井クルーズ（MITSUI OCEAN SAKURA）",
-   "date": "2026-09-10",
+   "co": "商船三井クルーズ（外部記憶媒体の紛失）",
+   "date": "2026-07-01",
    "types": [
     "紛失・盗難"
    ],
    "cause": "loss",
    "n": null,
-   "label": "約20万ファイルを調査",
+   "label": "調査中（約20万ファイルを精査）",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "name",
+    "birth",
+    "doc",
+    "tel",
+    "acct"
+   ],
+   "itemsText": "氏名、生年月日、旅券番号、連絡先、医療・アレルギー情報など。乗組員は口座や給与の情報も",
    "notIncl": "",
-   "sum": "営業情報を保存した外部記憶媒体を、就航準備中のクルーズ船内で紛失。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "引退した「にっぽん丸」のPCから「MITSUI OCEAN SAKURA」のPCへデータを移すのに使った外部記憶媒体の一部が見つからない。7月に保管庫の点検で判明。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "9月10日に公表。バックアップファイルを精査中。",
+   "resp": "船内を捜索したが見つかっていない。",
+   "official": [
+    [
+     "お知らせ（2026/9/10）",
+     "https://www.mitsuioceancruises.com/news/20260910.html"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
@@ -3792,8 +3513,9 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true,
-   "ind": "運輸・交通"
+   "ind": "運輸・交通",
+   "last": "2026-09-10",
+   "verified": "2026-10-09"
   },
   {
    "id": "kamakura-aozora",
@@ -3807,109 +3529,99 @@
    "label": "未公表",
    "st": "c",
    "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "itemsText": "誤って送付された個人情報（項目は未公表）",
    "notIncl": "",
-   "sum": "個人情報を誤って送付。保育上の不適切な対応も確認された。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "sum": "指定管理者が運営する児童発達支援センターで個人情報の誤送付があり、5年間で13件の個人情報管理の問題が判明。保育上の不適切な対応も確認された。",
+   "status": "closed",
+   "statusText": "9月10日に、指定管理者の点検結果と再発防止策を公表。",
+   "resp": "市が指定管理者（社会福祉法人県央福祉会）に業務の点検と再発防止策の報告を指示し、結果を公表。",
+   "official": [
+    [
+     "取組状況について（2026/9/10）",
+     "https://www.city.kamakura.kanagawa.jp/kisya/data/2026/20260910.html"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
      "https://scan.netsecurity.ne.jp/article/2026/09/30/56341.html"
     ]
    ],
-   "auto": true,
-   "ind": "公共機関"
+   "ind": "公共機関",
+   "verified": "2026-10-09"
   },
   {
    "id": "saitama-masking",
    "co": "埼玉県（情報公開の黒塗り不備）",
-   "date": "2026-09-10",
+   "date": "2026-08-27",
    "types": [
     "誤送信・誤掲載"
    ],
    "cause": "mis",
-   "n": null,
-   "label": "未公表",
+   "n": 536,
+   "label": "536人（延べ）",
    "st": "c",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "開示文書の不開示情報の黒塗りが不完全で、個人情報が読める状態だった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "name",
+    "deal"
+   ],
+   "itemsText": "専門学校2校の授業料減免を受けた学生の学科、氏名、学年、入学月、授業料の区分と金額、支援額など",
+   "notIncl": "連絡先",
+   "sum": "情報公開請求で開示した電子文書の黒塗りが不完全で、操作すると不開示部分が読める状態だった。受け取った人からの連絡で判明。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "9月10日に公表。",
+   "resp": "周知の徹底と再発防止。",
+   "official": [
+    [
+     "お知らせ（2026/9/10）",
+     "https://www.pref.saitama.lg.jp/a0204/news/page/news2026091001.html"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
      "https://scan.netsecurity.ne.jp/article/2026/09/29/56327.html"
     ]
    ],
-   "auto": true,
-   "ind": "公共機関"
+   "ind": "公共機関",
+   "last": "2026-09-10",
+   "verified": "2026-10-09"
   },
   {
    "id": "ichini-senkyo",
    "co": "イチニ（選挙ドットコム）",
-   "date": "2026-09-10",
+   "date": "2026-09-06",
    "types": [
     "誤送信・誤掲載"
    ],
    "cause": "mis",
-   "n": null,
-   "label": "未公表",
+   "n": 339,
+   "label": "339件",
    "st": "c",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "「個別お打合せのご提案」と題するメールを誤送信。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス",
+   "notIncl": "氏名、住所、電話番号、アンケートの回答",
+   "sum": "「個別お打合せのご提案」と題するメールを、宛先欄にアドレスを並べて送った。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
+   "statusText": "9月10日に公表。",
+   "resp": "お詫びを公表。",
+   "official": [
+    [
+     "お詫び（2026/9/10）",
+     "https://ichi-ni.jp/info/2026091002/"
+    ]
+   ],
    "src": [
     [
      "ScanNetSecurity",
      "https://scan.netsecurity.ne.jp/article/2026/09/29/56330.html"
     ]
    ],
-   "auto": true,
-   "ind": "メディア・出版"
-  },
-  {
-   "id": "kyoto-sanga",
-   "co": "京都パープルサンガ（ファンクラブ）",
-   "date": "2026-09-08",
-   "types": [
-    "誤送信・誤掲載"
-   ],
-   "cause": "mis",
-   "n": 15612,
-   "label": "15,612件",
-   "st": "c",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "メールの誤送信でファンクラブ会員情報が漏えい。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
-   "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/09/25/56301.html"
-    ],
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
-    ]
-   ],
-   "auto": true,
-   "ind": "生活サービス・レジャー"
+   "ind": "メディア・出版",
+   "last": "2026-09-10",
+   "verified": "2026-10-09"
   }
  ],
  "statusLabels": {
@@ -3940,5 +3652,7 @@
   "mis": "誤送信・誤掲載",
   "insider": "内部不正",
   "config": "設定ミス・不具合"
- }
+ },
+ "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
+ "pendingCount": 21
 }
