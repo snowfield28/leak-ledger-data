@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>国内サイバー被害企業台帳</title>
+<title>国内サイバー被害台帳</title>
 <style>
 /* Layout: 1カラムのダッシュボード。集計タイル → 流出件数の横棒 → 流出した情報の内訳 → 事案の表。行をタップすると下から詳細シートが開く */
 :root{
@@ -62,6 +62,9 @@ input[type=search]{width:100%;font:inherit;font-size:16px;color:var(--ink);backg
 .hscroll::-webkit-scrollbar{display:none}
 .chip{flex:0 0 auto;font:inherit;font-size:12.5px;padding:6px 11px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;white-space:nowrap}
 .chip[aria-pressed="true"]{background:var(--bar);border-color:var(--bar);color:var(--bg)}
+.selrow{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.selrow select,.daterow input{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 10px;min-width:0}
+.daterow{display:grid;grid-template-columns:1fr auto 1fr;gap:6px;align-items:center;font-size:12px;color:var(--muted)}
 .sep{flex:0 0 1px;background:var(--line);margin-block:4px}
 .meta{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:-8px}
 .meta button{font:inherit;font-size:12px;color:var(--accent);background:none;border:none;padding:0;cursor:pointer}
@@ -121,7 +124,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 
 
 <div class="app">
-  <div class="head"><h1>国内サイバー被害企業台帳</h1><span class="ver"></span></div>
+  <div class="head"><h1>国内サイバー被害台帳</h1><span class="ver"></span></div>
   <div class="upd" id="upd"></div>
 
   <div class="tiles" id="tiles"></div>
@@ -132,6 +135,11 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
     <div class="axis" aria-hidden="true"><span></span><span class="ticks"><span style="left:0">1万</span><span style="left:28.57%">10万</span><span style="left:57.14%">100万</span><span style="left:85.71%">1,000万</span></span><span></span></div>
   </section>
 
+  <section class="panel" aria-labelledby="h-ind">
+    <h2 id="h-ind">業種別の事案数 <small>タップで絞り込み</small></h2>
+    <div class="bars" id="indBars"></div>
+  </section>
+
   <section class="panel" aria-labelledby="h-items">
     <h2 id="h-items">流出した情報 <small>タップで絞り込み</small></h2>
     <div class="items" id="items"></div>
@@ -139,6 +147,14 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 
   <div class="filters">
     <input type="search" id="q" placeholder="企業名・キーワードで検索" aria-label="企業名・キーワードで検索">
+    <div class="selrow">
+      <select id="ind" aria-label="業種"><option value="">すべての業種</option></select>
+      <select id="period" aria-label="期間">
+        <option value="">すべての期間</option><option value="7">直近1週間</option><option value="30">直近1か月</option><option value="91">直近3か月</option>
+        <option value="y2026">2026年</option><option value="pre2026">2025年以前</option><option value="custom">期間を指定…</option>
+      </select>
+    </div>
+    <div class="daterow" id="daterow" hidden><input type="date" id="from" aria-label="開始日"><span>〜</span><input type="date" id="to" aria-label="終了日"></div>
     <div class="hscroll" id="chips"></div>
   </div>
   <div class="meta"><span id="count"></span><button id="clear" hidden>絞り込みを解除</button></div>
@@ -148,34 +164,42 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
     <tbody id="rows"></tbody>
   </table>
 
-  <p class="foot">「未確認」は集計サイトの一覧だけを元に載せた事案で、内容を公式発表で確かめていません。「直近1か月」は、発生日か最新の続報の日付が直近30日以内の事案です。件数は企業の公表値で、人数と件数が混在し、重複を含む場合があります。「調査完了」は調査結果や最終報が公表された事案です。流出した情報で複数選ぶと、すべてを含む事案に絞り込みます。分類は出典に書かれた項目だけを元にしています。</p>
+  <p class="foot">「未確認」は集計サイトの一覧だけを元に載せた事案で、内容を公式発表で確かめていません。期間は、発生日か最新の続報の日付で判定します。業種は企業の主な事業をもとにした台帳独自の分類です。件数は企業の公表値で、人数と件数が混在し、重複を含む場合があります。「調査完了」は調査結果や最終報が公表された事案です。流出した情報で複数選ぶと、すべてを含む事案に絞り込みます。分類は出典に書かれた項目だけを元にしています。</p>
 </div>
 
 <div id="sheetRoot"></div>
 
 <script>
-let DB={cases:[],itemLabels:{},statusLabels:{},updated:""},LABELS={},SL={};
+let DB={cases:[],itemLabels:{},statusLabels:{},industries:[],updated:""},LABELS={},SL={};
 const PAGE="https://snowfield28.github.io/leak-ledger-data/";
-const S={q:"",type:"",st:"",res:"",sort:"date",sel:new Set(),recent:"",noauto:""};
+const S={q:"",type:"",st:"",res:"",sort:"date",sel:new Set(),noauto:"",ind:"",period:"",from:"",to:""};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const short=co=>co.split("（")[0].split("／")[0];
 const LMIN=4,LMAX=7.5;
 const lpos=n=>!n?0:Math.max(1,Math.min(100,(Math.log10(n)-LMIN)/(LMAX-LMIN)*100));
-const fmt=n=>n==null?"—":n>=1e4?(Math.round(n/1e3)/10).toLocaleString("ja-JP")+"万":n.toLocaleString("ja-JP");
+const fmt=n=>n==null?"—":n>=1e8?(Math.round(n/1e7)/10).toLocaleString("ja-JP")+"億":n>=1e4?(Math.round(n/1e3)/10).toLocaleString("ja-JP")+"万":n.toLocaleString("ja-JP");
 const md=s=>s.replace(/-/g,".");
 
+function inPeriod(d){
+  const key=d.last||d.date;
+  if(!S.period)return true;
+  if(S.period==="y2026")return key>="2026-01-01";
+  if(S.period==="pre2026")return d.date<"2026-01-01";
+  if(S.period==="custom")return (!S.from||key>=S.from)&&(!S.to||d.date<=S.to);
+  const t=new Date(DB.updated+"T00:00:00");t.setDate(t.getDate()-Number(S.period));
+  return key>=t.toISOString().slice(0,10);
+}
 function filtered(){
   const q=S.q.trim().toLowerCase();
-  const since=(()=>{const t=new Date(DB.updated+"T00:00:00");t.setDate(t.getDate()-30);return t.toISOString().slice(0,10)})();
-  return DB.cases.filter(d=>(!S.recent||(d.last||d.date)>=since)&&(!S.noauto||!d.auto)&&(!S.type||d.types.includes(S.type))&&(!S.st||d.st===S.st)&&(!S.res||d.status===S.res)&&[...S.sel].every(k=>d.items.includes(k))&&(!q||(d.co+d.sum+d.itemsText+(d.claim||"")+(d.resp||"")).toLowerCase().includes(q)))
+  return DB.cases.filter(d=>inPeriod(d)&&(!S.ind||d.ind===S.ind)&&(!S.noauto||!d.auto)&&(!S.type||d.types.includes(S.type))&&(!S.st||d.st===S.st)&&(!S.res||d.status===S.res)&&[...S.sel].every(k=>d.items.includes(k))&&(!q||(d.co+d.sum+d.itemsText+(d.claim||"")+(d.resp||"")+(d.ind||"")).toLowerCase().includes(q)))
     .sort(S.sort==="size"?(a,b)=>(b.n||0)-(a.n||0):(a,b)=>b.date.localeCompare(a.date));
 }
 const chip=(label,on,act)=>`<button class="chip" aria-pressed="${on}" data-act="${esc(act)}">${esc(label)}</button>`;
 function renderChips(){
   const tg=(g,v,l)=>chip(l,S[g]===v,`${g}:${S[g]===v?"":v}`);
   $("#chips").innerHTML=
-    tg("recent","1","直近1か月")+tg("noauto","1","未確認を除く")+'<span class="sep"></span>'+
+    tg("noauto","1","未確認を除く")+'<span class="sep"></span>'+
     tg("type","ランサムウェア","ランサムウェア")+tg("type","不正アクセス","不正アクセス")+tg("type","委託先経由","委託先経由")+'<span class="sep"></span>'+
     tg("st","c","漏えい確認")+tg("st","p","漏えいの可能性")+'<span class="sep"></span>'+
     tg("res","ongoing","調査中")+tg("res","closed","調査完了")+'<span class="sep"></span>'+
@@ -199,9 +223,12 @@ function render(){
     const c=rows.filter(d=>d.items.includes(k)).length;
     return `<button class="it" data-act="item:${k}" aria-pressed="${S.sel.has(k)}"><span class="l">${esc(v)}</span><span class="c"><span class="m"><i style="width:${c/maxc*100}%"></i></span>${c}件</span></button>`}).join("");
   $("#count").textContent=`${rows.length} / ${DB.cases.length} 件を表示`;
-  $("#clear").hidden=!(S.type||S.st||S.res||S.sel.size||S.q||S.recent||S.noauto);
+  $("#clear").hidden=!(S.type||S.st||S.res||S.sel.size||S.q||S.noauto||S.ind||S.period);
+  const byInd=(DB.industries||[]).map(k=>[k,rows.filter(d=>d.ind===k).length]).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]);
+  const mi=Math.max(1,...byInd.map(x=>x[1]));
+  $("#indBars").innerHTML=byInd.length?byInd.map(([k,c])=>`<button class="brow" data-ind="${esc(k)}" aria-pressed="${S.ind===k}" aria-label="${esc(k)} ${c}件"><span class="bname">${esc(k)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mi*100}%;${S.ind&&S.ind!==k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
   $("#rows").innerHTML=rows.length?rows.map(d=>`<tr data-open="${esc(d.id)}" tabindex="0">
-    <td><div class="cn">${esc(short(d.co))}</div><div class="cd">${md(d.date)}・${esc(d.types[0])}</div></td>
+    <td><div class="cn">${esc(short(d.co))}</div><div class="cd">${md(d.date)}・${esc(d.ind||"")}</div></td>
     <td class="r"><span class="num">${d.n?fmt(d.n):"調査中"}</span></td>
     <td class="r"><div class="pills"><span class="pill ${d.st}">${d.st==="c"?"漏えい確認":"可能性"}</span><span class="pill ${esc(d.status)}">${d.status==="closed"?"調査完了":"調査中"}</span>${d.auto?'<span class="pill auto">未確認</span>':""}</div></td>
   </tr>`).join(""):`<tr><td colspan="3" class="empty">条件に合う事案はありません</td></tr>`;
@@ -221,6 +248,7 @@ function openSheet(id){
       <dl class="facts">
         <dt>件数</dt><dd><b>${esc(d.label)}</b></dd>
         <dt>日付</dt><dd>${md(d.date)}（発生・検知または初回公表）</dd>
+        <dt>業種</dt><dd>${esc(d.ind||"—")}</dd>
         <dt>攻撃</dt><dd>${esc(d.types.join("・"))}</dd>
         ${d.claim?`<dt>犯行声明</dt><dd>${esc(d.claim)}</dd>`:""}
       </dl>
@@ -253,21 +281,27 @@ function copy(t){if(navigator.clipboard&&navigator.clipboard.writeText)navigator
 document.addEventListener("click",e=>{
   const sh=e.target.closest("[data-share]");if(sh){share(sh.dataset.share);return}
   if(e.target.closest("[data-close]")){closeSheet();return}
+  const ib=e.target.closest("[data-ind]");if(ib){S.ind=S.ind===ib.dataset.ind?"":ib.dataset.ind;$("#ind").value=S.ind;render();return}
   const o=e.target.closest("[data-open]");if(o){openSheet(o.dataset.open);return}
   const b=e.target.closest("[data-act]");
   if(b){const i=b.dataset.act.indexOf(":"),k=b.dataset.act.slice(0,i),v=b.dataset.act.slice(i+1);
     if(k==="item")S.sel.has(v)?S.sel.delete(v):S.sel.add(v);else S[k]=v;
     renderChips();render();return}
-  if(e.target.id==="clear"){S.type=S.st=S.res=S.recent=S.noauto="";S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
+  if(e.target.id==="clear"){S.type=S.st=S.res=S.noauto=S.ind=S.period=S.from=S.to="";$("#ind").value="";$("#period").value="";$("#from").value="";$("#to").value="";$("#daterow").hidden=true;S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
 });
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape")closeSheet();
   if(e.key==="Enter"&&e.target.matches("tr[data-open]"))openSheet(e.target.dataset.open);
 });
 $("#q").addEventListener("input",e=>{S.q=e.target.value;render()});
+$("#ind").addEventListener("change",e=>{S.ind=e.target.value;render()});
+$("#period").addEventListener("change",e=>{S.period=e.target.value;$("#daterow").hidden=S.period!=="custom";render()});
+$("#from").addEventListener("change",e=>{S.from=e.target.value;render()});
+$("#to").addEventListener("change",e=>{S.to=e.target.value;render()});
+function fillInd(){$("#ind").innerHTML='<option value="">すべての業種</option>'+(DB.industries||[]).map(k=>`<option>${esc(k)}</option>`).join("")}
 (async()=>{
   try{const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;DB=await r.json();LABELS=DB.itemLabels;SL=DB.statusLabels||{};
-    $("#upd").textContent=DB.updated+" 更新";renderChips();render();
+    $("#upd").textContent=DB.updated+" 更新";fillInd();renderChips();render();
     const id=location.hash.slice(1);if(id&&DB.cases.some(c=>c.id===id))openSheet(id);
   }catch(e){$("#rows").innerHTML='<tr><td colspan="3" class="empty">データを読み込めませんでした。時間をおいて再読み込みしてください。</td></tr>'}
 })();

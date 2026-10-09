@@ -66,7 +66,8 @@
      "第1報（2026/9/25）",
      "https://www.park24.co.jp/news/2026/09/web1.html"
     ]
-   ]
+   ],
+   "ind": "運輸・交通"
   },
   {
    "co": "大和証券（委託先 スカラコミュニケーションズ）",
@@ -109,7 +110,8 @@
      "プレスリリース（2026/10/5）",
      "https://ssl4.eir-parts.net/doc/8601/tdnet/2891437/00.pdf"
     ]
-   ]
+   ],
+   "ind": "金融・保険"
   },
   {
    "co": "大起水産",
@@ -149,7 +151,8 @@
      "不正アクセスによる個人情報漏えいのおそれに関するお詫びとお知らせ（2026/10/5）",
      "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf"
     ]
-   ]
+   ],
+   "ind": "飲食"
   },
   {
    "co": "アフラック生命保険",
@@ -210,7 +213,8 @@
      "調査結果と再発防止策（2026/7/31）",
      "https://www.aflac.co.jp/static/corp/profile/news/2026/2026073100.pdf"
     ]
-   ]
+   ],
+   "ind": "金融・保険"
   },
   {
    "co": "KDDI（ISP向けメールシステム）",
@@ -247,7 +251,8 @@
      "ニュースリリース（2026/7/6 続報）",
      "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf"
     ]
-   ]
+   ],
+   "ind": "通信・IT"
   },
   {
    "co": "メディカ出版",
@@ -294,7 +299,8 @@
      "調査結果および再発防止策のご報告（2026/5/13）",
      "https://www.medica.co.jp/news/information/3544/"
     ]
-   ]
+   ],
+   "ind": "メディア・出版"
   },
   {
    "co": "穴吹ハウジングサービス（あなぶきグループ）",
@@ -338,7 +344,8 @@
      "第4報（2026/3/9）",
      "https://www.anabuki-housing.co.jp/news/content.php?news_id=521"
     ]
-   ]
+   ],
+   "ind": "建設・不動産"
   },
   {
    "co": "エフワン（オーダースーツ）",
@@ -388,7 +395,8 @@
      "第1報（2026/2/4）",
      "https://f-one.co.jp/_include/pdf/information20260204.pdf"
     ]
-   ]
+   ],
+   "ind": "小売・EC"
   },
   {
    "co": "アスクル",
@@ -437,7 +445,8 @@
      "第13報 影響調査結果および安全性強化に向けた取り組み（2025/12/12）",
      "https://pdf.irpocket.com/C0032/PDLX/O3bg/N4O3.pdf"
     ]
-   ]
+   ],
+   "ind": "小売・EC"
   },
   {
    "co": "アサヒグループホールディングス",
@@ -490,7 +499,8 @@
      "漏えいのおそれがある個人情報について（2026/7/17）",
      "https://www.asahigroup-holdings.com/newsroom/detail/20260717-0101.html"
     ]
-   ]
+   ],
+   "ind": "製造"
   },
   {
    "co": "損害保険ジャパン（SOMPOホールディングス）",
@@ -529,7 +539,8 @@
      "お知らせ（2025年4月〜）",
      "https://www.sompo-japan.co.jp/announce/2025/202504_01/"
     ]
-   ]
+   ],
+   "ind": "金融・保険"
   },
   {
    "co": "コナカ（DIFFERENCE）",
@@ -568,7 +579,8 @@
      "お知らせ（2025/4/24）",
      "https://www.konaka.co.jp/ir/assets/2025/04/20250424_1.pdf"
     ]
-   ]
+   ],
+   "ind": "小売・EC"
   },
   {
    "co": "トキハ／トキハインダストリー",
@@ -618,7 +630,8 @@
      "お知らせ（2025/7/23）",
      "https://www.tokiwa-industry.co.jp/data/big_slides/68806d76e2cbf.pdf"
     ]
-   ]
+   ],
+   "ind": "小売・EC"
   },
   {
    "co": "AOKIホールディングス（快活CLUB・FiT24）",
@@ -666,7 +679,8 @@
      "第5報 調査完了のお知らせ（2025/3/17）",
      "https://ir.aoki-hd.co.jp/ja/news/topics/topics20250317kfi/main/0/link/2025.03.17_information_completed.pdf"
     ]
-   ]
+   ],
+   "ind": "生活サービス・レジャー"
   },
   {
    "co": "東京ガス（子会社 東京ガスエンジニアリングソリューションズ）",
@@ -708,7 +722,8 @@
      "プレスリリース（2024/7/17）",
      "https://www.tokyo-gas.co.jp/news/press/20240717-03.html"
     ]
-   ]
+   ],
+   "ind": "エネルギー"
   },
   {
    "co": "KADOKAWA（ドワンゴ）",
@@ -754,7 +769,8 @@
      "ランサムウェア攻撃による情報漏洩に関するお知らせ（2024/8/5）",
      "https://tp.kadokawa.co.jp/.assets/240805_release_f2Alq0nH.pdf"
     ]
-   ]
+   ],
+   "ind": "メディア・出版"
   },
   {
    "co": "イセトー（印刷・発送受託）",
@@ -796,7 +812,8 @@
      "不正アクセスによる個人情報漏えいに関するお詫びとご報告（2024/10）",
      "https://www.iseto.co.jp/news/news_202410.html"
     ]
-   ]
+   ],
+   "ind": "人材・教育・業務支援"
   },
   {
    "id": "daiichikosho",
@@ -832,7 +849,8 @@
      "SmartScope（国内漏えい事案の集計一覧）",
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
-   ]
+   ],
+   "ind": "生活サービス・レジャー"
   },
   {
    "id": "yakiniku-king",
@@ -871,7 +889,8 @@
      "セキュリティ対策Lab",
      "https://rocket-boys.co.jp/?p=42522"
     ]
-   ]
+   ],
+   "ind": "飲食"
   },
   {
    "id": "epark-relax",
@@ -908,7 +927,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "last": "2026-09-24"
+   "last": "2026-09-24",
+   "ind": "通信・IT"
   },
   {
    "id": "gyazo",
@@ -942,7 +962,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/09/28/56313.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "通信・IT"
   },
   {
    "id": "murauchi",
@@ -979,7 +1000,8 @@
     ]
    ],
    "notIncl": "",
-   "last": "2026-09-15"
+   "last": "2026-09-15",
+   "ind": "小売・EC"
   },
   {
    "id": "mrmax",
@@ -1018,7 +1040,8 @@
      "セキュリティ対策Lab",
      "https://rocket-boys.co.jp/?p=42595"
     ]
-   ]
+   ],
+   "ind": "小売・EC"
   },
   {
    "id": "gmo-research-infoq",
@@ -1056,7 +1079,8 @@
      "SmartScope（国内漏えい事案の集計一覧）",
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
-   ]
+   ],
+   "ind": "人材・教育・業務支援"
   },
   {
    "id": "asahi-kasei-pharma",
@@ -1091,7 +1115,8 @@
      "SmartScope（国内漏えい事案の集計一覧）",
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
-   ]
+   ],
+   "ind": "医療・製薬"
   },
   {
    "id": "pfu-shopserve",
@@ -1128,7 +1153,8 @@
      "SmartScope（国内漏えい事案の集計一覧）",
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
-   ]
+   ],
+   "ind": "製造"
   },
   {
    "id": "sakura-internet",
@@ -1160,7 +1186,8 @@
      "SmartScope（国内漏えい事案の集計一覧）",
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
-   ]
+   ],
+   "ind": "通信・IT"
   },
   {
    "id": "dai-ichi-life",
@@ -1199,7 +1226,8 @@
      "セキュリティ対策Lab",
      "https://rocket-boys.co.jp/?p=42290"
     ]
-   ]
+   ],
+   "ind": "金融・保険"
   },
   {
    "id": "sagawa",
@@ -1239,7 +1267,8 @@
      "セキュリティ対策Lab",
      "https://rocket-boys.co.jp/?p=42308"
     ]
-   ]
+   ],
+   "ind": "運輸・交通"
   },
   {
    "id": "ozmall",
@@ -1276,7 +1305,8 @@
      "ScanNetSecurity",
      "https://scan.netsecurity.ne.jp/article/2026/10/01/56359.html"
     ]
-   ]
+   ],
+   "ind": "メディア・出版"
   },
   {
    "id": "lean-body",
@@ -1310,7 +1340,8 @@
      "https://rocket-boys.co.jp/?p=40986"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "生活サービス・レジャー"
   },
   {
    "id": "fines",
@@ -1339,7 +1370,8 @@
      "https://rocket-boys.co.jp/?p=41976"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "通信・IT"
   },
   {
    "id": "seicomart",
@@ -1373,7 +1405,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/02/56373.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "小売・EC"
   },
   {
    "id": "eplus",
@@ -1398,7 +1431,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/02/56372.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "生活サービス・レジャー"
   },
   {
    "id": "tokyo-metro-metpo",
@@ -1434,7 +1468,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/02/56374.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "運輸・交通"
   },
   {
    "id": "japanpost-app",
@@ -1464,7 +1499,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/02/56370.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "運輸・交通"
   },
   {
    "id": "nippon-rentacar",
@@ -1506,7 +1542,8 @@
      "ScanNetSecurity",
      "https://scan.netsecurity.ne.jp/article/2026/10/07/56403.html"
     ]
-   ]
+   ],
+   "ind": "運輸・交通"
   },
   {
    "id": "citizen",
@@ -1542,7 +1579,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/08/56412.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "製造"
   },
   {
    "id": "nikkei-bp",
@@ -1575,7 +1613,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/07/56402.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "メディア・出版"
   },
   {
    "id": "nikkei",
@@ -1616,7 +1655,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "メディア・出版"
   },
   {
    "id": "harada-beer",
@@ -1654,7 +1694,8 @@
     ]
    ],
    "notIncl": "",
-   "last": "2026-09-14"
+   "last": "2026-09-14",
+   "ind": "小売・EC"
   },
   {
    "id": "dozle-store",
@@ -1686,7 +1727,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/05/56386.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "小売・EC"
   },
   {
    "id": "photogoods",
@@ -1723,7 +1765,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/06/56392.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "小売・EC"
   },
   {
    "id": "applynow",
@@ -1761,7 +1804,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "人材・教育・業務支援"
   },
   {
    "id": "fuso-dentsu",
@@ -1792,7 +1836,8 @@
     ]
    ],
    "notIncl": "",
-   "last": "2026-09-10"
+   "last": "2026-09-10",
+   "ind": "通信・IT"
   },
   {
    "id": "smaregi-ec",
@@ -1822,7 +1867,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/09/29/56331.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "通信・IT"
   },
   {
    "id": "montbell",
@@ -1852,7 +1898,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/09/29/56332.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "小売・EC"
   },
   {
    "id": "jgc-digital",
@@ -1887,7 +1934,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/09/56422.html"
     ]
    ],
-   "notIncl": ""
+   "notIncl": "",
+   "ind": "通信・IT"
   },
   {
    "id": "hi-ho",
@@ -1918,7 +1966,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "通信・IT"
   },
   {
    "id": "ceres-pointincome",
@@ -1949,7 +1998,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "通信・IT"
   },
   {
    "id": "sompo-smilingroad",
@@ -1981,7 +2031,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "金融・保険"
   },
   {
    "id": "his-thailand",
@@ -2012,7 +2063,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "生活サービス・レジャー"
   },
   {
    "id": "toda",
@@ -2043,7 +2095,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "建設・不動産"
   },
   {
    "id": "active-pro",
@@ -2074,7 +2127,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "小売・EC"
   },
   {
    "id": "egmkt",
@@ -2105,7 +2159,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "人材・教育・業務支援"
   },
   {
    "id": "cinra-job",
@@ -2137,7 +2192,8 @@
     ]
    ],
    "auto": true,
-   "last": "2026-10-06"
+   "last": "2026-10-06",
+   "ind": "人材・教育・業務支援"
   },
   {
    "id": "rakuten-drive",
@@ -2168,7 +2224,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "通信・IT"
   },
   {
    "id": "nimoca",
@@ -2199,7 +2256,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "運輸・交通"
   },
   {
    "id": "kufu-machitalk",
@@ -2230,7 +2288,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "通信・IT"
   },
   {
    "id": "whiteessence",
@@ -2262,7 +2321,8 @@
     ]
    ],
    "auto": true,
-   "last": "2026-10-05"
+   "last": "2026-10-05",
+   "ind": "医療・製薬"
   },
   {
    "id": "moonstar",
@@ -2288,7 +2348,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "製造"
   },
   {
    "id": "studysapuri",
@@ -2319,7 +2380,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "人材・教育・業務支援"
   },
   {
    "id": "alsok-joylife",
@@ -2345,7 +2407,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "生活サービス・レジャー"
   },
   {
    "id": "voising",
@@ -2377,7 +2440,8 @@
     ]
    ],
    "auto": true,
-   "last": "2026-09-30"
+   "last": "2026-09-30",
+   "ind": "人材・教育・業務支援"
   },
   {
    "id": "g-point",
@@ -2403,7 +2467,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "通信・IT"
   },
   {
    "id": "shueisha-happyplus",
@@ -2429,7 +2494,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "メディア・出版"
   },
   {
    "id": "legoland-hotel",
@@ -2456,7 +2522,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "生活サービス・レジャー"
   },
   {
    "id": "ryomo-systems",
@@ -2488,7 +2555,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "通信・IT"
   },
   {
    "id": "conoha-wing",
@@ -2514,7 +2582,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "通信・IT"
   },
   {
    "id": "nichirei",
@@ -2541,7 +2610,8 @@
     ]
    ],
    "auto": true,
-   "last": "2026-09-19"
+   "last": "2026-09-19",
+   "ind": "製造"
   },
   {
    "id": "chibagin-shop",
@@ -2572,7 +2642,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "小売・EC"
   },
   {
    "id": "fivefox",
@@ -2598,7 +2669,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "小売・EC"
   },
   {
    "id": "revisio",
@@ -2624,11 +2696,508 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "auto": true
+   "auto": true,
+   "ind": "通信・IT"
+  },
+  {
+   "id": "omu",
+   "co": "大阪公立大学",
+   "date": "2026-10-02",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": 130000,
+   "label": "少なくとも約13万件（保管分）",
+   "st": "p",
+   "items": [
+    "addr",
+    "mail",
+    "tel"
+   ],
+   "itemsText": "在学生・卒業生などの住所、メールアドレス、携帯電話番号など（旧大阪市立大学は1995年以降、旧大阪府立大学は2005年以降の学生を含む）。13万件は被害を受けたシステムに保管されていた件数で、漏えい件数ではない",
+   "notIncl": "",
+   "sum": "情報システムを動かす仮想化基盤に侵入され、約500台のサーバーが停止。バックアップの多くも暗号化された。10月5日にランサムウェア攻撃と判断したと公表。",
+   "status": "ongoing",
+   "statusText": "10月5日時点で、持ち出しの有無を調査中。復旧の見通しは未公表。",
+   "resp": "10月2〜8日の全授業を休講し、対面授業は10月9日に再開予定。被災した基盤とは別の緊急お知らせサイトで情報発信。経済支援の申請・手続きの期限を10月22日まで延長。",
+   "official": [
+    [
+     "第1報（2026/10/2）",
+     "https://www.omu.moe/news/2026-10-02-outage-1.html"
+    ],
+    [
+     "第2報",
+     "https://www.omu.moe/news/2026-10-02-outage-2.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/osaka-metropolitan-university-ransomware-update-20261005/"
+    ],
+    [
+     "MBSニュース",
+     "https://newsdig.tbs.co.jp/articles/mbs/2990268?display=1"
+    ]
+   ],
+   "ind": "大学・学校"
+  },
+  {
+   "id": "digital-agency-gss",
+   "co": "デジタル庁（ガバメントソリューションサービス）",
+   "date": "2026-09-11",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 246000,
+   "label": "約24.6万件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "VPNの脆弱性を突いた不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "公式発表",
+     "https://www.digital.go.jp/news/2026-0911-01"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/14/56223.html"
+    ],
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "saitama-shibusawamix",
+   "co": "埼玉県（渋沢MIX）",
+   "date": "2026-10-07",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 2200,
+   "label": "約2,200件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "脆弱性を突いた攻撃。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "公式発表",
+     "https://www.pref.saitama.lg.jp/a0803/news/page/news2026100702.html"
+    ]
+   ],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "jogmec",
+   "co": "エネルギー・金属鉱物資源機構（JOGMEC）",
+   "date": "2026-10-05",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 8500,
+   "label": "約8,500件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "jaea-jrr3",
+   "co": "日本原子力研究開発機構（JRR-3）",
+   "date": "2026-10-01",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 175,
+   "label": "175人（367ファイル）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "osaka-city-interview",
+   "co": "大阪市（録画面接システム）",
+   "date": "2026-09-17",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 106,
+   "label": "106件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "録画面接システムへの不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "koshigaya-teacher-pc",
+   "co": "越谷市（教員の私物PC）",
+   "date": "2026-09-15",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 36,
+   "label": "36件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "サポート詐欺で教員の私物PCが遠隔操作された。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "yamaguchi-u",
+   "co": "山口大学",
+   "date": "2026-10-06",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 967,
+   "label": "967件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "アカウントへの不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "公式発表",
+     "https://www.yamaguchi-u.ac.jp/news/52728/index.html"
+    ]
+   ],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "大学・学校"
+  },
+  {
+   "id": "science-tokyo",
+   "co": "東京科学大学（情報基盤）",
+   "date": "2026-09-07",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "情報基盤への不正アクセスで個人情報が漏えいした可能性。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/10/56191.html"
+    ]
+   ],
+   "auto": true,
+   "ind": "大学・学校"
+  },
+  {
+   "id": "tokai-u-contractor",
+   "co": "東海大学（業務委託先）",
+   "date": "2026-02-24",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "n": 193118,
+   "label": "最大193,118人",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "業務委託先へのランサムウェア攻撃で、学生らの個人情報が漏えいした可能性（2月24日に調査結果を公表）。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab（2026年の事例まとめ）",
+     "https://rocket-boys.co.jp/?p=30997"
+    ]
+   ],
+   "auto": true,
+   "ind": "大学・学校"
+  },
+  {
+   "id": "nms-kosugi",
+   "co": "日本医科大学武蔵小杉病院",
+   "date": "2026-02-01",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": 130000,
+   "label": "約13万人",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "保守用VPN経由でランサムウェアに侵入され、患者・職員の個人情報が漏えい（3月4日に詳細と対策を公表）。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab（2026年の事例）",
+     "https://rocket-boys.co.jp/?p=31139"
+    ]
+   ],
+   "auto": true,
+   "ind": "病院・医療"
+  },
+  {
+   "id": "weathercaster-net",
+   "co": "気象キャスターネットワーク",
+   "date": "2026-10-06",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 15959,
+   "label": "最大15,959件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "不正アクセス。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "公式発表",
+     "https://weathercaster.jp/notices/20261006_notice.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "団体"
+  },
+  {
+   "id": "yotsukaido-shakyo",
+   "co": "四街道市社会福祉協議会",
+   "date": "2026-10-01",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 33,
+   "label": "33件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "サポート詐欺でPCが遠隔操作された。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "団体"
+  },
+  {
+   "id": "ihouse-library",
+   "co": "国際文化会館（図書室）",
+   "date": "2026-09-29",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "不正アクセスで一部の情報が漏えいした可能性。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "団体"
+  },
+  {
+   "id": "ieej",
+   "co": "日本エネルギー経済研究所",
+   "date": "2026-09-11",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 13,
+   "label": "旅券13件ほか",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "フィッシングで所員のMicrosoft 365アカウントが乗っ取られた。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/02/56376.html"
+    ],
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "団体"
+  },
+  {
+   "id": "coop-yamaguchi",
+   "co": "生活協同組合コープやまぐち（LINEミニアプリ）",
+   "date": "2026-09-07",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "LINEミニアプリへの不正アクセスでデータベースの全データが削除され、漏えいの可能性がある情報を確定。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/24/56292.html"
+    ]
+   ],
+   "auto": true,
+   "ind": "団体"
   }
  ],
  "statusLabels": {
   "closed": "調査完了",
   "ongoing": "調査中・続報待ち"
- }
+ },
+ "industries": [
+  "小売・EC",
+  "飲食",
+  "金融・保険",
+  "通信・IT",
+  "メディア・出版",
+  "運輸・交通",
+  "製造",
+  "建設・不動産",
+  "エネルギー",
+  "生活サービス・レジャー",
+  "医療・製薬",
+  "人材・教育・業務支援",
+  "公共機関",
+  "大学・学校",
+  "病院・医療",
+  "団体"
+ ]
 }
