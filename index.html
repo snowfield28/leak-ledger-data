@@ -76,6 +76,22 @@ h1{font-family:var(--f-display);font-weight:900;font-size:clamp(26px,5vw,38px);l
 .leaked .k{flex:0 0 auto;color:var(--muted);font-size:12px;min-width:4.5em}
 .leaked .v{min-width:0}
 .leaked mark{background:var(--accent-soft);color:var(--ink);padding:0 3px;border-radius:2px}
+:root{--done:#2f6b4f;--done-soft:#dcefe5}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--done:#86d3ac;--done-soft:#1b3328}}
+:root[data-theme="dark"]{--done:#86d3ac;--done-soft:#1b3328}
+.tag.closed{background:var(--done-soft);color:var(--done);border-color:transparent}
+.tag.ongoing{border-color:var(--possible);color:var(--possible)}
+.info{display:flex;flex-direction:column;gap:6px;font-size:13.5px;border-top:1px solid var(--line);padding-top:10px}
+.info .row{display:flex;gap:8px}
+.info .k{flex:0 0 auto;color:var(--muted);font-size:12px;min-width:4.5em;padding-top:1px}
+.info .v{min-width:0}
+.info .v a{color:var(--accent)}
+.official{display:flex;flex-direction:column;gap:2px}
+.foot-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.share{flex:0 0 auto;font:inherit;font-size:13px;font-weight:500;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:99px;padding:6px 14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.share:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.item.hit{outline:2px solid var(--accent);outline-offset:2px}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);font-size:13px;padding:10px 16px;border-radius:99px;z-index:5}
 footer{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
 footer p{margin:0}
 </style>
@@ -112,6 +128,11 @@ footer p{margin:0}
     <option value="c">漏えい確認</option>
     <option value="p">漏えいの可能性</option>
   </select>
+  <select id="res" aria-label="調査の状況">
+    <option value="">調査の状況すべて</option>
+    <option value="closed">調査完了</option>
+    <option value="ongoing">調査中・続報待ち</option>
+  </select>
   <select id="sort" aria-label="並び順">
     <option value="date">新しい順</option>
     <option value="size">件数の多い順</option>
@@ -127,7 +148,8 @@ footer p{margin:0}
 <div class="list" id="list"></div>
 
 <footer>
-  <p>収録範囲：2024年〜2026年10月に公表された国内企業の主な事案（大学・病院・自治体は除外）。網羅的な一覧ではありません。</p>
+  <p>収録範囲：2024年〜2026年10月に公表された国内企業の事案（大学・病院・自治体は除外）。網羅的な一覧ではなく、順次追加しています。</p>
+  <p>「調査完了」は、企業が調査結果や最終報を公表した事案です。再発防止策が続いている場合もあります。「一次情報」は企業の公式発表、「報道」は内容を確認したニュース記事です。</p>
   <p>流出した情報の分類は、各出典に書かれた項目だけを元にしています。項目が公表されていない事案は、どの項目で絞り込んでも表示されません。</p>
   <p>日付は被害の発生・検知日、または初回公表日です。件数バーは対数スケールです（1万件〜1,000万件超）。</p>
 </footer>
@@ -147,14 +169,14 @@ function chips(){
   $("#clear").hidden=!sel.size;
 }
 function render(){
-  const q=$("#q").value.trim().toLowerCase(),t=$("#type").value,s=$("#status").value,so=$("#sort").value;
-  let rows=DATA.filter(d=>(!t||d.types.includes(t))&&(!s||d.st===s)&&[...sel].every(k=>d.items.includes(k))&&(!q||(d.co+d.sum+d.itemsText+(d.claim||"")).toLowerCase().includes(q)));
+  const q=$("#q").value.trim().toLowerCase(),t=$("#type").value,s=$("#status").value,rs=$("#res").value,so=$("#sort").value;
+  let rows=DATA.filter(d=>(!t||d.types.includes(t))&&(!s||d.st===s)&&(!rs||d.status===rs)&&[...sel].every(k=>d.items.includes(k))&&(!q||(d.co+d.sum+d.itemsText+(d.claim||"")+(d.resp||"")).toLowerCase().includes(q)));
   rows.sort(so==="size"?(a,b)=>(b.n||0)-(a.n||0):(a,b)=>b.date.localeCompare(a.date));
   $("#count").textContent=rows.length+" / "+DATA.length+" 件";
   $("#list").innerHTML=rows.length?rows.map(d=>`
-  <article class="item">
+  <article class="item" id="${esc(d.id||"")}">
     <div class="top"><h2>${esc(d.co)}</h2><span class="date">${d.date.replace(/-/g,".")}</span></div>
-    <div class="tags">${d.types.map(x=>`<span class="tag">${esc(x)}</span>`).join("")}<span class="tag ${d.st}">${d.st==="c"?"漏えい確認":"漏えいの可能性"}</span>${d.auto?`<span class="tag" style="border-color:var(--accent);color:var(--accent)">自動追加・未確認</span>`:""}</div>
+    <div class="tags">${d.types.map(x=>`<span class="tag">${esc(x)}</span>`).join("")}<span class="tag ${d.st}">${d.st==="c"?"漏えい確認":"漏えいの可能性"}</span>${d.status?`<span class="tag ${d.status}">${esc(SL[d.status]||"")}</span>`:""}${d.auto?`<span class="tag" style="border-color:var(--accent);color:var(--accent)">自動追加・未確認</span>`:""}</div>
     <div class="scale"><div class="track"><div class="fill" style="width:${pct(d.n)}%"></div></div><span class="num">${esc(d.label)}</span></div>
     <div class="leaked">
       <div class="row"><span class="k">流出情報</span><span class="v">${d.items.length?d.items.map(k=>sel.has(k)?`<mark>${esc(LABELS[k])}</mark>`:esc(LABELS[k])).join("・")+"<br>":""}<span style="color:var(--muted)">${esc(d.itemsText)}</span></span></div>
@@ -162,19 +184,45 @@ function render(){
     </div>
     <p>${esc(d.sum)}</p>
     ${d.claim?`<div class="claim">${esc(d.claim)}</div>`:""}
-    <div class="src">情報源：${d.src.map(([n,u])=>`<a href="${u}" target="_blank" rel="noopener">${esc(n)}</a>`).join("")}</div>
+    <div class="info">
+      ${d.statusText?`<div class="row"><span class="k">状況</span><span class="v">${esc(d.statusText)}</span></div>`:""}
+      ${d.resp?`<div class="row"><span class="k">会社の対応</span><span class="v">${esc(d.resp)}</span></div>`:""}
+      <div class="row"><span class="k">一次情報</span><span class="v official">${(d.official||[]).length?d.official.map(([n,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join(""):`<span style="color:var(--muted)">未確認</span>`}</span></div>
+    </div>
+    <div class="foot-row">
+      <div class="src">報道：${d.src.map(([n,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join("")}</div>
+      ${d.id?`<button type="button" class="share" data-share="${esc(d.id)}" aria-label="${esc(d.co)}の事案を共有"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>共有</button>`:""}
+    </div>
   </article>`).join(""):`<div class="empty">条件に合う事案はありません。検索語や絞り込みを変えてください。</div>`;
+}
+const PAGE="https://snowfield28.github.io/leak-ledger-data/";
+let SL={};
+function toast(msg){const t=document.createElement("div");t.className="toast";t.setAttribute("role","status");t.textContent=msg;document.body.appendChild(t);setTimeout(()=>t.remove(),2200)}
+function shareText(d){
+  return `【${d.co}】${d.label}（${d.st==="c"?"漏えい確認":"漏えいの可能性"}・${SL[d.status]||""}）\n${d.sum}`+(d.official&&d.official[0]?`\n公式発表：${d.official[0][1]}`:"");
+}
+async function share(id){
+  const d=DATA.find(x=>x.id===id);if(!d)return;
+  const url=PAGE+"#"+id,text=shareText(d);
+  if(navigator.share){try{await navigator.share({title:d.co+"の情報漏えい",text,url});return}catch(e){if(e&&e.name==="AbortError")return}}
+  try{await navigator.clipboard.writeText(text+"\n"+url);toast("共有用の文章とリンクをコピーしました")}catch(e){toast("コピーできませんでした")}
+}
+$("#list").addEventListener("click",e=>{const b=e.target.closest("[data-share]");if(b)share(b.dataset.share)});
+function jump(){
+  const id=location.hash.slice(1);if(!id)return;
+  const el=document.getElementById(id);if(!el)return;
+  el.classList.add("hit");el.scrollIntoView({block:"start"});
 }
 $("#chips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const k=b.dataset.k;sel.has(k)?sel.delete(k):sel.add(k);chips();render()});
 $("#clear").addEventListener("click",()=>{sel.clear();chips();render()});
-["#q","#type","#status","#sort"].forEach(id=>$(id).addEventListener("input",render));
+["#q","#type","#status","#res","#sort"].forEach(id=>$(id).addEventListener("input",render));
 async function boot(){
   try{
     const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});
     if(!r.ok)throw new Error(r.status);
-    DB=await r.json();DATA=DB.cases;LABELS=DB.itemLabels;
+    DB=await r.json();DATA=DB.cases;LABELS=DB.itemLabels;SL=DB.statusLabels||{};
     document.querySelector(".eyebrow").textContent="LEDGER · "+DB.updated+" 更新";
-    chips();render();
+    chips();render();jump();
   }catch(e){
     $("#list").innerHTML='<div class="empty">データを読み込めませんでした。時間をおいて再読み込みしてください。</div>';
   }
