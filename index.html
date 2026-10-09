@@ -172,6 +172,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
         <optgroup label="サイバー攻撃"><option value="c:cyber">サイバー攻撃（すべて）</option><option value="t:ランサムウェア">ランサムウェア</option><option value="t:不正アクセス">不正アクセス</option><option value="t:委託先経由">委託先経由</option></optgroup>
         <option value="c:loss">紛失・盗難</option><option value="c:mis">誤送信・誤掲載</option><option value="c:insider">内部不正</option><option value="c:config">設定ミス・不具合</option>
       </select>
+      <select id="who" aria-label="対象者"><option value="">すべての対象者</option></select>
       <select id="ind" aria-label="業種"><option value="">すべての業種</option></select>
       <select id="period" aria-label="期間">
         <option value="">すべての期間</option><option value="7">直近1週間</option><option value="30">直近1か月</option><option value="91">直近3か月</option>
@@ -323,7 +324,7 @@ function copy(t){if(navigator.clipboard&&navigator.clipboard.writeText)navigator
 document.addEventListener("click",e=>{
   const sh=e.target.closest("[data-share]");if(sh){share(sh.dataset.share);return}
   if(e.target.closest("[data-close]")){closeSheet();return}
-  const wb=e.target.closest("[data-who]");if(wb){S.who=S.who===wb.dataset.who?"":wb.dataset.who;render();return}
+  const wb=e.target.closest("[data-who]");if(wb){S.who=S.who===wb.dataset.who?"":wb.dataset.who;$("#who").value=S.who;render();return}
   const cb=e.target.closest("[data-cause]");if(cb){S.cause=S.cause===cb.dataset.cause?"":cb.dataset.cause;$("#cause").value=S.cause;render();return}
   const ib=e.target.closest("[data-ind]");if(ib){S.ind=S.ind===ib.dataset.ind?"":ib.dataset.ind;$("#ind").value=S.ind;render();return}
   const o=e.target.closest("[data-open]");if(o){openSheet(o.dataset.open);return}
@@ -331,19 +332,21 @@ document.addEventListener("click",e=>{
   if(b){const i=b.dataset.act.indexOf(":"),k=b.dataset.act.slice(0,i),v=b.dataset.act.slice(i+1);
     if(k==="item")S.sel.has(v)?S.sel.delete(v):S.sel.add(v);else S[k]=v;
     renderChips();render();return}
-  if(e.target.id==="clear"){S.who="";S.cause=S.st=S.res=S.noauto=S.ind=S.period=S.from=S.to="";$("#cause").value="";$("#ind").value="";$("#period").value="";$("#from").value="";$("#to").value="";$("#daterow").hidden=true;S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
+  if(e.target.id==="clear"){S.who="";$("#who").value="";S.cause=S.st=S.res=S.noauto=S.ind=S.period=S.from=S.to="";$("#cause").value="";$("#ind").value="";$("#period").value="";$("#from").value="";$("#to").value="";$("#daterow").hidden=true;S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
 });
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape")closeSheet();
   if(e.key==="Enter"&&e.target.matches("tr[data-open]"))openSheet(e.target.dataset.open);
 });
 $("#q").addEventListener("input",e=>{S.q=e.target.value;render()});
+$("#who").addEventListener("change",e=>{S.who=e.target.value;render()});
 $("#ind").addEventListener("change",e=>{S.ind=e.target.value;render()});
 $("#cause").addEventListener("change",e=>{S.cause=e.target.value;render()});
 $("#period").addEventListener("change",e=>{S.period=e.target.value;$("#daterow").hidden=S.period!=="custom";render()});
 $("#from").addEventListener("change",e=>{S.from=e.target.value;render()});
 $("#to").addEventListener("change",e=>{S.to=e.target.value;render()});
-function fillInd(){$("#ind").innerHTML='<option value="">すべての業種</option>'+(DB.industries||[]).map(k=>`<option>${esc(k)}</option>`).join("")}
+function fillWho(){$("#who").innerHTML='<option value="">すべての対象者</option>'+Object.entries(DB.whoLabels||{}).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join("")}
+function fillInd(){fillWho();$("#ind").innerHTML='<option value="">すべての業種</option>'+(DB.industries||[]).map(k=>`<option>${esc(k)}</option>`).join("")}
 (async()=>{
   try{const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;DB=await r.json();LABELS=DB.itemLabels;SL=DB.statusLabels||{};
     $("#upd").textContent=DB.updated+" 更新";
