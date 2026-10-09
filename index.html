@@ -113,6 +113,10 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 .links{display:flex;flex-direction:column;gap:6px}
 .lk{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;color:var(--ink);text-decoration:none;font-size:13px;line-height:1.4}
 .lk.off{border-color:var(--accent);background:var(--accent-soft)}
+.ct{display:flex;flex-direction:column;gap:6px}
+.ct .lk b{font-variant-numeric:tabular-nums;font-size:15px;user-select:text}
+.ct .lk small{display:block;color:var(--muted);font-size:11.5px;font-weight:400;margin-top:2px}
+.ct .lk{word-break:break-all}
 .lk span:last-child{color:var(--muted);flex:0 0 auto}
 .share{font:inherit;font-size:15px;font-weight:700;color:var(--bg);background:var(--ink);border:none;border-radius:12px;padding:13px;cursor:pointer;display:flex;justify-content:center;align-items:center;gap:8px}
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);font-size:13px;padding:10px 16px;border-radius:99px;z-index:20;white-space:nowrap}
@@ -121,7 +125,6 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 </style>
 </head>
 <body>
-
 
 <div class="app">
   <div class="head"><h1>国内情報漏えい台帳</h1><span class="ver"></span></div>
@@ -248,6 +251,12 @@ function render(){
   </tr>`).join(""):`<tr><td colspan="3" class="empty">条件に合う事案はありません</td></tr>`;
 }
 
+function contactHTML(d){const k=d.contact||{},src=k.src||((d.official||[])[0]||[])[1]||"";
+  const tels=(k.tels||[]).map(t=>`<a class="lk" href="tel:${esc(t.tel.replace(/-/g,""))}"><span><b>${esc(t.tel)}</b>${t.hours?`<small>${esc(t.hours)}</small>`:""}</span><span>電話</span></a>`);
+  const mails=(k.mails||[]).map(m=>`<a class="lk" href="mailto:${esc(m)}"><span><b style="font-size:13.5px">${esc(m)}</b></span><span>メール</span></a>`);
+  const forms=(k.forms||[]).map(([n,u])=>`<a class="lk" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>フォーム ↗</span></a>`);
+  const all=[...tels,...mails,...forms];
+  return `<div class="ct">${all.length?all.join(""):`<p class="note">${esc(k.note||"公式発表に窓口の記載なし")}</p>`}${all.length&&k.note?`<p class="note">${esc(k.note)}</p>`:""}${src?`<p class="note">出典：<a href="${esc(src)}" target="_blank" rel="noopener">公式発表</a>に記載の窓口</p>`:""}</div>`}
 function openSheet(id){
   const d=DB.cases.find(x=>x.id===id);if(!d)return;
   const resp=(d.resp||"").split("。").map(s=>s.trim()).filter(Boolean);
@@ -275,6 +284,7 @@ function openSheet(id){
       <div class="sec"><h4>概要</h4><p class="txt">${esc(d.sum)}</p></div>
       <div class="sec"><h4>調査の状況</h4><p class="txt">${esc(d.statusText||"—")}</p></div>
       <div class="sec"><h4>会社の対応</h4>${resp.length?`<ul class="resp">${resp.map(r=>`<li>${esc(r)}</li>`).join("")}</ul>`:'<p class="note">未確認</p>'}</div>
+      <div class="sec"><h4>お問い合わせ先</h4>${contactHTML(d)}</div>
       <div class="sec"><h4>一次情報（公式発表）</h4><div class="links">${(d.official||[]).length?d.official.map(([n,u])=>`<a class="lk off" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>↗</span></a>`).join(""):'<p class="note">未確認</p>'}</div></div>
       <div class="sec"><h4>報道</h4><div class="links">${d.src.map(([n,u])=>`<a class="lk" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>↗</span></a>`).join("")}</div></div>
       <button class="share" data-share="${esc(d.id)}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>この事案を共有</button>

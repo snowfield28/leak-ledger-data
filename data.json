@@ -69,7 +69,16 @@
    ],
    "ind": "運輸・交通",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-25-8924",
+      "hours": "24時間"
+     }
+    ],
+    "src": "https://www.park24.co.jp/news/2026/09/20260928-1.html"
+   }
   },
   {
    "co": "大起水産",
@@ -112,7 +121,16 @@
    ],
    "ind": "飲食",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-811-266",
+      "hours": "9〜18時、土日祝も対応"
+     }
+    ],
+    "src": "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf"
+   }
   },
   {
    "co": "アフラック生命保険",
@@ -176,7 +194,16 @@
    ],
    "ind": "金融・保険",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-332-856",
+      "hours": ""
+     }
+    ],
+    "src": "https://www.aflac.co.jp/static/corp/profile/news/2026/20260630.pdf"
+   }
   },
   {
    "co": "KDDI（ISP向けメールシステム）",
@@ -216,7 +243,11 @@
    ],
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式発表に専用窓口の記載なし。各プロバイダーへ問い合わせ",
+    "src": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf"
+   }
   },
   {
    "co": "メディカ出版",
@@ -266,7 +297,16 @@
    ],
    "ind": "メディア・出版",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-276-115",
+      "hours": "平日9〜17時"
+     }
+    ],
+    "src": "https://www.medica.co.jp/news/information/3544/"
+   }
   },
   {
    "co": "穴吹ハウジングサービス（あなぶきグループ）",
@@ -313,7 +353,16 @@
    ],
    "ind": "建設・不動産",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0800-111-7120",
+      "hours": "9〜18時"
+     }
+    ],
+    "src": "https://www.anabuki-housing.co.jp/news/content.php?news_id=530"
+   }
   },
   {
    "co": "アスクル",
@@ -365,7 +414,11 @@
    ],
    "ind": "小売・EC",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式発表に専用窓口の記載なし",
+    "src": "https://pdf.irpocket.com/C0032/PDLX/O3bg/N4O3.pdf"
+   }
   },
   {
    "co": "アサヒグループホールディングス",
@@ -421,7 +474,17 @@
    ],
    "ind": "製造",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式発表に専用窓口の記載なし",
+    "forms": [
+     [
+      "お客様相談室",
+      "https://www.asahigroup-holdings.com/customer/"
+     ]
+    ],
+    "src": "https://www.asahigroup-holdings.com/newsroom/detail/20260717-0101.html"
+   }
   },
   {
    "co": "損害保険ジャパン（SOMPOホールディングス）",
@@ -463,7 +526,16 @@
    ],
    "ind": "金融・保険",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-688-083",
+      "hours": "平日9〜17時（土日祝・年末年始を除く）"
+     }
+    ],
+    "src": "https://www.sompo-japan.co.jp/announce/2025/202504_01/"
+   }
   },
   {
    "co": "コナカ（DIFFERENCE）",
@@ -505,7 +577,19 @@
    ],
    "ind": "小売・EC",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "045-825-2151",
+      "hours": "毎日10〜17時"
+     }
+    ],
+    "mails": [
+     "support@difference.tokyo"
+    ],
+    "src": "https://www.konaka.co.jp/ir/assets/2025/04/20250424_1.pdf"
+   }
   },
   {
    "co": "トキハ／トキハインダストリー",
@@ -558,7 +642,24 @@
    ],
    "ind": "小売・EC",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-134-518",
+      "hours": "お客様 10〜19時"
+     },
+     {
+      "tel": "097-538-0542",
+      "hours": "取引先 10〜18時"
+     },
+     {
+      "tel": "097-538-1526",
+      "hours": "従業員 10〜18時"
+     }
+    ],
+    "src": "https://www.tokiwa-industry.co.jp/data/big_slides/68806d76e2cbf.pdf"
+   }
   },
   {
    "co": "AOKIホールディングス（快活CLUB・FiT24）",
@@ -609,7 +710,16 @@
    ],
    "ind": "生活サービス・レジャー",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0800-666-4804",
+      "hours": "平日10〜17時"
+     }
+    ],
+    "src": "https://ir.aoki-hd.co.jp/ja/news/topics/topics20250317kfi/main/0/link/2025.03.17_information_completed.pdf"
+   }
   },
   {
    "co": "東京ガス（子会社 東京ガスエンジニアリングソリューションズ）",
@@ -654,7 +764,20 @@
    ],
    "ind": "エネルギー",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-322-058",
+      "hours": "平日9〜17時"
+     },
+     {
+      "tel": "03-6736-5562",
+      "hours": "平日9〜17時"
+     }
+    ],
+    "src": "https://www.tokyo-gas.co.jp/news/press/20240717-03.html"
+   }
   },
   {
    "co": "KADOKAWA（ドワンゴ）",
@@ -703,7 +826,24 @@
    ],
    "ind": "メディア・出版",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "forms": [
+     [
+      "問い合わせフォーム1",
+      "https://kdq.jp/dwic"
+     ],
+     [
+      "問い合わせフォーム2",
+      "https://f.msgs.jp/webapp/form/18843_twbb_114/index.do"
+     ],
+     [
+      "問い合わせフォーム3",
+      "https://kdq.jp/dwhc"
+     ]
+    ],
+    "src": "https://tp.kadokawa.co.jp/.assets/240805_release_f2Alq0nH.pdf"
+   }
   },
   {
    "co": "イセトー（印刷・発送受託）",
@@ -748,7 +888,11 @@
    ],
    "ind": "人材・教育・業務支援",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式発表に窓口の記載なし（不審な連絡は警察へ相談と案内）",
+    "src": "https://www.iseto.co.jp/news/news_202410.html"
+   }
   },
   {
    "id": "daiichikosho",
@@ -787,7 +931,19 @@
    ],
    "ind": "生活サービス・レジャー",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-3280-3702",
+      "hours": "平日10〜17時"
+     }
+    ],
+    "mails": [
+     "incident-desk@dkkaraoke.co.jp"
+    ],
+    "src": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html"
+   }
   },
   {
    "id": "epark-relax",
@@ -827,7 +983,19 @@
    "last": "2026-09-24",
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-206-460",
+      "hours": "平日10〜17時"
+     }
+    ],
+    "mails": [
+     "pm-support@epark-r.jp"
+    ],
+    "src": "https://www.epark-relax.co.jp/news/231"
+   }
   },
   {
    "id": "gyazo",
@@ -864,7 +1032,16 @@
    "notIncl": "",
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://help-ja.gyazo.com/contact-us"
+     ]
+    ],
+    "src": "https://corp.helpfeel.com/news/news-20260925-01"
+   }
   },
   {
    "id": "mrmax",
@@ -906,7 +1083,13 @@
    ],
    "ind": "小売・EC",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "incident-desk@mrmax.co.jp"
+    ],
+    "src": "https://www.mrmax.co.jp/info/incident_20261006/"
+   }
   },
   {
    "id": "gmo-research-infoq",
@@ -947,7 +1130,13 @@
    ],
    "ind": "人材・教育・業務支援",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "infoq-support@gmo-research.ai"
+    ],
+    "src": "https://gmo-research.ai/pressroom/notice/notice-20261005"
+   }
   },
   {
    "id": "asahi-kasei-pharma",
@@ -985,7 +1174,25 @@
    ],
    "ind": "医療・製薬",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-88-2566",
+      "hours": "10月8日から"
+     }
+    ],
+    "mails": [
+     "security_team@pin-japan.com"
+    ],
+    "forms": [
+     [
+      "問い合わせフォーム",
+      "https://x.gd/J0FpK"
+     ]
+    ],
+    "src": "https://www.asahi-kasei.co.jp/pharma/oshirase_20261006.html"
+   }
   },
   {
    "id": "pfu-shopserve",
@@ -1025,7 +1232,14 @@
    ],
    "ind": "製造",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "pfudirect-privacy@jp.ricoh.com",
+     "support@estore.co.jp"
+    ],
+    "src": "https://www.pfu.ricoh.com/news/2026/news260918-2.html"
+   }
   },
   {
    "id": "sakura-internet",
@@ -1060,7 +1274,25 @@
    ],
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-378-719",
+      "hours": "10〜18時（土日祝を除く）"
+     }
+    ],
+    "mails": [
+     "support@sakura.ad.jp"
+    ],
+    "forms": [
+     [
+      "よくある質問",
+      "https://help.sakura.ad.jp/unauth-access-faq/"
+     ]
+    ],
+    "src": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/"
+   }
   },
   {
    "id": "dai-ichi-life",
@@ -1102,7 +1334,26 @@
    ],
    "ind": "金融・保険",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "070-3195-0933",
+      "hours": "平日9〜17時"
+     },
+     {
+      "tel": "070-3195-1239",
+      "hours": "平日9〜17時"
+     }
+    ],
+    "forms": [
+     [
+      "問い合わせフォーム",
+      "https://forms.cloud.microsoft/r/FqmSVGt9KW"
+     ]
+    ],
+    "src": "https://www.dai-ichi-life.co.jp/information/pdf/index_192.pdf"
+   }
   },
   {
    "id": "ozmall",
@@ -1142,7 +1393,16 @@
    ],
    "ind": "メディア・出版",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-6202-0390",
+      "hours": "平日10〜17時"
+     }
+    ],
+    "src": "https://starts-pub.jp/info20261001"
+   }
   },
   {
    "id": "seicomart",
@@ -1186,7 +1446,16 @@
    "notIncl": "パスワード、クレジットカード情報",
    "ind": "小売・EC",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-89-8551",
+      "hours": "月〜土9〜17時"
+     }
+    ],
+    "src": "https://www.secoma.co.jp/info/pdf/202609291545.pdf"
+   }
   },
   {
    "id": "eplus",
@@ -1228,7 +1497,17 @@
    "notIncl": "クレジットカード情報、パスワード",
    "ind": "生活サービス・レジャー",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "forms": [
+     [
+      "本件の問い合わせ",
+      "https://eplus.jp/privacycontact/"
+     ]
+    ],
+    "note": "対象者には専用フリーダイヤルを個別に案内",
+    "src": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961"
+   }
   },
   {
    "id": "tokyo-metro-metpo",
@@ -1267,7 +1546,16 @@
    "notIncl": "",
    "ind": "運輸・交通",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-162-837",
+      "hours": "9〜17時"
+     }
+    ],
+    "src": "https://www.metpo.jp/news/Gn52e-Vm"
+   }
   },
   {
    "id": "japanpost-app",
@@ -1306,7 +1594,27 @@
    "notIncl": "",
    "ind": "運輸・交通",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-23-28-86",
+      "hours": "平日9〜18時（「*」→「5」）"
+     },
+     {
+      "tel": "0570-046-666",
+      "hours": "携帯から・有料 平日9〜18時"
+     }
+    ],
+    "forms": [
+     [
+      "問い合わせフォーム",
+      "https://mypage.jpid.pf.japanpost.jp/contact"
+     ]
+    ],
+    "note": "お客様サービス相談センター",
+    "src": "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/c6b030844cf0412ab0d48f8bae7b3a75/20260929_01_01.pdf"
+   }
   },
   {
    "id": "nippon-rentacar",
@@ -1351,7 +1659,11 @@
    ],
    "ind": "運輸・交通",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式発表にお客様サポート窓口のメールあり（公式ページで確認）",
+    "src": "https://www.nipponrentacar.co.jp/info/202609.html"
+   }
   },
   {
    "id": "citizen",
@@ -1390,7 +1702,16 @@
    "notIncl": "",
    "ind": "製造",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "src": "https://www.citizen.co.jp/release/news/detail/2026/20261006.html",
+    "forms": [
+     [
+      "問い合わせフォーム",
+      "https://contact.citizen.co.jp/m/support-202610"
+     ]
+    ]
+   }
   },
   {
    "id": "nikkei",
@@ -1434,7 +1755,16 @@
    "notIncl": "",
    "ind": "メディア・出版",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "forms": [
+     [
+      "問い合わせフォーム",
+      "https://support.nikkei.com/app/ask_0101/p/19"
+     ]
+    ],
+    "src": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html"
+   }
   },
   {
    "id": "harada-beer",
@@ -1475,7 +1805,13 @@
    "last": "2026-09-14",
    "ind": "小売・EC",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "beer-engawa-inquiry@haradacorp.co.jp"
+    ],
+    "src": "https://www.haradacorp.co.jp/news/detail.php?id=371"
+   }
   },
   {
    "id": "dozle-store",
@@ -1510,7 +1846,13 @@
    "notIncl": "",
    "ind": "小売・EC",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "store-support@dozle.jp"
+    ],
+    "src": "https://www.dozle.jp/news/260912/"
+   }
   },
   {
    "id": "photogoods",
@@ -1550,7 +1892,19 @@
    "notIncl": "",
    "ind": "小売・EC",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "078-303-7383",
+      "hours": "平日10〜18時"
+     }
+    ],
+    "mails": [
+     "support@photo-goods.com"
+    ],
+    "src": "https://www.daiko-printing.co.jp/information/2037/"
+   }
   },
   {
    "id": "applynow",
@@ -1599,7 +1953,23 @@
    "notIncl": "",
    "ind": "人材・教育・業務支援",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-401-373",
+      "hours": "毎日9〜18時"
+     },
+     {
+      "tel": "0120-69-5114",
+      "hours": "吉野家・はなまるの件 9〜17時"
+     }
+    ],
+    "mails": [
+     "support_biz@applynow.co.jp"
+    ],
+    "src": "https://www.yoshinoya.com/wp-content/uploads/2026/09/30185541/news_2026093004.pdf"
+   }
   },
   {
    "id": "fuso-dentsu",
@@ -1637,7 +2007,19 @@
    "last": "2026-09-10",
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-3544-7191",
+      "hours": "取引先向け"
+     }
+    ],
+    "mails": [
+     "ictconveni@fusodentsu.co.jp"
+    ],
+    "src": "https://www.fusodentsu.co.jp/news/news_cp_20260910.html"
+   }
   },
   {
    "id": "smaregi-ec",
@@ -1676,7 +2058,13 @@
    "notIncl": "クレジットカード情報（保管なし）",
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "ec-support@smaregi.jp"
+    ],
+    "src": "https://ec.smaregi.jp/b2b/news/2026925-2/"
+   }
   },
   {
    "id": "jgc-digital",
@@ -1714,7 +2102,15 @@
    "notIncl": "",
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "support@azas-token.com",
+     "support@suloop.biz"
+    ],
+    "note": "平日9〜17時",
+    "src": "https://jgc-digital.com/topics/topics-3049/"
+   }
   },
   {
    "id": "hi-ho",
@@ -1753,7 +2149,20 @@
    ],
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "forms": [
+     [
+      "問い合わせフォーム（光）",
+      "https://bizimo.ne.jp/contact/contact_hikari/"
+     ],
+     [
+      "技術サポート",
+      "https://brand.hi-ho.jp/support/technical/#wpcf7-f495-p506-o1"
+     ]
+    ],
+    "src": "https://brand.hi-ho.jp/category/uncategorized/"
+   }
   },
   {
    "id": "ceres-pointincome",
@@ -1786,7 +2195,16 @@
    ],
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://pointi.jp/contactus/form.php"
+     ]
+    ],
+    "src": "https://next.ceres-inc.jp/news/detail/20261007-2/"
+   }
   },
   {
    "id": "sompo-smilingroad",
@@ -1827,7 +2245,16 @@
    ],
    "ind": "金融・保険",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-268-567",
+      "hours": "平日9〜17時"
+     }
+    ],
+    "src": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261007_1.pdf"
+   }
   },
   {
    "id": "his-thailand",
@@ -1865,7 +2292,16 @@
    "ind": "生活サービス・レジャー",
    "cause": "cyber",
    "last": "2026-10-07",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-945-146",
+      "hours": "平日11〜18時"
+     }
+    ],
+    "src": "https://www.his.co.jp/assets/20261007.pdf"
+   }
   },
   {
    "id": "toda",
@@ -1905,7 +2341,19 @@
    ],
    "ind": "建設・不動産",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-805-106",
+      "hours": ""
+     }
+    ],
+    "mails": [
+     "security_m@toda.co.jp"
+    ],
+    "src": "https://www.toda.co.jp/news/2026/20261007_006350.html"
+   }
   },
   {
    "id": "active-pro",
@@ -1944,7 +2392,16 @@
    ],
    "ind": "小売・EC",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-30-6550",
+      "hours": "平日9〜17時30分"
+     }
+    ],
+    "src": "https://www.active-pro.jp/news/4303/"
+   }
   },
   {
    "id": "egmkt",
@@ -1983,7 +2440,14 @@
    "ind": "人材・教育・業務支援",
    "cause": "cyber",
    "last": "2026-10-06",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "egm_planning@egmkt.co.jp"
+    ],
+    "note": "企画管理部",
+    "src": "https://www.egmkt.co.jp/newsroom/news/2026/10982/"
+   }
   },
   {
    "id": "cinra-job",
@@ -2024,7 +2488,13 @@
    "last": "2026-10-06",
    "ind": "人材・教育・業務支援",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "incident_support@cinra.net"
+    ],
+    "src": "https://www.cinra.co.jp/news/20261006"
+   }
   },
   {
    "id": "rakuten-drive",
@@ -2059,7 +2529,16 @@
    ],
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0800-600-6600",
+      "hours": "毎日9〜17時"
+     }
+    ],
+    "src": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929"
+   }
   },
   {
    "id": "nimoca",
@@ -2096,7 +2575,16 @@
    ],
    "ind": "運輸・交通",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "050-3616-2155",
+      "hours": "8〜20時"
+     }
+    ],
+    "src": "https://www.nimoca.jp/storage/files/information/107/20261006.pdf"
+   }
   },
   {
    "id": "kufu-machitalk",
@@ -2132,7 +2620,13 @@
    ],
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "community@kufu.co.jp"
+    ],
+    "src": "https://kufu.co.jp/2026/10/05/kufu-announce/"
+   }
   },
   {
    "id": "whiteessence",
@@ -2174,7 +2668,16 @@
    "last": "2026-10-05",
    "ind": "医療・製薬",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-385-035",
+      "hours": ""
+     }
+    ],
+    "src": "https://www.whiteessence.com/news/news/20261005/"
+   }
   },
   {
    "id": "studysapuri",
@@ -2209,7 +2712,28 @@
    ],
    "ind": "人材・教育・業務支援",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "forms": [
+     [
+      "個人契約の方",
+      "https://studysapuri.jp/info/inquiry/customer/?qaid=k12_info_20261002"
+     ],
+     [
+      "生徒",
+      "https://studysapuri.jp/info/inquiry/student/"
+     ],
+     [
+      "保護者",
+      "https://studysapuri.jp/info/inquiry/parent/"
+     ],
+     [
+      "先生",
+      "https://studysapuri.jp/info/inquiry/teacher/"
+     ]
+    ],
+    "src": "https://studysapuri.jp/info/important/"
+   }
   },
   {
    "id": "alsok-joylife",
@@ -2246,7 +2770,11 @@
    "ind": "生活サービス・レジャー",
    "cause": "cyber",
    "last": "2026-10-01",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式発表に窓口の記載なし（対象者への連絡は完了と記載）",
+    "src": "https://joylife.alsok.co.jp/files/optionallink/00006134_file.pdf"
+   }
   },
   {
    "id": "voising",
@@ -2287,7 +2815,16 @@
    "last": "2026-09-30",
    "ind": "人材・教育・業務支援",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "forms": [
+     [
+      "問い合わせフォーム",
+      "https://voising-official.com/contact?gr=voising&cat=security_support"
+     ]
+    ],
+    "src": "https://voising-official.com/news/1015"
+   }
   },
   {
    "id": "g-point",
@@ -2322,7 +2859,16 @@
    ],
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "forms": [
+     [
+      "サポートページ",
+      "https://support.gpoint.co.jp/hc/ja/categories/62716397993625"
+     ]
+    ],
+    "src": "https://www.g-plan.net/news/details/20260930.html"
+   }
   },
   {
    "id": "shueisha-happyplus",
@@ -2361,7 +2907,14 @@
    ],
    "ind": "メディア・出版",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "hpc-contact@ms.shueisha.co.jp"
+    ],
+    "note": "デジタルソリューション部",
+    "src": "https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf"
+   }
   },
   {
    "id": "legoland-hotel",
@@ -2399,7 +2952,13 @@
    ],
    "ind": "生活サービス・レジャー",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "Legoland.Reservation@legoland.jp"
+    ],
+    "src": "https://www.legoland.jp/operation/news/news-release/news20260925/"
+   }
   },
   {
    "id": "ryomo-systems",
@@ -2439,7 +2998,24 @@
    "ind": "通信・IT",
    "cause": "cyber",
    "last": "2026-10-05",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-998-970",
+      "hours": "両毛システムズ 平日9〜17時"
+     },
+     {
+      "tel": "026-226-8161",
+      "hours": "長野都市ガス北信支社 平日9〜17時"
+     },
+     {
+      "tel": "0267-68-5252",
+      "hours": "長野都市ガス東信支社 平日9〜17時"
+     }
+    ],
+    "src": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html"
+   }
   },
   {
    "id": "nichirei",
@@ -2482,7 +3058,19 @@
    "ind": "製造",
    "cause": "cyber",
    "claim": "RansomHouseが犯行声明（攻撃者側の主張）",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-12-4099",
+      "hours": "平日9〜17時"
+     }
+    ],
+    "mails": [
+     "N1000X074@nichirei.co.jp"
+    ],
+    "src": "https://www.nichirei.co.jp/news/2026/524.html"
+   }
   },
   {
    "id": "chibagin-shop",
@@ -2523,7 +3111,16 @@
    "ind": "小売・EC",
    "cause": "cyber",
    "last": "2026-09-17",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "043-441-7270",
+      "hours": "平日9〜17時"
+     }
+    ],
+    "src": "https://shop.c-value.jp/view/news/20260917153001"
+   }
   },
   {
    "id": "fivefox",
@@ -2568,7 +3165,24 @@
    "ind": "小売・EC",
    "cause": "cyber",
    "last": "2026-09-08",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-114563",
+      "hours": "お客様 平日10〜17時"
+     },
+     {
+      "tel": "03-4362-8091",
+      "hours": "ファイブフォックス従業員"
+     },
+     {
+      "tel": "03-4362-6747",
+      "hours": "コムサ従業員"
+     }
+    ],
+    "src": "https://www.fivefoxes.co.jp/2026/09/post-23.html"
+   }
   },
   {
    "id": "revisio",
@@ -2601,7 +3215,11 @@
    ],
    "ind": "通信・IT",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式ページで窓口を確認してください",
+    "src": "https://revisio.co.jp/news/qlqXjTs7"
+   }
   },
   {
    "id": "digital-agency-gss",
@@ -2643,7 +3261,19 @@
    ],
    "ind": "公共機関",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-360-036",
+      "hours": ""
+     }
+    ],
+    "mails": [
+     "kojin-info@digital.go.jp"
+    ],
+    "src": "https://www.digital.go.jp/news/2026-0911-01"
+   }
   },
   {
    "id": "saitama-shibusawamix",
@@ -2679,7 +3309,20 @@
    ],
    "ind": "公共機関",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "048-830-3787",
+      "hours": ""
+     }
+    ],
+    "mails": [
+     "a3770-21@pref.saitama.lg.jp"
+    ],
+    "note": "埼玉県 イノベーション創造課 渋沢MIX担当",
+    "src": "https://www.pref.saitama.lg.jp/a0803/news/page/news2026100702.html"
+   }
   },
   {
    "id": "jogmec",
@@ -2715,7 +3358,17 @@
    "ind": "公共機関",
    "cause": "cyber",
    "last": "2026-10-02",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "050-2027-0001",
+      "hours": "平日10〜17時（12:30〜13:15を除く）"
+     }
+    ],
+    "note": "総務部",
+    "src": "https://www.jogmec.go.jp/news/information/information_00706.html"
+   }
   },
   {
    "id": "jaea-jrr3",
@@ -2751,7 +3404,11 @@
    "ind": "公共機関",
    "cause": "cyber",
    "last": "2026-10-01",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式発表に窓口の記載なし（対象者へは個別に連絡）",
+    "src": "https://www.jaea.go.jp/02/press2026/p26100105/"
+   }
   },
   {
    "id": "osaka-city-interview",
@@ -2790,7 +3447,17 @@
    "ind": "公共機関",
    "cause": "cyber",
    "last": "2026-09-15",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "06-6208-8540",
+      "hours": ""
+     }
+    ],
+    "note": "大阪市 行政委員会事務局 任用調査課",
+    "src": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000687493.html"
+   }
   },
   {
    "id": "yamaguchi-u",
@@ -2827,7 +3494,11 @@
    "ind": "大学・学校",
    "cause": "cyber",
    "last": "2026-10-06",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式発表に本件の窓口の記載なし",
+    "src": "https://www.yamaguchi-u.ac.jp/news/52728/index.html"
+   }
   },
   {
    "id": "science-tokyo",
@@ -2864,7 +3535,11 @@
    ],
    "ind": "大学・学校",
    "cause": "cyber",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式発表内の専用フォームから問い合わせ",
+    "src": "https://www.isct.ac.jp/ja/news/mrep3c3mj6bx"
+   }
   },
   {
    "id": "tokai-u-contractor",
@@ -2906,7 +3581,16 @@
    "ind": "大学・学校",
    "cause": "cyber",
    "last": "2026-02-18",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-63-2211",
+      "hours": "平日9〜17時"
+     }
+    ],
+    "src": "https://www.u-tokai.ac.jp/uploads/2026/02/8f619ff70dd54597ac4189dff04c9dea.pdf"
+   }
   },
   {
    "id": "nms-kosugi",
@@ -2946,7 +3630,16 @@
    "ind": "病院・医療",
    "cause": "cyber",
    "last": "2026-02-27",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-390094",
+      "hours": "月〜金9〜17時"
+     }
+    ],
+    "src": "https://www.nms.ac.jp/kosugi-h/news/_28850.html"
+   }
   },
   {
    "id": "weathercaster-net",
@@ -2985,7 +3678,13 @@
    "ind": "団体",
    "cause": "cyber",
    "last": "2026-10-06",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "wcn-privacy@weathercaster.jp"
+    ],
+    "src": "https://weathercaster.jp/notices/20261006_notice.pdf"
+   }
   },
   {
    "id": "yotsukaido-shakyo",
@@ -3021,7 +3720,19 @@
    "ind": "団体",
    "cause": "cyber",
    "last": "2026-09-29",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "043-422-2945",
+      "hours": "8:30〜17:15（土日祝を除く）"
+     }
+    ],
+    "mails": [
+     "office@yotsukaido-shakyo.or.jp"
+    ],
+    "src": "https://www.yotsukaido-shakyo.or.jp/info.php?id=941"
+   }
   },
   {
    "id": "ihouse-library",
@@ -3058,7 +3769,22 @@
    "ind": "団体",
    "cause": "cyber",
    "last": "2026-09-29",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-3470-3213",
+      "hours": "平日9〜17:30"
+     }
+    ],
+    "forms": [
+     [
+      "図書室問い合わせフォーム",
+      "https://ihj.global/contactform_library/"
+     ]
+    ],
+    "src": "https://ihj.global/news/new/lib_opac/"
+   }
   },
   {
    "id": "ieej",
@@ -3096,7 +3822,19 @@
    "ind": "団体",
    "cause": "cyber",
    "last": "2026-09-11",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-5547-0222",
+      "hours": ""
+     }
+    ],
+    "mails": [
+     "ieej-mail@tky.ieej.or.jp"
+    ],
+    "src": "https://eneken.ieej.or.jp/press/press260911.pdf"
+   }
   },
   {
    "id": "coop-yamaguchi",
@@ -3137,7 +3875,16 @@
    "ind": "団体",
    "cause": "cyber",
    "last": "2026-09-07",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-49-5657",
+      "hours": "月〜金8:30〜20時、土9〜17時"
+     }
+    ],
+    "src": "https://www.yamaguti-coop.or.jp/line-miniapp-incident-report2/"
+   }
   },
   {
    "id": "osaka-museum-mail",
@@ -3173,7 +3920,20 @@
     ]
    ],
    "ind": "公共機関",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "06-6946-5728",
+      "hours": "大阪歴史博物館 総務課"
+     },
+     {
+      "tel": "06-6940-4330",
+      "hours": "博物館機構 事務局総務課"
+     }
+    ],
+    "src": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000688772.html"
+   }
   },
   {
    "id": "furusato-choice",
@@ -3212,7 +3972,16 @@
    ],
    "ind": "通信・IT",
    "last": "2026-10-05",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "forms": [
+     [
+      "問い合わせフォーム",
+      "https://www.furusato-tax.jp/contact"
+     ]
+    ],
+    "src": "https://www.trustbank.co.jp/newsroom/news/news261005/"
+   }
   },
   {
    "id": "benefit-one",
@@ -3254,7 +4023,24 @@
    ],
    "ind": "人材・教育・業務支援",
    "last": "2026-09-30",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-608-375",
+      "hours": "個人 平日10〜17時"
+     },
+     {
+      "tel": "0120-358-621",
+      "hours": "法人 平日10〜17時"
+     }
+    ],
+    "mails": [
+     "privacy-support@benefit-one.co.jp",
+     "privacy-support-houjin@benefit-one.co.jp"
+    ],
+    "src": "https://corp.benefit-one.co.jp/company/news/news/2026/20260930/20260930.pdf"
+   }
   },
   {
    "id": "greencoop-fukuoka",
@@ -3287,7 +4073,16 @@
     ]
    ],
    "ind": "団体",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-121-265",
+      "hours": "平日9〜17時30分"
+     }
+    ],
+    "src": "https://greencoop-fukuoka.jp/wordpress/wp-content/uploads/2026/10/9670516f522e32fb88f5e4899455b2ca.pdf"
+   }
   },
   {
    "id": "nichii-kaigo",
@@ -3321,7 +4116,16 @@
    ],
    "ind": "医療・製薬",
    "last": "2026-10-02",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-401-151",
+      "hours": "9〜17時"
+     }
+    ],
+    "src": "https://www.nichiigakkan.co.jp/topics/assets/2ba7ca6c5a8a249293493f6eb40ad90b9be2ce78.pdf"
+   }
   },
   {
    "id": "osaka-art-museum",
@@ -3353,7 +4157,17 @@
    "src": [],
    "ind": "公共機関",
    "last": "2026-09-24",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "06-6771-4874",
+      "hours": ""
+     }
+    ],
+    "note": "大阪市立美術館 総務課",
+    "src": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000687654.html"
+   }
   },
   {
    "id": "aichi-aikon-navi",
@@ -3394,7 +4208,20 @@
    ],
    "ind": "公共機関",
    "last": "2026-09-22",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "052-954-6106",
+      "hours": ""
+     }
+    ],
+    "mails": [
+     "kosodate@pref.aichi.lg.jp"
+    ],
+    "note": "愛知県 子育て支援課",
+    "src": "https://www.pref.aichi.jp/press-release/aiconnavikisya202609.html"
+   }
   },
   {
    "id": "istyle-cosme",
@@ -3431,7 +4258,14 @@
    ],
    "ind": "小売・EC",
    "last": "2026-09-16",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "mails": [
+     "i-infosec@istyle.co.jp"
+    ],
+    "note": "10〜18時（土日祝を除く）",
+    "src": "https://www.istyle.co.jp/news/info/2026/09/20260916-3.html"
+   }
   },
   {
    "id": "prudential-ex-employee",
@@ -3471,7 +4305,17 @@
    ],
    "ind": "金融・保険",
    "last": "2026-09-14",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-810740",
+      "hours": "平日9〜17:30、土曜9〜17時"
+     }
+    ],
+    "note": "カスタマーサービスセンター",
+    "src": "https://www.prudential.co.jp/news/pdf/1028/20260914.pdf"
+   }
   },
   {
    "id": "mitsui-ocean-cruise",
@@ -3515,7 +4359,22 @@
    ],
    "ind": "運輸・交通",
    "last": "2026-09-10",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-438-038",
+      "hours": "平日10:30〜17時"
+     }
+    ],
+    "forms": [
+     [
+      "特設窓口フォーム",
+      "https://www.mitsuioceancruises.com/202609_contact.html"
+     ]
+    ],
+    "src": "https://www.mitsuioceancruises.com/news/20260910.html"
+   }
   },
   {
    "id": "kamakura-aozora",
@@ -3548,7 +4407,20 @@
     ]
    ],
    "ind": "公共機関",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0467-61-3397",
+      "hours": ""
+     }
+    ],
+    "mails": [
+     "h-shien@city.kamakura.kanagawa.jp"
+    ],
+    "note": "鎌倉市 発達支援室",
+    "src": "https://www.city.kamakura.kanagawa.jp/kisya/data/2026/20260910.html"
+   }
   },
   {
    "id": "saitama-masking",
@@ -3585,7 +4457,20 @@
    ],
    "ind": "公共機関",
    "last": "2026-09-10",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "tels": [
+     {
+      "tel": "048-830-2562",
+      "hours": ""
+     }
+    ],
+    "mails": [
+     "a2550-04@pref.saitama.lg.jp"
+    ],
+    "note": "埼玉県 学事課",
+    "src": "https://www.pref.saitama.lg.jp/a0204/news/page/news2026091001.html"
+   }
   },
   {
    "id": "ichini-senkyo",
@@ -3621,7 +4506,11 @@
    ],
    "ind": "メディア・出版",
    "last": "2026-09-10",
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "contact": {
+    "note": "公式発表に本件の窓口の記載なし",
+    "src": "https://ichi-ni.jp/info/2026091002/"
+   }
   }
  ],
  "statusLabels": {
