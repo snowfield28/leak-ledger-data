@@ -67,7 +67,8 @@
      "https://www.park24.co.jp/news/2026/09/web1.html"
     ]
    ],
-   "ind": "運輸・交通"
+   "ind": "運輸・交通",
+   "cause": "cyber"
   },
   {
    "co": "大和証券（委託先 スカラコミュニケーションズ）",
@@ -111,7 +112,8 @@
      "https://ssl4.eir-parts.net/doc/8601/tdnet/2891437/00.pdf"
     ]
    ],
-   "ind": "金融・保険"
+   "ind": "金融・保険",
+   "cause": "cyber"
   },
   {
    "co": "大起水産",
@@ -152,7 +154,8 @@
      "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf"
     ]
    ],
-   "ind": "飲食"
+   "ind": "飲食",
+   "cause": "cyber"
   },
   {
    "co": "アフラック生命保険",
@@ -214,7 +217,8 @@
      "https://www.aflac.co.jp/static/corp/profile/news/2026/2026073100.pdf"
     ]
    ],
-   "ind": "金融・保険"
+   "ind": "金融・保険",
+   "cause": "cyber"
   },
   {
    "co": "KDDI（ISP向けメールシステム）",
@@ -252,7 +256,8 @@
      "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf"
     ]
    ],
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "co": "メディカ出版",
@@ -300,7 +305,8 @@
      "https://www.medica.co.jp/news/information/3544/"
     ]
    ],
-   "ind": "メディア・出版"
+   "ind": "メディア・出版",
+   "cause": "cyber"
   },
   {
    "co": "穴吹ハウジングサービス（あなぶきグループ）",
@@ -345,7 +351,8 @@
      "https://www.anabuki-housing.co.jp/news/content.php?news_id=521"
     ]
    ],
-   "ind": "建設・不動産"
+   "ind": "建設・不動産",
+   "cause": "cyber"
   },
   {
    "co": "エフワン（オーダースーツ）",
@@ -396,7 +403,8 @@
      "https://f-one.co.jp/_include/pdf/information20260204.pdf"
     ]
    ],
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "co": "アスクル",
@@ -446,7 +454,8 @@
      "https://pdf.irpocket.com/C0032/PDLX/O3bg/N4O3.pdf"
     ]
    ],
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "co": "アサヒグループホールディングス",
@@ -500,7 +509,8 @@
      "https://www.asahigroup-holdings.com/newsroom/detail/20260717-0101.html"
     ]
    ],
-   "ind": "製造"
+   "ind": "製造",
+   "cause": "cyber"
   },
   {
    "co": "損害保険ジャパン（SOMPOホールディングス）",
@@ -540,7 +550,8 @@
      "https://www.sompo-japan.co.jp/announce/2025/202504_01/"
     ]
    ],
-   "ind": "金融・保険"
+   "ind": "金融・保険",
+   "cause": "cyber"
   },
   {
    "co": "コナカ（DIFFERENCE）",
@@ -580,7 +591,8 @@
      "https://www.konaka.co.jp/ir/assets/2025/04/20250424_1.pdf"
     ]
    ],
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "co": "トキハ／トキハインダストリー",
@@ -631,7 +643,8 @@
      "https://www.tokiwa-industry.co.jp/data/big_slides/68806d76e2cbf.pdf"
     ]
    ],
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "co": "AOKIホールディングス（快活CLUB・FiT24）",
@@ -680,7 +693,8 @@
      "https://ir.aoki-hd.co.jp/ja/news/topics/topics20250317kfi/main/0/link/2025.03.17_information_completed.pdf"
     ]
    ],
-   "ind": "生活サービス・レジャー"
+   "ind": "生活サービス・レジャー",
+   "cause": "cyber"
   },
   {
    "co": "東京ガス（子会社 東京ガスエンジニアリングソリューションズ）",
@@ -723,7 +737,8 @@
      "https://www.tokyo-gas.co.jp/news/press/20240717-03.html"
     ]
    ],
-   "ind": "エネルギー"
+   "ind": "エネルギー",
+   "cause": "cyber"
   },
   {
    "co": "KADOKAWA（ドワンゴ）",
@@ -770,7 +785,8 @@
      "https://tp.kadokawa.co.jp/.assets/240805_release_f2Alq0nH.pdf"
     ]
    ],
-   "ind": "メディア・出版"
+   "ind": "メディア・出版",
+   "cause": "cyber"
   },
   {
    "co": "イセトー（印刷・発送受託）",
@@ -813,7 +829,8 @@
      "https://www.iseto.co.jp/news/news_202410.html"
     ]
    ],
-   "ind": "人材・教育・業務支援"
+   "ind": "人材・教育・業務支援",
+   "cause": "cyber"
   },
   {
    "id": "daiichikosho",
@@ -850,7 +867,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "ind": "生活サービス・レジャー"
+   "ind": "生活サービス・レジャー",
+   "cause": "cyber"
   },
   {
    "id": "yakiniku-king",
@@ -890,7 +908,8 @@
      "https://rocket-boys.co.jp/?p=42522"
     ]
    ],
-   "ind": "飲食"
+   "ind": "飲食",
+   "cause": "cyber"
   },
   {
    "id": "epark-relax",
@@ -928,7 +947,8 @@
     ]
    ],
    "last": "2026-09-24",
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "gyazo",
@@ -963,7 +983,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "murauchi",
@@ -1001,7 +1022,8 @@
    ],
    "notIncl": "",
    "last": "2026-09-15",
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "id": "mrmax",
@@ -1041,7 +1063,8 @@
      "https://rocket-boys.co.jp/?p=42595"
     ]
    ],
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "id": "gmo-research-infoq",
@@ -1080,7 +1103,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "ind": "人材・教育・業務支援"
+   "ind": "人材・教育・業務支援",
+   "cause": "cyber"
   },
   {
    "id": "asahi-kasei-pharma",
@@ -1116,7 +1140,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "ind": "医療・製薬"
+   "ind": "医療・製薬",
+   "cause": "cyber"
   },
   {
    "id": "pfu-shopserve",
@@ -1154,7 +1179,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "ind": "製造"
+   "ind": "製造",
+   "cause": "cyber"
   },
   {
    "id": "sakura-internet",
@@ -1187,7 +1213,8 @@
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
     ]
    ],
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "dai-ichi-life",
@@ -1227,7 +1254,8 @@
      "https://rocket-boys.co.jp/?p=42290"
     ]
    ],
-   "ind": "金融・保険"
+   "ind": "金融・保険",
+   "cause": "cyber"
   },
   {
    "id": "sagawa",
@@ -1268,7 +1296,8 @@
      "https://rocket-boys.co.jp/?p=42308"
     ]
    ],
-   "ind": "運輸・交通"
+   "ind": "運輸・交通",
+   "cause": "cyber"
   },
   {
    "id": "ozmall",
@@ -1306,7 +1335,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/01/56359.html"
     ]
    ],
-   "ind": "メディア・出版"
+   "ind": "メディア・出版",
+   "cause": "cyber"
   },
   {
    "id": "lean-body",
@@ -1341,7 +1371,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "生活サービス・レジャー"
+   "ind": "生活サービス・レジャー",
+   "cause": "cyber"
   },
   {
    "id": "fines",
@@ -1371,7 +1402,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "seicomart",
@@ -1406,7 +1438,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "id": "eplus",
@@ -1432,7 +1465,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "生活サービス・レジャー"
+   "ind": "生活サービス・レジャー",
+   "cause": "cyber"
   },
   {
    "id": "tokyo-metro-metpo",
@@ -1469,7 +1503,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "運輸・交通"
+   "ind": "運輸・交通",
+   "cause": "cyber"
   },
   {
    "id": "japanpost-app",
@@ -1500,7 +1535,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "運輸・交通"
+   "ind": "運輸・交通",
+   "cause": "cyber"
   },
   {
    "id": "nippon-rentacar",
@@ -1543,7 +1579,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/10/07/56403.html"
     ]
    ],
-   "ind": "運輸・交通"
+   "ind": "運輸・交通",
+   "cause": "cyber"
   },
   {
    "id": "citizen",
@@ -1580,7 +1617,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "製造"
+   "ind": "製造",
+   "cause": "cyber"
   },
   {
    "id": "nikkei-bp",
@@ -1614,7 +1652,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "メディア・出版"
+   "ind": "メディア・出版",
+   "cause": "cyber"
   },
   {
    "id": "nikkei",
@@ -1656,7 +1695,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "メディア・出版"
+   "ind": "メディア・出版",
+   "cause": "cyber"
   },
   {
    "id": "harada-beer",
@@ -1695,7 +1735,8 @@
    ],
    "notIncl": "",
    "last": "2026-09-14",
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "id": "dozle-store",
@@ -1728,7 +1769,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "id": "photogoods",
@@ -1766,7 +1808,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "id": "applynow",
@@ -1805,7 +1848,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "人材・教育・業務支援"
+   "ind": "人材・教育・業務支援",
+   "cause": "cyber"
   },
   {
    "id": "fuso-dentsu",
@@ -1837,7 +1881,8 @@
    ],
    "notIncl": "",
    "last": "2026-09-10",
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "smaregi-ec",
@@ -1868,7 +1913,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "montbell",
@@ -1899,7 +1945,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "id": "jgc-digital",
@@ -1935,7 +1982,8 @@
     ]
    ],
    "notIncl": "",
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "hi-ho",
@@ -1967,7 +2015,8 @@
     ]
    ],
    "auto": true,
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "ceres-pointincome",
@@ -1999,7 +2048,8 @@
     ]
    ],
    "auto": true,
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "sompo-smilingroad",
@@ -2032,7 +2082,8 @@
     ]
    ],
    "auto": true,
-   "ind": "金融・保険"
+   "ind": "金融・保険",
+   "cause": "cyber"
   },
   {
    "id": "his-thailand",
@@ -2064,7 +2115,8 @@
     ]
    ],
    "auto": true,
-   "ind": "生活サービス・レジャー"
+   "ind": "生活サービス・レジャー",
+   "cause": "cyber"
   },
   {
    "id": "toda",
@@ -2096,7 +2148,8 @@
     ]
    ],
    "auto": true,
-   "ind": "建設・不動産"
+   "ind": "建設・不動産",
+   "cause": "cyber"
   },
   {
    "id": "active-pro",
@@ -2128,7 +2181,8 @@
     ]
    ],
    "auto": true,
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "id": "egmkt",
@@ -2160,7 +2214,8 @@
     ]
    ],
    "auto": true,
-   "ind": "人材・教育・業務支援"
+   "ind": "人材・教育・業務支援",
+   "cause": "cyber"
   },
   {
    "id": "cinra-job",
@@ -2193,7 +2248,8 @@
    ],
    "auto": true,
    "last": "2026-10-06",
-   "ind": "人材・教育・業務支援"
+   "ind": "人材・教育・業務支援",
+   "cause": "cyber"
   },
   {
    "id": "rakuten-drive",
@@ -2225,7 +2281,8 @@
     ]
    ],
    "auto": true,
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "nimoca",
@@ -2257,7 +2314,8 @@
     ]
    ],
    "auto": true,
-   "ind": "運輸・交通"
+   "ind": "運輸・交通",
+   "cause": "cyber"
   },
   {
    "id": "kufu-machitalk",
@@ -2289,7 +2347,8 @@
     ]
    ],
    "auto": true,
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "whiteessence",
@@ -2322,7 +2381,8 @@
    ],
    "auto": true,
    "last": "2026-10-05",
-   "ind": "医療・製薬"
+   "ind": "医療・製薬",
+   "cause": "cyber"
   },
   {
    "id": "moonstar",
@@ -2349,7 +2409,8 @@
     ]
    ],
    "auto": true,
-   "ind": "製造"
+   "ind": "製造",
+   "cause": "cyber"
   },
   {
    "id": "studysapuri",
@@ -2381,7 +2442,8 @@
     ]
    ],
    "auto": true,
-   "ind": "人材・教育・業務支援"
+   "ind": "人材・教育・業務支援",
+   "cause": "cyber"
   },
   {
    "id": "alsok-joylife",
@@ -2408,7 +2470,8 @@
     ]
    ],
    "auto": true,
-   "ind": "生活サービス・レジャー"
+   "ind": "生活サービス・レジャー",
+   "cause": "cyber"
   },
   {
    "id": "voising",
@@ -2441,7 +2504,8 @@
    ],
    "auto": true,
    "last": "2026-09-30",
-   "ind": "人材・教育・業務支援"
+   "ind": "人材・教育・業務支援",
+   "cause": "cyber"
   },
   {
    "id": "g-point",
@@ -2468,7 +2532,8 @@
     ]
    ],
    "auto": true,
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "shueisha-happyplus",
@@ -2495,7 +2560,8 @@
     ]
    ],
    "auto": true,
-   "ind": "メディア・出版"
+   "ind": "メディア・出版",
+   "cause": "cyber"
   },
   {
    "id": "legoland-hotel",
@@ -2523,7 +2589,8 @@
     ]
    ],
    "auto": true,
-   "ind": "生活サービス・レジャー"
+   "ind": "生活サービス・レジャー",
+   "cause": "cyber"
   },
   {
    "id": "ryomo-systems",
@@ -2556,7 +2623,8 @@
     ]
    ],
    "auto": true,
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "conoha-wing",
@@ -2583,7 +2651,8 @@
     ]
    ],
    "auto": true,
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "nichirei",
@@ -2611,7 +2680,8 @@
    ],
    "auto": true,
    "last": "2026-09-19",
-   "ind": "製造"
+   "ind": "製造",
+   "cause": "cyber"
   },
   {
    "id": "chibagin-shop",
@@ -2643,7 +2713,8 @@
     ]
    ],
    "auto": true,
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "id": "fivefox",
@@ -2670,7 +2741,8 @@
     ]
    ],
    "auto": true,
-   "ind": "小売・EC"
+   "ind": "小売・EC",
+   "cause": "cyber"
   },
   {
    "id": "revisio",
@@ -2697,7 +2769,8 @@
     ]
    ],
    "auto": true,
-   "ind": "通信・IT"
+   "ind": "通信・IT",
+   "cause": "cyber"
   },
   {
    "id": "omu",
@@ -2740,7 +2813,8 @@
      "https://newsdig.tbs.co.jp/articles/mbs/2990268?display=1"
     ]
    ],
-   "ind": "大学・学校"
+   "ind": "大学・学校",
+   "cause": "cyber"
   },
   {
    "id": "digital-agency-gss",
@@ -2776,7 +2850,8 @@
     ]
    ],
    "auto": true,
-   "ind": "公共機関"
+   "ind": "公共機関",
+   "cause": "cyber"
   },
   {
    "id": "saitama-shibusawamix",
@@ -2808,7 +2883,8 @@
     ]
    ],
    "auto": true,
-   "ind": "公共機関"
+   "ind": "公共機関",
+   "cause": "cyber"
   },
   {
    "id": "jogmec",
@@ -2835,7 +2911,8 @@
     ]
    ],
    "auto": true,
-   "ind": "公共機関"
+   "ind": "公共機関",
+   "cause": "cyber"
   },
   {
    "id": "jaea-jrr3",
@@ -2862,7 +2939,8 @@
     ]
    ],
    "auto": true,
-   "ind": "公共機関"
+   "ind": "公共機関",
+   "cause": "cyber"
   },
   {
    "id": "osaka-city-interview",
@@ -2890,7 +2968,8 @@
     ]
    ],
    "auto": true,
-   "ind": "公共機関"
+   "ind": "公共機関",
+   "cause": "cyber"
   },
   {
    "id": "koshigaya-teacher-pc",
@@ -2917,7 +2996,8 @@
     ]
    ],
    "auto": true,
-   "ind": "公共機関"
+   "ind": "公共機関",
+   "cause": "cyber"
   },
   {
    "id": "yamaguchi-u",
@@ -2949,7 +3029,8 @@
     ]
    ],
    "auto": true,
-   "ind": "大学・学校"
+   "ind": "大学・学校",
+   "cause": "cyber"
   },
   {
    "id": "science-tokyo",
@@ -2976,7 +3057,8 @@
     ]
    ],
    "auto": true,
-   "ind": "大学・学校"
+   "ind": "大学・学校",
+   "cause": "cyber"
   },
   {
    "id": "tokai-u-contractor",
@@ -3004,7 +3086,8 @@
     ]
    ],
    "auto": true,
-   "ind": "大学・学校"
+   "ind": "大学・学校",
+   "cause": "cyber"
   },
   {
    "id": "nms-kosugi",
@@ -3031,7 +3114,8 @@
     ]
    ],
    "auto": true,
-   "ind": "病院・医療"
+   "ind": "病院・医療",
+   "cause": "cyber"
   },
   {
    "id": "weathercaster-net",
@@ -3063,7 +3147,8 @@
     ]
    ],
    "auto": true,
-   "ind": "団体"
+   "ind": "団体",
+   "cause": "cyber"
   },
   {
    "id": "yotsukaido-shakyo",
@@ -3090,7 +3175,8 @@
     ]
    ],
    "auto": true,
-   "ind": "団体"
+   "ind": "団体",
+   "cause": "cyber"
   },
   {
    "id": "ihouse-library",
@@ -3117,7 +3203,8 @@
     ]
    ],
    "auto": true,
-   "ind": "団体"
+   "ind": "団体",
+   "cause": "cyber"
   },
   {
    "id": "ieej",
@@ -3148,7 +3235,8 @@
     ]
    ],
    "auto": true,
-   "ind": "団体"
+   "ind": "団体",
+   "cause": "cyber"
   },
   {
    "id": "coop-yamaguchi",
@@ -3175,7 +3263,653 @@
     ]
    ],
    "auto": true,
+   "ind": "団体",
+   "cause": "cyber"
+  },
+  {
+   "id": "kanagawa-police-licenses",
+   "co": "神奈川県警察（保土ケ谷警察署）",
+   "date": "2026-10-09",
+   "types": [
+    "内部不正"
+   ],
+   "cause": "insider",
+   "n": 30,
+   "label": "約30枚",
+   "st": "p",
+   "items": [
+    "doc",
+    "name",
+    "addr",
+    "birth"
+   ],
+   "itemsText": "更新時に回収した期限切れの運転免許証の現物（氏名、住所、生年月日、顔写真などが記載）",
+   "notIncl": "",
+   "sum": "保土ケ谷署警備課の20代の巡査長が、回収した期限切れの運転免許証約30枚を無断で持ち出していた。8月下旬に酒に酔って駅のホームにリュックサックを置き忘れ、駅員が中の免許証を見つけて警察に届けたことで発覚した。",
+   "status": "ongoing",
+   "statusText": "10月9日に報道。持ち出しの理由を調べている。",
+   "resp": "持ち出しの理由を調べ、処分を検討。警備部門の情報収集のあり方を調査。警備部門が監視対象者の個人情報を確認する手段として使っていたものではないと説明。犯罪などへの悪用は確認されていない。",
+   "official": [],
+   "src": [
+    [
+     "ANNニュース（KSB）",
+     "https://news.ksb.co.jp/ann/article/16951974"
+    ],
+    [
+     "NHK",
+     "https://news.web.nhk/newsweb/na/nd-20261009de56928"
+    ],
+    [
+     "日本経済新聞",
+     "https://www.nikkei.com/article/DGXZQOUD087J80Y6A001C2000000/"
+    ]
+   ],
+   "ind": "公共機関"
+  },
+  {
+   "id": "osaka-museum-mail",
+   "co": "大阪市・大阪市博物館機構",
+   "date": "2026-10-08",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "n": 4,
+   "label": "4件",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "メールを宛先が見える状態で送信。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "公式発表",
+     "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000688772.html"
+    ]
+   ],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "saitama-city-medical-media",
+   "co": "さいたま市民医療センター（電子記録媒体）",
+   "date": "2026-10-06",
+   "types": [
+    "紛失・盗難"
+   ],
+   "cause": "loss",
+   "n": 200,
+   "label": "画像約200枚",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "個人情報を含む電子記録媒体を紛失。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "公式発表",
+     "https://www.scmc.or.jp/contents/wp-content/uploads/2026/10/5763ad0a659a6fd25698aef32192d6f9.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "病院・医療"
+  },
+  {
+   "id": "furusato-choice",
+   "co": "トラストバンク（ふるさとチョイス）",
+   "date": "2026-10-05",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "cause": "config",
+   "n": 254,
+   "label": "254件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "システムの不具合で他人の情報が表示された。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "公式発表",
+     "https://www.trustbank.co.jp/newsroom/news/news261005/"
+    ]
+   ],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "通信・IT"
+  },
+  {
+   "id": "offerbox",
+   "co": "i-plug（OfferBox）",
+   "date": "2026-10-05",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "cause": "config",
+   "n": 314009,
+   "label": "理論上の最大314,009件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "設定の不備で情報が閲覧可能な状態になっていた。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "公式発表",
+     "https://i-plug.co.jp/news/11334/"
+    ]
+   ],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "人材・教育・業務支援"
+  },
+  {
+   "id": "benefit-one",
+   "co": "ベネフィット・ワン（ベネワン・プラットフォーム）",
+   "date": "2026-09-30",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "cause": "config",
+   "n": 13460,
+   "label": "13,460件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "アンケート機能の不具合で、他の企業・団体の個人情報をダウンロードできる状態だった。不具合を認識しながら解消作業が適切に行われていなかった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/06/56394.html"
+    ],
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "人材・教育・業務支援"
+  },
+  {
+   "id": "ticketplus",
+   "co": "チケットプラス",
+   "date": "2026-10-02",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "cause": "config",
+   "n": 107,
+   "label": "最大107件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "Webキャッシュの設定の誤りで他人の情報が表示された。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "生活サービス・レジャー"
+  },
+  {
+   "id": "greencoop-fukuoka",
+   "co": "グリーンコープ生協ふくおか",
+   "date": "2026-10-02",
+   "types": [
+    "紛失・盗難"
+   ],
+   "cause": "loss",
+   "n": 33526,
+   "label": "33,526件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "業務用PCが盗まれた。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "公式発表",
+     "https://greencoop-fukuoka.jp/wordpress/wp-content/uploads/2026/10/9670516f522e32fb88f5e4899455b2ca.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
    "ind": "団体"
+  },
+  {
+   "id": "nichii-kaigo",
+   "co": "ニチイ学館",
+   "date": "2026-10-02",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "cause": "config",
+   "n": 583,
+   "label": "583件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "サーバーの設定ミスで個人情報が閲覧可能な状態だった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nichii-kaigo-personal-data-exposure-20261002/"
+    ],
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "医療・製薬"
+  },
+  {
+   "id": "obihiro-post",
+   "co": "日本郵便（帯広郵便局）",
+   "date": "2026-09-30",
+   "types": [
+    "内部不正"
+   ],
+   "cause": "insider",
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "社員が業務で知った個人情報を不正に利用した。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "運輸・交通"
+  },
+  {
+   "id": "saitama-city-medical-staff",
+   "co": "さいたま市民医療センター（職員向けページ）",
+   "date": "2026-09-30",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "cause": "config",
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "設定の誤りで情報が閲覧可能な状態だった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "病院・医療"
+  },
+  {
+   "id": "osaka-art-museum",
+   "co": "大阪市（大阪市立美術館）",
+   "date": "2026-09-24",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "n": 30,
+   "label": "30件",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "メールの誤送信。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "aichi-aikon-navi",
+   "co": "愛知県（あいこんナビ）",
+   "date": "2026-09-22",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "n": 599,
+   "label": "599件",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "出会いサポートポータルサイトで、非公開の個人情報と気付かずに承認・掲載した。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/29/56325.html"
+    ],
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "istyle-cosme",
+   "co": "アイスタイル（@cosme）",
+   "date": "2026-09-16",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "cause": "config",
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "社内のファイル受け渡しに外部のファイル転送サービスを使い、登録された個人情報が20分間閲覧可能な状態になった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/28/56314.html"
+    ]
+   ],
+   "auto": true,
+   "ind": "小売・EC"
+  },
+  {
+   "id": "prudential-ex-employee",
+   "co": "プルデンシャル生命保険",
+   "date": "2026-09-15",
+   "types": [
+    "内部不正"
+   ],
+   "cause": "insider",
+   "n": 1570,
+   "label": "1,570件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "元社員が個人情報を持ち出し、紛失した。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "金融・保険"
+  },
+  {
+   "id": "sankei-respection",
+   "co": "産業経済新聞社（RESPECTion!シンポジウム）",
+   "date": "2026-09-11",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "cause": "config",
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "参加申込フォームの設定不備で、他の申込者の回答内容が閲覧可能だった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/01/56355.html"
+    ]
+   ],
+   "auto": true,
+   "ind": "メディア・出版"
+  },
+  {
+   "id": "mitsui-ocean-cruise",
+   "co": "商船三井クルーズ（MITSUI OCEAN SAKURA）",
+   "date": "2026-09-10",
+   "types": [
+    "紛失・盗難"
+   ],
+   "cause": "loss",
+   "n": null,
+   "label": "約20万ファイルを調査",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "営業情報を保存した外部記憶媒体を、就航準備中のクルーズ船内で紛失。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/29/56328.html"
+    ],
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "運輸・交通"
+  },
+  {
+   "id": "kamakura-aozora",
+   "co": "鎌倉市（児童発達支援センターあおぞら園）",
+   "date": "2026-09-10",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "n": null,
+   "label": "未公表",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "個人情報を誤って送付。保育上の不適切な対応も確認された。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/30/56341.html"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "saitama-masking",
+   "co": "埼玉県（情報公開の黒塗り不備）",
+   "date": "2026-09-10",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "n": null,
+   "label": "未公表",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "開示文書の不開示情報の黒塗りが不完全で、個人情報が読める状態だった。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/29/56327.html"
+    ]
+   ],
+   "auto": true,
+   "ind": "公共機関"
+  },
+  {
+   "id": "ichini-senkyo",
+   "co": "イチニ（選挙ドットコム）",
+   "date": "2026-09-10",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "n": null,
+   "label": "未公表",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "「個別お打合せのご提案」と題するメールを誤送信。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/29/56330.html"
+    ]
+   ],
+   "auto": true,
+   "ind": "メディア・出版"
+  },
+  {
+   "id": "kyoto-sanga",
+   "co": "京都パープルサンガ（ファンクラブ）",
+   "date": "2026-09-08",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "n": 15612,
+   "label": "15,612件",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "メールの誤送信でファンクラブ会員情報が漏えい。集計サイトや記事の見出しに基づく情報で、詳細は公式発表で確認が必要。",
+   "status": "ongoing",
+   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/25/56301.html"
+    ],
+    [
+     "SmartScope（国内漏えい事案の集計一覧）",
+     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ]
+   ],
+   "auto": true,
+   "ind": "生活サービス・レジャー"
   }
  ],
  "statusLabels": {
@@ -3199,5 +3933,12 @@
   "大学・学校",
   "病院・医療",
   "団体"
- ]
+ ],
+ "causeLabels": {
+  "cyber": "サイバー攻撃",
+  "loss": "紛失・盗難",
+  "mis": "誤送信・誤掲載",
+  "insider": "内部不正",
+  "config": "設定ミス・不具合"
+ }
 }
