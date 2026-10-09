@@ -80,7 +80,39 @@ td{padding:10px;border-bottom:1px solid var(--grid);vertical-align:top;font-size
 tbody tr:last-child td{border-bottom:none}
 tbody tr{cursor:pointer}
 tbody tr:active td{background:var(--bar-soft)}
-.cn{font-weight:600;line-height:1.35}
+.cn{font-weight:600;line-height:1.35;color:inherit;text-decoration:none;display:block}
+.tags{display:flex;flex-wrap:wrap;gap:4px}
+.tags span{font-size:11px;padding:1px 6px;border-radius:6px;background:var(--bg);border:1px solid var(--line);white-space:nowrap}
+.tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;font:inherit;font-size:12.5px;padding:6px 12px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tscroll{overflow-x:auto;margin-inline:-14px;padding-inline:14px}
+.atable{border:none;border-radius:0;background:none;min-width:100%}
+.atable th,.atable td{padding:7px 8px;font-size:12.5px;white-space:nowrap}
+.atable td a{color:inherit}
+.atable tbody tr[data-ind]{cursor:pointer}
+.atable.mat td.hc{min-width:3.2em;font-variant-numeric:tabular-nums;border-radius:4px}
+.sortb{font:inherit;font-size:11px;font-weight:600;color:var(--muted);background:none;border:none;padding:0;cursor:pointer;white-space:nowrap}
+.sortb[aria-pressed="true"]{color:var(--ink)}
+.cellbar{display:inline-block;width:40px;height:6px;background:var(--grid);border-radius:3px;margin-right:6px;vertical-align:middle;overflow:hidden}
+.cellbar i{display:block;height:100%;background:var(--bar)}
+.w2{display:none}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11.5px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.legend i{width:10px;height:10px;border-radius:3px;display:inline-block}
+.mchart{display:flex;align-items:flex-end;gap:4px;height:170px;overflow-x:auto;padding-bottom:2px}
+.mcol{flex:1 0 22px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:2px}
+.mstack{width:70%;min-height:0;display:flex;flex-direction:column-reverse;border-radius:3px 3px 0 0;overflow:hidden}
+.mstack i{display:block;min-height:2px}
+.mv{font-size:10.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ml{font-size:10px;color:var(--muted);text-align:center;line-height:1.2;min-height:2.4em}
+.sizes{display:flex;flex-direction:column;gap:4px}
+.srow{display:grid;grid-template-columns:7.5em 1fr 3.6em;gap:8px;align-items:center;background:none;border:none;font:inherit;color:inherit;text-align:left;padding:3px 0;cursor:pointer}
+.sbar{display:flex;height:16px;border-radius:4px;overflow:hidden;gap:1px}
+.sbar i{display:flex;align-items:center;justify-content:center;font-size:10px;font-style:normal;color:var(--ink);min-width:12px}
+.sbar i.u{border:1px dashed var(--line);background:none;color:var(--muted)}
+.w{display:none}
 .cd{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:2px}
 .num{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
 .pills{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
@@ -127,6 +159,39 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);font-size:13px;padding:10px 16px;border-radius:99px;z-index:20;white-space:nowrap}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (prefers-reduced-motion:no-preference){.sheet{animation:up .22s ease-out}@keyframes up{from{transform:translateY(40px);opacity:.6}}}
+[hidden]{display:none!important}
+@media (min-width:900px){
+  body{padding-inline:28px;padding-block:20px 56px}
+  .app{max-width:1240px;gap:18px}
+  h1{font-size:26px}
+  .tile{padding:14px 16px}.tile b{font-size:26px}.tile span{font-size:12.5px}
+  .dash{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+  .dash .wide{grid-column:1/-1}
+  .brow{grid-template-columns:11em 1fr 4em}
+  .axis{grid-template-columns:11em 1fr 4em}
+  .bname{font-size:13px}
+  .filters{display:grid;grid-template-columns:minmax(220px,1fr) 3fr;align-items:center;column-gap:10px;padding-block:10px}
+  .filters .selrow{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .filters .daterow,.filters .hscroll{grid-column:1/-1}
+  .filters .daterow{max-width:420px}
+  .hscroll{margin-inline:0;padding-inline:0;flex-wrap:wrap;overflow:visible}
+  .w,.w2{display:table-cell}
+  .ana{order:0}
+  .srow{grid-template-columns:11em 1fr 4em}
+  .mchart{height:220px}
+  .tscroll{margin-inline:0;padding-inline:0}
+  .m-only{display:none}
+  td{font-size:13.5px;padding:10px 12px}
+  th{padding:9px 12px}
+  tbody tr:hover td{background:var(--bar-soft)}
+  .pills{flex-direction:row;justify-content:flex-end;flex-wrap:wrap}
+  .sheet{left:auto;right:0;top:0;bottom:0;max-height:none;height:100%;width:min(560px,46vw);max-width:none;margin:0;border-radius:16px 0 0 16px;box-shadow:-8px 0 30px rgba(0,0,0,.18)}
+  .grab{display:none}
+  .sh-head{padding-top:16px}
+  .toast{bottom:28px}
+}
+@media (min-width:900px) and (prefers-reduced-motion:no-preference){.sheet{animation:side .22s ease-out}@keyframes side{from{transform:translateX(40px);opacity:.6}}}
+@media (min-width:1280px){.dash{grid-template-columns:repeat(3,minmax(0,1fr))}.dash .wide{grid-column:span 2}}
 </style>
 </head>
 <body>
@@ -137,7 +202,8 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 
   <div class="tiles" id="tiles"></div>
 
-  <section class="panel" aria-labelledby="h-bars">
+  <div class="dash">
+  <section class="panel wide" aria-labelledby="h-bars">
     <h2 id="h-bars">流出件数の大きい事案 <small>可能性を含む・対数目盛</small></h2>
     <div class="bars" id="bars"></div>
     <div class="axis" aria-hidden="true"><span></span><span class="ticks"><span style="left:0">1万</span><span style="left:28.57%">10万</span><span style="left:57.14%">100万</span><span style="left:85.71%">1,000万</span></span><span></span></div>
@@ -163,6 +229,14 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
     <h2 id="h-items">流出した情報 <small>タップで絞り込み</small></h2>
     <div class="items" id="items"></div>
   </section>
+  </div>
+
+  <section class="panel ana" aria-labelledby="h-ana">
+    <h2 id="h-ana">傾向の分析 <small>下の絞り込みと連動</small></h2>
+    <div class="tabs" role="tablist" id="anaTabs"></div>
+    <div id="ana"></div>
+    <p class="foot">件数は各組織の公表値で、人数と件数が混在します。件数が未公表の事案は、合計・中央値・規模の集計から外しています。事案数は公式発表と照合できたものだけを数えています。</p>
+  </section>
 
   <div class="filters">
     <input type="search" id="q" placeholder="企業名・キーワードで検索" aria-label="企業名・キーワードで検索">
@@ -185,11 +259,11 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
   <div class="meta"><span id="count"></span><button id="clear" hidden>絞り込みを解除</button></div>
 
   <table aria-label="事案の一覧">
-    <thead><tr><th>企業・日付</th><th class="r">件数</th><th class="r">状況</th></tr></thead>
+    <thead><tr><th>企業・日付</th><th class="w">原因</th><th class="w">誰の情報</th><th class="w">流出した情報</th><th class="r">件数</th><th class="r">状況</th></tr></thead>
     <tbody id="rows"></tbody>
   </table>
 
-  <nav class="foot" aria-label="サイト情報" style="display:flex;flex-wrap:wrap;gap:6px 16px"><a href="about.html">このサイトについて</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ・訂正依頼</a></nav>
+  <nav class="foot" aria-label="サイト情報" style="display:flex;flex-wrap:wrap;gap:6px 16px"><a href="case/">全事案一覧</a><a href="about.html">このサイトについて</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ・訂正依頼</a></nav>
   <p class="foot" id="rule"></p>
   <p class="foot">原因の「サイバー攻撃」以外（紛失・誤送信・内部不正・設定ミス）は2026年9月以降の事案から収録を始めています。期間は、発生日か最新の続報の日付で判定します。業種は企業の主な事業をもとにした台帳独自の分類です。件数は企業の公表値で、人数と件数が混在し、重複を含む場合があります。「調査完了」は調査結果や最終報が公表された事案です。流出した情報で複数選ぶと、すべてを含む事案に絞り込みます。分類は出典に書かれた項目だけを元にしています。</p>
 </div>
@@ -199,7 +273,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 <script>
 let DB={cases:[],itemLabels:{},statusLabels:{},industries:[],causeLabels:{},updated:""},LABELS={},SL={};
 const PAGE="https://snowfield28.github.io/leak-ledger-data/";
-const S={who:"",q:"",cause:"",st:"",res:"",sort:"date",sel:new Set(),noauto:"",ind:"",period:"730",from:"",to:""};
+const S={who:"",q:"",cause:"",st:"",res:"",sort:"date",sel:new Set(),noauto:"",ind:"",period:"730",from:"",to:"",ana:"ind",asort:"n"};
 const CL=()=>DB.causeLabels||{};
 function causeOk(d){if(!S.cause)return true;const [k,v]=[S.cause.slice(0,1),S.cause.slice(2)];return k==="c"?(d.cause||"cyber")===v:d.types.includes(v)}
 const $=s=>document.querySelector(s);
@@ -233,8 +307,61 @@ function renderChips(){
     tg("res","ongoing","調査中")+tg("res","closed","調査完了")+'<span class="sep"></span>'+
     chip("新しい順",S.sort==="date","sort:date")+chip("件数順",S.sort==="size","sort:size");
 }
+
+const ANA=[["ind","業種別の比較"],["mat","業種×原因"],["month","月別の推移"],["size","件数の規模"]];
+const median=a=>{if(!a.length)return null;const b=[...a].sort((x,y)=>x-y),m=b.length>>1;return b.length%2?b[m]:(b[m-1]+b[m])/2};
+const pct=(a,b)=>b?Math.round(a/b*100)+"%":"—";
+const heat=(v,max)=>{const r=max?v/max:0;return `background:color-mix(in srgb,var(--bar) ${Math.round(r*85)}%,transparent);${r>.5?"color:var(--bg);":""}`};
+function groupInd(rows){const g={};rows.forEach(d=>{(g[d.ind||"—"]=g[d.ind||"—"]||[]).push(d)});return g}
+function renderAna(rows){
+  $("#anaTabs").innerHTML=ANA.map(([k,l])=>`<button class="tab" role="tab" data-ana="${k}" aria-selected="${S.ana===k}">${l}</button>`).join("");
+  const el=$("#ana");
+  if(!rows.length){el.innerHTML='<div class="empty">該当する事案はありません</div>';return}
+  const g=groupInd(rows), inds=(DB.industries||[]).filter(k=>g[k]);
+  if(S.ana==="ind"){
+    const st=inds.map(k=>{const a=g[k],ns=a.filter(d=>d.n).map(d=>d.n),top=a.filter(d=>d.n).sort((x,y)=>y.n-x.n)[0];
+      return {k,c:a.length,sum:ns.reduce((x,y)=>x+y,0),med:median(ns),top,conf:a.filter(d=>d.st==="c").length,cy:a.filter(d=>(d.cause||"cyber")==="cyber").length}});
+    const key={c:"c",n:"sum",med:"med",conf:"conf"}[S.asort]||"sum";
+    st.sort((a,b)=>(b[key]??-1)-(a[key]??-1));
+    const mc=Math.max(1,...st.map(x=>x.c)), ms=Math.max(1,...st.map(x=>x.sum));
+    const H=(k,l)=>`<th class="r"><button class="sortb" data-asort="${k}" aria-pressed="${S.asort===k}">${l}${S.asort===k?" ▼":""}</button></th>`;
+    el.innerHTML=`<div class="tscroll"><table class="atable"><thead><tr><th>業種</th>${H("c","事案数")}${H("n","流出件数の合計")}${H("med","1件あたり中央値")}<th class="w2">最大の事案</th><th class="r w2">漏えい確認</th><th class="r w2">サイバー攻撃</th></tr></thead><tbody>${
+      st.map(x=>`<tr data-ind="${esc(x.k)}"><td><b>${esc(x.k)}</b></td>
+        <td class="r"><span class="cellbar"><i style="width:${x.c/mc*100}%"></i></span>${x.c}</td>
+        <td class="r"><span class="cellbar"><i style="width:${x.sum/ms*100}%"></i></span>${x.sum?fmt(x.sum):"—"}</td>
+        <td class="r">${x.med!=null?fmt(Math.round(x.med)):"—"}</td>
+        <td class="w2">${x.top?`<a href="case/${esc(x.top.id)}.html" data-open="${esc(x.top.id)}">${esc(short(x.top.co))}</a> <span class="cd">${fmt(x.top.n)}</span>`:"—"}</td>
+        <td class="r w2">${pct(x.conf,x.c)}</td><td class="r w2">${pct(x.cy,x.c)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="note">見出しをタップで並べ替え、業種をタップでその業種に絞り込みます。中央値は件数が公表された事案だけで計算しています。</p>`;
+  }else if(S.ana==="mat"){
+    const cs=Object.entries(CL()).filter(([k])=>rows.some(d=>(d.cause||"cyber")===k));
+    let max=0;const M=inds.map(k=>cs.map(([c])=>{const v=g[k].filter(d=>(d.cause||"cyber")===c).length;max=Math.max(max,v);return v}));
+    el.innerHTML=`<div class="tscroll"><table class="atable mat"><thead><tr><th>業種</th>${cs.map(([,l])=>`<th class="r">${esc(l)}</th>`).join("")}<th class="r">計</th></tr></thead><tbody>${
+      inds.map((k,i)=>`<tr><td><b>${esc(k)}</b></td>${M[i].map((v,j)=>`<td class="r hc" style="${heat(v,max)}">${v||""}</td>`).join("")}<td class="r">${g[k].length}</td></tr>`).join("")
+    }</tbody></table></div><p class="note">色が濃いほど事案が多い組み合わせです。</p>`;
+  }else if(S.ana==="month"){
+    const m={};rows.forEach(d=>{const k=d.date.slice(0,7);(m[k]=m[k]||{c:0,n:0,by:{}});m[k].c++;m[k].n+=d.n||0;const c=d.cause||"cyber";m[k].by[c]=(m[k].by[c]||0)+1});
+    const ks=Object.keys(m).sort();const first=ks[0],last=ks[ks.length-1];const all=[];
+    let [y,mo]=first.split("-").map(Number);while(true){const k=`${y}-${String(mo).padStart(2,"0")}`;all.push(k);if(k>=last)break;mo++;if(mo>12){mo=1;y++}}
+    const mx=Math.max(1,...all.map(k=>(m[k]||{c:0}).c));const cs=Object.entries(CL());
+    const cols=["var(--bar)","var(--accent)","var(--possible)","var(--confirmed)","var(--done)"];
+    el.innerHTML=`<div class="legend">${cs.map(([k,l],i)=>`<span><i style="background:${cols[i%5]}"></i>${esc(l)}</span>`).join("")}</div>
+    <div class="mchart" role="img" aria-label="月別の事案数">${all.map(k=>{const v=m[k]||{c:0,n:0,by:{}};
+      return `<div class="mcol" title="${k}：${v.c}件／流出件数${fmt(v.n)}"><span class="mv">${v.c||""}</span><div class="mstack" style="height:${v.c/mx*100}%">${cs.map(([c],i)=>v.by[c]?`<i style="flex:${v.by[c]};background:${cols[i%5]}"></i>`:"").join("")}</div><span class="ml">${Number(k.slice(5))}月${k.slice(5)==="01"||k===all[0]?`<br>${k.slice(0,4)}`:""}</span></div>`}).join("")}</div>
+    <p class="note">事案の日付（発生・検知または初回公表）の月で数えています。過去分は順次追加中のため、古い月ほど少なく見える場合があります。</p>`;
+    const mc=el.querySelector(".mchart");if(mc)mc.scrollLeft=mc.scrollWidth;
+  }else{
+    const B=[["〜1千",0,1e3],["1千〜1万",1e3,1e4],["1万〜10万",1e4,1e5],["10万〜100万",1e5,1e6],["100万〜",1e6,Infinity]];
+    const cols=["var(--bar-soft)","color-mix(in srgb,var(--bar) 40%,var(--bar-soft))","color-mix(in srgb,var(--bar) 65%,var(--bar-soft))","var(--bar)","var(--confirmed)"];
+    el.innerHTML=`<div class="legend">${B.map(([l],i)=>`<span><i style="background:${cols[i]}"></i>${l}</span>`).join("")}<span><i style="background:none;border:1px dashed var(--line)"></i>未公表</span></div>
+    <div class="sizes">${inds.map(k=>{const a=g[k],u=a.filter(d=>!d.n).length;const cnt=B.map(([,lo,hi])=>a.filter(d=>d.n&&d.n>=lo&&d.n<hi).length);
+      return `<button class="srow" data-ind="${esc(k)}" aria-label="${esc(k)}"><span class="bname">${esc(k)}</span><span class="sbar">${cnt.map((c,i)=>c?`<i style="flex:${c};background:${cols[i]};${i>=3?"color:#fff;":""}" title="${B[i][0]}：${c}件">${c}</i>`:"").join("")}${u?`<i class="u" style="flex:${u}" title="未公表：${u}件">${u}</i>`:""}</span><span class="bval">${a.length}件</span></button>`}).join("")}</div>
+    <p class="note">業種ごとに、1事案あたりの流出件数の規模で事案を色分けしています。</p>`;
+  }
+}
 function render(){
   const rows=filtered();
+  renderAna(rows);
   const total=rows.reduce((a,d)=>a+(d.n||0),0);
   const ongoing=rows.filter(d=>d.status==="ongoing").length;
   $("#tiles").innerHTML=`
@@ -263,10 +390,13 @@ function render(){
   const mi=Math.max(1,...byInd.map(x=>x[1]));
   $("#indBars").innerHTML=byInd.length?byInd.map(([k,c])=>`<button class="brow" data-ind="${esc(k)}" aria-pressed="${S.ind===k}" aria-label="${esc(k)} ${c}件"><span class="bname">${esc(k)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mi*100}%;${S.ind&&S.ind!==k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
   $("#rows").innerHTML=rows.length?rows.map(d=>`<tr data-open="${esc(d.id)}" tabindex="0">
-    <td><div class="cn">${esc(short(d.co))}</div><div class="cd">${md(d.date)}・${esc(d.ind||"")}・${esc(CL()[d.cause||"cyber"]||"")}</div></td>
+    <td><a class="cn" href="case/${esc(d.id)}.html" data-open="${esc(d.id)}">${esc(short(d.co))}</a><div class="cd">${md(d.date)}・${esc(d.ind||"")}<span class="m-only">・${esc(CL()[d.cause||"cyber"]||"")}</span></div></td>
+    <td class="w">${esc(CL()[d.cause||"cyber"]||"")}${(d.cause||"cyber")==="cyber"&&d.types&&d.types.length?`<div class="cd">${esc(d.types.join("・"))}</div>`:""}</td>
+    <td class="w">${esc((d.who||[]).map(k=>(DB.whoLabels||{})[k]||k).join("、"))}</td>
+    <td class="w"><div class="tags">${(d.items||[]).map(k=>`<span>${esc(LABELS[k]||k)}</span>`).join("")||'<span class="cd">要確認</span>'}</div></td>
     <td class="r"><span class="num">${d.n?fmt(d.n):"調査中"}</span></td>
     <td class="r"><div class="pills"><span class="pill ${d.st}">${d.st==="c"?"漏えい確認":"可能性"}</span><span class="pill ${esc(d.status)}">${d.status==="closed"?"調査完了":"調査中"}</span>${d.auto?'<span class="pill auto">未確認</span>':""}</div></td>
-  </tr>`).join(""):`<tr><td colspan="3" class="empty">条件に合う事案はありません</td></tr>`;
+  </tr>`).join(""):`<tr><td colspan="6" class="empty">条件に合う事案はありません</td></tr>`;
 }
 
 function contactHTML(d){const k=d.contact||{},src=k.src||((d.official||[])[0]||[])[1]||"";
@@ -316,7 +446,7 @@ function closeSheet(){$("#sheetRoot").innerHTML="";document.body.classList.remov
 function toast(m){const t=document.createElement("div");t.className="toast";t.setAttribute("role","status");t.textContent=m;document.body.appendChild(t);setTimeout(()=>t.remove(),2200)}
 function share(id){
   const d=DB.cases.find(x=>x.id===id);if(!d)return;
-  const text=`【${d.co}】${d.label}（${d.st==="c"?"漏えい確認":"漏えいの可能性"}・${SL[d.status]||""}）\n${d.sum}`+(d.official&&d.official[0]?`\n公式発表：${d.official[0][1]}`:"")+`\n${PAGE}#${id}`;
+  const text=`【${d.co}】${d.label}（${d.st==="c"?"漏えい確認":"漏えいの可能性"}・${SL[d.status]||""}）\n${d.sum}`+(d.official&&d.official[0]?`\n公式発表：${d.official[0][1]}`:"")+`\n${PAGE}case/${id}.html`;
   if(navigator.share){navigator.share({title:d.co+"の情報漏えい",text}).catch(e=>{if(!e||e.name!=="AbortError")copy(text)});return}
   copy(text);
 }
@@ -325,10 +455,12 @@ function copy(t){if(navigator.clipboard&&navigator.clipboard.writeText)navigator
 document.addEventListener("click",e=>{
   const sh=e.target.closest("[data-share]");if(sh){share(sh.dataset.share);return}
   if(e.target.closest("[data-close]")){closeSheet();return}
+  const o=e.target.closest("[data-open]");if(o){if(o.tagName==="A"){if(e.metaKey||e.ctrlKey||e.shiftKey||e.button===1)return;e.preventDefault()}openSheet(o.dataset.open);return}
   const wb=e.target.closest("[data-who]");if(wb){S.who=S.who===wb.dataset.who?"":wb.dataset.who;$("#who").value=S.who;render();return}
   const cb=e.target.closest("[data-cause]");if(cb){S.cause=S.cause===cb.dataset.cause?"":cb.dataset.cause;$("#cause").value=S.cause;render();return}
   const ib=e.target.closest("[data-ind]");if(ib){S.ind=S.ind===ib.dataset.ind?"":ib.dataset.ind;$("#ind").value=S.ind;render();return}
-  const o=e.target.closest("[data-open]");if(o){openSheet(o.dataset.open);return}
+  const at=e.target.closest("[data-ana]");if(at){S.ana=at.dataset.ana;renderAna(filtered());return}
+  const as=e.target.closest("[data-asort]");if(as){S.asort=as.dataset.asort;renderAna(filtered());return}
   const b=e.target.closest("[data-act]");
   if(b){const i=b.dataset.act.indexOf(":"),k=b.dataset.act.slice(0,i),v=b.dataset.act.slice(i+1);
     if(k==="item")S.sel.has(v)?S.sel.delete(v):S.sel.add(v);else S[k]=v;

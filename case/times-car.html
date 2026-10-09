@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>パーク24（タイムズカー／タイムズモビリティ）の個人情報漏えい（2026年9月）｜国内情報漏えい台帳</title>
+<meta name="description" content="パーク24（タイムズカー／タイムズモビリティ）の情報漏えい事案。件数：約660万件。原因：サイバー攻撃（不正アクセス）。流出した情報：氏名、住所、生年月日、電話番号、メールアドレス、運転免許証の情報、本人確認書類の画像（約160万件。公共料金の領収書、住民票の写し、学生証を含む）、法人会員の部署名、…">
+<link rel="canonical" href="https://snowfield28.github.io/leak-ledger-data/case/times-car.html">
+<meta property="og:title" content="パーク24（タイムズカー／タイムズモビリティ）の個人情報漏えい（2026年9月）｜国内情報漏えい台帳">
+<meta property="og:description" content="パーク24（タイムズカー／タイムズモビリティ）の情報漏えい事案。件数：約660万件。原因：サイバー攻撃（不正アクセス）。流出した情報：氏名、住所、生年月日、電話番号、メールアドレス、運転免許証の情報、本人確認書類の画像（約160万件。公共料金の領収書、住民票の写し、学生証を含む）、法人会員の部署名、…">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://snowfield28.github.io/leak-ledger-data/case/times-car.html">
+<meta property="og:site_name" content="国内情報漏えい台帳">
+<style>
+:root{--bg:#f3f5f7;--surface:#fff;--ink:#16202b;--muted:#5b6876;--line:#d9dfe5;--accent:#b4530b;--accent-soft:#fbeadb;
+ --confirmed:#a3271f;--confirmed-soft:#f8e1de;--possible:#7a5d00;--possible-soft:#f6edcc;--done:#2f6b4f;--done-soft:#dcefe5;
+ --f-ui:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Meiryo",sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0f151c;--surface:#16202a;--ink:#e4eaf0;--muted:#97a5b3;--line:#2a3744;
+ --accent:#f0954a;--accent-soft:#3a2615;--confirmed:#f28b82;--confirmed-soft:#3b1f1d;--possible:#e3c25a;--possible-soft:#332b12;--done:#86d3ac;--done-soft:#1b3328;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f151c;--surface:#16202a;--ink:#e4eaf0;--muted:#97a5b3;--line:#2a3744;--accent:#f0954a;--accent-soft:#3a2615;
+ --confirmed:#f28b82;--confirmed-soft:#3b1f1d;--possible:#e3c25a;--possible-soft:#332b12;--done:#86d3ac;--done-soft:#1b3328;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-ui);line-height:1.75;padding:12px 16px 48px}
+main{max-width:760px;margin:0 auto}
+a{color:var(--accent)}
+.crumb{font-size:13px;margin:4px 0 14px;display:flex;flex-wrap:wrap;gap:4px 8px;color:var(--muted)}
+h1{font-size:22px;line-height:1.45;margin:0 0 8px}
+.pills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.pill{font-size:12px;padding:2px 9px;border-radius:99px;white-space:nowrap}
+.pill.c{background:var(--confirmed-soft);color:var(--confirmed)}.pill.p{background:var(--possible-soft);color:var(--possible)}
+.pill.closed{background:var(--done-soft);color:var(--done)}.pill.ongoing{border:1px solid var(--line);color:var(--muted)}
+section{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+h2{font-size:15px;margin:0 0 8px}
+p,li{font-size:15px;margin:0 0 6px}
+ul{padding-left:1.2em;margin:0}
+dl{display:grid;grid-template-columns:auto 1fr;margin:0;font-size:14px}
+dt{color:var(--muted);padding:7px 14px 7px 0;border-top:1px solid var(--line);white-space:nowrap}
+dd{margin:0;padding:7px 0;border-top:1px solid var(--line);min-width:0}
+dt:first-of-type,dd:first-of-type{border-top:none}
+.items{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.items span{font-size:13px;background:var(--confirmed-soft);color:var(--confirmed);border-radius:8px;padding:3px 9px;font-weight:600}
+.note{font-size:13px;color:var(--muted)}
+.lk{display:block;padding:9px 12px;border:1px solid var(--line);border-radius:10px;margin-bottom:6px;text-decoration:none;color:var(--ink);font-size:14px;word-break:break-all}
+.lk.off{border-color:var(--accent);background:var(--accent-soft)}
+.lk small{display:block;color:var(--muted);font-size:12px}
+.btn{display:inline-block;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:700;border-radius:10px;padding:10px 16px;margin-top:4px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600}
+td.r,th.r{text-align:right;white-space:nowrap}
+nav.foot{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;margin-top:20px}
+nav.foot a{color:var(--muted)}
+@media (min-width:900px){body{padding:24px 32px 64px}h1{font-size:28px}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.two section{margin-bottom:0}.two{margin-bottom:12px}}
+</style>
+</head>
+<body><main>
+<nav class="crumb" aria-label="パンくず"><a href="../">台帳</a><span>›</span><a href="./">全事案一覧</a><span>›</span><span>パーク24（タイムズカー／タイムズモビリティ）</span></nav>
+<h1>パーク24（タイムズカー／タイムズモビリティ）の個人情報漏えい</h1>
+<div class="pills"><span class="pill c">漏えい確認</span><span class="pill ongoing">調査中</span></div>
+<section><h2>事案の概要</h2><dl><dt>件数</dt><dd>約660万件</dd><dt>日付</dt><dd>2026年9月25日（発生・検知または初回公表）</dd><dt>業種</dt><dd>運輸・交通</dd><dt>原因</dt><dd>サイバー攻撃（不正アクセス）</dd><dt>誰の情報</dt><dd>顧客・利用者、取引先・法人顧客</dd><dt>最終確認日</dt><dd>2026年10月9日（公式発表と照合）</dd></dl></section>
+<section><h2>流出した情報</h2><div class="items"><span>氏名</span><span>住所</span><span>電話番号</span><span>メールアドレス</span><span>生年月日</span><span>本人確認書類</span><span>ID・パスワード</span></div><p>氏名、住所、生年月日、電話番号、メールアドレス、運転免許証の情報、本人確認書類の画像（約160万件。公共料金の領収書、住民票の写し、学生証を含む）、法人会員の部署名、連携サービスのIDなど（対象者により異なる）。パスワード関連のデータは復元できない形式で保管と説明</p><p class="note">含まれない情報：クレジットカード情報</p></section>
+<section><h2>何が起きたか</h2><p>カーシェア「タイムズカー」のWebシステムへの不正アクセスを9月25日に検知し、9月28日に公表。会員と過去7年以内の退会者の個人情報約660万件が漏えいし、うち約160万件は本人確認書類の画像。</p></section>
+<div class="two">
+<section><h2>調査の状況</h2><p>9月28日の第2報時点で、外部専門機関による調査が続いている。侵入経路と攻撃者の通信は9月26日までに遮断済み。</p></section>
+<section><h2>組織の対応</h2><ul><li>対象者へ順次個別に案内。</li><li>専用窓口 0120-25-8924（24時間）。</li><li>個人情報保護委員会と警察に報告。</li><li>侵入経路と攻撃者の通信を遮断し、監視を継続。</li></ul></section>
+</div>
+<section><h2>お問い合わせ先</h2><a class="lk" href="tel:0120258924"><b>0120-25-8924</b><small>24時間</small></a><p class="note">出典：<a href="https://www.park24.co.jp/news/2026/09/20260928-1.html" rel="noopener">公式発表</a>に記載の窓口。受付期間が終わっていることがあるため、連絡の前に公式発表を確認してください。</p></section>
+<section><h2>一次情報（公式発表）</h2><a class="lk off" href="https://www.park24.co.jp/news/2026/09/20260928-1.html" rel="noopener">第2報 調査結果および今後の対応（2026/9/28）<small>https://www.park24.co.jp/news/2026/09/20260928-1.html</small></a><a class="lk off" href="https://www.park24.co.jp/news/2026/09/web1.html" rel="noopener">第1報（2026/9/25）<small>https://www.park24.co.jp/news/2026/09/web1.html</small></a></section>
+<section><h2>報道</h2><a class="lk" href="https://news.web.nhk/newsweb/na/nd-20260929de53160" rel="noopener">NHK</a><a class="lk" href="https://scan.netsecurity.ne.jp/article/2026/10/02/56371.html" rel="noopener">ScanNetSecurity</a><a class="lk" href="https://www.hokkaido-np.co.jp/article/1384883/" rel="noopener">北海道新聞</a><a class="lk" href="https://rocket-boys.co.jp/?p=41659" rel="noopener">セキュリティ対策Lab（第2報の詳細）</a></section>
+<p><a class="btn" href="../#times-car">台帳でほかの事案と比べる</a></p>
+<p class="note">この台帳は、報道や一覧で見つけた事案のうち、組織自身の公式発表を開いて内容が一致したものだけを載せています。概要は公式発表と報道から事実を取り出して書いたもので、正確な内容は公式発表で確認してください。誤りは<a href="../contact.html">お問い合わせ・訂正依頼</a>からお知らせください。</p>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "パーク24（タイムズカー／タイムズモビリティ）の個人情報漏えい（2026年9月）", "datePublished": "2026-09-25", "dateModified": "2026-10-09", "inLanguage": "ja", "url": "https://snowfield28.github.io/leak-ledger-data/case/times-car.html", "publisher": {"@type": "Organization", "name": "国内情報漏えい台帳"}}</script>
+<nav class="foot" aria-label="サイト情報"><a href="../">台帳</a><a href="../case/">全事案一覧</a><a href="../about.html">このサイトについて</a><a href="../privacy.html">プライバシーポリシー</a><a href="../contact.html">お問い合わせ・訂正依頼</a></nav>
+</main></body>
+</html>
