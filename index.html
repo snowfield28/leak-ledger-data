@@ -148,6 +148,12 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
     <div class="bars" id="causeBars"></div>
   </section>
 
+  <section class="panel" aria-labelledby="h-who">
+    <h2 id="h-who">誰の情報が流出したか <small>タップで絞り込み・1事案に複数あり</small></h2>
+    <div class="bars" id="whoBars"></div>
+    <p class="foot" style="margin-top:8px">公式発表に書かれた対象者で分類しています。取引先の担当者の氏名や連絡先も、法律上は個人情報です。</p>
+  </section>
+
   <section class="panel" aria-labelledby="h-ind">
     <h2 id="h-ind">業種別の事案数 <small>タップで絞り込み</small></h2>
     <div class="bars" id="indBars"></div>
@@ -192,7 +198,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 <script>
 let DB={cases:[],itemLabels:{},statusLabels:{},industries:[],causeLabels:{},updated:""},LABELS={},SL={};
 const PAGE="https://snowfield28.github.io/leak-ledger-data/";
-const S={q:"",cause:"",st:"",res:"",sort:"date",sel:new Set(),noauto:"",ind:"",period:"",from:"",to:""};
+const S={who:"",q:"",cause:"",st:"",res:"",sort:"date",sel:new Set(),noauto:"",ind:"",period:"",from:"",to:""};
 const CL=()=>DB.causeLabels||{};
 function causeOk(d){if(!S.cause)return true;const [k,v]=[S.cause.slice(0,1),S.cause.slice(2)];return k==="c"?(d.cause||"cyber")===v:d.types.includes(v)}
 const $=s=>document.querySelector(s);
@@ -214,7 +220,7 @@ function inPeriod(d){
 }
 function filtered(){
   const q=S.q.trim().toLowerCase();
-  return DB.cases.filter(d=>inPeriod(d)&&(!S.ind||d.ind===S.ind)&&(!S.noauto||!d.auto)&&causeOk(d)&&(!S.st||d.st===S.st)&&(!S.res||d.status===S.res)&&[...S.sel].every(k=>d.items.includes(k))&&(!q||(d.co+d.sum+d.itemsText+(d.claim||"")+(d.resp||"")+(d.ind||"")).toLowerCase().includes(q)))
+  return DB.cases.filter(d=>inPeriod(d)&&(!S.who||(d.who||[]).includes(S.who))&&(!S.ind||d.ind===S.ind)&&(!S.noauto||!d.auto)&&causeOk(d)&&(!S.st||d.st===S.st)&&(!S.res||d.status===S.res)&&[...S.sel].every(k=>d.items.includes(k))&&(!q||(d.co+d.sum+d.itemsText+(d.claim||"")+(d.resp||"")+(d.ind||"")).toLowerCase().includes(q)))
     .sort(S.sort==="size"?(a,b)=>(b.n||0)-(a.n||0):(a,b)=>b.date.localeCompare(a.date));
 }
 const chip=(label,on,act)=>`<button class="chip" aria-pressed="${on}" data-act="${esc(act)}">${esc(label)}</button>`;
@@ -246,7 +252,11 @@ function render(){
   const byC=Object.entries(CL()).map(([k,l])=>[k,l,rows.filter(d=>(d.cause||"cyber")===k).length]).filter(x=>x[2]>0).sort((a,b)=>b[2]-a[2]);
   const mc=Math.max(1,...byC.map(x=>x[2]));
   $("#causeBars").innerHTML=byC.length?byC.map(([k,l,c])=>`<button class="brow" data-cause="c:${k}" aria-pressed="${S.cause==="c:"+k}" aria-label="${esc(l)} ${c}件"><span class="bname">${esc(l)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mc*100}%;${S.cause&&S.cause!=="c:"+k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
-  $("#clear").hidden=!(S.cause||S.st||S.res||S.sel.size||S.q||S.noauto||S.ind||S.period);
+  const WL=DB.whoLabels||{};
+  const byW=Object.entries(WL).map(([k,l])=>[k,l,rows.filter(d=>(d.who||[]).includes(k)).length]).filter(x=>x[2]>0||S.who===x[0]);
+  const mw=Math.max(1,...byW.map(x=>x[2]));
+  $("#whoBars").innerHTML=byW.length?byW.map(([k,l,c])=>`<button class="brow" data-who="${k}" aria-pressed="${S.who===k}" aria-label="${esc(l)} ${c}件"><span class="bname">${esc(l)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mw*100}%;${S.who&&S.who!==k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
+  $("#clear").hidden=!(S.who||S.cause||S.st||S.res||S.sel.size||S.q||S.noauto||S.ind||S.period);
   const byInd=(DB.industries||[]).map(k=>[k,rows.filter(d=>d.ind===k).length]).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]);
   const mi=Math.max(1,...byInd.map(x=>x[1]));
   $("#indBars").innerHTML=byInd.length?byInd.map(([k,c])=>`<button class="brow" data-ind="${esc(k)}" aria-pressed="${S.ind===k}" aria-label="${esc(k)} ${c}件"><span class="bname">${esc(k)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mi*100}%;${S.ind&&S.ind!==k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
@@ -280,6 +290,7 @@ function openSheet(id){
         <dt>日付</dt><dd>${md(d.date)}（発生・検知または初回公表）</dd>
         <dt>業種</dt><dd>${esc(d.ind||"—")}</dd>
         <dt>原因</dt><dd>${esc((CL()[d.cause||"cyber"]||"")+((d.cause||"cyber")==="cyber"?"（"+d.types.join("・")+"）":""))}</dd>
+        <dt>誰の情報</dt><dd>${esc((d.who||[]).map(k=>(DB.whoLabels||{})[k]||k).join("、")||"—")}</dd>
         ${d.claim?`<dt>犯行声明</dt><dd>${esc(d.claim)}</dd>`:""}
       </dl>
       <div class="sec"><h4>流出した情報</h4>
@@ -312,6 +323,7 @@ function copy(t){if(navigator.clipboard&&navigator.clipboard.writeText)navigator
 document.addEventListener("click",e=>{
   const sh=e.target.closest("[data-share]");if(sh){share(sh.dataset.share);return}
   if(e.target.closest("[data-close]")){closeSheet();return}
+  const wb=e.target.closest("[data-who]");if(wb){S.who=S.who===wb.dataset.who?"":wb.dataset.who;render();return}
   const cb=e.target.closest("[data-cause]");if(cb){S.cause=S.cause===cb.dataset.cause?"":cb.dataset.cause;$("#cause").value=S.cause;render();return}
   const ib=e.target.closest("[data-ind]");if(ib){S.ind=S.ind===ib.dataset.ind?"":ib.dataset.ind;$("#ind").value=S.ind;render();return}
   const o=e.target.closest("[data-open]");if(o){openSheet(o.dataset.open);return}
@@ -319,7 +331,7 @@ document.addEventListener("click",e=>{
   if(b){const i=b.dataset.act.indexOf(":"),k=b.dataset.act.slice(0,i),v=b.dataset.act.slice(i+1);
     if(k==="item")S.sel.has(v)?S.sel.delete(v):S.sel.add(v);else S[k]=v;
     renderChips();render();return}
-  if(e.target.id==="clear"){S.cause=S.st=S.res=S.noauto=S.ind=S.period=S.from=S.to="";$("#cause").value="";$("#ind").value="";$("#period").value="";$("#from").value="";$("#to").value="";$("#daterow").hidden=true;S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
+  if(e.target.id==="clear"){S.who="";S.cause=S.st=S.res=S.noauto=S.ind=S.period=S.from=S.to="";$("#cause").value="";$("#ind").value="";$("#period").value="";$("#from").value="";$("#to").value="";$("#daterow").hidden=true;S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
 });
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape")closeSheet();

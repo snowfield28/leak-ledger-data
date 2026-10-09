@@ -78,7 +78,11 @@
      }
     ],
     "src": "https://www.park24.co.jp/news/2026/09/20260928-1.html"
-   }
+   },
+   "who": [
+    "cust",
+    "biz"
+   ]
   },
   {
    "co": "大起水産",
@@ -130,7 +134,10 @@
      }
     ],
     "src": "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "co": "アフラック生命保険",
@@ -203,7 +210,10 @@
      }
     ],
     "src": "https://www.aflac.co.jp/static/corp/profile/news/2026/20260630.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "co": "KDDI（ISP向けメールシステム）",
@@ -247,7 +257,10 @@
    "contact": {
     "note": "公式発表に専用窓口の記載なし。各プロバイダーへ問い合わせ",
     "src": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "co": "メディカ出版",
@@ -306,7 +319,12 @@
      }
     ],
     "src": "https://www.medica.co.jp/news/information/3544/"
-   }
+   },
+   "who": [
+    "cust",
+    "biz",
+    "staff"
+   ]
   },
   {
    "co": "穴吹ハウジングサービス（あなぶきグループ）",
@@ -362,7 +380,10 @@
      }
     ],
     "src": "https://www.anabuki-housing.co.jp/news/content.php?news_id=530"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "co": "アスクル",
@@ -418,7 +439,11 @@
    "contact": {
     "note": "公式発表に専用窓口の記載なし",
     "src": "https://pdf.irpocket.com/C0032/PDLX/O3bg/N4O3.pdf"
-   }
+   },
+   "who": [
+    "cust",
+    "biz"
+   ]
   },
   {
    "co": "アサヒグループホールディングス",
@@ -484,7 +509,12 @@
      ]
     ],
     "src": "https://www.asahigroup-holdings.com/newsroom/detail/20260717-0101.html"
-   }
+   },
+   "who": [
+    "cust",
+    "biz",
+    "staff"
+   ]
   },
   {
    "co": "損害保険ジャパン（SOMPOホールディングス）",
@@ -535,7 +565,11 @@
      }
     ],
     "src": "https://www.sompo-japan.co.jp/announce/2025/202504_01/"
-   }
+   },
+   "who": [
+    "cust",
+    "biz"
+   ]
   },
   {
    "co": "コナカ（DIFFERENCE）",
@@ -589,7 +623,10 @@
      "support@difference.tokyo"
     ],
     "src": "https://www.konaka.co.jp/ir/assets/2025/04/20250424_1.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "co": "トキハ／トキハインダストリー",
@@ -659,7 +696,10 @@
      }
     ],
     "src": "https://www.tokiwa-industry.co.jp/data/big_slides/68806d76e2cbf.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "co": "AOKIホールディングス（快活CLUB・FiT24）",
@@ -719,7 +759,10 @@
      }
     ],
     "src": "https://ir.aoki-hd.co.jp/ja/news/topics/topics20250317kfi/main/0/link/2025.03.17_information_completed.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "co": "東京ガス（子会社 東京ガスエンジニアリングソリューションズ）",
@@ -777,7 +820,11 @@
      }
     ],
     "src": "https://www.tokyo-gas.co.jp/news/press/20240717-03.html"
-   }
+   },
+   "who": [
+    "cust",
+    "staff"
+   ]
   },
   {
    "co": "KADOKAWA（ドワンゴ）",
@@ -843,7 +890,12 @@
      ]
     ],
     "src": "https://tp.kadokawa.co.jp/.assets/240805_release_f2Alq0nH.pdf"
-   }
+   },
+   "who": [
+    "cust",
+    "biz",
+    "staff"
+   ]
   },
   {
    "co": "イセトー（印刷・発送受託）",
@@ -892,7 +944,10 @@
    "contact": {
     "note": "公式発表に窓口の記載なし（不審な連絡は警察へ相談と案内）",
     "src": "https://www.iseto.co.jp/news/news_202410.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "daiichikosho",
@@ -943,7 +998,11 @@
      "incident-desk@dkkaraoke.co.jp"
     ],
     "src": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html"
-   }
+   },
+   "who": [
+    "cust",
+    "staff"
+   ]
   },
   {
    "id": "epark-relax",
@@ -995,7 +1054,10 @@
      "pm-support@epark-r.jp"
     ],
     "src": "https://www.epark-relax.co.jp/news/231"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "gyazo",
@@ -1041,7 +1103,10 @@
      ]
     ],
     "src": "https://corp.helpfeel.com/news/news-20260925-01"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "mrmax",
@@ -1089,7 +1154,10 @@
      "incident-desk@mrmax.co.jp"
     ],
     "src": "https://www.mrmax.co.jp/info/incident_20261006/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "gmo-research-infoq",
@@ -1136,7 +1204,10 @@
      "infoq-support@gmo-research.ai"
     ],
     "src": "https://gmo-research.ai/pressroom/notice/notice-20261005"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "asahi-kasei-pharma",
@@ -1192,7 +1263,11 @@
      ]
     ],
     "src": "https://www.asahi-kasei.co.jp/pharma/oshirase_20261006.html"
-   }
+   },
+   "who": [
+    "biz",
+    "staff"
+   ]
   },
   {
    "id": "pfu-shopserve",
@@ -1239,7 +1314,10 @@
      "support@estore.co.jp"
     ],
     "src": "https://www.pfu.ricoh.com/news/2026/news260918-2.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "sakura-internet",
@@ -1292,7 +1370,10 @@
      ]
     ],
     "src": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "dai-ichi-life",
@@ -1353,7 +1434,10 @@
      ]
     ],
     "src": "https://www.dai-ichi-life.co.jp/information/pdf/index_192.pdf"
-   }
+   },
+   "who": [
+    "staff"
+   ]
   },
   {
    "id": "ozmall",
@@ -1402,7 +1486,10 @@
      }
     ],
     "src": "https://starts-pub.jp/info20261001"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "seicomart",
@@ -1455,7 +1542,10 @@
      }
     ],
     "src": "https://www.secoma.co.jp/info/pdf/202609291545.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "eplus",
@@ -1507,7 +1597,10 @@
     ],
     "note": "対象者には専用フリーダイヤルを個別に案内",
     "src": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "tokyo-metro-metpo",
@@ -1555,7 +1648,10 @@
      }
     ],
     "src": "https://www.metpo.jp/news/Gn52e-Vm"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "japanpost-app",
@@ -1614,7 +1710,10 @@
     ],
     "note": "お客様サービス相談センター",
     "src": "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/c6b030844cf0412ab0d48f8bae7b3a75/20260929_01_01.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "nippon-rentacar",
@@ -1663,7 +1762,10 @@
    "contact": {
     "note": "公式発表にお客様サポート窓口のメールあり（公式ページで確認）",
     "src": "https://www.nipponrentacar.co.jp/info/202609.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "citizen",
@@ -1711,7 +1813,10 @@
       "https://contact.citizen.co.jp/m/support-202610"
      ]
     ]
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "nikkei",
@@ -1764,7 +1869,10 @@
      ]
     ],
     "src": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html"
-   }
+   },
+   "who": [
+    "unk"
+   ]
   },
   {
    "id": "harada-beer",
@@ -1811,7 +1919,10 @@
      "beer-engawa-inquiry@haradacorp.co.jp"
     ],
     "src": "https://www.haradacorp.co.jp/news/detail.php?id=371"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "dozle-store",
@@ -1852,7 +1963,10 @@
      "store-support@dozle.jp"
     ],
     "src": "https://www.dozle.jp/news/260912/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "photogoods",
@@ -1904,7 +2018,10 @@
      "support@photo-goods.com"
     ],
     "src": "https://www.daiko-printing.co.jp/information/2037/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "applynow",
@@ -1969,7 +2086,10 @@
      "support_biz@applynow.co.jp"
     ],
     "src": "https://www.yoshinoya.com/wp-content/uploads/2026/09/30185541/news_2026093004.pdf"
-   }
+   },
+   "who": [
+    "staff"
+   ]
   },
   {
    "id": "fuso-dentsu",
@@ -2019,7 +2139,10 @@
      "ictconveni@fusodentsu.co.jp"
     ],
     "src": "https://www.fusodentsu.co.jp/news/news_cp_20260910.html"
-   }
+   },
+   "who": [
+    "biz"
+   ]
   },
   {
    "id": "smaregi-ec",
@@ -2064,7 +2187,11 @@
      "ec-support@smaregi.jp"
     ],
     "src": "https://ec.smaregi.jp/b2b/news/2026925-2/"
-   }
+   },
+   "who": [
+    "cust",
+    "biz"
+   ]
   },
   {
    "id": "jgc-digital",
@@ -2110,7 +2237,10 @@
     ],
     "note": "平日9〜17時",
     "src": "https://jgc-digital.com/topics/topics-3049/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "hi-ho",
@@ -2162,7 +2292,10 @@
      ]
     ],
     "src": "https://brand.hi-ho.jp/category/uncategorized/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "ceres-pointincome",
@@ -2204,7 +2337,11 @@
      ]
     ],
     "src": "https://next.ceres-inc.jp/news/detail/20261007-2/"
-   }
+   },
+   "who": [
+    "cust",
+    "staff"
+   ]
   },
   {
    "id": "sompo-smilingroad",
@@ -2254,7 +2391,10 @@
      }
     ],
     "src": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261007_1.pdf"
-   }
+   },
+   "who": [
+    "biz"
+   ]
   },
   {
    "id": "his-thailand",
@@ -2301,7 +2441,10 @@
      }
     ],
     "src": "https://www.his.co.jp/assets/20261007.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "toda",
@@ -2353,7 +2496,12 @@
      "security_m@toda.co.jp"
     ],
     "src": "https://www.toda.co.jp/news/2026/20261007_006350.html"
-   }
+   },
+   "who": [
+    "biz",
+    "staff",
+    "work"
+   ]
   },
   {
    "id": "active-pro",
@@ -2401,7 +2549,10 @@
      }
     ],
     "src": "https://www.active-pro.jp/news/4303/"
-   }
+   },
+   "who": [
+    "biz"
+   ]
   },
   {
    "id": "egmkt",
@@ -2447,7 +2598,10 @@
     ],
     "note": "企画管理部",
     "src": "https://www.egmkt.co.jp/newsroom/news/2026/10982/"
-   }
+   },
+   "who": [
+    "biz"
+   ]
   },
   {
    "id": "cinra-job",
@@ -2494,7 +2648,10 @@
      "incident_support@cinra.net"
     ],
     "src": "https://www.cinra.co.jp/news/20261006"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "rakuten-drive",
@@ -2538,7 +2695,10 @@
      }
     ],
     "src": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "nimoca",
@@ -2584,7 +2744,10 @@
      }
     ],
     "src": "https://www.nimoca.jp/storage/files/information/107/20261006.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "kufu-machitalk",
@@ -2626,7 +2789,10 @@
      "community@kufu.co.jp"
     ],
     "src": "https://kufu.co.jp/2026/10/05/kufu-announce/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "whiteessence",
@@ -2677,7 +2843,10 @@
      }
     ],
     "src": "https://www.whiteessence.com/news/news/20261005/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "studysapuri",
@@ -2733,7 +2902,10 @@
      ]
     ],
     "src": "https://studysapuri.jp/info/important/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "alsok-joylife",
@@ -2774,7 +2946,10 @@
    "contact": {
     "note": "公式発表に窓口の記載なし（対象者への連絡は完了と記載）",
     "src": "https://joylife.alsok.co.jp/files/optionallink/00006134_file.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "voising",
@@ -2824,7 +2999,10 @@
      ]
     ],
     "src": "https://voising-official.com/news/1015"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "g-point",
@@ -2868,7 +3046,10 @@
      ]
     ],
     "src": "https://www.g-plan.net/news/details/20260930.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "shueisha-happyplus",
@@ -2914,7 +3095,12 @@
     ],
     "note": "デジタルソリューション部",
     "src": "https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf"
-   }
+   },
+   "who": [
+    "cust",
+    "biz",
+    "work"
+   ]
   },
   {
    "id": "legoland-hotel",
@@ -2958,7 +3144,10 @@
      "Legoland.Reservation@legoland.jp"
     ],
     "src": "https://www.legoland.jp/operation/news/news-release/news20260925/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "ryomo-systems",
@@ -3015,7 +3204,10 @@
      }
     ],
     "src": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "nichirei",
@@ -3070,7 +3262,12 @@
      "N1000X074@nichirei.co.jp"
     ],
     "src": "https://www.nichirei.co.jp/news/2026/524.html"
-   }
+   },
+   "who": [
+    "cust",
+    "biz",
+    "staff"
+   ]
   },
   {
    "id": "chibagin-shop",
@@ -3120,7 +3317,10 @@
      }
     ],
     "src": "https://shop.c-value.jp/view/news/20260917153001"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "fivefox",
@@ -3182,7 +3382,11 @@
      }
     ],
     "src": "https://www.fivefoxes.co.jp/2026/09/post-23.html"
-   }
+   },
+   "who": [
+    "cust",
+    "staff"
+   ]
   },
   {
    "id": "revisio",
@@ -3219,7 +3423,10 @@
    "contact": {
     "note": "公式ページで窓口を確認してください",
     "src": "https://revisio.co.jp/news/qlqXjTs7"
-   }
+   },
+   "who": [
+    "biz"
+   ]
   },
   {
    "id": "digital-agency-gss",
@@ -3273,7 +3480,11 @@
      "kojin-info@digital.go.jp"
     ],
     "src": "https://www.digital.go.jp/news/2026-0911-01"
-   }
+   },
+   "who": [
+    "staff",
+    "biz"
+   ]
   },
   {
    "id": "saitama-shibusawamix",
@@ -3322,7 +3533,10 @@
     ],
     "note": "埼玉県 イノベーション創造課 渋沢MIX担当",
     "src": "https://www.pref.saitama.lg.jp/a0803/news/page/news2026100702.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "jogmec",
@@ -3368,7 +3582,11 @@
     ],
     "note": "総務部",
     "src": "https://www.jogmec.go.jp/news/information/information_00706.html"
-   }
+   },
+   "who": [
+    "staff",
+    "unk"
+   ]
   },
   {
    "id": "jaea-jrr3",
@@ -3408,7 +3626,10 @@
    "contact": {
     "note": "公式発表に窓口の記載なし（対象者へは個別に連絡）",
     "src": "https://www.jaea.go.jp/02/press2026/p26100105/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "osaka-city-interview",
@@ -3457,7 +3678,10 @@
     ],
     "note": "大阪市 行政委員会事務局 任用調査課",
     "src": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000687493.html"
-   }
+   },
+   "who": [
+    "staff"
+   ]
   },
   {
    "id": "yamaguchi-u",
@@ -3498,7 +3722,10 @@
    "contact": {
     "note": "公式発表に本件の窓口の記載なし",
     "src": "https://www.yamaguchi-u.ac.jp/news/52728/index.html"
-   }
+   },
+   "who": [
+    "unk"
+   ]
   },
   {
    "id": "science-tokyo",
@@ -3539,7 +3766,10 @@
    "contact": {
     "note": "公式発表内の専用フォームから問い合わせ",
     "src": "https://www.isct.ac.jp/ja/news/mrep3c3mj6bx"
-   }
+   },
+   "who": [
+    "unk"
+   ]
   },
   {
    "id": "tokai-u-contractor",
@@ -3590,7 +3820,11 @@
      }
     ],
     "src": "https://www.u-tokai.ac.jp/uploads/2026/02/8f619ff70dd54597ac4189dff04c9dea.pdf"
-   }
+   },
+   "who": [
+    "cust",
+    "staff"
+   ]
   },
   {
    "id": "nms-kosugi",
@@ -3639,7 +3873,11 @@
      }
     ],
     "src": "https://www.nms.ac.jp/kosugi-h/news/_28850.html"
-   }
+   },
+   "who": [
+    "cust",
+    "staff"
+   ]
   },
   {
    "id": "weathercaster-net",
@@ -3684,7 +3922,10 @@
      "wcn-privacy@weathercaster.jp"
     ],
     "src": "https://weathercaster.jp/notices/20261006_notice.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "yotsukaido-shakyo",
@@ -3732,7 +3973,10 @@
      "office@yotsukaido-shakyo.or.jp"
     ],
     "src": "https://www.yotsukaido-shakyo.or.jp/info.php?id=941"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "ihouse-library",
@@ -3784,7 +4028,11 @@
      ]
     ],
     "src": "https://ihj.global/news/new/lib_opac/"
-   }
+   },
+   "who": [
+    "biz",
+    "staff"
+   ]
   },
   {
    "id": "ieej",
@@ -3834,7 +4082,11 @@
      "ieej-mail@tky.ieej.or.jp"
     ],
     "src": "https://eneken.ieej.or.jp/press/press260911.pdf"
-   }
+   },
+   "who": [
+    "staff",
+    "work"
+   ]
   },
   {
    "id": "coop-yamaguchi",
@@ -3884,7 +4136,10 @@
      }
     ],
     "src": "https://www.yamaguti-coop.or.jp/line-miniapp-incident-report2/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "osaka-museum-mail",
@@ -3933,7 +4188,10 @@
      }
     ],
     "src": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000688772.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "furusato-choice",
@@ -3981,7 +4239,10 @@
      ]
     ],
     "src": "https://www.trustbank.co.jp/newsroom/news/news261005/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "benefit-one",
@@ -4040,7 +4301,10 @@
      "privacy-support-houjin@benefit-one.co.jp"
     ],
     "src": "https://corp.benefit-one.co.jp/company/news/news/2026/20260930/20260930.pdf"
-   }
+   },
+   "who": [
+    "biz"
+   ]
   },
   {
    "id": "greencoop-fukuoka",
@@ -4082,7 +4346,10 @@
      }
     ],
     "src": "https://greencoop-fukuoka.jp/wordpress/wp-content/uploads/2026/10/9670516f522e32fb88f5e4899455b2ca.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "nichii-kaigo",
@@ -4125,7 +4392,10 @@
      }
     ],
     "src": "https://www.nichiigakkan.co.jp/topics/assets/2ba7ca6c5a8a249293493f6eb40ad90b9be2ce78.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "osaka-art-museum",
@@ -4167,7 +4437,10 @@
     ],
     "note": "大阪市立美術館 総務課",
     "src": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000687654.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "aichi-aikon-navi",
@@ -4221,7 +4494,10 @@
     ],
     "note": "愛知県 子育て支援課",
     "src": "https://www.pref.aichi.jp/press-release/aiconnavikisya202609.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "istyle-cosme",
@@ -4265,7 +4541,10 @@
     ],
     "note": "10〜18時（土日祝を除く）",
     "src": "https://www.istyle.co.jp/news/info/2026/09/20260916-3.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "prudential-ex-employee",
@@ -4315,7 +4594,10 @@
     ],
     "note": "カスタマーサービスセンター",
     "src": "https://www.prudential.co.jp/news/pdf/1028/20260914.pdf"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "mitsui-ocean-cruise",
@@ -4374,7 +4656,12 @@
      ]
     ],
     "src": "https://www.mitsuioceancruises.com/news/20260910.html"
-   }
+   },
+   "who": [
+    "cust",
+    "staff",
+    "work"
+   ]
   },
   {
    "id": "kamakura-aozora",
@@ -4420,7 +4707,10 @@
     ],
     "note": "鎌倉市 発達支援室",
     "src": "https://www.city.kamakura.kanagawa.jp/kisya/data/2026/20260910.html"
-   }
+   },
+   "who": [
+    "unk"
+   ]
   },
   {
    "id": "saitama-masking",
@@ -4470,7 +4760,10 @@
     ],
     "note": "埼玉県 学事課",
     "src": "https://www.pref.saitama.lg.jp/a0204/news/page/news2026091001.html"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "ichini-senkyo",
@@ -4510,7 +4803,10 @@
    "contact": {
     "note": "公式発表に本件の窓口の記載なし",
     "src": "https://ichi-ni.jp/info/2026091002/"
-   }
+   },
+   "who": [
+    "cust"
+   ]
   }
  ],
  "statusLabels": {
@@ -4543,5 +4839,12 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 21
+ "pendingCount": 21,
+ "whoLabels": {
+  "cust": "顧客・利用者",
+  "biz": "取引先・法人顧客",
+  "staff": "従業員・職員",
+  "work": "業務情報（個人情報以外）",
+  "unk": "区分の記載なし"
+ }
 }
