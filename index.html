@@ -4,230 +4,273 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>国内サイバー被害企業台帳</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
 <style>
-/* Layout: 台帳（ledger）型。上に集計と注意書き、下に絞り込みバーと事案カードの縦リスト。各カードは件数を対数スケールの帯で示す */
+/* Layout: 1カラムのダッシュボード。集計タイル → 流出件数の横棒 → 流出した情報の内訳 → 事案の表。行をタップすると下から詳細シートが開く */
 :root{
-  --bg:#f3f5f7; --surface:#ffffff; --ink:#16202b; --muted:#5b6876; --line:#d9dfe5;
-  --accent:#b4530b; --accent-soft:#fbeadb;
+  --bg:#f3f5f7; --surface:#ffffff; --ink:#16202b; --muted:#5b6876; --line:#d9dfe5; --grid:#e8ecf0;
+  --accent:#b4530b; --accent-soft:#fbeadb; --bar:#2c4a66; --bar-soft:#dde6ee;
   --confirmed:#a3271f; --confirmed-soft:#f8e1de; --possible:#7a5d00; --possible-soft:#f6edcc;
-  --bar:#2c4a66;
-  --f-display:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
-  --f-body:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;
-  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --done:#2f6b4f; --done-soft:#dcefe5; --scrim:rgba(10,16,24,.45);
+  --f-ui:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#0f151c; --surface:#16202a; --ink:#e4eaf0; --muted:#97a5b3; --line:#2a3744;
-  --accent:#f0954a; --accent-soft:#3a2615;
+  --bg:#0f151c; --surface:#16202a; --ink:#e4eaf0; --muted:#97a5b3; --line:#2a3744; --grid:#1f2a35;
+  --accent:#f0954a; --accent-soft:#3a2615; --bar:#7fa6c9; --bar-soft:#22313f;
   --confirmed:#f28b82; --confirmed-soft:#3b1f1d; --possible:#e3c25a; --possible-soft:#332b12;
-  --bar:#7fa6c9; color-scheme:dark}}
+  --done:#86d3ac; --done-soft:#1b3328; --scrim:rgba(0,0,0,.6); color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0f151c; --surface:#16202a; --ink:#e4eaf0; --muted:#97a5b3; --line:#2a3744;
-  --accent:#f0954a; --accent-soft:#3a2615;
+  --bg:#0f151c; --surface:#16202a; --ink:#e4eaf0; --muted:#97a5b3; --line:#2a3744; --grid:#1f2a35;
+  --accent:#f0954a; --accent-soft:#3a2615; --bar:#7fa6c9; --bar-soft:#22313f;
   --confirmed:#f28b82; --confirmed-soft:#3b1f1d; --possible:#e3c25a; --possible-soft:#332b12;
-  --bar:#7fa6c9; color-scheme:dark}
-*{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font-family:var(--f-body);line-height:1.7;padding-inline:16px;padding-block:28px 48px}
-.wrap{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px}
-header{display:flex;flex-direction:column;gap:8px}
-.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;color:var(--accent)}
-h1{font-family:var(--f-display);font-weight:900;font-size:clamp(26px,5vw,38px);line-height:1.25;margin:0;text-wrap:balance}
-.lead{color:var(--muted);margin:0;max-width:62ch}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;display:flex;flex-direction:column;gap:2px;min-width:0}
-.stat b{font-family:var(--f-mono);font-size:22px;font-variant-numeric:tabular-nums}
-.stat span{font-size:12.5px;color:var(--muted)}
-.stat a{font-size:12px;color:var(--muted)}
-.note{background:var(--accent-soft);border-left:3px solid var(--accent);padding:12px 14px;font-size:13.5px;border-radius:0 6px 6px 0}
-.note p{margin:0}
-.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:2;background:var(--bg);padding-block:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-bottom:1px solid var(--line)}
-.controls input,.controls select{font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
-.controls input{flex:1 1 220px;min-width:0}
-.controls :focus-visible{outline:2px solid var(--accent);outline-offset:1px}
-.count{font-size:12.5px;color:var(--muted);font-family:var(--f-mono)}
-.list{display:flex;flex-direction:column;gap:12px}
-.item{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:8px;min-width:0}
-.top{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;justify-content:space-between}
-.item h2{font-family:var(--f-display);font-weight:700;font-size:18px;margin:0;text-wrap:balance}
-.date{font-family:var(--f-mono);font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
-.tags{display:flex;flex-wrap:wrap;gap:6px}
-.tag{font-size:11.5px;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--muted);letter-spacing:.02em}
-.tag.c{background:var(--confirmed-soft);color:var(--confirmed);border-color:transparent}
-.tag.p{background:var(--possible-soft);color:var(--possible);border-color:transparent}
-.scale{display:flex;align-items:center;gap:10px}
-.scale .track{flex:1;height:6px;background:var(--line);border-radius:3px;overflow:hidden}
-.scale .fill{height:100%;background:var(--bar)}
-.scale .num{font-family:var(--f-mono);font-size:13.5px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
-.item p{margin:0;font-size:14px}
-.claim{font-size:12.5px;color:var(--muted)}
-.src{font-size:12.5px;display:flex;flex-wrap:wrap;gap:4px 14px}
-.src a{color:var(--accent)}
-.empty{color:var(--muted);text-align:center;padding:24px}
-.chips{display:flex;flex-direction:column;gap:8px}
-.chips-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:13px;color:var(--muted)}
-.chips-head button{font:inherit;font-size:12.5px;background:none;border:none;color:var(--accent);cursor:pointer;padding:0}
-.chip-row{display:flex;flex-wrap:wrap;gap:6px}
-.chip{font:inherit;font-size:13px;padding:5px 12px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+  --done:#86d3ac; --done-soft:#1b3328; --scrim:rgba(0,0,0,.6); color-scheme:dark}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);padding-inline:16px;padding-block:12px 40px}
+body.lock{overflow:hidden}
+.app{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+h1{font-size:22px;font-weight:800;margin:0}
+.ver{font-size:11px;color:var(--muted);white-space:nowrap}
+.upd{font-size:12px;color:var(--muted);margin-top:-12px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.tile b{font-size:20px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.2}
+.tile span{font-size:11.5px;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.panel h2{font-size:14px;font-weight:700;margin:0;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.panel h2 small{font-size:11.5px;font-weight:400;color:var(--muted)}
+.bars{display:flex;flex-direction:column;gap:2px}
+.brow{display:grid;grid-template-columns:7.5em 1fr 3.6em;align-items:center;gap:8px;padding:5px 0;background:none;border:none;font:inherit;color:inherit;text-align:left;cursor:pointer;border-radius:6px}
+.brow:hover .bfill{opacity:.85}
+.bname{font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.btrack{height:12px;background:repeating-linear-gradient(90deg,var(--grid) 0,var(--grid) 1px,transparent 1px,transparent 28.57%)}
+.bfill{display:block;height:100%;background:var(--bar);border-radius:0 4px 4px 0;min-width:3px}
+.bval{font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted);white-space:nowrap;text-align:right}
+.axis{display:grid;grid-template-columns:7.5em 1fr 3.6em;gap:8px;font-size:10.5px;color:var(--muted)}
+.axis .ticks{position:relative;height:1.2em}
+.axis .ticks span{position:absolute;transform:translateX(-50%);white-space:nowrap}
+.axis .ticks span:first-child{transform:none}
+.items{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:6px}
+.it{font:inherit;text-align:left;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:8px;padding:8px;cursor:pointer;display:flex;flex-direction:column;gap:4px}
+.it[aria-pressed="true"]{border-color:var(--bar);background:var(--bar-soft)}
+.it .l{font-size:12px}
+.it .c{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.it .m{flex:1;height:4px;background:var(--grid);border-radius:2px;overflow:hidden}
+.it .m i{display:block;height:100%;background:var(--bar)}
+.filters{display:flex;flex-direction:column;gap:8px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding-block:8px;z-index:2}
+input[type=search]{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
+.hscroll{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
+.hscroll::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;font:inherit;font-size:12.5px;padding:6px 11px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;white-space:nowrap}
 .chip[aria-pressed="true"]{background:var(--bar);border-color:var(--bar);color:var(--bg)}
-.chip:focus-visible,.chips-head button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.leaked{display:flex;flex-direction:column;gap:4px;font-size:13px;background:var(--bg);border-radius:4px;padding:8px 10px}
-.leaked .row{display:flex;gap:8px}
-.leaked .k{flex:0 0 auto;color:var(--muted);font-size:12px;min-width:4.5em}
-.leaked .v{min-width:0}
-.leaked mark{background:var(--accent-soft);color:var(--ink);padding:0 3px;border-radius:2px}
-:root{--done:#2f6b4f;--done-soft:#dcefe5}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--done:#86d3ac;--done-soft:#1b3328}}
-:root[data-theme="dark"]{--done:#86d3ac;--done-soft:#1b3328}
-.tag.closed{background:var(--done-soft);color:var(--done);border-color:transparent}
-.tag.ongoing{border-color:var(--possible);color:var(--possible)}
-.info{display:flex;flex-direction:column;gap:6px;font-size:13.5px;border-top:1px solid var(--line);padding-top:10px}
-.info .row{display:flex;gap:8px}
-.info .k{flex:0 0 auto;color:var(--muted);font-size:12px;min-width:4.5em;padding-top:1px}
-.info .v{min-width:0}
-.info .v a{color:var(--accent)}
-.official{display:flex;flex-direction:column;gap:2px}
-.foot-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
-.share{flex:0 0 auto;font:inherit;font-size:13px;font-weight:500;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:99px;padding:6px 14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
-.share:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.item.hit{outline:2px solid var(--accent);outline-offset:2px}
-.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);font-size:13px;padding:10px 16px;border-radius:99px;z-index:5}
-footer{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
-footer p{margin:0}
+.sep{flex:0 0 1px;background:var(--line);margin-block:4px}
+.meta{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:-8px}
+.meta button{font:inherit;font-size:12px;color:var(--accent);background:none;border:none;padding:0;cursor:pointer}
+table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th{font-size:11px;font-weight:600;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);background:var(--bg)}
+th.r,td.r{text-align:right}
+td{padding:10px;border-bottom:1px solid var(--grid);vertical-align:top;font-size:13px}
+tbody tr:last-child td{border-bottom:none}
+tbody tr{cursor:pointer}
+tbody tr:active td{background:var(--bar-soft)}
+.cn{font-weight:600;line-height:1.35}
+.cd{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:2px}
+.num{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
+.pills{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.pill{font-size:10.5px;padding:2px 7px;border-radius:99px;white-space:nowrap;display:inline-flex;align-items:center;gap:4px}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.pill.c{background:var(--confirmed-soft);color:var(--confirmed)}
+.pill.p{background:var(--possible-soft);color:var(--possible)}
+.pill.closed{background:var(--done-soft);color:var(--done)}
+.pill.ongoing{border:1px solid var(--line);color:var(--muted)}
+.pill.auto{border:1px solid var(--accent);color:var(--accent)}
+.empty{color:var(--muted);text-align:center;padding:20px;font-size:13px}
+.foot{color:var(--muted);font-size:11.5px;line-height:1.6;margin:0}
+.scrim{position:fixed;inset:0;background:var(--scrim);z-index:10}
+.sheet{position:fixed;left:0;right:0;bottom:0;max-height:92%;background:var(--surface);border-radius:16px 16px 0 0;z-index:11;display:flex;flex-direction:column;max-width:560px;margin:0 auto;box-shadow:0 -8px 30px rgba(0,0,0,.18)}
+.sh-head{padding:10px 16px 12px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
+.grab{width:36px;height:5px;border-radius:3px;background:var(--line);margin:0 auto 4px}
+.sh-title{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.sh-title h3{font-size:18px;margin:0;line-height:1.35}
+.x{flex:0 0 auto;width:32px;height:32px;border-radius:50%;border:none;background:var(--bg);color:var(--ink);font-size:18px;cursor:pointer}
+.sh-body{overflow-y:auto;padding:14px 16px calc(16px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:18px;-webkit-overflow-scrolling:touch}
+.facts{display:grid;grid-template-columns:auto 1fr;border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px;margin:0}
+.facts dt{background:var(--bg);color:var(--muted);padding:8px 10px;border-bottom:1px solid var(--line);font-size:12px}
+.facts dd{margin:0;padding:8px 10px;border-bottom:1px solid var(--line);min-width:0}
+.facts dt:last-of-type,.facts dd:last-of-type{border-bottom:none}
+.sec{display:flex;flex-direction:column;gap:8px}
+.sec h4{font-size:12.5px;color:var(--muted);font-weight:600;margin:0}
+.grid-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:6px}
+.gi{font-size:12px;border-radius:8px;padding:7px 8px;display:flex;align-items:center;gap:6px}
+.gi.on{background:var(--confirmed-soft);color:var(--confirmed);font-weight:600}
+.gi.off{border:1px dashed var(--line);color:var(--muted)}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.note{font-size:12.5px;color:var(--muted);line-height:1.6;margin:0}
+.txt{font-size:14px;line-height:1.7;margin:0}
+ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;font-size:13.5px;line-height:1.6}
+.links{display:flex;flex-direction:column;gap:6px}
+.lk{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;color:var(--ink);text-decoration:none;font-size:13px;line-height:1.4}
+.lk.off{border-color:var(--accent);background:var(--accent-soft)}
+.lk span:last-child{color:var(--muted);flex:0 0 auto}
+.share{font:inherit;font-size:15px;font-weight:700;color:var(--bg);background:var(--ink);border:none;border-radius:12px;padding:13px;cursor:pointer;display:flex;justify-content:center;align-items:center;gap:8px}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);font-size:13px;padding:10px 16px;border-radius:99px;z-index:20;white-space:nowrap}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:no-preference){.sheet{animation:up .22s ease-out}@keyframes up{from{transform:translateY(40px);opacity:.6}}}
 </style>
 </head>
 <body>
 
 
-<div class="wrap">
-<header>
-  <div class="eyebrow">LEDGER · 2026-10-09 時点</div>
-  <h1>国内サイバー被害企業台帳</h1>
-  <p class="lead">サイバー攻撃（ランサムウェア・不正アクセス・委託先経由）で個人情報の漏えい、または漏えいの可能性を公表した国内企業の主な事案です。件数と状況は、各社の公表を報じた記事で確認したものに限っています。</p>
-</header>
+<div class="app">
+  <div class="head"><h1>国内サイバー被害企業台帳</h1><span class="ver"></span></div>
+  <div class="upd" id="upd"></div>
 
-<section class="stats" aria-label="全体の動向">
-  <div class="stat"><b>180件</b><span>2025年に上場企業とその子会社が公表した個人情報漏えい・紛失事故（東京商工リサーチ）</span><a href="https://webtan.impress.co.jp/n/2026/02/06/52123" target="_blank" rel="noopener">Web担当者Forum</a></div>
-  <div class="stat"><b>116件</b><span>うち「ウイルス感染・不正アクセス」が原因の事故。過去最多</span><a href="https://webtan.impress.co.jp/n/2026/02/06/52123" target="_blank" rel="noopener">Web担当者Forum</a></div>
-  <div class="stat"><b>10件</b><span>2026年の100万件以上の漏えい事故（10月5日時点）。2025年通年の6件を上回る</span><a href="https://www.logi-today.com/1008771" target="_blank" rel="noopener">LOGISTICS TODAY</a></div>
-</section>
+  <div class="tiles" id="tiles"></div>
 
-<div class="note"><p><strong>読み方：</strong>「確認」は企業が漏えいの事実を確認したもの、「可能性」は漏えいの可能性があると公表したものです。件数は各社の数え方（人数・件数・重複の有無）に従っており、続報で変わることがあります。最新の状況は各社の公表資料でご確認ください。犯行声明は攻撃者側の主張で、事実と確定したものではありません。</p></div>
+  <section class="panel" aria-labelledby="h-bars">
+    <h2 id="h-bars">流出件数の大きい事案 <small>可能性を含む・対数目盛</small></h2>
+    <div class="bars" id="bars"></div>
+    <div class="axis" aria-hidden="true"><span></span><span class="ticks"><span style="left:0">1万</span><span style="left:28.57%">10万</span><span style="left:57.14%">100万</span><span style="left:85.71%">1,000万</span></span><span></span></div>
+  </section>
 
-<div class="controls">
-  <label class="sr" for="q" hidden>検索</label>
-  <input id="q" type="search" placeholder="企業名・キーワードで検索" aria-label="企業名・キーワードで検索">
-  <select id="type" aria-label="攻撃の種類">
-    <option value="">すべての種類</option>
-    <option>ランサムウェア</option>
-    <option>不正アクセス</option>
-    <option>委託先経由</option>
-  </select>
-  <select id="status" aria-label="漏えいの状況">
-    <option value="">確認・可能性すべて</option>
-    <option value="c">漏えい確認</option>
-    <option value="p">漏えいの可能性</option>
-  </select>
-  <select id="res" aria-label="調査の状況">
-    <option value="">調査の状況すべて</option>
-    <option value="closed">調査完了</option>
-    <option value="ongoing">調査中・続報待ち</option>
-  </select>
-  <select id="sort" aria-label="並び順">
-    <option value="date">新しい順</option>
-    <option value="size">件数の多い順</option>
-  </select>
-  <span class="count" id="count"></span>
+  <section class="panel" aria-labelledby="h-items">
+    <h2 id="h-items">流出した情報 <small>タップで絞り込み</small></h2>
+    <div class="items" id="items"></div>
+  </section>
+
+  <div class="filters">
+    <input type="search" id="q" placeholder="企業名・キーワードで検索" aria-label="企業名・キーワードで検索">
+    <div class="hscroll" id="chips"></div>
+  </div>
+  <div class="meta"><span id="count"></span><button id="clear" hidden>絞り込みを解除</button></div>
+
+  <table aria-label="事案の一覧">
+    <thead><tr><th>企業・日付</th><th class="r">件数</th><th class="r">状況</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <p class="foot">「未確認」は集計サイトの一覧だけを元に載せた事案で、内容を公式発表で確かめていません。「直近1か月」は、発生日か最新の続報の日付が直近30日以内の事案です。件数は企業の公表値で、人数と件数が混在し、重複を含む場合があります。「調査完了」は調査結果や最終報が公表された事案です。流出した情報で複数選ぶと、すべてを含む事案に絞り込みます。分類は出典に書かれた項目だけを元にしています。</p>
 </div>
 
-<section class="chips" aria-label="流出した情報で絞り込み">
-  <div class="chips-head"><span>流出した情報で絞り込み（選んだ項目をすべて含む事案）</span><button id="clear" type="button" hidden>選択を解除</button></div>
-  <div class="chip-row" id="chips"></div>
-</section>
-
-<div class="list" id="list"></div>
-
-<footer>
-  <p>収録範囲：2024年〜2026年10月に公表された国内企業の事案（大学・病院・自治体は除外）。網羅的な一覧ではなく、順次追加しています。</p>
-  <p>「調査完了」は、企業が調査結果や最終報を公表した事案です。再発防止策が続いている場合もあります。「一次情報」は企業の公式発表、「報道」は内容を確認したニュース記事です。</p>
-  <p>流出した情報の分類は、各出典に書かれた項目だけを元にしています。項目が公表されていない事案は、どの項目で絞り込んでも表示されません。</p>
-  <p>日付は被害の発生・検知日、または初回公表日です。件数バーは対数スケールです（1万件〜1,000万件超）。</p>
-</footer>
-</div>
+<div id="sheetRoot"></div>
 
 <script>
-let DB,DATA,LABELS;
+let DB={cases:[],itemLabels:{},statusLabels:{},updated:""},LABELS={},SL={};
+const PAGE="https://snowfield28.github.io/leak-ledger-data/";
+const S={q:"",type:"",st:"",res:"",sort:"date",sel:new Set(),recent:"",noauto:""};
 const $=s=>document.querySelector(s);
-const sel=new Set();
-const MIN=Math.log10(10000),MAX=Math.log10(20000000);
-function pct(n){if(!n)return 0;return Math.max(3,Math.min(100,(Math.log10(n)-MIN)/(MAX-MIN)*100))}
-function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
-function chips(){
-  $("#chips").innerHTML=Object.entries(LABELS).map(([k,v])=>{
-    const c=DATA.filter(d=>d.items.includes(k)).length;
-    return `<button type="button" class="chip" data-k="${k}" aria-pressed="${sel.has(k)}">${esc(v)} <span style="opacity:.65">${c}</span></button>`}).join("");
-  $("#clear").hidden=!sel.size;
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const short=co=>co.split("（")[0].split("／")[0];
+const LMIN=4,LMAX=7.5;
+const lpos=n=>!n?0:Math.max(1,Math.min(100,(Math.log10(n)-LMIN)/(LMAX-LMIN)*100));
+const fmt=n=>n==null?"—":n>=1e4?(Math.round(n/1e3)/10).toLocaleString("ja-JP")+"万":n.toLocaleString("ja-JP");
+const md=s=>s.replace(/-/g,".");
+
+function filtered(){
+  const q=S.q.trim().toLowerCase();
+  const since=(()=>{const t=new Date(DB.updated+"T00:00:00");t.setDate(t.getDate()-30);return t.toISOString().slice(0,10)})();
+  return DB.cases.filter(d=>(!S.recent||(d.last||d.date)>=since)&&(!S.noauto||!d.auto)&&(!S.type||d.types.includes(S.type))&&(!S.st||d.st===S.st)&&(!S.res||d.status===S.res)&&[...S.sel].every(k=>d.items.includes(k))&&(!q||(d.co+d.sum+d.itemsText+(d.claim||"")+(d.resp||"")).toLowerCase().includes(q)))
+    .sort(S.sort==="size"?(a,b)=>(b.n||0)-(a.n||0):(a,b)=>b.date.localeCompare(a.date));
+}
+const chip=(label,on,act)=>`<button class="chip" aria-pressed="${on}" data-act="${esc(act)}">${esc(label)}</button>`;
+function renderChips(){
+  const tg=(g,v,l)=>chip(l,S[g]===v,`${g}:${S[g]===v?"":v}`);
+  $("#chips").innerHTML=
+    tg("recent","1","直近1か月")+tg("noauto","1","未確認を除く")+'<span class="sep"></span>'+
+    tg("type","ランサムウェア","ランサムウェア")+tg("type","不正アクセス","不正アクセス")+tg("type","委託先経由","委託先経由")+'<span class="sep"></span>'+
+    tg("st","c","漏えい確認")+tg("st","p","漏えいの可能性")+'<span class="sep"></span>'+
+    tg("res","ongoing","調査中")+tg("res","closed","調査完了")+'<span class="sep"></span>'+
+    chip("新しい順",S.sort==="date","sort:date")+chip("件数順",S.sort==="size","sort:size");
 }
 function render(){
-  const q=$("#q").value.trim().toLowerCase(),t=$("#type").value,s=$("#status").value,rs=$("#res").value,so=$("#sort").value;
-  let rows=DATA.filter(d=>(!t||d.types.includes(t))&&(!s||d.st===s)&&(!rs||d.status===rs)&&[...sel].every(k=>d.items.includes(k))&&(!q||(d.co+d.sum+d.itemsText+(d.claim||"")+(d.resp||"")).toLowerCase().includes(q)));
-  rows.sort(so==="size"?(a,b)=>(b.n||0)-(a.n||0):(a,b)=>b.date.localeCompare(a.date));
-  $("#count").textContent=rows.length+" / "+DATA.length+" 件";
-  $("#list").innerHTML=rows.length?rows.map(d=>`
-  <article class="item" id="${esc(d.id||"")}">
-    <div class="top"><h2>${esc(d.co)}</h2><span class="date">${d.date.replace(/-/g,".")}</span></div>
-    <div class="tags">${d.types.map(x=>`<span class="tag">${esc(x)}</span>`).join("")}<span class="tag ${d.st}">${d.st==="c"?"漏えい確認":"漏えいの可能性"}</span>${d.status?`<span class="tag ${d.status}">${esc(SL[d.status]||"")}</span>`:""}${d.auto?`<span class="tag" style="border-color:var(--accent);color:var(--accent)">自動追加・未確認</span>`:""}</div>
-    <div class="scale"><div class="track"><div class="fill" style="width:${pct(d.n)}%"></div></div><span class="num">${esc(d.label)}</span></div>
-    <div class="leaked">
-      <div class="row"><span class="k">流出情報</span><span class="v">${d.items.length?d.items.map(k=>sel.has(k)?`<mark>${esc(LABELS[k])}</mark>`:esc(LABELS[k])).join("・")+"<br>":""}<span style="color:var(--muted)">${esc(d.itemsText)}</span></span></div>
-      ${d.notIncl?`<div class="row"><span class="k">含まれない</span><span class="v">${esc(d.notIncl)}</span></div>`:""}
+  const rows=filtered();
+  const total=rows.reduce((a,d)=>a+(d.n||0),0);
+  const ongoing=rows.filter(d=>d.status==="ongoing").length;
+  $("#tiles").innerHTML=`
+    <div class="tile"><b>${rows.length}</b><span>事案</span></div>
+    <div class="tile"><b>${fmt(total)}</b><span>流出件数の合計</span></div>
+    <div class="tile"><b>${ongoing}</b><span>調査中・続報待ち</span></div>`;
+  const top=rows.filter(d=>d.n).sort((a,b)=>b.n-a.n).slice(0,8);
+  $("#bars").innerHTML=top.length?top.map(d=>`<button class="brow" data-open="${esc(d.id)}" aria-label="${esc(d.co)} ${esc(d.label)}">
+      <span class="bname">${esc(short(d.co))}</span>
+      <span class="btrack"><span class="bfill" style="width:${lpos(d.n)}%"></span></span>
+      <span class="bval">${fmt(d.n)}</span></button>`).join(""):'<div class="empty">件数が公表された事案はありません</div>';
+  const maxc=Math.max(1,...Object.keys(LABELS).map(k=>rows.filter(d=>d.items.includes(k)).length));
+  $("#items").innerHTML=Object.entries(LABELS).map(([k,v])=>{
+    const c=rows.filter(d=>d.items.includes(k)).length;
+    return `<button class="it" data-act="item:${k}" aria-pressed="${S.sel.has(k)}"><span class="l">${esc(v)}</span><span class="c"><span class="m"><i style="width:${c/maxc*100}%"></i></span>${c}件</span></button>`}).join("");
+  $("#count").textContent=`${rows.length} / ${DB.cases.length} 件を表示`;
+  $("#clear").hidden=!(S.type||S.st||S.res||S.sel.size||S.q||S.recent||S.noauto);
+  $("#rows").innerHTML=rows.length?rows.map(d=>`<tr data-open="${esc(d.id)}" tabindex="0">
+    <td><div class="cn">${esc(short(d.co))}</div><div class="cd">${md(d.date)}・${esc(d.types[0])}</div></td>
+    <td class="r"><span class="num">${d.n?fmt(d.n):"調査中"}</span></td>
+    <td class="r"><div class="pills"><span class="pill ${d.st}">${d.st==="c"?"漏えい確認":"可能性"}</span><span class="pill ${esc(d.status)}">${d.status==="closed"?"調査完了":"調査中"}</span>${d.auto?'<span class="pill auto">未確認</span>':""}</div></td>
+  </tr>`).join(""):`<tr><td colspan="3" class="empty">条件に合う事案はありません</td></tr>`;
+}
+
+function openSheet(id){
+  const d=DB.cases.find(x=>x.id===id);if(!d)return;
+  const resp=(d.resp||"").split("。").map(s=>s.trim()).filter(Boolean);
+  const itemGrid=Object.entries(LABELS).map(([k,v])=>{const on=d.items.includes(k);return `<div class="gi ${on?"on":"off"}"><span aria-hidden="true">${on?"●":"–"}</span>${esc(v)}<span class="vh">${on?"含む":"記載なし"}</span></div>`}).join("");
+  $("#sheetRoot").innerHTML=`<div class="scrim" data-close></div>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t">
+    <div class="sh-head"><div class="grab" aria-hidden="true"></div>
+      <div class="sh-title"><h3 id="sh-t">${esc(d.co)}</h3><button class="x" data-close aria-label="閉じる">×</button></div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="pill ${d.st}">${d.st==="c"?"漏えい確認":"漏えいの可能性"}</span><span class="pill ${esc(d.status)}">${esc(SL[d.status]||"")}</span>${d.auto?'<span class="pill auto">自動追加・未確認</span>':""}</div>
     </div>
-    <p>${esc(d.sum)}</p>
-    ${d.claim?`<div class="claim">${esc(d.claim)}</div>`:""}
-    <div class="info">
-      ${d.statusText?`<div class="row"><span class="k">状況</span><span class="v">${esc(d.statusText)}</span></div>`:""}
-      ${d.resp?`<div class="row"><span class="k">会社の対応</span><span class="v">${esc(d.resp)}</span></div>`:""}
-      <div class="row"><span class="k">一次情報</span><span class="v official">${(d.official||[]).length?d.official.map(([n,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join(""):`<span style="color:var(--muted)">未確認</span>`}</span></div>
+    <div class="sh-body">
+      <dl class="facts">
+        <dt>件数</dt><dd><b>${esc(d.label)}</b></dd>
+        <dt>日付</dt><dd>${md(d.date)}（発生・検知または初回公表）</dd>
+        <dt>攻撃</dt><dd>${esc(d.types.join("・"))}</dd>
+        ${d.claim?`<dt>犯行声明</dt><dd>${esc(d.claim)}</dd>`:""}
+      </dl>
+      <div class="sec"><h4>流出した情報</h4>
+        ${d.items.length?`<div class="grid-items">${itemGrid}</div>`:""}
+        <p class="note">${esc(d.itemsText)}</p>
+        ${d.notIncl?`<p class="note"><b>含まれない：</b>${esc(d.notIncl)}</p>`:""}
+      </div>
+      <div class="sec"><h4>概要</h4><p class="txt">${esc(d.sum)}</p></div>
+      <div class="sec"><h4>調査の状況</h4><p class="txt">${esc(d.statusText||"—")}</p></div>
+      <div class="sec"><h4>会社の対応</h4>${resp.length?`<ul class="resp">${resp.map(r=>`<li>${esc(r)}</li>`).join("")}</ul>`:'<p class="note">未確認</p>'}</div>
+      <div class="sec"><h4>一次情報（公式発表）</h4><div class="links">${(d.official||[]).length?d.official.map(([n,u])=>`<a class="lk off" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>↗</span></a>`).join(""):'<p class="note">未確認</p>'}</div></div>
+      <div class="sec"><h4>報道</h4><div class="links">${d.src.map(([n,u])=>`<a class="lk" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>↗</span></a>`).join("")}</div></div>
+      <button class="share" data-share="${esc(d.id)}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>この事案を共有</button>
     </div>
-    <div class="foot-row">
-      <div class="src">報道：${d.src.map(([n,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join("")}</div>
-      ${d.id?`<button type="button" class="share" data-share="${esc(d.id)}" aria-label="${esc(d.co)}の事案を共有"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>共有</button>`:""}
-    </div>
-  </article>`).join(""):`<div class="empty">条件に合う事案はありません。検索語や絞り込みを変えてください。</div>`;
+  </div>`;
+  document.body.classList.add("lock");
+  document.querySelector(".sheet .x").focus();
 }
-const PAGE="https://snowfield28.github.io/leak-ledger-data/";
-let SL={};
-function toast(msg){const t=document.createElement("div");t.className="toast";t.setAttribute("role","status");t.textContent=msg;document.body.appendChild(t);setTimeout(()=>t.remove(),2200)}
-function shareText(d){
-  return `【${d.co}】${d.label}（${d.st==="c"?"漏えい確認":"漏えいの可能性"}・${SL[d.status]||""}）\n${d.sum}`+(d.official&&d.official[0]?`\n公式発表：${d.official[0][1]}`:"");
+function closeSheet(){$("#sheetRoot").innerHTML="";document.body.classList.remove("lock")}
+function toast(m){const t=document.createElement("div");t.className="toast";t.setAttribute("role","status");t.textContent=m;document.body.appendChild(t);setTimeout(()=>t.remove(),2200)}
+function share(id){
+  const d=DB.cases.find(x=>x.id===id);if(!d)return;
+  const text=`【${d.co}】${d.label}（${d.st==="c"?"漏えい確認":"漏えいの可能性"}・${SL[d.status]||""}）\n${d.sum}`+(d.official&&d.official[0]?`\n公式発表：${d.official[0][1]}`:"")+`\n${PAGE}#${id}`;
+  if(navigator.share){navigator.share({title:d.co+"の情報漏えい",text}).catch(e=>{if(!e||e.name!=="AbortError")copy(text)});return}
+  copy(text);
 }
-async function share(id){
-  const d=DATA.find(x=>x.id===id);if(!d)return;
-  const url=PAGE+"#"+id,text=shareText(d);
-  if(navigator.share){try{await navigator.share({title:d.co+"の情報漏えい",text,url});return}catch(e){if(e&&e.name==="AbortError")return}}
-  try{await navigator.clipboard.writeText(text+"\n"+url);toast("共有用の文章とリンクをコピーしました")}catch(e){toast("コピーできませんでした")}
-}
-$("#list").addEventListener("click",e=>{const b=e.target.closest("[data-share]");if(b)share(b.dataset.share)});
-function jump(){
-  const id=location.hash.slice(1);if(!id)return;
-  const el=document.getElementById(id);if(!el)return;
-  el.classList.add("hit");el.scrollIntoView({block:"start"});
-}
-$("#chips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const k=b.dataset.k;sel.has(k)?sel.delete(k):sel.add(k);chips();render()});
-$("#clear").addEventListener("click",()=>{sel.clear();chips();render()});
-["#q","#type","#status","#res","#sort"].forEach(id=>$(id).addEventListener("input",render));
-async function boot(){
-  try{
-    const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});
-    if(!r.ok)throw new Error(r.status);
-    DB=await r.json();DATA=DB.cases;LABELS=DB.itemLabels;SL=DB.statusLabels||{};
-    document.querySelector(".eyebrow").textContent="LEDGER · "+DB.updated+" 更新";
-    chips();render();jump();
-  }catch(e){
-    $("#list").innerHTML='<div class="empty">データを読み込めませんでした。時間をおいて再読み込みしてください。</div>';
-  }
-}
-boot();
+function copy(t){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(()=>toast("共有用の文章とリンクをコピーしました"),()=>toast("コピーできませんでした"));else toast("コピーできませんでした")}
+
+document.addEventListener("click",e=>{
+  const sh=e.target.closest("[data-share]");if(sh){share(sh.dataset.share);return}
+  if(e.target.closest("[data-close]")){closeSheet();return}
+  const o=e.target.closest("[data-open]");if(o){openSheet(o.dataset.open);return}
+  const b=e.target.closest("[data-act]");
+  if(b){const i=b.dataset.act.indexOf(":"),k=b.dataset.act.slice(0,i),v=b.dataset.act.slice(i+1);
+    if(k==="item")S.sel.has(v)?S.sel.delete(v):S.sel.add(v);else S[k]=v;
+    renderChips();render();return}
+  if(e.target.id==="clear"){S.type=S.st=S.res=S.recent=S.noauto="";S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
+});
+document.addEventListener("keydown",e=>{
+  if(e.key==="Escape")closeSheet();
+  if(e.key==="Enter"&&e.target.matches("tr[data-open]"))openSheet(e.target.dataset.open);
+});
+$("#q").addEventListener("input",e=>{S.q=e.target.value;render()});
+(async()=>{
+  try{const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;DB=await r.json();LABELS=DB.itemLabels;SL=DB.statusLabels||{};
+    $("#upd").textContent=DB.updated+" 更新";renderChips();render();
+    const id=location.hash.slice(1);if(id&&DB.cases.some(c=>c.id===id))openSheet(id);
+  }catch(e){$("#rows").innerHTML='<tr><td colspan="3" class="empty">データを読み込めませんでした。時間をおいて再読み込みしてください。</td></tr>'}
+})();
 </script>
 </body>
 </html>
