@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ホロニック（運営宿泊施設・TEMAIRAZU）の個人情報漏えい（2026年9月）｜国内情報漏えい台帳</title>
+<meta name="description" content="ホロニック（運営宿泊施設・TEMAIRAZU）の情報漏えい事案。件数：調査中。原因：サイバー攻撃（不正アクセス・委託先経由）。流出した情報：ホロニックの発表は「宿泊予約に関する情報の一部」とのみ記載。システム事業者（手間いらず）の第二報では、宿泊者の氏名・電話番号・メールアドレス・宿泊施設名・チェッ…">
+<link rel="canonical" href="https://snowfield28.github.io/leak-ledger-data/case/holonic-temairazu-2609.html">
+<meta property="og:title" content="ホロニック（運営宿泊施設・TEMAIRAZU）の個人情報漏えい（2026年9月）｜国内情報漏えい台帳">
+<meta property="og:description" content="ホロニック（運営宿泊施設・TEMAIRAZU）の情報漏えい事案。件数：調査中。原因：サイバー攻撃（不正アクセス・委託先経由）。流出した情報：ホロニックの発表は「宿泊予約に関する情報の一部」とのみ記載。システム事業者（手間いらず）の第二報では、宿泊者の氏名・電話番号・メールアドレス・宿泊施設名・チェッ…">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://snowfield28.github.io/leak-ledger-data/case/holonic-temairazu-2609.html">
+<meta property="og:site_name" content="国内情報漏えい台帳">
+<style>
+:root{--bg:#f3f5f7;--surface:#fff;--ink:#16202b;--muted:#5b6876;--line:#d9dfe5;--accent:#b4530b;--accent-soft:#fbeadb;
+ --confirmed:#a3271f;--confirmed-soft:#f8e1de;--possible:#7a5d00;--possible-soft:#f6edcc;--done:#2f6b4f;--done-soft:#dcefe5;
+ --f-ui:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Meiryo",sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0f151c;--surface:#16202a;--ink:#e4eaf0;--muted:#97a5b3;--line:#2a3744;
+ --accent:#f0954a;--accent-soft:#3a2615;--confirmed:#f28b82;--confirmed-soft:#3b1f1d;--possible:#e3c25a;--possible-soft:#332b12;--done:#86d3ac;--done-soft:#1b3328;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f151c;--surface:#16202a;--ink:#e4eaf0;--muted:#97a5b3;--line:#2a3744;--accent:#f0954a;--accent-soft:#3a2615;
+ --confirmed:#f28b82;--confirmed-soft:#3b1f1d;--possible:#e3c25a;--possible-soft:#332b12;--done:#86d3ac;--done-soft:#1b3328;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-ui);line-height:1.75;padding:12px 16px 48px}
+main{max-width:760px;margin:0 auto}
+a{color:var(--accent)}
+.crumb{font-size:13px;margin:4px 0 14px;display:flex;flex-wrap:wrap;gap:4px 8px;color:var(--muted)}
+h1{font-size:22px;line-height:1.45;margin:0 0 8px}
+.pills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.pill{font-size:12px;padding:2px 9px;border-radius:99px;white-space:nowrap}
+.pill.c{background:var(--confirmed-soft);color:var(--confirmed)}.pill.p{background:var(--possible-soft);color:var(--possible)}
+.pill.closed{background:var(--done-soft);color:var(--done)}.pill.ongoing{border:1px solid var(--line);color:var(--muted)}
+section{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+h2{font-size:15px;margin:0 0 8px}
+p,li{font-size:15px;margin:0 0 6px}
+ul{padding-left:1.2em;margin:0}
+dl{display:grid;grid-template-columns:auto 1fr;margin:0;font-size:14px}
+dt{color:var(--muted);padding:7px 14px 7px 0;border-top:1px solid var(--line);white-space:nowrap}
+dd{margin:0;padding:7px 0;border-top:1px solid var(--line);min-width:0}
+dt:first-of-type,dd:first-of-type{border-top:none}
+.items{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.items span{font-size:13px;background:var(--confirmed-soft);color:var(--confirmed);border-radius:8px;padding:3px 9px;font-weight:600}
+.note{font-size:13px;color:var(--muted)}
+.lk{display:block;padding:9px 12px;border:1px solid var(--line);border-radius:10px;margin-bottom:6px;text-decoration:none;color:var(--ink);font-size:14px;word-break:break-all}
+.lk.off{border-color:var(--accent);background:var(--accent-soft)}
+.lk small{display:block;color:var(--muted);font-size:12px}
+.btn{display:inline-block;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:700;border-radius:10px;padding:10px 16px;margin-top:4px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600}
+td.r,th.r{text-align:right;white-space:nowrap}
+nav.foot{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;margin-top:20px}
+nav.foot a{color:var(--muted)}
+@media (min-width:900px){body{padding:24px 32px 64px}h1{font-size:28px}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.two section{margin-bottom:0}.two{margin-bottom:12px}}
+</style>
+</head>
+<body><main>
+<nav class="crumb" aria-label="パンくず"><a href="../">台帳</a><span>›</span><a href="./">全事案一覧</a><span>›</span><span>ホロニック（運営宿泊施設・TEMAIRAZU）</span></nav>
+<h1>ホロニック（運営宿泊施設・TEMAIRAZU）の個人情報漏えい</h1>
+<div class="pills"><span class="pill p">漏えいの可能性</span><span class="pill ongoing">調査中</span></div>
+<section><h2>事案の概要</h2><dl><dt>件数</dt><dd>調査中</dd><dt>日付</dt><dd>2026年9月29日（発生・検知または初回公表）</dd><dt>業種</dt><dd>生活サービス・レジャー</dd><dt>原因</dt><dd>サイバー攻撃（不正アクセス・委託先経由）</dd><dt>誰の情報</dt><dd>顧客・利用者</dd><dt>最終確認日</dt><dd>2026年10月11日（公式発表と照合）</dd></dl></section>
+<section><h2>流出した情報</h2><div class="items"><span>氏名</span><span>電話番号</span><span>メールアドレス</span><span>契約・購入情報</span></div><p>ホロニックの発表は「宿泊予約に関する情報の一部」とのみ記載。システム事業者（手間いらず）の第二報では、宿泊者の氏名・電話番号・メールアドレス・宿泊施設名・チェックイン/アウト日・宿泊料金</p></section>
+<section><h2>何が起きたか</h2><p>運営する一部のホテルで使う予約管理システム「TEMAIRAZU」に不正アクセスがあり、宿泊予約情報の一部が閲覧・取得された可能性がある。9/21までに成立し9/21以降に宿泊する予約の一部で、予約者に不審なメッセージが届いた。</p></section>
+<div class="two">
+<section><h2>調査の状況</h2><p>漏えいは可能性の段階。施設別の件数・範囲は未公表で、事業者からの情報収集を継続中。</p></section>
+<section><h2>組織の対応</h2><ul><li>手間いらずと連携して自社施設への影響範囲を確認中。</li><li>不審メッセージのリンクを開かない、返信・カード入力・送金をしないよう注意喚起。</li><li>新事実はコーポレートサイト等で案内。</li></ul></section>
+</div>
+<section><h2>お問い合わせ先</h2><a class="lk" href="mailto:helpdesk@temairazu.com">helpdesk@temairazu.com<small>メール</small></a><p class="note">予約したホテル（公式サイト掲載の連絡先）、または手間いらず株式会社 緊急対応デスク</p><p class="note">出典：<a href="https://www.hol-onic.co.jp/news/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%BD%93%E7%A4%BE%E9%81%8B%E5%96%B6%E6%96%BD%E8%A8%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%BA%88%E7%B4%84%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/" rel="noopener">公式発表</a>に記載の窓口。受付期間が終わっていることがあるため、連絡の前に公式発表を確認してください。</p></section>
+<section><h2>一次情報（公式発表）</h2><a class="lk off" href="https://www.hol-onic.co.jp/news/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%BD%93%E7%A4%BE%E9%81%8B%E5%96%B6%E6%96%BD%E8%A8%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%BA%88%E7%B4%84%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/" rel="noopener">【重要】当社運営施設における予約管理システム「TEMAIRAZU」への不正アクセスについて（2026/9/29）<small>https://www.hol-onic.co.jp/news/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%BD%93%E7%A4%BE%E9%81%8B%E5%96%B6%E6%96%BD%E8%A8%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%BA%88%E7%B4%84%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/</small></a><a class="lk off" href="https://www.temairazu.co.jp/pdf/1210/news-update" rel="noopener">当社システムへの不正アクセスに関する経過および対応について（第二報）（2026/10/7）<small>https://www.temairazu.co.jp/pdf/1210/news-update</small></a></section>
+<section><h2>報道</h2><a class="lk" href="https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/" rel="noopener">ロケットボーイズ</a><a class="lk" href="https://rocket-boys.co.jp/?p=41888" rel="noopener">ロケットボーイズ</a></section>
+<p><a class="btn" href="../#holonic-temairazu-2609">台帳でほかの事案と比べる</a></p>
+<p class="note">この台帳は、報道や一覧で見つけた事案のうち、組織自身の公式発表を開いて内容が一致したものだけを載せています。概要は公式発表と報道から事実を取り出して書いたもので、正確な内容は公式発表で確認してください。誤りは<a href="../contact.html">お問い合わせ・訂正依頼</a>からお知らせください。</p>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ホロニック（運営宿泊施設・TEMAIRAZU）の個人情報漏えい（2026年9月）", "datePublished": "2026-09-29", "dateModified": "2026-10-11", "inLanguage": "ja", "url": "https://snowfield28.github.io/leak-ledger-data/case/holonic-temairazu-2609.html", "publisher": {"@type": "Organization", "name": "国内情報漏えい台帳"}}</script>
+<nav class="foot" aria-label="サイト情報"><a href="../">台帳</a><a href="../case/">全事案一覧</a><a href="../about.html">このサイトについて</a><a href="../privacy.html">プライバシーポリシー</a><a href="../contact.html">お問い合わせ・訂正依頼</a></nav>
+</main></body>
+</html>
