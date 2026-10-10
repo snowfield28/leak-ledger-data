@@ -1,0 +1,20 @@
+{"id": "shirohato-2511", "verdict": "一致", "diffs": "備考: 11/7版は件数記載なし、12/1版で最大176名(169名+7名)。項目・顧客区分は一致"}
+{"id": "toyota-city-ex-employee-2512", "verdict": "一致", "diffs": "備考: 公式に項目・件数の記載なし(台帳の「不明」と整合)"}
+{"id": "tkc-2601", "verdict": "一致", "diffs": "備考: 第五報(2/27)で漏えい事実なし、会員事務所情報の外部送信が試みられ遮断と記載"}
+{"id": "mynavi-cloud-2602", "verdict": "一致", "diffs": "備考: 第三報で74,224/21,609/15,672件。合計111,505件は公式に明記なく内訳の単純合計"}
+{"id": "aichi-nature-seminar-2603", "verdict": "一致", "diffs": ""}
+{"id": "ycc-yamagata", "verdict": "一致", "diffs": "備考: 第四報(4/14)ページ。4/3付の初報への言及あり(初報ページ自体は未確認)。件数・項目は公式に記載なし"}
+{"id": "systemsoft-mamcreate", "verdict": "一致", "diffs": "備考: 公式は『現時点で情報流出の事実は確認できず』、項目・件数の記載なし"}
+{"id": "nagoya-rekishi-mail", "verdict": "一致", "diffs": "備考: 件数は明示されず、受託業者従業員1名の氏名・資格情報・経歴と読み取れる"}
+{"id": "sado-toki-fanclub-2606", "verdict": "一致", "diffs": ""}
+{"id": "hiroshima-seminar-2606", "verdict": "一致", "diffs": "備考: 公式表記は『属性(一般・医療・行政)』『年齢区分』(台帳の区分・年代に相当)"}
+{"id": "frau-international-2607", "verdict": "一致", "diffs": ""}
+{"id": "i-nex-2607", "verdict": "一致", "diffs": ""}
+{"id": "corona-2608", "verdict": "一致", "diffs": "備考: ページに公表日の記載なく date(2026-08-28)は未検証。経緯に8/24の記載あり。件数最大35,000名・項目は一致"}
+{"id": "rakuten-books-network-2608", "verdict": "一致", "diffs": "備考: 33,333/2,101/339件、合計35,773件(公式は合計を明記せず)"}
+{"id": "rikkyo-google-2609", "verdict": "一致", "diffs": "備考: 公式にはこのほか送信メール件名、M365アカウント1件のプロフィール情報の閲覧可能性の記載あり(台帳itemsTextに未記載)"}
+{"id": "kyusai-nichirei-2609", "verdict": "一致", "diffs": ""}
+{"id": "lawson-id-2610", "verdict": "一致", "diffs": "備考: 2,155,345+26=2,155,371。合計は公式に明記なし"}
+{"id": "leange-2608", "verdict": "一致", "diffs": ""}
+{"id": "mitsui-fudosan-2609", "verdict": "不一致", "diffs": "台帳: 最大約5.5万人(役職員1.9万・外部連絡先3.6万) → 公式(第二報 2026/9/28): 『最大19,000件』『最大36,000件』で単位は件。外部関係者はメールアドレス・表示名で、人数かアドレス数かは明記なし(数値は一致、単位『人』が公式にない)。第一報9/1は本文で確認。 https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf"}
+{"id": "takahata-ycc", "verdict": "一致", "diffs": "備考: 公式の更新日が4/20(事案発生は4/2)。項目は『共済組合員等コード』"}
