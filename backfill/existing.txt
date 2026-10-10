@@ -272,3 +272,53 @@
 2026-09-28	daito-gas-ryomo-2609	大東ガス（委託先 両毛システムズ）
 2026-09-30	nabari-kintetsu-gas-2609	名張近鉄ガス（委託先 両毛システムズ）
 2026-10-08	lawson-id-2610	ローソン（ローソンID・ローソンアプリ予約）
+2026-01-30	integral-2601	インテグラル
+2026-01-12	kama-asa-2601	釜浅商店
+2026-01-27	hyogo-iryo-2601	兵庫県（医療機関等生産性向上・職場環境整備緊急支援事業の委託先）
+2026-01-27	softbank-proxy-2601	ソフトバンク
+2026-01-26	kama-city-2601	嘉麻市
+2026-01-26	authense-2601	Authense法律事務所
+2026-01-23	maff-mail-2601	農林水産省
+2026-01-16	bonform-2601	ボンフォーム（ボンフォームオンラインストア）
+2026-01-21	cocoloni-2601	cocoloni
+2026-01-20	tombow-2601	トンボ飲料
+2026-01-23	m-nichidai-2601	宮崎日本大学学園
+2026-01-14	washington-kansai-2601	フラット・フィールド・オペレーションズ（関西エアポートワシントンホテル）
+2026-01-16	street-academy-2601	ストリートアカデミー（ストアカ）
+2026-01-13	mm-chiyoda-2601	まちみらい千代田（住宅まちづくりグループ）
+2026-01-19	jr-kyushu-2601	九州旅客鉄道（グループ会社）
+2026-03-27	zetton-2603	ゼットン
+2026-03-31	okinawa-saiketsu-2603	沖縄県（行政不服審査の裁決）
+2026-03-31	mhlw-seminar-list-2603	厚生労働省（委託先）
+2026-03-09	seed-planning-2603	シード・プランニング（東京都などの委託先）
+2026-03-27	fukuokabank-metlife-2603	福岡銀行（メットライフ生命からの出向者）
+2026-03-18	hirogin-2603	広島銀行（メットライフ生命からの出向者）
+2026-03-17	tane-hospital-usb-2603	多根総合病院（委託先）
+2026-03-13	urasoe-minatogawa-hdd-2603	浦添市（港川中学校）
+2026-03-24	niigata-u-mis-2603	新潟大学
+2026-03-20	miyakonojo-usb-2603	都城市（小学校）
+2026-03-25	niigata-uh-usb-2603	新潟大学医歯学総合病院
+2026-03-30	kadogawa-usb-2603	門川町（保育所）
+2026-03-30	cocoselect-2603	カーステーション新潟（ココセレクト）
+2026-03-30	saitama-u-patent-2603	埼玉大学（委託先の特許管理システム）
+2026-03-27	tsad-excel-2603	東京都障害者スポーツ協会
+2026-03-26	zynas-joyfull-2603	ザイナス（ジョイフルの委託先）
+2026-03-26	sato-kogyo-nas-2603	佐藤工業
+2026-03-24	cynd-beautymerit-2603	サインド（BeautyMerit）
+2026-03-23	omikenshi-2603	オーミケンシ
+2026-02-06	cross-marketing-soumu-2602	クロス・マーケティング（総務省の放送コンテンツ製作取引実態調査）
+2026-03-23	tottori-dx-seminar-2603	鳥取県（医療DXセミナー）
+2026-03-20	sakura-kogyo-2603	サクラ工業
+2026-03-19	nic-retails-2603	NICリテールズ（積文館書店）
+2026-03-17	cosmos-initia-2603	コスモスイニシア（メールアカウント）
+2026-03-12	yoichi-furusato-2603	余市町（ふるさとプレミアム）
+2026-03-06	whiteessence-megury-2603	ホワイトエッセンス（歯科衛生士転職サイト メグリー）
+2026-03-03	shiraume-toyooka-2603	白梅豊岡病院（白梅会）
+2026-03-10	fundex-aoyama-main-2603	セゾンファンデックス（委託先 青山メイン企画）
+2026-03-23	sada-hospital-sns-2603	佐田病院
+2026-04-06	resonance-face-clinic	日本美容医療研究機構（リゾナスフェイスクリニック東京）
+2026-04-03	sociofuture-gmoaozora	GMOあおぞらネット銀行（委託先 SocioFuture）
+2026-04-23	2rinkan-app	2りんかんイエローハット（2りんかんアプリ）
+2026-04-30	ncbank-bereal	西日本シティ銀行（下関支店）
+2026-04-07	ncsol-roster	日本カーソリューションズ
+2026-04-16	yamagata-city-ycc	山形市（委託先 YCC情報システム）
