@@ -1,20 +1,20 @@
-{"id": "designphil-2608", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.designphil.co.jp/information/news/entry-8739/）"}
-{"id": "yamagata-pref-ycc", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.pref.yamagata.jp/020023/johokokai/yccpress.html, https://www.pref.yamagata.jp/documents/51972/080417yccpress.pdf, https://www.pref.yamagata.jp/020023/johokokai/ycckojinnjouhou.html）"}
-{"id": "gendai-butsudan-2606", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.ec-gendaibutsudan.com/view/news/20260619190311）"}
-{"id": "edogawa-newhire-mail-2609", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/09/0924.html）"}
-{"id": "ppih-accretive-2510", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://ppih.co.jp/news/pdf/a2cad874113eb6dcf61a8dd5183bbc4d.pdf）"}
-{"id": "charm-2608", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://charm.co.jp/honten/info/notice/20260813.html）"}
-{"id": "it-hiroshima-2511", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.it-hiroshima.ac.jp/news/2025/11/post-2319.html）"}
-{"id": "kanagawa-iryo-kikaku-2510", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.pref.kanagawa.jp/docs/f6z/prs/r5150689.html）"}
-{"id": "media4u-sms-2607", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.media4u.co.jp/news/3351）"}
-{"id": "kankyo-kiki-2608", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.semco.net/news/detail/12790）"}
-{"id": "unimat-life-2607", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.unimat-life.co.jp/pages/news/333）"}
-{"id": "resorts-ryukyu-sansui-2510", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.resorts.co.jp/sansuinaha/news_detail?actual_object_id=26447）"}
-{"id": "berlitz-flex-2511", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.berlitz.com/ja-jp/news/251125）"}
-{"id": "kawamoto-2512", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.kawamoto.co.jp/news/index.php?id=144）"}
-{"id": "kanhokyo-2512", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.kanhokyo.or.jp/?p=11761）"}
-{"id": "jc-web-2606", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.jc-web.or.jp/pages/2230/）"}
-{"id": "osaka-jhs-sdcard-2510", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000664453.html）"}
-{"id": "fmu-hospital-2602", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.fmu.ac.jp/hospitals/hikarigaoka/news/info/file/20260206.pdf）"}
-{"id": "osaka-nishi-census-2510", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.city.osaka.lg.jp/hodoshiryo/toshikeikaku/0000663078.html）"}
-{"id": "kyuden-td-2606", "verdict": "開けず", "diffs": "WebFetchがPROVENANCE_REQUIRED（URLが許可リスト外）で拒否され、公式ページを開けなかった。内容は未確認（対象: https://www.kyuden.co.jp/td/press/2026/260608.html）"}
+{"id": "designphil-2608", "verdict": "一致", "diffs": "", "note": "公式(8/3)は件数記載なし・Eストアーが対象者特定中。項目・顧客とも台帳と合致"}
+{"id": "yamagata-pref-ycc", "verdict": "一致", "diffs": "", "note": "4/17発表PDFの内訳合計約26,800件は台帳と一致。ただし公式は『保管データの件数』で流出は未確認と明記。6/1更新ページ(ycckojinnjouhou.html)には合計件数・項目の記載なく、リンク先のR8.5.20現在の一覧PDFは未確認(このページに『新型コロナ対策認証制度の申請事業者』関連の記載あり、台帳itemsTextにない)"}
+{"id": "gendai-butsudan-2606", "verdict": "一致", "diffs": "", "note": "who=unkだが公式は『お客様およびお取引先様』に言及。カード情報等は含まれないと公式が明記"}
+{"id": "edogawa-newhire-mail-2609", "verdict": "一致", "diffs": ""}
+{"id": "ppih-accretive-2510", "verdict": "一致", "diffs": "", "note": "公式は外部漏えい未確認(可能性は否定できず)と記載"}
+{"id": "charm-2608", "verdict": "一致", "diffs": ""}
+{"id": "it-hiroshima-2511", "verdict": "一致", "diffs": "", "note": "公式は対象=2025/6/13時点の学生・教職員。データの外部持ち出しは確認されずと記載"}
+{"id": "kanagawa-iryo-kikaku-2510", "verdict": "一致", "diffs": ""}
+{"id": "media4u-sms-2607", "verdict": "一致", "diffs": "", "note": "公式は件数が本人数と一致しない場合があると注記"}
+{"id": "kankyo-kiki-2608", "verdict": "一致", "diffs": ""}
+{"id": "unimat-life-2607", "verdict": "開けず", "diffs": "https://www.unimat-life.co.jp/pages/news/333 をWebFetchで2回取得を試みたが両方とも CLIENT_ERROR(There was an error while fetching)。内容は未確認"}
+{"id": "resorts-ryukyu-sansui-2510", "verdict": "一致", "diffs": ""}
+{"id": "berlitz-flex-2511", "verdict": "一致", "diffs": "", "note": "公式は『複数のお客様』とのみ記載。BCC/TO誤設定"}
+{"id": "kawamoto-2512", "verdict": "一致", "diffs": "", "note": "公式ページの日付は12/18更新で当初公表日は不明"}
+{"id": "kanhokyo-2512", "verdict": "一致", "diffs": ""}
+{"id": "jc-web-2606", "verdict": "一致", "diffs": "", "note": "公式は個人情報流出は確定せず『取得された可能性』"}
+{"id": "osaka-jhs-sdcard-2510", "verdict": "一致", "diffs": "", "note": "公式は『紛失』で流出確認の記載なし"}
+{"id": "fmu-hospital-2602", "verdict": "一致", "diffs": "", "note": "公式に件数の明記はないが、患者B本人と家族の1事案"}
+{"id": "osaka-nishi-census-2510", "verdict": "一致", "diffs": ""}
+{"id": "kyuden-td-2606", "verdict": "一致", "diffs": "", "note": "公式は流出の事実は確認されていない(おそれあり)と記載"}
