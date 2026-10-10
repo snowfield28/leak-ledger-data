@@ -265,7 +265,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 
   <nav class="foot" aria-label="サイト情報" style="display:flex;flex-wrap:wrap;gap:6px 16px"><a href="case/">全事案一覧</a><a href="about.html">このサイトについて</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ・訂正依頼</a></nav>
   <p class="foot" id="rule"></p>
-  <p class="foot">原因の「サイバー攻撃」以外（紛失・誤送信・内部不正・設定ミス）は2026年9月以降の事案から収録を始めています。期間は、発生日か最新の続報の日付で判定します。業種は企業の主な事業をもとにした台帳独自の分類です。件数は企業の公表値で、人数と件数が混在し、重複を含む場合があります。「調査完了」は調査結果や最終報が公表された事案です。流出した情報で複数選ぶと、すべてを含む事案に絞り込みます。分類は出典に書かれた項目だけを元にしています。</p>
+  <p class="foot">網羅的に収録しているのは2025年10月以降の事案です（それより前は一部のみ）。期間は、発生日か最新の続報の日付で判定します。業種は企業の主な事業をもとにした台帳独自の分類です。件数は企業の公表値で、人数と件数が混在し、重複を含む場合があります。「調査完了」は調査結果や最終報が公表された事案です。流出した情報で複数選ぶと、すべてを含む事案に絞り込みます。分類は出典に書かれた項目だけを元にしています。</p>
 </div>
 
 <div id="sheetRoot"></div>
@@ -348,7 +348,7 @@ function renderAna(rows){
     el.innerHTML=`<div class="legend">${cs.map(([k,l],i)=>`<span><i style="background:${cols[i%5]}"></i>${esc(l)}</span>`).join("")}</div>
     <div class="mchart" role="img" aria-label="月別の事案数">${all.map(k=>{const v=m[k]||{c:0,n:0,by:{}};
       return `<div class="mcol" title="${k}：${v.c}件／流出件数${fmt(v.n)}"><span class="mv">${v.c||""}</span><div class="mstack" style="height:${v.c/mx*100}%">${cs.map(([c],i)=>v.by[c]?`<i style="flex:${v.by[c]};background:${cols[i%5]}"></i>`:"").join("")}</div><span class="ml">${Number(k.slice(5))}月${k.slice(5)==="01"||k===all[0]?`<br>${k.slice(0,4)}`:""}</span></div>`}).join("")}</div>
-    <p class="note">事案の日付（発生・検知または初回公表）の月で数えています。過去分は順次追加中のため、古い月ほど少なく見える場合があります。</p>`;
+    <p class="note">事案の日付（発生・検知または初回公表）の月で数えています。2025年10月より前は一部のみの収録のため、少なく見えます。</p>`;
     const mc=el.querySelector(".mchart");if(mc)mc.scrollLeft=mc.scrollWidth;
   }else{
     const B=[["〜1千",0,1e3],["1千〜1万",1e3,1e4],["1万〜10万",1e4,1e5],["10万〜100万",1e5,1e6],["100万〜",1e6,Infinity]];

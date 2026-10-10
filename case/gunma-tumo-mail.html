@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>群馬県（TUMO Gunma・委託先 システムクリエイターズ）の個人情報漏えい（2026年5月）｜国内情報漏えい台帳</title>
+<meta name="description" content="群馬県（TUMO Gunma・委託先 システムクリエイターズ）の情報漏えい事案。件数：4人。原因：誤送信・誤掲載。流出した情報：メールアドレス（個人のアドレス）4人分、うち1人は氏名も表示">
+<link rel="canonical" href="https://snowfield28.github.io/leak-ledger-data/case/gunma-tumo-mail.html">
+<meta property="og:title" content="群馬県（TUMO Gunma・委託先 システムクリエイターズ）の個人情報漏えい（2026年5月）｜国内情報漏えい台帳">
+<meta property="og:description" content="群馬県（TUMO Gunma・委託先 システムクリエイターズ）の情報漏えい事案。件数：4人。原因：誤送信・誤掲載。流出した情報：メールアドレス（個人のアドレス）4人分、うち1人は氏名も表示">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://snowfield28.github.io/leak-ledger-data/case/gunma-tumo-mail.html">
+<meta property="og:site_name" content="国内情報漏えい台帳">
+<style>
+:root{--bg:#f3f5f7;--surface:#fff;--ink:#16202b;--muted:#5b6876;--line:#d9dfe5;--accent:#b4530b;--accent-soft:#fbeadb;
+ --confirmed:#a3271f;--confirmed-soft:#f8e1de;--possible:#7a5d00;--possible-soft:#f6edcc;--done:#2f6b4f;--done-soft:#dcefe5;
+ --f-ui:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Meiryo",sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0f151c;--surface:#16202a;--ink:#e4eaf0;--muted:#97a5b3;--line:#2a3744;
+ --accent:#f0954a;--accent-soft:#3a2615;--confirmed:#f28b82;--confirmed-soft:#3b1f1d;--possible:#e3c25a;--possible-soft:#332b12;--done:#86d3ac;--done-soft:#1b3328;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f151c;--surface:#16202a;--ink:#e4eaf0;--muted:#97a5b3;--line:#2a3744;--accent:#f0954a;--accent-soft:#3a2615;
+ --confirmed:#f28b82;--confirmed-soft:#3b1f1d;--possible:#e3c25a;--possible-soft:#332b12;--done:#86d3ac;--done-soft:#1b3328;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-ui);line-height:1.75;padding:12px 16px 48px}
+main{max-width:760px;margin:0 auto}
+a{color:var(--accent)}
+.crumb{font-size:13px;margin:4px 0 14px;display:flex;flex-wrap:wrap;gap:4px 8px;color:var(--muted)}
+h1{font-size:22px;line-height:1.45;margin:0 0 8px}
+.pills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.pill{font-size:12px;padding:2px 9px;border-radius:99px;white-space:nowrap}
+.pill.c{background:var(--confirmed-soft);color:var(--confirmed)}.pill.p{background:var(--possible-soft);color:var(--possible)}
+.pill.closed{background:var(--done-soft);color:var(--done)}.pill.ongoing{border:1px solid var(--line);color:var(--muted)}
+section{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+h2{font-size:15px;margin:0 0 8px}
+p,li{font-size:15px;margin:0 0 6px}
+ul{padding-left:1.2em;margin:0}
+dl{display:grid;grid-template-columns:auto 1fr;margin:0;font-size:14px}
+dt{color:var(--muted);padding:7px 14px 7px 0;border-top:1px solid var(--line);white-space:nowrap}
+dd{margin:0;padding:7px 0;border-top:1px solid var(--line);min-width:0}
+dt:first-of-type,dd:first-of-type{border-top:none}
+.items{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.items span{font-size:13px;background:var(--confirmed-soft);color:var(--confirmed);border-radius:8px;padding:3px 9px;font-weight:600}
+.note{font-size:13px;color:var(--muted)}
+.lk{display:block;padding:9px 12px;border:1px solid var(--line);border-radius:10px;margin-bottom:6px;text-decoration:none;color:var(--ink);font-size:14px;word-break:break-all}
+.lk.off{border-color:var(--accent);background:var(--accent-soft)}
+.lk small{display:block;color:var(--muted);font-size:12px}
+.btn{display:inline-block;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:700;border-radius:10px;padding:10px 16px;margin-top:4px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600}
+td.r,th.r{text-align:right;white-space:nowrap}
+nav.foot{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;margin-top:20px}
+nav.foot a{color:var(--muted)}
+@media (min-width:900px){body{padding:24px 32px 64px}h1{font-size:28px}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.two section{margin-bottom:0}.two{margin-bottom:12px}}
+</style>
+</head>
+<body><main>
+<nav class="crumb" aria-label="パンくず"><a href="../">台帳</a><span>›</span><a href="./">全事案一覧</a><span>›</span><span>群馬県（TUMO Gunma・委託先 システムクリエイターズ）</span></nav>
+<h1>群馬県（TUMO Gunma・委託先 システムクリエイターズ）の個人情報漏えい</h1>
+<div class="pills"><span class="pill c">漏えい確認</span><span class="pill closed">調査完了</span></div>
+<section><h2>事案の概要</h2><dl><dt>件数</dt><dd>4人</dd><dt>日付</dt><dd>2026年5月21日（発生・検知または初回公表）</dd><dt>業種</dt><dd>公共機関</dd><dt>原因</dt><dd>誤送信・誤掲載</dd><dt>誰の情報</dt><dd>顧客・利用者</dd><dt>最終確認日</dt><dd>2026年10月9日（公式発表と照合）</dd></dl></section>
+<section><h2>流出した情報</h2><div class="items"><span>メールアドレス</span><span>氏名</span></div><p>メールアドレス（個人のアドレス）4人分、うち1人は氏名も表示</p></section>
+<section><h2>何が起きたか</h2><p>県のデジタルクリエイティブ人材育成事業の委託先が、TUMO Gunma利用者へのメールをBCCではなくTO欄で送信し、受信者同士にアドレスが見える状態になった。</p></section>
+<div class="two">
+<section><h2>調査の状況</h2><p>2026年5月21日の発表で、受信者への謝罪・削除依頼と再発防止策まで示されている。</p></section>
+<section><h2>組織の対応</h2><ul><li>委託先が受信者全員にメールで謝罪し削除を依頼。</li><li>県は委託先に個人情報管理の徹底と送信前の複数人確認を指導し、システム面での再発防止策を導入するとした。</li></ul></section>
+</div>
+<section><h2>お問い合わせ先</h2><a class="lk" href="tel:0278982706"><b>027-898-2706</b></a><a class="lk" href="https://www.pref.gunma.jp/site/houdou/758952.html" rel="noopener">問い合わせフォーム（ページ内）<small>フォーム</small></a><p class="note">eスポーツ・クリエイティブ推進課 クリエイター人材育成室 クリエイティブ人材係</p><p class="note">出典：<a href="https://www.pref.gunma.jp/site/houdou/758952.html" rel="noopener">公式発表</a>に記載の窓口。受付期間が終わっていることがあるため、連絡の前に公式発表を確認してください。</p></section>
+<section><h2>一次情報（公式発表）</h2><a class="lk off" href="https://www.pref.gunma.jp/site/houdou/758952.html" rel="noopener">群馬県 報道発表（TUMO Gunma利用者へのメール誤送信）（2026/5/21）<small>https://www.pref.gunma.jp/site/houdou/758952.html</small></a></section>
+
+<p><a class="btn" href="../#gunma-tumo-mail">台帳でほかの事案と比べる</a></p>
+<p class="note">この台帳は、報道や一覧で見つけた事案のうち、組織自身の公式発表を開いて内容が一致したものだけを載せています。概要は公式発表と報道から事実を取り出して書いたもので、正確な内容は公式発表で確認してください。誤りは<a href="../contact.html">お問い合わせ・訂正依頼</a>からお知らせください。</p>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "群馬県（TUMO Gunma・委託先 システムクリエイターズ）の個人情報漏えい（2026年5月）", "datePublished": "2026-05-21", "dateModified": "2026-10-09", "inLanguage": "ja", "url": "https://snowfield28.github.io/leak-ledger-data/case/gunma-tumo-mail.html", "publisher": {"@type": "Organization", "name": "国内情報漏えい台帳"}}</script>
+<nav class="foot" aria-label="サイト情報"><a href="../">台帳</a><a href="../case/">全事案一覧</a><a href="../about.html">このサイトについて</a><a href="../privacy.html">プライバシーポリシー</a><a href="../contact.html">お問い合わせ・訂正依頼</a></nav>
+</main></body>
+</html>

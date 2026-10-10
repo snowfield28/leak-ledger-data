@@ -108,3 +108,167 @@
 2026-09-30	saitama-city-medical-staff	さいたま市民医療センター（職員向けページ）
 2026-09-11	sankei-respection	産業経済新聞社（RESPECTion!シンポジウム）
 2026-09-08	kyoto-sanga	京都パープルサンガ（ファンクラブ）
+2025-10-22	tokyo-tama-medical-2510	東京都立多摩総合医療センター（東京都立病院機構）
+2025-10-22	higashiyama-school-2510	東山中学・高等学校
+2025-10-17	jr-bus-kanto-2510	ジェイアールバス関東
+2025-10-20	fukuyoshi-2510	フクヨシ（フクヨシショッピングサイト）
+2025-10-16	adachi-pasona-2510	足立区（子育て家庭訪問事業・委託先 パソナライフケア）
+2025-10-16	kagawa-fc-2510	香川フィルムコミッション（香川県観光協会）
+2025-10-17	nomura-securities-jijilla-2510	野村證券（委託先の再委託先が使うクラウドサービス）
+2025-10-14	eapharma-2510	EAファーマ
+2025-10-10	bonchi-sagaeya-2510	ぼんち（煎餅工房さがえ屋）
+2025-10-10	mlit-pwc-sekisho-2510	国土交通省（委託先 PwCコンサルティング・再委託先 セキショウキャリアプラス）
+2025-10-10	ppih-accretive-2510	パン・パシフィック・インターナショナルホールディングス（委託先 アクリーティブ）
+2025-10-14	yamato-transport-himeji-2510	ヤマト運輸（姫路主管支店の元従業員による持ち出し）
+2025-10-08	denso-powerbi-2510	デンソー（Power BI の閲覧権限設定ミス）
+2025-10-14	japanpost-takatsuki-2510	日本郵便（高槻郵便局・かんぽ生命等の保険申込書写し）
+2025-10-03	mynavi-cloud-2510	マイナビ（社給端末管理クラウド）
+2025-10-03	jscc-workshop-2510	日本臨床細胞学会（細胞アート展 細胞診体験ワークショップ）
+2025-10-06	nara-city-dv-2510	奈良市（子ども給付課）
+2025-10-02	resorts-ryukyu-sansui-2510	リゾーツ琉球（HOTEL SANSUI NAHA）
+2025-10-07	kanagawa-iryo-kikaku-2510	神奈川県（健康医療局 医療企画課）
+2025-10-31	kyoto-city-seizure-2510	京都市（市税の滞納処分の誤り）
+2025-10-28	kawasaki-nakahara-jhs-2510	川崎市（市立中原中学校の教員による生徒情報入りの媒体の紛失）
+2025-10-15	saitama-kinyu-koho-2510	埼玉県金融広報委員会（事務局 消費生活支援センター）
+2025-10-08	edogawa-school-mail-2510	江戸川区（区立小学校の臨時的任用教員募集メール）
+2025-10-02	fujisawa-dementia-mail-2510	藤沢市（認知症サポーター養成講座の受付完了メール）
+2025-10-16	yamagata-yamanami-mail-2510	山形県（健康福祉部 障がい福祉課・やまなみ学園の研修会案内）
+2025-10-09	meguro-census-2510	目黒区（国勢調査の調査世帯一覧等の紛失）
+2025-10-22	yokohama-teacher-docs-2510	横浜市（市立学校の教諭による書類の紛失）
+2025-10-31	nagoya-higashi-census-2510	名古屋市東区（国勢調査の調査世帯一覧の紛失）
+2025-10-09	osaka-nishi-census-2510	大阪市西区（国勢調査関係書類の一時紛失）
+2025-10-03	osaka-higashiyodogawa-census-2510	大阪市東淀川区（国勢調査関係書類の一時紛失）
+2025-10-16	kobe-kaigo-chosa-2510	神戸市（要介護認定の認定調査連絡票・受託法人こうべ市民福祉振興協会）
+2025-10-31	tokyo-edu-his-2510	東京都教育委員会（受託者 エイチ・アイ・エス）
+2025-10-31	osaka-jhs-sdcard-2510	大阪市（市立中学校の私物SDカード紛失）
+2025-11-04	keio-tsushin-2511	慶應義塾大学通信教育部（委託先 日本アスペクトコア）
+2025-11-04	nikkei-slack-2511	日本経済新聞社（Slack）
+2025-11-12	it-hiroshima-2511	広島工業大学（学校法人鶴学園）
+2025-11-21	juntendo-wsrc-2511	順天堂大学（女性スポーツ研究センター）
+2025-11-21	stnet-2511	STNet（ST Cloud Server）
+2025-11-21	shibata-sangyo-2511	柴田産業（委託先 エネサンス九州）
+2025-11-07	shirohato-2511	白鳩（SHIROHATO）
+2025-11-19	atsugi-police-2511	神奈川県警察（厚木警察署）
+2025-11-28	dormy-senior-2511	共立メンテナンス（ドーミーシニア）
+2025-11-11	ndl-dev-system-2511	国立国会図書館（開発中システム・再委託先経由）
+2025-11-25	berlitz-flex-2511	ベルリッツ（オンラインコース Flex）
+2025-11-04	saitama-misato-kogyo-2511	埼玉県立三郷工業技術高等学校
+2025-11-04	ibaraki-iryo-seisaku-2511	茨城県（医療政策課）
+2025-11-19	tokyo-metro-highschool-2511	東京都教育庁（都立高校の情報共有ツール）
+2025-11-11	kanagawa-junkanki-2511	神奈川県立循環器呼吸器病センター（神奈川県立病院機構）
+2025-12-05	jmty-2512	ジモティー（社内開発環境）
+2025-12-04	tac-2512	TAC
+2025-12-04	edv-future-2512	Edv Future（教育支援サービス Edv Path／長野県立高校が利用）
+2025-12-10	kanagawa-kodomo-book-2512	神奈川県立こども医療センター（神奈川県立病院機構）
+2025-12-05	shizuoka-aoi-welfare-2512	静岡市（葵区役所 葵福祉事務所 生活支援課）
+2025-12-03	toyota-city-ex-employee-2512	豊田市（元職員による個人情報の漏えい）
+2025-12-02	ark-tokutan-alt-2512	アーク東短オルタナティブ
+2025-12-02	hokudai-ist-2512	北海道大学（大学院情報科学研究院）
+2025-12-11	osaka-pref-hunter-docs-2512	大阪府（環境農林水産部 動物愛護畜産課）
+2025-12-09	line-official-account-2512	LINEヤフー（LINE公式アカウント）
+2025-12-19	tokai-com-oneoffice-2512	TOKAIコミュニケーションズ（OneOffice メールソリューション）
+2025-12-18	kawamoto-2512	川本製作所（Webサイトのお問い合わせフォーム）
+2025-12-15	kurashiki-usb-2512	倉敷中央病院（大原記念倉敷中央医療機構）
+2025-12-15	saitama-u-gpa-2512	埼玉大学（GPA分布レポート）
+2025-12-05	nissan-fukuoka-redhat-2512	日産自動車（委託先 レッドハットのサーバ／日産福岡販売の顧客）
+2025-12-19	kanhokyo-2512	広島県環境保健協会（委託先 日本EDD認証推進協議会）
+2025-12-19	utokyo-iqb-laptop-2512	東京大学 定量生命科学研究所
+2026-01-30	tkc-2601	TKC（TKC税理士ご紹介コーナー・HP毎月更新サービス）
+2026-01-26	ia-ibaraki-2601	茨城県国際交流協会
+2026-02-06	fmu-hospital-2602	福島県立医科大学附属病院（委託先 ニチイ学館）
+2026-02-13	harima-us-2602	ハリマ化成グループ（米国子会社 Harima USA・Harimatec）
+2026-02-25	tokai-denshi-2602	東海電子（委託先のメールサービス）
+2026-02-12	mynavi-cloud-2602	マイナビ（利用クラウドサービス）
+2026-02-05	athome-hikkoshi	アットホーム（引越し見積もり）
+2026-02-13	yahoo-shopping-closed-store	LINEヤフー（Yahoo!ショッピング 休店ページ）
+2026-02-12	nagoya-moriyama-2602	名古屋市（守山区役所）
+2026-03-16	united-arrows-2603	ユナイテッドアローズ
+2026-03-11	aichi-nature-seminar-2603	愛知県（委託先 日本総合研究所）
+2026-03-19	mazda-2603	マツダ（タイ調達部品の倉庫管理システム）
+2026-03-06	murata-2603	村田製作所
+2026-03-25	osaka-marathon-volunteer-2603	大阪府・大阪市（大阪マラソン2026 ボランティア登録システム）
+2026-04-03	campfire-2604	CAMPFIRE
+2026-04-03	ycc-yamagata	YCC情報システム（山形市・山形県などの委託先）
+2026-04-17	yamagata-pref-ycc	山形県（委託先 YCC情報システム）
+2026-04-20	takahata-ycc	高畠町（委託先 YCC情報システム）
+2026-04-27	higashine-ycc	東根市（委託先 YCC情報システム）
+2026-04-22	yamaken-kokuho-ycc	山形県建設国民健康保険組合（委託先 YCC情報システム）
+2026-04-08	tokyo-housing-docs-2604	東京都（住宅政策本部）
+2026-04-02	tokyo-sento-stamprally	東京都 都市整備局（委託先 吉本興業・東京型銭湯スタンプラリー）
+2026-04-08	systemsoft-mamcreate	システムソフト（子会社 マムクリエイト）
+2026-04-16	yokosuka-tax-mail-2604	横須賀市（税務部納税課）
+2026-05-01	athome-ielove	アットホーム（いえらぶCLOUD経由の問い合わせ）
+2026-05-01	moneyforward-github	マネーフォワード（GitHub）
+2026-05-07	nikkei-america	日本経済新聞社（米国子会社 日経アメリカ社）
+2026-05-21	gunma-tumo-mail	群馬県（TUMO Gunma・委託先 システムクリエイターズ）
+2026-05-19	nagoya-tempaku-pension	名古屋市（天白区役所 保険年金課）
+2026-05-27	nagoya-rekishi-mail	名古屋市（観光文化交流局 歴史まちづくり推進課）
+2026-06-17	murase-kabanko-2606	村瀬鞄行（村瀬鞄行オンラインショップ）
+2026-06-16	mikasa-2606	ミカサ
+2026-06-15	saga-hirakawaya-2606	佐嘉平川屋（佐嘉平川屋オンラインショップ）
+2026-06-12	kawagoe-cci-2606	川越商工会議所
+2026-06-12	dm-rext-2606	D&M（REXTホールディングス連結子会社）
+2026-06-12	sakai-city-committee-2606	堺市（市立小学校施設開放運営委員会の連絡先）
+2026-06-10	kyushu-u-lab-2606	九州大学（病院・研究室の端末）
+2026-06-08	kyuden-td-2606	九州電力送配電
+2026-06-05	jc-web-2606	日中経済協会
+2026-06-05	en-middle-tenshoku-2606	エン（ミドルの転職）
+2026-06-03	fujita-hospital-2606	藤田医科大学病院
+2026-06-02	hiroshima-seminar-2606	広島県（県民公開セミナー申込者・委託先 ホームテレビ映像）
+2026-06-23	nttpc-webarena-transfer-2606	NTTPCコミュニケーションズ（WebARENA 大容量ファイル転送機能）
+2026-06-04	visual-arts-2606	ビジュアルアーツ
+2026-06-19	gendai-butsudan-2606	現代仏壇（親会社 はせがわ）
+2026-06-19	osaka-city-mimamorume-2606	大阪市（市立小学校・保護者連絡アプリ「ミマモルメ」）
+2026-06-19	sado-toki-fanclub-2606	佐渡市（トキ共生地域づくり事業・佐渡トキファンクラブ）
+2026-06-19	kakamigahara-insider-2606	各務原市
+2026-06-22	softsu-2606	ソフツー（検証用サーバー）
+2026-06-16	komatsu-2606	コマツ（外部ユーザー招待用のユーザー管理システム）
+2026-06-19	kaze-travel-2606	風の旅行社（外部メールマガジン配信サービス）
+2026-07-14	media4u-sms-2607	メディア4u（SMS配信システム）
+2026-07-01	kaga-solnet-academico-2607	加賀ソルネット（アカデミコナビ）
+2026-07-10	murata-make-2607	ムラタメイク（村田製作所のIT環境経由・自動車保険）
+2026-07-13	lindsports-2607	リンドスポーツ（旧FAX送信委託先 日本テレネット経由）
+2026-07-07	frau-international-2607	フラウ・インターナショナル（メール問合せ管理の業務委託先）
+2026-07-09	fukuoka-u-nostram-2607	福岡大学（委託先ノストラム「SMART SPI」）
+2026-07-03	tv-asahi-mediaplex-2607	テレビ朝日メディアプレックス
+2026-07-01	ota-furusato-2607	太田市（ふるさと納税・ワンストップ特例オンライン申請）
+2026-07-03	unimat-life-2607	ユニマットライフ
+2026-07-01	i-nex-2607	アイネックス（朝日放送テレビのグループ会社）
+2026-07-03	kitakyushu-masking-2607	北九州市（黒塗り処理の不備）
+2026-07-10	nagoya-nakagawa-doboku-2607	名古屋市（緑政土木局中川土木事務所）
+2026-07-22	toyonaka-jukyusha-2607	豊中市（障害児通所受給者証の誤送付）
+2026-08-07	jst-2608	科学技術振興機構（JST）
+2026-08-04	chubu-electric-2608	中部電力
+2026-08-06	nice-2608	ナイス（管理メールアドレス）
+2026-08-28	kindal-2608	カインドオル（ブランド古着のEC）
+2026-08-28	corona-2608	コロナ（外部クラウドサービス）
+2026-08-13	charm-2608	チャーム（チャーム本店）
+2026-08-03	designphil-2608	デザインフィル（ミドリオンラインストア等・ショップサーブ）
+2026-08-03	kaigetsukan-2608	海月館グループ（淡路島洲本温泉 海月館）
+2026-08-04	innovation-2608	イノベーション（GitHub）
+2026-08-06	leange-2608	ル・アンジェ（コミュニケーションツール BAND）
+2026-08-10	godai-kaihatsu-2608	五大開発（いさぼうネット）
+2026-08-20	ne-chemcat-2608	エヌ・イー ケムキャット
+2026-08-21	rakuten-books-network-2608	楽天ブックスネットワーク
+2026-08-18	weblife-2608	ウェブライフ（OEM向けホームページ作成サービス）
+2026-08-17	kyoiku-software-2608	教育ソフトウェア（委託先レンタルサーバー）
+2026-08-17	ghp-2608	GHP（Club Chapel Hotels 公式サイト）
+2026-08-07	digital-agency-qualification-2608	デジタル庁（国家資格情報連携・活用システム）
+2026-08-22	kankyo-kiki-2608	環境機器（虫退治ドットコム）
+2026-08-03	kodansha-2608	講談社（社員のメールアカウント）
+2026-08-01	estore-shopserve-2608	Eストアー（ショップサーブ）
+2026-09-24	edogawa-newhire-mail-2609	江戸川区
+2026-09-30	hiroshima-shudo-2609	学校法人修道学園（広島修道大学・修道中学校・高等学校ほか）
+2026-09-04	kingjim-shopserve-2609	キングジム（旧KINGJIM STORE・オフィスオンライン／Eストアー ショップサーブ）
+2026-09-29	toppan-sompo-2609	TOPPAN（損害保険ジャパン契約者・保険料控除証明書発行サービス）
+2026-09-03	rizap-ai-2609	RIZAP（特定保健指導・外部生成AIへの誤アップロード）
+2026-09-25	kotoura-town-2609	琴浦町（鳥取県）
+2026-09-01	trunk-mail-2609	TRUNK
+2026-09-08	rikkyo-google-2609	立教大学
+2026-09-15	ainokaze-seat-2609	あいの風とやま鉄道（観光列車「一万三千尺物語」座席予約）
+2026-09-25	kyusai-nichirei-2609	キューサイ（委託先 ニチレイ・ロジスティクス九州）
+2026-09-26	enoguya-sankichi-2609	絵具屋三吉（Eストアー ショップサーブ）
+2026-09-01	mitsui-fudosan-2609	三井不動産
+2026-09-28	daito-gas-ryomo-2609	大東ガス（委託先 両毛システムズ）
+2026-09-30	nabari-kintetsu-gas-2609	名張近鉄ガス（委託先 両毛システムズ）
+2026-10-08	lawson-id-2610	ローソン（ローソンID・ローソンアプリ予約）

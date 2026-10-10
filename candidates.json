@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-10",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -764,6 +764,7000 @@
    "auto": true,
    "ind": "生活サービス・レジャー",
    "pendingReason": "公式発表がアクセス制限で自動取得できない"
+  },
+  {
+   "co": "セラピア淡路町店（メディックス）",
+   "date": "2025-10-17",
+   "cause": "cyber",
+   "n": 15210,
+   "label": "最大15,210人",
+   "pendingReason": "公式発表 https://serapia.jp/news/20251017 がWebFetchでアクセス遮断(Incapsula)され内容を確認できない",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/29/53913.html"
+    ]
+   ],
+   "id": "pending-000"
+  },
+  {
+   "co": "ジブラルタ生命保険",
+   "date": "2025-10-17",
+   "cause": "insider",
+   "pendingReason": "公式PDF https://www.gib-life.co.jp/st/about/is_pdf/20251017.pdf がWebFetchでアクセス遮断され内容を確認できない（件数も不明）",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/29/53912.html"
+    ]
+   ],
+   "id": "pending-001"
+  },
+  {
+   "co": "天草市（農業振興課）",
+   "date": "2025-10-17",
+   "cause": "mis",
+   "pendingReason": "公式発表 https://www.city.amakusa.kumamoto.jp/kiji00313683/index.html の取得に失敗（1回目エラー）",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/30/53925.html"
+    ]
+   ],
+   "id": "pending-002"
+  },
+  {
+   "co": "デンソーウェーブ（DENSO ROBOT MEMBER）",
+   "date": "2025-10-22",
+   "cause": "config",
+   "pendingReason": "記事の公式URL（.../info/251022a.html）はお知らせ一覧で本文なし。個別ページ未確認",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/28/53900.html"
+    ]
+   ],
+   "id": "pending-004"
+  },
+  {
+   "co": "ローレルバンクマシン（AI-OCR Jijilla）",
+   "date": "2025-10-16",
+   "cause": "cyber",
+   "pendingReason": "公式発表 https://www.lbm.co.jp/news/2025/1016/ がrobots.txtで取得不可",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/27/53890.html"
+    ]
+   ],
+   "id": "pending-005"
+  },
+  {
+   "co": "流通経済大学",
+   "date": "2025-10-14",
+   "cause": "cyber",
+   "pendingReason": "公式発表 https://www.rku.ac.jp/news/48045/ がrobots.txtで取得不可",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/24/53878.html"
+    ]
+   ],
+   "id": "pending-006"
+  },
+  {
+   "co": "関彰商事・セキショウキャリアプラス（セキショウベトナム）",
+   "date": "2025-10-10",
+   "cause": "cyber",
+   "pendingReason": "公式発表 sekisho.co.jp/notice20251010 はrobots.txtで、sekisho-career.co.jp は取得エラーで、いずれも確認できない",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/22/53856.html"
+    ]
+   ],
+   "id": "pending-007"
+  },
+  {
+   "co": "早稲田大学（JCulP 入試関連）",
+   "date": "2025-10-07",
+   "cause": "mis",
+   "pendingReason": "公式発表 https://www.waseda.jp/flas/cms/news/2025/10/07/18959/ の取得に失敗",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/17/53826.html"
+    ]
+   ],
+   "id": "pending-008"
+  },
+  {
+   "co": "ウマニティ",
+   "date": "2025-10-03",
+   "cause": "cyber",
+   "pendingReason": "公式発表 https://umanity.jp/info.php?id=8388 がrobots.txtで取得不可（記事上も件数・項目の記載なし）",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/16/53815.html"
+    ]
+   ],
+   "id": "pending-009"
+  },
+  {
+   "co": "スペース（賃貸管理物件の入居者情報）",
+   "date": "2025-10-07",
+   "cause": "cyber",
+   "n": 4200,
+   "label": "約4,200件",
+   "pendingReason": "記事の公式URL（space-rent.co.jp）は公表文でなくトップ系ページが返り、公式発表の本文を確認できない",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/17/53825.html"
+    ]
+   ],
+   "id": "pending-010"
+  },
+  {
+   "co": "埼玉県商工会連合会",
+   "date": "2025-10-07",
+   "cause": "cyber",
+   "pendingReason": "公式発表 https://www.syokoukai.or.jp/010/20251007135801.html がrobots.txtで取得不可（記事上は個人情報漏えいの記載なし）",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/10/17/53824.html"
+    ]
+   ],
+   "id": "pending-011"
+  },
+  {
+   "co": "医療法人南労会 紀和病院・紀和クリニック",
+   "date": "2025-10-27",
+   "cause": "cyber",
+   "pendingReason": "公式発表(nanroukai.or.jp)がrobots.txtで取得不可",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/11/04/53946.html"
+    ]
+   ],
+   "id": "pending-012"
+  },
+  {
+   "co": "仙台市若林区（国勢調査票1件の紛失）",
+   "cause": "loss",
+   "pendingReason": "公式ページ(https://www.city.sendai.jp/waka-senkyo/kokuchou_1024.html)に発表日の明記がなく、初回公表日が10月か確認できない（更新日は2025/10/31、現物は10/30に発見）",
+   "src": [],
+   "id": "pending-013"
+  },
+  {
+   "co": "野村総合研究所／NRIフィナンシャル・グラフィックス（再委託先 Jijilla 経由）",
+   "date": "2025-10-16",
+   "cause": "cyber",
+   "pendingReason": "記事の公式PDF(nri.com/jp/files/000052871.pdf)は別のニュース一覧が返り本文を確認できない。同一事案の野村證券分のみ別途verified",
+   "id": "pending-014"
+  },
+  {
+   "id": "general-2511",
+   "co": "ゼネラル",
+   "date": "2025-11-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "pendingReason": "公式発表（2025/11/6）は業務端末からの情報流出の可能性としか書かれておらず、個人情報の含有・項目・件数・原因の記載なし",
+   "official": [
+    [
+     "【重要なお知らせ】情報流出の可能性に関する調査について（2025/11/6）",
+     "https://www.general.co.jp/news/545/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/11/28/54128.html"
+    ]
+   ],
+   "ind": "製造"
+  },
+  {
+   "id": "kobayashi-2511",
+   "co": "コバヤシ",
+   "date": "2025-11-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "pendingReason": "公式発表（2025/11/6）はサーバーから情報が窃取されたとするが、個人情報か否か・項目・件数の記載なし",
+   "official": [
+    [
+     "不正アクセスによる情報漏えいについて（2025/11/6）",
+     "https://www.kbjapan.co.jp/jpn/2025_11_06"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/11/28/54127.html"
+    ]
+   ],
+   "ind": "製造"
+  },
+  {
+   "id": "sakata-seed-2511",
+   "co": "サカタのタネ",
+   "date": "2025-11-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "pendingReason": "公式発表PDF（TDnet）が robots 制限で WebFetch で開けず、内容を照合できない",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/01/54134.html"
+    ]
+   ],
+   "ind": "製造"
+  },
+  {
+   "id": "pepup-chikyosai-2511",
+   "co": "地方職員共済組合（Pep Up／JMDC）",
+   "date": "2025-11-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 1,
+   "label": "1人",
+   "st": "p",
+   "pendingReason": "公式発表は利用者1人のアカウント不正利用（ポイント交換）で、閲覧された個人情報の項目が明記されておらず漏えい該当性が判断できない",
+   "official": [
+    [
+     "Pep Up 不正アクセスの報告（2025/11/28）",
+     "https://www.chikyosai.or.jp/info/health/pdf/info_251128.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/16/54244.html"
+    ]
+   ],
+   "ind": "団体"
+  },
+  {
+   "id": "mitsubishi-paper-2511",
+   "co": "三菱製紙",
+   "date": "2025-11-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "pendingReason": "公式発表PDFが robots 制限で WebFetch で開けず、件数・項目を照合できない",
+   "official": [
+    [
+     "不正アクセスによる情報漏えい及びそのおそれに関するお詫びとお知らせ（2025/11/28）",
+     "https://www.mpm.co.jp/news/pdf/2025/20251128-1.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/16/54243.html"
+    ]
+   ],
+   "ind": "製造"
+  },
+  {
+   "id": "kokusai-tandai-usb-2511",
+   "co": "国際短期大学",
+   "date": "2025-11-20",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "pendingReason": "公式発表（kokutan.net）が WebFetch でエラーとなり開けず、内容を照合できない",
+   "official": [
+    [
+     "USBメモリ紛失のお知らせ",
+     "https://kokutan.net/news/n_usb/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/05/54170.html"
+    ]
+   ],
+   "ind": "大学・学校"
+  },
+  {
+   "id": "arida-kyujitsu-2511",
+   "co": "有田周辺広域圏事務組合（有田地方休日急患診療所）",
+   "date": "2025-11-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "pendingReason": "公式PDFを開く許可が得られず(WebFetch未許可)、内容を照合できない。記事ではサポート詐欺で事務PCが遠隔操作されたが個人情報の漏えい有無は不明",
+   "official": [
+    [
+     "お詫びとご報告",
+     "http://www.aridakouiki.jp/pdf/owabitogohoukoku.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/15/54230.html"
+    ]
+   ],
+   "ind": "公共機関"
+  },
+  {
+   "id": "katashina-ogna-2511",
+   "co": "片品村振興公社（かたしなオグナほたかスキー場 早割リフト券EC）",
+   "date": "2025-11-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "pendingReason": "公式発表を開く許可が得られず(WebFetch未許可)、件数・項目を照合できない。記事では注文情報が外部サーバーへ送信されたとされる",
+   "official": [
+    [
+     "不正アクセスのお詫びとお知らせ",
+     "https://k-hotaka.jp/ogna/news/2590/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/15/54229.html"
+    ]
+   ],
+   "ind": "生活サービス・レジャー"
+  },
+  {
+   "id": "sanei-2511",
+   "co": "三英",
+   "date": "2025-11-24",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "pendingReason": "公式発表を開く許可が得られず(WebFetch未許可)、件数・項目を照合できない。記事ではCMSへの総当たり攻撃で問い合わせフォーム履歴が漏えいした可能性",
+   "official": [
+    [
+     "個人情報漏洩の可能性に関するお詫びとご報告",
+     "https://sanei-hp.jp/news/detail.php?id=17"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/11/54208.html"
+    ]
+   ],
+   "ind": "製造"
+  },
+  {
+   "id": "sports-club-nas-2511",
+   "co": "スポーツクラブNAS",
+   "date": "2025-11-21",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "5件（メール）",
+   "st": "c",
+   "pendingReason": "公式PDFが robots 制限で WebFetch で開けず、内容を照合できない",
+   "official": [
+    [
+     "お詫びとご報告（2025/11/21）",
+     "https://www.nas-club.co.jp/info/pdf/apology_report_20251121.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/18/54274.html"
+    ]
+   ],
+   "ind": "生活サービス・レジャー"
+  },
+  {
+   "id": "tsuneishi-2511",
+   "co": "ツネイシホールディングス",
+   "date": "2025-11-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "pendingReason": "公式発表を開く許可が得られず(WebFetch未許可)。記事ではグループ従業員のメールパスワードの漏えいで、個人情報の漏えいか未確認",
+   "official": [
+    [
+     "情報セキュリティインシデント発生に関するお詫びとお知らせ",
+     "https://www.tsuneishi-g.jp/news/topics/2025/11/29342/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/16/54241.html"
+    ]
+   ],
+   "ind": "運輸・交通"
+  },
+  {
+   "id": "plandosee-2511",
+   "co": "プランドゥシー",
+   "date": "2025-11-18",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "不明",
+   "st": "p",
+   "pendingReason": "検索で見つけた公式PDF「ご報告とお詫び」(2025/11/18)がWebFetchでエラーとなり開けず、内容を確認できない",
+   "official": [
+    [
+     "ご報告とお詫び（2025/11/18）",
+     "https://plandosee.co.jp/pdf/ご報告とお詫び20251118.pdf"
+    ]
+   ]
+  },
+  {
+   "co": "tripla（インドネシア連結子会社 PT. tripla BookandLink Indonesia）",
+   "date": "2025-12-08",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "label": "不明",
+   "pendingReason": "公式発表PDF(xj-storage.jp)がrobots.txtで取得不可。記事に件数の記載なし",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/22/54298.html"
+    ]
+   ],
+   "official": [
+    [
+     "連結子会社における不正アクセス(第一報)",
+     "https://contents.xj-storage.jp/xcontents/AS04848/300b0cd8/b071/4cd0/8bd1/ded8d24f6697/140120251208516276.pdf"
+    ]
+   ],
+   "id": "pending-027"
+  },
+  {
+   "co": "ロジックベイン",
+   "date": "2025-12-08",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "label": "不明",
+   "pendingReason": "公式発表(redirect.lvi.co.jp)がrobots.txtで取得不可。個人情報漏えいの有無も記事で不明",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/26/54339.html"
+    ]
+   ],
+   "id": "pending-028"
+  },
+  {
+   "co": "ジブラルタ生命保険（仙台西支社の事務社員）",
+   "date": "2025-12-10",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "label": "不明",
+   "pendingReason": "公式PDFがボット対策(Imperva)で内容を取得できず、件数も不明",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/25/54326.html"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ",
+     "https://www.gib-life.co.jp/st/about/is_pdf/20251210.pdf"
+    ]
+   ],
+   "id": "pending-029"
+  },
+  {
+   "co": "横須賀学院",
+   "date": "2025-12-17",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "label": "不明",
+   "pendingReason": "公式発表は写真・動画等の流出としか書かず、個人情報の範囲・件数が不明",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/19/54289.html"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2025/12/17）",
+     "https://www.yokosukagakuin.ac.jp/2025-12-17oshirase"
+    ]
+   ],
+   "id": "pending-030"
+  },
+  {
+   "co": "ブロードバンドタワー",
+   "date": "2025-12-12",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "label": "不明",
+   "pendingReason": "公式発表は一部情報へのアクセスの可能性にとどまり、個人情報かどうか・件数が不明",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/17/54259.html"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2025/12/12）",
+     "https://www.bbtower.co.jp/ir/topics/docs/20251212.pdf"
+    ]
+   ],
+   "id": "pending-031"
+  },
+  {
+   "co": "FCLコンポーネント（マレーシア子会社）",
+   "date": "2025-12-03",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "label": "不明",
+   "pendingReason": "公式発表に個人情報漏えいの記載なし（サーバへの不正アクセスのみ）。対象外の可能性",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/18/54270.html"
+    ]
+   ],
+   "official": [
+    [
+     "プレスリリース（2025/12/3）",
+     "https://www.fcl-components.com/resources/news/press-releases/2025/20251203.html"
+    ]
+   ],
+   "id": "pending-032"
+  },
+  {
+   "co": "三晃空調",
+   "date": "2025-12-11",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "label": "調査中",
+   "pendingReason": "公式第一報は個人情報漏えいを確認しておらず、対象と件数が調査中",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/25/54329.html"
+    ]
+   ],
+   "official": [
+    [
+     "第一報（2025/12/11）",
+     "https://www.sanko-air.co.jp/wp/wp-content/uploads/2025/12/dd2827513228485bcabd582a8125e725.pdf"
+    ]
+   ],
+   "id": "pending-033"
+  },
+  {
+   "co": "テーオーシー（TOC）",
+   "date": "2025-12-08",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "label": "不明",
+   "pendingReason": "公式発表(TDnet)がrobots.txtで取得不可。個人情報漏えいの有無も記事で不明",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2025/12/24/54318.html"
+    ]
+   ],
+   "id": "pending-034"
+  },
+  {
+   "co": "タカラスタンダード（四国支店・オンラインショップ）",
+   "date": "2025-12-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "label": "調査中",
+   "pendingReason": "公式発表は個人情報漏えいを確認しておらず、対象・件数が調査中",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/07/54364.html"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2025/12/17）",
+     "https://www.takara-standard.co.jp/files/parts/20251217.pdf"
+    ]
+   ],
+   "id": "pending-035"
+  },
+  {
+   "co": "47CLUB",
+   "date": "2025-12-10",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "label": "不明",
+   "pendingReason": "公式PDFをWebFetchで取得できずエラー。個人情報の有無も記事で不明",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/05/54350.html"
+    ]
+   ],
+   "id": "pending-036"
+  },
+  {
+   "co": "NECネクサソリューションズ（委託先 ジェイマックソフト）",
+   "date": "2025-12-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "label": "不明",
+   "pendingReason": "公式発表は個人情報の外部送信を裏付ける証拠なしとし、漏えい対象・件数が不明",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/07/54365.html"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2025/12/19）",
+     "https://www.nec-nexs.com/info/news/251219.html"
+    ]
+   ],
+   "id": "pending-037"
+  },
+  {
+   "co": "大日精化工業（ベトナム子会社 DAINICHI COLOR VIETNAM）",
+   "date": "2025-12-17",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "label": "不明",
+   "pendingReason": "公式PDF(xj-storage.jp)がrobots.txtで取得不可。個人情報の有無も記事で不明",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/08/54373.html"
+    ]
+   ],
+   "id": "pending-038"
+  },
+  {
+   "id": "umds-2601",
+   "co": "流通科学大学",
+   "date": "2026-01-31",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "who": [
+    "cust"
+   ],
+   "sum": "クラウドサービスの共有設定の誤りで、特定の教職員向けファイルが学内アカウントを持つ学生・教職員から閲覧できる状態だった。外部からはアクセスできず、漏えいは未確認とされる。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ryutsu-kagaku-university-cloud-misconfiguration-risks-exposing-student-personal-data-internally/"
+    ]
+   ],
+   "ind": "大学・学校",
+   "pendingReason": "公式発表（https://www.umds.ac.jp/260131-2/）はWebFetchのプロヴナンス制限で開けず、検索でも公式URLに到達できなかった"
+  },
+  {
+   "id": "koei-kab-2601",
+   "co": "光栄",
+   "date": "2026-01-30",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "サイバー攻撃によりサーバー障害が発生したと公表。個人情報への影響は未確認。",
+   "src": [],
+   "ind": "製造",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.kabkouei.co.jp/pdf/250130.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無も未確認"
+  },
+  {
+   "id": "machiene-2601",
+   "co": "MCリテールエナジー（まちエネ）",
+   "date": "2026-01-30",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "サイバー攻撃によるシステム障害を公表。個人情報への影響は未確認。",
+   "src": [],
+   "ind": "エネルギー",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.machi-ene.jp/announcement/20260130/4359/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無も未確認"
+  },
+  {
+   "id": "integral-2601",
+   "co": "インテグラル",
+   "date": "2026-01-30",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "自社ウェブサイトへの不正アクセスを公表。",
+   "src": [],
+   "ind": "金融・保険",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.integralcorp.jp/information/20260130/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無も未確認"
+  },
+  {
+   "id": "cosmic-jpn-2601",
+   "co": "コスミックコーポレーション",
+   "date": "2026-01-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "コーポレートサイトへの不正アクセスで負荷が急増し断続的に停止。1月30日に最終報。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/26/54476.html"
+    ]
+   ],
+   "ind": "小売・EC",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.cosmic-jpn.co.jp/news/N-0000000021"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。初回公表日・個人情報への影響未確認"
+  },
+  {
+   "id": "canvass-2601",
+   "co": "カンバス",
+   "date": "2026-01-06",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "認証サーバー等がランサムウェア攻撃を受け、マイページなどが利用不能に。1月29日に最終報告。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/28/54497.html"
+    ]
+   ],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://canvass.co.jp/wp-content/uploads/2026/01/20260129_RansomwareReport.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "sincere-2601",
+   "co": "シンシア",
+   "date": "2026-01-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "サイバー攻撃によるシステム障害を公表（1月29日に第2報）。",
+   "src": [],
+   "ind": "製造",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://renatus-group.co.jp/wp-content/uploads/2026/01/20260122_news_company.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無も未確認"
+  },
+  {
+   "id": "osaka-shoin-2601",
+   "co": "樟蔭学園",
+   "date": "2026-01-29",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "アカウントへの不正サインインを公表。",
+   "src": [],
+   "ind": "大学・学校",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.osaka-shoin.ac.jp/news/2025/0129/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "fenrir-2601",
+   "co": "フェンリル",
+   "date": "2026-01-29",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "外部メールサービスへの不正アクセスについて調査完了を公表。",
+   "src": [],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.fenrir-inc.com/jp/news/2026/01/29/notice-2/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。初回公表が2025年12月の可能性あり（TOKAIコミュニケーションズ OneOffice関連か未確認）"
+  },
+  {
+   "id": "package-shop-2601",
+   "co": "山本紙業（パッケージショップJP）",
+   "date": "2026-01-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "通販サイトへの不正アクセスで個人情報が漏えい。",
+   "src": [],
+   "ind": "小売・EC",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.package-shop.jp/upload/pdf/regarding_personal_information_leakage.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "grace-hotel-2601",
+   "co": "新横浜グレイスホテル",
+   "date": "2026-01-27",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "宿泊予約関連で顧客情報が第三者に閲覧された可能性とフィッシングメッセージの送信を公表。",
+   "src": [],
+   "ind": "生活サービス・レジャー",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://gracehotel.jp/news/details/6216/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "kama-asa-2601",
+   "co": "釜浅商店",
+   "date": "2026-01-12",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "外部連携アプリを通じて会員情報が不正取得された（スマレジ外部アプリ関連）。1月27日に続報。",
+   "src": [],
+   "ind": "小売・EC",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://kama-asa.co.jp/blogs/news/info-20260112-1"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "hyogo-iryo-2601",
+   "co": "兵庫県（医療施設支援事業の委託先）",
+   "date": "2026-01-27",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "医療施設支援事業の委託先で個人情報が漏えい。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://web.pref.hyogo.lg.jp/kf15/press/20260127.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。原因区分も未確認"
+  },
+  {
+   "id": "softbank-proxy-2601",
+   "co": "ソフトバンク",
+   "date": "2026-01-27",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "プロキシサーバーの不具合に起因する事象を公表。",
+   "src": [],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.softbank.jp/corp/news/press/sbkk/2026/20260127_02/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報への影響内容未確認"
+  },
+  {
+   "id": "kama-city-2601",
+   "co": "嘉麻市",
+   "date": "2026-01-26",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "個人情報の漏えいを公表。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.city.kama.lg.jp/uploaded/attachment/25814.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。原因区分も未確認"
+  },
+  {
+   "id": "emori-2601",
+   "co": "興和江守",
+   "date": "2026-01-07",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "ランサムウェア感染によるシステム障害で受注出荷業務に遅れ。公表時点で情報流出は未確認。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/23/54466.html"
+    ]
+   ],
+   "ind": "製造",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.emori.co.jp/wp-content/uploads/2026/01/information_20260107.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "shizuoka-airport-mail-2601",
+   "co": "静岡県（空港振興課）",
+   "date": "2026-01-26",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "メールの誤送信により個人情報が漏えい。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www2.pref.shizuoka.jp/all/kisha.nsf/kekka_sosiki/EDD9DCE6F1EDB73449258D88002C59FC/$FILE/0126airportshinkou2.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "shizuoka-airport-itaku-2601",
+   "co": "静岡県（空港関連業務の委託先）",
+   "date": "2026-01-22",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "委託先のメール誤送信により個人情報が漏えい。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www2.pref.shizuoka.jp/all/kisha.nsf/kekka_sosiki/57BC2420ACC5622449258D86001F1AEE/$FILE/0122airportcyousei.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "dstyleweb-2601",
+   "co": "アスマーク（D style web）",
+   "date": "2026-01-15",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "OCNメールアカウントの乗っ取りに伴い不正なポイント交換申請が発生し、交換を一時停止。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/15/54417.html"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://dstyleweb.com/information/past/detail/217"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無未確認"
+  },
+  {
+   "id": "authense-2601",
+   "co": "Authense法律事務所",
+   "date": "2026-01-26",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "第三者による不正アクセスについて報告。",
+   "src": [],
+   "ind": "生活サービス・レジャー",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.authense.jp/news/7096/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "gotbb-2601",
+   "co": "GOTBB",
+   "date": "2026-01-26",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "個人情報漏えいの可能性を公表。",
+   "src": [],
+   "ind": "小売・EC",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://gotbb.jp/news.php?id=1"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。原因区分も未確認"
+  },
+  {
+   "id": "meijiyasuda-2601",
+   "co": "明治安田生命保険",
+   "date": "2026-01-26",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "出向者による情報持ち出しの調査結果を公表。",
+   "src": [],
+   "ind": "金融・保険",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.meijiyasuda.co.jp/profile/news/release/2025/pdf/20260126_01.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。初回公表が2025年以前の続報の可能性あり"
+  },
+  {
+   "id": "kisnet-2601",
+   "co": "関西総合システム",
+   "date": "2026-01-21",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "ランサムウェア攻撃を受けたが、クラウドサービスへの影響はないと公表（1月23日に第2報）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/21/54450.html"
+    ]
+   ],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.kisnet.co.jp/2026/01/23/3909/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。初回公表日・個人情報への影響未確認"
+  },
+  {
+   "id": "bonform-2601",
+   "co": "ボンフォーム",
+   "date": "2026-01-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "通販サイトのシステムが不正アクセスを受け、1月23日に一部再開。",
+   "src": [],
+   "ind": "小売・EC",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.bonform.co.jp/ec_site/information/detail/137"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報への影響未確認"
+  },
+  {
+   "id": "saitama-city-yoyaku-2601",
+   "co": "さいたま市（公共施設予約システム）",
+   "date": "2026-01-23",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "委託先従業員が公共施設予約システムへ不正にアクセスした。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.city.saitama.lg.jp/006/014/008/003/014/010/p127346.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "m-nichidai-2601",
+   "co": "宮崎日本大学学園",
+   "date": "2026-01-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "サポート詐欺の被害について報告。",
+   "src": [],
+   "ind": "大学・学校",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.m-nichidai.com/news_school/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "maff-mail-2601",
+   "co": "農林水産省",
+   "date": "2026-01-23",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "メール誤送信により職員や家族の個人情報が漏えい（報道では4,571人分）。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.maff.go.jp/j/press/kanbo/keiri/260123.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。件数は報道（cybersecurity-jp.com）による"
+  },
+  {
+   "id": "cocoloni-2601",
+   "co": "cocoloni",
+   "date": "2026-01-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "2025年11〜12月の不正アクセスで顧客のメールアドレスが漏えい。",
+   "src": [],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://cocoloni.com/wp-content/uploads/2026/01/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "tokyo-kosha-2601",
+   "co": "東京都中小企業振興公社",
+   "date": "2026-01-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "事業用ウェブサイトへの不正アクセスを公表。",
+   "src": [],
+   "ind": "団体",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.tokyo-kosha.or.jp/topics/2601/0013.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "stnet-2601",
+   "co": "STNet",
+   "date": "2026-01-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "ネットワークへの不正アクセスの調査結果を公表（対象20,846人とされる）。",
+   "src": [],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.stnet.co.jp/news/oshirase_20260121.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。初回公表が2025年の可能性あり"
+  },
+  {
+   "id": "tombow-2601",
+   "co": "トンボ飲料",
+   "date": "2026-01-20",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "1月15日に一部サーバーがランサムウェア攻撃を受け、仕入先の銀行口座情報などが流出した可能性。",
+   "src": [],
+   "ind": "製造",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.tombow-oem.jp/934/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "jmty-2601",
+   "co": "ジモティー",
+   "date": "2026-01-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "開発環境への不正アクセスを調査し、101人が対象と公表。",
+   "src": [],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://jmty.co.jp/archives/24802/news_release/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "pu-toyama-2601",
+   "co": "富山県立大学",
+   "date": "2026-01-19",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "Microsoft Teamsの設定誤りで個人情報が不適切な状態に置かれた。",
+   "src": [],
+   "ind": "大学・学校",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.pu-toyama.ac.jp/37366/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "hyogo-habatan-2601",
+   "co": "兵庫県（はばたんPay+）",
+   "date": "2026-01-19",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "「はばたんPay+」関連のメールが誤配信された。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://web.pref.hyogo.lg.jp/sr07/press/20260119.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "j-sla-2601",
+   "co": "学校図書館図書整備協会",
+   "date": "2026-01-19",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "ウェブサイトがランサムウェア攻撃を受け全サービスを停止。",
+   "src": [],
+   "ind": "団体",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.j-sla.or.jp/news/docs/lsba_accesserror.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無未確認"
+  },
+  {
+   "id": "jr-kyushu-2601",
+   "co": "九州旅客鉄道（グループ会社）",
+   "date": "2026-01-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "2025年10月のグループ会社ネットワークへの不正アクセスで、グループ会社の従業員情報が漏えいした可能性。",
+   "src": [],
+   "ind": "運輸・交通",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/01/19/20260119_noticeforthosewithexperienceworkingatjrkyushugroupcompanies.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "tokyo-koumu-2601",
+   "co": "東京都（校務支援システム）",
+   "date": "2026-01-19",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "校務支援システムのプログラム誤りについて第2報を公表。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.metro.tokyo.lg.jp/information/press/2026/01/2026011907"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。第1報の日付未確認"
+  },
+  {
+   "id": "fujita-kanko-2601",
+   "co": "藤田観光",
+   "date": "2026-01-16",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "顧客情報の漏えいについて謝罪（予約関連の不正アクセスとみられる）。",
+   "src": [],
+   "ind": "生活サービス・レジャー",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.fujita-kanko.co.jp/sub/wp-content/uploads/2026/01/20260116_notice.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "washington-kansai-2601",
+   "co": "フラットフィールドオペレーションズ（関西エアポートワシントンホテル）",
+   "date": "2026-01-14",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "顧客情報の漏えいを公表。",
+   "src": [],
+   "ind": "生活サービス・レジャー",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://washington-hotels.jp/kansai/information/16885/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "street-academy-2601",
+   "co": "ストリートアカデミー（ストアカ）",
+   "date": "2026-01-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "決済代行会社から一部顧客のカード不正利用の可能性の連絡を受け、不正アクセスによる漏えいの懸念を公表。",
+   "src": [],
+   "ind": "人材・教育・業務支援",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://corp.street-academy.com/news/release20260116"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "amknet-2601",
+   "co": "青山メイン企画",
+   "date": "2026-01-16",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "ランサムウェアで個人情報が消失・漏えいした可能性。",
+   "src": [],
+   "ind": "生活サービス・レジャー",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.amknet.jp/news/2026/01/16/2442/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "higashimurayama-2601",
+   "co": "東村山市",
+   "date": "2026-01-16",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "メール誤送信で個人情報が漏えい。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.city.higashimurayama.tokyo.jp/shisei/kokusai/tabunka/260116.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "northbicycle-2601",
+   "co": "ノースバイシクル北海道",
+   "date": "2026-01-15",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "顧客情報の漏えいを公表（スマレジ外部アプリ関連の可能性）。",
+   "src": [],
+   "ind": "小売・EC",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://northbicycle.co.jp/2026/01/7534/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "hoteldeyama-2601",
+   "co": "小田急リゾーツ（箱根・山のホテル）",
+   "date": "2026-01-15",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "顧客情報が第三者に閲覧された可能性とフィッシングメッセージの送信を公表。",
+   "src": [],
+   "ind": "生活サービス・レジャー",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.hakone-hoteldeyama.jp/news/316"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "eneos-globe-2601",
+   "co": "ENEOSグローブエナジー（委託先 エネサンス北海道・エネサンス関東）",
+   "date": "2026-01-14",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "LPガス配送委託先へのランサムウェア攻撃で顧客情報が漏えいした可能性。",
+   "src": [],
+   "ind": "エネルギー",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://eg-energy.jp/cms/wp-content/uploads/2026/01/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "enesance-2601",
+   "co": "エネサンスホールディングス",
+   "date": "2026-01-30",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "グループ会社へのランサムウェア攻撃で北海道・神奈川県のLPガス配送に関わる情報が漏えいした可能性。",
+   "src": [],
+   "ind": "エネルギー",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認（ScanNetSecurity 2026/1/30 記事 54521）"
+  },
+  {
+   "id": "mm-chiyoda-2601",
+   "co": "まちみらい千代田",
+   "date": "2026-01-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "セキュリティインシデントについて謝罪と報告。",
+   "src": [],
+   "ind": "団体",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.mm-chiyoda.or.jp/news/18783.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。原因区分も未確認"
+  },
+  {
+   "id": "cac-asn-2601",
+   "co": "シーエーシー（Academic Support Navi）",
+   "date": "2026-01-05",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "寄附金Web申請クラウドサービスへの不正アクセスでサービスを停止。個人データ漏えいのおそれがある事態とした。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/29/54510.html"
+    ]
+   ],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.cac.co.jp/news/topics_260105/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "coastline-2601",
+   "co": "coastline（スマレジ外部アプリ）",
+   "date": "2026-01-10",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "スマレジ連携の外部アプリから導入事業者の顧客の氏名・電話番号などが流出した。",
+   "src": [],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://coastline.co.jp/20260110argent_issue/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "smaregi-app-2601",
+   "co": "スマレジ（アプリマーケット外部アプリ）",
+   "date": "2026-01-08",
+   "cause": "config",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "アプリマーケットの外部アプリベンダーが保有する会員データが流出した可能性（3月9日に最終報）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/28/54498.html"
+    ]
+   ],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://smaregi.jp/news/press/20260113.php"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。coastline・各導入事業者と同一事案。どの組織を主体に記録するか要判断"
+  },
+  {
+   "id": "sakaicycle-2601",
+   "co": "サカイサイクル",
+   "date": "2026-01-09",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "POS連携の外部アプリへの不正アクセスで顧客の個人情報が漏えい。",
+   "src": [],
+   "ind": "小売・EC",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.sakaicycle.com/news/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "dangoya-2601",
+   "co": "田中屋本店",
+   "date": "2026-01-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "通販サイトへの不正アクセスで個人情報が漏えい。",
+   "src": [],
+   "ind": "小売・EC",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://dangoya.com/html/user_data/customerdata.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "lbm-2601",
+   "co": "ローレルバンクマシン",
+   "date": "2026-01-09",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "不正アクセスによる個人情報漏えいを公表。",
+   "src": [],
+   "ind": "製造",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.lbm.co.jp/news/2026/260109/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "nara-jidoshazei-2601",
+   "co": "奈良県（自動車税事務所）",
+   "date": "2026-01-09",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "自動車税事務所での情報セキュリティ事案を公表。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.pref.nara.jp/25726.htm"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。原因区分も未確認"
+  },
+  {
+   "id": "yotsukaido-2601",
+   "co": "四街道市",
+   "date": "2026-01-09",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "個人情報漏えいの可能性を公表。",
+   "src": [],
+   "ind": "公共機関",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.city.yotsukaido.chiba.jp/shisei/koho/houdou_kouhyou/2025houdou/20260109_houdou.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。原因区分も未確認"
+  },
+  {
+   "id": "gnavi-2601",
+   "co": "ぐるなび",
+   "date": "2026-01-08",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "個人情報漏えいに関するSNS投稿への対応を公表。",
+   "src": [],
+   "ind": "通信・IT",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://corporate.gnavi.co.jp/top/2026/h02ez04sg1/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。漏えいの有無未確認"
+  },
+  {
+   "id": "okinawa-nurs-2601",
+   "co": "沖縄県立看護大学",
+   "date": "2026-01-08",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "教務支援システムがランサムウェアに感染し利用不能に。公表時点で情報流出は未確認。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/23/54468.html"
+    ]
+   ],
+   "ind": "大学・学校",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.okinawa-nurs.ac.jp/news/20514-2/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "tmu-2601",
+   "co": "東京都立大学",
+   "date": "2026-01-07",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "教員のGoogleアカウントへの不正アクセスで個人情報が漏えい（1月8日に第2報）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/23/54465.html"
+    ]
+   ],
+   "ind": "大学・学校",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.tmu.ac.jp/extra/download.html?d=assets/files/download/auth/press/20260107_press.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "kochi-koyo-2601",
+   "co": "高知市雇用創出促進協議会",
+   "date": "2026-01-07",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "メールアドレスが漏えい。",
+   "src": [],
+   "ind": "団体",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.kochi-koyo-kyogikai.jp/454/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "mizuho-ls-2601",
+   "co": "みずほリース",
+   "date": "2026-01-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "発電投資向けシステムへの不正アクセス（2025年12月14日判明）を公表。",
+   "src": [],
+   "ind": "金融・保険",
+   "official": [
+    [
+     "公式発表（未照合）",
+     "https://www.mizuho-ls.co.jp/ja/news/news-7127478368803504974/main/0/link/260106.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+  },
+  {
+   "id": "nihon-manpower-2601",
+   "co": "日本マンパワー（委託先 TOKAIコミュニケーションズ）",
+   "date": "2026-01-07",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "委託先メールサービスへの不正アクセス（TOKAIコミュニケーションズ OneOffice）の影響を公表。",
+   "src": [],
+   "ind": "人材・教育・業務支援",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL未確認"
+  },
+  {
+   "id": "nihon-shataku-2601",
+   "co": "日本社宅サービス（委託先 TOKAIコミュニケーションズ）",
+   "date": "2026-01-14",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "委託先メールサービスへの不正アクセスでメールヘッダ情報が漏えいした可能性。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/14/54404.html"
+    ]
+   ],
+   "ind": "建設・不動産",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL未確認"
+  },
+  {
+   "id": "gig-works-2601",
+   "co": "ギグワークス",
+   "date": "2026-01-14",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "サーバーへの不正アクセスを公表。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/14/54405.html"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "skyperfect-jsat-2601",
+   "co": "スカパーJSAT",
+   "date": "2026-01-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "番組配信サーバーへの不正アクセスを公表。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/16/54425.html"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "lassic-2601",
+   "co": "LASSIC",
+   "date": "2026-01-15",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "ネットワークへのサイバー攻撃を公表。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/15/54416.html"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "denso-sharepoint-2601",
+   "co": "デンソー（グループ）",
+   "date": "2026-01-19",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "SharePoint Online内のデータへの閲覧・ダウンロード権限がグループ全従業員に付与されていた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/19/54433.html"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "gunma-school-scam-2601",
+   "co": "群馬県（県立高校等）",
+   "date": "2026-01-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "県立高校等でサポート詐欺被害が発生し、生徒の個人情報を含むファイルが複数削除された。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/19/54436.html"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "horipro-2601",
+   "co": "ホリプロ",
+   "date": "2026-01-20",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "ミュージカル製作発表のオーディエンス募集フォームで申込者の個人情報が閲覧可能になっていた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/20/54442.html"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "keio-cisco-2601",
+   "co": "慶應義塾大学",
+   "date": "2026-01-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "Ciscoのスパムメール隔離サーバーの未知の脆弱性を悪用した不正アクセスを公表。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/20/54443.html"
+    ]
+   ],
+   "ind": "大学・学校",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日・個人情報への影響未確認"
+  },
+  {
+   "id": "osaki-pdf-2601",
+   "co": "大崎市",
+   "date": "2026-01-21",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "情報公開で提供したPDFの黒塗りが特定操作で除去できる状態だった。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/21/54447.html"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "gojigen-2601",
+   "co": "五次元",
+   "date": "2026-01-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "福袋販売開始時に公式通販サイトがサイバー攻撃を受けた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/22/54455.html"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・個人情報への影響未確認"
+  },
+  {
+   "id": "daiwa-roynet-2601",
+   "co": "ダイワロイネットホテルズ",
+   "date": "2026-01-22",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "Booking.comの宿泊予約情報管理システムへの不正アクセスで、フィッシングサイトへ誘導するメッセージが配信された可能性。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/22/54456.html"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "tohoku-univ-2601",
+   "co": "東北大学",
+   "date": "2026-01-27",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "4人分の東北大IDが不正利用され情報機器に不正アクセスされた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/27/54484.html"
+    ]
+   ],
+   "ind": "大学・学校",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日・個人情報への影響未確認"
+  },
+  {
+   "id": "kojo-hs-2601",
+   "co": "向上高等学校",
+   "date": "2026-01-27",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "職員用グループウェアがランサムウェア攻撃を受け、約400件の個人情報が流出した可能性。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/27/54483.html"
+    ]
+   ],
+   "ind": "大学・学校",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "awabank-2601",
+   "co": "阿波銀行",
+   "date": "2026-01-26",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "元職員が現金着服とともに顧客情報666件を持ち出し、懲戒解雇。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/26/54478.html"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "sumirin-crest-2601",
+   "co": "住友林業クレスト",
+   "date": "2026-01-26",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "サポート詐欺被害により個人情報漏えいの可能性を否定できないと公表。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/26/54477.html"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認"
+  },
+  {
+   "id": "k-uno-2601",
+   "co": "ケイ・ウノ",
+   "date": "2026-01-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "不正な攻撃でサイトのシステムの一部が操作され表示不具合が発生した可能性。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/28/54496.html"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・個人情報への影響未確認"
+  },
+  {
+   "id": "shinko-shoji-2601",
+   "co": "新光商事（米国子会社 Novalux America）",
+   "date": "2026-01-28",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "米国子会社のサーバーへの不正アクセスとランサムウェアによる障害を公表。",
+   "src": [],
+   "ind": "製造",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・個人情報への影響未確認（UNITIS 2026年1月まとめ）"
+  },
+  {
+   "id": "doctor-sns-2601",
+   "co": "（医療機関名未確認）医師の診察室写真SNS投稿",
+   "date": "2026-01-27",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "医師が診察室で撮影した写真をSNSに投稿し、患者が判別できる状態で拡散した。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/27/54485.html"
+    ]
+   ],
+   "ind": "病院・医療",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。組織名・公式発表とも未確認"
+  },
+  {
+   "id": "seikatsuhogo-garbage-2601",
+   "co": "（自治体名未確認）生活保護申請書のごみステーション放置",
+   "date": "2026-01-30",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "生活保護受給者の申請書が市民によりごみステーションで発見された。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/30/54522.html"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。組織名・公式発表とも未確認"
+  },
+  {
+   "id": "takken-photo-2601",
+   "co": "（自治体名未確認）宅地建物取引士証の顔写真誤貼付",
+   "date": "2026-01-13",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "宅地建物取引士証の交付時に別人の顔写真を貼り付けた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/13/54398.html"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。組織名・公式発表とも未確認"
+  },
+  {
+   "id": "kawasaki-bag-2601",
+   "co": "（組織名未確認）川崎市内でのカバン紛失",
+   "date": "2026-01-19",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "個人情報を含む書類入りのカバンを川崎市内で紛失し、第三者が届けて全書類の回収を確認。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/19/54434.html"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。組織名・公式発表とも未確認"
+  },
+  {
+   "id": "onomichi-u2-2601",
+   "co": "ONOMICHI U2（HOTEL CYCLE）",
+   "date": "2026-01-16",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未照合",
+   "st": "p",
+   "sum": "宿泊客にフィッシングメールが送信されたが、予約サイトへの不正アクセスは確認できずと公表。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/01/16/54427.html"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。公式発表URL・初回公表日未確認。漏えいに触れていない場合は対象外"
+  },
+  {
+   "id": "keio-st-ssd",
+   "co": "慶應義塾大学（理工学部・理工学研究科）",
+   "date": "2026-02-12",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "st": "p",
+   "ind": "大学・学校",
+   "sum": "理工学部の研究室で管理していた個人情報入りのSSDが所在不明となった。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/18/54649.html"
+    ]
+   ],
+   "official": [
+    [
+     "理工学部お知らせPDF（2026/2/12）",
+     "https://www.st.keio.ac.jp/news/files/8b49a8bc9fd8370a319fa0421a0a2260.pdf"
+    ]
+   ],
+   "pendingReason": "公式PDFのURLが大学トップページへ302リダイレクトされ開けない（掲載終了の可能性）。件数・項目を公式で確認できない"
+  },
+  {
+   "id": "saison-technology",
+   "co": "セゾンテクノロジー（業務用クラウドストレージ）",
+   "date": "2026-02-09",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "n": 1214,
+   "label": "1,214件（報道）",
+   "st": "p",
+   "ind": "通信・IT",
+   "who": [
+    "biz"
+   ],
+   "sum": "業務で使うクラウドサービスのストレージに保存されたパッケージ製品のサポート更新申込書が、外部から閲覧できる状態だった。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/18/54651.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=28975"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2026/2/9）",
+     "https://www.saison-technology.com/company/news/20260209_personal_information_leaked/"
+    ]
+   ],
+   "pendingReason": "公式発表URLはツールの取得制限（provenance）で開けず、検索でも公式ページが出ない。件数1,214件は報道のみで公式未確認"
+  },
+  {
+   "id": "btcbox",
+   "co": "BTCボックス（BTCBOX）",
+   "date": "2026-02-05",
+   "cause": "config",
+   "st": "p",
+   "ind": "金融・保険",
+   "who": [
+    "cust"
+   ],
+   "sum": "暗号資産交換業者がシステムメンテナンスとして全サービスを停止し、その後、第三者が個人情報を閲覧しうる状態だったと報じられた。関東財務局から報告徴求命令を受けた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/20/54676.html"
+    ]
+   ],
+   "official": [
+    [
+     "サービス停止の現状のご説明とお詫び（2026/2/5）",
+     "https://blog.btcbox.jp/archives/18696"
+    ]
+   ],
+   "pendingReason": "公式ブログ記事を開けない（ツールの取得制限）。漏えいの原因・件数・項目が報道記事本文にもなく、公式で確認できない"
+  },
+  {
+   "id": "gunma-tanigawa-tozan",
+   "co": "群馬県（谷川岳登山指導センター）",
+   "date": "2026-02-26",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": 1,
+   "label": "1人",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "work"
+   ],
+   "itemsText": "氏名、住所、電話番号、所属山岳会、勤務先、緊急連絡先",
+   "ind": "公共機関",
+   "who": [
+    "cust"
+   ],
+   "sum": "谷川岳危険地区の登山届を返送する際、別の登山者の登山届を誤ってアップロードして送った。",
+   "official": [
+    [
+     "谷川岳危険地区に係る登山届の誤送信事案の発生について（更新2026/3/3）",
+     "https://www.pref.gunma.jp/site/houdou/746267.html"
+    ]
+   ],
+   "src": [],
+   "pendingReason": "公式発表は開けたが、ページの日付は更新日2026年3月3日のみで初回公表日が2月か3月か確認できない（発生2/24、判明2/26）。3月分との重複に注意"
+  },
+  {
+   "id": "gala-yuzawa",
+   "co": "ガーラ湯沢（リフト券発券システム）",
+   "date": "2026-02-12",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": 1518,
+   "label": "最大1,518人（報道）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel"
+   ],
+   "itemsText": "氏名、住所、電話番号、顔写真（報道）",
+   "notIncl": "クレジットカード情報（報道）",
+   "ind": "生活サービス・レジャー",
+   "who": [
+    "cust"
+   ],
+   "sum": "リフト券発券システムの障害を調べたところ、サーバがランサムウェアに感染しており、シーズン券購入者の個人情報が含まれていた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/18/54652.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=29140"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2026/2/12）",
+     "https://gala.co.jp/winter/pickup/60429/"
+    ]
+   ],
+   "pendingReason": "公式発表を開けない（WebFetchの取得制限で公式URLが取得不可、検索枠も上限に達し公式ページを確認できず）。件数・項目は報道ベース"
+  },
+  {
+   "id": "dorokogyo",
+   "co": "道路工業（ファイル共有サーバ）",
+   "date": "2026-02-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "件数非公表（報道）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "work"
+   ],
+   "itemsText": "会社名、部署、氏名、電話番号、メールアドレス（報道）",
+   "ind": "建設・不動産",
+   "who": [
+    "biz"
+   ],
+   "sum": "通信機器から侵入されファイル共有サーバに不正アクセスを受け、取引先担当者の情報が漏えいした可能性を否定できないとした。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/24/54687.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=29186"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2026/2/13）",
+     "https://www.dorokogyo.co.jp/topics/5555/"
+    ]
+   ],
+   "pendingReason": "公式発表を開けない（WebFetchの取得制限で公式URLが取得不可、検索枠も上限に達し公式ページを確認できず）"
+  },
+  {
+   "id": "nissou-nitta",
+   "co": "日創グループ（子会社 新田工業・ECサイト N Trading）",
+   "date": "2026-02-09",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "p",
+   "ind": "製造",
+   "sum": "子会社のサーバに不正アクセスがあり、ECサイトの個人情報の一部が第三者に閲覧可能となり漏えいした可能性がある（まとめ記事情報）。",
+   "src": [
+    [
+     "UNITIS",
+     "https://unitis.jp/articles/20492/"
+    ]
+   ],
+   "pendingReason": "公式発表のURL未確認・未取得（検索枠上限）。まとめ記事のみ"
+  },
+  {
+   "id": "beenos-sekaimon",
+   "co": "BEENOS（子会社 ショップエアライン「セカイモン」）",
+   "date": "2026-02-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "p",
+   "ind": "小売・EC",
+   "sum": "海外通販サービス「セカイモン」のデータベースに不正アクセスがあり、サービスを一時停止した（まとめ記事情報）。",
+   "src": [
+    [
+     "UNITIS",
+     "https://unitis.jp/articles/20492/"
+    ]
+   ],
+   "pendingReason": "公式発表未確認（検索枠上限・取得制限）。個人情報への影響の有無も公式で未確認"
+  },
+  {
+   "id": "minoh-kogyo",
+   "co": "箕面工業",
+   "date": "2026-02-19",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "ind": "製造",
+   "who": [
+    "staff"
+   ],
+   "sum": "2025年10月のサイバー攻撃でサーバ等が暗号化され、個人情報保護委員会の指導を受けて現・元従業員の個人情報の漏えいを否定できないと公表した（まとめ記事情報）。",
+   "src": [
+    [
+     "UNITIS",
+     "https://unitis.jp/articles/20492/"
+    ]
+   ],
+   "pendingReason": "公式発表未確認。2025年10月に攻撃の初回公表がある場合は続報扱いとなる可能性"
+  },
+  {
+   "id": "jiho-mail-2602",
+   "co": "じほう（メールアカウント）",
+   "date": "2026-02-26",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "ind": "メディア・出版",
+   "sum": "グループで使うクラウドメールに不正ログインがあり、アドレス帳のメールアドレスが閲覧・取得された可能性がある（まとめ記事情報）。",
+   "src": [
+    [
+     "UNITIS",
+     "https://unitis.jp/articles/20492/"
+    ]
+   ],
+   "pendingReason": "公式発表未確認（検索枠上限・取得制限）"
+  },
+  {
+   "id": "tanakaya-sasadango",
+   "co": "田中屋本店（笹だんご 通販サイト）",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 677,
+   "label": "677人（報道）",
+   "st": "c",
+   "items": [
+    "card"
+   ],
+   "ind": "小売・EC",
+   "sum": "通販サイトへの不正アクセスでクレジットカード情報が漏えいした（報道）。",
+   "src": [
+    [
+     "ScanNetSecurity（月次まとめ）",
+     "https://scan.netsecurity.ne.jp/article/2026/03/24/54893.html"
+    ]
+   ],
+   "pendingReason": "公式発表・初回公表日を確認できない（取得制限）"
+  },
+  {
+   "id": "north-bicycle-hokkaido",
+   "co": "ノースバイシクル北海道（スマレジ連携外部アプリ）",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "st": "c",
+   "items": [
+    "name",
+    "tel"
+   ],
+   "ind": "小売・EC",
+   "sum": "スマレジのアプリマーケット上の外部連携アプリへの不正アクセスで、顧客の氏名と電話番号が漏えいした。同社はこのアプリを試用のみで導入していなかった（報道）。",
+   "src": [
+    [
+     "ScanNetSecurity（月次まとめ）",
+     "https://scan.netsecurity.ne.jp/article/2026/03/24/54893.html"
+    ]
+   ],
+   "pendingReason": "公式発表・初回公表日（1月か2月か）を確認できない（取得制限）"
+  },
+  {
+   "id": "jr-kyushu-2602",
+   "co": "JR九州グループ",
+   "cause": "cyber",
+   "st": "p",
+   "ind": "運輸・交通",
+   "who": [
+    "staff"
+   ],
+   "sum": "サイバー攻撃を受け、従業員情報が漏えいした可能性がある（報道）。",
+   "src": [
+    [
+     "ScanNetSecurity（月次まとめ）",
+     "https://scan.netsecurity.ne.jp/article/2026/03/24/54893.html"
+    ]
+   ],
+   "pendingReason": "公式発表・公表日・件数を確認できない（取得制限）"
+  },
+  {
+   "id": "scan-54588-unknown",
+   "co": "不明（ScanNetSecurity 2026/2/9 記事の事業者）",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "sum": "不正アクセスでメールアドレスが流出し、パスワードは復号困難な形式で管理していたと説明した（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/09/54588.html"
+    ]
+   ],
+   "pendingReason": "記事を開けず事業者名も未特定（取得制限）"
+  },
+  {
+   "id": "scan-54684-mail-forward",
+   "co": "不明（元従業員が社外秘メールを無断転送した企業）",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "st": "c",
+   "sum": "元従業員が約5年間、社外秘を含むメールを社外へ無断転送していた（65社・295件）。会長・社長が報酬を自主返納（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/24/54684.html"
+    ]
+   ],
+   "pendingReason": "記事を開けず企業名・個人情報の有無を未確認（取得制限）"
+  },
+  {
+   "id": "fujitv-ex-employee",
+   "co": "フジテレビジョン",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "st": "c",
+   "ind": "メディア・出版",
+   "sum": "元社員が取材情報や内部情報を競合他社に漏えいし、懲戒解雇となった（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/17/54639.html"
+    ]
+   ],
+   "pendingReason": "公式発表を開けず、個人情報を含むか未確認（取得制限）"
+  },
+  {
+   "id": "silver-jinzai-kominkan",
+   "co": "不明（シルバー人材センター・公民館予約）",
+   "cause": "insider",
+   "st": "c",
+   "sum": "シルバー人材センターの元従事者が約2年間に計15件、公民館の場所取りのため不正アクセスしていた（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/12/54609.html"
+    ]
+   ],
+   "pendingReason": "記事・公式発表とも開けず、組織名・個人情報の有無を未確認（取得制限）"
+  },
+  {
+   "id": "tfm-2602",
+   "co": "エフエム東京",
+   "date": "2026-02-02",
+   "cause": "cyber",
+   "st": "p",
+   "ind": "メディア・出版",
+   "sum": "サイバー攻撃を指摘するSNS投稿を受け、データの一部流出を認めたが機密性の高い情報は含まれないとした（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/02/54528.html"
+    ]
+   ],
+   "pendingReason": "公式発表を開けず、個人情報を含むか未確認（取得制限）"
+  },
+  {
+   "id": "beauty-garage-ec",
+   "co": "ビューティガレージ（ECサイト）",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "p",
+   "items": [
+    "card"
+   ],
+   "ind": "小売・EC",
+   "sum": "ECサイトへの不正アクセスにより、クレジットカード決済を停止して調査している（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/26/54707.html"
+    ]
+   ],
+   "pendingReason": "公式発表を開けず、初回公表日・漏えい対象を未確認（取得制限）"
+  },
+  {
+   "id": "machiene",
+   "co": "まちエネ（外部委託先サーバ）",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "st": "p",
+   "ind": "エネルギー",
+   "sum": "外部委託先が管理するサーバで大量アクセスを検知し、申込みと料金シミュレーションを一時停止した（2/16再開、報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/19/54665.html"
+    ]
+   ],
+   "pendingReason": "公式発表を開けず、個人情報への影響の有無を未確認（取得制限）"
+  },
+  {
+   "id": "makimura",
+   "co": "牧村",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "sum": "ランサムウェア等のサイバー攻撃を受けたと公表（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/27/54721.html"
+    ]
+   ],
+   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
+  },
+  {
+   "id": "feature-2602",
+   "co": "フィーチャ",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "sum": "ランサムウェア等のサイバー攻撃を受けたと公表（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/27/54719.html"
+    ]
+   ],
+   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
+  },
+  {
+   "id": "mg-sekizai",
+   "co": "MG石材",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "sum": "ランサムウェア等のサイバー攻撃を受けたと公表（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/27/54718.html"
+    ]
+   ],
+   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
+  },
+  {
+   "id": "gex-2602",
+   "co": "ジェックス",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "sum": "ランサムウェア等のサイバー攻撃を受けたと公表（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/25/54700.html"
+    ]
+   ],
+   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
+  },
+  {
+   "id": "ulvac-korea",
+   "co": "アルバック（韓国連結子会社）",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "sum": "ランサムウェア等のサイバー攻撃を受けたと公表（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/24/54686.html"
+    ]
+   ],
+   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
+  },
+  {
+   "id": "shinwa-2602",
+   "co": "信和",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "sum": "ランサムウェア等のサイバー攻撃を受けたと公表（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/20/54677.html"
+    ]
+   ],
+   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
+  },
+  {
+   "id": "hosokawa-micron",
+   "co": "ホソカワミクロン",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "sum": "ランサムウェア等のサイバー攻撃を受けたと公表（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/20/54673.html"
+    ]
+   ],
+   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
+  },
+  {
+   "id": "shinko-shoji-us",
+   "co": "新光商事（米国現地法人）",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "sum": "ランサムウェア等のサイバー攻撃を受けたと公表（報道見出し）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/02/17/54640.html"
+    ]
+   ],
+   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
+  },
+  {
+   "id": "nishiyama-seisakusho",
+   "co": "西山製作所",
+   "date": "2026-02-13",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "sum": "複数PCからサーバのデータにアクセスできなくなり、英語の脅迫文からランサムウェア感染を確認した（まとめ記事情報）。",
+   "src": [
+    [
+     "UNITIS",
+     "https://unitis.jp/articles/20492/"
+    ]
+   ],
+   "pendingReason": "公式発表未確認、個人情報への言及の有無も未確認。言及がなければ対象外"
+  },
+  {
+   "co": "リクルート",
+   "date": "2026-03-30",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "sum": "元従業員による情報の持ち出しを公表。",
+   "official": [
+    [
+     "当社元従業員による情報の持ち出しに関するご報告とお詫び（2026/3/30）",
+     "https://www.recruit.co.jp/newsroom/pressrelease/2026/0330_147488.html"
+    ]
+   ],
+   "id": "recruit-2603",
+   "pendingReason": "公式発表ページがWebFetchで取得エラー（2回）となり、件数・項目を照合できない"
+  },
+  {
+   "co": "四條畷市（秘書政策課）",
+   "date": "2026-03-10",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "n": 414,
+   "st": "p",
+   "sum": "副市長室または秘書政策課で決裁文書4件が所在不明になり、うち3件に介護保険の支払情報や採用予定者の情報などが含まれていた。",
+   "official": [
+    [
+     "個人情報を含む決裁文書の紛失についてのお詫びとご報告（更新2026/3/10）",
+     "https://www.city.shijonawate.lg.jp/soshiki/4/67405.html"
+    ]
+   ],
+   "id": "shijonawate-docs",
+   "pendingReason": "公式ページは更新日2026/3/10のみで初回公表日が不明（紛失は2024年10月、被害届は2024年11月）。2026年3月の初回公表か確認できない"
+  },
+  {
+   "co": "日本放送協会（NHK）",
+   "date": "2026-03-18",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": 32940,
+   "label": "32,940人",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "sum": "外部委託先の作業者が情報システム登録者あてのメールを、受信者全員のアドレスが見える形で送信した。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/23/54883.html"
+    ]
+   ],
+   "official": [
+    [
+     "NHK報道資料（2026/3/18）",
+     "https://www.nhk.or.jp/info/pressrelease/assets/pdf/2025/20260318.pdf"
+    ]
+   ],
+   "id": "nhk-mail-2603",
+   "pendingReason": "公式発表URL（集約サイト経由で判明）はWebFetchの取得許可外で開けず、検索結果にも公式ページが出ないため照合できない"
+  },
+  {
+   "co": "情報通信研究機構（NICT）",
+   "date": "2026-03-19",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": 115,
+   "label": "115人分",
+   "sum": "研究用に公開した音声合成用コーパスに、公開対象外の115人分の音声ファイルが含まれていた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/30/54932.html"
+    ]
+   ],
+   "official": [
+    [
+     "NICTお知らせ（2026/3/19）",
+     "https://www.nict.go.jp/publicity/topics/2026/03/19-2.html"
+    ]
+   ],
+   "id": "nict-corpus-2603",
+   "pendingReason": "公式発表URL（集約サイト経由で判明）はWebFetchの取得許可外で開けず、検索結果にも公式ページが出ないため照合できない"
+  },
+  {
+   "co": "ホテルプリンセス京都（ホテル日航プリンセス京都）",
+   "date": "2026-03-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "p",
+   "sum": "Expediaの管理者用アカウントが不正利用され、同サイト経由の宿泊客の氏名・電話番号・宿泊日などが閲覧された可能性があり、カード情報を求める偽メッセージも送られた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/31/54942.html"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2026/3/19）",
+     "https://www.princess-kyoto.co.jp/info/133371/"
+    ]
+   ],
+   "id": "princess-kyoto-2603",
+   "pendingReason": "公式発表URL（集約サイト経由で判明）はWebFetchの取得許可外で開けず、検索結果にも公式ページが出ないため照合できない"
+  },
+  {
+   "co": "国際武道大学（委託先）",
+   "date": "2026-03-18",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": 120,
+   "label": "約120人",
+   "st": "c",
+   "sum": "ITやネットワーク保守の委託先が不正アクセスを受け、卒業生約120人の個人情報が漏えいした。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/30/54931.html"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2026/3/18）",
+     "https://www.budo-u.ac.jp/news/2026/03/post_328.html"
+    ]
+   ],
+   "id": "budo-u-2603",
+   "pendingReason": "公式発表URL（集約サイト経由で判明）はWebFetchの取得許可外で開けず、検索結果にも公式ページが出ないため照合できない"
+  },
+  {
+   "co": "ゼットン",
+   "date": "2026-03-27",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 18553,
+   "label": "18,553件",
+   "st": "p",
+   "sum": "利用を終えていた旧メールシステムのアカウントに外部から不正アクセスがあり、個人情報が流出した可能性がある。",
+   "official": [
+    [
+     "お知らせ（2026/3/27）",
+     "https://www.zetton.co.jp/news/20260327"
+    ]
+   ],
+   "id": "zetton-2603",
+   "pendingReason": "公式発表URL（集約サイト経由で判明）はWebFetchの取得許可外で開けず、検索結果にも公式ページが出ないため照合できない"
+  },
+  {
+   "co": "福岡銀行（メットライフ生命からの出向者）",
+   "date": "2026-03-27",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "sum": "メットライフ生命から出向していた社員が、一部顧客の生命保険契約情報を無断で取得し出向元に提供していた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/08/55006.html"
+    ]
+   ],
+   "official": [
+    [
+     "ニュースリリース（2026/3/27）",
+     "https://www.fukuokabank.co.jp/pdf/20260327_release.pdf"
+    ]
+   ],
+   "id": "fukuokabank-metlife-2603",
+   "pendingReason": "公式発表URL（集約サイト経由で判明）はWebFetchの取得許可外で開けず、検索結果にも公式ページが出ないため照合できない"
+  },
+  {
+   "co": "広島銀行（保険会社からの出向者）",
+   "date": "2026-03-18",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "sum": "保険会社から出向していた社員を通じて顧客情報が出向元に漏えいした。",
+   "official": [
+    [
+     "お知らせ（2026/3/18）",
+     "https://www.hirogin.co.jp/information/info260318-2/info260318-2.pdf"
+    ]
+   ],
+   "id": "hirogin-2603",
+   "pendingReason": "公式発表URL（集約サイト経由で判明）はWebFetchの取得許可外で開けず、検索結果にも公式ページが出ないため照合できない"
+  },
+  {
+   "id": "tane-hospital-usb-2603",
+   "co": "多根総合病院（委託先）",
+   "date": "2026-03-17",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "sum": "委託先の従業員が患者情報を含むUSBメモリを紛失した。",
+   "official": [
+    [
+     "公式発表（2026/3/17）",
+     "https://general.tane.or.jp/archives/13759"
+    ]
+   ],
+   "n": 379,
+   "label": "379人",
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "urasoe-minatogawa-hdd-2603",
+   "co": "浦添市（港川中学校）",
+   "date": "2026-03-12",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "sum": "港川中学校のファイルサーバ修理を請け負った業者の保管中に、生徒の成績や保護者連絡先などを含むポータブルHDDが所在不明になった。",
+   "official": [
+    [
+     "公式発表（2026/3/12）",
+     "https://www.city.urasoe.lg.jp/doc/2026031200033/"
+    ]
+   ],
+   "n": 9100,
+   "label": "約9,100人",
+   "st": "p",
+   "src": [
+    [
+     "琉球新報",
+     "https://ryukyushimpo.jp/news/entry-5116725.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "niigata-u-mis-2603",
+   "co": "新潟大学",
+   "date": "2026-03-24",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "学生1,478人の学籍情報を含むExcelファイルを29人に誤って送信した。",
+   "official": [
+    [
+     "公式発表（2026/3/24）",
+     "https://www.niigata-u.ac.jp/news/2026/1062263/"
+    ]
+   ],
+   "n": 1478,
+   "label": "1,478人",
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "miyakonojo-usb-2603",
+   "co": "都城市（小学校）",
+   "date": "2026-03-20",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "sum": "小学校の児童の1学期の成績などを保存したUSBメモリを紛失した。",
+   "official": [
+    [
+     "公式発表（2026/3/20）",
+     "https://www.city.miyakonojo.miyazaki.jp/soshiki/59/83924.html"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "niigata-uh-usb-2603",
+   "co": "新潟大学医歯学総合病院",
+   "date": "2026-03-25",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "sum": "症例リストや診療要約が保存されていた可能性のあるUSBメモリが2025年11月から所在不明になっている。",
+   "official": [
+    [
+     "公式発表（2026/3/25）",
+     "https://www.nuh.niigata-u.ac.jp/news/archives/20260325"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "seika-exri-usb-2603",
+   "co": "精華町（委託先 エックス都市研究所）",
+   "date": "2026-03-25",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "sum": "環境調査業務の委託先が調査データを含むUSBメモリを紛失した。",
+   "official": [
+    [
+     "公式発表（2026/3/25）",
+     "https://www.town.seika.kyoto.jp/kakuka/kankyo/29989.html"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "kadogawa-usb-2603",
+   "co": "門川町（保育所）",
+   "date": "2026-03-30",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "sum": "保育所のデータを含むUSBメモリが持ち帰り後に紛失し、拾得したとする匿名の手紙が届いたが返却されていない。",
+   "official": [
+    [
+     "公式発表（2026/3/30）",
+     "https://www.town.kadogawa.lg.jp/administration/cat2/page005526.html"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "okinawa-saiketsu-2603",
+   "co": "沖縄県（行政不服審査の裁決）",
+   "date": "2026-03-31",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "公開データベースに掲載した行政不服審査の裁決書で、39人の個人名が閲覧できる状態だった。",
+   "official": [
+    [
+     "公式発表（2026/3/31）",
+     "https://www.pref.okinawa.lg.jp/kensei/gyosei/1014355/1039299.html"
+    ]
+   ],
+   "n": 39,
+   "label": "39人",
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "lawson-bank-ssd-2603",
+   "co": "ローソン銀行（再委託先）",
+   "date": "2026-03-31",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "sum": "回収したATMのSSD2台が再委託先で所在不明になり、最大5,373件の取引記録や防犯カメラ画像が保存されていた可能性がある。",
+   "official": [
+    [
+     "公式発表（2026/3/31）",
+     "https://www.lawsonbank.jp/corporate/release/pdf/20260331_04_release.pdf"
+    ]
+   ],
+   "n": 5373,
+   "label": "最大5,373件",
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "shakaihokenroumushi-2603",
+   "co": "全国社会保険労務士会連合会（委託事業）",
+   "date": "2026-03-31",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "委託事業の参加者名簿を、参加者が閲覧できるクラウド上の場所に誤って保存していた。",
+   "official": [
+    [
+     "公式発表（2026/3/31）",
+     "https://www.shakaihokenroumushi.jp/Portals/0/doc/nsec/kouhou/2025/20260331_itakujigyo_houkoku.pdf"
+    ]
+   ],
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "mhlw-seminar-list-2603",
+   "co": "厚生労働省（委託先）",
+   "date": "2026-03-31",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "委託先の運営するセミナーで、参加者名簿が約15分間閲覧・ダウンロードできる状態だった。",
+   "official": [
+    [
+     "公式発表（2026/3/31）",
+     "https://www.mhlw.go.jp/stf/newpage_72022.html"
+    ]
+   ],
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "columbia-2603",
+   "co": "日本コロムビア",
+   "date": "2026-03-31",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "2025年7月のサーバへの不正アクセスで、保存情報が第三者に閲覧された可能性を否定できないとした。",
+   "official": [
+    [
+     "公式発表（2026/3/31）",
+     "https://columbia.jp/oshirase/info260331.html"
+    ]
+   ],
+   "st": "p",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/10/55027.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "mynavi-cloud-2603",
+   "co": "マイナビ",
+   "date": "2026-03-04",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "利用するクラウドサービスに2026年1月に不正アクセスがあり、利用者・法人担当者・従業員の個人情報が流出した可能性がある（3月31日に続報）。",
+   "official": [
+    [
+     "公式発表（2026/3/4）",
+     "https://www.mynavi.jp/json-topic/52681/"
+    ]
+   ],
+   "st": "p",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/04/54756.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "cocoselect-2603",
+   "co": "カーステーション新潟（ココセレクト）",
+   "date": "2026-03-30",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "保険申込情報（氏名・生年月日・住所・電話番号）が外部に流出したおそれがある。",
+   "official": [
+    [
+     "公式発表（2026/3/30）",
+     "https://www.cocoselect.jp/event/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E6%81%90%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "higashiyama-sangyo-2603",
+   "co": "東山産業（フランスベッド・ヤマシタなどの委託先）",
+   "date": "2026-03-10",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "sum": "福祉用具レンタル関連業務の委託先がランサムウェア被害を受け、委託元のフランスベッド（3/19）やヤマシタ（3/30）も顧客情報流出の可能性を公表した。",
+   "official": [
+    [
+     "公式発表（2026/3/10）",
+     "https://www.higashiyama.com/796/"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "saitama-u-patent-2603",
+   "co": "埼玉大学（委託先の特許管理システム）",
+   "date": "2026-03-30",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "sum": "委託先が運用する特許管理システムのサーバに不正アクセスがあり、保存情報が閲覧された可能性がある。",
+   "official": [
+    [
+     "公式発表（2026/3/30）",
+     "https://www.saitama-u.ac.jp/news_archives/202603301100.html"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "tsad-excel-2603",
+   "co": "東京都障害者スポーツ協会",
+   "date": "2026-03-27",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "ウェブサイト掲載のExcelファイルの非表示シートに過去の申込者の個人情報が残っていた。",
+   "official": [
+    [
+     "公式発表（2026/3/27）",
+     "https://tsad-portal.com/tsad/topics/32515"
+    ]
+   ],
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "zynas-joyfull-2603",
+   "co": "ザイナス（ジョイフルの委託先）",
+   "date": "2026-03-26",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "sum": "再委託先へのデータ受け渡し用サーバが攻撃を受けデータベースの一部が削除され、ジョイフルの従業員・応募者など約2.3万件の個人情報が流出した可能性がある。",
+   "official": [
+    [
+     "公式発表（2026/3/26）",
+     "https://zynas.co.jp/post/1052"
+    ]
+   ],
+   "n": 23585,
+   "label": "約23,585件",
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "seed-planning-2603",
+   "co": "シード・プランニング（東京都・川崎市などの委託先）",
+   "date": "2026-03-09",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "sum": "調査業務の委託先の端末がランサムウェアで暗号化され、東京都教育委員会（3/9）や川崎市（3/26）が委託業務の情報への影響を公表した。",
+   "official": [
+    [
+     "公式発表（2026/3/9）",
+     "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2026/03/2026030905"
+    ]
+   ],
+   "st": "p",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/19/54872.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "sato-kogyo-nas-2603",
+   "co": "佐藤工業",
+   "date": "2026-03-26",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "建設現場の1か所で使うNASに不正アクセスがあり、個人情報が閲覧された可能性がある。",
+   "official": [
+    [
+     "公式発表（2026/3/26）",
+     "https://www.satokogyo.co.jp/up_data/1774410486.pdf"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "moonstar-2603",
+   "co": "ムーンスター（2026年3月の不正アクセス）",
+   "date": "2026-03-26",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "一部システムのサーバへの不正アクセスの疑いを公表した（個人情報への影響は未確認）。",
+   "official": [
+    [
+     "公式発表（2026/3/26）",
+     "https://www.moonstar.co.jp/corporate/news/archive/post-74.html"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない。個人情報への言及の有無も未確認。10月の既存事案 moonstar とは別件の可能性"
+  },
+  {
+   "id": "cynd-beautymerit-2603",
+   "co": "サインド（BeautyMerit）",
+   "date": "2026-03-24",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "クラウド予約システムBeautyMeritに3月10日に不審なアクセスがあり、利用店舗の顧客の氏名・電話番号・メールアドレスなどが流出した可能性がある。利用事業者のFUFU（3/24）やAB&Company（3/25）も公表した。",
+   "official": [
+    [
+     "公式発表（2026/3/24）",
+     "https://cynd.co.jp/2026/03/24/announce01/"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "molitec-steel-2603",
+   "co": "モリテックスチール（再委託先）",
+   "date": "2026-03-23",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "sum": "システム開発の再委託先サーバに不正アクセスがあった。",
+   "official": [],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "omikenshi-2603",
+   "co": "オーミケンシ",
+   "date": "2026-03-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "3月16日のシステム障害が外部からの不正アクセスによるものと判明した。",
+   "official": [
+    [
+     "公式発表（2026/3/23）",
+     "https://omikenshi.co.jp/wordpress/wp-content/uploads/2026/03/20260323_1.pdf"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない。個人情報への言及の有無も未確認"
+  },
+  {
+   "id": "sakura-kogyo-2603",
+   "co": "サクラ工業",
+   "date": "2026-03-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "海外拠点の従業員がフィッシングメールを開いたことを発端に不正アクセスを受け、個人情報が流出した可能性がある。",
+   "official": [
+    [
+     "公式発表（2026/3/20）",
+     "https://www.sakura-kogyo.co.jp/wp-content/uploads/2026/03/%E5%85%AC%E8%A1%A8%E6%96%871.pdf"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "nic-retails-2603",
+   "co": "NICリテールズ（積文館書店）",
+   "date": "2026-03-19",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "教科書販売の案内メールを、受信者320人全員のアドレスが見える形で送信した。",
+   "official": [
+    [
+     "公式発表（2026/3/19）",
+     "https://www.nic-retails.co.jp/wp/wp-content/uploads/2026/03/4e5a5a2d7fd91be78ecb7256d6bee6b0.pdf"
+    ]
+   ],
+   "n": 320,
+   "label": "320人",
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "nexus-energy-2603",
+   "co": "ネクサスエナジー",
+   "date": "2026-03-19",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "sum": "2025年4月のランサムウェア感染について、個人情報の流出を否定できないと公表した。",
+   "official": [
+    [
+     "公式発表（2026/3/19）",
+     "https://www.nexus-e.jp/news/%E5%BD%93%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E6%84%9F%E6%9F%93%E8%A2%AB%E5%AE%B3%E3%81%A8%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "kobe-u-2603",
+   "co": "神戸大学（大学院のサーバ）",
+   "date": "2026-03-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "他組織の侵害されたサーバを踏み台に、大学院のサーバへ不正アクセスがあった。",
+   "official": [
+    [
+     "公式発表（2026/3/19）",
+     "https://www.kobe-u.ac.jp/ja/announcement/20260319-67676/"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "jcr-pharma-2603",
+   "co": "JCRファーマ（奨学寄附の外部クラウド）",
+   "date": "2026-03-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "奨学寄附金の受付に使う外部クラウドサービスに不正アクセスがあり、申請者の情報が流出した可能性がある。",
+   "official": [
+    [
+     "公式発表（2026/3/19）",
+     "https://ssl4.eir-parts.net/doc/4552/announcement/118845/00.pdf"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "cross-marketing-soumu-2603",
+   "co": "クロス・マーケティング（総務省の放送コンテンツ調査）",
+   "date": "2026-03-19",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "総務省から受託した放送コンテンツ調査で回答者情報が漏えいし、6人の漏えいを確認、43人に可能性がある。",
+   "official": [
+    [
+     "公式発表（2026/3/19）",
+     "https://www.cross-m.co.jp/news/release/20260319"
+    ]
+   ],
+   "n": 49,
+   "label": "49人（確認6人）",
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "cosmos-initia-2603",
+   "co": "コスモスイニシア",
+   "date": "2026-03-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "特定のメールアカウントに不正アクセスがあり、個人情報が漏えいした。",
+   "official": [
+    [
+     "公式発表（2026/3/17）",
+     "https://www.cigr.co.jp/app/uploads/sites/6/2026/03/date-leakage_0317.pdf"
+    ]
+   ],
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "nara-silver-2603",
+   "co": "奈良市シルバー人材センター",
+   "date": "2026-03-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "業務用PCに不正アクセスがあった。",
+   "official": [
+    [
+     "公式発表（2026/3/16）",
+     "https://nara-sjc.or.jp/files/libs/3795/202603161700196929.pdf"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "nisso-2603",
+   "co": "NISSO GROUP（連結子会社）",
+   "date": "2026-03-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "連結子会社で不正アクセスが発生し、個人情報流出の可能性がある。",
+   "official": [
+    [
+     "公式発表（2026/3/16）",
+     "https://ssl4.eir-parts.net/doc/3440/tdnet/2776597/00.pdf"
+    ]
+   ],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "iwatani-2603",
+   "co": "岩谷産業（グループのシステム）",
+   "date": "2026-03-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "同社とグループ会社のシステムの一部で第三者の不正アクセスを確認した（公表時点で顧客情報の流出は未確認）。",
+   "official": [
+    [
+     "公式発表（2026/3/16）",
+     "https://www.iwatani.co.jp/jpn/news/files/2026/20260316_news.pdf"
+    ]
+   ],
+   "st": "p",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/26/54915.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "yoichi-furusato-2603",
+   "co": "余市町（ふるさとプレミアム）",
+   "date": "2026-03-12",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "ポータルサイト経由のふるさと納税寄附者情報が誤って表示された。",
+   "official": [
+    [
+     "公式発表（2026/3/12）",
+     "https://www.town.yoichi.hokkaido.jp/oshirase/2026/2026-0312-1627-11.html"
+    ]
+   ],
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "tottori-dx-seminar-2603",
+   "co": "鳥取県（医療DXセミナー）",
+   "date": "2026-03-12",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "医療DXセミナーの運営で参加者の個人情報が漏えいした。",
+   "official": [
+    [
+     "公式発表（2026/3/12）",
+     "https://db.pref.tottori.jp/pressrelease.nsf/webview/0BB901F1EE32C85549258DB70038B33D"
+    ]
+   ],
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "tokyu-sports-2603",
+   "co": "東急スポーツシステム（アトリオドゥーエ）",
+   "date": "2026-03-13",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "フィットネスクラブの個人情報に関する事案を公表した（内容未照合）。",
+   "official": [
+    [
+     "公式発表（2026/3/13）",
+     "https://www.tokyu-sports.com/fitness/atriodue-next/info/20260313.pdf"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "kanehara-2603",
+   "co": "金原出版（臨床検査技師国家試験問題注解オンライン）",
+   "date": "2026-03-03",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "sum": "システム上で一部顧客の個人情報が第三者から閲覧できる状態だったことが2月17日に判明した。",
+   "official": [],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "kusurinihondo-2603",
+   "co": "薬日本堂（委託先 TOKAIコミュニケーションズ）",
+   "date": "2026-03-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "sum": "委託先の迷惑メールフィルタサービスに第三者の不正アクセスがあり、情報が流出した可能性がある。",
+   "official": [],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "whiteessence-megury-2603",
+   "co": "ホワイトエッセンス（メグリー）",
+   "date": "2026-03-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "歯科衛生士向け転職サイトの運用サーバで不審なファイルが見つかり、個人情報が漏えいしたおそれがある。",
+   "official": [
+    [
+     "公式発表（2026/3/6）",
+     "https://www.whiteessence.co.jp/news/?action=detail&id=43"
+    ]
+   ],
+   "st": "p",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/23/54879.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "marimo-hd-2603",
+   "co": "マリモホールディングス",
+   "date": "2026-03-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "グループ役員を装うフィッシングメールを発端に、退職者を含む従業員情報の一部が窃取された。",
+   "official": [],
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "kasai-kogyo-2603",
+   "co": "河西工業（米国子会社）",
+   "date": "2026-03-12",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "米国子会社KASAI NORTH AMERICAのサーバで不正アクセスを検知した。",
+   "official": [],
+   "st": "p",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない。個人情報への言及の有無も未確認"
+  },
+  {
+   "id": "shiraume-toyooka-2603",
+   "co": "白梅豊岡病院（白梅会）",
+   "date": "2026-03-03",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "sum": "3月1日のサイバー攻撃で電子カルテなどがランサムウェアに感染し、後の報告で個人情報の漏えいと通知開始を公表した。",
+   "official": [
+    [
+     "公式発表（2026/3/3）",
+     "https://www.shiraume.or.jp/news/%E7%99%BD%E6%A2%85%E8%B1%8A%E5%B2%A1%E7%97%85%E9%99%A2%E3%81%B8%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F/"
+    ]
+   ],
+   "st": "c",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/10/54802.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "fundex-aoyama-main-2603",
+   "co": "セゾンファンデックス（委託先 青山メイン企画）",
+   "date": "2026-03-10",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "sum": "賃貸管理業務の委託先が使うサーバや端末がランサムウェア攻撃を受けた。",
+   "official": [
+    [
+     "公式発表（2026/3/10）",
+     "https://www.fundex.co.jp/news/pdf/20260310_FUNDEX_notice.pdf"
+    ]
+   ],
+   "st": "p",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/24/54890.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "mizuho-rt-2603",
+   "co": "みずほリサーチ&テクノロジーズ（環境省納品物）",
+   "date": "2026-03-11",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "経済産業省から受託したアンケート情報を混在させたまま環境省に納品し、ホームページで公開された。",
+   "official": [],
+   "st": "c",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/11/54815.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "jiho-mail-2603",
+   "co": "じほう",
+   "date": "2026-03-12",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "クラウドメールに不正ログインされ、アドレス帳の宛先にフィッシングメールが送られた。",
+   "official": [],
+   "st": "p",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/12/54824.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "wealth-mgmt-mail-2603",
+   "co": "ウェルス・マネジメント（グループ会社社員のメール）",
+   "date": "2026-03-18",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "グループ会社社員のメールアカウントが不正アクセスを受け、取引先などに約1,500件のなりすましメールが送られた。",
+   "official": [],
+   "st": "p",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/18/54861.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "nittai-ntrading-2603",
+   "co": "ニッタイ工業（エヌ・トレーディング）",
+   "date": "2026-03-02",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "sum": "不正アクセスにより「エヌ・トレーディング」の顧客情報が閲覧可能な状態になった。",
+   "official": [],
+   "st": "p",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/02/54730.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない"
+  },
+  {
+   "id": "anabuki-kosan-2603",
+   "co": "穴吹興産",
+   "date": "2026-03-16",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "sum": "ランサムウェア攻撃を受け、攻撃者のリークサイトへの掲載を確認した（グループ会社の穴吹ハウジングサービス事案との関係は未確認）。",
+   "official": [],
+   "st": "p",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/03/16/54842.html"
+    ]
+   ],
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない。既存の anabuki-housing と同一事案かも未確認"
+  },
+  {
+   "id": "sony-life-ex-employee-2603",
+   "co": "ソニー生命（元営業社員）",
+   "date": "2026-03-18",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "sum": "元営業社員が顧客約100人の個人情報を私的に利用し、多額の金銭を借り入れていた。",
+   "official": [],
+   "n": 100,
+   "label": "約100人",
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない。個人情報の漏えい事案として扱えるかも未確認"
+  },
+  {
+   "id": "osaka-police-leak-2603",
+   "co": "大阪府警察",
+   "date": "2026-03-19",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "sum": "警部補が捜査関連情報を元警察官に漏らし、起訴・懲戒免職となった。",
+   "official": [],
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない。漏れた情報に個人情報が含まれるか未確認"
+  },
+  {
+   "id": "sada-hospital-sns-2603",
+   "co": "佐田病院",
+   "date": "2026-03-23",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "sum": "職員が患者のカルテ画像をSNSに投稿した（3月23日は第2報）。",
+   "official": [
+    [
+     "公式発表（2026/3/23）",
+     "https://www.sada.or.jp/wp-sada/wp-content/uploads/2026/03/20260323-2.pdf"
+    ]
+   ],
+   "st": "c",
+   "pendingReason": "公式発表URL（集約サイト・報道経由で判明）はWebFetchの取得許可外で開けず、検索枠も使い切ったため照合できない。第1報の日付も未確認"
+  },
+  {
+   "co": "日本美容医療研究機構（リゾナスフェイスクリニック東京）",
+   "date": "2026-04-06",
+   "id": "resonance-face-clinic",
+   "types": [
+    "ランサムウェア"
+   ],
+   "cause": "cyber",
+   "ind": "病院・医療",
+   "st": "c",
+   "sum": "運営するクラウドサーバーがランサムウェア攻撃を受け、患者の個人情報の一部が不正に取得されたと報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/23/55126.html"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2026/4/6）",
+     "https://yamaguchisensei.com/2026/04/06/news202604/"
+    ]
+   ],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式発表URLは記事から判明したが、検索上限到達とツールの取得制限で公式ページを開けず、件数・項目を照合できない。"
+  },
+  {
+   "co": "SocioFuture（GMOあおぞらネット銀行の委託先）",
+   "date": "2026-04-03",
+   "id": "sociofuture-gmoaozora",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "ind": "人材・教育・業務支援",
+   "st": "c",
+   "sum": "委託元から受け取ったデータ様式を同意なく別業務に流用し、非表示シートに顧客情報が残ったファイルを別の銀行に複数回送っていた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/21/55105.html"
+    ]
+   ],
+   "official": [
+    [
+     "SocioFuture お知らせ（2026/4/3）",
+     "https://www.scft.co.jp/news/h_y9ux8ubark"
+    ],
+    [
+     "GMOあおぞらネット銀行 公表資料（2026/4/3）",
+     "https://gmo-aozora.com/assets/news/pdf/2026/20260403_kouhyou.pdf"
+    ]
+   ],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式発表URL（SocioFuture・GMOあおぞらネット銀行）は判明したが、ツールの取得制限で開けず件数・項目を照合できない。"
+  },
+  {
+   "co": "2りんかんイエローハット（２りんかんアプリ）",
+   "date": "2026-04-23",
+   "id": "2rinkan-app",
+   "types": [
+    "不正アクセス"
+   ],
+   "cause": "cyber",
+   "ind": "小売・EC",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "birth",
+    "mail",
+    "id"
+   ],
+   "itemsText": "（報道による）氏名、住所、電話番号、生年月日、性別、メールアドレス、会員番号、ポイント残高、アプリのユーザーID・パスワード、車両情報",
+   "notIncl": "（報道による）クレジットカード情報",
+   "sum": "２りんかんアプリの会員情報を扱うサーバーへの不正アクセスが4月20日に検知され、会員の個人情報が漏えいした可能性があると報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/2rinkan-app-member-personal-data-leak-risk/"
+    ]
+   ],
+   "official": [
+    [
+     "２りんかん お知らせ（2026/4/23）",
+     "https://2rinkan.jp/annai/20260423/"
+    ],
+    [
+     "イエローハット お知らせ（2026/4）",
+     "https://www.yellowhat.jp/information/2rinnkan/202604.html"
+    ]
+   ],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式発表URLは判明したが、公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式サイトのURLを取得経路に載せられなかったため）。件数は報道でも未記載。"
+  },
+  {
+   "co": "西日本シティ銀行（下関支店）",
+   "date": "2026-04-30",
+   "id": "ncbank-bereal",
+   "types": [
+    "内部不正"
+   ],
+   "cause": "insider",
+   "ind": "金融・保険",
+   "st": "c",
+   "n": 7,
+   "label": "7人（報道による）",
+   "sum": "行員がSNSアプリで支店内を撮影・投稿し、ホワイトボードに書かれた顧客7人の氏名などが写り込んで拡散したと報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nishi-nippon-bank-bereal-sns-customer-data-leak/"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2026/4/30）",
+     "https://www.ncbank.co.jp/assets/a5d6dd906a3c43e5bbf96d8adc3d2a13/8d0eab990c95489db41bcd1b4185802e/osirase260430-01.pdf"
+    ]
+   ],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式PDFのURLは判明したが、公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式サイトのURLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "日本テレビ（ZIP！制作協力会社スタッフ）",
+   "date": "2026-04-27",
+   "id": "ntv-zip-sns",
+   "types": [
+    "内部不正"
+   ],
+   "cause": "insider",
+   "ind": "メディア・出版",
+   "st": "c",
+   "sum": "情報番組の制作協力会社の新人スタッフが、出演者名入りの資料や勤務シフト表、入構証などを個人のSNSに投稿したと報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ntv-zip-new-staff-sns-data-leak-after-training/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "staff"
+   ],
+   "pendingReason": "社長定例会見での説明として報じられており、組織の公式発表（文書）が見つからない。個人情報の範囲も不明確。"
+  },
+  {
+   "co": "仙台市（太白区の市立小学校）",
+   "date": "2026-04-21",
+   "id": "sendai-teacher-sns-2604",
+   "types": [
+    "内部不正"
+   ],
+   "cause": "insider",
+   "ind": "大学・学校",
+   "st": "c",
+   "n": 1,
+   "label": "教員1人の氏名（報道による）",
+   "sum": "市立小学校の教員が職員会議用のGoogle Classroomの画面を撮影してSNSに投稿し、学校名と別の教員の氏名が写っていたと報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sendai-teacher-sns-post-student-data-leak/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "staff"
+   ],
+   "pendingReason": "仙台市の公式発表URLが記事になく、公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式サイトのURLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "日本カーソリューションズ",
+   "date": "2026-04-07",
+   "id": "ncsol-roster",
+   "types": [
+    "不正アクセス"
+   ],
+   "cause": "cyber",
+   "ind": "運輸・交通",
+   "st": "c",
+   "items": [
+    "name"
+   ],
+   "itemsText": "（報道による）社員名簿と連絡先",
+   "sum": "役員をかたる第三者からのメールに社員が応じ、社員名簿と連絡先のファイルを送ってしまったと報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/24/55138.html"
+    ]
+   ],
+   "official": [
+    [
+     "【注意喚起】弊社社員名簿および連絡先の流出事案発生のご報告（2026/4/7）",
+     "https://www.ncsol.co.jp/cms/wp-content/uploads/2026/04/20260407_NewRelease-jyouhou.pdf"
+    ]
+   ],
+   "who": [
+    "staff"
+   ],
+   "pendingReason": "公式PDFのURLは判明したが、公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式サイトのURLを取得経路に載せられなかったため）。件数は記事に記載なし。"
+  },
+  {
+   "co": "いえらぶGROUP",
+   "date": "2026-04-08",
+   "id": "ielove-group-2604",
+   "types": [
+    "不正アクセス"
+   ],
+   "cause": "cyber",
+   "ind": "通信・IT",
+   "st": "p",
+   "sum": "クラウドサービスへの不正アクセスの可能性があり、その後データの持ち出しが確認されたと報じられた（利用する不動産会社の問い合わせ情報などに波及）。",
+   "src": [
+    [
+     "unitis",
+     "https://unitis.jp/articles/21930/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。5月担当分に利用企業側の事案（aeonmall-ielove、athome-ielove）があるため、重複の扱いに注意。"
+  },
+  {
+   "co": "日本郵船（船舶燃料調達システム）",
+   "date": "2026-04-09",
+   "id": "nyk-fuel-system",
+   "types": [
+    "不正アクセス"
+   ],
+   "cause": "cyber",
+   "ind": "運輸・交通",
+   "st": "c",
+   "sum": "船舶燃料の調達システムに不正アクセスがあり、個人情報を含む一部データが持ち出されたと報じられた。",
+   "src": [
+    [
+     "unitis",
+     "https://unitis.jp/articles/21930/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。"
+  },
+  {
+   "co": "マイナビ（利用するクラウドサービス）",
+   "date": "2026-04-16",
+   "id": "mynavi-cloud-2604",
+   "types": [
+    "不正アクセス"
+   ],
+   "cause": "cyber",
+   "ind": "人材・教育・業務支援",
+   "st": "p",
+   "n": 74224,
+   "label": "一般ユーザー74,224件など（報道による）",
+   "sum": "マイナビが利用するクラウドサービスへの不正アクセスで、一般ユーザーの個人情報やJOINフェア出展団体の情報が流出した可能性があると報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/16/55073.html"
+    ],
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/16/55075.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。初回公表日も未確認（記事は4/16、月刊コラムでは111,505件とも記載）。"
+  },
+  {
+   "co": "東急リゾーツ&ステイ",
+   "date": "2026-04-16",
+   "id": "tokyu-resorts-csv",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "ind": "生活サービス・レジャー",
+   "st": "c",
+   "n": 95986,
+   "label": "95,986件（報道による）",
+   "sum": "宛先を誤り、顧客情報を含むCSVファイルを協力会社の従業員1人に送信したと報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/16/55076.html"
+    ],
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/19/55302.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。初回公表日も未確認（記事日付で仮置き）。"
+  },
+  {
+   "co": "ウエーブ",
+   "date": "2026-04-20",
+   "id": "wave-2604",
+   "types": [
+    "不正アクセス"
+   ],
+   "cause": "cyber",
+   "ind": "小売・EC",
+   "st": "p",
+   "n": 176810,
+   "label": "最大176,810件（報道による）",
+   "sum": "不正アクセスにより顧客情報が最大176,810件漏えいした可能性があると報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/20/55094.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。初回公表日・業種も未確認（記事日付で仮置き）。"
+  },
+  {
+   "co": "沖縄県（行政不服審査裁決書）",
+   "date": "2026-04-16",
+   "id": "okinawa-saiketsu",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "ind": "公共機関",
+   "st": "c",
+   "n": 39,
+   "label": "39人（報道による）",
+   "sum": "総務省の行政不服審査裁決・答申検索データベースに掲載した県の公表用裁決書で、特別な操作をすると39人の姓名などが閲覧できる状態だったと報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/16/55074.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。初回公表日も未確認。"
+  },
+  {
+   "co": "埼玉大学（特許管理システム運用サーバ）",
+   "date": "2026-04-15",
+   "id": "saitama-u-patent",
+   "types": [
+    "ランサムウェア"
+   ],
+   "cause": "cyber",
+   "ind": "大学・学校",
+   "st": "p",
+   "sum": "特許管理システムの運用サーバでランサムウェア感染の痕跡が見つかり、個人情報が外部から閲覧された可能性があると報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/15/55063.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。初回公表日も未確認。"
+  },
+  {
+   "co": "林野庁（委託事業）",
+   "date": "2026-04-15",
+   "id": "rinya-itaku-indonesia",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "ind": "公共機関",
+   "st": "c",
+   "sum": "林野庁の委託事業で個人情報が流出し、インドネシア側の送出機関の関係者に提供されたと報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/15/55062.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。原因区分・初回公表日も未確認。"
+  },
+  {
+   "co": "長野マラソン大会組織委員会",
+   "date": "2026-04-17",
+   "id": "nagano-marathon-cc",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "cause": "mis",
+   "ind": "団体",
+   "st": "c",
+   "sum": "給水担当の競技役員が複数の宛先をCCにして業務連絡メールを送り、メールアドレスが他の受信者に見える状態になったと報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/17/55084.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。件数・初回公表日も未確認。"
+  },
+  {
+   "co": "穴吹ハウジングサービス",
+   "date": "2026-04-21",
+   "id": "anabuki-housing-service",
+   "types": [
+    "ランサムウェア"
+   ],
+   "cause": "cyber",
+   "ind": "建設・不動産",
+   "st": "p",
+   "sum": "グループ会社の通信機器が攻撃されて社内ネットワークに侵入され、ランサムウェア被害を受けたと報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/21/55107.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。個人情報の漏えい記載の有無、初回公表日（4月より前の可能性）も未確認。"
+  },
+  {
+   "co": "病院（ScanNetSecurity見出し『蔵野徳洲会病院』）",
+   "date": "2026-04-22",
+   "id": "tokushukai-sns-video-2604",
+   "types": [
+    "内部不正"
+   ],
+   "cause": "insider",
+   "ind": "病院・医療",
+   "st": "c",
+   "sum": "職員が患者の個人情報を含む動画をSNSに投稿したと報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/22/55114.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。病院名（見出しの一部のみ取得）と初回公表日も未確認。"
+  },
+  {
+   "co": "門川町（町立保育所）",
+   "date": "2026-04-07",
+   "id": "kadogawa-usb",
+   "types": [
+    "紛失・盗難"
+   ],
+   "cause": "loss",
+   "ind": "公共機関",
+   "st": "p",
+   "sum": "保育所の職員が持ち帰ったUSBメモリを紛失したと報じられた（3月3日紛失）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/07/54994.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。初回公表日（3月の可能性）も未確認。"
+  },
+  {
+   "co": "AGS（再委託先）",
+   "date": "2026-04-17",
+   "id": "ags-subcontractor",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "cause": "cyber",
+   "ind": "通信・IT",
+   "st": "p",
+   "sum": "再委託先がランサムウェア攻撃を受け、情報が外部に漏えいしたおそれがあると報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ags-subcontractor-ransomware-attack-data-leak-risk/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。個人情報かどうかも未確認。"
+  },
+  {
+   "co": "トヨタ自動車（損害保険会社からの出向者）",
+   "date": "2026-04-24",
+   "id": "toyota-insurer-secondees",
+   "types": [
+    "内部不正"
+   ],
+   "cause": "insider",
+   "ind": "製造",
+   "st": "c",
+   "n": 20000,
+   "label": "約2万件（報道による）",
+   "sum": "損害保険会社からの出向者がトヨタ自動車の従業員情報などを不正に持ち出していたと報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/toyota-20k-data-leak-by-insurance-secondees/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "staff"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。どの組織の公式発表を主とするかも未確認（5月担当分に関連の続報あり）。"
+  },
+  {
+   "co": "神奈川県内の小学校（教諭の逮捕）",
+   "date": "2026-04-22",
+   "id": "kanagawa-teacher-arrest",
+   "types": [
+    "内部不正"
+   ],
+   "cause": "insider",
+   "ind": "大学・学校",
+   "st": "c",
+   "sum": "小学校教諭が他人名義で個人情報を含む資料を学校に送付したとして逮捕されたと報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kanagawa-teacher-arrested-personal-data-leak/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。組織名（教育委員会）も未確認。"
+  },
+  {
+   "co": "生活協同組合コープいしかわ（委託先）",
+   "date": "2026-04-24",
+   "id": "coop-ishikawa-gift",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "cause": "cyber",
+   "ind": "団体",
+   "st": "p",
+   "sum": "ギフトカタログのオンラインショップを運営する委託先のサーバーがランサムウェアでファイルを暗号化されたと報じられた。",
+   "src": [
+    [
+     "unitis",
+     "https://unitis.jp/articles/21930/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式発表を探して開くことができず照合できない（今回のターンでWeb検索の上限に達したため）。個人情報の漏えい記載の有無も未確認。"
+  },
+  {
+   "co": "山形市（委託先 YCC情報システム）",
+   "date": "2026-04-16",
+   "id": "yamagata-city-ycc",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "cause": "cyber",
+   "ind": "公共機関",
+   "st": "p",
+   "n": 558387,
+   "label": "558,387件（重複含む・報道による）",
+   "sum": "委託先YCC情報システムのランサムウェア被害で、健康情報システムや人事給与（マイナンバーを含む）などの市保有個人情報が漏えいしたおそれがあると報じられた。",
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2102758.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ycc-information-system-ransomware-supply-chain-impact/"
+    ]
+   ],
+   "official": [
+    [
+     "YCC情報システム社に対するサイバー攻撃に係る山形市保有個人情報の漏えいのおそれがある事案について",
+     "https://www.city.yamagata-yamagata.lg.jp/shiseijoho/it/1012825/1018734.html"
+    ]
+   ],
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "pendingReason": "公式ページURLは判明したが、公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "山形大学（委託先 YCC情報システム）",
+   "date": "2026-04-20",
+   "id": "yamagata-u-ycc",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "cause": "cyber",
+   "ind": "大学・学校",
+   "st": "p",
+   "n": 80091,
+   "label": "のべ80,091件（報道による）",
+   "sum": "委託先YCC情報システムのランサムウェア被害で、学生の氏名・住所・健康診断結果などが漏えいしたおそれがあると報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ycc-information-system-ransomware-supply-chain-impact/"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ（2026/4/20）",
+     "https://www.yamagata-u.ac.jp/jp/information/important/20260420_01/"
+    ]
+   ],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式ページURLは判明したが、公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "庄内町（委託先 YCC情報システム）",
+   "date": "2026-04-17",
+   "id": "shonai-town-ycc",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "cause": "cyber",
+   "ind": "公共機関",
+   "st": "p",
+   "n": 12996,
+   "label": "12,996件（報道による）",
+   "sum": "委託先YCC情報システムのランサムウェア被害で、図書館や町民トレーニングルームの利用者情報が漏えいしたおそれがあると報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ycc-information-system-ransomware-supply-chain-impact/"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ",
+     "https://www.town.shonai.lg.jp/gyousei/johokokai/incident.html"
+    ]
+   ],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式ページURLは判明したが、公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "幸手市（委託先 YCC情報システム）",
+   "date": "2026-04-17",
+   "id": "satte-city-ycc",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "cause": "cyber",
+   "ind": "公共機関",
+   "st": "p",
+   "sum": "委託先YCC情報システムのランサムウェア被害で、国民健康保険の高額療養費システムのデータが影響を受けたおそれがあると報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ycc-information-system-ransomware-supply-chain-impact/"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ",
+     "https://www.city.satte.lg.jp/important/15558.html"
+    ]
+   ],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式ページURLは判明したが、公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "関東信越税理士国民健康保険組合（委託先 YCC情報システム）",
+   "date": "2026-04-20",
+   "id": "ka-z-kokuho-ycc",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "cause": "cyber",
+   "ind": "団体",
+   "st": "p",
+   "sum": "委託先YCC情報システムのランサムウェア被害で、2013〜2018年度の高額療養費システムのデータが影響を受けたおそれがあると報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ycc-information-system-ransomware-supply-chain-impact/"
+    ]
+   ],
+   "official": [
+    [
+     "お知らせ",
+     "https://www.ka-z-kokuho.or.jp/news.html?id=252"
+    ]
+   ],
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "公式ページURLは判明したが、公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。公表日も未確認（4月中）。"
+  },
+  {
+   "co": "山形交通（委託先 YCC情報システム）",
+   "date": "2026-04-17",
+   "id": "yamagata-kotsu-ycc",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "cause": "cyber",
+   "ind": "運輸・交通",
+   "st": "p",
+   "n": 121880,
+   "label": "121,880件（重複含む・報道による）",
+   "sum": "委託先YCC情報システムのランサムウェア被害で、バス・ハイヤーの個人顧客の氏名・住所・電話番号などが漏えいしたおそれがあると報じられた。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ycc-information-system-ransomware-supply-chain-impact/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "pendingReason": "公式発表のURLが見つからない。公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "新エフエイコム",
+   "date": "2026-04-14",
+   "id": "shin-fa-com",
+   "types": [
+    "ランサムウェア"
+   ],
+   "cause": "cyber",
+   "ind": "製造",
+   "st": "p",
+   "sum": "4月10日未明の不正アクセスでランサムウェアに感染したと報じられた。",
+   "src": [
+    [
+     "unitis",
+     "https://unitis.jp/articles/21930/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "個人情報の漏えい（可能性）への言及の有無を確認できず対象か不明。公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "マルタケ",
+   "date": "2026-04-28",
+   "id": "marutake-2604",
+   "types": [
+    "ランサムウェア"
+   ],
+   "cause": "cyber",
+   "ind": "製造",
+   "st": "p",
+   "sum": "システム障害が外部からの不正アクセスによるランサムウェア被害と判明したと報じられた。",
+   "src": [
+    [
+     "unitis",
+     "https://unitis.jp/articles/21930/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "個人情報の漏えい（可能性）への言及の有無と業種を確認できず対象か不明。公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "山一電機（フィリピン子会社）",
+   "date": "2026-04-22",
+   "id": "yamaichi-pricon",
+   "types": [
+    "ランサムウェア"
+   ],
+   "cause": "cyber",
+   "ind": "製造",
+   "st": "p",
+   "sum": "フィリピン子会社の一部サーバーがランサムウェア被害を受けたと報じられた。",
+   "src": [
+    [
+     "unitis",
+     "https://unitis.jp/articles/21930/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "個人情報の漏えい（可能性）への言及の有無を確認できず対象か不明。公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "住友金属鉱山（フィリピン子会社）",
+   "date": "2026-04-08",
+   "id": "smm-cbnc",
+   "types": [
+    "ランサムウェア"
+   ],
+   "cause": "cyber",
+   "ind": "製造",
+   "st": "p",
+   "sum": "フィリピンの子会社でサーバー2台がランサムウェアで暗号化されたと報じられた。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/04/15/55066.html"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "個人情報の漏えい（可能性）への言及の有無を確認できず対象か不明。公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。"
+  },
+  {
+   "co": "東京計器",
+   "date": "2026-04-27",
+   "id": "tokyo-keiki-chatwork",
+   "types": [
+    "不正アクセス"
+   ],
+   "cause": "cyber",
+   "ind": "製造",
+   "st": "p",
+   "sum": "従業員のChatworkアカウントに不正アクセスがあったと報じられた。",
+   "src": [
+    [
+     "unitis",
+     "https://unitis.jp/articles/21930/"
+    ]
+   ],
+   "official": [],
+   "who": [
+    "unk"
+   ],
+   "pendingReason": "個人情報の漏えい（可能性）への言及の有無を確認できず対象か不明。公式発表を開けず照合できない（今回のターンでWeb検索の上限に達し、公式URLを取得経路に載せられなかったため）。"
+  },
+  {
+   "id": "aeonmall-ielove",
+   "co": "イオンモール（イオンハウジング・いえらぶCLOUD）",
+   "date": "2026-05-01",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "st": "p",
+   "ind": "建設・不動産",
+   "sum": "住宅事業で利用するクラウドサービス「いえらぶCLOUD」への第三者の不正アクセスにより、同社が扱う情報が取得された可能性があるとされる事案。",
+   "official": [
+    [
+     "当社が利用するクラウドサービスにおける不正アクセスに関するお知らせ",
+     "https://www.aeonhousing.com/blog/entry-781283/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/11/55227.html"
+    ]
+   ],
+   "pendingReason": "公式発表ページ（aeonhousing.com）を2回開こうとしたが取得エラーで開けず、件数・項目を照合できない。いえらぶGROUP本体の初回公表は2026-04-08（本件は利用企業側の5月公表分）。"
+  },
+  {
+   "id": "hokkaido-gas-lng",
+   "co": "北海道ガス（子会社 北海道LNG・LNG受発注システム）",
+   "date": "2026-05-07",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "p",
+   "ind": "エネルギー",
+   "who": [
+    "biz",
+    "staff"
+   ],
+   "sum": "子会社北海道LNGのLNG受発注システムのサーバに外部から不正アクセスがあり（1月22日に痕跡を発見）、LNG取引先の担当者や従業員の情報の一部が流出した可能性があるとされる。",
+   "official": [
+    [
+     "「ＬＮＧ受発注システム」への不正アクセスに関するお詫びとお知らせ",
+     "https://www.hokkaido-gas.co.jp/wp-content/uploads/2026/05/6ef98421dbe01a77cf34e6619881e797.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/15/55273.html"
+    ]
+   ],
+   "pendingReason": "公式発表PDFのURLは記事で判明したが、取得ツールの制約（検索結果に出ないURLは開けない）で開けず、件数・項目を照合できない。"
+  },
+  {
+   "id": "seishinkai-youtube",
+   "co": "日本誠真会（YouTube Live配信）",
+   "date": "2026-05-07",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": 1,
+   "label": "1人",
+   "st": "c",
+   "ind": "団体",
+   "who": [
+    "cust"
+   ],
+   "sum": "YouTube Liveの出演終了後もマイクが切られず、会計業務に関する会話がそのまま配信され、特定の党員1人の金銭に関わる個人情報が流れたとされる。",
+   "official": [
+    [
+     "【お詫び】党員個人情報の流出に関するご報告と謝罪",
+     "https://nipponseishinkai.jp/news/20260507/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/15/55274.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLは記事で判明したが、検索で当該ページが出ず取得ツールの制約で開けないため、内容を照合できない。"
+  },
+  {
+   "id": "matsushita-hospital-usb",
+   "co": "松下記念病院",
+   "date": "2026-05-25",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "n": null,
+   "label": "件数不明",
+   "st": "p",
+   "ind": "病院・医療",
+   "who": [
+    "cust"
+   ],
+   "sum": "患者情報を保存したUSBメモリの紛失が5月19日に判明したが、5月22日夜に院内で発見され、情報が悪用された形跡はないとされる。",
+   "official": [
+    [
+     "松下記念病院 お知らせ（2026/5/25）",
+     "https://phio.panasonic.co.jp/news/pdf/2026/11.pdf"
+    ]
+   ],
+   "src": [],
+   "pendingReason": "公式発表は開いて確認済み（5/25公表、USBは院内で発見、件数・項目の記載なし）。院内で発見され外部流出の可能性がほぼない事案のため、台帳の対象（漏えいの可能性）に含めるかの判断が必要。"
+  },
+  {
+   "id": "baystars-campfire",
+   "co": "横浜DeNAベイスターズ（CAMPFIRE・日本一優勝パレード2024）",
+   "date": "2026-05-22",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "st": "p",
+   "ind": "生活サービス・レジャー",
+   "who": [
+    "cust"
+   ],
+   "sum": "優勝パレードのクラウドファンディングで利用したCAMPFIREが不正アクセスを受け、同サービスに保存された支援者の個人情報が漏えいした可能性があると報告を受けた。",
+   "official": [
+    [
+     "球団お知らせ（2026/5/22）",
+     "https://www.baystars.co.jp/news/2026/05/0522_07.php"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/06/04/55426.html"
+    ]
+   ],
+   "pendingReason": "公式発表URLは記事で判明したが、Web検索の上限に達したため取得できず（検索結果に出ないURLはツール上開けない）、件数・項目を照合できない。CAMPFIRE本体の公表は2026年4月。"
+  },
+  {
+   "id": "teacher-locker-theft-2605",
+   "co": "（不明）中学校教員の端末盗難（コインロッカー）",
+   "cause": "loss",
+   "sum": "中学校教員がコインロッカーの施錠を忘れ、端末と鍵が盗まれたとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/19/55296.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "jameshp-2605",
+   "co": "ジェームス（カー用品店）会員情報",
+   "cause": "cyber",
+   "sum": "カー用品店ジェームスへの不正アクセスで会員情報が漏えいした可能性があるとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/19/55298.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "esasv-games-2605",
+   "co": "E/SASV Games公式サイト",
+   "cause": "cyber",
+   "sum": "公式サイトへの不正アクセスでファイル改ざんと不正プログラム設置が確認されたとされる事案（個人情報への影響は未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/20/55307.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "tohoku-u-nas-2605",
+   "co": "東北大学（大学病院のNAS）",
+   "cause": "cyber",
+   "sum": "東北大学への不正アクセスで大学病院のNASに保存された個人情報が漏えいした可能性があるとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/20/55308.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "toho-omori-pacemaker-2605",
+   "co": "東邦大学医療センター大森病院（業務委託先）",
+   "cause": "loss",
+   "sum": "業務委託先がペースメーカープログラマを紛失し、記録された個人情報が閲覧される可能性があるとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/20/55309.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "shiseido-salon-2605",
+   "co": "資生堂美容室（業務委託先）",
+   "cause": "cyber",
+   "sum": "資生堂美容室の業務委託先への不正アクセスで顧客情報が閲覧された可能性があるとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/21/55320.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "scan-fax-mis-2605",
+   "co": "（不明）スキャン操作時のファクシミリ誤送信",
+   "cause": "mis",
+   "sum": "スキャンのつもりでファクシミリ送信も行われ、個人情報が送信されたとされる事案（組織名未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/21/55322.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "nostrum-2605",
+   "co": "ノストラム（学習支援サービス）",
+   "cause": "cyber",
+   "sum": "ノストラムがランサムウェア攻撃を受け学習支援サービスも停止したとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/21/55323.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "tsuda-ex-staff-2605",
+   "co": "津田塾大学（元職員による掲示板投稿）",
+   "cause": "insider",
+   "sum": "元職員が個人情報の記載された画像を匿名掲示板に投稿したとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/21/55324.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "umg-ec-2605",
+   "co": "ユニバーサル ミュージック（ECサイト）",
+   "cause": "cyber",
+   "sum": "ECサイトへの不正アクセスで合計3,105,585件の顧客情報が流出したとされる事案（続報の可能性あり）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/21/55325.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "elevenlab-udemy-2605",
+   "co": "イレブンラボ（Udemy Business利用）",
+   "cause": "cyber",
+   "sum": "イレブンラボが利用するUdemy Businessで情報漏えいがあったとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/22/55330.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "hokuyo-2605",
+   "co": "ホクヨー",
+   "cause": "cyber",
+   "sum": "ランサムウェア攻撃でシステム障害が発生したとされる事案（個人情報への影響は未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/22/55332.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "tokiomarine-shinnihon-kentei-2605",
+   "co": "東京海上日動火災保険（委託先 新日本検定協会）",
+   "cause": "cyber",
+   "sum": "新日本検定協会のランサムウェア被害で東京海上日動の顧客情報が漏えいした可能性があるとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/25/55338.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "last-day-download-2605",
+   "co": "（不明）退職者による取引先個人情報のダウンロード",
+   "cause": "insider",
+   "sum": "最終出社日の夜にクラウドから取引先の個人情報がダウンロードされ、本人が事実を認めたとされる事案（組織名未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/25/55339.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "candeal-design-2605",
+   "co": "キャンディルデザイン",
+   "cause": "cyber",
+   "sum": "ランサムウェア攻撃を受けたとされる事案（個人情報への影響は未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/25/55341.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "shinnihon-kentei-2605",
+   "co": "新日本検定協会",
+   "cause": "cyber",
+   "sum": "ランサムウェア攻撃を受け、損害保険会社の顧客など約3万件の情報が漏えいした可能性があるとされる事案（セキュリティ対策Labのまとめでは5月11日公表）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/26/55346.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "rental-server-login-2605",
+   "co": "（不明）法人向けレンタルサーバの不正ログイン",
+   "cause": "cyber",
+   "sum": "法人向けレンタルサーバで不正ログイン被害があったとされる事案（組織名未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/26/55348.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "dena-account-2605",
+   "co": "DeNA（DeNAアカウント不正ログイン）",
+   "cause": "cyber",
+   "sum": "乗っ取られたメールアドレスを使ってDeNAアカウントに不正ログインされたとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/26/55349.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "kyoeikasai-shinnihon-kentei-2605",
+   "co": "共栄火災海上保険（委託先 新日本検定協会）",
+   "cause": "cyber",
+   "sum": "新日本検定協会へのランサムウェア攻撃で共栄火災の顧客等の個人情報が漏えいした可能性があるとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/27/55355.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "tokyo-hosou-2605",
+   "co": "東京鋪装工業",
+   "cause": "cyber",
+   "sum": "ランサムウェア攻撃で顧客・取引先・従業員の情報が流出した可能性があるとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/27/55356.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "energywith-2605",
+   "co": "エナジーウィズ（海外グループ会社）",
+   "cause": "cyber",
+   "sum": "海外グループ会社が管理する情報の一部がダークウェブに掲載されたとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/27/55357.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "miura-2605",
+   "co": "三浦工業",
+   "cause": "cyber",
+   "sum": "不正アクセスで5,021件の個人情報が漏えいした可能性があるとされる事案（続報の可能性あり）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/27/55358.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "matsuzawa-shoten-2605",
+   "co": "松沢書店（楽譜ナビ・注文くん）",
+   "cause": "cyber",
+   "sum": "ランサムウェア攻撃で各種サービスに影響が出たとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/27/55359.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "suspicious-mail-account-2605",
+   "co": "（不明）不審メール送信アカウントの廃止",
+   "cause": "cyber",
+   "sum": "不審メール送信に使われたアカウントを廃止したとされる事案（組織名未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/27/55360.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "sodick-2605",
+   "co": "ソディック",
+   "cause": "cyber",
+   "sum": "サーバへの不正アクセスがあったとされる事案（個人情報への影響は未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/28/55372.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "aoyama-zaisan-2605",
+   "co": "青山財産ネットワークス（グループ会社）",
+   "cause": "cyber",
+   "sum": "グループ会社がランサムウェア攻撃を受けたとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/29/55378.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "ckc-gakusan-2605",
+   "co": "CKCネットワーク・学参",
+   "cause": "cyber",
+   "sum": "運用システムがランサムウェア攻撃を受け、情報漏えいの可能性を否定できないとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/29/55379.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "cs-accounting-2605",
+   "co": "CSアカウンティング",
+   "cause": "cyber",
+   "sum": "不正アクセスがありEDRが不審な動作を検知し隔離したとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/29/55380.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "axa-pet-2605",
+   "co": "アクサ損害保険（ペット保険システム）",
+   "cause": "cyber",
+   "sum": "ペット保険のシステムへの不正アクセスで、第2報で公表した漏えい可能性のある個人情報の内訳を修正したとされる事案（初回公表日未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/29/55381.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "attachment-mail-server-2605",
+   "co": "（不明）添付ファイル分離メールサーバへのサイバー攻撃",
+   "cause": "cyber",
+   "sum": "添付ファイル分離メールサーバが攻撃され、メールアドレスと添付ファイルが漏えいした可能性があるとされる事案（組織名未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/29/55382.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "geniee-ma-2605",
+   "co": "ジーニー（GENIEE MA）",
+   "cause": "cyber",
+   "sum": "GENIEE MAに不正アクセスがあり、クラウド計算資源が不正利用されたとされる事案（個人情報への影響は未確認）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/29/55383.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "npo-portal-masking-2605",
+   "co": "（不明）NPO法人ポータルサイトの黒塗り不備",
+   "cause": "mis",
+   "sum": "NPO法人ポータルサイトに掲載された事業報告書の黒塗り部分が、一定の操作で読み取れる状態だったとされる事案。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/05/29/55385.html"
+    ]
+   ],
+   "pendingReason": "Web検索の上限（200回）に達し、記事・公式発表とも開けなかった（ツールの制約で検索結果に出ていないURLは取得不可）。初回公表日が2026年5月かどうかも未確認。"
+  },
+  {
+   "id": "shizuoka-police-masking-2605",
+   "co": "静岡県警察（開示文書PDFの黒塗り不備）",
+   "cause": "mis",
+   "date": "2026-05-22",
+   "n": 14239,
+   "ind": "公共機関",
+   "sum": "開示したPDFの黒塗りが見た目だけの処理で、約8か月間にわたり14,239人分の氏名・電話番号が読み取れる状態だったとされる事案。",
+   "src": [
+    [
+     "セキュリティ対策Lab（5月まとめ）",
+     "https://rocket-boys.co.jp/?p=34276"
+    ]
+   ],
+   "pendingReason": "Web検索の上限に達し、公式発表を検索・取得できなかった。情報はセキュリティ対策Labの5月まとめ記事のみによる。"
+  },
+  {
+   "id": "osato-tax-pc-theft-2605",
+   "co": "宮城県大郷町（税務課のパソコン盗難）",
+   "cause": "loss",
+   "date": "2026-05-25",
+   "n": 200,
+   "ind": "公共機関",
+   "sum": "町役場税務課のパソコンが盗まれ、ハードディスク内の最大200件の個人情報が漏えいした可能性があるとされる事案。",
+   "src": [
+    [
+     "セキュリティ対策Lab（5月まとめ）",
+     "https://rocket-boys.co.jp/?p=34276"
+    ]
+   ],
+   "pendingReason": "Web検索の上限に達し、公式発表を検索・取得できなかった。情報はセキュリティ対策Labの5月まとめ記事のみによる。"
+  },
+  {
+   "id": "kitakyushu-u-support-scam-2605",
+   "co": "北九州市立大学（サポート詐欺）",
+   "cause": "cyber",
+   "date": "2026-05-26",
+   "n": null,
+   "ind": "大学・学校",
+   "sum": "サポート詐欺で職員のパソコンに遠隔操作ソフトが導入され、保存データにアクセスされた可能性があるとされる事案。",
+   "src": [
+    [
+     "セキュリティ対策Lab（5月まとめ）",
+     "https://rocket-boys.co.jp/?p=34276"
+    ]
+   ],
+   "pendingReason": "Web検索の上限に達し、公式発表を検索・取得できなかった。情報はセキュリティ対策Labの5月まとめ記事のみによる。"
+  },
+  {
+   "id": "thcu-medica-2605",
+   "co": "東京医療保健大学（委託先 メディカ出版）",
+   "cause": "cyber",
+   "date": "2026-05-27",
+   "n": null,
+   "ind": "大学・学校",
+   "sum": "メディカ出版へのランサムウェア攻撃で、同大学関係者の個人情報が漏えいした可能性があるとされる事案（まとめ記事内で公表日が5/27と5/28で揺れている）。",
+   "src": [
+    [
+     "セキュリティ対策Lab（5月まとめ）",
+     "https://rocket-boys.co.jp/?p=34276"
+    ]
+   ],
+   "pendingReason": "Web検索の上限に達し、公式発表を検索・取得できなかった。情報はセキュリティ対策Labの5月まとめ記事のみによる。"
+  },
+  {
+   "id": "tomamin-sns-2606",
+   "co": "苫小牧民報社",
+   "date": "2026-06-15",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "ind": "メディア・出版",
+   "sum": "記者が個人情報を含む警察発表文書の一部を私用SNSに投稿した事案。",
+   "official": [
+    [
+     "おわび 本社記者自身のSNSに個人情報",
+     "https://www.tomamin.co.jp/archives/300006"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/06/26/55584.html"
+    ]
+   ],
+   "pendingReason": "公式発表ページは有料会員向け表示で本文が読めず、件数・内容を照合できない。"
+  },
+  {
+   "id": "kaizen-tech-agent-2606",
+   "co": "Kaizen Tech Agent",
+   "date": "2026-06-10",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "ind": "通信・IT",
+   "sum": "元従業員が社内情報を不正取得し社外に持ち出した可能性がある事案。",
+   "official": [
+    [
+     "個人情報の漏洩の疑いに関するご報告とお詫び",
+     "https://kaizentech.co.jp/5388/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/06/23/55550.html"
+    ]
+   ],
+   "pendingReason": "公式発表（kaizentech.co.jp）をWebFetchで2回開こうとしたが取得エラーで開けず、件数・項目を照合できない。"
+  },
+  {
+   "id": "haicheese-photo-2606",
+   "co": "千株式会社（はいチーズ！フォト）",
+   "date": "2026-06-05",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "c",
+   "ind": "生活サービス・レジャー",
+   "sum": "写真サービスへの不正アクセスで一部顧客の個人情報が漏えいした事案。",
+   "official": [
+    [
+     "お知らせ",
+     "https://8122.jp/lp/news"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/06/19/55532.html"
+    ]
+   ],
+   "pendingReason": "公式発表（8122.jp）をWebFetchで2回開こうとしたが取得エラーで開けず、件数・項目を照合できない。"
+  },
+  {
+   "id": "hokkaido-mc-hdd-2606",
+   "co": "国立病院機構 北海道医療センター",
+   "date": "2026-06-08",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "st": "p",
+   "ind": "病院・医療",
+   "n": 170000,
+   "label": "約17万名（延べ約176万件）",
+   "sum": "電子カルテ更新に伴い廃棄を委託した端末のハードディスクが破砕されないまま外部に流通し、患者情報が含まれていた事案。",
+   "official": [
+    [
+     "【重要】個人情報の取扱いに関するお詫びとご報告（2026/6/8）",
+     "https://hokkaido-mc.hosp.go.jp/common/img/index/202608.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/06/19/55534.html"
+    ]
+   ],
+   "pendingReason": "公式PDFは「以前の公表値は上限の推計」と記すなど、より後の更新版の可能性があり、初回公表日・件数（検索では最大約51万人の報道もあり）が食い違うため確定できない。7月以降の続報で拾われる可能性あり。"
+  },
+  {
+   "id": "meruhaikun-2606",
+   "co": "ディライトフル（メール配信システム「める配くん」）",
+   "date": "2026-06-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "ind": "通信・IT",
+   "sum": "メール配信システムの一部サーバーに不正アクセスがあり、情報漏えいとみられる痕跡が確認された事案。",
+   "official": [
+    [
+     "お知らせ",
+     "https://www.meruhaikun.com/blog/?page_id=3197"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/02/55619.html"
+    ]
+   ],
+   "pendingReason": "公式発表（meruhaikun.com）をWebFetchで開こうとしたが取得エラーで、件数・項目を照合できない。"
+  },
+  {
+   "id": "tabiq-reqrea-2606",
+   "co": "リクリエ（電子チェックインシステム「Tabiq」）",
+   "date": "2026-06-30",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "st": "p",
+   "ind": "通信・IT",
+   "n": 1060338,
+   "label": "1,060,338人分の本人確認書類画像",
+   "items": [
+    "doc"
+   ],
+   "sum": "Amazon S3の設定不備により、宿泊者の本人確認書類画像が外部からアクセス可能な状態だった事案。",
+   "official": [
+    [
+     "「Tabiq」における個人情報の取り扱いに関するお知らせとお詫び",
+     "https://reqrea.co.jp/news/news-1873/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/14/55694.html"
+    ]
+   ],
+   "pendingReason": "公式発表（reqrea.co.jp）をWebFetchで開こうとしたが取得エラーで、件数・内容を照合できない。"
+  },
+  {
+   "id": "reprowork-hdd-2606",
+   "co": "リプロワーク（北海道がんセンター・北海道医療センターの廃棄OA機器）",
+   "date": "2026-06-09",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "ind": "人材・教育・業務支援",
+   "sum": "廃棄委託を受けたOA機器のハードディスクが破壊されないままオークションに出品された事案。北海道医療センターの件と同一事案で、北海道がんセンター側の患者情報を含む可能性。",
+   "official": [
+    [
+     "【重要】個人情報の取扱いに関するご報告とお詫び",
+     "http://www.reprowork.com/wpc/wp-content/uploads/2026/06/5888a1af3e2d274a353339ee1438c28c.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/09/55666.html"
+    ]
+   ],
+   "pendingReason": "公式PDFがrobots制限で開けず、件数・内容を照合できない。北海道医療センター（hokkaido-mc-hdd-2606）と重複する可能性があり要統合。"
+  },
+  {
+   "id": "nochubank-ja-sapporo-2606",
+   "co": "農林中央金庫（JAさっぽろ組合員・利用者）",
+   "date": "2026-06-30",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "st": "c",
+   "ind": "金融・保険",
+   "n": 3176,
+   "label": "3,176件",
+   "sum": "システム改修テストで本番データを関係団体と委託先へ誤提供した事案。",
+   "official": [
+    [
+     "当金庫が取り扱うＪＡさっぽろの組合員・利用者の皆様の個人情報漏えい事案の発生について（お詫び）",
+     "https://www.nochubank.or.jp/news/news_release/2026/post-1110.html"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/14/55695.html"
+    ]
+   ],
+   "pendingReason": "公式ページには題名のみで本文はPDF。PDFのURLが長すぎてWebFetchが拒否（403）し、件数・項目を公式で照合できない。"
+  },
+  {
+   "id": "hakodate-insider-2606",
+   "co": "函館市（市民部職員による同僚PCからの個人情報持ち出し）",
+   "date": "2026-06-22",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "ind": "公共機関",
+   "sum": "職員が同僚のPCに無断でログインして個人情報を持ち出し、一部を市関連施設に送付して外部に漏えいさせたとして停職処分となった事案。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hakodate-city-insider-threat-unauthorized-access/"
+    ]
+   ],
+   "pendingReason": "函館市の公式発表のURLを特定できず、件数・項目を照合できない（報道ベースのみ）。"
+  },
+  {
+   "id": "jahmc-iwate-2606",
+   "co": "日本医業経営コンサルタント協会（岩手県支部）",
+   "date": "2026-06-04",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "p",
+   "ind": "団体",
+   "sum": "メールアカウントへの不正アクセスにより顧客の個人情報（メールアドレスなど）が流出した可能性があるとされる事案。",
+   "official": [
+    [
+     "不正アクセスによる個人情報流出の可能性に関するお詫びとご報告（2026/6/4）",
+     "https://www.jahmc.or.jp/topics/jahmc_news/"
+    ]
+   ],
+   "src": [
+    [
+     "Security NEXT",
+     "https://www.security-next.com/186137"
+    ]
+   ],
+   "pendingReason": "公式サイト（jahmc.or.jp）をWebFetchで開けず（取得エラー）、公式発表の本文を照合できない。"
+  },
+  {
+   "id": "actsen-2606",
+   "co": "アクト・セン（作業管理システムのサーバー）",
+   "date": "2026-06-15",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア",
+    "不正アクセス"
+   ],
+   "st": "p",
+   "sum": "作業管理システムのサーバーが不正アクセスを受け、個人情報が漏えいした可能性があるとされる事案。",
+   "official": [
+    [
+     "個人情報漏えいの可能性に関するお知らせとお詫び（2026/6/15）",
+     "https://act1000.jp/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab（月次まとめ）",
+     "https://unitis.jp/articles/23014/"
+    ]
+   ],
+   "pendingReason": "公式PDFのURLが長すぎてWebFetchが拒否（403）、トップページにも掲載がなく、本文を照合できない。組織名の正式名称も未確認。"
+  },
+  {
+   "id": "k9-natural-2607",
+   "co": "K9ナチュラルジャパン",
+   "date": "2026-07-14",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "c",
+   "ind": "小売・EC",
+   "who": [
+    "cust"
+   ],
+   "sum": "オンラインサービスを管理するサーバへの外部からの不正アクセスで、顧客情報の一部が流出（警視庁の連絡で発覚）。",
+   "official": [
+    [
+     "不正アクセスによるお客様情報流出に関するお詫びとお願い（2026/7/14）",
+     "https://www.k9natural.jp/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/31/55835.html"
+    ]
+   ],
+   "pendingReason": "公式発表の個別ページURLが長すぎてWebFetchが403（url exceeds maximum length）となり本文を開けず、件数・項目を照合できない（別手段での取得はしていない）"
+  },
+  {
+   "id": "weleda-japan-2607",
+   "co": "ヴェレダ・ジャパン（公式オンラインショップ）",
+   "date": "2026-07-03",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "p",
+   "ind": "小売・EC",
+   "who": [
+    "cust"
+   ],
+   "sum": "公式オンラインショップのシステムが第三者の不正アクセスで侵害され、個人情報の一部流出が懸念されクレジットカード決済を停止。",
+   "official": [
+    [
+     "不正アクセスによるシステム侵害発生のお詫び（URL上は2026/7/3）",
+     "https://www.weleda.jp/news_20260703"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/27/55784.html"
+    ]
+   ],
+   "pendingReason": "公式ページ本文に公表日・件数・項目の記載がなく（記事は7/8、URLは0703）、初回公表日と内容を公式で照合できない"
+  },
+  {
+   "id": "sagawa-smartclub-2607",
+   "co": "佐川急便（スマートクラブ）",
+   "date": "2026-07-19",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "st": "c",
+   "ind": "運輸・交通",
+   "who": [
+    "cust"
+   ],
+   "sum": "会員サービスのシステム不具合で、配達予定通知メールの一部に本来と異なる顧客の氏名・メールアドレス・送り状番号が表示された（記事による）。",
+   "official": [
+    [
+     "スマートクラブにおける個人情報漏えいに関するお詫びとお知らせ",
+     "https://www2.sagawa-exp.co.jp/information/detail/404/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/22/55750.html"
+    ]
+   ],
+   "pendingReason": "公式発表のWebFetchが取得エラー（CLIENT_ERROR）で開けず、件数・項目を照合できない（別手段での取得はしていない）"
+  },
+  {
+   "id": "meitetsu-kyosho-2607",
+   "co": "名鉄協商",
+   "date": "2026-07-02",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "st": "p",
+   "ind": "運輸・交通",
+   "who": [
+    "unk"
+   ],
+   "sum": "ランサムウェアによる不正アクセスで各種Webサイトのシステム障害が発生し、個人・法人向けサービスの一部が停止（記事による）。",
+   "official": [
+    [
+     "不正アクセスによるシステム障害発生に関するお知らせ（第1報）（2026/7/2）",
+     "https://www.mkyosho.co.jp/news/2026/07/02/13-726/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/31/55831.html"
+    ]
+   ],
+   "pendingReason": "公式ページの本文が取得できず（タイトルのみ）、個人情報漏えいの有無・件数を照合できない"
+  },
+  {
+   "id": "kyushu-kyuko-bus-2607",
+   "co": "九州急行バス（予約情報の不正使用）",
+   "date": "2026-07-06",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "st": "c",
+   "ind": "運輸・交通",
+   "who": [
+    "cust"
+   ],
+   "sum": "高速バスの運転士が運行管理者を通じて予約データを取得し、顧客に私的なSMSを送った（記事による）。",
+   "official": [
+    [
+     "個人情報不正使用事案について",
+     "https://kyushugo.co.jp/posts/30176"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/14/55697.html"
+    ]
+   ],
+   "pendingReason": "公式発表のWebFetchが取得エラー（CLIENT_ERROR）で開けず、対象人数・項目を照合できない（別手段での取得はしていない）"
+  },
+  {
+   "id": "abc-group-i-nex-2607",
+   "co": "朝日放送テレビ（グループ会社アイネックス経由の受託情報）",
+   "date": "2026-07-01",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "st": "p",
+   "ind": "メディア・出版",
+   "who": [
+    "unk"
+   ],
+   "sum": "グループ会社の不正アクセスに伴い、朝日放送テレビの委託情報が漏えいした可能性があるとされる。",
+   "official": [
+    [
+     "グループ会社における不正アクセスに伴う当社委託情報の漏えいの可能性について",
+     "https://corp.asahi.co.jp/Portals/0/data/pdf/news/NR20260701TV_infomationunauthorizedaccess.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/13/55687.html"
+    ]
+   ],
+   "pendingReason": "公式PDFがWebFetchでSITE_BLOCKEDとなり開けない（別手段での取得はしていない）。アイネックスの発表は別途verifiedとして登録済みで重複の可能性あり"
+  },
+  {
+   "id": "sinto-world-2607",
+   "co": "シントワールド（通販サイト）",
+   "date": "2026-07-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "st": "p",
+   "ind": "小売・EC",
+   "who": [
+    "unk"
+   ],
+   "sum": "通販サイトで第三者の不正アクセスの可能性がある事象を確認し一部機能を制限。個人情報への影響は未確定。",
+   "official": [
+    [
+     "不正アクセスによるシステム侵害発生のお詫びとお知らせ（2026/7/6）",
+     "https://sintoworld.co.jp/news/news-235/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/07/31/55832.html"
+    ]
+   ],
+   "pendingReason": "公式発表は開けたが、個人情報への影響の有無・範囲が確定しておらず漏えい事案として照合できない"
+  },
+  {
+   "co": "共同通信社",
+   "date": "2026-08-05",
+   "pendingReason": "公式ページ(kyodonews.jp)がWebFetchでブロックされ照合不可。報道では約6,000件のメール関連情報",
+   "id": "pending-323"
+  },
+  {
+   "co": "イエローハット",
+   "date": "2026-08-28",
+   "pendingReason": "公式ページ(yellowhat.jp)がWebFetchでエラー。TDnet経由の確認を別途試行",
+   "id": "pending-324"
+  },
+  {
+   "co": "マルキユー（ECサイト）",
+   "date": "2026-08-05",
+   "pendingReason": "公式ページ(marukyu-shop.co.jp)がWebFetchでエラーとなり照合不可",
+   "id": "pending-325"
+  },
+  {
+   "co": "満果惣（ECサイト）",
+   "date": "2026-08-05",
+   "pendingReason": "公式ページ(mankaso.jp/hpgen/...)がメンテナンス表示で照合不可",
+   "id": "pending-326"
+  },
+  {
+   "co": "大仙",
+   "date": "2026-08-03",
+   "pendingReason": "公式発表は不正アクセスとマルウェア感染のみで、個人情報の漏えい（可能性）に触れていないため対象外の可能性",
+   "id": "pending-327"
+  },
+  {
+   "co": "赤武エンジニアリング",
+   "date": "2026-08-13",
+   "pendingReason": "ランサムウェア被害の第1報。個人情報の流出は調査中で漏えい(可能性)の記載が確認できない",
+   "id": "pending-328"
+  },
+  {
+   "co": "まんだらけ",
+   "date": "2026-08-30",
+   "pendingReason": "公式ページがメンテナンス表示のみで、漏えい内容を照合できず",
+   "id": "pending-329"
+  },
+  {
+   "co": "静岡県長泉町（職員による廃棄予定文書の持ち帰り）",
+   "date": "2026-08-25",
+   "pendingReason": "町の懲戒処分公表(PDF)は確認したが、文書に個人情報が含まれたものの漏えいは確認されておらず、件数も「大量」のみ。対象に含めるか判断が必要",
+   "id": "pending-330"
+  },
+  {
+   "co": "01銀行",
+   "date": "2026-08-27",
+   "pendingReason": "公式PDF(01bank.co.jp/news/pdf/2026/0827.pdf)がWebFetchでエラーとなり照合不可。報道では最大100社分の識別情報とメールアドレス",
+   "id": "pending-331"
+  },
+  {
+   "co": "大阪公立大学医学部附属病院",
+   "date": "2026-08-12",
+   "pendingReason": "公式ページがWebFetchでリダイレクトされ内容を確認できず。報道ではX線画像13枚（委託業者による撮影・持ち出し）",
+   "id": "pending-332"
+  },
+  {
+   "co": "一正蒲鉾（社員のメールアカウント）",
+   "date": "2026-08-06",
+   "pendingReason": "公式PDF(xj-storage)がrobotsで開けず照合不可。報道では取引先・社員の連絡先が閲覧された可能性、外部596アドレスへ連絡",
+   "id": "pending-333"
+  },
+  {
+   "id": "rohto-2609",
+   "co": "ロート製薬（通販システム）",
+   "date": "2026-09-11",
+   "cause": "cyber",
+   "pendingReason": "公式発表（9/11）は不正アクセスの可能性のみで、個人情報の漏えいに触れていない。件数・項目なし。続報で漏えいが出れば対象",
+   "official": [
+    [
+     "公式発表",
+     "https://www.rohto.co.jp/news/whatsnew/2026/0911_01"
+    ]
+   ]
+  },
+  {
+   "id": "saga-univ-2609",
+   "co": "佐賀大学",
+   "date": "2026-09-25",
+   "cause": "cyber",
+   "pendingReason": "公式発表はNASのランサムウェア被害の疑いのみで、個人情報の漏えいに触れていない",
+   "official": [
+    [
+     "公式発表",
+     "https://www.saga-u.ac.jp/koho/press/2026092541515"
+    ]
+   ]
+  },
+  {
+   "id": "kansai-intl-univ-2609",
+   "co": "関西国際大学",
+   "date": "2026-09-30",
+   "cause": "cyber",
+   "pendingReason": "公式発表は不正アクセス確認のみで、情報漏えいの有無は調査中（漏えいに触れていない）",
+   "official": [
+    [
+     "公式発表",
+     "https://www.kuins.ac.jp/news/2026/09/post_1448.html"
+    ]
+   ]
+  },
+  {
+   "id": "ikegami-2609",
+   "co": "池上通信機",
+   "date": "2026-09-24",
+   "cause": "cyber",
+   "pendingReason": "公式発表はサイバー攻撃の可能性を確認中とするのみで、個人情報の漏えいの記載なし",
+   "official": [
+    [
+     "公式発表",
+     "https://www.ikegami.co.jp/news/detail/571/"
+    ]
+   ]
+  },
+  {
+   "id": "japanpost-intl-form-2609",
+   "co": "日本郵便（国際郵便調査請求Web受付）",
+   "date": "2026-09-25",
+   "cause": "cyber",
+   "pendingReason": "公式発表は不正アクセスの可能性と受付停止のみで、漏えい・件数・項目の記載なし",
+   "official": [
+    [
+     "公式発表",
+     "https://www.post.japanpost.jp/newsrelease/pressrelease/6267689171.html"
+    ]
+   ]
+  },
+  {
+   "id": "halmek-up-2609",
+   "co": "ハルメク（HALMEK up管理画面）",
+   "date": "2026-09-11",
+   "cause": "cyber",
+   "pendingReason": "公式発表は管理画面への不正アクセスで、顧客情報へのアクセスはログ上確認されていないとし、漏えいに触れていない",
+   "official": [
+    [
+     "公式発表",
+     "https://halmek.co.jp/topics/c/notice/17311"
+    ]
+   ]
+  },
+  {
+   "id": "daiko-next-link-2609",
+   "co": "DAIKO NEXT LINK",
+   "date": "",
+   "cause": "cyber",
+   "pendingReason": "公式発表（メールアカウント関連）が WebFetch で開けず照合できない",
+   "official": [
+    [
+     "公式発表",
+     "https://www.daiko-xtech.co.jp/group/dnl/news/p/854/"
+    ]
+   ]
+  },
+  {
+   "id": "healing-paper-2609",
+   "co": "Healing Paper（Unni・カンナムオンニ）",
+   "date": "2026-09-10",
+   "cause": "cyber",
+   "pendingReason": "韓国本社のサービスで国内組織か判断できず、公式発表（PR TIMES）に漏えい項目の記載がない。初回は9/7の利用者通知",
+   "official": [
+    [
+     "公式発表",
+     "https://prtimes.jp/main/html/rd/p/000000015.000063010.html"
+    ]
+   ]
+  },
+  {
+   "id": "keioplaza-2609",
+   "co": "京王プラザホテル（京王電鉄グループ）",
+   "date": "2026-09-26",
+   "cause": "cyber",
+   "pendingReason": "公式発表はランサムウェア被害で、漏えいは現時点で確認できていないとのみ記載",
+   "official": [
+    [
+     "公式発表",
+     "https://www.keioplaza.co.jp/news/45681/"
+    ]
+   ]
+  },
+  {
+   "id": "hana-hotel-temairazu-2609",
+   "co": "リゾート花湯の森（TEMAIRAZU）",
+   "date": "2026-09-29",
+   "cause": "cyber",
+   "pendingReason": "TEMAIRAZU経由の同種事案。ホテル別の発表の内容照合が不十分（事業者発表は手間いらず側で記録済み）",
+   "official": [
+    [
+     "公式発表",
+     "https://hana-hotel.com/news/infotmation/695.html"
+    ]
+   ]
+  },
+  {
+   "id": "yamato-atobarai-2609",
+   "co": "ヤマトホールディングス（クロネコ掛け払い）",
+   "date": "2026-09-29",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "公式発表に項目の記載なし",
+   "notIncl": "",
+   "sum": "後払いサービス「クロネコ掛け払い」に第三者の不正アクセスがあり、9/28に確認してサービスを停止した。個人情報の漏えいの可能性があり、範囲を調査中。",
+   "src": [
+    [
+     "ヤマトホールディングス",
+     "https://www.yamato-hd.co.jp/important/info_260929_1.html"
+    ]
+   ],
+   "statusText": "不正アクセスは確認、漏えいは可能性の段階。件数・項目は未公表。",
+   "resp": "サービスを停止し、10/9に再開。9/28以降の請求の支払期限を17日延長。不審なメール・SMSへの注意を呼びかけ、専門家と調査中。",
+   "official": [
+    [
+     "クロネコ掛け払いへの不正アクセスについて（2026/9/29）",
+     "https://www.yamato-hd.co.jp/important/info_260929_1.html"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-69-5090",
+      "hours": "平日9〜18時（加盟店向け）"
+     },
+     {
+      "tel": "0570-666-775",
+      "hours": "平日9〜18時（利用者向け）"
+     }
+    ],
+    "mails": [
+     "payment@kuronekoyamato.co.jp",
+     "scmail2@kuronekoyamato.co.jp"
+    ],
+    "note": "決済カスタマーサービスセンター",
+    "src": "https://www.yamato-hd.co.jp/important/info_260929_1.html"
+   },
+   "who": [
+    "unk"
+   ],
+   "status": "ongoing",
+   "pendingReason": "items（漏えい項目）が空で、公式発表から項目を確定できていないため保留"
+  },
+  {
+   "id": "unirita-2609",
+   "co": "ユニリタ",
+   "date": "2026-09-29",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "機密情報・顧客関連情報が含まれる可能性（具体項目は未記載）",
+   "notIncl": "",
+   "sum": "社内の文書管理システムへの不正アクセスと情報窃取を確認。窃取を主張するサイトが9/28に見つかり、他システムへの影響を調査している。",
+   "src": [
+    [
+     "ユニリタ",
+     "https://www.unirita.co.jp/news/2026/media_20260929.html"
+    ]
+   ],
+   "statusText": "情報窃取の疑い。個人情報の有無・件数は調査中。",
+   "resp": "アクセスを遮断し、外部専門家と原因・範囲を調査。新事実は速やかに公表予定。",
+   "official": [
+    [
+     "当社システムへの不正アクセスについて（2026/9/29）",
+     "https://www.unirita.co.jp/news/2026/media_20260929.html"
+    ]
+   ],
+   "ind": "通信・IT",
+   "contact": {
+    "mails": [
+     "ml-security2609@unirita.co.jp"
+    ],
+    "src": "https://www.unirita.co.jp/news/2026/media_20260929.html"
+   },
+   "who": [
+    "work",
+    "unk"
+   ],
+   "claim": "",
+   "status": "ongoing",
+   "pendingReason": "items（漏えい項目）が空で、公式発表から項目を確定できていないため保留"
+  },
+  {
+   "id": "quocard-line-2609",
+   "co": "クオカード（LINE公式アカウント キャンペーンシステム）",
+   "date": "2026-09-29",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中（一部のお客さま）",
+   "st": "p",
+   "items": [],
+   "itemsText": "LINE表示名、キャンペーン当選情報",
+   "notIncl": "決済情報、カード情報、口座情報は当該システムに保有していない",
+   "sum": "LINE公式アカウントのキャンペーン用システムに第三者が不正アクセスし、表示名と当選情報が閲覧・流出した可能性がある。",
+   "src": [
+    [
+     "ロケットボーイズ",
+     "https://rocket-boys.co.jp/?p=41766"
+    ]
+   ],
+   "statusText": "9/29時点で流出は可能性。対象者と範囲は調査中。",
+   "resp": "対象システムを特定して対策を実施。対象者が分かり次第、個別に連絡する。なりすまし連絡への注意を呼びかけ。",
+   "official": [
+    [
+     "LINE公式アカウント キャンペーンシステムへの不正アクセスに関するお詫びとお知らせ（2026/9/29）",
+     "https://www.quocard.com/newsroom/important/20260929/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "contact": {
+    "forms": [
+     [
+      "お客様相談室",
+      "https://www.quocard.com/contact/use/"
+     ]
+    ],
+    "note": "クオカード お客様相談室",
+    "src": "https://www.quocard.com/newsroom/important/20260929/"
+   },
+   "who": [
+    "cust"
+   ],
+   "status": "ongoing",
+   "pendingReason": "items（漏えい項目）が空で、公式発表から項目を確定できていないため保留"
+  },
+  {
+   "id": "temairazu-2609",
+   "co": "手間いらず（TEMAIRAZUシリーズ・宿泊予約管理システム）",
+   "date": "2026-09-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "宿泊者情報の一部（項目の詳細なし）",
+   "notIncl": "クレジットカード情報は取り扱っていない",
+   "sum": "宿泊施設向け予約管理システムに不正アクセスがあり、利用施設の宿泊者に不審なメッセージが送られた。宿泊者情報の一部が閲覧・取得された可能性がある。",
+   "src": [
+    [
+     "トラベルボイス",
+     "https://www.travelvoice.jp/20260929-160597"
+    ]
+   ],
+   "statusText": "9/28時点で不正アクセスは確認、情報の閲覧・取得は可能性。件数は未公表。",
+   "resp": "原因を特定し対策済み、停止機能は復旧。個人情報保護委員会と警察へ報告、外部専門機関が調査。施設にパスワード変更を依頼し、宿泊者へ不審メッセージへの注意を呼びかけ。",
+   "official": [
+    [
+     "TEMAIRAZUへの不正アクセスについて（2026/9/28）",
+     "https://www.temairazu.co.jp/pdf/1206/news-update"
+    ]
+   ],
+   "ind": "通信・IT",
+   "contact": {
+    "mails": [
+     "helpdesk@temairazu.com"
+    ],
+    "note": "緊急ヘルプデスク",
+    "src": "https://www.temairazu.co.jp/pdf/1206/news-update"
+   },
+   "who": [
+    "cust"
+   ],
+   "status": "ongoing",
+   "pendingReason": "items（漏えい項目）が空で、公式発表から項目を確定できていないため保留"
+  },
+  {
+   "id": "odawara-eng-2609",
+   "co": "小田原エンジニアリング（ドイツ子会社出向者のメール）",
+   "date": "2026-09-15",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 3500,
+   "label": "メール約3,500通",
+   "st": "c",
+   "items": [],
+   "itemsText": "取引先担当者との間のメール（過去分を含む）",
+   "notIncl": "機微な個人情報やカード情報は確認されていない",
+   "sum": "ドイツ子会社に出向中の社員のメールボックスに第三者が不正アクセスし、約3,500通を閲覧された。本人になりすまして支払いを指示するメールも送られ、取引先に金銭被害が出た。",
+   "src": [
+    [
+     "ロケットボーイズ",
+     "https://rocket-boys.co.jp/security-measures-lab/2026-09-ransomware-cases-summary/"
+    ]
+   ],
+   "statusText": "第一報。範囲は調査中で件数は変わりうる。",
+   "resp": "パスワード再設定、全セッション強制ログアウト、社外アクセスに多要素認証を必須化、日独の監督機関へ報告、取引先へ注意喚起。",
+   "official": [
+    [
+     "第一報（2026/9/15）",
+     "https://odawara-eng.co.jp/wp-content/uploads/2026/09/20260915.pdf"
+    ]
+   ],
+   "ind": "製造",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0465-83-1129",
+      "hours": "9〜17時"
+     }
+    ],
+    "mails": [
+     "dataprotection@odawara-eng.co.jp"
+    ],
+    "note": "管理部 総務グループ",
+    "src": "https://odawara-eng.co.jp/wp-content/uploads/2026/09/20260915.pdf"
+   },
+   "who": [
+    "biz"
+   ],
+   "status": "ongoing",
+   "pendingReason": "items（漏えい項目）が空で、公式発表から項目を確定できていないため保留"
+  },
+  {
+   "id": "maisen-applynow-2609",
+   "co": "井筒まい泉（委託先 ApplyNow）",
+   "date": "2026-09-25",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [],
+   "itemsText": "アルバイト応募者の個人情報（項目の詳細なし）",
+   "notIncl": "",
+   "sum": "アルバイト面接を管理する委託先ApplyNowの採用管理サービスに不正アクセスがあり、同社の応募者の個人情報が外部に漏れた。",
+   "src": [
+    [
+     "ロケットボーイズ",
+     "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/"
+    ]
+   ],
+   "statusText": "9/25時点で漏えいは確認、被害の全容は調査中。",
+   "resp": "委託先がアクセス遮断などの緊急対策を完了。委託先と連携してセキュリティと管理を強化する。",
+   "official": [
+    [
+     "お知らせ（2026/9/25）",
+     "https://mai-sen.com/news/2026/post-459.html"
+    ]
+   ],
+   "ind": "飲食",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-401-373",
+      "hours": "毎日9〜18時"
+     }
+    ],
+    "mails": [
+     "support_biz@applynow.co.jp"
+    ],
+    "note": "ApplyNow",
+    "src": "https://mai-sen.com/news/2026/post-459.html"
+   },
+   "who": [
+    "staff"
+   ],
+   "status": "ongoing",
+   "pendingReason": "items（漏えい項目）が空で、公式発表から項目を確定できていないため保留"
+  },
+  {
+   "id": "holonic-temairazu-2609",
+   "co": "ホロニック（運営宿泊施設・TEMAIRAZU）",
+   "date": "2026-09-29",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "宿泊予約情報の一部（項目の詳細なし）",
+   "notIncl": "クレジットカード情報は予約システムで取り扱っていない",
+   "sum": "利用する予約管理システム「TEMAIRAZU」への不正アクセスにより、宿泊者情報の一部が漏れた可能性がある。一部の宿泊者に不審なメッセージが届いた。",
+   "src": [
+    [
+     "ロケットボーイズ",
+     "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/"
+    ]
+   ],
+   "statusText": "流出は可能性。件数は未公表。",
+   "resp": "システム事業者と影響確認を進める。不審メッセージのリンクを開かない、カード情報を入力しないよう宿泊者に注意喚起。",
+   "official": [
+    [
+     "お知らせ（2026/9/29）",
+     "https://www.hol-onic.co.jp/news/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%BD%93%E7%A4%BE%E9%81%8B%E5%96%B6%E6%96%BD%E8%A8%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%BA%88%E7%B4%84%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "contact": {
+    "src": "https://www.hol-onic.co.jp/news/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%BD%93%E7%A4%BE%E9%81%8B%E5%96%B6%E6%96%BD%E8%A8%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%BA%88%E7%B4%84%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/",
+    "mails": [
+     "helpdesk@temairazu.com"
+    ],
+    "note": "各施設の窓口。手間いらず緊急対応デスクも案内"
+   },
+   "who": [
+    "cust"
+   ],
+   "status": "ongoing",
+   "pendingReason": "items（漏えい項目）が空で、公式発表から項目を確定できていないため保留"
+  },
+  {
+   "id": "kur-hotel-temairazu-2609",
+   "co": "クア・アンド・ホテル（TEMAIRAZU）",
+   "date": "2026-09-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "宿泊予約情報の一部（項目の詳細なし）",
+   "notIncl": "クレジットカード情報は予約システムで取り扱っていない",
+   "sum": "利用する予約管理システム「TEMAIRAZU」への不正アクセスにより、宿泊者情報の一部が漏れた可能性がある。一部の宿泊者に不審なメッセージが届いた。",
+   "src": [
+    [
+     "ロケットボーイズ",
+     "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/"
+    ]
+   ],
+   "statusText": "流出は可能性。件数は未公表。",
+   "resp": "システム事業者と影響確認を進める。不審メッセージのリンクを開かない、カード情報を入力しないよう宿泊者に注意喚起。",
+   "official": [
+    [
+     "お知らせ（2026/9/29）",
+     "https://www.kur-hotel.co.jp/news/attention2/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "contact": {
+    "src": "https://www.kur-hotel.co.jp/news/attention2/",
+    "note": "各施設の連絡先を案内"
+   },
+   "who": [
+    "cust"
+   ],
+   "status": "ongoing",
+   "pendingReason": "items（漏えい項目）が空で、公式発表から項目を確定できていないため保留"
+  },
+  {
+   "id": "nikken-hotel-temairazu-2609",
+   "co": "日建ホテルマネジメント（TEMAIRAZU）",
+   "date": "2026-09-29",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "宿泊予約情報の一部（項目の詳細なし）",
+   "notIncl": "クレジットカード情報は予約システムで取り扱っていない",
+   "sum": "利用する予約管理システム「TEMAIRAZU」への不正アクセスにより、宿泊者情報の一部が漏れた可能性がある。一部の宿泊者に不審なメッセージが届いた。",
+   "src": [
+    [
+     "ロケットボーイズ",
+     "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/"
+    ]
+   ],
+   "statusText": "流出は可能性。件数は未公表。",
+   "resp": "システム事業者と影響確認を進める。不審メッセージのリンクを開かない、カード情報を入力しないよう宿泊者に注意喚起。",
+   "official": [
+    [
+     "お知らせ（2026/9/29）",
+     "https://nikken-hotelmgt.co.jp/ueno/2026/09/29/news_2026_09/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "contact": {
+    "src": "https://nikken-hotelmgt.co.jp/ueno/2026/09/29/news_2026_09/",
+    "tels": [
+     {
+      "tel": "0980-74-7500",
+      "hours": "9〜18時"
+     }
+    ]
+   },
+   "who": [
+    "cust"
+   ],
+   "status": "ongoing",
+   "pendingReason": "items（漏えい項目）が空で、公式発表から項目を確定できていないため保留"
+  },
+  {
+   "co": "スカラ（子会社 スカラコミュニケーションズ i-ask）",
+   "date": "2026-10-06",
+   "pendingReason": "既存のシチズン時計・大和証券（委託先スカラコミュニケーションズ）と同一事案の可能性が高く、重複判断のため追加せず保留。公式発表(scalagrp.jp)は確認済み：最大713,126件",
+   "id": "pending-353"
+  },
+  {
+   "co": "ブックオフ",
+   "date": "2026-10-09",
+   "pendingReason": "公式お知らせ本文が画像のみ(20261009.png)で、件数・項目を読めず照合不可",
+   "id": "pending-354"
+  },
+  {
+   "co": "NewsPicks",
+   "date": "2026-10-08",
+   "pendingReason": "第二報(10/9)の本文が画像等で取得できず、第一報(10/8)のURL・内容も未確認",
+   "id": "pending-355"
+  },
+  {
+   "co": "関西国際大学（e-ポートフォリオ）",
+   "date": "2026-10-06",
+   "pendingReason": "取得できたのは【第2報】(10/6)のみで、初回公表日が10月か不明。件数も調査中",
+   "id": "pending-356"
+  },
+  {
+   "co": "修道学園（広島修道大学）",
+   "date": "2026-10-08",
+   "pendingReason": "取得できたのは第2報(10/8)のみで、初回公表日・事案内容・件数が確認できない",
+   "id": "pending-357"
+  },
+  {
+   "co": "IDCF（IDCFクラウド）",
+   "date": "2026-10-08",
+   "pendingReason": "ランサムウェア被害の報道(piyolog)のみで、公式発表を開けておらず個人情報漏えいの有無も未確認",
+   "id": "pending-358"
   }
  ]
 }
