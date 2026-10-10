@@ -1,0 +1,353 @@
+[
+ {
+  "id": "designphil-2608",
+  "co": "デザインフィル（ミドリオンラインストア等・ショップサーブ）",
+  "date": "2026-08-03",
+  "label": "調査中",
+  "n": null,
+  "itemsText": "氏名、住所、電話・FAX番号、メールアドレス、勤務先、会員ID・暗号化パスワード、カード名義・カード番号の上6桁と下4桁・有効期限",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "不正アクセスによる個人情報流出のお詫びとお知らせ（2026/8/3）",
+    "https://www.designphil.co.jp/information/news/entry-8739/"
+   ]
+  ]
+ },
+ {
+  "id": "yamagata-pref-ycc",
+  "co": "山形県（委託先 YCC情報システム）",
+  "date": "2026-04-17",
+  "label": "約2万6,800件",
+  "n": 26800,
+  "itemsText": "職員の健康管理情報、退職手当の債権者登録、看護師等の業務従事者届、新庄病院の入院患者名簿、こども医療療育センターの診療情報、移住相談データベース",
+  "who": [
+   "staff",
+   "cust"
+  ],
+  "official": [
+   [
+    "県委託事業者へのサイバー攻撃について（2026/4/17）",
+    "https://www.pref.yamagata.jp/020023/johokokai/yccpress.html"
+   ],
+   [
+    "報道発表資料（2026/4/17）",
+    "https://www.pref.yamagata.jp/documents/51972/080417yccpress.pdf"
+   ],
+   [
+    "株式会社YCC情報システムが保管していた県保有個人情報について（2026/6/1更新）",
+    "https://www.pref.yamagata.jp/020023/johokokai/ycckojinnjouhou.html"
+   ]
+  ]
+ },
+ {
+  "id": "gendai-butsudan-2606",
+  "co": "現代仏壇（親会社 はせがわ）",
+  "date": "2026-06-19",
+  "label": "調査中",
+  "n": null,
+  "itemsText": "サーバーに保存されていた個人情報（具体的項目の記載なし）",
+  "who": [
+   "unk"
+  ],
+  "official": [
+   [
+    "不正アクセスによる個人情報漏えいの可能性に関するお知らせ（初報）（2026/6/19）",
+    "https://www.ec-gendaibutsudan.com/view/news/20260619190311"
+   ]
+  ]
+ },
+ {
+  "id": "edogawa-newhire-mail-2609",
+  "co": "江戸川区",
+  "date": "2026-09-24",
+  "label": "96人",
+  "n": 96,
+  "itemsText": "メールアドレス",
+  "who": [
+   "staff"
+  ],
+  "official": [
+   [
+    "メール誤送信による個人情報の流出（2026/9/24）",
+    "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/09/0924.html"
+   ]
+  ]
+ },
+ {
+  "id": "ppih-accretive-2510",
+  "co": "パン・パシフィック・インターナショナルホールディングス（委託先 アクリーティブ）",
+  "date": "2025-10-10",
+  "label": "件数の記載なし",
+  "n": null,
+  "itemsText": "顧客：氏名（屋号）、住所、電話番号、支払い口座を含む取引情報／従業員：氏名、部署名",
+  "who": [
+   "biz",
+   "staff"
+  ],
+  "official": [
+   [
+    "不正アクセス被害に関するお知らせ（2025/10/10）",
+    "https://ppih.co.jp/news/pdf/a2cad874113eb6dcf61a8dd5183bbc4d.pdf"
+   ]
+  ]
+ },
+ {
+  "id": "charm-2608",
+  "co": "チャーム（チャーム本店）",
+  "date": "2026-08-13",
+  "label": "約23万件",
+  "n": 230000,
+  "itemsText": "氏名、住所、電話・FAX番号、生年月日、性別、メールアドレス、ポイント残高、顧客対応記録、パスワードのハッシュ値",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "不正アクセスに関するお知らせ（2026/8/13）",
+    "https://charm.co.jp/honten/info/notice/20260813.html"
+   ]
+  ]
+ },
+ {
+  "id": "it-hiroshima-2511",
+  "co": "広島工業大学（学校法人鶴学園）",
+  "date": "2025-11-12",
+  "label": "人数の記載なし",
+  "n": null,
+  "itemsText": "ユーザーID、氏名、メールアドレス、暗号化されたパスワード",
+  "who": [
+   "cust",
+   "staff"
+  ],
+  "official": [
+   [
+    "サイバー攻撃による情報漏洩の可能性に関するお詫びとお知らせ（2025/11/12）",
+    "https://www.it-hiroshima.ac.jp/news/2025/11/post-2319.html"
+   ]
+  ]
+ },
+ {
+  "id": "kanagawa-iryo-kikaku-2510",
+  "co": "神奈川県（健康医療局 医療企画課）",
+  "date": "2025-10-07",
+  "label": "27件",
+  "n": 27,
+  "itemsText": "会議構成員等のメールアドレス",
+  "who": [
+   "biz"
+  ],
+  "official": [
+   [
+    "医療企画課におけるメールアドレスの流出について（2025/10/7）",
+    "https://www.pref.kanagawa.jp/docs/f6z/prs/r5150689.html"
+   ]
+  ]
+ },
+ {
+  "id": "media4u-sms-2607",
+  "co": "メディア4u（SMS配信システム）",
+  "date": "2026-07-14",
+  "label": "精査対象22,928件（総レコード95,412件）",
+  "n": 22928,
+  "itemsText": "管理コンソールのアカウントID、企業名／営業所名、担当者名、都道府県・郵便番号、通知用メールアドレスなど",
+  "who": [
+   "biz"
+  ],
+  "official": [
+   [
+    "SMS配信システムへの不正アクセスに関するお詫びとお知らせ（2026/7/14）",
+    "https://www.media4u.co.jp/news/3351"
+   ]
+  ]
+ },
+ {
+  "id": "kankyo-kiki-2608",
+  "co": "環境機器（虫退治ドットコム）",
+  "date": "2026-08-22",
+  "label": "15人",
+  "n": 15,
+  "itemsText": "全員：氏名、住所、電話番号、メールアドレス、注文情報。カード利用の6人：カード番号、有効期限、セキュリティコード、名義人",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "お客様情報漏えいの可能性に関するお詫びとお知らせ（2026/8/22）",
+    "https://www.semco.net/news/detail/12790"
+   ]
+  ]
+ },
+ {
+  "id": "unimat-life-2607",
+  "co": "ユニマットライフ",
+  "date": "2026-07-03",
+  "label": "126,947件",
+  "n": 126947,
+  "itemsText": "氏名、住所、電話番号、メールアドレス、会社名（勤務先）",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "個人情報漏えいに関するお詫びとお知らせ（2026/7/3）",
+    "https://www.unimat-life.co.jp/pages/news/333"
+   ]
+  ]
+ },
+ {
+  "id": "resorts-ryukyu-sansui-2510",
+  "co": "リゾーツ琉球（HOTEL SANSUI NAHA）",
+  "date": "2025-10-02",
+  "label": "件数の記載なし",
+  "n": null,
+  "itemsText": "宿泊日、氏名、メールアドレス（Booking.com経由の予約を除く）、宿泊料金",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "予約情報の漏えい可能性に関するお知らせ（2025/10/2）",
+    "https://www.resorts.co.jp/sansuinaha/news_detail?actual_object_id=26447"
+   ]
+  ]
+ },
+ {
+  "id": "berlitz-flex-2511",
+  "co": "ベルリッツ（オンラインコース Flex）",
+  "date": "2025-11-25",
+  "label": "人数の記載なし",
+  "n": null,
+  "itemsText": "顧客のメールアドレス",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "お知らせ（2025/11/25）",
+    "https://www.berlitz.com/ja-jp/news/251125"
+   ]
+  ]
+ },
+ {
+  "id": "kawamoto-2512",
+  "co": "川本製作所（Webサイトのお問い合わせフォーム）",
+  "date": "2025-12-18",
+  "label": "2,545件",
+  "n": 2545,
+  "itemsText": "お問い合わせフォームに2017年2月〜2019年5月に入力された情報の一部（項目の明記なし）",
+  "who": [
+   "unk"
+  ],
+  "official": [
+   [
+    "お知らせとお詫び（2025/12/18）",
+    "https://www.kawamoto.co.jp/news/index.php?id=144"
+   ]
+  ]
+ },
+ {
+  "id": "kanhokyo-2512",
+  "co": "広島県環境保健協会（委託先 日本EDD認証推進協議会）",
+  "date": "2025-12-19",
+  "label": "不明（件数の記載なし）",
+  "n": null,
+  "itemsText": "電子署名を付与した水質検査などの成績書の一部",
+  "who": [
+   "work"
+  ],
+  "official": [
+   [
+    "お知らせ（2025/12/19）",
+    "https://www.kanhokyo.or.jp/?p=11761"
+   ]
+  ]
+ },
+ {
+  "id": "jc-web-2606",
+  "co": "日中経済協会",
+  "date": "2026-06-05",
+  "label": "不審メール565件（個人情報は調査中）",
+  "n": null,
+  "itemsText": "職員のメールアカウント内に保存されていた個人情報（項目の記載なし）",
+  "who": [
+   "unk"
+  ],
+  "official": [
+   [
+    "【事案報告】不正アクセスによるメール発信に関するお詫びとご報告（2026/6/5）",
+    "https://www.jc-web.or.jp/pages/2230/"
+   ]
+  ]
+ },
+ {
+  "id": "osaka-jhs-sdcard-2510",
+  "co": "大阪市（市立中学校の私物SDカード紛失）",
+  "date": "2025-10-31",
+  "label": "最大195名",
+  "n": 195,
+  "itemsText": "校外学習等の生徒の写真データ",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "私物SDカード紛失に関する発表（2025/10/31）",
+    "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000664453.html"
+   ]
+  ]
+ },
+ {
+  "id": "fmu-hospital-2602",
+  "co": "福島県立医科大学附属病院（委託先 ニチイ学館）",
+  "date": "2026-02-06",
+  "label": "患者1人（家族の情報含む）",
+  "n": 1,
+  "itemsText": "患者の氏名・性別・生年月日・住所・携帯電話番号、家族の氏名・続柄・住所・携帯電話番号",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "個人情報の漏えい事案の発生について（2026/2/6）",
+    "https://www.fmu.ac.jp/hospitals/hikarigaoka/news/info/file/20260206.pdf"
+   ]
+  ]
+ },
+ {
+  "id": "osaka-nishi-census-2510",
+  "co": "大阪市西区（国勢調査関係書類の一時紛失）",
+  "date": "2025-10-09",
+  "label": "58件",
+  "n": 58,
+  "itemsText": "世帯主または代表者等の氏名（58件）、所在地・建物名（57件）",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "令和7年国勢調査にかかる調査関係書類の一時紛失について（2025/10/9）",
+    "https://www.city.osaka.lg.jp/hodoshiryo/toshikeikaku/0000663078.html"
+   ]
+  ]
+ },
+ {
+  "id": "kyuden-td-2606",
+  "co": "九州電力送配電",
+  "date": "2026-06-08",
+  "label": "最大1,090万口",
+  "n": 10900000,
+  "itemsText": "お客さま名、供給地点の住所、電気使用量、電話番号、小売電気事業者名",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "外部記憶媒体の所在不明について（2026/6/8）",
+    "https://www.kyuden.co.jp/td/press/2026/260608.html"
+   ]
+  ]
+ }
+]

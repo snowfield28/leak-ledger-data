@@ -1,0 +1,366 @@
+[
+ {
+  "id": "shirohato-2511",
+  "co": "白鳩（SHIROHATO）",
+  "date": "2025-11-07",
+  "label": "最大176人",
+  "n": 176,
+  "itemsText": "氏名・氏名カナ、生年月日、性別、メールアドレス、住所、電話番号",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "お詫びとお知らせ（2025/11/7）",
+    "https://www.shirohato.co.jp/news/doc/news_202511_0602.html"
+   ],
+   [
+    "調査結果と再発防止策（2025/12/1）",
+    "https://www.shirohato.co.jp/news/doc/news_202512_0603.html"
+   ]
+  ]
+ },
+ {
+  "id": "toyota-city-ex-employee-2512",
+  "co": "豊田市（元職員による個人情報の漏えい）",
+  "date": "2025-12-03",
+  "label": "不明",
+  "n": null,
+  "itemsText": "業務用パソコンから取得した特定の個人情報（項目・件数の公表なし）",
+  "who": [
+   "unk"
+  ],
+  "official": [
+   [
+    "報道発表資料 元豊田市職員の逮捕について（2025/12/3）",
+    "https://www.city.toyota.aichi.jp/pressrelease/1071989/1072074.html"
+   ]
+  ]
+ },
+ {
+  "id": "tkc-2601",
+  "co": "TKC（TKC税理士ご紹介コーナー・HP毎月更新サービス）",
+  "date": "2026-01-30",
+  "label": "漏えいなし（調査で確認）",
+  "n": null,
+  "itemsText": "両サービスに関する情報（第五報では税理士ご紹介コーナー掲載の会員事務所情報の送信が試みられたと説明）",
+  "who": [
+   "biz"
+  ],
+  "official": [
+   [
+    "「TKC税理士ご紹介コーナー」「HP毎月更新サービス」における不正通信の発生および情報漏えいの可能性に関するお知らせ（第一報）（2026/1/30）",
+    "https://tkc.jp/company/topics/2026/20260130/"
+   ],
+   [
+    "不正通信の調査結果について（第五報）（2026/2/27）",
+    "https://tkc.jp/company/topics/2026/20260227"
+   ]
+  ]
+ },
+ {
+  "id": "mynavi-cloud-2602",
+  "co": "マイナビ（利用クラウドサービス）",
+  "date": "2026-02-12",
+  "label": "最大111,505件",
+  "n": 111505,
+  "itemsText": "一般ユーザー74,224件（氏名、メールアドレス、住所等）、法人顧客担当者21,609件（氏名、勤務先企業名、メールアドレス等）、グループ従業員15,672件（氏名、業務用電話番号、業務用メールアドレス等）",
+  "who": [
+   "cust",
+   "biz",
+   "staff"
+  ],
+  "official": [
+   [
+    "第一報（2026/2/12）",
+    "https://www.mynavi.jp/topics/post_52080.html"
+   ],
+   [
+    "第二報（2026/2/20）",
+    "https://www.mynavi.jp/topics/post_52231.html"
+   ],
+   [
+    "第三報（2026/3/31）",
+    "https://www.mynavi.jp/json-topic/52681/"
+   ]
+  ]
+ },
+ {
+  "id": "aichi-nature-seminar-2603",
+  "co": "愛知県（委託先 日本総合研究所）",
+  "date": "2026-03-11",
+  "label": "151人",
+  "n": 151,
+  "itemsText": "メールアドレス",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "委託業者による個人情報（メールアドレス）の漏えいについて（2026/3/11）",
+    "https://www.pref.aichi.jp/press-release/20260311np.html"
+   ]
+  ]
+ },
+ {
+  "id": "ycc-yamagata",
+  "co": "YCC情報システム（山形市・山形県などの委託先）",
+  "date": "2026-04-03",
+  "label": "調査中",
+  "n": null,
+  "itemsText": "取引先から受託・保管していた情報の一部（項目は委託元ごとに異なる）",
+  "who": [
+   "unk"
+  ],
+  "official": [
+   [
+    "ランサムウェア攻撃に関するお知らせ（第四報）（2026/4/14）",
+    "https://www.yamagata-ycc.co.jp/news/20260414-1/"
+   ]
+  ]
+ },
+ {
+  "id": "systemsoft-mamcreate",
+  "co": "システムソフト（子会社 マムクリエイト）",
+  "date": "2026-04-08",
+  "label": "調査中",
+  "n": null,
+  "itemsText": "公式発表に項目の記載なし（情報流出の有無を調査中）",
+  "who": [
+   "unk"
+  ],
+  "official": [
+   [
+    "当社子会社におけるランサムウェア被害の発生について（2026/4/8）",
+    "https://www.systemsoft.co.jp/wp-content/uploads/2026/04/ransomware20260408.pdf"
+   ]
+  ]
+ },
+ {
+  "id": "nagoya-rekishi-mail",
+  "co": "名古屋市（観光文化交流局 歴史まちづくり推進課）",
+  "date": "2026-05-27",
+  "label": "1人",
+  "n": 1,
+  "itemsText": "受託事業者の従業員1人の氏名、資格、経歴",
+  "who": [
+   "biz"
+  ],
+  "official": [
+   [
+    "個人情報が含まれる書類の誤送信について（2026/5/27）",
+    "https://www.city.nagoya.jp/houdou/3003942/3003944/3004756.html"
+   ]
+  ]
+ },
+ {
+  "id": "sado-toki-fanclub-2606",
+  "co": "佐渡市（トキ共生地域づくり事業・佐渡トキファンクラブ）",
+  "date": "2026-06-19",
+  "label": "最大4,111人",
+  "n": 4111,
+  "itemsText": "佐渡トキファンクラブ会員のメールアドレス",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "不正アクセスによる個人情報漏えいの可能性について（2026/6/19）",
+    "https://www.city.sado.niigata.jp/uploaded/attachment/60712.pdf"
+   ]
+  ]
+ },
+ {
+  "id": "hiroshima-seminar-2606",
+  "co": "広島県（県民公開セミナー申込者・委託先 ホームテレビ映像）",
+  "date": "2026-06-02",
+  "label": "86人",
+  "n": 86,
+  "itemsText": "氏名、ふりがな、区分、年代、住所、電話番号、質問内容（病気の相談内容を含む場合あり）",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "県民公開セミナー申込者の個人情報漏洩事案の発生について（2026/6/2）",
+    "https://www.pref.hiroshima.lg.jp/uploaded/attachment/670967.pdf"
+   ]
+  ]
+ },
+ {
+  "id": "frau-international-2607",
+  "co": "フラウ・インターナショナル（メール問合せ管理の業務委託先）",
+  "date": "2026-07-07",
+  "label": "調査中",
+  "n": null,
+  "itemsText": "過去にメールで問い合わせた顧客の氏名、メールアドレス、電話番号など（顧客ごとに異なる）",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "業務委託先における不正アクセスによるお客様情報漏えいの可能性に関するお詫びとご報告（第1報）（2026/7/7）",
+    "https://www.frau-inter.co.jp/other/20260707_6444/"
+   ]
+  ]
+ },
+ {
+  "id": "i-nex-2607",
+  "co": "アイネックス（朝日放送テレビのグループ会社）",
+  "date": "2026-07-01",
+  "label": "調査中",
+  "n": null,
+  "itemsText": "保存情報（個人情報を含む情報が閲覧された可能性。朝日放送テレビからの受託業務関連情報を含む）",
+  "who": [
+   "unk",
+   "work"
+  ],
+  "official": [
+   [
+    "メールアカウントおよびクラウドサービスへの不正アクセスに関するお知らせ（2026/7/1）",
+    "https://www.i-nex.jp/2026/07/01/security-incident-notice/"
+   ]
+  ]
+ },
+ {
+  "id": "corona-2608",
+  "co": "コロナ（外部クラウドサービス）",
+  "date": "2026-08-28",
+  "label": "最大3.5万人",
+  "n": 35000,
+  "itemsText": "施工を請け負った顧客の氏名、住所、施工関連資料",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "クラウドサービスへの不正アクセスについて（2026/8/28頃、公式ページに日付記載なし）",
+    "https://www.corona.co.jp/report/safety/post_152.html"
+   ]
+  ]
+ },
+ {
+  "id": "rakuten-books-network-2608",
+  "co": "楽天ブックスネットワーク",
+  "date": "2026-08-21",
+  "label": "計35,773件（顧客33,333・取引先2,101・従業員339）",
+  "n": 35773,
+  "itemsText": "顧客：氏名、郵便番号、住所、電話番号。取引先：氏名、メールアドレス、電話番号。従業員：氏名、勤務先メールアドレス、電話番号、生年月日",
+  "who": [
+   "cust",
+   "biz",
+   "staff"
+  ],
+  "official": [
+   [
+    "不正アクセスに関するお知らせ（2026/8/21）",
+    "https://www.rakuten-booksnetwork.co.jp/2026/08/21/unauthorized-access-notice/index.html"
+   ]
+  ]
+ },
+ {
+  "id": "rikkyo-google-2609",
+  "co": "立教大学",
+  "date": "2026-09-08",
+  "label": "アカウント6件",
+  "n": null,
+  "itemsText": "教員1人の氏名・メールアドレス（迷惑メール本文）。メール内容の閲覧は否定できない",
+  "who": [
+   "staff",
+   "cust"
+  ],
+  "official": [
+   [
+    "不正アクセス等に関するお知らせ（2026/9/8）",
+    "https://www.rikkyo.ac.jp/news/2026/09/mknpps000005brzy.html"
+   ]
+  ]
+ },
+ {
+  "id": "kyusai-nichirei-2609",
+  "co": "キューサイ（委託先 ニチレイ・ロジスティクス九州）",
+  "date": "2026-09-25",
+  "label": "484人",
+  "n": 484,
+  "itemsText": "氏名、住所、電話番号",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "お知らせ（2026/9/25）",
+    "https://corporate.kyusai.co.jp/news/detail.php?p=16759"
+   ]
+  ]
+ },
+ {
+  "id": "lawson-id-2610",
+  "co": "ローソン（ローソンID・ローソンアプリ予約）",
+  "date": "2026-10-08",
+  "label": "約215.5万件（ローソンID 2,155,345件・アプリ予約 26件）",
+  "n": 2155371,
+  "itemsText": "ローソンID：メールアドレス、氏名、性別、電話番号、住所、メルマガ情報（懸賞応募時の入力分のみ）／アプリ予約：氏名、電話番号、クレジットカード番号の一部",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ（2026/10/8）",
+    "https://www.lawson.co.jp/contents/cont07/1533174_3310.html"
+   ]
+  ]
+ },
+ {
+  "id": "leange-2608",
+  "co": "ル・アンジェ（コミュニケーションツール BAND）",
+  "date": "2026-08-06",
+  "label": "一部の会員・従業員",
+  "n": null,
+  "itemsText": "氏名、生年月日、住所、電話番号、メールアドレス等",
+  "who": [
+   "cust",
+   "staff"
+  ],
+  "official": [
+   [
+    "不正アクセスに関するお知らせ（2026/8/6）",
+    "https://www.leange.co.jp/corporate_news/post-12669/"
+   ]
+  ]
+ },
+ {
+  "id": "mitsui-fudosan-2609",
+  "co": "三井不動産",
+  "date": "2026-09-01",
+  "label": "最大約5.5万人（役職員1.9万・外部連絡先3.6万）",
+  "n": 55000,
+  "itemsText": "役職員は氏名、メールアドレス、部署、役職。外部連絡先はメールアドレスと表示名",
+  "who": [
+   "staff",
+   "biz"
+  ],
+  "official": [
+   [
+    "第二報（2026/9/28、第一報は9/1）",
+    "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf"
+   ]
+  ]
+ },
+ {
+  "id": "takahata-ycc",
+  "co": "高畠町（委託先 YCC情報システム）",
+  "date": "2026-04-20",
+  "label": "2,354人",
+  "n": 2354,
+  "itemsText": "氏名、住所、電話番号、共済組合員コード、口座情報",
+  "who": [
+   "cust"
+  ],
+  "official": [
+   [
+    "株式会社YCC情報システムに対する不正アクセス事案について（2026/4/20）",
+    "https://www.town.takahata.yamagata.jp/soshiki/2/3820.html"
+   ]
+  ]
+ }
+]
