@@ -1,0 +1,580 @@
+[
+ {
+  "co": "ブロードバンドタワー",
+  "date": "2025-12-12",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "label": "不明",
+  "pendingReason": "公式発表は一部情報へのアクセスの可能性にとどまり、個人情報かどうか・件数が不明",
+  "src": [
+   [
+    "ScanNetSecurity",
+    "https://scan.netsecurity.ne.jp/article/2025/12/17/54259.html"
+   ]
+  ],
+  "official": [
+   [
+    "お知らせ（2025/12/12）",
+    "https://www.bbtower.co.jp/ir/topics/docs/20251212.pdf"
+   ]
+  ],
+  "id": "pending-031"
+ },
+ {
+  "co": "FCLコンポーネント（マレーシア子会社）",
+  "date": "2025-12-03",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "label": "不明",
+  "pendingReason": "公式発表に個人情報漏えいの記載なし（サーバへの不正アクセスのみ）。対象外の可能性",
+  "src": [
+   [
+    "ScanNetSecurity",
+    "https://scan.netsecurity.ne.jp/article/2025/12/18/54270.html"
+   ]
+  ],
+  "official": [
+   [
+    "プレスリリース（2025/12/3）",
+    "https://www.fcl-components.com/resources/news/press-releases/2025/20251203.html"
+   ]
+  ],
+  "id": "pending-032"
+ },
+ {
+  "co": "三晃空調",
+  "date": "2025-12-11",
+  "cause": "cyber",
+  "types": [
+   "ランサムウェア"
+  ],
+  "label": "調査中",
+  "pendingReason": "公式第一報は個人情報漏えいを確認しておらず、対象と件数が調査中",
+  "src": [
+   [
+    "ScanNetSecurity",
+    "https://scan.netsecurity.ne.jp/article/2025/12/25/54329.html"
+   ]
+  ],
+  "official": [
+   [
+    "第一報（2025/12/11）",
+    "https://www.sanko-air.co.jp/wp/wp-content/uploads/2025/12/dd2827513228485bcabd582a8125e725.pdf"
+   ]
+  ],
+  "id": "pending-033"
+ },
+ {
+  "co": "タカラスタンダード（四国支店・オンラインショップ）",
+  "date": "2025-12-17",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "label": "調査中",
+  "pendingReason": "公式発表は個人情報漏えいを確認しておらず、対象・件数が調査中",
+  "src": [
+   [
+    "ScanNetSecurity",
+    "https://scan.netsecurity.ne.jp/article/2026/01/07/54364.html"
+   ]
+  ],
+  "official": [
+   [
+    "お知らせ（2025/12/17）",
+    "https://www.takara-standard.co.jp/files/parts/20251217.pdf"
+   ]
+  ],
+  "id": "pending-035"
+ },
+ {
+  "co": "NECネクサソリューションズ（委託先 ジェイマックソフト）",
+  "date": "2025-12-19",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス",
+   "委託先経由"
+  ],
+  "label": "不明",
+  "pendingReason": "公式発表は個人情報の外部送信を裏付ける証拠なしとし、漏えい対象・件数が不明",
+  "src": [
+   [
+    "ScanNetSecurity",
+    "https://scan.netsecurity.ne.jp/article/2026/01/07/54365.html"
+   ]
+  ],
+  "official": [
+   [
+    "お知らせ（2025/12/19）",
+    "https://www.nec-nexs.com/info/news/251219.html"
+   ]
+  ],
+  "id": "pending-037"
+ },
+ {
+  "id": "koei-kab-2601",
+  "co": "光栄",
+  "date": "2026-01-30",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "サイバー攻撃によりサーバー障害が発生したと公表。個人情報への影響は未確認。",
+  "src": [],
+  "ind": "製造",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.kabkouei.co.jp/pdf/250130.pdf"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無も未確認"
+ },
+ {
+  "id": "machiene-2601",
+  "co": "MCリテールエナジー（まちエネ）",
+  "date": "2026-01-30",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "サイバー攻撃によるシステム障害を公表。個人情報への影響は未確認。",
+  "src": [],
+  "ind": "エネルギー",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.machi-ene.jp/announcement/20260130/4359/"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無も未確認"
+ },
+ {
+  "id": "integral-2601",
+  "co": "インテグラル",
+  "date": "2026-01-30",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "自社ウェブサイトへの不正アクセスを公表。",
+  "src": [],
+  "ind": "金融・保険",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.integralcorp.jp/information/20260130/"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無も未確認"
+ },
+ {
+  "id": "cosmic-jpn-2601",
+  "co": "コスミックコーポレーション",
+  "date": "2026-01-23",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "コーポレートサイトへの不正アクセスで負荷が急増し断続的に停止。1月30日に最終報。",
+  "src": [
+   [
+    "ScanNetSecurity",
+    "https://scan.netsecurity.ne.jp/article/2026/01/26/54476.html"
+   ]
+  ],
+  "ind": "小売・EC",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.cosmic-jpn.co.jp/news/N-0000000021"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。初回公表日・個人情報への影響未確認"
+ },
+ {
+  "id": "canvass-2601",
+  "co": "カンバス",
+  "date": "2026-01-06",
+  "cause": "cyber",
+  "types": [
+   "ランサムウェア"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "認証サーバー等がランサムウェア攻撃を受け、マイページなどが利用不能に。1月29日に最終報告。",
+  "src": [
+   [
+    "ScanNetSecurity",
+    "https://scan.netsecurity.ne.jp/article/2026/01/28/54497.html"
+   ]
+  ],
+  "ind": "通信・IT",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://canvass.co.jp/wp-content/uploads/2026/01/20260129_RansomwareReport.pdf"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+ },
+ {
+  "id": "sincere-2601",
+  "co": "シンシア",
+  "date": "2026-01-22",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "サイバー攻撃によるシステム障害を公表（1月29日に第2報）。",
+  "src": [],
+  "ind": "製造",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://renatus-group.co.jp/wp-content/uploads/2026/01/20260122_news_company.pdf"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無も未確認"
+ },
+ {
+  "id": "osaka-shoin-2601",
+  "co": "樟蔭学園",
+  "date": "2026-01-29",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "アカウントへの不正サインインを公表。",
+  "src": [],
+  "ind": "大学・学校",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.osaka-shoin.ac.jp/news/2025/0129/"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+ },
+ {
+  "id": "fenrir-2601",
+  "co": "フェンリル",
+  "date": "2026-01-29",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス",
+   "委託先経由"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "外部メールサービスへの不正アクセスについて調査完了を公表。",
+  "src": [],
+  "ind": "通信・IT",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.fenrir-inc.com/jp/news/2026/01/29/notice-2/"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。初回公表が2025年12月の可能性あり（TOKAIコミュニケーションズ OneOffice関連か未確認）"
+ },
+ {
+  "id": "package-shop-2601",
+  "co": "山本紙業（パッケージショップJP）",
+  "date": "2026-01-28",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "通販サイトへの不正アクセスで個人情報が漏えい。",
+  "src": [],
+  "ind": "小売・EC",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.package-shop.jp/upload/pdf/regarding_personal_information_leakage.pdf"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+ },
+ {
+  "id": "grace-hotel-2601",
+  "co": "新横浜グレイスホテル",
+  "date": "2026-01-27",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス",
+   "委託先経由"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "宿泊予約関連で顧客情報が第三者に閲覧された可能性とフィッシングメッセージの送信を公表。",
+  "src": [],
+  "ind": "生活サービス・レジャー",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://gracehotel.jp/news/details/6216/"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+ },
+ {
+  "id": "kama-asa-2601",
+  "co": "釜浅商店",
+  "date": "2026-01-12",
+  "cause": "cyber",
+  "types": [
+   "委託先経由"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "外部連携アプリを通じて会員情報が不正取得された（スマレジ外部アプリ関連）。1月27日に続報。",
+  "src": [],
+  "ind": "小売・EC",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://kama-asa.co.jp/blogs/news/info-20260112-1"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+ },
+ {
+  "id": "hyogo-iryo-2601",
+  "co": "兵庫県（医療施設支援事業の委託先）",
+  "date": "2026-01-27",
+  "cause": "cyber",
+  "types": [
+   "委託先経由"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "医療施設支援事業の委託先で個人情報が漏えい。",
+  "src": [],
+  "ind": "公共機関",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://web.pref.hyogo.lg.jp/kf15/press/20260127.html"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。原因区分も未確認"
+ },
+ {
+  "id": "softbank-proxy-2601",
+  "co": "ソフトバンク",
+  "date": "2026-01-27",
+  "cause": "config",
+  "types": [
+   "設定ミス・不具合"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "プロキシサーバーの不具合に起因する事象を公表。",
+  "src": [],
+  "ind": "通信・IT",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.softbank.jp/corp/news/press/sbkk/2026/20260127_02/"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報への影響内容未確認"
+ },
+ {
+  "id": "kama-city-2601",
+  "co": "嘉麻市",
+  "date": "2026-01-26",
+  "cause": "mis",
+  "types": [
+   "誤送信・誤掲載"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "個人情報の漏えいを公表。",
+  "src": [],
+  "ind": "公共機関",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.city.kama.lg.jp/uploaded/attachment/25814.pdf"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。原因区分も未確認"
+ },
+ {
+  "id": "emori-2601",
+  "co": "興和江守",
+  "date": "2026-01-07",
+  "cause": "cyber",
+  "types": [
+   "ランサムウェア"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "ランサムウェア感染によるシステム障害で受注出荷業務に遅れ。公表時点で情報流出は未確認。",
+  "src": [
+   [
+    "ScanNetSecurity",
+    "https://scan.netsecurity.ne.jp/article/2026/01/23/54466.html"
+   ]
+  ],
+  "ind": "製造",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.emori.co.jp/wp-content/uploads/2026/01/information_20260107.pdf"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+ },
+ {
+  "id": "shizuoka-airport-mail-2601",
+  "co": "静岡県（空港振興課）",
+  "date": "2026-01-26",
+  "cause": "mis",
+  "types": [
+   "誤送信・誤掲載"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "メールの誤送信により個人情報が漏えい。",
+  "src": [],
+  "ind": "公共機関",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www2.pref.shizuoka.jp/all/kisha.nsf/kekka_sosiki/EDD9DCE6F1EDB73449258D88002C59FC/$FILE/0126airportshinkou2.pdf"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+ },
+ {
+  "id": "shizuoka-airport-itaku-2601",
+  "co": "静岡県（空港関連業務の委託先）",
+  "date": "2026-01-22",
+  "cause": "mis",
+  "types": [
+   "誤送信・誤掲載"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "委託先のメール誤送信により個人情報が漏えい。",
+  "src": [],
+  "ind": "公共機関",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www2.pref.shizuoka.jp/all/kisha.nsf/kekka_sosiki/57BC2420ACC5622449258D86001F1AEE/$FILE/0122airportcyousei.pdf"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+ },
+ {
+  "id": "dstyleweb-2601",
+  "co": "アスマーク（D style web）",
+  "date": "2026-01-15",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "OCNメールアカウントの乗っ取りに伴い不正なポイント交換申請が発生し、交換を一時停止。",
+  "src": [
+   [
+    "ScanNetSecurity",
+    "https://scan.netsecurity.ne.jp/article/2026/01/15/54417.html"
+   ]
+  ],
+  "ind": "人材・教育・業務支援",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://dstyleweb.com/information/past/detail/217"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。個人情報漏えいへの言及の有無未確認"
+ },
+ {
+  "id": "authense-2601",
+  "co": "Authense法律事務所",
+  "date": "2026-01-26",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "第三者による不正アクセスについて報告。",
+  "src": [],
+  "ind": "生活サービス・レジャー",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://www.authense.jp/news/7096/"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない"
+ },
+ {
+  "id": "gotbb-2601",
+  "co": "GOTBB",
+  "date": "2026-01-26",
+  "cause": "cyber",
+  "types": [
+   "不正アクセス"
+  ],
+  "n": null,
+  "label": "未照合",
+  "st": "p",
+  "sum": "個人情報漏えいの可能性を公表。",
+  "src": [],
+  "ind": "小売・EC",
+  "official": [
+   [
+    "公式発表（未照合）",
+    "https://gotbb.jp/news.php?id=1"
+   ]
+  ],
+  "pendingReason": "公式発表URLはWebFetchのprovenance制限で開けず、WebSearchの共有枠も枯渇したため公式発表を照合できていない。原因区分も未確認"
+ }
+]
