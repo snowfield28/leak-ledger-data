@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>国内情報漏えい台帳｜個人情報の漏えい事案まとめ</title>
-<meta name="description" content="国内の企業・公共機関・大学・病院などで起きた個人情報の漏えい事案を、公式発表と照合して一覧にした台帳。件数、流出した情報、調査状況、会社の対応、お問い合わせ先を毎日更新。">
-<meta property="og:title" content="国内情報漏えい台帳">
-<meta property="og:description" content="個人情報の漏えい事案を公式発表と照合して一覧化。毎日更新。">
+<title>Japan Data Breach Ledger | Personal data leak incidents in Japan</title>
+<meta name="description" content="A ledger of personal data breaches at Japanese companies, public bodies, universities and hospitals, checked against each organization's official announcement. Updated daily.">
+<meta property="og:title" content="Japan Data Breach Ledger">
+<meta property="og:description" content="Personal data breach incidents in Japan, checked against official announcements. Updated daily.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://snowfield28.github.io/leak-ledger-data/">
-<link rel="canonical" href="https://snowfield28.github.io/leak-ledger-data/">
+<meta property="og:url" content="https://snowfield28.github.io/leak-ledger-data/en/">
+<link rel="canonical" href="https://snowfield28.github.io/leak-ledger-data/en/">
 <link rel="alternate" hreflang="ja" href="https://snowfield28.github.io/leak-ledger-data/">
 <link rel="alternate" hreflang="en" href="https://snowfield28.github.io/leak-ledger-data/en/">
 <link rel="alternate" hreflang="x-default" href="https://snowfield28.github.io/leak-ledger-data/">
@@ -201,75 +201,75 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 <body>
 
 <div class="app">
-  <div class="head"><h1>国内情報漏えい台帳</h1><span class="ver"></span></div>
+  <div class="head"><h1>Japan Data Breach Ledger</h1><span class="ver"></span></div>
   <div class="upd" id="upd"></div>
 
   <div class="tiles" id="tiles"></div>
 
   <div class="dash">
   <section class="panel wide" aria-labelledby="h-bars">
-    <h2 id="h-bars">流出件数の大きい事案 <small>可能性を含む・対数目盛</small></h2>
+    <h2 id="h-bars">Largest incidents by records <small>incl. possible leaks · log scale</small></h2>
     <div class="bars" id="bars"></div>
-    <div class="axis" aria-hidden="true"><span></span><span class="ticks"><span style="left:0">1万</span><span style="left:28.57%">10万</span><span style="left:57.14%">100万</span><span style="left:85.71%">1,000万</span></span><span></span></div>
+    <div class="axis" aria-hidden="true"><span></span><span class="ticks"><span style="left:0">10K</span><span style="left:28.57%">100K</span><span style="left:57.14%">1M</span><span style="left:85.71%">10M</span></span><span></span></div>
   </section>
 
   <section class="panel" aria-labelledby="h-cause">
-    <h2 id="h-cause">原因別の事案数 <small>タップで絞り込み</small></h2>
+    <h2 id="h-cause">Incidents by cause <small>tap to filter</small></h2>
     <div class="bars" id="causeBars"></div>
   </section>
 
   <section class="panel" aria-labelledby="h-who">
-    <h2 id="h-who">誰の情報が流出したか <small>タップで絞り込み・1事案に複数あり</small></h2>
+    <h2 id="h-who">Whose data was exposed <small>tap to filter · an incident can have several</small></h2>
     <div class="bars" id="whoBars"></div>
-    <p class="foot" style="margin-top:8px">公式発表に書かれた対象者で分類しています。取引先の担当者の氏名や連絡先も、法律上は個人情報です。</p>
+    <p class="foot" style="margin-top:8px">Classified by the affected people named in the official announcement. Names and contact details of business contacts also count as personal information under Japanese law.</p>
   </section>
 
   <section class="panel" aria-labelledby="h-ind">
-    <h2 id="h-ind">業種別の事案数 <small>タップで絞り込み</small></h2>
+    <h2 id="h-ind">Incidents by industry <small>tap to filter</small></h2>
     <div class="bars" id="indBars"></div>
   </section>
 
   <section class="panel" aria-labelledby="h-items">
-    <h2 id="h-items">流出した情報 <small>タップで絞り込み</small></h2>
+    <h2 id="h-items">Data exposed <small>tap to filter</small></h2>
     <div class="items" id="items"></div>
   </section>
   </div>
 
   <section class="panel ana" aria-labelledby="h-ana">
-    <h2 id="h-ana">傾向の分析 <small>下の絞り込みと連動</small></h2>
+    <h2 id="h-ana">Trends <small>follows the filters below</small></h2>
     <div class="tabs" role="tablist" id="anaTabs"></div>
     <div id="ana"></div>
-    <p class="foot">件数は各組織の公表値で、人数と件数が混在します。件数が未公表の事案は、合計・中央値・規模の集計から外しています。事案数は公式発表と照合できたものだけを数えています。</p>
+    <p class="foot">Record counts are the figures each organization published; people and records may be mixed. Incidents without a published count are left out of totals, medians and size breakdowns. Only incidents matched to an official announcement are counted.</p>
   </section>
 
   <div class="filters">
-    <input type="search" id="q" placeholder="企業名・キーワードで検索" aria-label="企業名・キーワードで検索">
+    <input type="search" id="q" placeholder="Search by organization or keyword" aria-label="Search by organization or keyword">
     <div class="selrow">
-      <select id="cause" aria-label="原因">
-        <option value="">すべての原因</option>
-        <optgroup label="サイバー攻撃"><option value="c:cyber">サイバー攻撃（すべて）</option><option value="t:ランサムウェア">ランサムウェア</option><option value="t:不正アクセス">不正アクセス</option><option value="t:委託先経由">委託先経由</option></optgroup>
-        <option value="c:loss">紛失・盗難</option><option value="c:mis">誤送信・誤掲載</option><option value="c:insider">内部不正</option><option value="c:config">設定ミス・不具合</option>
+      <select id="cause" aria-label="Cause">
+        <option value="">All causes</option>
+        <optgroup label="Cyber attack"><option value="c:cyber">Cyber attack (all)</option><option value="t:Ransomware">Ransomware</option><option value="t:Unauthorized access">Unauthorized access</option><option value="t:Via contractor">Via contractor</option></optgroup>
+        <option value="c:loss">Loss / theft</option><option value="c:mis">Misdelivery / mis-posting</option><option value="c:insider">Insider misconduct</option><option value="c:config">Misconfiguration / bug</option>
       </select>
-      <select id="who" aria-label="誰の情報"><option value="">誰の情報：すべて</option></select>
-      <select id="ind" aria-label="業種"><option value="">すべての業種</option></select>
-      <select id="period" aria-label="期間">
-        <option value="">すべての期間</option><option value="7">直近1週間</option><option value="30">直近1か月</option><option value="91">直近3か月</option><option value="730" selected>直近24か月</option>
-        <option value="y2026">2026年</option><option value="y2025">2025年</option><option value="pre2025">2024年以前</option><option value="custom">期間を指定…</option>
+      <select id="who" aria-label="Whose data"><option value="">Whose data: all</option></select>
+      <select id="ind" aria-label="Industry"><option value="">All industries</option></select>
+      <select id="period" aria-label="Period">
+        <option value="">All time</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="91">Last 3 months</option><option value="730" selected>Last 24 months</option>
+        <option value="y2026">2026</option><option value="y2025">2025</option><option value="pre2025">2024 and earlier</option><option value="custom">Custom range…</option>
       </select>
     </div>
-    <div class="daterow" id="daterow" hidden><input type="date" id="from" aria-label="開始日"><span>〜</span><input type="date" id="to" aria-label="終了日"></div>
+    <div class="daterow" id="daterow" hidden><input type="date" id="from" aria-label="From"><span>–</span><input type="date" id="to" aria-label="To"></div>
     <div class="hscroll" id="chips"></div>
   </div>
-  <div class="meta"><span id="count"></span><button id="clear" hidden>絞り込みを解除</button></div>
+  <div class="meta"><span id="count"></span><button id="clear" hidden>Clear filters</button></div>
 
-  <table aria-label="事案の一覧">
-    <thead><tr><th>企業・日付</th><th class="w">原因</th><th class="w">誰の情報</th><th class="w">流出した情報</th><th class="r">件数</th><th class="r">状況</th></tr></thead>
+  <table aria-label="Incident list">
+    <thead><tr><th>Organization · date</th><th class="w">Cause</th><th class="w">Whose data</th><th class="w">Data exposed</th><th class="r">Records</th><th class="r">Status</th></tr></thead>
     <tbody id="rows"></tbody>
   </table>
 
-  <nav class="foot" aria-label="サイト情報" style="display:flex;flex-wrap:wrap;gap:6px 16px"><a href="case/">全事案一覧</a><a href="about.html">このサイトについて</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ・訂正依頼</a><a href="en/" hreflang="en" lang="en">English</a></nav>
+  <nav class="foot" aria-label="Site information" style="display:flex;flex-wrap:wrap;gap:6px 16px"><a href="case/">All incidents</a><a href="about.html">About</a><a href="privacy.html">Privacy policy</a><a href="contact.html">Contact / corrections</a><a href="../" hreflang="ja" lang="ja">日本語</a></nav>
   <p class="foot" id="rule"></p>
-  <p class="foot">網羅的に収録しているのは2025年10月以降の事案です（それより前は一部のみ）。期間は、発生日か最新の続報の日付で判定します。業種は企業の主な事業をもとにした台帳独自の分類です。件数は企業の公表値で、人数と件数が混在し、重複を含む場合があります。「調査完了」は調査結果や最終報が公表された事案です。流出した情報で複数選ぶと、すべてを含む事案に絞り込みます。分類は出典に書かれた項目だけを元にしています。</p>
+  <p class="foot">Coverage is comprehensive from October 2025 onward; earlier incidents are only partly included. The period filter uses the incident date or the date of the latest update. Industries are this ledger's own classification based on each organization's main business. Counts are the organizations' published figures; people and records may be mixed and duplicates may be included. "Closed" means the investigation result or a final report has been published. Selecting several data types narrows to incidents that include all of them. Classification relies only on items stated in the sources. Incident descriptions are shown in Japanese, as written in the official announcements.</p>
 </div>
 
 <div id="sheetRoot"></div>
@@ -277,15 +277,23 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 <script>
 let DB={cases:[],itemLabels:{},statusLabels:{},industries:[],causeLabels:{},updated:""},LABELS={},SL={};
 const PAGE="https://snowfield28.github.io/leak-ledger-data/";
+const ENM={"IND": {"小売・EC": "Retail & e-commerce", "飲食": "Food service", "金融・保険": "Finance & insurance", "通信・IT": "Telecom & IT", "メディア・出版": "Media & publishing", "運輸・交通": "Transport", "製造": "Manufacturing", "建設・不動産": "Construction & real estate", "エネルギー": "Energy", "生活サービス・レジャー": "Consumer services & leisure", "医療・製薬": "Healthcare & pharma", "人材・教育・業務支援": "HR, education & business services", "公共機関": "Public sector", "大学・学校": "Universities & schools", "病院・医療": "Hospitals & clinics", "団体": "Associations & nonprofits"}, "TYPE": {"不正アクセス": "Unauthorized access", "委託先経由": "Via contractor", "ランサムウェア": "Ransomware", "誤送信・誤掲載": "Misdelivery / mis-posting", "紛失・盗難": "Loss / theft", "設定ミス・不具合": "Misconfiguration / bug", "内部不正": "Insider misconduct"}, "CAUSE": {"cyber": "Cyber attack", "loss": "Loss / theft", "mis": "Misdelivery / mis-posting", "insider": "Insider misconduct", "config": "Misconfiguration / bug"}, "ITEM": {"name": "Name", "addr": "Address", "tel": "Phone number", "mail": "Email address", "birth": "Date of birth", "work": "Employer", "deal": "Contract / purchase records", "acct": "Bank account", "card": "Credit card", "id": "ID / password", "doc": "ID document"}, "WHO": {"cust": "Customers / users", "biz": "Business partners / corporate clients", "staff": "Employees / staff", "work": "Business information (not personal data)", "unk": "Not specified"}, "STATUS": {"closed": "Investigation complete", "ongoing": "Under investigation / awaiting updates"}};
+function toEN(D){const m=(o,k)=>(o&&(ENM[k]))?o:o;
+  const tr=(k,v)=>(ENM[k]||{})[v]||v;
+  D.industries=(D.industries||[]).map(v=>tr("IND",v));
+  for(const [n,k] of [["itemLabels","ITEM"],["statusLabels","STATUS"],["causeLabels","CAUSE"],["whoLabels","WHO"]]){if(D[n])for(const key of Object.keys(D[n]))D[n][key]=tr(k,key)==key?D[n][key]:tr(k,key)}
+  D.cases.forEach(d=>{d.ind=tr("IND",d.ind);d.types=(d.types||[]).map(v=>tr("TYPE",v))});
+  return D}
 const S={who:"",q:"",cause:"",st:"",res:"",sort:"date",sel:new Set(),noauto:"",ind:"",period:"730",from:"",to:"",ana:"ind",asort:"n"};
 const CL=()=>DB.causeLabels||{};
 function causeOk(d){if(!S.cause)return true;const [k,v]=[S.cause.slice(0,1),S.cause.slice(2)];return k==="c"?(d.cause||"cyber")===v:d.types.includes(v)}
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const short=co=>co.split("（")[0].split("／")[0];
+const LAB=d=>d.n?fmt(d.n)+" records":"Not disclosed";
 const LMIN=4,LMAX=7.5;
 const lpos=n=>!n?0:Math.max(1,Math.min(100,(Math.log10(n)-LMIN)/(LMAX-LMIN)*100));
-const fmt=n=>n==null?"—":n>=1e8?(Math.round(n/1e7)/10).toLocaleString("ja-JP")+"億":n>=1e4?(Math.round(n/1e3)/10).toLocaleString("ja-JP")+"万":n.toLocaleString("ja-JP");
+const fmt=n=>n==null?"—":n>=1e9?(Math.round(n/1e8)/10).toLocaleString("en-US")+"B":n>=1e6?(Math.round(n/1e5)/10).toLocaleString("en-US")+"M":n>=1e3?(Math.round(n/1e2)/10).toLocaleString("en-US")+"K":n.toLocaleString("en-US");
 const md=s=>s.replace(/-/g,".");
 
 function inPeriod(d){
@@ -307,12 +315,12 @@ const chip=(label,on,act)=>`<button class="chip" aria-pressed="${on}" data-act="
 function renderChips(){
   const tg=(g,v,l)=>chip(l,S[g]===v,`${g}:${S[g]===v?"":v}`);
   $("#chips").innerHTML=
-    tg("st","c","漏えい確認")+tg("st","p","漏えいの可能性")+'<span class="sep"></span>'+
-    tg("res","ongoing","調査中")+tg("res","closed","調査完了")+'<span class="sep"></span>'+
-    chip("新しい順",S.sort==="date","sort:date")+chip("件数順",S.sort==="size","sort:size");
+    tg("st","c","Leak confirmed")+tg("st","p","Possible leak")+'<span class="sep"></span>'+
+    tg("res","ongoing","Ongoing")+tg("res","closed","Closed")+'<span class="sep"></span>'+
+    chip("Newest first",S.sort==="date","sort:date")+chip("Most records",S.sort==="size","sort:size");
 }
 
-const ANA=[["ind","業種別の比較"],["mat","業種×原因"],["month","月別の推移"],["size","件数の規模"]];
+const ANA=[["ind","By industry"],["mat","Industry × cause"],["month","By month"],["size","Size of incidents"]];
 const median=a=>{if(!a.length)return null;const b=[...a].sort((x,y)=>x-y),m=b.length>>1;return b.length%2?b[m]:(b[m-1]+b[m])/2};
 const pct=(a,b)=>b?Math.round(a/b*100)+"%":"—";
 const heat=(v,max)=>{const r=max?v/max:0;return `background:color-mix(in srgb,var(--bar) ${Math.round(r*85)}%,transparent);${r>.5?"color:var(--bg);":""}`};
@@ -320,7 +328,7 @@ function groupInd(rows){const g={};rows.forEach(d=>{(g[d.ind||"—"]=g[d.ind||"�
 function renderAna(rows){
   $("#anaTabs").innerHTML=ANA.map(([k,l])=>`<button class="tab" role="tab" data-ana="${k}" aria-selected="${S.ana===k}">${l}</button>`).join("");
   const el=$("#ana");
-  if(!rows.length){el.innerHTML='<div class="empty">該当する事案はありません</div>';return}
+  if(!rows.length){el.innerHTML='<div class="empty">No matching incidents</div>';return}
   const g=groupInd(rows), inds=(DB.industries||[]).filter(k=>g[k]);
   if(S.ana==="ind"){
     const st=inds.map(k=>{const a=g[k],ns=a.filter(d=>d.n).map(d=>d.n),top=a.filter(d=>d.n).sort((x,y)=>y.n-x.n)[0];
@@ -329,20 +337,20 @@ function renderAna(rows){
     st.sort((a,b)=>(b[key]??-1)-(a[key]??-1));
     const mc=Math.max(1,...st.map(x=>x.c)), ms=Math.max(1,...st.map(x=>x.sum));
     const H=(k,l)=>`<th class="r"><button class="sortb" data-asort="${k}" aria-pressed="${S.asort===k}">${l}${S.asort===k?" ▼":""}</button></th>`;
-    el.innerHTML=`<div class="tscroll"><table class="atable"><thead><tr><th>業種</th>${H("c","事案数")}${H("n","流出件数の合計")}${H("med","1件あたり中央値")}<th class="w2">最大の事案</th><th class="r w2">漏えい確認</th><th class="r w2">サイバー攻撃</th></tr></thead><tbody>${
+    el.innerHTML=`<div class="tscroll"><table class="atable"><thead><tr><th>Industry</th>${H("c","Incidents")}${H("n","Total records")}${H("med","Median")}<th class="w2">Largest incident</th><th class="r w2">Confirmed</th><th class="r w2">Cyber</th></tr></thead><tbody>${
       st.map(x=>`<tr data-ind="${esc(x.k)}"><td><b>${esc(x.k)}</b></td>
         <td class="r"><span class="cellbar"><i style="width:${x.c/mc*100}%"></i></span>${x.c}</td>
         <td class="r"><span class="cellbar"><i style="width:${x.sum/ms*100}%"></i></span>${x.sum?fmt(x.sum):"—"}</td>
         <td class="r">${x.med!=null?fmt(Math.round(x.med)):"—"}</td>
         <td class="w2">${x.top?`<a href="case/${esc(x.top.id)}.html" data-open="${esc(x.top.id)}">${esc(short(x.top.co))}</a> <span class="cd">${fmt(x.top.n)}</span>`:"—"}</td>
         <td class="r w2">${pct(x.conf,x.c)}</td><td class="r w2">${pct(x.cy,x.c)}</td></tr>`).join("")}</tbody></table></div>
-      <p class="note">見出しをタップで並べ替え、業種をタップでその業種に絞り込みます。中央値は件数が公表された事案だけで計算しています。</p>`;
+      <p class="note">Tap a heading to sort, or an industry to filter. Medians use only incidents with a published count.</p>`;
   }else if(S.ana==="mat"){
     const cs=Object.entries(CL()).filter(([k])=>rows.some(d=>(d.cause||"cyber")===k));
     let max=0;const M=inds.map(k=>cs.map(([c])=>{const v=g[k].filter(d=>(d.cause||"cyber")===c).length;max=Math.max(max,v);return v}));
-    el.innerHTML=`<div class="tscroll"><table class="atable mat"><thead><tr><th>業種</th>${cs.map(([,l])=>`<th class="r">${esc(l)}</th>`).join("")}<th class="r">計</th></tr></thead><tbody>${
+    el.innerHTML=`<div class="tscroll"><table class="atable mat"><thead><tr><th>Industry</th>${cs.map(([,l])=>`<th class="r">${esc(l)}</th>`).join("")}<th class="r">Total</th></tr></thead><tbody>${
       inds.map((k,i)=>`<tr><td><b>${esc(k)}</b></td>${M[i].map((v,j)=>`<td class="r hc" style="${heat(v,max)}">${v||""}</td>`).join("")}<td class="r">${g[k].length}</td></tr>`).join("")
-    }</tbody></table></div><p class="note">色が濃いほど事案が多い組み合わせです。</p>`;
+    }</tbody></table></div><p class="note">Darker cells mean more incidents.</p>`;
   }else if(S.ana==="month"){
     const m={};rows.forEach(d=>{const k=d.date.slice(0,7);(m[k]=m[k]||{c:0,n:0,by:{}});m[k].c++;m[k].n+=d.n||0;const c=d.cause||"cyber";m[k].by[c]=(m[k].by[c]||0)+1});
     const ks=Object.keys(m).sort();const first=ks[0],last=ks[ks.length-1];const all=[];
@@ -350,17 +358,17 @@ function renderAna(rows){
     const mx=Math.max(1,...all.map(k=>(m[k]||{c:0}).c));const cs=Object.entries(CL());
     const cols=["var(--bar)","var(--accent)","var(--possible)","var(--confirmed)","var(--done)"];
     el.innerHTML=`<div class="legend">${cs.map(([k,l],i)=>`<span><i style="background:${cols[i%5]}"></i>${esc(l)}</span>`).join("")}</div>
-    <div class="mchart" role="img" aria-label="月別の事案数">${all.map(k=>{const v=m[k]||{c:0,n:0,by:{}};
-      return `<div class="mcol" title="${k}：${v.c}件／流出件数${fmt(v.n)}"><span class="mv">${v.c||""}</span><div class="mstack" style="height:${v.c/mx*100}%">${cs.map(([c],i)=>v.by[c]?`<i style="flex:${v.by[c]};background:${cols[i%5]}"></i>`:"").join("")}</div><span class="ml">${Number(k.slice(5))}月${k.slice(5)==="01"||k===all[0]?`<br>${k.slice(0,4)}`:""}</span></div>`}).join("")}</div>
-    <p class="note">事案の日付（発生・検知または初回公表）の月で数えています。2025年10月より前は一部のみの収録のため、少なく見えます。</p>`;
+    <div class="mchart" role="img" aria-label="Incidents per month">${all.map(k=>{const v=m[k]||{c:0,n:0,by:{}};
+      return `<div class="mcol" title="${k}: ${v.c} incidents / ${fmt(v.n)} records"><span class="mv">${v.c||""}</span><div class="mstack" style="height:${v.c/mx*100}%">${cs.map(([c],i)=>v.by[c]?`<i style="flex:${v.by[c]};background:${cols[i%5]}"></i>`:"").join("")}</div><span class="ml">${["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][Number(k.slice(5))]}${k.slice(5)==="01"||k===all[0]?`<br>${k.slice(0,4)}`:""}</span></div>`}).join("")}</div>
+    <p class="note">Counted by the month of the incident date (occurrence, detection or first announcement). Months before October 2025 look low because only some incidents are included.</p>`;
     const mc=el.querySelector(".mchart");if(mc)mc.scrollLeft=mc.scrollWidth;
   }else{
-    const B=[["〜1千",0,1e3],["1千〜1万",1e3,1e4],["1万〜10万",1e4,1e5],["10万〜100万",1e5,1e6],["100万〜",1e6,Infinity]];
+    const B=[["<1K",0,1e3],["1K–10K",1e3,1e4],["10K–100K",1e4,1e5],["100K–1M",1e5,1e6],["1M+",1e6,Infinity]];
     const cols=["var(--bar-soft)","color-mix(in srgb,var(--bar) 40%,var(--bar-soft))","color-mix(in srgb,var(--bar) 65%,var(--bar-soft))","var(--bar)","var(--confirmed)"];
-    el.innerHTML=`<div class="legend">${B.map(([l],i)=>`<span><i style="background:${cols[i]}"></i>${l}</span>`).join("")}<span><i style="background:none;border:1px dashed var(--line)"></i>未公表</span></div>
+    el.innerHTML=`<div class="legend">${B.map(([l],i)=>`<span><i style="background:${cols[i]}"></i>${l}</span>`).join("")}<span><i style="background:none;border:1px dashed var(--line)"></i>Not disclosed</span></div>
     <div class="sizes">${inds.map(k=>{const a=g[k],u=a.filter(d=>!d.n).length;const cnt=B.map(([,lo,hi])=>a.filter(d=>d.n&&d.n>=lo&&d.n<hi).length);
-      return `<button class="srow" data-ind="${esc(k)}" aria-label="${esc(k)}"><span class="bname">${esc(k)}</span><span class="sbar">${cnt.map((c,i)=>c?`<i style="flex:${c};background:${cols[i]};${i>=3?"color:#fff;":""}" title="${B[i][0]}：${c}件">${c}</i>`:"").join("")}${u?`<i class="u" style="flex:${u}" title="未公表：${u}件">${u}</i>`:""}</span><span class="bval">${a.length}件</span></button>`}).join("")}</div>
-    <p class="note">業種ごとに、1事案あたりの流出件数の規模で事案を色分けしています。</p>`;
+      return `<button class="srow" data-ind="${esc(k)}" aria-label="${esc(k)}"><span class="bname">${esc(k)}</span><span class="sbar">${cnt.map((c,i)=>c?`<i style="flex:${c};background:${cols[i]};${i>=3?"color:#fff;":""}" title="${B[i][0]}: ${c}">${c}</i>`:"").join("")}${u?`<i class="u" style="flex:${u}" title="Not disclosed: ${u}">${u}</i>`:""}</span><span class="bval">${a.length}</span></button>`}).join("")}</div>
+    <p class="note">Incidents in each industry are colored by the number of records per incident.</p>`;
   }
 }
 function render(){
@@ -369,78 +377,78 @@ function render(){
   const total=rows.reduce((a,d)=>a+(d.n||0),0);
   const ongoing=rows.filter(d=>d.status==="ongoing").length;
   $("#tiles").innerHTML=`
-    <div class="tile"><b>${rows.length}</b><span>事案</span></div>
-    <div class="tile"><b>${fmt(total)}</b><span>流出件数の合計</span></div>
-    <div class="tile"><b>${ongoing}</b><span>調査中・続報待ち</span></div>`;
+    <div class="tile"><b>${rows.length}</b><span>Incidents</span></div>
+    <div class="tile"><b>${fmt(total)}</b><span>Total records</span></div>
+    <div class="tile"><b>${ongoing}</b><span>Ongoing / awaiting updates</span></div>`;
   const top=rows.filter(d=>d.n).sort((a,b)=>b.n-a.n).slice(0,8);
-  $("#bars").innerHTML=top.length?top.map(d=>`<button class="brow" data-open="${esc(d.id)}" aria-label="${esc(d.co)} ${esc(d.label)}">
+  $("#bars").innerHTML=top.length?top.map(d=>`<button class="brow" data-open="${esc(d.id)}" aria-label="${esc(d.co)} ${LAB(d)}">
       <span class="bname">${esc(short(d.co))}</span>
       <span class="btrack"><span class="bfill" style="width:${lpos(d.n)}%"></span></span>
-      <span class="bval">${fmt(d.n)}</span></button>`).join(""):'<div class="empty">件数が公表された事案はありません</div>';
+      <span class="bval">${fmt(d.n)}</span></button>`).join(""):'<div class="empty">No incidents with a published count</div>';
   const maxc=Math.max(1,...Object.keys(LABELS).map(k=>rows.filter(d=>d.items.includes(k)).length));
   $("#items").innerHTML=Object.entries(LABELS).map(([k,v])=>{
     const c=rows.filter(d=>d.items.includes(k)).length;
-    return `<button class="it" data-act="item:${k}" aria-pressed="${S.sel.has(k)}"><span class="l">${esc(v)}</span><span class="c"><span class="m"><i style="width:${c/maxc*100}%"></i></span>${c}件</span></button>`}).join("");
-  $("#count").textContent=`${rows.length} / ${DB.cases.length} 件を表示`;
+    return `<button class="it" data-act="item:${k}" aria-pressed="${S.sel.has(k)}"><span class="l">${esc(v)}</span><span class="c"><span class="m"><i style="width:${c/maxc*100}%"></i></span>${c}</span></button>`}).join("");
+  $("#count").textContent=`Showing ${rows.length} of ${DB.cases.length} incidents`;
   const byC=Object.entries(CL()).map(([k,l])=>[k,l,rows.filter(d=>(d.cause||"cyber")===k).length]).filter(x=>x[2]>0).sort((a,b)=>b[2]-a[2]);
   const mc=Math.max(1,...byC.map(x=>x[2]));
-  $("#causeBars").innerHTML=byC.length?byC.map(([k,l,c])=>`<button class="brow" data-cause="c:${k}" aria-pressed="${S.cause==="c:"+k}" aria-label="${esc(l)} ${c}件"><span class="bname">${esc(l)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mc*100}%;${S.cause&&S.cause!=="c:"+k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
+  $("#causeBars").innerHTML=byC.length?byC.map(([k,l,c])=>`<button class="brow" data-cause="c:${k}" aria-pressed="${S.cause==="c:"+k}" aria-label="${esc(l)} ${c} incidents"><span class="bname">${esc(l)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mc*100}%;${S.cause&&S.cause!=="c:"+k?"opacity:.35":""}"></span></span><span class="bval">${c}</span></button>`).join(""):'<div class="empty">No matching incidents</div>';
   const WL=DB.whoLabels||{};
   const byW=Object.entries(WL).map(([k,l])=>[k,l,rows.filter(d=>(d.who||[]).includes(k)).length]).filter(x=>x[2]>0||S.who===x[0]);
   const mw=Math.max(1,...byW.map(x=>x[2]));
-  $("#whoBars").innerHTML=byW.length?byW.map(([k,l,c])=>`<button class="brow" data-who="${k}" aria-pressed="${S.who===k}" aria-label="${esc(l)} ${c}件"><span class="bname">${esc(l)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mw*100}%;${S.who&&S.who!==k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
+  $("#whoBars").innerHTML=byW.length?byW.map(([k,l,c])=>`<button class="brow" data-who="${k}" aria-pressed="${S.who===k}" aria-label="${esc(l)} ${c} incidents"><span class="bname">${esc(l)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mw*100}%;${S.who&&S.who!==k?"opacity:.35":""}"></span></span><span class="bval">${c}</span></button>`).join(""):'<div class="empty">No matching incidents</div>';
   $("#clear").hidden=!(S.who||S.cause||S.st||S.res||S.sel.size||S.q||S.noauto||S.ind||S.period!=="730");
   const byInd=(DB.industries||[]).map(k=>[k,rows.filter(d=>d.ind===k).length]).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]);
   const mi=Math.max(1,...byInd.map(x=>x[1]));
-  $("#indBars").innerHTML=byInd.length?byInd.map(([k,c])=>`<button class="brow" data-ind="${esc(k)}" aria-pressed="${S.ind===k}" aria-label="${esc(k)} ${c}件"><span class="bname">${esc(k)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mi*100}%;${S.ind&&S.ind!==k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
+  $("#indBars").innerHTML=byInd.length?byInd.map(([k,c])=>`<button class="brow" data-ind="${esc(k)}" aria-pressed="${S.ind===k}" aria-label="${esc(k)} ${c} incidents"><span class="bname">${esc(k)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mi*100}%;${S.ind&&S.ind!==k?"opacity:.35":""}"></span></span><span class="bval">${c}</span></button>`).join(""):'<div class="empty">No matching incidents</div>';
   $("#rows").innerHTML=rows.length?rows.map(d=>`<tr data-open="${esc(d.id)}" tabindex="0">
-    <td><a class="cn" href="case/${esc(d.id)}.html" data-open="${esc(d.id)}">${esc(short(d.co))}</a><div class="cd">${md(d.date)}・${esc(d.ind||"")}<span class="m-only">・${esc(CL()[d.cause||"cyber"]||"")}</span></div></td>
-    <td class="w">${esc(CL()[d.cause||"cyber"]||"")}${(d.cause||"cyber")==="cyber"&&d.types&&d.types.length?`<div class="cd">${esc(d.types.join("・"))}</div>`:""}</td>
+    <td><a class="cn" href="case/${esc(d.id)}.html" data-open="${esc(d.id)}">${esc(short(d.co))}</a><div class="cd">${md(d.date)} · ${esc(d.ind||"")}<span class="m-only"> · ${esc(CL()[d.cause||"cyber"]||"")}</span></div></td>
+    <td class="w">${esc(CL()[d.cause||"cyber"]||"")}${(d.cause||"cyber")==="cyber"&&d.types&&d.types.length?`<div class="cd">${esc(d.types.join(" · "))}</div>`:""}</td>
     <td class="w">${esc((d.who||[]).map(k=>(DB.whoLabels||{})[k]||k).join("、"))}</td>
-    <td class="w"><div class="tags">${(d.items||[]).map(k=>`<span>${esc(LABELS[k]||k)}</span>`).join("")||'<span class="cd">要確認</span>'}</div></td>
-    <td class="r"><span class="num">${d.n?fmt(d.n):"調査中"}</span></td>
-    <td class="r"><div class="pills"><span class="pill ${d.st}">${d.st==="c"?"漏えい確認":"可能性"}</span><span class="pill ${esc(d.status)}">${d.status==="closed"?"調査完了":"調査中"}</span>${d.auto?'<span class="pill auto">未確認</span>':""}</div></td>
-  </tr>`).join(""):`<tr><td colspan="6" class="empty">条件に合う事案はありません</td></tr>`;
+    <td class="w"><div class="tags">${(d.items||[]).map(k=>`<span>${esc(LABELS[k]||k)}</span>`).join("")||'<span class="cd">Unverified</span>'}</div></td>
+    <td class="r"><span class="num">${d.n?fmt(d.n):"Not disclosed"}</span></td>
+    <td class="r"><div class="pills"><span class="pill ${d.st}">${d.st==="c"?"Confirmed":"Possible"}</span><span class="pill ${esc(d.status)}">${d.status==="closed"?"Closed":"Ongoing"}</span>${d.auto?'<span class="pill auto">Unverified</span>':""}</div></td>
+  </tr>`).join(""):`<tr><td colspan="6" class="empty">No incidents match these filters</td></tr>`;
 }
 
 function contactHTML(d){const k=d.contact||{},src=k.src||((d.official||[])[0]||[])[1]||"";
-  const tels=(k.tels||[]).map(t=>`<a class="lk" href="tel:${esc(t.tel.replace(/-/g,""))}"><span><b>${esc(t.tel)}</b>${t.hours?`<small>${esc(t.hours)}</small>`:""}</span><span>電話</span></a>`);
-  const mails=(k.mails||[]).map(m=>`<a class="lk" href="mailto:${esc(m)}"><span><b style="font-size:13.5px">${esc(m)}</b></span><span>メール</span></a>`);
-  const forms=(k.forms||[]).map(([n,u])=>`<a class="lk" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>フォーム ↗</span></a>`);
+  const tels=(k.tels||[]).map(t=>`<a class="lk" href="tel:${esc(t.tel.replace(/-/g,""))}"><span><b>${esc(t.tel)}</b>${t.hours?`<small>${esc(t.hours)}</small>`:""}</span><span>Phone</span></a>`);
+  const mails=(k.mails||[]).map(m=>`<a class="lk" href="mailto:${esc(m)}"><span><b style="font-size:13.5px">${esc(m)}</b></span><span>Email</span></a>`);
+  const forms=(k.forms||[]).map(([n,u])=>`<a class="lk" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>Form ↗</span></a>`);
   const all=[...tels,...mails,...forms];
-  return `<div class="ct">${all.length?all.join(""):`<p class="note">${esc(k.note||"公式発表に窓口の記載なし")}</p>`}${all.length&&k.note?`<p class="note">${esc(k.note)}</p>`:""}${src?`<p class="note">出典：<a href="${esc(src)}" target="_blank" rel="noopener">公式発表</a>に記載の窓口</p>`:""}</div>`}
+  return `<div class="ct">${all.length?all.join(""):`<p class="note">${esc(k.note||"No contact point stated in the official announcement")}</p>`}${all.length&&k.note?`<p class="note">${esc(k.note)}</p>`:""}${src?`<p class="note">Source: contact point stated in the <a href="${esc(src)}" target="_blank" rel="noopener">official announcement</a></p>`:""}</div>`}
 function openSheet(id){
   const d=DB.cases.find(x=>x.id===id);if(!d)return;
   const resp=(d.resp||"").split("。").map(s=>s.trim()).filter(Boolean);
-  const itemGrid=Object.entries(LABELS).map(([k,v])=>{const on=d.items.includes(k);return `<div class="gi ${on?"on":"off"}"><span aria-hidden="true">${on?"●":"–"}</span>${esc(v)}<span class="vh">${on?"含む":"記載なし"}</span></div>`}).join("");
+  const itemGrid=Object.entries(LABELS).map(([k,v])=>{const on=d.items.includes(k);return `<div class="gi ${on?"on":"off"}"><span aria-hidden="true">${on?"●":"–"}</span>${esc(v)}<span class="vh">${on?"included":"not stated"}</span></div>`}).join("");
   $("#sheetRoot").innerHTML=`<div class="scrim" data-close></div>
   <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t">
     <div class="sh-head"><div class="grab" aria-hidden="true"></div>
-      <div class="sh-title"><h3 id="sh-t">${esc(d.co)}</h3><button class="x" data-close aria-label="閉じる">×</button></div>
-      <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="pill ${d.st}">${d.st==="c"?"漏えい確認":"漏えいの可能性"}</span><span class="pill ${esc(d.status)}">${esc(SL[d.status]||"")}</span>${d.auto?'<span class="pill auto">自動追加・未確認</span>':""}</div>
+      <div class="sh-title"><h3 id="sh-t">${esc(d.co)}</h3><button class="x" data-close aria-label="Close">×</button></div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="pill ${d.st}">${d.st==="c"?"Leak confirmed":"Possible leak"}</span><span class="pill ${esc(d.status)}">${esc(SL[d.status]||"")}</span>${d.auto?'<span class="pill auto">Auto-added · unverified</span>':""}</div>
     </div>
     <div class="sh-body">
       <dl class="facts">
-        <dt>件数</dt><dd><b>${esc(d.label)}</b></dd>
-        ${d.verified?`<dt>最終確認日</dt><dd>${md(d.verified)}（公式発表と照合）</dd>`:""}
-        <dt>日付</dt><dd>${md(d.date)}（発生・検知または初回公表）</dd>
-        <dt>業種</dt><dd>${esc(d.ind||"—")}</dd>
-        <dt>原因</dt><dd>${esc((CL()[d.cause||"cyber"]||"")+((d.cause||"cyber")==="cyber"?"（"+d.types.join("・")+"）":""))}</dd>
-        <dt>誰の情報</dt><dd>${esc((d.who||[]).map(k=>(DB.whoLabels||{})[k]||k).join("、")||"—")}</dd>
-        ${d.claim?`<dt>犯行声明</dt><dd>${esc(d.claim)}</dd>`:""}
+        <dt>Records</dt><dd><b>${LAB(d)}</b></dd>
+        ${d.verified?`<dt>Last verified</dt><dd>${md(d.verified)} (checked against the official announcement)</dd>`:""}
+        <dt>Date</dt><dd>${md(d.date)} (occurrence, detection or first announcement)</dd>
+        <dt>Industry</dt><dd>${esc(d.ind||"—")}</dd>
+        <dt>Cause</dt><dd>${esc((CL()[d.cause||"cyber"]||"")+((d.cause||"cyber")==="cyber"?" ("+d.types.join(" · ")+")":""))}</dd>
+        <dt>Whose data</dt><dd>${esc((d.who||[]).map(k=>(DB.whoLabels||{})[k]||k).join(", ")||"—")}</dd>
+        ${d.claim?`<dt>Claim of responsibility (Japanese)</dt><dd lang="ja">${esc(d.claim)}</dd>`:""}
       </dl>
-      <div class="sec"><h4>流出した情報</h4>
+      <div class="sec"><h4>Data exposed</h4>
         ${d.items.length?`<div class="grid-items">${itemGrid}</div>`:""}
         <p class="note">${esc(d.itemsText)}</p>
-        ${d.notIncl?`<p class="note"><b>含まれない：</b>${esc(d.notIncl)}</p>`:""}
+        ${d.notIncl?`<p class="note"><b>Not included (Japanese):</b> <span lang="ja">${esc(d.notIncl)}</span></p>`:""}
       </div>
-      <div class="sec"><h4>概要</h4><p class="txt">${esc(d.sum)}</p></div>
-      <div class="sec"><h4>調査の状況</h4><p class="txt">${esc(d.statusText||"—")}</p></div>
-      <div class="sec"><h4>会社の対応</h4>${resp.length?`<ul class="resp">${resp.map(r=>`<li>${esc(r)}</li>`).join("")}</ul>`:'<p class="note">未確認</p>'}</div>
-      <div class="sec"><h4>お問い合わせ先</h4>${contactHTML(d)}</div>
-      <div class="sec"><h4>一次情報（公式発表）</h4><div class="links">${(d.official||[]).length?d.official.map(([n,u])=>`<a class="lk off" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>↗</span></a>`).join(""):'<p class="note">未確認</p>'}</div></div>
-      <div class="sec"><h4>報道</h4><div class="links">${d.src.map(([n,u])=>`<a class="lk" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>↗</span></a>`).join("")}</div></div>
-      <button class="share" data-share="${esc(d.id)}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>この事案を共有</button>
+      <div class="sec"><h4>Summary (in Japanese, from the official release)</h4><p class="txt" lang="ja">${esc(d.sum)}</p></div>
+      <div class="sec"><h4>Investigation status (Japanese)</h4><p class="txt" lang="ja">${esc(d.statusText||"—")}</p></div>
+      <div class="sec"><h4>Organization's response (Japanese)</h4>${resp.length?`<ul class="resp" lang="ja">${resp.map(r=>`<li>${esc(r)}</li>`).join("")}</ul>`:'<p class="note">Unverified</p>'}</div>
+      <div class="sec"><h4>Contact points</h4>${contactHTML(d)}</div>
+      <div class="sec"><h4>Official announcement</h4><div class="links">${(d.official||[]).length?d.official.map(([n,u])=>`<a class="lk off" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>↗</span></a>`).join(""):'<p class="note">Unverified</p>'}</div></div>
+      <div class="sec"><h4>Press coverage</h4><div class="links">${d.src.map(([n,u])=>`<a class="lk" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>↗</span></a>`).join("")}</div></div>
+      <button class="share" data-share="${esc(d.id)}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>Share this incident</button>
     </div>
   </div>`;
   document.body.classList.add("lock");
@@ -450,11 +458,11 @@ function closeSheet(){$("#sheetRoot").innerHTML="";document.body.classList.remov
 function toast(m){const t=document.createElement("div");t.className="toast";t.setAttribute("role","status");t.textContent=m;document.body.appendChild(t);setTimeout(()=>t.remove(),2200)}
 function share(id){
   const d=DB.cases.find(x=>x.id===id);if(!d)return;
-  const text=`【${d.co}】${d.label}（${d.st==="c"?"漏えい確認":"漏えいの可能性"}・${SL[d.status]||""}）\n${d.sum}`+(d.official&&d.official[0]?`\n公式発表：${d.official[0][1]}`:"")+`\n${PAGE}case/${id}.html`;
-  if(navigator.share){navigator.share({title:d.co+"の情報漏えい",text}).catch(e=>{if(!e||e.name!=="AbortError")copy(text)});return}
+  const text=`${d.co} — ${LAB(d)} (${d.st==="c"?"leak confirmed":"possible leak"}, ${SL[d.status]||""})`+(d.official&&d.official[0]?`\nOfficial announcement: ${d.official[0][1]}`:"")+`\n${PAGE}en/case/${id}.html`;
+  if(navigator.share){navigator.share({title:d.co+" data breach",text}).catch(e=>{if(!e||e.name!=="AbortError")copy(text)});return}
   copy(text);
 }
-function copy(t){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(()=>toast("共有用の文章とリンクをコピーしました"),()=>toast("コピーできませんでした"));else toast("コピーできませんでした")}
+function copy(t){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(()=>toast("Copied text and link"),()=>toast("Could not copy"));else toast("Could not copy")}
 
 document.addEventListener("click",e=>{
   const sh=e.target.closest("[data-share]");if(sh){share(sh.dataset.share);return}
@@ -482,15 +490,15 @@ $("#cause").addEventListener("change",e=>{S.cause=e.target.value;render()});
 $("#period").addEventListener("change",e=>{S.period=e.target.value;$("#daterow").hidden=S.period!=="custom";render()});
 $("#from").addEventListener("change",e=>{S.from=e.target.value;render()});
 $("#to").addEventListener("change",e=>{S.to=e.target.value;render()});
-function fillWho(){$("#who").innerHTML='<option value="">誰の情報：すべて</option>'+Object.entries(DB.whoLabels||{}).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join("")}
-function fillInd(){fillWho();$("#ind").innerHTML='<option value="">すべての業種</option>'+(DB.industries||[]).map(k=>`<option>${esc(k)}</option>`).join("")}
+function fillWho(){$("#who").innerHTML='<option value="">Whose data: all</option>'+Object.entries(DB.whoLabels||{}).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join("")}
+function fillInd(){fillWho();$("#ind").innerHTML='<option value="">All industries</option>'+(DB.industries||[]).map(k=>`<option>${esc(k)}</option>`).join("")}
 (async()=>{
-  try{const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;DB=await r.json();LABELS=DB.itemLabels;SL=DB.statusLabels||{};
-    $("#upd").textContent=DB.updated+" 更新";
-$("#rule").textContent=`掲載しているのは、報道や一覧で見つけた事案のうち、組織自身の公式発表を開いて内容が一致したものだけです。公式発表と照合できていない候補が${DB.pendingCount||0}件あり、毎日の更新で再確認しています。`;
+  try{const r=await fetch("../data.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;DB=toEN(await r.json());LABELS=DB.itemLabels;SL=DB.statusLabels||{};
+    $("#upd").textContent="Updated "+DB.updated;
+$("#rule").textContent=`Only incidents whose official announcement was opened and matched are listed. ${DB.pendingCount||0} further candidates could not yet be matched to an official announcement and are re-checked in each daily update.`;
 fillInd();renderChips();render();
     const id=location.hash.slice(1);if(id&&DB.cases.some(c=>c.id===id))openSheet(id);
-  }catch(e){$("#rows").innerHTML='<tr><td colspan="3" class="empty">データを読み込めませんでした。時間をおいて再読み込みしてください。</td></tr>'}
+  }catch(e){$("#rows").innerHTML='<tr><td colspan="3" class="empty">Could not load the data. Please try again later.</td></tr>'}
 })();
 </script>
 </body>
