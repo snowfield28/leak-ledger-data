@@ -3,9 +3,13 @@
 build_pages.py の最後に呼ばれる。選んだ設定はブラウザの localStorage に保存する（使えなければ保存せず動く）。"""
 import os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MARK = 'data-v="2"'
-TAG = r"""<style id="theme-css" data-v="2">
+MARK = 'data-v="3"'
+TAG = r"""<style id="theme-css" data-v="3">
 .theme-bar{display:flex;justify-content:flex-end;margin:0 0 6px}
+.top-tools{display:flex;align-items:center;gap:6px}
+.lang-link{font:inherit;font-size:12.5px;line-height:1;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:7px 12px;text-decoration:none;white-space:nowrap}
+.lang-link:hover{color:var(--ink)}
+.lang-link:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .theme-wrap{position:relative;display:inline-block}
 .theme-btn{font:inherit;font-size:12.5px;line-height:1;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:7px 12px;cursor:pointer;white-space:nowrap}
 .theme-btn:hover{color:var(--ink)}
@@ -18,9 +22,9 @@ TAG = r"""<style id="theme-css" data-v="2">
 .theme-menu .ck{margin-left:auto;visibility:hidden}
 .theme-menu button[aria-checked="true"] .ck{visibility:visible}
 </style>
-<script id="theme-js" data-v="2">
+<script id="theme-js" data-v="3">
 (function(){
-  var d=document.documentElement,en=(d.lang||"ja").indexOf("en")===0;
+  var ALT="@@ALT@@",d=document.documentElement,en=(d.lang||"ja").indexOf("en")===0;
   var L=en?{system:"Auto (match device)",light:"Light",dark:"Dark",short:{system:"Auto",light:"Light",dark:"Dark"},aria:"Color theme"}
           :{system:"自動（端末に合わせる）",light:"ライト",dark:"ダーク",short:{system:"自動",light:"ライト",dark:"ダーク"},aria:"表示モード"};
   var I={system:"◐",light:"☀",dark:"☾"},ORDER=["system","light","dark"];
@@ -51,12 +55,28 @@ TAG = r"""<style id="theme-css" data-v="2">
       if(e.key==="ArrowDown"||e.key==="ArrowUp"){e.preventDefault();var i=ORDER.indexOf(document.activeElement===b?cur:ORDER.find(function(k){return items[k]===document.activeElement})||cur);i=(i+(e.key==="ArrowDown"?1:2))%3;items[ORDER[i]].focus()}
     });
     paint();wrap.appendChild(b);wrap.appendChild(menu);
+    var grp=document.createElement("div");grp.className="top-tools";
+    if(ALT){var a=document.createElement("a");a.className="lang-link";a.href=ALT;a.setAttribute("hreflang",en?"ja":"en");a.lang=en?"ja":"en";a.textContent=en?"\u65E5\u672C\u8A9E":"English";grp.appendChild(a)}
+    grp.appendChild(wrap);
     var h=document.querySelector(".head");
-    if(h){h.appendChild(wrap)}else{var m=document.querySelector("main")||document.body,w=document.createElement("div");w.className="theme-bar";w.appendChild(wrap);m.insertBefore(w,m.firstChild)}
+    if(h){h.appendChild(grp)}else{var m=document.querySelector("main")||document.body,w=document.createElement("div");w.className="theme-bar";w.appendChild(grp);m.insertBefore(w,m.firstChild)}
   });
 })();
 </script>
 """
+
+
+def alt_href(p):
+    """この言語のページに対応する、もう一方の言語のページへの相対リンク。"""
+    rel = os.path.relpath(p, ROOT).replace(os.sep, "/")
+    tgt = rel[3:] if rel.startswith("en/") else "en/" + rel
+    if not os.path.exists(os.path.join(ROOT, tgt)):
+        return ""
+    t = os.path.join(ROOT, tgt)
+    if os.path.basename(t) == "index.html":
+        r = os.path.relpath(os.path.dirname(t), os.path.dirname(p)).replace(os.sep, "/")
+        return "./" if r == "." else r + "/"
+    return os.path.relpath(t, os.path.dirname(p)).replace(os.sep, "/")
 
 
 def run():
@@ -71,7 +91,7 @@ def run():
             if MARK in s or "</head>" not in s:
                 continue
             s = re.sub(r'<style id="theme-css"[^>]*>.*?</style>\n<script id="theme-js"[^>]*>.*?</script>\n', "", s, flags=re.S)
-            open(p, "w", encoding="utf-8").write(s.replace("</head>", TAG + "</head>", 1))
+            open(p, "w", encoding="utf-8").write(s.replace("</head>", TAG.replace("@@ALT@@", alt_href(p)) + "</head>", 1))
             n += 1
     return n
 
