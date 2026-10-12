@@ -327,3 +327,5 @@ if __name__ == "__main__":
     main()
     import add_analytics
     print("analytics tag added to", add_analytics.run(), "files")
+    import add_theme
+    print("theme switch added to", add_theme.run(), "files")
