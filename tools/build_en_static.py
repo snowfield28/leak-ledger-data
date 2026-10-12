@@ -4,7 +4,7 @@ import os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://snowfield28.github.io/leak-ledger-data/"
 FORM = sys.argv[1] if len(sys.argv) > 1 else "https://docs.google.com/forms/d/e/1FAIpQLScmk68QZJLTWugUYQF58kaNRV9CSfwQSGvBNsPpHZLyyH7VVQ/viewform"
-UPD = "October 11, 2026"
+UPD = "October 12, 2026"
 
 ja_about = open(os.path.join(ROOT, "about.html"), encoding="utf-8").read()
 CSS = re.search(r"<style>.*?</style>", ja_about, re.S).group(0)
@@ -77,8 +77,11 @@ page("about.html", "About this site",
 page("privacy.html", "Privacy policy",
  "How the Japan Data Breach Ledger handles information.",
 """<section><h2>Information collected on this site</h2>
-<p>This site itself does not ask visitors for names, email addresses or similar (the contact form is separate; see below). It uses no cookies and no analytics or advertising tools.</p>
+<p>This site itself does not ask visitors for names, email addresses or similar (the contact form is separate; see below). It uses no advertising tools. For analytics, see "Analytics" below.</p>
 <p>Settings on the site, such as filters, are processed only inside your device and are not sent to the operator.</p></section>
+
+<section><h2>Analytics</h2>
+<p>To see which pages are viewed, this site uses the analytics service <a href="https://www.goatcounter.com/" rel="noopener">GoatCounter</a>. According to its provider, GoatCounter stores no cookies or similar data in your browser and does not store IP addresses. It aggregates page view counts and referrers, browser name and version, operating system, language, screen width, and the country or region derived from the IP address. These are used only as statistics; visitors are not identified as individuals. The provider states that no information is shared with third parties. See <a href="https://www.goatcounter.com/privacy" rel="noopener">GoatCounter's privacy policy</a>.</p></section>
 
 <section><h2>Records kept by the hosting provider</h2>
 <p>This site is hosted on GitHub Pages (GitHub, Inc.). For security, GitHub logs and stores visitors' IP addresses. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub's Privacy Statement</a>. The operator does not receive these logs.</p></section>
@@ -90,7 +93,7 @@ page("privacy.html", "Privacy policy",
 <p>This site links to organizations' official announcements and news articles. How those sites handle information is governed by their own policies.</p></section>
 
 <section><h2>Changes to this policy</h2>
-<p>If handling changes, for example by adding analytics or advertising, this page will be updated before the change takes effect.</p></section>
+<p>If handling changes, for example by adding advertising, this page will be updated before the change takes effect.</p></section>
 """)
 
 page("contact.html", "Contact / corrections",

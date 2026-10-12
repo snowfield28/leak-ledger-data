@@ -325,3 +325,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    import add_analytics
+    print("analytics tag added to", add_analytics.run(), "files")
