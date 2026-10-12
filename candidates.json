@@ -6346,7 +6346,7 @@
   {
    "co": "ブックオフグループホールディングス（子会社ブックオフコーポレーションの会員管理システム）",
    "date": "2026-10-09",
-   "pendingReason": "10/12再確認：検索の上限に達し、ブックオフ公式お知らせ・TDnet PDF・窓口ページを今回は開けなかった（TDnet PDFはPROVENANCE_REQUIREDで拒否）。新たな第2報は報道でも確認できず。件数・項目は報道（ITmedia等）の記載のみで未照合",
+   "pendingReason": "10/12再確認（URLをユーザー提供で取得）：お知らせは本文が画像の可能性があり、タイトルのみ取得。適時開示PDFはrobots制限で取得不可。窓口ページは専用フォームの存在のみ確認（電話・メールの記載なし、対象者へは順次メール連絡の旨）。件数・項目は報道のみで未照合",
    "id": "pending-354",
    "cause": "cyber",
    "types": [
@@ -6416,7 +6416,7 @@
   {
    "co": "ユーザベース（NewsPicks）",
    "date": "2026-10-08",
-   "pendingReason": "10/12再確認：公式の第一報・第二報（corp.newspicks.com）と、ITmediaが第2報として示すnewspicks.com上の発表は、どれもWebFetchの取得許可が得られず開けなかった。検索の上限に達したため別のURLも探せていない。第二報の件数（最大値。報道ベース）は他のフィールドに反映したが、公式本文とは未照合",
+   "pendingReason": "10/12再確認（URLをユーザー提供で取得）：公式第一報・第二報（corp.newspicks.com）は取得できたがメタ情報と冒頭のみで、原因・項目・件数・窓口の本文が取れず照合できない（本文はJavaScript描画の可能性）。件数は報道ベースで未照合",
    "id": "pending-355",
    "last": "2026-10-09",
    "cause": "cyber",
@@ -6554,7 +6554,7 @@
     ]
    ],
    "ind": "通信・IT",
-   "pendingReason": "10/12再確認：公式発表（communeinc.com）はWebFetchの取得許可が得られず（PROVENANCE_REQUIRED）、ニュース一覧ページもメタデータしか取れず本文が読めない。利用企業（LINEヤフー・LIXIL・ユニファ）の公式発表で委託先コミューンの不備悪用は確認できたが、コミューン本体の件数（推計約30.7万人）・項目・窓口は報道のみで未照合。報道（piyolog・セキュリティ対策Lab）では、144人のパスワードが本人の操作なく仮パスワードに変更されたことと、漏えいした時間帯（10/5 18時頃〜10/6 21時頃、10/7 13:17〜14:36）が追加で伝えられている",
+   "pendingReason": "10/12再確認（URLをユーザー提供で取得）：公式発表（communeinc.com）はタイトルとメタ情報のみ取得でき、本文が読めず照合できない。コミューン本体の件数（推計約30.7万人）・項目・窓口は報道のみで未照合",
    "id": "commune-2610"
   },
   {
@@ -6673,55 +6673,6 @@
    "ind": "メディア・出版",
    "pendingReason": "10/12再確認：公式発表URL（japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/）は報道経由で確認したが、WebFetchが拒否し本文を照合できず。続報は見つからず。途中で検索回数の上限に達し、追加の検索はできなかった",
    "id": "japan-times-2610"
-  },
-  {
-   "co": "徳洲会 千葉西総合病院",
-   "date": "2026-10-08",
-   "last": "2026-10-09",
-   "cause": "insider",
-   "types": [
-    "内部不正"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "c",
-   "items": [],
-   "itemsText": "患者が映った動画（項目は公表資料で要確認）",
-   "notIncl": "",
-   "who": [
-    "cust"
-   ],
-   "sum": "夜勤中の看護師2人が患者の映る動画を撮影し、看護師3人のグループ内で共有。その後、動画がXに投稿されているのが見つかった。病院は患者の個人情報の漏えいを認めた。対象となった患者の人数は示されていない。",
-   "status": "ongoing",
-   "statusText": "看護師3人を出勤停止にしたが、Xへ投稿された経緯は調査中とされ、最終報告はまだない",
-   "resp": "関与した看護師3人を出勤停止にし、家族へ連絡・謝罪。個人情報保護委員会、松戸保健所、松戸市へ報告。Xに削除を依頼し、職員に注意喚起と研修を実施",
-   "contact": {
-    "note": "公式発表の窓口記載は未確認",
-    "src": "https://www.chibanishi-hp.or.jp/archives/news/important/24310"
-   },
-   "official": [
-    [
-     "病院からのお知らせ・第1報（2026/10/8）",
-     "https://www.chibanishi-hp.or.jp/archives/news/important/24310"
-    ],
-    [
-     "病院からのお知らせ・第2報（2026/10/9）",
-     "https://www.chibanishi-hp.or.jp/archives/news/important/24345"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/chibanishi_hospital_staff_sns_patient_video_leak_20261010/"
-    ],
-    [
-     "日本経済新聞",
-     "https://www.nikkei.com/article/DGXZQOUD09BMC0Z01C26A0000000/"
-    ]
-   ],
-   "ind": "病院・医療",
-   "pendingReason": "10/12再確認：検索の上限に達し、病院公式サイトの第1報・第2報のURLを検索結果に出せず開けなかった。新たな続報も確認できていない",
-   "id": "chibanishi-hospital-sns-2610"
   },
   {
    "id": "toyobo-mc-2609",

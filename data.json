@@ -18172,6 +18172,55 @@
     "src": "https://e-tenki.co.jp/news/%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84/"
    },
    "verified": "2026-10-12"
+  },
+  {
+   "co": "徳洲会 千葉西総合病院",
+   "date": "2026-10-08",
+   "last": "2026-10-10",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [],
+   "itemsText": "患者が映った動画（項目は公表資料で要確認）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "夜勤中（10/5夜）の看護師2人が患者の映る動画を撮影し、看護師3人のグループ内で共有。病院は個人情報の漏えいがあったとして、家族へ謝罪した。職員は不特定多数への拡散ではなく、グループ内の共有のつもりだったとしている。対象となった患者の人数は示されていない。",
+   "status": "ongoing",
+   "statusText": "第2報（10/9、10/10に文言修正）。看護師3人を自宅待機（初出の「出勤停止」から修正）。詳細報告と再発防止策は事実確認後に公表予定で、最終報告はまだない",
+   "resp": "患者の家族へ電話で報告・謝罪（10/8）、直接謝罪（10/9）。Xへの投稿削除を依頼。個人情報保護委員会、松戸保健所、松戸市へ報告。全職員へ注意喚起し、臨時の個人情報管理委員会を開催、翌週に全職員対象の研修を実施予定。関与した看護師3人は自宅待機",
+   "contact": {
+    "note": "本件専用の窓口の記載なし。ページ下部に代表番号 047-384-8111 と「お問い合わせ」ページへのリンクがある",
+    "src": "https://www.chibanishi-hp.or.jp/archives/news/important/24345"
+   },
+   "official": [
+    [
+     "病院からのお知らせ・第1報（2026/10/8）",
+     "https://www.chibanishi-hp.or.jp/archives/news/important/24310"
+    ],
+    [
+     "病院からのお知らせ・第2報（2026/10/9）",
+     "https://www.chibanishi-hp.or.jp/archives/news/important/24345"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/chibanishi_hospital_staff_sns_patient_video_leak_20261010/"
+    ],
+    [
+     "日本経済新聞",
+     "https://www.nikkei.com/article/DGXZQOUD09BMC0Z01C26A0000000/"
+    ]
+   ],
+   "ind": "病院・医療",
+   "id": "chibanishi-hospital-sns-2610",
+   "verified": "2026-10-12"
   }
  ],
  "statusLabels": {
@@ -18204,7 +18253,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 309,
+ "pendingCount": 308,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
