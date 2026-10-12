@@ -65,7 +65,13 @@ h1{font-size:22px;font-weight:800;margin:0}
 .it .c{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
 .it .m{flex:1;height:4px;background:var(--grid);border-radius:2px;overflow:hidden}
 .it .m i{display:block;height:100%;background:var(--bar)}
-.filters{display:flex;flex-direction:column;gap:8px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding-block:8px;z-index:2}
+.actbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:3;display:flex;flex-wrap:wrap;align-items:center;gap:6px;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line)}
+.actbar[hidden]{display:none}
+.actbar .al{font-size:12.5px;color:var(--muted)}
+.atag{font:inherit;font-size:12.5px;padding:5px 10px;border-radius:99px;border:1px solid var(--bar);background:var(--bar);color:var(--bg);cursor:pointer;white-space:nowrap}
+.atag::after{content:" ×";opacity:.8}
+.aclear{font:inherit;font-size:12.5px;padding:5px 10px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;margin-left:auto;white-space:nowrap}
+.filters{display:flex;flex-direction:column;gap:8px;position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--abh,0px));background:var(--bg);padding-block:8px;z-index:2}
 input[type=search]{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
 .hscroll{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
 .hscroll::-webkit-scrollbar{display:none}
@@ -231,6 +237,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
   <div class="upd" id="upd"></div>
 
   <div class="tiles" id="tiles"></div>
+  <div class="actbar" id="actbar" role="region" aria-label="現在の絞り込み" hidden></div>
 
   <div class="dash">
   <section class="panel wide" aria-labelledby="h-bars">
@@ -305,6 +312,8 @@ let DB={cases:[],itemLabels:{},statusLabels:{},industries:[],causeLabels:{},upda
 const PAGE="https://snowfield28.github.io/leak-ledger-data/";
 const S={who:"",q:"",cause:"",st:"",res:"",sort:"date",sel:new Set(),noauto:"",ind:"",period:"730",from:"",to:"",ana:"ind",asort:"n"};
 const CL=()=>DB.causeLabels||{};
+const FL={c:"漏えい確認",p:"漏えいの可能性",ongoing:"調査中",closed:"調査完了"};
+const AL={lead:"絞り込み中",clear:"すべて解除",to:" 〜 "};
 function causeOk(d){if(!S.cause)return true;const [k,v]=[S.cause.slice(0,1),S.cause.slice(2)];return k==="c"?(d.cause||"cyber")===v:d.types.includes(v)}
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -416,6 +425,7 @@ function render(){
   const mw=Math.max(1,...byW.map(x=>x[2]));
   $("#whoBars").innerHTML=byW.length?byW.map(([k,l,c])=>`<button class="brow" data-who="${k}" aria-pressed="${S.who===k}" aria-label="${esc(l)} ${c}件"><span class="bname">${esc(l)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mw*100}%;${S.who&&S.who!==k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
   $("#clear").hidden=!(S.who||S.cause||S.st||S.res||S.sel.size||S.q||S.noauto||S.ind||S.period!=="730");
+  renderActive();
   const byInd=(DB.industries||[]).map(k=>[k,rows.filter(d=>d.ind===k).length]).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]);
   const mi=Math.max(1,...byInd.map(x=>x[1]));
   $("#indBars").innerHTML=byInd.length?byInd.map(([k,c])=>`<button class="brow" data-ind="${esc(k)}" aria-pressed="${S.ind===k}" aria-label="${esc(k)} ${c}件"><span class="bname">${esc(k)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mi*100}%;${S.ind&&S.ind!==k?"opacity:.35":""}"></span></span><span class="bval">${c}件</span></button>`).join(""):'<div class="empty">該当する事案はありません</div>';
@@ -435,6 +445,36 @@ function contactHTML(d){const k=d.contact||{},src=k.src||((d.official||[])[0]||[
   const forms=(k.forms||[]).map(([n,u])=>`<a class="lk" href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(n)}</span><span>フォーム ↗</span></a>`);
   const all=[...tels,...mails,...forms];
   return `<div class="ct">${all.length?all.join(""):`<p class="note">${esc(k.note||"公式発表に窓口の記載なし")}</p>`}${all.length&&k.note?`<p class="note">${esc(k.note)}</p>`:""}${src?`<p class="note">出典：<a href="${esc(src)}" target="_blank" rel="noopener">公式発表</a>に記載の窓口</p>`:""}</div>`}
+function activeList(){
+  const a=[];
+  if(S.who)a.push(["who",(DB.whoLabels||{})[S.who]||S.who]);
+  if(S.cause)a.push(["cause",S.cause.startsWith("c:")?(CL()[S.cause.slice(2)]||S.cause.slice(2)):S.cause.slice(2)]);
+  if(S.st)a.push(["st",FL[S.st]]);
+  if(S.res)a.push(["res",FL[S.res]]);
+  if(S.ind)a.push(["ind",S.ind]);
+  [...S.sel].forEach(k=>a.push(["item:"+k,LABELS[k]||k]));
+  if(S.q.trim())a.push(["q","\u201c"+S.q.trim()+"\u201d"]);
+  if(S.period!=="730"){const o=$("#period").selectedOptions[0];a.push(["period",S.period==="custom"?((S.from||"")+AL.to+(S.to||"")):(o?o.textContent:S.period)])}
+  return a;
+}
+function renderActive(){
+  const bar=$("#actbar"),a=activeList();
+  bar.hidden=!a.length;
+  bar.innerHTML=a.length?`<span class="al">${AL.lead}</span>`+a.map(([k,l])=>`<button class="atag" data-rm="${esc(k)}">${esc(l)}</button>`).join("")+`<button class="aclear" data-clearall>${AL.clear}</button>`:"";
+  document.documentElement.style.setProperty("--abh",a.length?bar.offsetHeight+"px":"0px");
+}
+function resetFilters(){S.who="";$("#who").value="";S.cause=S.st=S.res=S.noauto=S.ind=S.from=S.to="";S.period="730";$("#cause").value="";$("#ind").value="";$("#period").value="730";$("#from").value="";$("#to").value="";$("#daterow").hidden=true;S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
+function removeFilter(k){
+  if(k==="who"){S.who="";$("#who").value=""}
+  else if(k==="cause"){S.cause="";$("#cause").value=""}
+  else if(k==="st")S.st="";
+  else if(k==="res")S.res="";
+  else if(k==="ind"){S.ind="";$("#ind").value=""}
+  else if(k==="q"){S.q="";$("#q").value=""}
+  else if(k==="period"){S.period="730";S.from=S.to="";$("#period").value="730";$("#from").value="";$("#to").value="";$("#daterow").hidden=true}
+  else if(k.startsWith("item:"))S.sel.delete(k.slice(5));
+  renderChips();render();
+}
 function openSheet(id){
   const d=DB.cases.find(x=>x.id===id);if(!d)return;
   const resp=(d.resp||"").split("。").map(s=>s.trim()).filter(Boolean);
@@ -483,6 +523,8 @@ function share(id){
 function copy(t){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(()=>toast("共有用の文章とリンクをコピーしました"),()=>toast("コピーできませんでした"));else toast("コピーできませんでした")}
 
 document.addEventListener("click",e=>{
+  const rm=e.target.closest("[data-rm]");if(rm){removeFilter(rm.dataset.rm);return}
+  if(e.target.closest("[data-clearall]")){resetFilters();return}
   const sh=e.target.closest("[data-share]");if(sh){share(sh.dataset.share);return}
   if(e.target.closest("[data-close]")){closeSheet();return}
   const o=e.target.closest("[data-open]");if(o){if(o.tagName==="A"){if(e.metaKey||e.ctrlKey||e.shiftKey||e.button===1)return;e.preventDefault()}openSheet(o.dataset.open);return}
@@ -495,7 +537,7 @@ document.addEventListener("click",e=>{
   if(b){const i=b.dataset.act.indexOf(":"),k=b.dataset.act.slice(0,i),v=b.dataset.act.slice(i+1);
     if(k==="item")S.sel.has(v)?S.sel.delete(v):S.sel.add(v);else S[k]=v;
     renderChips();render();return}
-  if(e.target.id==="clear"){S.who="";$("#who").value="";S.cause=S.st=S.res=S.noauto=S.ind=S.from=S.to="";S.period="730";$("#cause").value="";$("#ind").value="";$("#period").value="730";$("#from").value="";$("#to").value="";$("#daterow").hidden=true;S.sel.clear();S.q="";$("#q").value="";renderChips();render()}
+  if(e.target.id==="clear"){resetFilters()}
 });
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape")closeSheet();

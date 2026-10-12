@@ -82,6 +82,9 @@ k = t.index("const fmt=n=>"); l = t.index("\n", k)
 t = t[:k] + 'const fmt=n=>n==null?"—":n>=1e9?(Math.round(n/1e8)/10).toLocaleString("en-US")+"B":n>=1e6?(Math.round(n/1e5)/10).toLocaleString("en-US")+"M":n>=1e3?(Math.round(n/1e2)/10).toLocaleString("en-US")+"K":n.toLocaleString("en-US");' + t[l:]
 
 more = [
+ ('const FL={c:"漏えい確認",p:"漏えいの可能性",ongoing:"調査中",closed:"調査完了"};', 'const FL={c:"Leak confirmed",p:"Possible leak",ongoing:"Ongoing",closed:"Closed"};'),
+ ('const AL={lead:"絞り込み中",clear:"すべて解除",to:" 〜 "};', 'const AL={lead:"Filtering by",clear:"Clear all",to:" – "};'),
+ ('aria-label="現在の絞り込み"', 'aria-label="Active filters"'),
  ('tg("st","c","漏えい確認")+tg("st","p","漏えいの可能性")', 'tg("st","c","Leak confirmed")+tg("st","p","Possible leak")'),
  ('tg("res","ongoing","調査中")+tg("res","closed","調査完了")', 'tg("res","ongoing","Ongoing")+tg("res","closed","Closed")'),
  ('chip("新しい順",S.sort==="date","sort:date")+chip("件数順",S.sort==="size","sort:size")', 'chip("Newest first",S.sort==="date","sort:date")+chip("Most records",S.sort==="size","sort:size")'),
