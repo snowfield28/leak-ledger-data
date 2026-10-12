@@ -225,7 +225,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 </style>
 <script id="theme-js" data-v="3">
 (function(){
-  var ALT="../",d=document.documentElement,en=(d.lang||"ja").indexOf("en")===0;
+  var ALT="en/",d=document.documentElement,en=(d.lang||"ja").indexOf("en")===0;
   var L=en?{system:"Auto (match device)",light:"Light",dark:"Dark",short:{system:"Auto",light:"Light",dark:"Dark"},aria:"Color theme"}
           :{system:"自動（端末に合わせる）",light:"ライト",dark:"ダーク",short:{system:"自動",light:"ライト",dark:"ダーク"},aria:"表示モード"};
   var I={system:"◐",light:"☀",dark:"☾"},ORDER=["system","light","dark"];
@@ -337,7 +337,7 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 
   <nav class="foot" aria-label="Site information" style="display:flex;flex-wrap:wrap;gap:6px 16px"><a href="case/">All incidents</a><a href="about.html">About</a><a href="privacy.html">Privacy policy</a><a href="contact.html">Contact / corrections</a><a href="../" hreflang="ja" lang="ja">日本語</a></nav>
   <p class="foot" id="rule"></p>
-  <p class="foot">Coverage is comprehensive from October 2025 onward; earlier incidents are only partly included. The period filter uses the incident date or the date of the latest update. Industries are this ledger's own classification based on each organization's main business. Counts are the organizations' published figures; people and records may be mixed and duplicates may be included. "Closed" means the investigation result or a final report has been published. Selecting several data types narrows to incidents that include all of them. Classification relies only on items stated in the sources. Incident descriptions are shown in Japanese, as written in the official announcements.</p>
+  <p class="foot">Coverage is comprehensive from October 2025 onward; earlier incidents are only partly included. The period filter uses the date of the first announcement or of the latest update. Industries are this ledger's own classification based on each organization's main business. Counts are the organizations' published figures; people and records may be mixed and duplicates may be included. "Closed" means the investigation result or a final report has been published. Selecting several data types narrows to incidents that include all of them. Classification relies only on items stated in the sources. Incident descriptions are shown in Japanese, as written in the official announcements.</p>
 </div>
 
 <div id="sheetRoot"></div>
@@ -430,7 +430,7 @@ function renderAna(rows){
     el.innerHTML=`<div class="legend">${cs.map(([k,l],i)=>`<span><i style="background:${cols[i%5]}"></i>${esc(l)}</span>`).join("")}</div>
     <div class="mchart" role="img" aria-label="Incidents per month">${all.map(k=>{const v=m[k]||{c:0,n:0,by:{}};
       return `<div class="mcol" title="${k}: ${v.c} incidents / ${fmt(v.n)} records"><span class="mv">${v.c||""}</span><div class="mstack" style="height:${v.c/mx*100}%">${cs.map(([c],i)=>v.by[c]?`<i style="flex:${v.by[c]};background:${cols[i%5]}"></i>`:"").join("")}</div><span class="ml">${["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][Number(k.slice(5))]}${k.slice(5)==="01"||k===all[0]?`<br>${k.slice(0,4)}`:""}</span></div>`}).join("")}</div>
-    <p class="note">Counted by the month of the incident date (occurrence, detection or first announcement). Months before October 2025 look low because only some incidents are included.</p>`;
+    <p class="note">Counted by the month of the first announcement. Months before October 2025 look low because only some incidents are included.</p>`;
     const mc=el.querySelector(".mchart");if(mc)mc.scrollLeft=mc.scrollWidth;
   }else{
     const B=[["<1K",0,1e3],["1K–10K",1e3,1e4],["10K–100K",1e4,1e5],["100K–1M",1e5,1e6],["1M+",1e6,Infinity]];
@@ -532,7 +532,8 @@ function openSheet(id){
       <dl class="facts">
         <dt>Records</dt><dd><b>${LAB(d)}</b></dd>
         ${d.verified?`<dt>Last verified</dt><dd>${md(d.verified)} (checked against the official announcement)</dd>`:""}
-        <dt>Date</dt><dd>${md(d.date)} (occurrence, detection or first announcement)</dd>
+        <dt>First announced</dt><dd>${md(d.announced||d.date)}${d.announced?"":" (unverified)"}</dd>
+        <dt>Occurred / detected</dt><dd>${d.occurred?md(d.occurred):"Unverified"}</dd>
         <dt>Industry</dt><dd>${esc(d.ind||"—")}</dd>
         <dt>Cause</dt><dd>${esc((CL()[d.cause||"cyber"]||"")+((d.cause||"cyber")==="cyber"?" ("+d.types.join(" · ")+")":""))}</dd>
         <dt>Whose data</dt><dd>${esc((d.who||[]).map(k=>(DB.whoLabels||{})[k]||k).join(", ")||"—")}</dd>

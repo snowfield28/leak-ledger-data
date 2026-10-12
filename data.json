@@ -97,11 +97,12 @@
     "cust",
     "biz"
    ],
-   "last": "2026-10-01"
+   "last": "2026-10-01",
+   "announced": "2026-09-25"
   },
   {
    "co": "大起水産",
-   "date": "2026-09-15",
+   "date": "2026-10-05",
    "types": [
     "不正アクセス"
    ],
@@ -152,7 +153,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-05",
+   "occurred": "2026-09-15"
   },
   {
    "co": "アフラック生命保険",
@@ -228,7 +231,8 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-06-30"
   },
   {
    "co": "KDDI（ISP向けメールシステム）",
@@ -462,7 +466,7 @@
   },
   {
    "co": "アサヒグループホールディングス",
-   "date": "2025-09-29",
+   "date": "2026-07-17",
    "types": [
     "ランサムウェア"
    ],
@@ -529,7 +533,9 @@
     "cust",
     "biz",
     "staff"
-   ]
+   ],
+   "announced": "2026-07-17",
+   "occurred": "2025-09-29"
   },
   {
    "co": "損害保険ジャパン（SOMPOホールディングス）",
@@ -588,7 +594,7 @@
   },
   {
    "co": "コナカ（DIFFERENCE）",
-   "date": "2025-04-22",
+   "date": "2025-04-24",
    "types": [
     "不正アクセス"
    ],
@@ -641,11 +647,13 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2025-04-24",
+   "occurred": "2025-04-22"
   },
   {
    "co": "トキハ／トキハインダストリー",
-   "date": "2025-03-30",
+   "date": "2025-07-23",
    "types": [
     "ランサムウェア"
    ],
@@ -714,7 +722,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2025-07-23",
+   "occurred": "2025-03-30"
   },
   {
    "co": "AOKIホールディングス（快活CLUB・FiT24）",
@@ -839,11 +849,12 @@
    "who": [
     "cust",
     "staff"
-   ]
+   ],
+   "announced": "2024-07-17"
   },
   {
    "co": "KADOKAWA（ドワンゴ）",
-   "date": "2024-06-08",
+   "date": "2024-08-05",
    "types": [
     "ランサムウェア"
    ],
@@ -910,7 +921,9 @@
     "cust",
     "biz",
     "staff"
-   ]
+   ],
+   "announced": "2024-08-05",
+   "occurred": "2024-06-08"
   },
   {
    "co": "イセトー（印刷・発送受託）",
@@ -967,7 +980,7 @@
   {
    "id": "daiichikosho",
    "co": "第一興商（委託先 日本コロムビアグループ）",
-   "date": "2026-10-02",
+   "date": "2026-10-08",
    "types": [
     "不正アクセス",
     "委託先経由"
@@ -1017,7 +1030,9 @@
    "who": [
     "cust",
     "staff"
-   ]
+   ],
+   "announced": "2026-10-08",
+   "occurred": "2026-10-02"
   },
   {
    "id": "epark-relax",
@@ -1077,7 +1092,7 @@
   {
    "id": "gyazo",
    "co": "Helpfeel（画像共有サービス Gyazo）",
-   "date": "2026-09-11",
+   "date": "2026-09-16",
    "types": [
     "不正アクセス"
    ],
@@ -1121,12 +1136,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-16",
+   "occurred": "2026-09-11"
   },
   {
    "id": "mrmax",
    "co": "ミスターマックス（MrMaxアプリ・オンラインストア）",
-   "date": "2026-10-03",
+   "date": "2026-10-06",
    "types": [
     "不正アクセス"
    ],
@@ -1172,12 +1189,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-06",
+   "occurred": "2026-10-03"
   },
   {
    "id": "gmo-research-infoq",
    "co": "GMOリサーチ&AI（アンケートサイト infoQ）",
-   "date": "2026-10-03",
+   "date": "2026-10-05",
    "types": [
     "不正アクセス"
    ],
@@ -1222,12 +1241,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-05",
+   "occurred": "2026-10-03"
   },
   {
    "id": "asahi-kasei-pharma",
    "co": "旭化成セラピューティクス（委託先 医薬情報ネット）",
-   "date": "2026-10-02",
+   "date": "2026-10-06",
    "types": [
     "不正アクセス",
     "委託先経由"
@@ -1282,7 +1303,9 @@
    "who": [
     "biz",
     "staff"
-   ]
+   ],
+   "announced": "2026-10-06",
+   "occurred": "2026-10-02"
   },
   {
    "id": "pfu-shopserve",
@@ -1332,7 +1355,8 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-18"
   },
   {
    "id": "sakura-internet",
@@ -1393,7 +1417,7 @@
   {
    "id": "dai-ichi-life",
    "co": "第一ライフグループ・第一生命保険（人事システム）",
-   "date": "2026-09-24",
+   "date": "2026-10-02",
    "types": [
     "不正アクセス"
    ],
@@ -1452,12 +1476,14 @@
    },
    "who": [
     "staff"
-   ]
+   ],
+   "announced": "2026-10-02",
+   "occurred": "2026-09-24"
   },
   {
    "id": "ozmall",
    "co": "スターツ出版（オズモール）",
-   "date": "2026-09-26",
+   "date": "2026-09-27",
    "types": [
     "不正アクセス"
    ],
@@ -1504,7 +1530,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-27",
+   "occurred": "2026-09-26"
   },
   {
    "id": "seicomart",
@@ -1615,7 +1643,8 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-29"
   },
   {
    "id": "tokyo-metro-metpo",
@@ -1671,7 +1700,7 @@
   {
    "id": "japanpost-app",
    "co": "日本郵政・日本郵便（郵便局アプリ・ゆうID）",
-   "date": "2026-09-25",
+   "date": "2026-09-29",
    "types": [
     "不正アクセス"
    ],
@@ -1728,12 +1757,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-29",
+   "occurred": "2026-09-25"
   },
   {
    "id": "nippon-rentacar",
    "co": "ニッポンレンタカーサービス（NRアプリ）",
-   "date": "2026-09-19",
+   "date": "2026-09-26",
    "types": [
     "不正アクセス"
    ],
@@ -1780,12 +1811,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-26",
+   "occurred": "2026-09-19"
   },
   {
    "id": "citizen",
    "co": "シチズン時計（委託先 スカラコミュニケーションズ）",
-   "date": "2026-10-03",
+   "date": "2026-10-06",
    "types": [
     "不正アクセス",
     "委託先経由"
@@ -1831,7 +1864,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-06",
+   "occurred": "2026-10-03"
   },
   {
    "id": "nikkei",
@@ -1942,7 +1977,7 @@
   {
    "id": "dozle-store",
    "co": "ドズル（ドズル社ストア）",
-   "date": "2026-09-11",
+   "date": "2026-09-12",
    "types": [
     "不正アクセス"
    ],
@@ -1981,12 +2016,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-12",
+   "occurred": "2026-09-11"
   },
   {
    "id": "photogoods",
    "co": "大興印刷（PhotoGoods・プロ野球チップス関連）",
-   "date": "2026-09-11",
+   "date": "2026-09-16",
    "types": [
     "不正アクセス"
    ],
@@ -2036,7 +2073,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-16",
+   "occurred": "2026-09-11"
   },
   {
    "id": "applynow",
@@ -2104,7 +2143,8 @@
    },
    "who": [
     "staff"
-   ]
+   ],
+   "announced": "2026-09-09"
   },
   {
    "id": "fuso-dentsu",
@@ -2206,12 +2246,13 @@
    "who": [
     "cust",
     "biz"
-   ]
+   ],
+   "announced": "2026-09-25"
   },
   {
    "id": "jgc-digital",
    "co": "JGC Digital（アザス・するーぷ）",
-   "date": "2026-09-16",
+   "date": "2026-09-18",
    "types": [
     "不正アクセス"
    ],
@@ -2255,7 +2296,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-18",
+   "occurred": "2026-09-16"
   },
   {
    "id": "hi-ho",
@@ -2310,7 +2353,8 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-08"
   },
   {
    "id": "ceres-pointincome",
@@ -2356,7 +2400,8 @@
    "who": [
     "cust",
     "staff"
-   ]
+   ],
+   "announced": "2026-10-07"
   },
   {
    "id": "sompo-smilingroad",
@@ -2409,12 +2454,13 @@
    },
    "who": [
     "biz"
-   ]
+   ],
+   "announced": "2026-10-07"
   },
   {
    "id": "his-thailand",
    "co": "エイチ・アイ・エス（タイ現地法人）",
-   "date": "2025-12-11",
+   "date": "2026-10-07",
    "types": [
     "不正アクセス"
    ],
@@ -2459,7 +2505,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-07",
+   "occurred": "2025-12-11"
   },
   {
    "id": "toda",
@@ -2516,7 +2564,8 @@
     "biz",
     "staff",
     "work"
-   ]
+   ],
+   "announced": "2026-10-07"
   },
   {
    "id": "active-pro",
@@ -2567,12 +2616,13 @@
    },
    "who": [
     "biz"
-   ]
+   ],
+   "announced": "2026-10-06"
   },
   {
    "id": "egmkt",
    "co": "エバーグリーン・マーケティング",
-   "date": "2026-06-26",
+   "date": "2026-10-06",
    "types": [
     "不正アクセス"
    ],
@@ -2616,7 +2666,9 @@
    },
    "who": [
     "biz"
-   ]
+   ],
+   "announced": "2026-10-06",
+   "occurred": "2026-06-26"
   },
   {
    "id": "cinra-job",
@@ -2718,7 +2770,7 @@
   {
    "id": "nimoca",
    "co": "ニモカ",
-   "date": "2026-10-04",
+   "date": "2026-10-06",
    "types": [
     "不正アクセス"
    ],
@@ -2762,12 +2814,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-06",
+   "occurred": "2026-10-04"
   },
   {
    "id": "kufu-machitalk",
    "co": "くふうカンパニー（くふう まちトーク β版）",
-   "date": "2026-10-02",
+   "date": "2026-10-05",
    "types": [
     "不正アクセス"
    ],
@@ -2807,12 +2861,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-05",
+   "occurred": "2026-10-02"
   },
   {
    "id": "whiteessence",
    "co": "ホワイトエッセンス（予約サイト・基幹システム）",
-   "date": "2026-08-05",
+   "date": "2026-10-05",
    "types": [
     "不正アクセス"
    ],
@@ -2861,12 +2917,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-05",
+   "occurred": "2026-08-05"
   },
   {
    "id": "studysapuri",
    "co": "リクルート（スタディサプリ）",
-   "date": "2026-09-30",
+   "date": "2026-10-03",
    "types": [
     "不正アクセス"
    ],
@@ -2920,7 +2978,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-03",
+   "occurred": "2026-09-30"
   },
   {
    "id": "alsok-joylife",
@@ -3022,7 +3082,7 @@
   {
    "id": "g-point",
    "co": "Gポイント",
-   "date": "2026-09-25",
+   "date": "2026-09-30",
    "types": [
     "不正アクセス"
    ],
@@ -3064,12 +3124,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-30",
+   "occurred": "2026-09-25"
   },
   {
    "id": "shueisha-happyplus",
    "co": "集英社（HAPPY PLUS COMMUNITY）",
-   "date": "2026-09-09",
+   "date": "2026-09-28",
    "types": [
     "不正アクセス"
    ],
@@ -3115,7 +3177,9 @@
     "cust",
     "biz",
     "work"
-   ]
+   ],
+   "announced": "2026-09-28",
+   "occurred": "2026-09-09"
   },
   {
    "id": "legoland-hotel",
@@ -3162,7 +3226,8 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-25"
   },
   {
    "id": "ryomo-systems",
@@ -3287,7 +3352,7 @@
   {
    "id": "chibagin-shop",
    "co": "ちばぎん商店（千葉銀行子会社）",
-   "date": "2026-09-03",
+   "date": "2026-09-17",
    "types": [
     "不正アクセス"
    ],
@@ -3335,7 +3400,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-17",
+   "occurred": "2026-09-03"
   },
   {
    "id": "fivefox",
@@ -3499,12 +3566,13 @@
    "who": [
     "staff",
     "biz"
-   ]
+   ],
+   "announced": "2026-09-11"
   },
   {
    "id": "saitama-shibusawamix",
    "co": "埼玉県（渋沢MIX）",
-   "date": "2026-10-06",
+   "date": "2026-10-07",
    "types": [
     "不正アクセス"
    ],
@@ -3551,12 +3619,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-07",
+   "occurred": "2026-10-06"
   },
   {
    "id": "jogmec",
    "co": "エネルギー・金属鉱物資源機構（JOGMEC）",
-   "date": "2026-09-09",
+   "date": "2026-10-02",
    "types": [
     "不正アクセス"
    ],
@@ -3601,12 +3671,14 @@
    "who": [
     "staff",
     "unk"
-   ]
+   ],
+   "announced": "2026-10-02",
+   "occurred": "2026-09-09"
   },
   {
    "id": "jaea-jrr3",
    "co": "日本原子力研究開発機構（JRR-3）",
-   "date": "2026-09-25",
+   "date": "2026-10-01",
    "types": [
     "不正アクセス"
    ],
@@ -3644,12 +3716,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-01",
+   "occurred": "2026-09-25"
   },
   {
    "id": "osaka-city-interview",
    "co": "大阪市（録画面接システム）",
-   "date": "2026-08-09",
+   "date": "2026-09-15",
    "types": [
     "不正アクセス",
     "委託先経由"
@@ -3696,12 +3770,14 @@
    },
    "who": [
     "staff"
-   ]
+   ],
+   "announced": "2026-09-15",
+   "occurred": "2026-08-09"
   },
   {
    "id": "yamaguchi-u",
    "co": "山口大学",
-   "date": "2026-08-26",
+   "date": "2026-10-06",
    "types": [
     "不正アクセス"
    ],
@@ -3740,7 +3816,9 @@
    },
    "who": [
     "unk"
-   ]
+   ],
+   "announced": "2026-10-06",
+   "occurred": "2026-08-26"
   },
   {
    "id": "science-tokyo",
@@ -3784,7 +3862,8 @@
    },
    "who": [
     "unk"
-   ]
+   ],
+   "announced": "2026-09-07"
   },
   {
    "id": "tokai-u-contractor",
@@ -3897,7 +3976,7 @@
   {
    "id": "weathercaster-net",
    "co": "気象キャスターネットワーク",
-   "date": "2026-09-24",
+   "date": "2026-10-06",
    "types": [
     "不正アクセス"
    ],
@@ -3940,12 +4019,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-06",
+   "occurred": "2026-09-24"
   },
   {
    "id": "yotsukaido-shakyo",
    "co": "四街道市社会福祉協議会",
-   "date": "2026-08-30",
+   "date": "2026-09-29",
    "types": [
     "不正アクセス"
    ],
@@ -3991,12 +4072,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-29",
+   "occurred": "2026-08-30"
   },
   {
    "id": "ihouse-library",
    "co": "国際文化会館（図書室）",
-   "date": "2026-09-23",
+   "date": "2026-09-29",
    "types": [
     "不正アクセス"
    ],
@@ -4047,12 +4130,14 @@
    "who": [
     "biz",
     "staff"
-   ]
+   ],
+   "announced": "2026-09-29",
+   "occurred": "2026-09-23"
   },
   {
    "id": "ieej",
    "co": "日本エネルギー経済研究所",
-   "date": "2026-07-29",
+   "date": "2026-09-11",
    "types": [
     "不正アクセス"
    ],
@@ -4101,7 +4186,9 @@
    "who": [
     "staff",
     "work"
-   ]
+   ],
+   "announced": "2026-09-11",
+   "occurred": "2026-07-29"
   },
   {
    "id": "coop-yamaguchi",
@@ -4159,7 +4246,7 @@
   {
    "id": "osaka-museum-mail",
    "co": "大阪市博物館機構（大阪歴史博物館）",
-   "date": "2026-10-07",
+   "date": "2026-10-08",
    "types": [
     "誤送信・誤掲載"
    ],
@@ -4206,12 +4293,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-08",
+   "occurred": "2026-10-07"
   },
   {
    "id": "furusato-choice",
    "co": "トラストバンク（ふるさとチョイス）",
-   "date": "2026-09-07",
+   "date": "2026-10-05",
    "types": [
     "設定ミス・不具合"
    ],
@@ -4257,12 +4346,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-05",
+   "occurred": "2026-09-07"
   },
   {
    "id": "benefit-one",
    "co": "ベネフィット・ワン（ベネワン・プラットフォーム）",
-   "date": "2026-07-30",
+   "date": "2026-09-30",
    "types": [
     "設定ミス・不具合"
    ],
@@ -4319,7 +4410,9 @@
    },
    "who": [
     "biz"
-   ]
+   ],
+   "announced": "2026-09-30",
+   "occurred": "2026-07-30"
   },
   {
    "id": "greencoop-fukuoka",
@@ -4369,7 +4462,7 @@
   {
    "id": "nichii-kaigo",
    "co": "ニチイ学館",
-   "date": "2026-09-11",
+   "date": "2026-10-02",
    "types": [
     "設定ミス・不具合"
    ],
@@ -4410,12 +4503,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-02",
+   "occurred": "2026-09-11"
   },
   {
    "id": "osaka-art-museum",
    "co": "大阪市（大阪市立美術館）",
-   "date": "2026-09-10",
+   "date": "2026-09-24",
    "types": [
     "誤送信・誤掲載"
    ],
@@ -4455,7 +4550,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-24",
+   "occurred": "2026-09-10"
   },
   {
    "id": "aichi-aikon-navi",
@@ -4517,7 +4614,7 @@
   {
    "id": "istyle-cosme",
    "co": "アイスタイル（@cosme）",
-   "date": "2026-09-02",
+   "date": "2026-09-16",
    "types": [
     "設定ミス・不具合"
    ],
@@ -4559,12 +4656,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-16",
+   "occurred": "2026-09-02"
   },
   {
    "id": "prudential-ex-employee",
    "co": "プルデンシャル生命保険",
-   "date": "2026-06-01",
+   "date": "2026-09-14",
    "types": [
     "内部不正"
    ],
@@ -4612,12 +4711,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-14",
+   "occurred": "2026-06-01"
   },
   {
    "id": "mitsui-ocean-cruise",
    "co": "商船三井クルーズ（外部記憶媒体の紛失）",
-   "date": "2026-07-01",
+   "date": "2026-09-10",
    "types": [
     "紛失・盗難"
    ],
@@ -4676,7 +4777,9 @@
     "cust",
     "staff",
     "work"
-   ]
+   ],
+   "announced": "2026-09-10",
+   "occurred": "2026-07-01"
   },
   {
    "id": "kamakura-aozora",
@@ -4725,12 +4828,13 @@
    },
    "who": [
     "unk"
-   ]
+   ],
+   "announced": "2026-09-10"
   },
   {
    "id": "saitama-masking",
    "co": "埼玉県（情報公開の黒塗り不備）",
-   "date": "2026-08-27",
+   "date": "2026-09-10",
    "types": [
     "誤送信・誤掲載"
    ],
@@ -4778,12 +4882,14 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-10",
+   "occurred": "2026-08-27"
   },
   {
    "id": "ichini-senkyo",
    "co": "イチニ（選挙ドットコム）",
-   "date": "2026-09-06",
+   "date": "2026-09-10",
    "types": [
     "誤送信・誤掲載"
    ],
@@ -4821,7 +4927,9 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-09-10",
+   "occurred": "2026-09-06"
   },
   {
    "id": "tokyo-tama-medical-2510",
@@ -4875,7 +4983,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-22"
   },
   {
    "id": "higashiyama-school-2510",
@@ -4920,7 +5029,8 @@
    "who": [
     "unk"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-22"
   },
   {
    "id": "jr-bus-kanto-2510",
@@ -4965,7 +5075,8 @@
    "who": [
     "unk"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-17"
   },
   {
    "id": "fukuyoshi-2510",
@@ -5007,7 +5118,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-20"
   },
   {
    "id": "adachi-pasona-2510",
@@ -5060,7 +5172,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-16"
   },
   {
    "id": "kagawa-fc-2510",
@@ -5110,7 +5223,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-16"
   },
   {
    "id": "nomura-securities-jijilla-2510",
@@ -5151,7 +5265,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-17"
   },
   {
    "id": "eapharma-2510",
@@ -5202,7 +5317,8 @@
    "who": [
     "biz"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-14"
   },
   {
    "id": "bonchi-sagaeya-2510",
@@ -5256,7 +5372,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-10"
   },
   {
    "id": "mlit-pwc-sekisho-2510",
@@ -5310,7 +5427,8 @@
     "cust",
     "biz"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-10"
   },
   {
    "id": "ppih-accretive-2510",
@@ -5361,7 +5479,8 @@
     "biz",
     "staff"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-10"
   },
   {
    "id": "yamato-transport-himeji-2510",
@@ -5407,7 +5526,8 @@
     "staff",
     "work"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-14"
   },
   {
    "id": "denso-powerbi-2510",
@@ -5459,7 +5579,8 @@
     "staff",
     "unk"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-08"
   },
   {
    "id": "japanpost-takatsuki-2510",
@@ -5515,7 +5636,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-14"
   },
   {
    "id": "mynavi-cloud-2510",
@@ -5560,7 +5682,8 @@
    "who": [
     "staff"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-03"
   },
   {
    "id": "jscc-workshop-2510",
@@ -5600,7 +5723,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-03"
   },
   {
    "id": "nara-city-dv-2510",
@@ -5647,7 +5771,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-06"
   },
   {
    "id": "resorts-ryukyu-sansui-2510",
@@ -5699,7 +5824,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-02"
   },
   {
    "id": "kanagawa-iryo-kikaku-2510",
@@ -5749,7 +5875,8 @@
    "who": [
     "biz"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-07"
   },
   {
    "id": "kyoto-city-seizure-2510",
@@ -5803,7 +5930,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-31"
   },
   {
    "id": "kawasaki-nakahara-jhs-2510",
@@ -5866,7 +5994,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-28"
   },
   {
    "id": "saitama-kinyu-koho-2510",
@@ -5913,7 +6042,8 @@
    "who": [
     "biz"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-15"
   },
   {
    "id": "edogawa-school-mail-2510",
@@ -5960,7 +6090,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-08"
   },
   {
    "id": "fujisawa-dementia-mail-2510",
@@ -6007,7 +6138,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-02"
   },
   {
    "id": "yamagata-yamanami-mail-2510",
@@ -6054,7 +6186,8 @@
    "who": [
     "biz"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-16"
   },
   {
    "id": "meguro-census-2510",
@@ -6102,7 +6235,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-09"
   },
   {
    "id": "yokohama-teacher-docs-2510",
@@ -6145,7 +6279,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-22"
   },
   {
    "id": "nagoya-higashi-census-2510",
@@ -6188,7 +6323,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-31"
   },
   {
    "id": "osaka-nishi-census-2510",
@@ -6234,7 +6370,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-09"
   },
   {
    "id": "osaka-higashiyodogawa-census-2510",
@@ -6280,7 +6417,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-03"
   },
   {
    "id": "kobe-kaigo-chosa-2510",
@@ -6323,7 +6461,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-16"
   },
   {
    "id": "tokyo-edu-his-2510",
@@ -6368,7 +6507,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-31"
   },
   {
    "id": "osaka-jhs-sdcard-2510",
@@ -6408,7 +6548,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-10-31"
   },
   {
    "id": "keio-tsushin-2511",
@@ -6454,7 +6595,8 @@
     "note": "慶應義塾大学通信教育部",
     "src": "https://www.tsushin.keio.ac.jp/news/files/2025/11/4/4117658d60698b3692bdbbd7316465f3_1.pdf"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-04"
   },
   {
    "id": "nikkei-slack-2511",
@@ -6504,7 +6646,8 @@
     "note": "電話・受付時間の記載なし",
     "src": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1393.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-04"
   },
   {
    "id": "it-hiroshima-2511",
@@ -6552,7 +6695,8 @@
     "note": "学校法人鶴学園 ICTセンター事務室",
     "src": "https://www.it-hiroshima.ac.jp/news/2025/11/post-2319.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-12"
   },
   {
    "id": "juntendo-wsrc-2511",
@@ -6603,7 +6747,8 @@
     "note": "女性スポーツ研究センター（大学代表 03-3813-3111、受付時間の記載なし）",
     "src": "https://www.juntendo.ac.jp/news/25429.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-21"
   },
   {
    "id": "stnet-2511",
@@ -6652,7 +6797,8 @@
     "note": "STNet 事業営業本部（お客様向け）",
     "src": "https://www.stnet.co.jp/news/oshirase_20251121.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-21"
   },
   {
    "id": "shibata-sangyo-2511",
@@ -6703,7 +6849,8 @@
     "note": "柴田産業（代表。受付時間・本件専用窓口の記載なし）",
     "src": "https://shibata-industry.com/%E3%81%8A%E5%AE%A2%E3%81%95%E3%81%BE%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-21"
   },
   {
    "id": "shirohato-2511",
@@ -6762,7 +6909,8 @@
     ],
     "src": "https://www.shirohato.co.jp/news/doc/news_202512_0603.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-07"
   },
   {
    "id": "atsugi-police-2511",
@@ -6811,7 +6959,8 @@
     "note": "神奈川県警察 厚木警察署",
     "src": "https://www.police.pref.kanagawa.jp/ps/atsugi/entry_10.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-19"
   },
   {
    "id": "dormy-senior-2511",
@@ -6867,7 +7016,8 @@
     "note": "個人情報問い合わせ窓口",
     "src": "https://www.dormy-senior.com/news/12409/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-28"
   },
   {
    "id": "ndl-dev-system-2511",
@@ -6933,7 +7083,8 @@
     "note": "電子情報部 電子情報企画課",
     "src": "https://www.ndl.go.jp/jp/news/fy2025/251125_02.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-11"
   },
   {
    "id": "berlitz-flex-2511",
@@ -6986,7 +7137,8 @@
     ],
     "src": "https://www.berlitz.com/ja-jp/news/251125"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-25"
   },
   {
    "id": "saitama-misato-kogyo-2511",
@@ -7034,7 +7186,8 @@
     "note": "埼玉県教育局 県立学校人事課 管理指導担当",
     "src": "https://www.pref.saitama.lg.jp/f2207/news/page/news2025110401.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-04"
   },
   {
    "id": "ibaraki-iryo-seisaku-2511",
@@ -7082,7 +7235,8 @@
     "note": "茨城県 医療政策課",
     "src": "https://www.pref.ibaraki.jp/somu/hodo/hodo/pressrelease/hodohappyoushiryou/2203/documents/251104iryouseisaku.pdf"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-04"
   },
   {
    "id": "tokyo-metro-highschool-2511",
@@ -7133,7 +7287,8 @@
     "note": "教育庁指導部高等学校教育指導課（情報共有ツールについては教育庁総務部デジタル推進課 03-5320-7867）",
     "src": "https://www.metro.tokyo.lg.jp/information/press/2025/11/2025111901"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-19"
   },
   {
    "id": "kanagawa-junkanki-2511",
@@ -7183,7 +7338,8 @@
     "note": "神奈川県立循環器呼吸器病センター 事務局（代表）",
     "src": "https://kanagawa-pho.jp/data/media/kanagawa-pho/page/information/press/20251111/press20251111.pdf"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-11-11"
   },
   {
    "id": "jmty-2512",
@@ -7229,7 +7385,8 @@
     "cust",
     "staff"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-05"
   },
   {
    "id": "tac-2512",
@@ -7282,7 +7439,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-04"
   },
   {
    "id": "edv-future-2512",
@@ -7344,7 +7502,8 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "last": "2025-12-17"
+   "last": "2025-12-17",
+   "announced": "2025-12-04"
   },
   {
    "id": "kanagawa-kodomo-book-2512",
@@ -7392,7 +7551,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-10"
   },
   {
    "id": "shizuoka-aoi-welfare-2512",
@@ -7441,7 +7601,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-05"
   },
   {
    "id": "toyota-city-ex-employee-2512",
@@ -7487,7 +7648,8 @@
    "who": [
     "unk"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-03"
   },
   {
    "id": "ark-tokutan-alt-2512",
@@ -7540,7 +7702,8 @@
     "cust",
     "biz"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-02"
   },
   {
    "id": "hokudai-ist-2512",
@@ -7586,7 +7749,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-02"
   },
   {
    "id": "osaka-pref-hunter-docs-2512",
@@ -7641,7 +7805,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-11"
   },
   {
    "id": "line-official-account-2512",
@@ -7689,12 +7854,13 @@
     "cust",
     "biz"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-09"
   },
   {
    "id": "tokai-com-oneoffice-2512",
    "co": "TOKAIコミュニケーションズ（OneOffice メールソリューション）",
-   "date": "2025-12-19",
+   "date": "2025-12-21",
    "cause": "cyber",
    "types": [
     "不正アクセス"
@@ -7750,7 +7916,9 @@
     "cust",
     "biz"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-21",
+   "occurred": "2025-12-19"
   },
   {
    "id": "kawamoto-2512",
@@ -7798,7 +7966,8 @@
    "who": [
     "unk"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-18"
   },
   {
    "id": "kurashiki-usb-2512",
@@ -7846,7 +8015,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-15"
   },
   {
    "id": "saitama-u-gpa-2512",
@@ -7897,7 +8067,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-15"
   },
   {
    "id": "nissan-fukuoka-redhat-2512",
@@ -7949,7 +8120,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-05"
   },
   {
    "id": "kanhokyo-2512",
@@ -8002,7 +8174,8 @@
    "who": [
     "work"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-19"
   },
   {
    "id": "utokyo-iqb-laptop-2512",
@@ -8046,7 +8219,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2025-12-19"
   },
   {
    "id": "tkc-2601",
@@ -8091,7 +8265,8 @@
     "note": "公式発表に窓口の記載なし",
     "src": "https://tkc.jp/company/topics/2026/20260130/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-01-30"
   },
   {
    "id": "ia-ibaraki-2601",
@@ -8145,7 +8320,8 @@
     "note": "公益財団法人茨城県国際交流協会 事務局",
     "src": "https://www.ia-ibaraki.or.jp/post-8396/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-01-26"
   },
   {
    "co": "福島県立医科大学附属病院（委託先 ニチイ学館）",
@@ -8185,7 +8361,8 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-02-06"
   },
   {
    "co": "ハリマ化成グループ（米国子会社 Harima USA・Harimatec）",
@@ -8231,7 +8408,8 @@
    },
    "who": [
     "staff"
-   ]
+   ],
+   "announced": "2026-02-13"
   },
   {
    "co": "東海電子（委託先のメールサービス）",
@@ -8271,7 +8449,8 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-02-25"
   },
   {
    "co": "マイナビ（利用クラウドサービス）",
@@ -8341,7 +8520,8 @@
     "cust",
     "biz",
     "staff"
-   ]
+   ],
+   "announced": "2026-02-12"
   },
   {
    "co": "アットホーム（引越し見積もり）",
@@ -8394,7 +8574,8 @@
    "who": [
     "cust",
     "biz"
-   ]
+   ],
+   "announced": "2026-02-05"
   },
   {
    "co": "LINEヤフー（Yahoo!ショッピング 休店ページ）",
@@ -8441,7 +8622,8 @@
    },
    "who": [
     "biz"
-   ]
+   ],
+   "announced": "2026-02-13"
   },
   {
    "co": "名古屋市（守山区役所）",
@@ -8488,7 +8670,8 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-02-12"
   },
   {
    "co": "ユナイテッドアローズ",
@@ -8536,7 +8719,8 @@
    "who": [
     "biz"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-03-16"
   },
   {
    "co": "愛知県（委託先 日本総合研究所）",
@@ -8581,7 +8765,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-03-11"
   },
   {
    "co": "マツダ（タイ調達部品の倉庫管理システム）",
@@ -8632,7 +8817,8 @@
     "staff",
     "biz"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-03-19"
   },
   {
    "co": "村田製作所",
@@ -8700,7 +8886,8 @@
     "cust",
     "biz"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-03-06"
   },
   {
    "co": "大阪府・大阪市（大阪マラソン2026 ボランティア登録システム）",
@@ -8754,7 +8941,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-03-25"
   },
   {
    "co": "CAMPFIRE",
@@ -8935,7 +9123,8 @@
     "staff",
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-04-17"
   },
   {
    "co": "高畠町（委託先 YCC情報システム）",
@@ -8991,7 +9180,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-04-20"
   },
   {
    "co": "東根市（委託先 YCC情報システム）",
@@ -9046,7 +9236,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-04-27"
   },
   {
    "co": "山形県建設国民健康保険組合（委託先 YCC情報システム）",
@@ -9101,7 +9292,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-04-22"
   },
   {
    "co": "東京都（住宅政策本部）",
@@ -9148,7 +9340,8 @@
     "biz",
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-04-08"
   },
   {
    "co": "東京都 都市整備局（委託先 吉本興業・東京型銭湯スタンプラリー）",
@@ -9195,7 +9388,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-04-02"
   },
   {
    "co": "システムソフト（子会社 マムクリエイト）",
@@ -9240,7 +9434,8 @@
    "who": [
     "unk"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-04-08"
   },
   {
    "co": "横須賀市（税務部納税課）",
@@ -9282,7 +9477,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-04-16"
   },
   {
    "id": "athome-ielove",
@@ -9323,7 +9519,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-05-01"
   },
   {
    "id": "moneyforward-github",
@@ -9389,7 +9586,8 @@
     "biz",
     "staff"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-05-01"
   },
   {
    "id": "nikkei-america",
@@ -9434,7 +9632,8 @@
     "staff",
     "biz"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-05-07"
   },
   {
    "id": "gunma-tumo-mail",
@@ -9483,7 +9682,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-05-21"
   },
   {
    "id": "nagoya-tempaku-pension",
@@ -9533,7 +9733,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-05-19"
   },
   {
    "id": "nagoya-rekishi-mail",
@@ -9578,7 +9779,8 @@
    "who": [
     "biz"
    ],
-   "verified": "2026-10-09"
+   "verified": "2026-10-09",
+   "announced": "2026-05-27"
   },
   {
    "co": "村瀬鞄行（村瀬鞄行オンラインショップ）",
@@ -9626,7 +9828,8 @@
    "who": [
     "unk"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-17"
   },
   {
    "co": "ミカサ",
@@ -9679,7 +9882,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-16"
   },
   {
    "co": "佐嘉平川屋（佐嘉平川屋オンラインショップ）",
@@ -9734,7 +9938,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-15"
   },
   {
    "co": "川越商工会議所",
@@ -9791,7 +9996,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-12"
   },
   {
    "co": "D&M（REXTホールディングス連結子会社）",
@@ -9840,7 +10046,8 @@
     "biz",
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-12"
   },
   {
    "co": "堺市（市立小学校施設開放運営委員会の連絡先）",
@@ -9890,7 +10097,8 @@
    "who": [
     "staff"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-12"
   },
   {
    "co": "九州大学（病院・研究室の端末）",
@@ -9939,7 +10147,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-10"
   },
   {
    "co": "九州電力送配電",
@@ -9984,7 +10193,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-08"
   },
   {
    "co": "日中経済協会",
@@ -10032,7 +10242,8 @@
    "who": [
     "unk"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-05"
   },
   {
    "co": "エン（ミドルの転職）",
@@ -10074,7 +10285,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-05"
   },
   {
    "co": "藤田医科大学病院",
@@ -10126,7 +10338,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-03"
   },
   {
    "co": "広島県（県民公開セミナー申込者・委託先 ホームテレビ映像）",
@@ -10175,7 +10388,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-02"
   },
   {
    "co": "NTTPCコミュニケーションズ（WebARENA 大容量ファイル転送機能）",
@@ -10224,7 +10438,8 @@
     "biz",
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-23"
   },
   {
    "co": "ビジュアルアーツ",
@@ -10281,7 +10496,8 @@
     "biz",
     "staff"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-04"
   },
   {
    "co": "現代仏壇（親会社 はせがわ）",
@@ -10326,7 +10542,8 @@
    "who": [
     "unk"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-19"
   },
   {
    "co": "大阪市（市立小学校・保護者連絡アプリ「ミマモルメ」）",
@@ -10376,7 +10593,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-19"
   },
   {
    "co": "佐渡市（トキ共生地域づくり事業・佐渡トキファンクラブ）",
@@ -10423,7 +10641,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-19"
   },
   {
    "co": "各務原市",
@@ -10470,7 +10689,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-19"
   },
   {
    "co": "ソフツー（検証用サーバー）",
@@ -10523,7 +10743,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-22"
   },
   {
    "co": "コマツ（外部ユーザー招待用のユーザー管理システム）",
@@ -10574,7 +10795,8 @@
    "who": [
     "unk"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-16"
   },
   {
    "co": "風の旅行社（外部メールマガジン配信サービス）",
@@ -10628,7 +10850,8 @@
    "who": [
     "cust"
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-06-19"
   },
   {
    "id": "media4u-sms-2607",
@@ -10684,7 +10907,8 @@
     ],
     "src": "https://www.media4u.co.jp/news/3351"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-14"
   },
   {
    "id": "kaga-solnet-academico-2607",
@@ -10738,7 +10962,8 @@
     "note": "加賀ソルネット EMカンパニー",
     "src": "https://www.kgem.co.jp/news/news260701/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-01"
   },
   {
    "id": "murata-make-2607",
@@ -10789,7 +11014,8 @@
     ],
     "src": "https://www.murata-mlb.co.jp/2026/07/10/%E6%9D%91%E7%94%B0%E8%A3%BD%E4%BD%9C%E6%89%80it%E7%92%B0%E5%A2%83%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-10"
   },
   {
    "id": "lindsports-2607",
@@ -10840,7 +11066,8 @@
     "note": "個人情報ご相談窓口",
     "src": "https://www.lindsp.com/f/info12"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-13"
   },
   {
    "id": "frau-international-2607",
@@ -10893,7 +11120,8 @@
     ],
     "src": "https://www.frau-inter.co.jp/other/20260707_6444/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-07"
   },
   {
    "id": "fukuoka-u-nostram-2607",
@@ -10942,7 +11170,8 @@
     "note": "福岡大学 キャリアセンター事務室（内線4718）",
     "src": "https://www.fukuoka-u.ac.jp/news/26/07/08175927.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-09"
   },
   {
    "id": "tv-asahi-mediaplex-2607",
@@ -10989,7 +11218,8 @@
     "note": "テレビ朝日メディアプレックス 対応窓口",
     "src": "https://www.mediaplex.co.jp/wp-content/uploads/20260703.pdf"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-03"
   },
   {
    "id": "ota-furusato-2607",
@@ -11044,7 +11274,8 @@
     "note": "おおた未来戦略部 広報ブランド課 ブランド推進係",
     "src": "https://www.city.ota.gunma.jp/site/furusato/1061398.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-01"
   },
   {
    "id": "unimat-life-2607",
@@ -11095,7 +11326,8 @@
     ],
     "src": "https://www.unimat-life.co.jp/pages/news/333"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-03"
   },
   {
    "id": "i-nex-2607",
@@ -11139,7 +11371,8 @@
     "note": "人事総務課",
     "src": "https://www.i-nex.jp/2026/07/01/security-incident-notice/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-01"
   },
   {
    "id": "kitakyushu-masking-2607",
@@ -11188,7 +11421,8 @@
     "note": "総務市民局総務部／政策局DX・AI戦略室（公式発表の記載のまま、市外局番の記載なし）",
     "src": "https://www.city.kitakyushu.lg.jp/files/001219330.pdf"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-03"
   },
   {
    "id": "nagoya-nakagawa-doboku-2607",
@@ -11238,7 +11472,8 @@
     "note": "緑政土木局中川土木事務所（市外局番の記載なし）",
     "src": "https://www.city.nagoya.jp/houdou/3003942/3003946/3005166.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-10"
   },
   {
    "id": "toyonaka-jukyusha-2607",
@@ -11286,7 +11521,8 @@
     "note": "こども未来部おやこ保健課",
     "src": "https://www.city.toyonaka.osaka.jp/joho/kouhou/news_release/r8_04-09.files/20260722.pdf"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-07-22"
   },
   {
    "co": "科学技術振興機構（JST）",
@@ -11376,7 +11612,8 @@
    ],
    "ind": "エネルギー",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-04"
   },
   {
    "co": "ナイス（管理メールアドレス）",
@@ -11478,7 +11715,8 @@
    "ind": "小売・EC",
    "last": "2026-09-02",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-28"
   },
   {
    "co": "コロナ（外部クラウドサービス）",
@@ -11532,7 +11770,8 @@
    ],
    "ind": "製造",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-28"
   },
   {
    "co": "チャーム（チャーム本店）",
@@ -11593,7 +11832,8 @@
    ],
    "ind": "小売・EC",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-13"
   },
   {
    "co": "デザインフィル（ミドリオンラインストア等・ショップサーブ）",
@@ -11646,7 +11886,8 @@
    ],
    "ind": "小売・EC",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-03"
   },
   {
    "co": "海月館グループ（淡路島洲本温泉 海月館）",
@@ -11697,7 +11938,8 @@
    ],
    "ind": "生活サービス・レジャー",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-03"
   },
   {
    "co": "イノベーション（GitHub）",
@@ -11744,7 +11986,8 @@
    ],
    "ind": "通信・IT",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-04"
   },
   {
    "co": "ル・アンジェ（コミュニケーションツール BAND）",
@@ -11794,7 +12037,8 @@
    ],
    "ind": "生活サービス・レジャー",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-06"
   },
   {
    "co": "五大開発（いさぼうネット）",
@@ -11844,7 +12088,8 @@
     ]
    ],
    "ind": "建設・不動産",
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-08-10"
   },
   {
    "co": "エヌ・イー ケムキャット",
@@ -11893,7 +12138,8 @@
    ],
    "ind": "製造",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-20"
   },
   {
    "co": "楽天ブックスネットワーク",
@@ -11950,7 +12196,8 @@
    ],
    "ind": "小売・EC",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-21"
   },
   {
    "co": "ウェブライフ（OEM向けホームページ作成サービス）",
@@ -12052,7 +12299,8 @@
    ],
    "ind": "人材・教育・業務支援",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-17"
   },
   {
    "co": "GHP（Club Chapel Hotels 公式サイト）",
@@ -12102,7 +12350,8 @@
    ],
    "ind": "生活サービス・レジャー",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-17"
   },
   {
    "co": "デジタル庁（国家資格情報連携・活用システム）",
@@ -12149,7 +12398,8 @@
     ]
    ],
    "ind": "公共機関",
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-08-07"
   },
   {
    "co": "環境機器（虫退治ドットコム）",
@@ -12205,7 +12455,8 @@
    ],
    "ind": "小売・EC",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-22"
   },
   {
    "co": "講談社（社員のメールアカウント）",
@@ -12249,7 +12500,8 @@
    ],
    "ind": "メディア・出版",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-03"
   },
   {
    "co": "Eストアー（ショップサーブ）",
@@ -12299,7 +12551,8 @@
    ],
    "ind": "小売・EC",
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-08-01"
   },
   {
    "id": "edogawa-newhire-mail-2609",
@@ -12347,7 +12600,8 @@
     "staff"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-24"
   },
   {
    "id": "hiroshima-shudo-2609",
@@ -12409,7 +12663,8 @@
    ],
    "verified": "2026-10-11",
    "status": "ongoing",
-   "last": "2026-10-08"
+   "last": "2026-10-08",
+   "announced": "2026-09-30"
   },
   {
    "id": "kingjim-shopserve-2609",
@@ -12465,7 +12720,8 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-04"
   },
   {
    "id": "toppan-sompo-2609",
@@ -12517,7 +12773,8 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-29"
   },
   {
    "id": "rizap-ai-2609",
@@ -12572,7 +12829,8 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-03"
   },
   {
    "id": "kotoura-town-2609",
@@ -12622,7 +12880,8 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-25"
   },
   {
    "id": "trunk-mail-2609",
@@ -12670,7 +12929,8 @@
     "unk"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-01"
   },
   {
    "id": "rikkyo-google-2609",
@@ -12720,7 +12980,8 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-08"
   },
   {
    "id": "ainokaze-seat-2609",
@@ -12773,7 +13034,8 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-15"
   },
   {
    "id": "kyusai-nichirei-2609",
@@ -12823,7 +13085,8 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-25"
   },
   {
    "id": "enoguya-sankichi-2609",
@@ -12882,12 +13145,13 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-26"
   },
   {
    "id": "mitsui-fudosan-2609",
    "co": "三井不動産",
-   "date": "2026-09-01",
+   "date": "2026-09-28",
    "cause": "cyber",
    "types": [
     "不正アクセス"
@@ -12929,7 +13193,9 @@
     "biz"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-28",
+   "occurred": "2026-09-01"
   },
   {
    "id": "daito-gas-ryomo-2609",
@@ -12984,7 +13250,8 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-28"
   },
   {
    "id": "nabari-kintetsu-gas-2609",
@@ -13038,7 +13305,8 @@
     "cust"
    ],
    "verified": "2026-10-10",
-   "status": "ongoing"
+   "status": "ongoing",
+   "announced": "2026-09-30"
   },
   {
    "co": "ローソン（ローソンID・ローソンアプリ予約）",
@@ -13084,7 +13352,8 @@
    },
    "who": [
     "cust"
-   ]
+   ],
+   "announced": "2026-10-08"
   },
   {
    "co": "アドベンチャー（skyticket）",
@@ -13131,11 +13400,12 @@
    "src": [],
    "ind": "生活サービス・レジャー",
    "id": "skyticket-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "ディップ（バイトル・バイトルNEXT）",
-   "date": "2026-10-06",
+   "date": "2026-10-09",
    "last": "2026-10-09",
    "cause": "cyber",
    "types": [
@@ -13174,7 +13444,9 @@
    "src": [],
    "ind": "人材・教育・業務支援",
    "id": "dip-baitoru-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09",
+   "occurred": "2026-10-06"
   },
   {
    "co": "ココナラ（ココナラスキルマーケット）",
@@ -13214,7 +13486,8 @@
    "src": [],
    "ind": "人材・教育・業務支援",
    "id": "coconala-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "東日本旅客鉄道（えきねっと・大人の休日倶楽部／メール配信用外部サービス）",
@@ -13254,7 +13527,8 @@
    "src": [],
    "ind": "運輸・交通",
    "id": "jr-east-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "九州旅客鉄道（JR九州Web会員／メール配信用外部サービス）",
@@ -13292,11 +13566,12 @@
    "src": [],
    "ind": "運輸・交通",
    "id": "jr-kyushu-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "リゾートトラスト（当社ウェブサイト）",
-   "date": "2026-10-05",
+   "date": "2026-10-09",
    "last": "2026-10-09",
    "cause": "cyber",
    "types": [
@@ -13334,11 +13609,13 @@
    "src": [],
    "ind": "生活サービス・レジャー",
    "id": "resorttrust-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09",
+   "occurred": "2026-10-05"
   },
   {
    "co": "八十二長野銀行（職員のメールアカウント）",
-   "date": "2026-10-07",
+   "date": "2026-10-08",
    "last": "2026-10-08",
    "cause": "cyber",
    "types": [
@@ -13378,7 +13655,9 @@
    "src": [],
    "ind": "金融・保険",
    "id": "hachijuni-nagano-bank-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-08",
+   "occurred": "2026-10-07"
   },
   {
    "co": "大手前病院（当院メールアカウント）",
@@ -13413,7 +13692,8 @@
    "src": [],
    "ind": "病院・医療",
    "id": "otemae-hospital-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-08"
   },
   {
    "co": "どっぷり高知旅キャンペーン推進委員会（高知の知・委託先 コミューン）",
@@ -13469,7 +13749,8 @@
    ],
    "ind": "公共機関",
    "id": "kochi-doppuri-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "ちとせグループ（ちとせアカデミー・委託先 コミューン）",
@@ -13510,7 +13791,8 @@
    "src": [],
    "ind": "製造",
    "id": "chitose-academy-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "日本能率協会マネジメントセンター（時間〈とき〉ラボ・委託先 コミューン）",
@@ -13553,7 +13835,8 @@
    "src": [],
    "ind": "人材・教育・業務支援",
    "id": "jmam-tokilabo-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "森永乳業（マウントカフェ部・委託先 コミューン）",
@@ -13596,7 +13879,8 @@
    "src": [],
    "ind": "製造",
    "id": "morinagamilk-mountcafe-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "ZENB JAPAN（ZENB GARDEN・委託先 コミューン）",
@@ -13648,7 +13932,8 @@
    ],
    "ind": "製造",
    "id": "zenb-garden-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "湖池屋（湖池屋GOGO！ランド・委託先 コミューン）",
@@ -13690,7 +13975,8 @@
    "src": [],
    "ind": "製造",
    "id": "koikeya-gogoland-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "ヤマハ（ヤマハネットワークエンジニア会・委託先 コミューン）",
@@ -13747,7 +14033,8 @@
    ],
    "ind": "製造",
    "id": "yamaha-yne-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "Sansan（Sansan User Forum・委託先 コミューン）",
@@ -13792,7 +14079,8 @@
    ],
    "ind": "通信・IT",
    "id": "sansan-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "スズキ（スズキヴィレッジ・委託先 コミューン）",
@@ -13838,7 +14126,8 @@
    ],
    "ind": "製造",
    "id": "suzuki-village-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "LINEヤフー（DS.INSIGHT「DS.LAB」・委託先 コミューン）",
@@ -13881,7 +14170,8 @@
    ],
    "ind": "通信・IT",
    "id": "lycorp-dslab-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "青森県（青森びいき・委託先 コミューン）",
@@ -13934,7 +14224,8 @@
    ],
    "ind": "公共機関",
    "id": "aomori-biiki-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-08"
   },
   {
    "co": "ウイングアーク1st（nest Portal・委託先 コミューン）",
@@ -13982,7 +14273,8 @@
    ],
    "ind": "通信・IT",
    "id": "wingarc-nestportal-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-08"
   },
   {
    "co": "VALX（VALX \"FUN\"コミュニティ・委託先 コミューン）",
@@ -14033,7 +14325,8 @@
    ],
    "ind": "小売・EC",
    "id": "valx-fun-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-08"
   },
   {
    "co": "パナソニック（LUMIXコミュニティ・ヘアサプ by Panasonic Beauty・委託先 コミューン）",
@@ -14079,7 +14372,8 @@
    "src": [],
    "ind": "製造",
    "id": "panasonic-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "ソフトブレーン（eセールスマネージャーRemixCLOUD ユーザーコミュニティ・委託先 コミューン）",
@@ -14120,7 +14414,8 @@
    "src": [],
    "ind": "通信・IT",
    "id": "softbrain-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "カルビー（絶品部「やめられない、とまらない」課・委託先 コミューン）",
@@ -14165,7 +14460,8 @@
    "src": [],
    "ind": "製造",
    "id": "calbee-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "co": "アバハウスインターナショナル",
@@ -14226,7 +14522,8 @@
    ],
    "ind": "小売・EC",
    "id": "abahouse-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-02"
   },
   {
    "id": "kansai-intl-univ-2609",
@@ -14279,7 +14576,8 @@
     ]
    ],
    "ind": "大学・学校",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-09-30"
   },
   {
    "co": "バンダイナムコエクスペリエンス（湾岸ミッドナイト アーケードポータル・委託先 コミューン）",
@@ -14329,7 +14627,8 @@
    ],
    "ind": "生活サービス・レジャー",
    "id": "bandainamco-wangan-commune-2610",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-09"
   },
   {
    "id": "moonstar",
@@ -14393,7 +14692,8 @@
     "note": "カスタマーセンター",
     "src": "https://www.moonstar.co.jp/information/2026/10/post-4.html"
    },
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-03-26"
   },
   {
    "id": "offerbox",
@@ -14440,7 +14740,8 @@
     "note": "公式発表に本件専用の窓口の記載なし（一般の問い合わせフォーム・FAQへのリンクのみ）",
     "src": "https://offerbox.jp/newsrelease/news-newsrelease/55649.html"
    },
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-10-05"
   },
   {
    "id": "rohto-2609",
@@ -14495,7 +14796,8 @@
     ]
    ],
    "ind": "医療・製薬",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-09-11"
   },
   {
    "id": "hana-hotel-temairazu-2609",
@@ -14548,7 +14850,8 @@
      "https://rocket-boys.co.jp/?p=41888"
     ]
    ],
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-09-29"
   },
   {
    "id": "temairazu-2609",
@@ -14613,7 +14916,8 @@
    ],
    "status": "ongoing",
    "last": "2026-10-09",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-09-28"
   },
   {
    "id": "holonic-temairazu-2609",
@@ -14670,7 +14974,8 @@
     "cust"
    ],
    "status": "ongoing",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-09-29"
   },
   {
    "id": "kur-hotel-temairazu-2609",
@@ -14729,7 +15034,8 @@
    ],
    "status": "ongoing",
    "last": "2026-09-29",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-09-23"
   },
   {
    "id": "nikken-hotel-temairazu-2609",
@@ -14796,7 +15102,8 @@
     "cust"
    ],
    "status": "ongoing",
-   "verified": "2026-10-11"
+   "verified": "2026-10-11",
+   "announced": "2026-09-29"
   },
   {
    "id": "integral-2601",
@@ -14856,7 +15163,8 @@
     ],
     "note": "株式会社インテグラル 総務部",
     "src": "https://www.integralcorp.jp/information/260417/"
-   }
+   },
+   "announced": "2026-01-30"
   },
   {
    "id": "kama-asa-2601",
@@ -14904,7 +15212,8 @@
     ],
     "note": "電話番号の記載なし。1月12日付の発表ではメール受付10〜17時。",
     "src": "https://kama-asa.co.jp/en-us/blogs/news/info-20260127-1"
-   }
+   },
+   "announced": "2026-01-12"
   },
   {
    "id": "hyogo-iryo-2601",
@@ -14946,7 +15255,8 @@
     ],
     "note": "保健医療部医務課医療人材確保班（受付時間の記載なし）",
     "src": "https://web.pref.hyogo.lg.jp/kf15/press/20260127.html"
-   }
+   },
+   "announced": "2026-01-27"
   },
   {
    "id": "softbank-proxy-2601",
@@ -14993,7 +15303,8 @@
     ],
     "note": "通話料無料",
     "src": "https://www.softbank.jp/corp/news/press/sbkk/2026/20260127_02/"
-   }
+   },
+   "announced": "2026-01-27"
   },
   {
    "id": "kama-city-2601",
@@ -15134,7 +15445,8 @@
     "note": "大臣官房予算課 主計班",
     "src": "https://www.maff.go.jp/j/press/kanbo/keiri/260123.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-01-23"
   },
   {
    "id": "bonform-2601",
@@ -15189,7 +15501,8 @@
     "note": "ボンフォームオンラインストア お客様相談窓口",
     "src": "https://www.bonform.co.jp/ec_site/information/detail/140"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-01-16"
   },
   {
    "id": "cocoloni-2601",
@@ -15230,7 +15543,8 @@
     "note": "受付：平日10〜17時（電話番号の記載なし）",
     "src": "https://cocoloni.com/wp-content/uploads/2026/01/%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-01-21"
   },
   {
    "id": "tombow-2601",
@@ -15319,7 +15633,8 @@
     "note": "学校の代表連絡先として掲載。本件専用の窓口かは明記なし",
     "src": "https://www.m-nichidai.com/news_school/%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E8%A9%90%E6%AC%BA%E4%BA%8B%E6%A1%88%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%94%E5%A0%B1%E5%91%8A/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-01-23"
   },
   {
    "id": "washington-kansai-2601",
@@ -15368,7 +15683,8 @@
     "note": "お客さま窓口",
     "src": "https://washington-hotels.jp/kansai/information/16885/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-01-14"
   },
   {
    "id": "street-academy-2601",
@@ -15408,7 +15724,8 @@
     ],
     "src": "https://corp.street-academy.com/news/release20260116"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-01-16"
   },
   {
    "id": "mm-chiyoda-2601",
@@ -15453,7 +15770,8 @@
     "note": "住宅まちづくりグループ",
     "src": "https://www.mm-chiyoda.or.jp/news/18783.html"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-01-13"
   },
   {
    "id": "jr-kyushu-2601",
@@ -15495,7 +15813,8 @@
     "note": "JR九州システムソリューションズ",
     "src": "https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/01/19/20260119_noticeforthosewithexperienceworkingatjrkyushugroupcompanies.pdf"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-01-19"
   },
   {
    "co": "ゼットン",
@@ -15549,7 +15868,8 @@
      "ゼットン公式発表を紹介した報道",
      "https://www.ryutsuu.biz/it/s032722.html"
     ]
-   ]
+   ],
+   "announced": "2026-03-27"
   },
   {
    "id": "okinawa-saiketsu-2603",
@@ -15729,7 +16049,8 @@
     "note": "業務別の担当：デジタルサービス局／都市整備局／保健医療局／産業労働局／教育庁。受付時間の記載なし",
     "src": "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2026/03/2026030905"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-09"
   },
   {
    "co": "福岡銀行（メットライフ生命からの出向者）",
@@ -15779,7 +16100,8 @@
     "note": "顧客向け窓口。メールの記載なし",
     "src": "https://www.fukuokabank.co.jp/pdf/20260327_release.pdf"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-27"
   },
   {
    "co": "広島銀行（メットライフ生命からの出向者）",
@@ -15823,7 +16145,8 @@
     "src": "https://www.hirogin.co.jp/information/info260318-2/info260318-2.pdf"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-18"
   },
   {
    "id": "tane-hospital-usb-2603",
@@ -15867,7 +16190,8 @@
     "src": "https://general.tane.or.jp/archives/13759"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-17"
   },
   {
    "id": "urasoe-minatogawa-hdd-2603",
@@ -15918,7 +16242,8 @@
     "note": "保護者・在校生・卒業生向けコールセンター。報道機関向け窓口は除く",
     "src": "https://www.city.urasoe.lg.jp/doc/2026031200033/"
    },
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-13"
   },
   {
    "id": "niigata-u-mis-2603",
@@ -15964,7 +16289,8 @@
     "src": "https://www.niigata-u.ac.jp/news/2026/1062263/"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-24"
   },
   {
    "id": "miyakonojo-usb-2603",
@@ -16005,7 +16331,8 @@
     "src": "https://www.city.miyakonojo.miyazaki.jp/soshiki/59/83924.html"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-20"
   },
   {
    "id": "niigata-uh-usb-2603",
@@ -16045,7 +16372,8 @@
     "src": "https://www.nuh.niigata-u.ac.jp/news/archives/20260325"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-25"
   },
   {
    "id": "kadogawa-usb-2603",
@@ -16137,7 +16465,8 @@
     "src": "https://www.cocoselect.jp/event/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E6%81%90%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-30"
   },
   {
    "id": "saitama-u-patent-2603",
@@ -16188,7 +16517,8 @@
     "src": "https://www.saitama-u.ac.jp/news_archives/202603301100.html"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-30"
   },
   {
    "id": "tsad-excel-2603",
@@ -16228,7 +16558,8 @@
     "src": "https://tsad-portal.com/tsad/topics/32515"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-27"
   },
   {
    "id": "zynas-joyfull-2603",
@@ -16275,7 +16606,8 @@
     "src": "https://zynas.co.jp/post/1052"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-26"
   },
   {
    "id": "sato-kogyo-nas-2603",
@@ -16318,7 +16650,8 @@
     "src": "https://www.satokogyo.co.jp/up_data/1774410486.pdf"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-26"
   },
   {
    "id": "cynd-beautymerit-2603",
@@ -16360,7 +16693,8 @@
     "src": "https://cynd.co.jp/2026/03/24/announce01/"
    },
    "verified": "2026-10-10",
-   "src": []
+   "src": [],
+   "announced": "2026-03-24"
   },
   {
    "id": "omikenshi-2603",
@@ -16481,7 +16815,8 @@
     ]
    ],
    "last": "2026-03-19",
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-02-06"
   },
   {
    "id": "tottori-dx-seminar-2603",
@@ -16518,7 +16853,8 @@
     ]
    ],
    "src": [],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-23"
   },
   {
    "id": "sakura-kogyo-2603",
@@ -16565,7 +16901,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/04/02/54966.html"
     ]
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-20"
   },
   {
    "id": "nic-retails-2603",
@@ -16615,7 +16952,8 @@
     ]
    ],
    "src": [],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-19"
   },
   {
    "id": "cosmos-initia-2603",
@@ -16662,7 +17000,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/03/27/54923.html"
     ]
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-17"
   },
   {
    "id": "yoichi-furusato-2603",
@@ -16705,7 +17044,8 @@
     ]
    ],
    "src": [],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-12"
   },
   {
    "id": "whiteessence-megury-2603",
@@ -16757,7 +17097,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/03/23/54879.html"
     ]
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-06"
   },
   {
    "id": "shiraume-toyooka-2603",
@@ -16808,7 +17149,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/03/10/54802.html"
     ]
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-03"
   },
   {
    "id": "fundex-aoyama-main-2603",
@@ -16860,7 +17202,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/03/24/54890.html"
     ]
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-10"
   },
   {
    "id": "sada-hospital-sns-2603",
@@ -16900,7 +17243,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/04/03/54977.html"
     ]
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-03-23"
   },
   {
    "id": "resonance-face-clinic",
@@ -16949,7 +17293,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/04/23/55126.html"
     ]
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-04-06"
   },
   {
    "id": "sociofuture-gmoaozora",
@@ -17008,7 +17353,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/04/21/55105.html"
     ]
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-04-03"
   },
   {
    "id": "2rinkan-app",
@@ -17062,7 +17408,8 @@
     ]
    ],
    "last": "2026-06-19",
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-04-23"
   },
   {
    "id": "ncbank-bereal",
@@ -17110,7 +17457,8 @@
      "https://rocket-boys.co.jp/security-measures-lab/nishi-nippon-bank-bereal-sns-customer-data-leak/"
     ]
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-04-30"
   },
   {
    "id": "ncsol-roster",
@@ -17159,7 +17507,8 @@
      "https://scan.netsecurity.ne.jp/article/2026/04/24/55138.html"
     ]
    ],
-   "verified": "2026-10-10"
+   "verified": "2026-10-10",
+   "announced": "2026-04-07"
   },
   {
    "id": "yamagata-city-ycc",
@@ -17226,7 +17575,7 @@
   {
    "id": "orix-life-iask-2610",
    "co": "オリックス生命保険（委託先 スカラコミュニケーションズ i-ask）",
-   "date": "2026-10-03",
+   "date": "2026-10-06",
    "cause": "cyber",
    "types": [
     "不正アクセス",
@@ -17278,12 +17627,14 @@
     ]
    ],
    "ind": "金融・保険",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-06",
+   "occurred": "2026-10-03"
   },
   {
    "id": "viewcard-2610",
    "co": "ビューカード（VIEW's NET／メール配信用外部サービス）",
-   "date": "2026-10-07",
+   "date": "2026-10-09",
    "cause": "cyber",
    "types": [
     "不正アクセス",
@@ -17326,12 +17677,14 @@
     ]
    ],
    "ind": "金融・保険",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-09",
+   "occurred": "2026-10-07"
   },
   {
    "id": "enecom-2610",
    "co": "エネコム",
-   "date": "2026-10-06",
+   "date": "2026-10-09",
    "cause": "cyber",
    "types": [
     "不正アクセス"
@@ -17375,7 +17728,9 @@
     ]
    ],
    "ind": "通信・IT",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-09",
+   "occurred": "2026-10-06"
   },
   {
    "id": "sammy-777con-pass-2610",
@@ -17480,12 +17835,13 @@
     ]
    ],
    "ind": "団体",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-02"
   },
   {
    "id": "nerima-digital-course-2609",
    "co": "練馬区（男女共同参画センター「女性のためのデジタルスキル習得プログラム」）",
-   "date": "2026-08-31",
+   "date": "2026-09-09",
    "cause": "config",
    "types": [
     "設定ミス・不具合"
@@ -17527,12 +17883,14 @@
     "note": "公式発表に一般向け窓口の記載なし（担当：人権・男女共同参画課 男女共同参画担当係）",
     "src": "https://www.city.nerima.tokyo.jp/kusei/koho/hodo/r8/r809/20260909.files/20260909.pdf"
    },
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-09-09",
+   "occurred": "2026-08-31"
   },
   {
    "id": "mie-iryouhoujin-report-2607",
    "co": "三重県（社会医療法人の事業報告書の県サイト掲載）",
-   "date": "2026-07-02",
+   "date": "2026-09-05",
    "last": "2026-09-05",
    "cause": "mis",
    "types": [
@@ -17581,12 +17939,14 @@
     "note": "三重県 医療保健部 医務・国保課 医務班",
     "src": "https://www.pref.mie.lg.jp/TOPICS/m0015300059.htm"
    },
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-09-05",
+   "occurred": "2026-07-02"
   },
   {
    "id": "saitama-kawaguchi-giken-2609",
    "co": "埼玉県（川口高等技術専門校）",
-   "date": "2026-09-29",
+   "date": "2026-10-05",
    "last": "2026-10-05",
    "cause": "mis",
    "types": [
@@ -17620,12 +17980,14 @@
     "note": "公式発表に一般向け窓口の記載なし（担当：産業労働部 川口高等技術専門校）",
     "src": "https://www.pref.saitama.lg.jp/b0805/news/page/news2026100501.html"
    },
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-05",
+   "occurred": "2026-09-29"
   },
   {
    "id": "up-edu-rakushin-shingakukan-2609",
    "co": "アップ（ベネッセグループ）",
-   "date": "2026-08-24",
+   "date": "2026-09-04",
    "cause": "cyber",
    "types": [
     "不正アクセス"
@@ -17677,12 +18039,14 @@
     ]
    ],
    "ind": "人材・教育・業務支援",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-09-04",
+   "occurred": "2026-08-24"
   },
   {
    "id": "yokohama-suido-genmen-2608",
    "co": "横浜市（水道局）",
-   "date": "2026-08-03",
+   "date": "2026-08-24",
    "cause": "loss",
    "types": [
     "紛失・盗難"
@@ -17734,12 +18098,14 @@
     ]
    ],
    "ind": "公共機関",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-08-24",
+   "occurred": "2026-08-03"
   },
   {
    "id": "adachi-toshinou-ml-2608",
    "co": "足立区（都市農業公園 指定管理者）",
-   "date": "2026-08-04",
+   "date": "2026-08-24",
    "cause": "config",
    "types": [
     "設定ミス・不具合"
@@ -17797,12 +18163,14 @@
     ]
    ],
    "ind": "公共機関",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-08-24",
+   "occurred": "2026-08-04"
   },
   {
    "id": "hiroshima-police-insider-2610",
    "co": "広島県警察",
-   "date": "2026-10-08",
+   "date": "2026-10-09",
    "cause": "insider",
    "types": [
     "内部不正"
@@ -17844,11 +18212,13 @@
     ]
    ],
    "ind": "公共機関",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-09",
+   "occurred": "2026-10-08"
   },
   {
    "co": "LIXIL（すまいひろば・猫壁ひろば、委託先 コミューン）",
-   "date": "2026-10-06",
+   "date": "2026-10-09",
    "cause": "cyber",
    "types": [
     "委託先経由",
@@ -17902,11 +18272,13 @@
     "note": "本件の問い合わせはコミューン社のフォームで受け付ける。メールアドレスは各サービスの窓口として同じ欄に載っている。電話番号の記載はない",
     "src": "https://www.lixil.co.jp/announce/notice-info-leak.htm"
    },
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-09",
+   "occurred": "2026-10-06"
   },
   {
    "co": "ユニファ（ルクミールーム、委託先 コミューン）",
-   "date": "2026-10-05",
+   "date": "2026-10-09",
    "cause": "cyber",
    "types": [
     "委託先経由",
@@ -17953,7 +18325,9 @@
     ],
     "src": "https://unifa-e.com/news/info/20261009-info"
    },
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-09",
+   "occurred": "2026-10-05"
   },
   {
    "co": "スカラコミュニケーションズ（FAQシステム i-ask／親会社 スカラ）",
@@ -18008,12 +18382,13 @@
     ]
    ],
    "ind": "通信・IT",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-06"
   },
   {
    "id": "unirita-2609",
    "co": "ユニリタ",
-   "date": "2026-09-28",
+   "date": "2026-09-29",
    "cause": "cyber",
    "types": [
     "不正アクセス"
@@ -18061,7 +18436,9 @@
    "claim": "",
    "status": "ongoing",
    "last": "2026-10-09",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-09-29",
+   "occurred": "2026-09-28"
   },
   {
    "id": "quocard-line-2609",
@@ -18109,12 +18486,13 @@
     "cust"
    ],
    "status": "ongoing",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-09-29"
   },
   {
    "id": "fines",
    "co": "ファインズ（予約システム）",
-   "date": "2026-09-22",
+   "date": "2026-09-25",
    "types": [
     "不正アクセス"
    ],
@@ -18171,7 +18549,9 @@
     "note": "株式会社ファインズ お客様対応窓口",
     "src": "https://e-tenki.co.jp/news/%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84/"
    },
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-09-25",
+   "occurred": "2026-09-22"
   },
   {
    "co": "徳洲会 千葉西総合病院",
@@ -18220,7 +18600,9 @@
    ],
    "ind": "病院・医療",
    "id": "chibanishi-hospital-sns-2610",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-08",
+   "occurred": "2026-10-05"
   },
   {
    "co": "ユーザベース（NewsPicks）",
@@ -18278,7 +18660,9 @@
     ]
    ],
    "ind": "メディア・出版",
-   "verified": "2026-10-12"
+   "verified": "2026-10-12",
+   "announced": "2026-10-08",
+   "occurred": "2026-10-08"
   },
   {
    "co": "ブックオフグループホールディングス（子会社ブックオフコーポレーションの会員管理システム）",
@@ -18362,7 +18746,9 @@
    ],
    "ind": "小売・EC",
    "verified": "2026-10-12",
-   "last": "2026-10-09"
+   "last": "2026-10-09",
+   "announced": "2026-10-09",
+   "occurred": "2026-10-06"
   },
   {
    "co": "コミューン（Commune、Commune for Work）",
@@ -18419,7 +18805,9 @@
     "src": "https://communeinc.com/ja/news/2026oct09"
    },
    "verified": "2026-10-12",
-   "last": "2026-10-09"
+   "last": "2026-10-09",
+   "announced": "2026-10-09",
+   "occurred": "2026-10-05"
   }
  ],
  "statusLabels": {

@@ -131,7 +131,8 @@ def case_page(c, D):
     off = "".join(f'<a class="lk off" href="{e(u)}" rel="noopener">{e(n)}<small>{e(u)}</small></a>' for n, u in c.get("official", []))
     src = "".join(f'<a class="lk" href="{e(u)}" rel="noopener">{e(n)}</a>' for n, u in c.get("src", []))
     status = "調査完了" if c.get("status") == "closed" else "調査中"
-    rows = [("件数", c["label"]), ("日付", f"{jdate(c['date'])}（発生・検知または初回公表）")]
+    rows = [("件数", c["label"]), ("第一報の発表日", jdate(c.get("announced") or c["date"]) + ("" if c.get("announced") else "（未確認）")),
+            ("発生・検知日", jdate(c["occurred"]) if c.get("occurred") else "未確認")]
     if c.get("last"):
         rows.append(("最新の続報", jdate(c["last"])))
     rows += [("業種", c.get("ind", "—")), ("原因", cause), ("誰の情報", who)]
@@ -141,7 +142,7 @@ def case_page(c, D):
         rows.append(("最終確認日", f"{jdate(c['verified'])}（公式発表と照合）"))
     dl = "".join(f"<dt>{e(a)}</dt><dd>{e(b)}</dd>" for a, b in rows)
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": f"{c['co']}の個人情報漏えい（{ym(c['date'])}）",
-          "datePublished": c["date"], "dateModified": c.get("last") or c.get("verified") or c["date"],
+          "datePublished": c.get("announced") or c["date"], "dateModified": c.get("last") or c.get("verified") or c["date"],
           "inLanguage": "ja", "url": url, "publisher": {"@type": "Organization", "name": "国内情報漏えい台帳"}}
     return head(title, desc, url, alt=(url, f"{SITE}en/case/{c['id']}.html")) + f"""<nav class="crumb" aria-label="パンくず"><a href="../">台帳</a><span>›</span><a href="./">全事案一覧</a><span>›</span><span>{e(c['co'])}</span></nav>
 <h1>{e(c['co'])}の個人情報漏えい</h1>
@@ -235,7 +236,8 @@ def case_page_en(c, D):
     src = "".join(f'<a class="lk" href="{e(u)}" rel="noopener"><span lang="ja">{e(n)}</span></a>' for n, u in c.get("src", []))
     status = EN.STATUS_SHORT.get(c.get("status"), "Ongoing")
     rows = [("Records exposed", f"{size}" + (f' <span class="note" lang="ja">（{e(c["label"])}）</span>' if c.get("label") else "")),
-            ("Date", f"{EN.edate(c['date'])} (occurred / detected, or first announced)")]
+            ("First announced", EN.edate(c.get("announced") or c["date"]) + ("" if c.get("announced") else " (unverified)")),
+            ("Occurred / detected", EN.edate(c["occurred"]) if c.get("occurred") else "Unverified")]
     if c.get("last"):
         rows.append(("Latest update", EN.edate(c["last"])))
     rows += [("Industry", e(ind)), ("Cause", e(cause)), ("Whose data", e(who))]
@@ -243,7 +245,7 @@ def case_page_en(c, D):
         rows.append(("Last checked", f"{EN.edate(c['verified'])} (against the official release)"))
     dl = "".join(f"<dt>{a}</dt><dd>{b if a == 'Records exposed' else b}</dd>" for a, b in rows)
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": f"{c['co']} data breach ({EN.eym(c['date'])})",
-          "datePublished": c["date"], "dateModified": c.get("last") or c.get("verified") or c["date"],
+          "datePublished": c.get("announced") or c["date"], "dateModified": c.get("last") or c.get("verified") or c["date"],
           "inLanguage": "en", "url": url, "publisher": {"@type": "Organization", "name": "Japan Data Breach Ledger"}}
     flag = "Leak confirmed" if c.get("st") == "c" else "Possible leak"
     return head_en(title, desc, url, alt=(f"{SITE}case/{c['id']}.html", url)) + f"""<nav class="crumb" aria-label="Breadcrumb"><a href="../">Ledger</a><span>›</span><a href="./">All incidents</a><span>›</span><span lang="ja">{e(c['co'])}</span></nav>
