@@ -3588,25 +3588,6 @@
    "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
   },
   {
-   "co": "四條畷市（秘書政策課）",
-   "date": "2026-03-10",
-   "cause": "loss",
-   "types": [
-    "紛失・盗難"
-   ],
-   "n": 414,
-   "st": "p",
-   "sum": "副市長室または秘書政策課で決裁文書4件が所在不明になり、うち3件に介護保険の支払情報や採用予定者の情報などが含まれていた。",
-   "official": [
-    [
-     "個人情報を含む決裁文書の紛失についてのお詫びとご報告（更新2026/3/10）",
-     "https://www.city.shijonawate.lg.jp/soshiki/4/67405.html"
-    ]
-   ],
-   "id": "shijonawate-docs",
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない。初回公表日が2026年3月か不明（紛失は2024年10月）"
-  },
-  {
    "co": "日本放送協会（NHK）",
    "date": "2026-03-18",
    "cause": "mis",
@@ -6188,7 +6169,7 @@
   },
   {
    "id": "yamato-atobarai-2609",
-   "co": "ヤマトホールディングス（クロネコ掛け払い）",
+   "co": "ヤマトホールディングス（クロネコ代金後払いサービス）",
    "date": "2026-09-29",
    "cause": "cyber",
    "types": [
@@ -6803,6 +6784,95 @@
    ],
    "ind": "運輸・交通",
    "pendingReason": "公式発表（10/9）は開けたが、対象サーバー上の約189万件について外部流出は現時点で確認されていないとするのみで、漏えい（可能性）を明記していない。続報で漏えいの可能性が示されるか確認が必要"
+  },
+  {
+   "id": "rext-ransomware-2608",
+   "co": "REXT Holdings（子会社REXT：WonderGOO・WonderREX・新星堂・HAPiNS・JEANS MATE）",
+   "date": "2026-08-10",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": 1044906,
+   "label": "漏えいのおそれ1,044,906件（ほか公開確認310ファイル）",
+   "st": "p",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "mail",
+    "acct"
+   ],
+   "itemsText": "漏えいのおそれ：会員コード、氏名、フリガナ、生年月日、性別、郵便番号、住所、電話番号、メールアドレス。リークサイトで公開が確認された310ファイル：採用応募者のエントリーシート、従業員の人事書類、会員登録情報、取引先の請求書・支払通知書（振込口座情報を含む）など",
+   "notIncl": "クレジットカード情報（報道による）",
+   "who": [
+    "cust",
+    "staff",
+    "biz"
+   ],
+   "sum": "8月9日未明に本部・店舗のサーバーやPCがランサムウェアで暗号化され、POS・会計システムが停止し一部店舗が休業。9月の第4報で一部情報のネット掲載を公表し、10月9日の第5報で暗号化サーバー上の約104万件を漏えいのおそれありとした（報道による）。",
+   "status": "ongoing",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/rext-rizap-1044906-records-310-files-fifth-report-20261012/"
+    ],
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2132403.html"
+    ],
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/28/56315.html"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "報道で公式発表（RIZAPグループ news topics_id=1527・1550・1567、rext.jp IR PDF）のURLは確認したが、検索結果に出ずWebFetchがPROVENANCE_REQUIREDで拒否し本文を開けなかった。件数・項目は報道（セキュリティ対策Lab）のみで未照合。"
+  },
+  {
+   "id": "rizap-aporito-2608",
+   "co": "RIZAP（APORITOオンラインストア）",
+   "date": "2026-08-10",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "card"
+   ],
+   "itemsText": "氏名、住所、電話番号、メールアドレス、クレジットカード情報（番号・有効期限・セキュリティコード）（報道による）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "8月5日にECサイトのシステム内で不審な外部送信プログラムを見つけ、ストアを閉鎖。2026年5月1日〜8月5日に注文・入力した利用者のカード情報等が流出した可能性があり、8月8日に対象者へメールで通知した（報道による）。",
+   "status": "ongoing",
+   "official": [],
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2132403.html"
+    ],
+    [
+     "ITmedia NEWS",
+     "https://www.itmedia.co.jp/news/article/2608/12/2000000512/"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/rizap-aporito-unauthorized-access-card-data-leak-update/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表（rizap.co.jp/news/vNh1nMuA、第二報 yWfsq_08）はWebFetchで開けたが、本文がJavaScriptで描画されタイトル以外取得できず、件数・項目・対象期間を公式で照合できない。"
   }
  ]
 }
