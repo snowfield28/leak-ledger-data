@@ -57,6 +57,103 @@ nav.foot a{color:var(--muted)}
 </style>
 <script data-goatcounter="https://snow.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+<style id="theme-css" data-v="3">
+.theme-bar{display:flex;justify-content:flex-end;margin:0 0 6px}
+.top-tools{display:flex;align-items:center;gap:6px}
+.lang-link{font:inherit;font-size:12.5px;line-height:1;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:7px 12px;text-decoration:none;white-space:nowrap}
+.lang-link:hover{color:var(--ink)}
+.lang-link:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.theme-wrap{position:relative;display:inline-block}
+.theme-btn{font:inherit;font-size:12.5px;line-height:1;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:7px 12px;cursor:pointer;white-space:nowrap}
+.theme-btn:hover{color:var(--ink)}
+.theme-btn:focus-visible,.theme-menu button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.theme-menu{position:absolute;right:0;top:calc(100% + 6px);z-index:30;min-width:140px;margin:0;padding:4px;list-style:none;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.theme-menu[hidden]{display:none}
+.theme-menu button{display:flex;align-items:center;gap:8px;width:100%;font:inherit;font-size:13.5px;text-align:left;color:inherit;background:none;border:0;border-radius:8px;padding:9px 10px;cursor:pointer}
+.theme-menu button:hover{background:var(--accent-soft,rgba(128,128,128,.15))}
+.theme-menu button[aria-checked="true"]{font-weight:700}
+.theme-menu .ck{margin-left:auto;visibility:hidden}
+.theme-menu button[aria-checked="true"] .ck{visibility:visible}
+</style>
+<script id="theme-js" data-v="3">
+(function(){
+  var ALT="../../case/atsugi-police-2511.html",d=document.documentElement,en=(d.lang||"ja").indexOf("en")===0;
+  var L=en?{system:"Auto (match device)",light:"Light",dark:"Dark",short:{system:"Auto",light:"Light",dark:"Dark"},aria:"Color theme"}
+          :{system:"自動（端末に合わせる）",light:"ライト",dark:"ダーク",short:{system:"自動",light:"ライト",dark:"ダーク"},aria:"表示モード"};
+  var I={system:"◐",light:"☀",dark:"☾"},ORDER=["system","light","dark"];
+  function get(){try{var t=localStorage.getItem("theme");return t==="light"||t==="dark"?t:"system"}catch(e){return"system"}}
+  function apply(t){if(t==="system")d.removeAttribute("data-theme");else d.setAttribute("data-theme",t)}
+  var cur=get();apply(cur);
+  document.addEventListener("DOMContentLoaded",function(){
+    var wrap=document.createElement("div");wrap.className="theme-wrap";
+    var b=document.createElement("button");b.type="button";b.className="theme-btn";b.setAttribute("aria-haspopup","menu");b.setAttribute("aria-expanded","false");
+    var menu=document.createElement("ul");menu.className="theme-menu";menu.setAttribute("role","menu");menu.hidden=true;
+    var items={};
+    ORDER.forEach(function(k){
+      var li=document.createElement("li");li.setAttribute("role","none");
+      var it=document.createElement("button");it.type="button";it.setAttribute("role","menuitemradio");
+      it.innerHTML="<span aria-hidden='true'>"+I[k]+"</span><span>"+L[k]+"</span><span class='ck' aria-hidden='true'>✓</span>";
+      it.addEventListener("click",function(){choose(k)});
+      li.appendChild(it);menu.appendChild(li);items[k]=it;
+    });
+    function paint(){b.textContent=I[cur]+" "+L.short[cur]+" ▾";b.setAttribute("aria-label",L.aria+": "+L.short[cur]);ORDER.forEach(function(k){items[k].setAttribute("aria-checked",String(k===cur))})}
+    function open(){menu.hidden=false;b.setAttribute("aria-expanded","true");items[cur].focus()}
+    function close(f){menu.hidden=true;b.setAttribute("aria-expanded","false");if(f)b.focus()}
+    function choose(k){cur=k;apply(k);try{if(k==="system")localStorage.removeItem("theme");else localStorage.setItem("theme",k)}catch(e){}paint();close(true)}
+    b.addEventListener("click",function(){menu.hidden?open():close(false)});
+    document.addEventListener("click",function(e){if(!wrap.contains(e.target))close(false)});
+    document.addEventListener("keydown",function(e){
+      if(menu.hidden)return;
+      if(e.key==="Escape"){close(true);return}
+      if(e.key==="ArrowDown"||e.key==="ArrowUp"){e.preventDefault();var i=ORDER.indexOf(document.activeElement===b?cur:ORDER.find(function(k){return items[k]===document.activeElement})||cur);i=(i+(e.key==="ArrowDown"?1:2))%3;items[ORDER[i]].focus()}
+    });
+    paint();wrap.appendChild(b);wrap.appendChild(menu);
+    var grp=document.createElement("div");grp.className="top-tools";
+    if(ALT){var a=document.createElement("a");a.className="lang-link";a.href=ALT;a.setAttribute("hreflang",en?"ja":"en");a.lang=en?"ja":"en";a.textContent=en?"\u65E5\u672C\u8A9E":"English";grp.appendChild(a)}
+    grp.appendChild(wrap);
+    var h=document.querySelector(".head");
+    if(h){h.appendChild(grp)}else{var m=document.querySelector("main")||document.body,w=document.createElement("div");w.className="theme-bar";w.appendChild(grp);m.insertBefore(w,m.firstChild)}
+  });
+})();
+</script>
+<style id="share-css" data-v="1">
+.share{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0 14px;font-size:13px}
+.share.end{justify-content:center;margin:20px 0 0}
+.share .lb{color:var(--muted);margin-right:2px}
+.share a,.share button{font:inherit;font-size:12.5px;line-height:1;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:7px 12px;text-decoration:none;cursor:pointer;white-space:nowrap}
+.share a:hover,.share button:hover{border-color:var(--accent);color:var(--accent)}
+.share a:focus-visible,.share button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+<script id="share-js" data-v="1">
+document.addEventListener("DOMContentLoaded",function(){
+  var d=document,en=(d.documentElement.lang||"ja").indexOf("en")===0;
+  var m=d.querySelector('meta[property="og:url"]'),u=encodeURIComponent((m&&m.content)||location.href.split("#")[0]);
+  var raw=decodeURIComponent(u),t=encodeURIComponent(d.title);
+  var S=en?[["X","https://twitter.com/intent/tweet?url="+u+"&text="+t],["Facebook","https://www.facebook.com/sharer/sharer.php?u="+u]]
+          :[["X","https://twitter.com/intent/tweet?url="+u+"&text="+t],["LINE","https://social-plugins.line.me/lineit/share?url="+u],["Facebook","https://www.facebook.com/sharer/sharer.php?u="+u],["はてブ","https://b.hatena.ne.jp/add?mode=confirm&url="+u+"&title="+t]];
+  var box=d.createElement("div");box.className="share";box.setAttribute("role","group");box.setAttribute("aria-label",en?"Share":"共有");
+  var lb=d.createElement("span");lb.className="lb";lb.textContent=en?"Share:":"共有:";box.appendChild(lb);
+  S.forEach(function(s){var a=d.createElement("a");a.href=s[1];a.target="_blank";a.rel="noopener noreferrer";a.textContent=s[0];a.setAttribute("aria-label",s[0]+(en?" (opens in a new tab)":"で共有（新しいタブで開く）"));box.appendChild(a)});
+  var c=d.createElement("button");c.type="button";c.textContent=en?"Copy link":"リンクをコピー";
+  c.addEventListener("click",function(){
+    function ok(){c.textContent=en?"Copied":"コピーしました";setTimeout(function(){c.textContent=en?"Copy link":"リンクをコピー"},1800)}
+    function fb(){var i=d.createElement("input");i.value=raw;d.body.appendChild(i);i.select();try{d.execCommand("copy");ok()}catch(e){}d.body.removeChild(i)}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(raw).then(ok,fb)}else{fb()}
+  });
+  box.appendChild(c);
+  if(navigator.share){var n=d.createElement("button");n.type="button";n.textContent=en?"Share…":"その他…";
+    n.addEventListener("click",function(){navigator.share({title:d.title,url:raw}).catch(function(){})});box.appendChild(n)}
+  var h=d.querySelector("main h1")||d.querySelector("body > h1");
+  var isCase=/\/case\/(?!index\.html)[^\/]+\.html$/.test(location.pathname)&&h;
+  if(isCase){h.parentNode.insertBefore(box,h.nextSibling)}
+  else{box.className+=" end";(d.querySelector("main")||d.body).appendChild(box)}
+});
+</script>
+<meta property="og:image" content="https://snowfield28.github.io/leak-ledger-data/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://snowfield28.github.io/leak-ledger-data/ogp.png">
 </head>
 <body><main>
 <nav class="crumb" aria-label="Breadcrumb"><a href="../">Ledger</a><span>›</span><a href="./">All incidents</a><span>›</span><span lang="ja">神奈川県警察（厚木警察署）</span></nav>
