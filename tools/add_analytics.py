@@ -5,7 +5,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TAG = '<script data-goatcounter="https://snow.goatcounter.com/count"\n        async src="//gc.zgo.at/count.js"></script>\n'
 
 
-VERIFY = '<meta name="google-site-verification" content="pWnu-a6OhQ5ZUiNeg6Qyb8iGfyRPlF1DIUd4ssGKwKQ">\n'
+VERIFY = '<meta name="google-site-verification" content="Y-b7XfgSWxYdmYGcW0NcX9K-fwld9aktyLhifqb7-5g">\n'
 
 
 def add_verification():
