@@ -1,0 +1,35 @@
+URL: https://hennge.com/jp/info/event/20261021_secdtokyo/
+
+10月21日〜23日、東京で開催のSecurity DaysにHENNGEが協賛・出展し、須佐と大眉が登壇 | インフォメーション | HENNGE株式会社（へんげ） -テクノロジーの解放で世の中を変えていく
+Security Daysはサイバーセキュリティに特化した展示とセミナーを通じ、最新のインシデント動向とセキュリティ対策を伝えるイベントです。
+HENNGEは本イベントの東京開催にシルバースポンサーとして協賛、出展するとともに須佐と大眉が登壇。自律型AIによるソーシャルエンジニアリングの事例を踏まえ、AIを活用した攻撃者視点のデモを実演し、少人数の情シス・一人情シス体制でも徹底できるツールを活用した基礎対策をご紹介します。
+イベント名
+Security Days Fall 2026 Tokyo
+イベント開催日
+2026年10月21日（水）〜23日（金）
+登壇内容・日時
+【デモ公開】自律型AIの脅威とは？少人数情シスを守る最新セキュリティ
+HENNGE株式会社
+HENNGE Endpoint & Managed Security プロダクトマネージャー 須佐 和希
+Customer Success Division, CS Engineering West Section 大眉 徳人
+※講演は、21日 （水）12:50〜13:20に、RoomCで行います。
+会場
+TAKANAWA GATEWAY Convention Center
+（東京都港区高輪2-21-2 THE LINKPILLAR 1 SOUTH B2F & B1F）
+※HENNGEのブースは【B12 / B14】です。
+主催
+株式会社ナノオプト・メディア
+参加
+費
+無料（事前登録制）
+イベントサイト
+詳細はこちらから
+すべてのイベント・セミナー
+あわせて読みたい記事
+10月14日、大阪で開催のSecurity DaysにHENNGEが協賛・出展し、落合が登壇
+10月16日、福岡で開催のSecurity DaysにHENNGEが出展し、日髙が登壇
+10月28日、29日、名古屋で開催のSecurity DaysにHENNGEが出展し、塚本が登壇
+TOP
+インフォメーション
+イベント・セミナー
+10月21日〜23日、東京で開催のSecurity Days…

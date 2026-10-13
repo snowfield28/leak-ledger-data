@@ -1,0 +1,1703 @@
+{
+ "items": [
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56453.html",
+   "title": "脅威動向 株式会社 サイント 代表取締役 兼 脅威分析統括責任者 岩井 博樹 2026.10.14 Wed 8:15 セキュリティは壁を高くする時代から 攻撃基盤そのものに働きかける時代へ ほか [Scan PREMIUM Monthly Executive Summary 2026年9月度] レポートでは 12 月 ～ 8 月に遮断した Claude の悪用を、サイバー攻撃、影響工作、監視、詐欺、生物学的悪用、通常兵器開発、モデル蒸留の 7 分野に整理して報告しています。個人的に特に興味深かったのは、安全保障上の重要性が高い「Surveillance operations（監視活動）」です。同章で示されているのは、AI が OSINT 分析だけでなく、対象者の発見、評価、監視、さらには HUMINT につながる活動まで、一連の情報活動のワークフローに組み込まれつつあることです。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/1d30e28c997d.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    },
+    {
+     "url": "https://www.iid.co.jp/contact/media_contact.html?recipient=scan",
+     "status": "ok",
+     "chars": 1552,
+     "text_file": "inbox/texts/1fd46ed87c81.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56452.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.14 Wed 8:05 内定者 96 名のアドレス流出 ～ 江戸川区「採用内定式」開催案内のメール誤送信 東京都江戸川区は9月24日、メール誤送信による個人情報の流出について発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/1432b7ffaf4b.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    },
+    {
+     "url": "https://www.iid.co.jp/contact/media_contact.html?recipient=scan",
+     "status": "ok",
+     "chars": 1552,
+     "text_file": "inbox/texts/1fd46ed87c81.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56451.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.14 Wed 8:05 上司に報告せず発覚遅れる ～ 大阪市立美術館でメール誤送信 大阪府大阪市は9月24日、大阪市立美術館でのメール誤送信による個人情報の漏えいについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/bf50d59cc174.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    },
+    {
+     "url": "https://www.iid.co.jp/contact/media_contact.html?recipient=scan",
+     "status": "ok",
+     "chars": 1552,
+     "text_file": "inbox/texts/1fd46ed87c81.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56450.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.14 Wed 8:05 ConoHa WING byGMO に不正アクセス、不正プログラムを設置 GMOインターネット株式会社は9月20日、同社が提供する「ConoHa WING byGMO」の一部顧客のWebサーバ領域への第三者からの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/a47310a2a5f0.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.conoha.jp/wing/news/?btn_id=wing-news--news_wing-news&ap=2015054834",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56449.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.14 Wed 8:05 第一興商の委託先 日本コロムビアグループでマルウェア感染、約 8,724,000 件の情報が漏えいしたおそれを否定できず 株式会社第一興商は10月8日、同社が個人情報の取扱いを委託している日本コロムビアグループ株式会社（NCG社）でのマルウェア感染について発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/2cbd66604755.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
+     "status": "ok",
+     "chars": 2700,
+     "text_file": "inbox/texts/253fc3b3493f.txt"
+    },
+    {
+     "url": "https://www.dkkaraoke.co.jp/news/newsletter/261009_1.html",
+     "status": "ok",
+     "chars": 1287,
+     "text_file": "inbox/texts/d037d962e79a.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56448.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.14 Wed 8:05 ローソンのメールサーバから不審な英文メール送信 株式会社ローソンは10月1日、同社メールサーバからの不審メールの送信について発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/8a0bafea8f70.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    },
+    {
+     "url": "https://www.iid.co.jp/contact/media_contact.html?recipient=scan",
+     "status": "ok",
+     "chars": 1552,
+     "text_file": "inbox/texts/1fd46ed87c81.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56447.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.14 Wed 8:05 日本原子力研究開発機構が運用している研究支援サイトに不正アクセス、顔写真付公的身分証明証 200 件が漏えい 国立研究開発法人日本原子力研究開発機構は10月1日、同機構が契約するクラウド基盤上で運用している研究支援サイトへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/45bf4d6022ce.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    },
+    {
+     "url": "https://www.iid.co.jp/contact/media_contact.html?recipient=scan",
+     "status": "ok",
+     "chars": 1552,
+     "text_file": "inbox/texts/1fd46ed87c81.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56446.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.14 Wed 8:05 ブックオフグループホールディングス子会社に不正アクセス、最大 約 643 万件の会員データが漏えい ブックオフグループホールディングス株式会社は10月9日、同社子会社が提供する会員情報を管理するシステムへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/d9550df6ea78.txt",
+   "official": [
+    {
+     "url": "https://ssl4.eir-parts.net/doc/9278/tdnet/2893077/00.pdf",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56440.html",
+   "title": "セミナー・イベント ScanNetSecurity 2026.10.14 Wed 8:00 大阪・福岡・東京・名古屋で開催される「Security Days」に HENNGE が出展・登壇 ～ SCS 対策やランサムウェア防御 HENNGE株式会社は10月7日、10月に大阪・福岡・東京・名古屋で開催される「Security Days」に出展・登壇すると発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/db88c1f12ec1.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://hennge.com/jp/info/event/20261014_secdosaka/",
+     "status": "ok",
+     "chars": 848,
+     "text_file": "inbox/texts/1ef94582607f.txt"
+    },
+    {
+     "url": "https://hennge.com/jp/info/event/20261016_secdfukuoka/",
+     "status": "ok",
+     "chars": 822,
+     "text_file": "inbox/texts/aa238298b965.txt"
+    },
+    {
+     "url": "https://hennge.com/jp/info/event/20261021_secdtokyo/",
+     "status": "ok",
+     "chars": 974,
+     "text_file": "inbox/texts/e2f705cac284.txt"
+    },
+    {
+     "url": "https://hennge.com/jp/info/event/20261028_secdnagoya/",
+     "status": "ok",
+     "chars": 839,
+     "text_file": "inbox/texts/207b8bf5c71a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56435.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.13 Tue 8:05 穴吹ハウジングサービスがオーナーズサイトを一時停止、直ちに情報漏えいにつながるものではないが追加対策を講じることが望ましい 株式会社穴吹ハウジングサービスは10月9日、同社が運営するオーナーズサイトの一時停止について発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/ed14413d409d.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.anabuki-housing.co.jp/news/content.php?news_id=538",
+     "status": "ok",
+     "chars": 1784,
+     "text_file": "inbox/texts/fd4ea106d05b.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56434.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.13 Tue 8:05 ローソンのアカウントサービスに不正アクセス、215 万 5,345 件のローソン ID が漏えい 株式会社ローソンは10月8日、同社が運営するアカウントサービス「ローソンID」および「ローソンアプリ予約」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/c53570623722.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
+     "status": "ok",
+     "chars": 1669,
+     "text_file": "inbox/texts/56626d2dfad7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56433.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.13 Tue 8:05 EPARKリラク&エステの予約管理・顧客管理プラットフォーム「PeakManager」に不正アクセス、データベース内の情報の転送を確認 株式会社EPARKリラク&エステは9月24日、7月31日に公表した同社提供の予約管理・顧客管理プラットフォーム「PeakManager」への不正アクセスについて、第二報を発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/91eb6090916c.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.epark-relax.co.jp/news/231",
+     "status": "ok",
+     "chars": 1991,
+     "text_file": "inbox/texts/db7780e6dd8e.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56432.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.13 Tue 8:05 家計簿アプリ「くふう Zaim」に不正アクセス、一部の登録情報を異なる内容に書き換え 株式会社くふうカンパニーは9月22日、同社が運営する家計簿アプリ「くふう Zaim」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/ea2ecf9cb15d.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://kufu.co.jp/2026/09/22/zaim-announce/",
+     "status": "ok",
+     "chars": 1590,
+     "text_file": "inbox/texts/222a846d2487.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56431.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.13 Tue 8:05 教育産業のメールアカウントに不正アクセス、フィッシングメールで Microsoft365 アカウントの認証情報が窃取されたことが原因 教育産業株式会社は9月18日、8月28日に公表した同社メールアカウントへの不正アクセスについて、最終報を発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/be9d07be23a3.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://ksg.co.jp/topics/entry-62.html",
+     "status": "ok",
+     "chars": 1360,
+     "text_file": "inbox/texts/fe4875fe6600.txt"
+    },
+    {
+     "url": "https://ksg.co.jp/topics/entry-60.html",
+     "status": "ok",
+     "chars": 902,
+     "text_file": "inbox/texts/f82418531579.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56430.html",
+   "title": "業界動向 ScanNetSecurity 2026.10.13 Tue 8:00 個人情報保護委員会、大規模な漏えい等事案を踏まえた対応について注意喚起 個人情報保護委員会は10月7日、大規模な漏えい等事案を踏まえた対応について、注意喚起を発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/315edee17698.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.ppc.go.jp/news/press/2026/261007_houdou/",
+     "status": "ok",
+     "chars": 222,
+     "text_file": "inbox/texts/6d7282ea0d3d.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56429.html",
+   "title": "脅威動向 ScanNetSecurity 2026.10.13 Tue 8:00 警察庁「サイバー警察局便り」で情報流出への注意を呼びかけ 企業から個人まで基本的対策の再点検を呼びかけ 警察庁は10月8日、サイバー警察局便りR8Vol.19「情報流出に注意」を公開した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/d4f489769aa6.txt",
+   "official": [
+    {
+     "url": "https://www.npa.go.jp/bureau/cyber/pdf/R8_Vol.19cpal.pdf",
+     "status": "ok",
+     "chars": 693,
+     "text_file": "inbox/texts/5ce7c851558a.txt"
+    },
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56428.html",
+   "title": "脅威動向 ScanNetSecurity 2026.10.13 Tue 8:00 JPCERT/CC、国内組織への不正アクセスに関する注意喚起を公開 API悪用などへの対策を推奨 一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月9日、国内組織で相次ぐ不正アクセスへの注意喚起を発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/672592f4df39.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    },
+    {
+     "url": "https://www.iid.co.jp/contact/media_contact.html?recipient=scan",
+     "status": "ok",
+     "chars": 1552,
+     "text_file": "inbox/texts/1fd46ed87c81.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/09/56426.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.9 Fri 8:05 「IDCFクラウド」にランサムウェア攻撃 ソフトバンクグループの株式会社IDCフロンティアは10月7日、同社クラウドサービス「IDCFクラウド」の一部システムへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/d8a6590c473c.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.idcf.jp/news/topics/20261007002",
+     "status": "ok",
+     "chars": 1619,
+     "text_file": "inbox/texts/4a7b67505294.txt"
+    },
+    {
+     "url": "https://www.idcf.jp/news/topics/20261007001",
+     "status": "ok",
+     "chars": 1242,
+     "text_file": "inbox/texts/a7fd9144fc13.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/09/56425.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.9 Fri 8:05 戸田建設に不正アクセス、取引先に関する情報が漏えい 戸田建設株式会社は10月7日、同社のシステムへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/56a2e71f4b73.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.toda.co.jp/news/2026/20261007_006350.html",
+     "status": "ok",
+     "chars": 1130,
+     "text_file": "inbox/texts/2b37a1e47f7f.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/09/56424.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.9 Fri 8:05 大気社のマレーシアグループ会社従業員のメールアカウントに不正アクセス、不審メールの送信を確認 株式会社大気社は9月18日、同社のマレーシアグループ会社のTaikisha Engineering (M) Sdn. Bhd.への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/c6f9232ba339.txt",
+   "official": [
+    {
+     "url": "https://www.taikisha.co.jp/common/mtimg/20260918.pdf",
+     "status": "ok",
+     "chars": 601,
+     "text_file": "inbox/texts/b0199ae141e6.txt"
+    },
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/09/56423.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.9 Fri 8:05 ランドハウジングが登録する内見予約システムに不正アクセス、運営会社に原因究明を要請 株式会社ランドハウジングは9月18日、同社が登録している他社の内見予約システムへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/02364e21fb5b.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.landhousing.co.jp/news/49",
+     "status": "ok",
+     "chars": 1150,
+     "text_file": "inbox/texts/8c64faa9cb65.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/08/56415.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.8 Thu 8:05 オンラインカジノに関するコンテンツを表示 ～ 千葉銀行子会社のちばぎん商店のコーポレートサイトに不正アクセス 株式会社千葉銀行は9月17日、同社が業務の一部を委託している子会社のちばぎん商店株式会社のコーポレートサイトへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/cf7b40e073b0.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.chibabank.co.jp/news/news20260917_01",
+     "status": "ok",
+     "chars": 1822,
+     "text_file": "inbox/texts/75b96aa20174.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/08/56414.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.8 Thu 8:05 検索経由で無関係なサイトへ誘導 ～ スコア・ジャパンがサイト改ざん被害 株式会社スコア・ジャパンは9月16日、同社が運営するウェブサイト（ scorejp.com ）への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/220de73195ad.txt",
+   "official": [
+    {
+     "url": "https://www.scorejp.com/PDF/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E5%85%AC%E9%96%8B%E7%94%A8%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E3%81%8A%E8%A9%AB%E3%81%B3_20260916.pdf",
+     "status": "ok",
+     "chars": 800,
+     "text_file": "inbox/texts/8c1abadd0cd2.txt"
+    },
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/08/56413.html",
+   "title": "業界動向 ScanNetSecurity 2026.10.8 Thu 8:05 不正アクセスによる漏えい等の件数「必ずしも増加傾向にない（古川デジタル大臣）」 デジタル庁は10月5日、10月2日に同庁会見室とオンラインで行われた古川デジタル大臣記者会見の要旨を発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/b1a2855193cb.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    },
+    {
+     "url": "https://www.iid.co.jp/contact/media_contact.html?recipient=scan",
+     "status": "ok",
+     "chars": 1552,
+     "text_file": "inbox/texts/1fd46ed87c81.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/08/56411.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.8 Thu 8:05 楽天ドライブに不正アクセス、管理アカウント乗っ取りでデータ閲覧 楽天モバイル株式会社は10月6日、同社が提供する「楽天ドライブ」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/e5956fd20654.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    },
+    {
+     "url": "https://www.iid.co.jp/contact/media_contact.html?recipient=scan",
+     "status": "ok",
+     "chars": 1552,
+     "text_file": "inbox/texts/1fd46ed87c81.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.7 Wed 8:05 KKR京都くに荘のメールサーバに不正アクセス 国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/4c0b667034c7.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.kkr.or.jp/hotel/news/2026/09/post-227.html",
+     "status": "ok",
+     "chars": 1151,
+     "text_file": "inbox/texts/934ffd3764c3.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56405.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.7 Wed 8:05 九州電子 台湾子会社にランサムウェア攻撃、事業運営に必要なシステム環境の復旧を完了 九州電子株式会社は9月15日、3月23日に公表した同社台湾子会社での情報セキュリティインシデントについて、最終報を発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/044c71c5ce6a.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.qdk.co.jp/information/most%E7%A4%BE%EF%BC%88%E5%BC%8A%E7%A4%BE%E5%8F%B0%E6%B9%BE%E5%AD%90%E4%BC%9A%E7%A4%BE%EF%BC%89%E3%81%AE%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A4%E3%83%B3/",
+     "status": "ok",
+     "chars": 1657,
+     "text_file": "inbox/texts/d34342fe29b8.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56404.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.7 Wed 8:05 「カイクラサービス紹介サイト」に複数の不正プログラム、サーバ内のデータを外部に送信した形跡は確認されず 株式会社シンカは9月17日、8月28日に公表した同社運営のサービス紹介サイトへの不正アクセスについて、調査結果を発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/83ea7c3898ac.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.thinca.co.jp/news/202609017_news/",
+     "status": "ok",
+     "chars": 3814,
+     "text_file": "inbox/texts/c60780cabe4a.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56400.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.7 Wed 8:05 なりすましメールで取引先に金銭的な被害も ～ 小田原エンジニアリング従業員のメールアカウントに不正アクセス 株式会社小田原エンジニアリングは9月15日、子会社であるOdawara Automation Deutschland GmbHに出向していた同社従業員のメールアカウントへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/b26c4048595c.txt",
+   "official": [
+    {
+     "url": "https://odawara-eng.co.jp/wp-content/uploads/2026/09/20260915.pdf",
+     "status": "ok",
+     "chars": 2125,
+     "text_file": "inbox/texts/76ee8e8f2afb.txt"
+    },
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56393.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.6 Tue 8:05 「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去 信濃毎日新聞株式会社は9月28日、「信濃毎日新聞デジタル」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/4cbd1ecfe67f.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://nano.shinmai.co.jp/info/media/93016/",
+     "status": "ok",
+     "chars": 535,
+     "text_file": "inbox/texts/965167c8dbbc.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "http://www.iid.co.jp/company/pp.html",
+   "title": "個人情報保護方針",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/bbf1d4b5ab38.txt",
+   "official": [
+    {
+     "url": "https://marble-asp.jp/lp/Questionnaire.aspx?id=inquiryform",
+     "status": "ok",
+     "chars": 2566,
+     "text_file": "inbox/texts/f69e11612997.txt"
+    },
+    {
+     "url": "https://privacymark.jp/",
+     "status": "ok",
+     "chars": 2299,
+     "text_file": "inbox/texts/f5678f603240.txt"
+    },
+    {
+     "url": "http://www.jipdec.or.jp/",
+     "status": "ok",
+     "chars": 1933,
+     "final_url": "https://www.jipdec.or.jp/",
+     "text_file": "inbox/texts/dbbbb599b9cf.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56346.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.30 Wed 8:05 佐賀大学のNASにランサムウェア攻撃、ファイルが暗号化される被害 国立大学法人佐賀大学は9月28日、同学の事務情報システムでのランサムウェア被害について発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/2ce5bbd2e79c.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    },
+    {
+     "url": "https://www.iid.co.jp/contact/media_contact.html?recipient=scan",
+     "status": "ok",
+     "chars": 1552,
+     "text_file": "inbox/texts/1fd46ed87c81.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56345.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.30 Wed 8:05 京王電鉄にランサムウェア攻撃 京王電鉄株式会社は9月26日、ランサムウェア攻撃によるシステム障害について発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/7ee61a1a7a1f.txt",
+   "official": [
+    {
+     "url": "https://www.keio.co.jp/news/update/announce/announce2026/pdf/20260928_otoiawase_form.pdf",
+     "status": "ok",
+     "chars": 222,
+     "text_file": "inbox/texts/37e6f78c6c6b.txt"
+    },
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.keio.co.jp/news/update/announce/nr260926v13404/",
+     "status": "ok",
+     "chars": 732,
+     "text_file": "inbox/texts/21e9a33f5d2b.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56344.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.30 Wed 8:05 日本郵便 調査請求 Web受付サービスに不正アクセス、一時的に受付を停止 日本郵便株式会社は9月25日、同社の国際郵便物の調査請求Web受付サービスへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/44c93eaeeea1.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/6267689171.html",
+     "status": "ok",
+     "chars": 330,
+     "text_file": "inbox/texts/c68cf191b198.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56343.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.30 Wed 8:05 ID・パスワードが窃取が原因 ～「HALMEK up」に不正アクセス 株式会社ハルメクホールディングスは9月11日、同社グループのWebサイト「HALMEK up」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/77f17a582d35.txt",
+   "official": [
+    {
+     "url": "https://contents.xj-storage.jp/xcontents/AS09184/09653a70/2eab/4f61/a14a/a5b35b402085/140120260910534615.pdf",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56342.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.30 Wed 8:05 長野県大町市デジタルアーカイブサイトに不正アクセス、オンラインカジノサイト誘導ページに改ざん 長野県大町市は9月10日、市デジタルアーカイブサイトへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/06504ee82732.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    },
+    {
+     "url": "https://www.iid.co.jp/contact/media_contact.html?recipient=scan",
+     "status": "ok",
+     "chars": 1552,
+     "text_file": "inbox/texts/1fd46ed87c81.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56340.html",
+   "title": "業界動向 ScanNetSecurity 2026.9.30 Wed 8:00 山口東京理科大チームが優勝 ～ 県警ら主催「サイバー攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/890aa17b28c1.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.socu.ac.jp/news/2026/09/post-946.html",
+     "status": "error:SSLError",
+     "chars": 0
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56339.html",
+   "title": "脅威動向 ScanNetSecurity 2026.9.30 Wed 8:00 ランサムウェア被害件数が過去最多の123件に、警察庁が対策情報を紹介 警察庁は9月18日、サイバー警察局便りR8Vol.16「ランサムウェア被害拡大中」を公開した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/026c1154a6c1.txt",
+   "official": [
+    {
+     "url": "https://www.ppc.go.jp/files/pdf/260116_forensics_keypoints.pdf",
+     "status": "error:DependencyError",
+     "chars": 0
+    },
+    {
+     "url": "https://www.npa.go.jp/bureau/cyber/pdf/R8_Vol.16cpal.pdf",
+     "status": "ok",
+     "chars": 872,
+     "text_file": "inbox/texts/d9f57d6fc1b6.txt"
+    },
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://www.jc3.or.jp/news/2025/20251209-662.html",
+     "status": "ok",
+     "chars": 1975,
+     "text_file": "inbox/texts/4b9b72b50683.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56333.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.29 Tue 8:05 不正プログラム設置 ～ 東京大学大学院医学系研究科公共健康医学専攻ウェブサイトに不正アクセス 国立大学法人東京大学大学院医学系研究科は9月12日、公共健康医学専攻ウェブサイト（ https://www.m.u-tokyo.ac.jp/sph/ ）への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/4a4c7ea06a12.txt",
+   "official": [
+    {
+     "url": "https://www.m.u-tokyo.ac.jp/sph/wp-content/uploads/2026/09/af7c7d12a204fcf2ab9c475d587ed489.pdf",
+     "status": "ok",
+     "chars": 1144,
+     "text_file": "inbox/texts/7a93799169f7.txt"
+    },
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56326.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.29 Tue 8:05 「ワンストップジョブサイトくまもと」が改ざん被害、フェイクアラートが表示される状態に 熊本県は9月9日、同県が運営する「ワンストップジョブサイトくまもと」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/f65483ccfae0.txt",
+   "official": [
+    {
+     "url": "https://bit.ly/SecurityInformationWantsToBeShared",
+     "status": "ok",
+     "chars": 1170,
+     "final_url": "https://www.ns-research.jp/%E5%95%86%E5%93%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+     "text_file": "inbox/texts/f23473ff27a7.txt"
+    },
+    {
+     "url": "https://kumamoto.onestop-job.jp/2026/09/post-59.html",
+     "status": "ok",
+     "chars": 1219,
+     "text_file": "inbox/texts/af56b1ddaf6d.txt"
+    },
+    {
+     "url": "http://www.iid.co.jp/news/",
+     "status": "ok",
+     "chars": 2088,
+     "final_url": "https://www.iid.co.jp/news",
+     "text_file": "inbox/texts/522f3de7b7f4.txt"
+    },
+    {
+     "url": "http://bit.ly/ScanPREMIUM_NSRI",
+     "status": "ok",
+     "chars": 14713,
+     "final_url": "https://www.ns-research.jp/%E5%88%8A%E8%A1%8C%E7%89%A9%E3%81%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/scan-premium-%E3%81%A8%E3%81%AF/",
+     "text_file": "inbox/texts/b336e0e1619e.txt"
+    },
+    {
+     "url": "http://goo.gl/6Qc2fy",
+     "status": "ok",
+     "chars": 8413,
+     "final_url": "https://www.ns-research.jp/%E6%83%85%E5%A0%B1%E5%85%AC%E9%96%8B%E6%96%B9%E9%87%9D/",
+     "text_file": "inbox/texts/09434fbd488e.txt"
+    }
+   ]
+  }
+ ],
+ "generated": "2026-10-14 08:23 JST",
+ "last_report": {
+  "sources_ok": 7,
+  "sources_failed": [
+   "セキュリティ対策Lab 情報漏えい: HTTPError https://rocket-boys.co.jp/security-measures-lab/category/security-news/information-leak/",
+   "セキュリティ対策Lab 情報漏えい(2): HTTPError https://rocket-boys.co.jp/security-measures-lab/category/security-news/information-leak/page/2/"
+  ]
+ }
+}
