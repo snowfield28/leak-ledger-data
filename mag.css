@@ -1,0 +1,123 @@
+/* mag.css — 雑誌（エディトリアル）風の見た目。
+   各ページの既存CSSのあとに読み込み、色・形・文字の扱いだけを上書きする。
+   HTMLの構造やJSには触れない。tools/add_magazine.py が全ページに <link> を足す。
+   方針：白地・モノトーン／角丸・影・枠つきカードをやめる／太い見出し＋短い黒罫線／
+         英数字は等幅・大文字・字間広めのラベル／細い灰色の区切り線／余白を広く。 */
+
+:root{
+  --bg:#fff;--surface:#fff;--ink:#111;--muted:#5f5f5f;--line:#e1e1e1;--grid:#eee;
+  --bar:#111;--bar-soft:#efefef;
+  --f-mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Roboto Mono","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Noto Sans JP",monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0b0b0b;--surface:#0b0b0b;--ink:#f2f2f2;--muted:#a0a0a0;--line:#2c2c2c;--grid:#1a1a1a;--bar:#f2f2f2;--bar-soft:#1d1d1d}}
+:root[data-theme="dark"]{
+  --bg:#0b0b0b;--surface:#0b0b0b;--ink:#f2f2f2;--muted:#a0a0a0;--line:#2c2c2c;--grid:#1a1a1a;--bar:#f2f2f2;--bar-soft:#1d1d1d}
+
+body{background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+
+/* ---- ナビ（等幅・大文字・字間広め）。トップでは上へ移す ---- */
+nav.foot{font-family:var(--f-mono);font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;gap:8px 28px!important}
+nav.foot a{color:var(--ink);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent}
+nav.foot a:hover{border-bottom-color:var(--ink)}
+.app>nav.foot{order:-2;margin:-4px 0 0;padding-bottom:10px;border-bottom:1px solid var(--line)}
+main>nav.foot{margin-top:40px;padding-top:14px;border-top:2px solid var(--ink)}
+
+/* ---- マストヘッド ---- */
+.app>.head{order:-3;align-items:center;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.head h1{display:inline-block;margin:0;padding:.32em .7em;background:var(--ink);color:var(--bg);font-size:clamp(17px,2.2vw,24px);font-weight:900;letter-spacing:.08em;line-height:1.2}
+.upd{margin-top:-6px;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase}
+
+/* ---- 導入（大見出し＋短い罫線＋灰色の本文） ---- */
+.hero{display:block;padding:28px 0 6px;background:none;border:0;border-radius:0}
+.hero svg{display:none}
+.hero p{max-width:42em;font-size:15px;line-height:1.95;color:var(--muted)}
+.hero p b{margin-bottom:.9em;font-size:clamp(26px,5.2vw,52px);font-weight:900;line-height:1.3;letter-spacing:.01em;color:var(--ink);font-feature-settings:"palt"}
+.hero p b::after{content:"";display:block;width:140px;height:2px;margin-top:.55em;background:var(--ink)}
+
+/* ---- 新着：縦線で区切った誌面風のカラム ---- */
+.latest h2{padding-top:14px;border-top:2px solid var(--ink);font-size:22px;font-weight:900}
+.latest h2 small,.panel h2 small,.meta{font-family:var(--f-mono);font-size:11px;font-weight:400;letter-spacing:.08em;color:var(--muted)}
+.lrow{gap:0}
+.lcard{gap:10px;padding:2px 20px 12px;background:none;border:0;border-left:1px solid var(--line);border-radius:0}
+.lcard:first-child{padding-left:0;border-left:0}
+.lcard:hover{border-left-color:var(--line)}
+.lcard:hover .ln{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.2em}
+.lcard .ic{display:none}
+.lcard .ld{order:1;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.lcard .ld::before{content:"";display:inline-block;width:8px;height:8px;margin-right:8px;background:var(--bar)}
+.lcard.c .ld::before{background:var(--confirmed)}
+.lcard.p .ld::before{background:var(--possible)}
+.lcard .ln{order:2;min-height:0;font-size:19px;font-weight:900;line-height:1.45}
+.lcard .lv{order:3;font-size:22px;font-weight:900}
+.lcard .lv::before{content:"";display:block;width:56px;height:2px;margin-bottom:12px;background:var(--ink)}
+.lcard .lt{order:4}
+.lcard .new{top:2px;right:16px;border-radius:0;font-family:var(--f-mono);letter-spacing:.1em}
+
+/* ---- 集計の数字 ---- */
+.tiles{gap:0;border-block:2px solid var(--ink)}
+.tile{flex-direction:column-reverse;gap:6px;padding:16px 18px;background:none;border:0;border-left:1px solid var(--line);border-radius:0}
+.tile:first-child{padding-left:0;border-left:0}
+.tile b{font-size:clamp(22px,6vw,52px);font-weight:900;line-height:1.1}
+.tile span{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+
+/* ---- パネル：太い上罫線＋太字の見出し（枠・角丸なし） ---- */
+.panel{padding:14px 0 6px;background:none;border:0;border-top:2px solid var(--ink);border-radius:0}
+.panel h2{font-size:20px;font-weight:900;line-height:1.3}
+.bfill{border-radius:0}
+.brow{border-radius:0;padding:6px 0}
+.brow:hover .bname,.brow[aria-pressed="true"] .bname{text-decoration:underline;text-underline-offset:.2em}
+.bname{font-weight:700}
+.bval{font-family:var(--f-mono)}
+.it{border-radius:0;background:none}
+.it[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.it[aria-pressed="true"] .c{color:inherit}
+.it[aria-pressed="true"] .m{background:rgba(128,128,128,.45)}
+.it[aria-pressed="true"] .m i{background:var(--bg)}
+.it .m{border-radius:0}
+
+/* ---- 検索・絞り込み部品（角を落とし、等幅ラベル） ---- */
+.chip,.atag,.aclear,.tab,.lang-link,.theme-btn{border-radius:0;font-family:var(--f-mono);letter-spacing:.06em}
+.share a,.share button,.share,.x,.toast,.pill,.tags span,.facts,.lk,.gi,.items span,.btn,.cellbar,.cellbar i{border-radius:0}
+input[type=search],.selrow select,.daterow input{border-color:var(--ink);border-radius:0}
+.pill{font-family:var(--f-mono);letter-spacing:.04em}
+.theme-menu,.theme-menu button{border-radius:0}
+
+/* ---- 表 ---- */
+table{background:none;border:0;border-top:2px solid var(--ink);border-radius:0}
+th{background:none;border-bottom:1px solid var(--ink);font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+td{border-bottom:1px solid var(--line)}
+.atable{border-top:0}
+.cn{font-size:16px;font-weight:800}
+tbody tr:hover td{background:var(--grid)}
+
+/* ---- 詳細シート ---- */
+.sheet{border-radius:0}
+.sh-title h3{font-size:22px;font-weight:900}
+.share{font-family:var(--f-mono);letter-spacing:.08em}
+
+/* ---- 事案ページ・静的ページ（細い1カラムの読み物） ---- */
+main{max-width:780px}
+main h1{margin-bottom:.9em;font-size:clamp(26px,4.4vw,42px);font-weight:900;line-height:1.35;font-feature-settings:"palt"}
+main h1::after{content:"";display:block;width:140px;height:2px;margin-top:.5em;background:var(--ink)}
+.crumb{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase}
+.crumb a{color:var(--muted)}
+main section{padding:20px 0 12px;margin:0;background:none;border:0;border-top:1px solid var(--line);border-radius:0}
+main h2{margin:0 0 10px;font-size:19px;font-weight:900;line-height:1.4}
+main p,main li{font-size:16px;line-height:1.95}
+main p a,main li a,main .note a{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.22em}
+.note{font-size:13px;line-height:1.8}
+dt{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em}
+.btn{font-family:var(--f-mono);letter-spacing:.08em}
+
+@media (min-width:900px){
+  .app{max-width:1280px}
+  .lrow{gap:28px 0}
+  .lcard:nth-child(1){grid-column:span 2;grid-row:span 2;padding-right:28px}
+  .lcard:nth-child(1) .ln{font-size:clamp(26px,3.2vw,40px);line-height:1.35;-webkit-line-clamp:4}
+  .lcard:nth-child(1) .lv{font-size:clamp(30px,3.6vw,48px)}
+  .lcard:nth-child(6){padding-left:0;border-left:0}
+  .lcard:nth-child(8):last-child{grid-column:span 2}
+  .tile{padding:20px 28px}.tile:first-child{padding-left:0}
+  .sheet{border-radius:0}
+}

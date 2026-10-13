@@ -174,5 +174,7 @@ t = re.sub(r'<nav class="foot" aria-label="サイト情報".*?</nav>',
 
 os.makedirs(os.path.join(ROOT, "en"), exist_ok=True)
 open(os.path.join(ROOT, "en", "index.html"), "w", encoding="utf-8").write(t)
+import add_magazine  # en/index.html は index.html の複製なので、mag.css への相対パスをこのファイル基準に直す
+add_magazine.run()
 left = sorted(set(re.findall(r'[぀-ヿ一-鿿]+', t)))
 print("written en/index.html; leftover Japanese:", left)

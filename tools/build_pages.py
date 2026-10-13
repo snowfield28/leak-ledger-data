@@ -335,3 +335,5 @@ if __name__ == "__main__":
     print("share buttons added to", add_share.run(), "files")
     import add_ogp
     print("og:image added to", add_ogp.run(), "files")
+    import add_magazine  # 必ず最後：他の <style> より後ろに置いて上書きする
+    print("magazine style linked in", add_magazine.run(), "files")
