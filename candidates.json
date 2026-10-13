@@ -2171,28 +2171,6 @@
    "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
   },
   {
-   "id": "coastline-2601",
-   "co": "coastline（スマレジ外部アプリ）",
-   "date": "2026-01-10",
-   "cause": "config",
-   "types": [
-    "設定ミス・不具合"
-   ],
-   "n": null,
-   "label": "未照合",
-   "st": "p",
-   "sum": "スマレジ連携の外部アプリから導入事業者の顧客の氏名・電話番号などが流出した。",
-   "src": [],
-   "ind": "通信・IT",
-   "official": [
-    [
-     "公式発表（未照合）",
-     "https://coastline.co.jp/20260110argent_issue/"
-    ]
-   ],
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
-  },
-  {
    "id": "smaregi-app-2601",
    "co": "スマレジ（アプリマーケット外部アプリ）",
    "date": "2026-01-08",
@@ -2218,50 +2196,6 @@
     ]
    ],
    "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない。coastline・各導入事業者と同一事案で、どの組織を主体に記録するか要判断"
-  },
-  {
-   "id": "sakaicycle-2601",
-   "co": "サカイサイクル",
-   "date": "2026-01-09",
-   "cause": "cyber",
-   "types": [
-    "委託先経由"
-   ],
-   "n": null,
-   "label": "未照合",
-   "st": "p",
-   "sum": "POS連携の外部アプリへの不正アクセスで顧客の個人情報が漏えい。",
-   "src": [],
-   "ind": "小売・EC",
-   "official": [
-    [
-     "公式発表（未照合）",
-     "https://www.sakaicycle.com/news/"
-    ]
-   ],
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
-  },
-  {
-   "id": "dangoya-2601",
-   "co": "田中屋本店",
-   "date": "2026-01-13",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "未照合",
-   "st": "p",
-   "sum": "通販サイトへの不正アクセスで個人情報が漏えい。",
-   "src": [],
-   "ind": "小売・EC",
-   "official": [
-    [
-     "公式発表（未照合）",
-     "https://dangoya.com/html/user_data/customerdata.pdf"
-    ]
-   ],
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
   },
   {
    "id": "lbm-2601",
@@ -2303,28 +2237,6 @@
     [
      "公式発表（未照合）",
      "https://www.pref.nara.jp/25726.htm"
-    ]
-   ],
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
-  },
-  {
-   "id": "yotsukaido-2601",
-   "co": "四街道市",
-   "date": "2026-01-09",
-   "cause": "mis",
-   "types": [
-    "誤送信・誤掲載"
-   ],
-   "n": null,
-   "label": "未照合",
-   "st": "p",
-   "sum": "個人情報漏えいの可能性を公表。",
-   "src": [],
-   "ind": "公共機関",
-   "official": [
-    [
-     "公式発表（未照合）",
-     "https://www.city.yotsukaido.chiba.jp/shisei/koho/houdou_kouhyou/2025houdou/20260109_houdou.html"
     ]
    ],
    "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
@@ -2377,55 +2289,6 @@
     ]
    ],
    "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない。公表時点で情報流出は未確認（報道）"
-  },
-  {
-   "id": "tmu-2601",
-   "co": "東京都立大学",
-   "date": "2026-01-07",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "未照合",
-   "st": "p",
-   "sum": "教員のGoogleアカウントへの不正アクセスで個人情報が漏えい（1月8日に第2報）。",
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/01/23/54465.html"
-    ]
-   ],
-   "ind": "大学・学校",
-   "official": [
-    [
-     "公式発表（未照合）",
-     "https://www.tmu.ac.jp/extra/download.html?d=assets/files/download/auth/press/20260107_press.pdf"
-    ]
-   ],
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
-  },
-  {
-   "id": "kochi-koyo-2601",
-   "co": "高知市雇用創出促進協議会",
-   "date": "2026-01-07",
-   "cause": "mis",
-   "types": [
-    "誤送信・誤掲載"
-   ],
-   "n": null,
-   "label": "未照合",
-   "st": "p",
-   "sum": "メールアドレスが漏えい。",
-   "src": [],
-   "ind": "団体",
-   "official": [
-    [
-     "公式発表（未照合）",
-     "https://www.kochi-koyo-kyogikai.jp/454/"
-    ]
-   ],
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
   },
   {
    "id": "mizuho-ls-2601",
@@ -2982,63 +2845,6 @@
    "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
   },
   {
-   "id": "btcbox",
-   "co": "BTCボックス（BTCBOX）",
-   "date": "2026-02-05",
-   "cause": "config",
-   "st": "p",
-   "ind": "金融・保険",
-   "who": [
-    "cust"
-   ],
-   "sum": "暗号資産交換業者がシステムメンテナンスとして全サービスを停止し、その後、第三者が個人情報を閲覧しうる状態だったと報じられた。関東財務局から報告徴求命令を受けた。",
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/02/20/54676.html"
-    ]
-   ],
-   "official": [
-    [
-     "サービス停止の現状のご説明とお詫び（2026/2/5）",
-     "https://blog.btcbox.jp/archives/18696"
-    ]
-   ],
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
-  },
-  {
-   "id": "gunma-tanigawa-tozan",
-   "co": "群馬県（谷川岳登山指導センター）",
-   "date": "2026-02-26",
-   "cause": "mis",
-   "types": [
-    "誤送信・誤掲載"
-   ],
-   "n": 1,
-   "label": "1人",
-   "st": "c",
-   "items": [
-    "name",
-    "addr",
-    "tel",
-    "work"
-   ],
-   "itemsText": "氏名、住所、電話番号、所属山岳会、勤務先、緊急連絡先",
-   "ind": "公共機関",
-   "who": [
-    "cust"
-   ],
-   "sum": "谷川岳危険地区の登山届を返送する際、別の登山者の登山届を誤ってアップロードして送った。",
-   "official": [
-    [
-     "谷川岳危険地区に係る登山届の誤送信事案の発生について（更新2026/3/3）",
-     "https://www.pref.gunma.jp/site/houdou/746267.html"
-    ]
-   ],
-   "src": [],
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない。初回公表日が2月か3月か未確認（ページ更新日2026/3/3のみ）。3月分と重複の可能性"
-  },
-  {
    "id": "gala-yuzawa",
    "co": "ガーラ湯沢（リフト券発券システム）",
    "date": "2026-02-12",
@@ -3588,81 +3394,6 @@
     ]
    ],
    "id": "nhk-mail-2603",
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
-  },
-  {
-   "co": "情報通信研究機構（NICT）",
-   "date": "2026-03-19",
-   "cause": "mis",
-   "types": [
-    "誤送信・誤掲載"
-   ],
-   "n": 115,
-   "label": "115人分",
-   "sum": "研究用に公開した音声合成用コーパスに、公開対象外の115人分の音声ファイルが含まれていた。",
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/03/30/54932.html"
-    ]
-   ],
-   "official": [
-    [
-     "NICTお知らせ（2026/3/19）",
-     "https://www.nict.go.jp/publicity/topics/2026/03/19-2.html"
-    ]
-   ],
-   "id": "nict-corpus-2603",
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
-  },
-  {
-   "co": "ホテルプリンセス京都（ホテル日航プリンセス京都）",
-   "date": "2026-03-19",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "st": "p",
-   "sum": "Expediaの管理者用アカウントが不正利用され、同サイト経由の宿泊客の氏名・電話番号・宿泊日などが閲覧された可能性があり、カード情報を求める偽メッセージも送られた。",
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/03/31/54942.html"
-    ]
-   ],
-   "official": [
-    [
-     "お知らせ（2026/3/19）",
-     "https://www.princess-kyoto.co.jp/info/133371/"
-    ]
-   ],
-   "id": "princess-kyoto-2603",
-   "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
-  },
-  {
-   "co": "国際武道大学（委託先）",
-   "date": "2026-03-18",
-   "cause": "cyber",
-   "types": [
-    "委託先経由"
-   ],
-   "n": 120,
-   "label": "約120人",
-   "st": "c",
-   "sum": "ITやネットワーク保守の委託先が不正アクセスを受け、卒業生約120人の個人情報が漏えいした。",
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/03/30/54931.html"
-    ]
-   ],
-   "official": [
-    [
-     "お知らせ（2026/3/18）",
-     "https://www.budo-u.ac.jp/news/2026/03/post_328.html"
-    ]
-   ],
-   "id": "budo-u-2603",
    "pendingReason": "2026-10-10再照合：公式発表URLをWebFetchで開こうとしたが「URL not in provenance set（PROVENANCE_REQUIRED）」で取得不可。組織名でのWeb検索でも公式ページは検索結果に出ず、報道（ScanNetSecurity等）のみで件数・内容を公式と照合できないため verified にしない"
   },
   {
@@ -4594,37 +4325,6 @@
     "cust"
    ],
    "pendingReason": "公式ページ（2026/4/20）は「アクセス禁止（Page Forbidden）」で取得できず、件数・項目を照合できない。"
-  },
-  {
-   "co": "庄内町（委託先 YCC情報システム）",
-   "date": "2026-04-17",
-   "id": "shonai-town-ycc",
-   "types": [
-    "ランサムウェア",
-    "委託先経由"
-   ],
-   "cause": "cyber",
-   "ind": "公共機関",
-   "st": "p",
-   "n": 12996,
-   "label": "12,996件（報道による）",
-   "sum": "委託先YCC情報システムのランサムウェア被害で、図書館や町民トレーニングルームの利用者情報が漏えいしたおそれがあると報じられた。",
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/ycc-information-system-ransomware-supply-chain-impact/"
-    ]
-   ],
-   "official": [
-    [
-     "お知らせ",
-     "https://www.town.shonai.lg.jp/gyousei/johokokai/incident.html"
-    ]
-   ],
-   "who": [
-    "cust"
-   ],
-   "pendingReason": "取得ツールの制約（WebFetchは検索結果等に出たURLしか開けず、公式URLは開けない）で、再検索（組織名・公式タイトル）でも公式URLが検索結果に出なかったため、公式発表を開けず件数・項目を照合できない。"
   },
   {
    "co": "幸手市（委託先 YCC情報システム）",
