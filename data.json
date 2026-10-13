@@ -21191,6 +21191,72 @@
    ],
    "ind": "小売・EC",
    "verified": "2026-10-14"
+  },
+  {
+   "id": "arcadia-speecan-raiden-2610",
+   "co": "アルカディア（SpeeCAN RAIDEN）",
+   "date": "2026-10-13",
+   "announced": "2026-10-13",
+   "occurred": "2026-10-11",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中（公式発表に件数の記載なし）",
+   "st": "p",
+   "items": [],
+   "itemsText": "連絡先データ、担当者情報、契約者情報（公式発表の記載。具体的な項目は書かれていない）",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "自治体などが使う防災・防犯情報配信サービス「SpeeCAN RAIDEN」が第三者の不正アクセスを受け、個人情報が漏えいした可能性がある。10月11日16時30分に不審な挙動を確認し、12日3時ごろ侵入経路を塞ぐ応急措置をとった。対象は raiden.ktaiwork.jp など6つの配信環境。報道では最大約313万6,000件とされるが、公式発表（第一報）に件数の記載はない",
+   "status": "ongoing",
+   "statusText": "10月13日に公表。影響範囲の調査を続けており、新たな事実が判明し次第知らせるとしている",
+   "resp": "侵入経路を遮断し、影響範囲を調査。10月13日11時から raiden3.ktaiwork.jp と s2.ktaiwork.jp の環境を緊急停止。個人情報相談窓口を設置",
+   "contact": {
+    "tels": [
+     {
+      "tel": "050-5830-0750",
+      "hours": "個人情報相談窓口 9〜17時（土日祝・年末年始を除く）"
+     }
+    ],
+    "mails": [
+     "info@arcadia.co.jp"
+    ],
+    "src": "https://www.arcadia.co.jp/wp-content/uploads/2026/10/20261012_SpeeCANRAIDEN_cyberattack.pdf"
+   },
+   "official": [
+    [
+     "SpeeCAN RAIDENへの不正アクセスによる個人情報漏洩の可能性について（PDF、2026/10/13）",
+     "https://www.arcadia.co.jp/wp-content/uploads/2026/10/20261012_SpeeCANRAIDEN_cyberattack.pdf"
+    ],
+    [
+     "SpeeCAN RAIDENへの不正アクセスによる個人情報漏洩の可能性について（2026/10/13）",
+     "https://raiden.site.ktaiwork.jp/archives/4597"
+    ],
+    [
+     "不正アクセスに伴う一部サービスの緊急停止について（2026/10/13）",
+     "https://raiden.site.ktaiwork.jp/archives/4601"
+    ],
+    [
+     "SpeeCAN RAIDENへの不正アクセスによる個人情報漏洩の可能性について（2026/10/13）",
+     "https://www.arcadia.co.jp/info/4076"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/arcadia-speecan-raiden-unauthorized-access/"
+    ],
+    [
+     "日本経済新聞",
+     "https://www.nikkei.com/article/DGXZQOUF139TI0T11C26A0000000/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-10-14"
   }
  ],
  "statusLabels": {
@@ -21223,7 +21289,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 267,
+ "pendingCount": 266,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",

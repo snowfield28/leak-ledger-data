@@ -5405,69 +5405,6 @@
    "pendingReason": "公式発表（rizap.co.jp/news/vNh1nMuA、第二報 yWfsq_08）はWebFetchで開けたが、本文がJavaScriptで描画されタイトル以外取得できず、件数・項目・対象期間を公式で照合できない。"
   },
   {
-   "id": "arcadia-speecan-raiden-2610",
-   "co": "アルカディア（SpeeCAN RAIDEN）",
-   "date": "2026-10-13",
-   "announced": "2026-10-13",
-   "occurred": "2026-10-11",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "連絡先データ、担当者・契約者情報（公式ブログ記載）。件数・詳細項目は公表資料で要確認",
-   "notIncl": "",
-   "who": [
-    "unk"
-   ],
-   "sum": "自治体等向けの防災・防犯情報配信サービス「SpeeCAN RAIDEN」が第三者の不正アクセスを受けた。10月11日に不審な挙動を検知し、12日未明に侵入経路を塞ぐ応急措置を実施。連絡先データや担当者・契約者情報が漏えいした可能性があるとし、13日には一部配信環境を緊急停止した。",
-   "status": "ongoing",
-   "statusText": "影響範囲を調査中、判明次第公表としている",
-   "resp": "侵入経路を遮断し影響範囲を調査。10月13日11時からraiden3.ktaiwork.jp・s2.ktaiwork.jpの環境を緊急停止。",
-   "contact": {
-    "tels": [
-     {
-      "tel": "050-5830-0750",
-      "hours": "9時〜17時（土日祝・年末年始を除く）"
-     }
-    ],
-    "mails": [
-     "info@arcadia.co.jp"
-    ],
-    "note": "個人情報相談窓口（ページ上の表示はinfo@arcadia.co.jpだが、リンク先mailtoはrdn@arcadia.co.jpで食い違いあり）",
-    "src": "https://raiden.site.ktaiwork.jp/archives/4597"
-   },
-   "official": [
-    [
-     "SpeeCAN RAIDENへの不正アクセスによる個人情報漏洩の可能性について（2026/10/13）",
-     "https://raiden.site.ktaiwork.jp/archives/4597"
-    ],
-    [
-     "不正アクセスに伴う一部サービスの緊急停止について（2026/10/13）",
-     "https://raiden.site.ktaiwork.jp/archives/4601"
-    ],
-    [
-     "SpeeCAN RAIDENへの不正アクセスによる個人情報漏洩の可能性について（2026/10/13）",
-     "https://www.arcadia.co.jp/info/4076"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/arcadia-speecan-raiden-unauthorized-access/"
-    ],
-    [
-     "日本経済新聞",
-     "https://www.nikkei.com/article/DGXZQOUF139TI0T11C26A0000000/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "公式ブログ（archives/4597）とお知らせページ（info/4076）は開けたが、件数の記載がない。報道の最大約313万6,000件（メール）・約10万5,000件（電話）・約1万5,000件（FAX）や配信履歴本文・決済情報非保有の記載は詳細PDF（20261012_SpeeCANRAIDEN_cyberattack.pdf）にあるとみられるが、WebFetchがprovenance制限で開けず公式で照合できない。WebFetch取得のブログ本文には報道の「18時47分更新」版の記載（件数・配信履歴本文）が無く、版の差の可能性もある。PDFを開いて件数・who（担当者・契約者／配信登録者の区分）を確認できれば add 可。"
-  },
-  {
    "id": "oita-pref-arcadia-2610",
    "co": "大分県（県民安全・安心メール／委託先 アルカディア）",
    "date": "2026-10-13",
