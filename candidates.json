@@ -1118,32 +1118,6 @@
    "ind": "製造"
   },
   {
-   "id": "sports-club-nas-2511",
-   "co": "スポーツクラブNAS",
-   "date": "2025-11-21",
-   "cause": "mis",
-   "types": [
-    "誤送信・誤掲載"
-   ],
-   "n": null,
-   "label": "5件（メール）",
-   "st": "c",
-   "pendingReason": "公式PDFが robots 制限で WebFetch で開けず、内容を照合できない",
-   "official": [
-    [
-     "お詫びとご報告（2025/11/21）",
-     "https://www.nas-club.co.jp/info/pdf/apology_report_20251121.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2025/12/18/54274.html"
-    ]
-   ],
-   "ind": "生活サービス・レジャー"
-  },
-  {
    "id": "tsuneishi-2511",
    "co": "ツネイシホールディングス",
    "date": "2025-11-28",
