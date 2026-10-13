@@ -5,8 +5,21 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TAG = '<script data-goatcounter="https://snow.goatcounter.com/count"\n        async src="//gc.zgo.at/count.js"></script>\n'
 
 
+VERIFY = '<meta name="google-site-verification" content="pWnu-a6OhQ5ZUiNeg6Qyb8iGfyRPlF1DIUd4ssGKwKQ">\n'
+
+
+def add_verification():
+    """Search Console の所有権確認用タグを、トップページ（index.html）にだけ入れる。"""
+    p = os.path.join(ROOT, "index.html")
+    s = open(p, encoding="utf-8").read()
+    if "google-site-verification" in s or "</head>" not in s:
+        return 0
+    open(p, "w", encoding="utf-8").write(s.replace("</head>", VERIFY + "</head>", 1))
+    return 1
+
+
 def run():
-    n = 0
+    n = add_verification()
     for dp, dn, fn in os.walk(ROOT):
         dn[:] = [d for d in dn if d not in (".git", "backfill", "tools", "node_modules")]
         for f in fn:
