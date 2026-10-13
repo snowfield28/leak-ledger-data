@@ -5477,29 +5477,6 @@
    "pendingReason": "組合の公式発表を検索で見つけられず（検索上限に達した）。報道記事もrobots制限で本文を開けず、委託先名・申込期間・件数を公式資料で照合できていない"
   },
   {
-   "id": "sadokisen-sadomari-2610",
-   "co": "佐渡汽船（佐渡古民家ステイ さどまり）",
-   "date": "2026-10-08",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "宿泊施設「さどまり」に関連して不審なメッセージ・メールについての調査状況のお知らせが10月8日に出たとされるが、内容は未確認。",
-   "status": "ongoing",
-   "statusText": "未確認",
-   "resp": "公表資料で要確認",
-   "official": [],
-   "src": [],
-   "ind": "生活サービス・レジャー",
-   "pendingReason": "公式ページ（https://www.sadokisen.co.jp/sadomari/post-789/）がWebFetchのPROVENANCE_REQUIREDで開けず、検索結果にも出なかったため、個人情報漏えいに触れているかを確認できない。迷惑メッセージ送信のみの告知なら対象外の可能性あり"
-  },
-  {
    "id": "iwate-chinage-mail-2610",
    "co": "岩手県（物価高騰対策賃上げ支援事業・委託先）",
    "date": "2026-10-09",
