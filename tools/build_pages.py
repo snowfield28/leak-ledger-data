@@ -333,3 +333,5 @@ if __name__ == "__main__":
     print("theme switch added to", add_theme.run(), "files")
     import add_share
     print("share buttons added to", add_share.run(), "files")
+    import add_ogp
+    print("og:image added to", add_ogp.run(), "files")
