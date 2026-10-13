@@ -5,16 +5,19 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TAG = '<script data-goatcounter="https://snow.goatcounter.com/count"\n        async src="//gc.zgo.at/count.js"></script>\n'
 
 
-VERIFY = '<meta name="google-site-verification" content="Y-b7XfgSWxYdmYGcW0NcX9K-fwld9aktyLhifqb7-5g">\n'
+VERIFY = '<meta name="google-site-verification" content="Y-b7XfgSWxYdmYGcW0NcX9K-fwld9aktyLhifqb7-5g">\n<meta name="msvalidate.01" content="73462A96654CDE9A16167193A35A254E">\n'
 
 
 def add_verification():
     """Search Console の所有権確認用タグを、トップページ（index.html）にだけ入れる。"""
     p = os.path.join(ROOT, "index.html")
     s = open(p, encoding="utf-8").read()
-    if "google-site-verification" in s or "</head>" not in s:
+    if "</head>" not in s:
         return 0
-    open(p, "w", encoding="utf-8").write(s.replace("</head>", VERIFY + "</head>", 1))
+    add = "".join(l + "\n" for l in VERIFY.splitlines() if l.split('name="')[1].split('"')[0] not in s)
+    if not add:
+        return 0
+    open(p, "w", encoding="utf-8").write(s.replace("</head>", add + "</head>", 1))
     return 1
 
 
