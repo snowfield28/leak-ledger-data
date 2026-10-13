@@ -245,7 +245,8 @@ def main():
                 r.raise_for_status()
                 r.encoding = r.apparent_encoding if not r.encoding or r.encoding.lower() == "iso-8859-1" else r.encoding
             except requests.RequestException as e:
-                report["sources_failed"].append(f"{src['name']}: {type(e).__name__} {url}")
+                code = getattr(getattr(e, "response", None), "status_code", "")
+                report["sources_failed"].append(f"{src['name']}: {type(e).__name__} {code} {url}")
                 continue
             report["sources_ok"] += 1
             for title, link in list_links(r.text, url):
