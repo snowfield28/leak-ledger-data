@@ -61,6 +61,13 @@ main>nav.foot{margin-top:40px;padding-top:14px;border-top:2px solid var(--ink)}
 .tile b{font-size:clamp(22px,6vw,52px);font-weight:900;line-height:1.1}
 .tile span{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
 
+/* ---- 表示の切り替え（事案一覧／分析）：ナビと同じ作法の下線タブ ---- */
+.vtabs{gap:40px;border-bottom:2px solid var(--ink);margin-top:8px}
+.vtab{padding:14px 0 12px;font-size:clamp(16px,2.2vw,20px);font-weight:900;letter-spacing:.08em;border-bottom:4px solid transparent;margin-bottom:-2px}
+.vtab[aria-selected="true"]{border-bottom-color:var(--ink)}
+.vn{font-family:var(--f-mono);letter-spacing:.04em}
+.gl{border-radius:0;font-family:var(--f-mono);letter-spacing:.06em}
+
 /* ---- パネル：太い上罫線＋太字の見出し（枠・角丸なし） ---- */
 .panel{padding:14px 0 6px;background:none;border:0;border-top:2px solid var(--ink);border-radius:0}
 .panel h2{font-size:20px;font-weight:900;line-height:1.3}

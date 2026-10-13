@@ -225,6 +225,17 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 .lcard .new{position:absolute;top:10px;right:10px;font-size:10px;font-weight:800;letter-spacing:.04em;color:var(--bg);background:var(--accent);border-radius:99px;padding:2px 8px}
 @media (max-width:430px){h1{font-size:20px}.head{flex-wrap:wrap;row-gap:8px}}
 @media (min-width:900px){.lrow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));overflow:visible;margin-inline:0;padding-inline:0}.lcard{flex:none}.hero svg{width:130px}.hero p{font-size:14px}}
+/* 表示の切り替え：事案一覧／分析。絞り込みは両方で共通 */
+.view{display:flex;flex-direction:column;gap:16px;min-width:0}
+.vtabs{display:flex;gap:24px;border-bottom:1px solid var(--line)}
+.vtab{font:inherit;font-size:15px;font-weight:800;color:var(--muted);background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:10px 0;cursor:pointer;white-space:nowrap}
+.vtab:hover{color:var(--ink)}
+.vtab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.vn{margin-left:8px;font-size:12px;font-weight:400;font-variant-numeric:tabular-nums;color:var(--muted)}
+.golist{display:flex}
+.gl{font:inherit;font-size:13px;font-weight:700;color:var(--ink);background:none;border:1px solid var(--ink);border-radius:99px;padding:8px 14px;cursor:pointer}
+.gl:hover{background:var(--ink);color:var(--bg)}
+.gl b{font-variant-numeric:tabular-nums;margin-inline:.2em}
 </style>
 <meta name="google-site-verification" content="Y-b7XfgSWxYdmYGcW0NcX9K-fwld9aktyLhifqb7-5g">
 <meta name="msvalidate.01" content="73462A96654CDE9A16167193A35A254E">
@@ -327,7 +338,7 @@ document.addEventListener("DOMContentLoaded",function(){
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://snowfield28.github.io/leak-ledger-data/ogp.png">
-<link rel="stylesheet" id="mag-css" href="../mag.css?v=ce47adac">
+<link rel="stylesheet" id="mag-css" href="../mag.css?v=84b7be47">
 </head>
 <body>
 
@@ -345,8 +356,39 @@ document.addEventListener("DOMContentLoaded",function(){
   </section>
 
   <div class="tiles" id="tiles"></div>
+  <div class="vtabs" id="viewtabs" role="tablist" aria-label="Switch view">
+    <button type="button" class="vtab" role="tab" id="vt-list" data-view="list" aria-selected="true" aria-controls="v-list">Incidents<span class="vn" id="vn-list"></span></button>
+    <button type="button" class="vtab" role="tab" id="vt-ana" data-view="ana" aria-selected="false" aria-controls="v-ana" tabindex="-1">Analysis</button>
+  </div>
   <div class="actbar" id="actbar" role="region" aria-label="Active filters" hidden></div>
+  <div class="filters">
+    <input type="search" id="q" placeholder="Search by organization or keyword" aria-label="Search by organization or keyword">
+    <div class="selrow">
+      <select id="cause" aria-label="Cause">
+        <option value="">All causes</option>
+        <optgroup label="Cyber attack"><option value="c:cyber">Cyber attack (all)</option><option value="t:Ransomware">Ransomware</option><option value="t:Unauthorized access">Unauthorized access</option><option value="t:Via contractor">Via contractor</option></optgroup>
+        <option value="c:loss">Loss / theft</option><option value="c:mis">Misdelivery / mis-posting</option><option value="c:insider">Insider misconduct</option><option value="c:config">Misconfiguration / bug</option>
+      </select>
+      <select id="who" aria-label="Whose data"><option value="">Whose data: all</option></select>
+      <select id="ind" aria-label="Industry"><option value="">All industries</option></select>
+      <select id="period" aria-label="Period">
+        <option value="">All time</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="91">Last 3 months</option><option value="730" selected>Last 24 months</option>
+        <option value="y2026">2026</option><option value="y2025">2025</option><option value="pre2025">2024 and earlier</option><option value="custom">Custom range…</option>
+      </select>
+    </div>
+    <div class="daterow" id="daterow" hidden><input type="date" id="from" aria-label="From"><span>–</span><input type="date" id="to" aria-label="To"></div>
+    <div class="hscroll" id="chips"></div>
+  </div>
+  <div class="view" id="v-list" role="tabpanel" aria-labelledby="vt-list">
+  <div class="meta"><span id="count"></span><button id="clear" hidden>Clear filters</button></div>
 
+  <table aria-label="Incident list">
+    <thead><tr><th>Organization · date</th><th class="w">Cause</th><th class="w">Whose data</th><th class="w">Data exposed</th><th class="r">Records</th><th class="r">Status</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  </div>
+  <div class="view" id="v-ana" role="tabpanel" aria-labelledby="vt-ana" hidden>
+  <div class="golist"><button type="button" class="gl" data-view="list">View the <b id="gl-n"></b> matching incidents in the list →</button></div>
   <div class="dash">
   <section class="panel wide" aria-labelledby="h-bars">
     <h2 id="h-bars">Largest incidents by records <small>incl. possible leaks · log scale</small></h2>
@@ -377,36 +419,12 @@ document.addEventListener("DOMContentLoaded",function(){
   </div>
 
   <section class="panel ana" aria-labelledby="h-ana">
-    <h2 id="h-ana">Trends <small>follows the filters below</small></h2>
+    <h2 id="h-ana">Trends <small>follows the filters above</small></h2>
     <div class="tabs" role="tablist" id="anaTabs"></div>
     <div id="ana"></div>
     <p class="foot">Record counts are the figures each organization published; people and records may be mixed. Incidents without a published count are left out of totals, medians and size breakdowns. Only incidents matched to an official announcement are counted.</p>
   </section>
-
-  <div class="filters">
-    <input type="search" id="q" placeholder="Search by organization or keyword" aria-label="Search by organization or keyword">
-    <div class="selrow">
-      <select id="cause" aria-label="Cause">
-        <option value="">All causes</option>
-        <optgroup label="Cyber attack"><option value="c:cyber">Cyber attack (all)</option><option value="t:Ransomware">Ransomware</option><option value="t:Unauthorized access">Unauthorized access</option><option value="t:Via contractor">Via contractor</option></optgroup>
-        <option value="c:loss">Loss / theft</option><option value="c:mis">Misdelivery / mis-posting</option><option value="c:insider">Insider misconduct</option><option value="c:config">Misconfiguration / bug</option>
-      </select>
-      <select id="who" aria-label="Whose data"><option value="">Whose data: all</option></select>
-      <select id="ind" aria-label="Industry"><option value="">All industries</option></select>
-      <select id="period" aria-label="Period">
-        <option value="">All time</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="91">Last 3 months</option><option value="730" selected>Last 24 months</option>
-        <option value="y2026">2026</option><option value="y2025">2025</option><option value="pre2025">2024 and earlier</option><option value="custom">Custom range…</option>
-      </select>
-    </div>
-    <div class="daterow" id="daterow" hidden><input type="date" id="from" aria-label="From"><span>–</span><input type="date" id="to" aria-label="To"></div>
-    <div class="hscroll" id="chips"></div>
   </div>
-  <div class="meta"><span id="count"></span><button id="clear" hidden>Clear filters</button></div>
-
-  <table aria-label="Incident list">
-    <thead><tr><th>Organization · date</th><th class="w">Cause</th><th class="w">Whose data</th><th class="w">Data exposed</th><th class="r">Records</th><th class="r">Status</th></tr></thead>
-    <tbody id="rows"></tbody>
-  </table>
 
   <nav class="foot" aria-label="Site information" style="display:flex;flex-wrap:wrap;gap:6px 16px"><a href="case/">All incidents</a><a href="about.html">About</a><a href="privacy.html">Privacy policy</a><a href="contact.html">Contact / corrections</a><a href="../" hreflang="ja" lang="ja">日本語</a></nav>
   <p class="foot" id="rule"></p>
@@ -552,6 +570,7 @@ function render(){
     const c=rows.filter(d=>d.items.includes(k)).length;
     return `<button class="it" data-act="item:${k}" aria-pressed="${S.sel.has(k)}"><span class="l">${esc(v)}</span><span class="c"><span class="m"><i style="width:${c/maxc*100}%"></i></span>${c}</span></button>`}).join("");
   $("#count").textContent=`Showing ${rows.length} of ${DB.cases.length} incidents`;
+  $("#vn-list").textContent=rows.length;$("#gl-n").textContent=rows.length;
   const byC=Object.entries(CL()).map(([k,l])=>[k,l,rows.filter(d=>(d.cause||"cyber")===k).length]).filter(x=>x[2]>0).sort((a,b)=>b[2]-a[2]);
   const mc=Math.max(1,...byC.map(x=>x[2]));
   $("#causeBars").innerHTML=byC.length?byC.map(([k,l,c])=>`<button class="brow" data-cause="c:${k}" aria-pressed="${S.cause==="c:"+k}" aria-label="${esc(l)} ${c} incidents"><span class="bname">${esc(l)}</span><span class="btrack" style="background:none"><span class="bfill" style="width:${c/mc*100}%;${S.cause&&S.cause!=="c:"+k?"opacity:.35":""}"></span></span><span class="bval">${c}</span></button>`).join(""):'<div class="empty">No matching incidents</div>';
@@ -658,7 +677,24 @@ function share(id){
 }
 function copy(t){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(()=>toast("Copied text and link"),()=>toast("Could not copy"));else toast("Could not copy")}
 
+/* 表示の切り替え。#analysis で分析を直接開ける。#事案id（詳細シート）とは別物 */
+function setView(v,scroll){
+  S.view=v==="ana"?"ana":"list";
+  const a=S.view==="ana";
+  $("#v-list").hidden=a;$("#v-ana").hidden=!a;
+  [["list","#vt-list"],["ana","#vt-ana"]].forEach(([k,id])=>{const b=$(id),on=k===S.view;b.setAttribute("aria-selected",String(on));b.tabIndex=on?0:-1});
+  if(a&&DB.cases.length)renderAna(filtered());
+  try{const h=location.hash;if(a){if(h!=="#analysis")history.replaceState(null,"",location.pathname+location.search+"#analysis")}else if(h==="#analysis")history.replaceState(null,"",location.pathname+location.search)}catch(e){}
+  if(scroll){const t=$("#viewtabs");if(t.getBoundingClientRect().top<0)t.scrollIntoView()}
+}
+if(location.hash==="#analysis")setView("ana");
+window.addEventListener("hashchange",()=>{if(location.hash==="#analysis")setView("ana");else if(S.view==="ana"&&!location.hash)setView("list")});
+document.addEventListener("keydown",e=>{
+  const t=e.target.closest&&e.target.closest(".vtab");if(!t||(e.key!=="ArrowLeft"&&e.key!=="ArrowRight"))return;
+  e.preventDefault();const v=t.dataset.view==="list"?"ana":"list";setView(v);$(v==="list"?"#vt-list":"#vt-ana").focus();
+});
 document.addEventListener("click",e=>{
+  const vw=e.target.closest("[data-view]");if(vw){setView(vw.dataset.view,true);return}
   const rm=e.target.closest("[data-rm]");if(rm){removeFilter(rm.dataset.rm);return}
   if(e.target.closest("[data-clearall]")){resetFilters();return}
   const sh=e.target.closest("[data-share]");if(sh){share(sh.dataset.share);return}
@@ -693,6 +729,7 @@ function fillInd(){fillWho();$("#ind").innerHTML='<option value="">All industrie
     $("#upd").textContent="Updated "+DB.updated;
 $("#rule").textContent=`Only incidents whose official announcement was opened and matched are listed. ${DB.pendingCount||0} further candidates could not yet be matched to an official announcement and are re-checked in each daily update.`;
 fillInd();renderChips();render();
+    if(location.hash==="#analysis")setView("ana");
     const id=location.hash.slice(1);if(id&&DB.cases.some(c=>c.id===id))openSheet(id);
   }catch(e){$("#rows").innerHTML='<tr><td colspan="3" class="empty">Could not load the data. Please try again later.</td></tr>'}
 })();

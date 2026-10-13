@@ -46,7 +46,12 @@ pairs = [
  ('公式発表に書かれた対象者で分類しています。取引先の担当者の氏名や連絡先も、法律上は個人情報です。', 'Classified by the affected people named in the official announcement. Names and contact details of business contacts also count as personal information under Japanese law.'),
  ('業種別の事案数 <small>タップで絞り込み</small>', 'Incidents by industry <small>tap to filter</small>'),
  ('流出した情報 <small>タップで絞り込み</small>', 'Data exposed <small>tap to filter</small>'),
- ('傾向の分析 <small>下の絞り込みと連動</small>', 'Trends <small>follows the filters below</small>'),
+ ('傾向の分析 <small>上の絞り込みと連動</small>', 'Trends <small>follows the filters above</small>'),
+ # 表示の切り替え（事案一覧／分析）
+ ('aria-label="表示の切り替え"', 'aria-label="Switch view"'),
+ ('>事案一覧<span class="vn"', '>Incidents<span class="vn"'),
+ ('>分析</button>', '>Analysis</button>'),
+ ('条件に合う<b id="gl-n"></b>件の事案を一覧で見る →', 'View the <b id="gl-n"></b> matching incidents in the list →'),
  ('件数は各組織の公表値で、人数と件数が混在します。件数が未公表の事案は、合計・中央値・規模の集計から外しています。事案数は公式発表と照合できたものだけを数えています。',
   'Record counts are the figures each organization published; people and records may be mixed. Incidents without a published count are left out of totals, medians and size breakdowns. Only incidents matched to an official announcement are counted.'),
  ('placeholder="企業名・キーワードで検索" aria-label="企業名・キーワードで検索"', 'placeholder="Search by organization or keyword" aria-label="Search by organization or keyword"'),
