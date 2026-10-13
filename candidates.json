@@ -5405,64 +5405,6 @@
    "pendingReason": "公式発表（rizap.co.jp/news/vNh1nMuA、第二報 yWfsq_08）はWebFetchで開けたが、本文がJavaScriptで描画されタイトル以外取得できず、件数・項目・対象期間を公式で照合できない。"
   },
   {
-   "id": "oita-pref-arcadia-2610",
-   "co": "大分県（県民安全・安心メール／委託先 アルカディア）",
-   "date": "2026-10-13",
-   "announced": "2026-10-13",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": 27667,
-   "label": "27,667件（調査中）",
-   "st": "p",
-   "items": [
-    "mail"
-   ],
-   "itemsText": "県民安全・安心メール登録者のメールアドレス",
-   "notIncl": "",
-   "who": [
-    "cust"
-   ],
-   "sum": "県民安全・安心メール等配信システムの委託事業者（アルカディア）が第三者の不正アクセスを受け、登録者のメールアドレス27,667件が漏えいした可能性がある。県は新規登録・変更・配信解除を停止したが、気象警報等の配信は継続している。",
-   "status": "ongoing",
-   "statusText": "県は調査中としている",
-   "resp": "10月13日16時25分から新規登録・変更・解除を停止。不審メールへの注意喚起。",
-   "contact": {
-    "tels": [
-     {
-      "tel": "097-506-3139",
-      "hours": "受付時間は公式発表に記載なし"
-     }
-    ],
-    "note": "生活環境部 防災対策企画課 防災対策班",
-    "src": "https://www.pref.oita.jp/soshiki/13550/bosaimeil.html"
-   },
-   "official": [
-    [
-     "不正アクセスに伴う防災メール等配信システムの新規登録等停止について（2026/10/13）",
-     "https://www.pref.oita.jp/soshiki/13550/bosaimeil.html"
-    ],
-    [
-     "【重要】県民安全・安心メール委託事業者への不正アクセスによる個人情報の漏洩の可能性について（2026/10/13）",
-     "https://www.bousai-oita.jp/hinan/12614/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/oita-prefecture-disaster-mail-37936-possible-data-leak-2026/"
-    ],
-    [
-     "OBS大分放送（Yahoo!ニュース）",
-     "https://news.yahoo.co.jp/articles/fae8f7bbf5f04a0b25e6aa2cefe0c21ef863fc02"
-    ]
-   ],
-   "ind": "公共機関",
-   "pendingReason": "県公式ページで確認できたのは県民向けメール登録者27,667件（メールアドレス）のみ。報道は職員向け参集・安否確認システム10,269件（氏名・所属・職員番号・メール）を加えた計37,936件としているが、職員分を記載した公式発表は見つからず件数が一致しない。職員分の公式資料を確認できれば n=37936・who に staff 追加で add 可（職員分のみなら現状の27,667件で add 可）。"
-  },
-  {
    "id": "yokosuka-city-arcadia-2610",
    "co": "横須賀市（防災・防犯メール／委託先 アルカディア）",
    "date": "2026-10-13",
