@@ -88,7 +88,14 @@ def run():
                 continue
             p = os.path.join(dp, f)
             s = open(p, encoding="utf-8").read()
-            if MARK in s or "</head>" not in s:
+            if MARK in s:
+                # en/index.html は index.html の複製なので、切替リンクがこのファイル基準になるよう毎回直す
+                fixed = re.sub(r'var ALT="[^"]*"', lambda m: 'var ALT="%s"' % alt_href(p), s, count=1)
+                if fixed != s:
+                    open(p, "w", encoding="utf-8").write(fixed)
+                    n += 1
+                continue
+            if "</head>" not in s:
                 continue
             s = re.sub(r'<style id="theme-css"[^>]*>.*?</style>\n<script id="theme-js"[^>]*>.*?</script>\n', "", s, flags=re.S)
             open(p, "w", encoding="utf-8").write(s.replace("</head>", TAG.replace("@@ALT@@", alt_href(p)) + "</head>", 1))
