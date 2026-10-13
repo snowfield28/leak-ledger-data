@@ -36,7 +36,7 @@ def ym(s):
 CSS = """
 :root{--bg:#f3f5f7;--surface:#fff;--ink:#16202b;--muted:#5b6876;--line:#d9dfe5;--accent:#b4530b;--accent-soft:#fbeadb;
  --confirmed:#a3271f;--confirmed-soft:#f8e1de;--possible:#7a5d00;--possible-soft:#f6edcc;--done:#2f6b4f;--done-soft:#dcefe5;
- --f-ui:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Meiryo",sans-serif}
+ --f-ui:"Hiragino Sans","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN",-apple-system,BlinkMacSystemFont,"Yu Gothic UI","Meiryo","Noto Sans JP",sans-serif}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0f151c;--surface:#16202a;--ink:#e4eaf0;--muted:#97a5b3;--line:#2a3744;
  --accent:#f0954a;--accent-soft:#3a2615;--confirmed:#f28b82;--confirmed-soft:#3b1f1d;--possible:#e3c25a;--possible-soft:#332b12;--done:#86d3ac;--done-soft:#1b3328;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#0f151c;--surface:#16202a;--ink:#e4eaf0;--muted:#97a5b3;--line:#2a3744;--accent:#f0954a;--accent-soft:#3a2615;
