@@ -35,7 +35,7 @@ UA = "leak-ledger-bot/1.0 (+https://github.com/snowfield28/leak-ledger-data)"
 KEYWORDS = re.compile(r"漏えい|漏洩|流出|不正アクセス|ランサム|紛失|盗難|誤送信|誤送付|誤掲載|持ち出し|個人情報|サイバー攻撃|フィッシング|サポート詐欺")
 # 公式発表とはみなさない外部ドメイン（報道・SNS・検索・まとめ）
 NON_OFFICIAL = re.compile(
-    r"(rocket-boys\.co\.jp|netsecurity\.ne\.jp|impress\.co\.jp|itmedia\.co\.jp|nhk\.(or\.jp|jp)|news\.web\.nhk|yahoo\.co\.jp|"
+    r"(bit\.ly|goo\.gl|ow\.ly|tinyurl\.com|amzn\.to|iid\.co\.jp|rocket-boys\.co\.jp|netsecurity\.ne\.jp|impress\.co\.jp|itmedia\.co\.jp|nhk\.(or\.jp|jp)|news\.web\.nhk|yahoo\.co\.jp|"
     r"x\.com|twitter\.com|facebook\.com|instagram\.com|youtube\.com|youtu\.be|line\.me|t\.co|google\.[a-z.]+|"
     r"hatenablog|hatenadiary|note\.com|smartscope\.blog|nikkei\.com/article|asahi\.com|mainichi\.jp|yomiuri\.co\.jp|"
     r"sankei\.com|kyodo|jiji\.com|cnet\.com|ascii\.jp|gigazine|amazon\.co\.jp|wikipedia\.org|piyolog)",
