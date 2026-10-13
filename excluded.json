@@ -1,0 +1,185 @@
+{
+ "note": "公式発表を開いて確認し、漏えい（個人情報）が確認されていない・漏えいに触れていないため、台帳の対象外とした事案。続報で漏えいが公表された場合は対象に戻す。",
+ "cases": [
+  {
+   "id": "pending-037",
+   "co": "NECネクサソリューションズ（委託先 ジェイマックソフト）",
+   "date": "2025-12-19",
+   "reason": "JICA公式発表(2025/12/19)に、再委託先サーバの個人情報の持ち出し記録なし・漏えいの可能性は極めて低いと記載",
+   "official": [
+    "https://www.nec-nexs.com/info/news/251219.html"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "machiene-2601",
+   "co": "MCリテールエナジー（まちエネ）",
+   "date": "2026-01-30",
+   "reason": "公式発表(2026/1/30)に「個人情報の漏洩は確認されていない」と明記。障害の事案",
+   "official": [
+    "https://www.machi-ene.jp/announcement/20260130/4359/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "osaka-shoin-2601",
+   "co": "樟蔭学園",
+   "date": "2026-01-29",
+   "reason": "公式発表(2026/1/29)に「個人情報の漏えいは現時点で確認されていない」と明記",
+   "official": [
+    "https://www.osaka-shoin.ac.jp/news/2025/0129/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "emori-2601",
+   "co": "興和江守",
+   "date": "2026-01-07",
+   "reason": "公式発表(2026/1/7, 1/20)に個人情報の記載なし、情報漏洩を示す痕跡は確認されていないとされる",
+   "official": [
+    "https://www.emori.co.jp/wp-content/uploads/2026/01/information_20260107.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "meijiyasuda-2601",
+   "co": "明治安田生命保険",
+   "date": "2026-01-26",
+   "reason": "公式発表(2026/1/26)の持ち出し情報は出向先の業務運営情報で、個人情報の漏えいとは明記されていない",
+   "official": [
+    "https://www.meijiyasuda.co.jp/profile/news/release/2025/pdf/20260126_01.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "tokyo-kosha-2601",
+   "co": "東京都中小企業振興公社",
+   "date": "2026-01-21",
+   "reason": "最終報(2026/8/19)でも個人情報が閲覧・持ち出された事実は確認されていないとされる(サイト改ざん)",
+   "official": [
+    "https://www.tokyo-kosha.or.jp/topics/2601/0013.html"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "hyogo-habatan-2601",
+   "co": "兵庫県（はばたんPay+）",
+   "date": "2026-01-19",
+   "reason": "公式発表(2026/1/19)に個人情報の漏えいはないと記載(メール誤配信)",
+   "official": [
+    "https://web.pref.hyogo.lg.jp/sr07/press/20260119.html"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "j-sla-2601",
+   "co": "学校図書館図書整備協会",
+   "date": "2026-01-19",
+   "reason": "公式発表(第1報 2026/1/19)に「個人情報の漏洩は確認されていない」と記載",
+   "official": [
+    "https://www.j-sla.or.jp/news/docs/lsba_accesserror.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "tokyo-koumu-2601",
+   "co": "東京都（校務支援システム）",
+   "date": "2026-01-19",
+   "reason": "公式発表(第二報 2026/1/19)に「個人情報の漏えいは起きていません」と明記。初回公表も前年",
+   "official": [
+    "https://www.metro.tokyo.lg.jp/information/press/2026/01/2026011907"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "cac-asn-2601",
+   "co": "シーエーシー（Academic Support Navi）",
+   "date": "2026-01-05",
+   "reason": "公式発表(2026/1/5)に「個人情報および機密情報の外部流出を示す痕跡は確認されておりません」と記載",
+   "official": [
+    "https://www.cac.co.jp/news/topics_260105/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "gnavi-2601",
+   "co": "ぐるなび",
+   "date": "2026-01-08",
+   "reason": "公式発表(2026/1/8)に「現時点で情報の流出は確認されておりません」と記載(SNS投稿への説明)",
+   "official": [
+    "https://corporate.gnavi.co.jp/top/2026/h02ez04sg1/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "mizuho-ls-2601",
+   "co": "みずほリース",
+   "date": "2026-01-06",
+   "reason": "公式発表(2026/1/6)に不正アクセスを確認、情報の外部流出は確認されていないと記載(発電事業投資システム)",
+   "official": [
+    "https://www.mizuho-ls.co.jp/ja/news/news-7127478368803504974/main/0/link/260106.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "higashiyama-sangyo-2603",
+   "co": "東山産業（フランスベッド・ヤマシタなどの委託先）",
+   "date": "2026-03-10",
+   "reason": "公式発表(2026/3/10, 3/18)に情報漏洩は確認されていないと記載。個人情報の件数・項目の記載なし",
+   "official": [
+    "https://www.higashiyama.com/796/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "kobe-u-2603",
+   "co": "神戸大学（大学院のサーバ）",
+   "date": "2026-03-19",
+   "reason": "公式発表(2026/3/19)に「個人情報、機微情報等の漏えいや改ざんは現時点では確認されていない」と明記",
+   "official": [
+    "https://www.kobe-u.ac.jp/ja/announcement/20260319-67676/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "iwatani-2603",
+   "co": "岩谷産業（グループのシステム）",
+   "date": "2026-03-16",
+   "reason": "公式発表(2026/3/16)に「お客さまの情報が不正に読み出された事実は確認されていない」と記載",
+   "official": [
+    "https://www.iwatani.co.jp/jpn/news/files/2026/20260316_news.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "matsushita-hospital-usb",
+   "co": "松下記念病院",
+   "date": "2026-05-25",
+   "reason": "公式発表(2026/5/25)で、紛失していたUSBは院内で発見され、情報の不正利用等をうかがわせる事実は認められなかったと記載",
+   "official": [
+    "https://phio.panasonic.co.jp/news/pdf/2026/11.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "halmek-up-2609",
+   "co": "ハルメク（HALMEK up管理画面）",
+   "date": "2026-09-11",
+   "reason": "公式発表(2026/9/11)に「顧客管理情報へのアクセスはログで確認されておりません」と記載。社員1名のID・パスワード窃取",
+   "official": [
+    "https://halmek.co.jp/topics/c/notice/17311"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "keioplaza-2609",
+   "co": "京王プラザホテル（京王電鉄グループ）",
+   "date": "2026-09-26",
+   "reason": "公式発表(2026/9/26)に「情報漏洩の事実について現在確認できておりません」と記載",
+   "official": [
+    "https://www.keioplaza.co.jp/news/45681/"
+   ],
+   "checked": "2026-10-14"
+  }
+ ]
+}
