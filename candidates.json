@@ -5737,52 +5737,6 @@
    "pendingReason": "公式発表（10/9）は開けたが、対象サーバー上の約189万件について外部流出は現時点で確認されていないとするのみで、漏えい（可能性）を明記していない。続報で漏えいの可能性が示されるか確認が必要"
   },
   {
-   "id": "rext-ransomware-2608",
-   "co": "REXT Holdings（子会社REXT：WonderGOO・WonderREX・新星堂・HAPiNS・JEANS MATE）",
-   "date": "2026-08-10",
-   "cause": "cyber",
-   "types": [
-    "ランサムウェア"
-   ],
-   "n": 1044906,
-   "label": "漏えいのおそれ1,044,906件（ほか公開確認310ファイル）",
-   "st": "p",
-   "items": [
-    "name",
-    "birth",
-    "addr",
-    "tel",
-    "mail",
-    "acct"
-   ],
-   "itemsText": "漏えいのおそれ：会員コード、氏名、フリガナ、生年月日、性別、郵便番号、住所、電話番号、メールアドレス。リークサイトで公開が確認された310ファイル：採用応募者のエントリーシート、従業員の人事書類、会員登録情報、取引先の請求書・支払通知書（振込口座情報を含む）など",
-   "notIncl": "クレジットカード情報（報道による）",
-   "who": [
-    "cust",
-    "staff",
-    "biz"
-   ],
-   "sum": "8月9日未明に本部・店舗のサーバーやPCがランサムウェアで暗号化され、POS・会計システムが停止し一部店舗が休業。9月の第4報で一部情報のネット掲載を公表し、10月9日の第5報で暗号化サーバー上の約104万件を漏えいのおそれありとした（報道による）。",
-   "status": "ongoing",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/rext-rizap-1044906-records-310-files-fifth-report-20261012/"
-    ],
-    [
-     "INTERNET Watch",
-     "https://internet.watch.impress.co.jp/docs/news/2132403.html"
-    ],
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/09/28/56315.html"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "報道で公式発表（RIZAPグループ news topics_id=1527・1550・1567、rext.jp IR PDF）のURLは確認したが、検索結果に出ずWebFetchがPROVENANCE_REQUIREDで拒否し本文を開けなかった。件数・項目は報道（セキュリティ対策Lab）のみで未照合。"
-  },
-  {
    "id": "rizap-aporito-2608",
    "co": "RIZAP（APORITOオンラインストア）",
    "date": "2026-08-10",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-13",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -20046,6 +20046,60 @@
     "src": "https://www.yamato-hd.co.jp/important/info_260929_1.html"
    },
    "verified": "2026-10-14"
+  },
+  {
+   "id": "rext-ransomware-2608",
+   "co": "REXT Holdings（子会社REXT：WonderGOO・WonderREX・新星堂・HAPiNS・JEANS MATE）",
+   "date": "2026-08-10",
+   "announced": "2026-08-10",
+   "occurred": "2026-08-09",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（報道では、10/9の第5報で会員コード・氏名・フリガナ・生年月日・性別・住所・電話番号・メールアドレス等の1,044,906件が漏えいのおそれ、ほか採用応募者・従業員の書類など310ファイルの外部公開を確認とされる）",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "8月9日、子会社REXTの社内ネットワークの一部でランサムウェアによる不正アクセスを確認。WonderGOO・新星堂などで臨時休業やキャッシュレス決済・買い取り・ポイントサービスの停止が発生した。8月10日の第一報時点で、顧客の個人情報や取引先情報の外部漏えいの可能性を完全には否定できないとした。",
+   "status": "ongoing",
+   "statusText": "8/10の第一報では全容解明と原因調査を進めているとした。その後の続報（9/11の第4報、10/9の第5報）は報道で確認したのみで、公式本文は未照合。",
+   "resp": "被害状況の全容解明と原因調査を進め、関係機関・個人情報保護委員会等への法的報告を進めるとした。店舗の営業状況はWebサイトと店頭掲示で案内。新たな事実が判明すれば開示基準に基づき公表するとした。",
+   "contact": {
+    "mails": [
+     "contact@rext.jp"
+    ],
+    "note": "REXT Holdings お客様お問い合わせ窓口",
+    "src": "https://www.rext.jp/ir/attachment/?id=82&field=0&inline=1&"
+   },
+   "official": [
+    [
+     "当社ネットワークへの不正アクセスによるシステム障害および一部店舗の営業変更について（2026/8/10）",
+     "https://www.rext.jp/ir/attachment/?id=82&field=0&inline=1&"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/rext-rizap-1044906-records-310-files-fifth-report-20261012/"
+    ],
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2132403.html"
+    ],
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/28/56315.html"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-10-13"
   }
  ],
  "statusLabels": {
@@ -20078,7 +20132,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 266,
+ "pendingCount": 265,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
