@@ -1,0 +1,43 @@
+URL: https://www.npa.go.jp/bureau/cyber/pdf/R8_Vol.16cpal.pdf
+
+https://www.ipa.go.jp/security/todokede/crack-virus/ransomware_lessons_learned.html
+ランサムウェア被害拡大中
+C y b e r Po l i c e A g e n c y L e tte r
+ 2026 Vol.16（R8.9）
+情報処理推進機構
+（
+IPA
+）
+「ランサムウェア被害から学ぶ教訓集」
+～ 経営者のためのランサムウェア対策ハンドブック ～
+日本サイバー犯罪対策センター（
+JC3
+）
+「JC3ポッドキャスト ランサムウェア･ダイアログ」
+令和８年上半期は、
+国内で123件の被害を認知！
+半期ごとでは過去最多の被害に！
+各機関から対策情報公開中
+https://www.ppc.go.jp/files/pdf/260116_forensics_keypoints.pdf
+被害に遭ってしまったら 警察に通報・相談 を！
+最寄りの警察署又はサイバー犯罪相談窓口
+https://www.npa.go.jp/bureau/cyber/soudan.html
+個人情報保護法サイバーセキュリティ連絡会
+「不正アクセス発生時のフォレンジック調査
+の有効活用に向けた着眼点」
+https://www.npa.go.jp/publications/statistics/cybersecurity/index.html
+「令和８年上半期におけるサイバー空間をめぐる脅威の情勢等について」
+0
+20
+40
+60
+80
+100
+120
+140
+R2 下 R3 上 R3 下 R4 上 R4 下 R5 上 R5 下 R6 上 R6 下 R7 上 R7 下 R8 上
+(件)
+政府広報オンライン動画
+「中小企業で被害多数 ランサムウェア」
+https://www.gov-online.go.jp/useful/202506/video-298784.html
+https://www.jc3.or.jp/news/2025/20251209-662.html

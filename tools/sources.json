@@ -1,0 +1,11 @@
+{
+ "note": "収集する一覧ページ。{yyyy}/{mm} は当月と前月に展開される。記事タイトルにキーワード（collect.py の KEYWORDS）が含まれるリンクだけを拾う。壊れたら失敗として報告されるので、ここを直せばよい。",
+ "sources": [
+  {"name": "セキュリティ対策Lab 情報漏えい", "url": "https://rocket-boys.co.jp/security-measures-lab/category/security-news/information-leak/"},
+  {"name": "セキュリティ対策Lab 情報漏えい(2)", "url": "https://rocket-boys.co.jp/security-measures-lab/category/security-news/information-leak/page/2/"},
+  {"name": "ScanNetSecurity 月別 1", "url": "https://scan.netsecurity.ne.jp/article/{yyyy}/{mm}/?page=1"},
+  {"name": "ScanNetSecurity 月別 2", "url": "https://scan.netsecurity.ne.jp/article/{yyyy}/{mm}/?page=2"},
+  {"name": "ScanNetSecurity 月別 3", "url": "https://scan.netsecurity.ne.jp/article/{yyyy}/{mm}/?page=3"},
+  {"name": "INTERNET Watch 個人情報", "url": "https://internet.watch.impress.co.jp/category/topic/trend/personal_data/index2.html"}
+ ]
+}
