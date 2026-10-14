@@ -44,7 +44,7 @@ main>nav.foot{margin-top:40px;padding-top:14px;border-top:2px solid var(--ink)}
 .lcard:hover{border-left-color:var(--line)}
 .lcard:hover .ln{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.2em}
 .lcard .ic{display:none}
-.lcard .ld{order:1;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.lcard .ld{order:1;padding-right:3.6em;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .lcard .ld::before{content:"";display:inline-block;width:8px;height:8px;margin-right:8px;background:var(--bar)}
 .lcard.c .ld::before{background:var(--confirmed)}
 .lcard.p .ld::before{background:var(--possible)}
@@ -147,11 +147,10 @@ table.ix .cd{font-family:var(--f-mono);letter-spacing:.03em}
 @media (min-width:900px){
   .app{max-width:1280px}
   .lrow{gap:28px 0}
-  .lcard:nth-child(1){grid-column:span 2;grid-row:span 2;padding-right:28px}
+  .lcard:nth-child(1){grid-column:span 2;padding-right:28px}
   .lcard:nth-child(1) .ln{font-size:clamp(26px,3.2vw,40px);line-height:1.35;-webkit-line-clamp:4}
   .lcard:nth-child(1) .lv{font-size:clamp(30px,3.6vw,48px)}
-  .lcard:nth-child(6){padding-left:0;border-left:0}
-  .lcard:nth-child(8):last-child{grid-column:span 2}
+  .lcard:nth-child(4){padding-left:0;border-left:0}
   .tile{padding:20px 28px}.tile:first-child{padding-left:0}
   .sheet{border-radius:0}
 }
