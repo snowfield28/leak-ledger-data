@@ -3291,14 +3291,958 @@
      "text_file": "inbox/texts/b336e0e1619e.txt"
     }
    ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56270.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.18 Fri 8:05 顧客情報の一括エクスポートを確認 ～ カインドオルが利用するECプラットフォームに不正アクセス 株式会社カインドオルは8月28日、同社が運営するECサイトで利用しているECプラットフォームのスタッフアカウントへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/d5e040d457b4.txt",
+   "official": [
+    {
+     "url": "https://www.kind.co.jp/notice-20260828",
+     "status": "ok",
+     "chars": 2757,
+     "text_file": "inbox/texts/5997bb74fd30.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56269.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.18 Fri 8:05 警察官を名乗る者から「捜査に必要と求められ」～ 安藤ハザマの名刺情報 5,000件が流出 株式会社安藤・間（安藤ハザマ）は8月31日、名刺情報の外部流出について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/7aee43a8d1f3.txt",
+   "official": [
+    {
+     "url": "https://www.ad-hzm.co.jp/info/2026/20260831_03.php",
+     "status": "ok",
+     "chars": 1019,
+     "text_file": "inbox/texts/984fe01de96f.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56264.html",
+   "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.18 Fri 8:00 任天堂、Nintendo Switch の脆弱性を公表 ～ QRコード読み取りで情報漏えいの恐れ 任天堂株式会社は9月10日、Nintendo Switch の近接リモート攻撃による本体情報漏えいの可能性について発表した。対象製品は下記の通り。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/532f787c88f3.txt",
+   "official": [
+    {
+     "url": "https://www.nintendo.com/security-advisories/assets/pdf/20260910.pdf",
+     "status": "thin",
+     "chars": 0
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56262.html",
+   "title": "業界動向 ScanNetSecurity 2026.9.18 Fri 8:00 xxx.soumu.go.jp などのサブドメインも拒否に ～ 総務省を装うフィッシングメール対策強化 総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/ec5ab13fed7b.txt",
+   "official": [
+    {
+     "url": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000673.html",
+     "status": "ok",
+     "chars": 1639,
+     "text_file": "inbox/texts/18ec726f1dbd.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56259.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 さくらインターネットが不正アクセス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる さくらインターネット株式会社は9月10日、8月17日に公表した同社レンタルサーバサービスの一部環境への不正アクセスについて、第三報を発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/25fdbffb01d3.txt",
+   "official": [
+    {
+     "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/",
+     "status": "ok",
+     "chars": 7149,
+     "text_file": "inbox/texts/2a616511d6f3.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56258.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 データベース内の全てのデータを削除 ～「コープやまぐちLINEミニアプリ」に不正アクセス 生活協同組合コープやまぐちは8月28日、同組合が提供する「コープやまぐちLINEミニアプリ」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/c9e41b1847e1.txt",
+   "official": [
+    {
+     "url": "https://www.yamaguti-coop.or.jp/line-miniapp-incident-report/",
+     "status": "ok",
+     "chars": 2087,
+     "text_file": "inbox/texts/83d2e901816f.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56257.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 表示された連絡先に電話 指示に従いパソコン操作 ～ 大田区民プラザでサポート詐欺被害 東京都大田区は9月4日、同区の指定管理者である公益財団法人大田区文化振興協会が管理運営する大田区民プラザでの情報漏えいの可能性について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/c7f2db3c4545.txt",
+   "official": [
+    {
+     "url": "https://www.city.ota.tokyo.jp/kuseijoho/press/releaseR08/2026090402.html",
+     "status": "ok",
+     "chars": 873,
+     "text_file": "inbox/texts/38bd5e55f76f.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56255.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 コロナが施工情報を管理するクラウドサービスに不正アクセス、最大35,000名分の個人情報が漏えいした可能性 株式会社コロナは8月28日、同社が利用するクラウドサービスへの不正アクセスによる個人情報漏えいの可能性について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/76d165d48363.txt",
+   "official": [
+    {
+     "url": "https://www.corona.co.jp/news/other/post-439.html",
+     "status": "ok",
+     "chars": 979,
+     "text_file": "inbox/texts/aad672e7a0f9.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56254.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 運送業者が配送過程で紛失 ～ 厚労省の令和8年最低賃金に関する基礎調査 調査票 厚生労働省は8月28日、令和8（2026）年最低賃金に関する基礎調査の調査票の紛失について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/64054185e573.txt",
+   "official": [
+    {
+     "url": "https://www.mhlw.go.jp/content/11302000/001742841.pdf",
+     "status": "ok",
+     "chars": 1213,
+     "text_file": "inbox/texts/2aab6a69f89f.txt"
+    },
+    {
+     "url": "https://www.mhlw.go.jp/stf/newpage_75810.html",
+     "status": "ok",
+     "chars": 1627,
+     "text_file": "inbox/texts/39cde56bd77e.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56253.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 54サイトが閲覧不可に ～ 山梨大学が契約しているレンタルサーバでのWebサイト改ざん 国立大学法人山梨大学は8月27日、レンタルサーバ上のWebサイト改ざんについて発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/36b035de9216.txt",
+   "official": [
+    {
+     "url": "https://sojo.yamanashi.ac.jp/maintenance/6757/",
+     "status": "ok",
+     "chars": 847,
+     "text_file": "inbox/texts/151c26884731.txt"
+    },
+    {
+     "url": "https://sojo.yamanashi.ac.jp/affected-sites/",
+     "status": "ok",
+     "chars": 3314,
+     "text_file": "inbox/texts/0f811ca1f87e.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56252.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 求人サービス「CINRA JOB」に不正アクセス、閲覧取得がなかったことを確認するに足る記録が存在しないため漏えいのおそれがあるものと判断 株式会社cinraは8月27日、同社が運営する求人サービス「CINRA JOB」（ https://job.cinra.net/ ）への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/2a8df6914226.txt",
+   "official": [
+    {
+     "url": "https://www.cinra.co.jp/news/20260827",
+     "status": "ok",
+     "chars": 2643,
+     "text_file": "inbox/texts/c6c6bddf8238.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56247.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 ホテル白菊が利用する宿泊予約・販売管理システムに不正アクセス、フィッシングメール送信を確認 つるみ観光株式会社は8月27日、4月10日に公表した同社が運営するホテル白菊が利用する宿泊予約・販売管理システムへの不正アクセスの可能性について、調査結果を発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/ee457a5caeba.txt",
+   "official": [
+    {
+     "url": "https://www.shiragiku.co.jp/news/108/",
+     "status": "error:http404",
+     "chars": 0
+    },
+    {
+     "url": "https://www.shiragiku.co.jp/news/102/",
+     "status": "error:http404",
+     "chars": 0
+    },
+    {
+     "url": "https://www.shiragiku.co.jp/news/101/",
+     "status": "error:http404",
+     "chars": 0
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56246.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 日鉄興和不動産が利用するクラウドサービスに不正アクセス、マンション販売業務等に関する顧客情報を保存 日鉄興和不動産株式会社は8月26日、同社が利用するクラウドサービスへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/6764259d41c6.txt",
+   "official": [
+    {
+     "url": "https://www.nskre.co.jp/company/news/2026/20260826.html",
+     "status": "ok",
+     "chars": 711,
+     "text_file": "inbox/texts/906e2af69244.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56245.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 大阪高等裁判所で特定の事件に係る Microsoft Teams のチーム作成誤り、招待メール・通知からアクセスした際にユーザー名とメールアドレスが閲覧できる状態に 大阪高等裁判所は9月4日、同裁判所での特定の事件に係るMicrosoft Teamsのチーム作成の誤りについて発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/763d524c8c3b.txt",
+   "official": [
+    {
+     "url": "https://www.courts.go.jp/osaka-h/about/osirase/owabi/index.html",
+     "status": "ok",
+     "chars": 704,
+     "text_file": "inbox/texts/fc2abee0828e.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56244.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 鳥取県環境放射線モニタリングシステムにランサムウェア攻撃、副サーバは被害受けず放射線モニタリングに影響なし 鳥取県は9月3日、モニタリングポストの放射線量率等の測定データを収集・監視する鳥取県環境放射線モニタリングシステムへのサイバー攻撃について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/d70285e15ea1.txt",
+   "official": [
+    {
+     "url": "https://db.pref.tottori.jp/pressrelease.nsf/webview/1E29F3226152B1B649258E66001DE2E2",
+     "status": "error:http502",
+     "chars": 0
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 保育園運営のさくらさくみらいが利用するクラウドサービス事業者に不正アクセス、一部サーバのパスワード情報が流出した可能性 保育園を運営する株式会社さくらさくみらいは9月7日、同社がサービスを利用しているクラウドサービス事業者（委託先）への不正アクセスによる一部サーバのパスワード情報が流出した可能性について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/a610c2d94156.txt",
+   "official": [
+    {
+     "url": "https://www.sakura-39.jp/news/27120",
+     "status": "ok",
+     "chars": 1743,
+     "text_file": "inbox/texts/34474428f17e.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56242.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 家庭児童相談記録を対象家庭に匿名で郵送、市職員 生活福祉課 主幹 50歳 逮捕 大阪府羽曳野市は9月2日、同市職員が偽計業務妨害罪及び地方公務員法違反の容疑で逮捕されたと発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/1dd7b89f43b7.txt",
+   "official": [
+    {
+     "url": "https://www.city.habikino.lg.jp/material/files/group/124/20260902_pressrelease.pdf",
+     "status": "ok",
+     "chars": 825,
+     "text_file": "inbox/texts/6fa5b9e1300c.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56237.html",
+   "title": "業界動向 ScanNetSecurity 2026.9.16 Wed 8:00 北九州市、介護保険事務での特定個人情報保護評価書に対する市民意見を募集 福岡県北九州市は9月9日、介護保険事務での特定個人情報保護評価書に対する市民意見の募集について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/535165a431b6.txt",
+   "official": [
+    {
+     "url": "https://www.city.kitakyushu.lg.jp/files/001228596.pdf",
+     "status": "ok",
+     "chars": 28039,
+     "text_file": "inbox/texts/d46152212948.txt"
+    },
+    {
+     "url": "https://www.city.kitakyushu.lg.jp/contents/16800524_00001.html",
+     "status": "ok",
+     "chars": 2724,
+     "text_file": "inbox/texts/a4c33b7e61ac.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56234.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.15 Tue 8:05 日本大学理工学部教職員のアカウントに対し巧妙に偽装されたフィッシングメール、多数の不審メールを送信 日本大学理工学部は9月8日、不正アクセスによる迷惑メール発信について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/34bcd52210ef.txt",
+   "official": [
+    {
+     "url": "https://www.cst.nihon-u.ac.jp/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E8%BF%B7%E6%83%91%E3%83%A1%E3%83%BC%E3%83%AB%E7%99%BA%E4%BF%A1%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E3%82%8F/",
+     "status": "ok",
+     "chars": 1465,
+     "text_file": "inbox/texts/27bc35c2b965.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56233.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.15 Tue 8:05 公益財団法人 九州先端科学技術研究所でメール誤送信、見積書を自治体 ML 宛に送信 福岡市の外郭団体である公益財団法人九州先端科学技術研究所は9月8日、メール誤送信による情報漏えいについて発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/2b437a01a5a9.txt",
+   "official": [
+    {
+     "url": "https://www.isit.or.jp/news/isit/21872/",
+     "status": "ok",
+     "chars": 2316,
+     "text_file": "inbox/texts/5b2162c98c5b.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56232.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.15 Tue 8:05 MAMAMOO JAPAN OFFICIAL FANCLUB「MOOMOO JAPAN」に不正アクセス 株式会社RBW JAPANは9月3日、同社が運営するMAMAMOO JAPAN OFFICIAL FANCLUB「MOOMOO JAPAN」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/df12e5af80c6.txt",
+   "official": [
+    {
+     "url": "https://mamamoo.jp/news/detail.php?nid=rUrvuyEgEAc=",
+     "status": "ok",
+     "chars": 1388,
+     "text_file": "inbox/texts/da16f73a9d1e.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56231.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.15 Tue 8:05 SCATが利用するクラウドが不正利用、警察に届け 発生した利用料金を巡り事業者と協議 SCAT株式会社は9月4日、同社利用の有償クラウドサービスの第三者による不正利用について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/7e67a38541b0.txt",
+   "official": [
+    {
+     "url": "https://www.scat.inc/news/2026/09/04/537",
+     "status": "ok",
+     "chars": 1593,
+     "text_file": "inbox/texts/bf1dec9ed60d.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56230.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.15 Tue 8:05 町職員（57歳・女性）が廃棄対象の公文書等を持ち帰り保管、裏面に大量の小説のコピー 静岡県長泉町は8月25日、8月20日付けで行った職員の懲戒処分について発表した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/b13af44eba99.txt",
+   "official": [
+    {
+     "url": "https://www.town.nagaizumi.lg.jp/material/files/group/2/r8choukaishobun0825.pdf",
+     "status": "ok",
+     "chars": 859,
+     "text_file": "inbox/texts/cf53136e4dcc.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56229.html",
+   "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.15 Tue 8:00 IPA「経営者のためのランサムウェア対策ハンドブック」公開 ～ 脅威に立ち向かうには経営者の関与が不可欠 独立行政法人情報処理推進機構（IPA）は9月8日、「ランサムウェア被害から学ぶ教訓集～経営者のためのランサムウェア対策ハンドブック～」を公開した。",
+   "source": "ScanNetSecurity 月別 2",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/d6290733d19d.txt",
+   "official": [
+    {
+     "url": "https://www.ipa.go.jp/security/todokede/rcu1hd000001ee1f-att/20260908.pdf",
+     "status": "error:http404",
+     "chars": 0
+    },
+    {
+     "url": "https://www.ipa.go.jp/security/todokede/crack-virus/ransomware_lessons_learned.html",
+     "status": "ok",
+     "chars": 1802,
+     "text_file": "inbox/texts/328c54d3153e.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56222.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.14 Mon 8:05 「ファンくる」にリスト型攻撃、2 アカウントで不正なポイント交換を確認 株式会社ファンくるは8月25日、8月24日に公表した同社が運営する「ファンくる」への不正ログインについて、第二報を発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/d3a3c2ef628b.txt",
+   "official": [
+    {
+     "url": "https://www.fancrew.co.jp/news/news-press-release/2608_investigation-results-regarding-unauthorized-logins-service-resumption-and-future-actions.html",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://www.fancrew.co.jp/news/news-press-release/2608_notice-of-system-temporary-suspension-and-potential-data-breach-due-to-unauthorized-access.html",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56221.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.14 Mon 8:05 税務事務システムへの入力権限を悪用し不正に還付金 ～ 市税事務所職員 懲戒免職 大阪市は8月27日、財政局あべの市税事務所の職員の懲戒処分について発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/60512884d454.txt",
+   "official": [
+    {
+     "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000684161.html",
+     "status": "ok",
+     "chars": 4850,
+     "text_file": "inbox/texts/872afc7c19cd.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56220.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.14 Mon 8:05 サンメッセが利用する購買発注システム「WEB 発注システム」へサイバー攻撃 サンメッセ株式会社は9月8日、同社が利用する購買発注システム「WEB 発注システム」へのサイバー攻撃について発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/48d177b30c72.txt",
+   "official": [
+    {
+     "url": "https://www.sunmesse.co.jp/news/file/20260908171625.pdf",
+     "status": "ok",
+     "chars": 637,
+     "text_file": "inbox/texts/752f5513c3c2.txt"
+    },
+    {
+     "url": "https://www.sunmesse.co.jp/news/file/20260909152149.pdf",
+     "status": "ok",
+     "chars": 776,
+     "text_file": "inbox/texts/f83d99b445cb.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56219.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.14 Mon 8:05 Weverseサービスにセキュリティ脆弱性、韓国インターネット振興院から連絡 WEVERSE JAPAN株式会社は9月6日、一部顧客の個人情報流出について発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/004f68dd5863.txt",
+   "official": [
+    {
+     "url": "https://shop.weverse.io/ja/shop/JPY/artists/0/notices/14265",
+     "status": "ok",
+     "chars": 1357,
+     "text_file": "inbox/texts/b676c1093042.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56218.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.14 Mon 8:05 TRUNK 従業員のメールアカウントに不正アクセス、不審メール送信も確認 ホテル企画運営を行う株式会社TRUNKは9月1日、同社従業員のメールアカウントへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/4afea74e60e4.txt",
+   "official": [
+    {
+     "url": "https://www.trunk-base.com/company/news/20260901/",
+     "status": "ok",
+     "chars": 2286,
+     "text_file": "inbox/texts/1d2351a69288.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56211.html",
+   "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.14 Mon 8:00 不正アクセスや報告遅れを中心に民間 98 件へ指導 ～ 個人情報保護委員会が第367回会合を開催 個人情報保護委員会は9月2日、「第367回 個人情報保護委員会」を同日開催したと発表した。あわせて同会での資料も公開している。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/ddb5f78e5be8.txt",
+   "official": [
+    {
+     "url": "https://www.ppc.go.jp/files/pdf/260902_shiryou-3-1.pdf",
+     "status": "ok",
+     "chars": 23272,
+     "text_file": "inbox/texts/e17e6193411b.txt"
+    },
+    {
+     "url": "https://www.ppc.go.jp/files/pdf/260902_shiryou-3-2.pdf",
+     "status": "ok",
+     "chars": 5229,
+     "text_file": "inbox/texts/33a2d1ae6be8.txt"
+    },
+    {
+     "url": "https://www.ppc.go.jp/aboutus/minutes/2026/20260902/",
+     "status": "ok",
+     "chars": 456,
+     "text_file": "inbox/texts/a53cb97b8485.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56209.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 日本スウェージロックFST にランサムウェア攻撃 日本スウェージロックFST株式会社は8月26日、同社へのランサムウェア攻撃について発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/ba7dc1db7125.txt",
+   "official": [
+    {
+     "url": "https://www.japan.swagelok.com/whatsnew/notice-of-march-2026-cyber-incident",
+     "status": "error:http404",
+     "chars": 0
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56208.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 「hololive OFFICIAL CARD GAME」公式サイトに不正アクセス、CMSで脆弱性が公表されたことを受け調査し発覚 カバー株式会社は8月25日、「hololive OFFICIAL CARD GAME」公式サイトヘの不正アクセスの可能性について発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/26229e755d85.txt",
+   "official": [
+    {
+     "url": "https://hololive-official-cardgame.com/news_detail/news_260825/",
+     "status": "ok",
+     "chars": 1320,
+     "text_file": "inbox/texts/5f49e79699f1.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56207.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 日本ビジネスデータープロセシングセンターに不正アクセス 株式会社日本ビジネスデータープロセシングセンターは8月24日、同社システムへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/ea410022d21c.txt",
+   "official": [
+    {
+     "url": "https://ssl.nihon-data.jp/new/news-13905/",
+     "status": "ok",
+     "chars": 626,
+     "text_file": "inbox/texts/cefb34992452.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56206.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 いまでやが管理する注文情報が外部流出した可能性、フィッシングサイト上でカード情報を入力する被害も 株式会社いまでやは8月21日、同社が管理する顧客の注文情報が外部流出した可能性について発表した。同社ウェブサイトを一時停止したため、PR TIMESで公表している。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/0117f457f41e.txt",
+   "official": [
+    {
+     "url": "https://imadeya.co.jp/password",
+     "status": "ok",
+     "chars": 3724,
+     "final_url": "https://imadeya.co.jp/",
+     "text_file": "inbox/texts/d5543f389f51.txt"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000061.000065209.html",
+     "status": "ok",
+     "chars": 2848,
+     "text_file": "inbox/texts/1d24a5804aeb.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56205.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 詐欺被害も発生 ～ 長野県多文化共生相談センターの WhatsApp のアカウントが不正利用 長野県は8月20日、長野県多文化共生相談センター相談員をかたった詐欺事案等の発生について発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/a76a92226583.txt",
+   "official": [
+    {
+     "url": "https://www.pref.nagano.lg.jp/seibun/20260820press.html",
+     "status": "ok",
+     "chars": 9465,
+     "text_file": "inbox/texts/ae76206ba50c.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56204.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 通常とは異なるセキュリティ認証を求める画面が表示される事象を確認 ～ 日本ブラインドサッカー協会ウェブサイトが改ざん被害 特定非営利活動法人日本ブラインドサッカー協会（JBFA）は8月20日、同協会ウェブサイトの改ざんについて発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/8a459d940ab0.txt",
+   "official": [
+    {
+     "url": "https://www.b-soccer.jp/news/34285-0820",
+     "status": "ok",
+     "chars": 1825,
+     "text_file": "inbox/texts/c8a473362c5c.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56203.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:00 立教大学利用のGoogeアカウントに不正アクセス、合計17,668件の迷惑メールを送信 立教大学は9月8日、同学で利用しているGoogeアカウントへの不正アクセスによる迷惑メール送信について発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/6b3cbac2713f.txt",
+   "official": [
+    {
+     "url": "https://www.rikkyo.ac.jp/news/2026/09/mknpps000005brzy.html",
+     "status": "ok",
+     "chars": 2448,
+     "text_file": "inbox/texts/eb849861b603.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56190.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.10 Thu 8:05 NEXCO東日本の東京外環プロジェクトホームページで不正アクセス疑い 東日本高速道路株式会社（NEXCO東日本）は9月4日、東京外環プロジェクトホームページの一時公開停止について発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/fd7edac790d4.txt",
+   "official": [
+    {
+     "url": "https://www.e-nexco.co.jp/amp/news/important_info/2026/0904/00016586.html",
+     "status": "ok",
+     "chars": 540,
+     "text_file": "inbox/texts/b862dd000b87.txt"
+    },
+    {
+     "url": "https://www.e-nexco.co.jp/news/important_info/2026/0904/00016589.html",
+     "status": "ok",
+     "chars": 1160,
+     "text_file": "inbox/texts/b0a44efa0a82.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56188.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.10 Thu 8:05 非表示のシートが含まれていることに気づかないまま掲載 ～ 大川市ホームページで公開した名簿データ 福岡県大川市は8月20日、同市ホームページでの個人情報漏えいの可能性について発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/f41f7f81acf3.txt",
+   "official": [
+    {
+     "url": "https://www.city.okawa.lg.jp/s026/020/20260818163728.html",
+     "status": "ok",
+     "chars": 1656,
+     "text_file": "inbox/texts/00962f3eb89e.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56187.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.10 Thu 8:05 スプーンのウェブサイトが改ざん被害、偽のセキュリティ確認画面等が表示される事象 株式会社スプーンは8月20日、同社ウェブサイトの不正改ざんについて発表した。",
+   "source": "ScanNetSecurity 月別 3",
+   "found": "2026-10-14",
+   "article_text_file": "inbox/texts/927580ac396e.txt",
+   "official": [
+    {
+     "url": "https://www.spoonsports.jp/blog/?p=8274",
+     "status": "ok",
+     "chars": 4208,
+     "text_file": "inbox/texts/6e2d53f40b1c.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4289,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
   }
  ],
- "generated": "2026-10-14 08:33 JST",
+ "generated": "2026-10-14 09:00 JST",
  "last_report": {
   "sources_ok": 7,
   "sources_failed": [
-   "セキュリティ対策Lab 情報漏えい: HTTPError https://rocket-boys.co.jp/security-measures-lab/category/security-news/information-leak/",
-   "セキュリティ対策Lab 情報漏えい(2): HTTPError https://rocket-boys.co.jp/security-measures-lab/category/security-news/information-leak/page/2/"
+   "セキュリティ対策Lab 情報漏えい: HTTPError 403 https://rocket-boys.co.jp/security-measures-lab/category/security-news/information-leak/",
+   "セキュリティ対策Lab 情報漏えい(2): HTTPError 403 https://rocket-boys.co.jp/security-measures-lab/category/security-news/information-leak/page/2/"
   ]
  }
 }

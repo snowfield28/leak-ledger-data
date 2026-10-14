@@ -1,0 +1,292 @@
+URL: https://itunes.apple.com/jp/podcast/id1391532897
+
+ScanNetSecurity 最新セキュリティ情報 - ポッドキャスト - Apple Podcast
+ScanNetSecurity 最新セキュリティ情報
+株式会社イード
+ 2.0（8） 
+テクノロジー
+アップデート：毎日 
+セキュリティに特化した情報メディアの音声対応版です
+最新のエピソード
+ 新しい順
+ 古い順
+エピソード
+ 1時間前 
+10 / 21 ～ 23 開催「Security Days Fall 2026 Tokyo」にエーアイセキュリティラボ出展・登壇
+株式会社エーアイセキュリティラボは10月7日、10月21日から10月23日に開催される「Security Days Fall 2026 Tokyo」に出展・登壇すると発表した。
+13秒
+ 1時間前 
+大阪・福岡・東京・名古屋で開催される「Security Days」に HENNGE が出展・登壇 ～ SCS 対策やランサムウェア防御
+HENNGE株式会社は10月7日、10月に大阪・福岡・東京・名古屋で開催される「Security Days」に出展・登壇すると発表した。
+10秒
+ 1時間前 
+公式 SNS の偽アカウント「大学入試セソター」に注意呼びかけ
+独立行政法人大学入試センターは9月30日、大学入試センター公式SNSの「偽アカウント」への注意喚起を発表した。
+9秒
+ 1日前 
+創刊 28 周年記念キャンペーンのおしらせ（1）PayPal と銀行振込はご利用できません ごめんなさい
+ScanNetSecurity は 10 月 8 日に創刊 27 周年を迎えました。毎年恒例の「サブスクサービス Scan PREMIUM」の創刊キャンペーンを 12 月 15 日 (月) 23 時 59 分まで行います（早割は 11 月 30 日 (日) 23 時 59 分まで）。 創刊キャンペーンとは ScanNetSecurity の個人向けサブスクリプションのライセンスの料金を年にいちど最大幅で値引きすることです。
+1分
+ 1日前 
+AeyeScan blog 第16回 たった1日でサプライチェーン攻撃対策を作った話。運用が破綻しない、コストほぼゼロの通信監視とは
+サプライチェーン攻撃によって不正なコードが入り込むと、攻撃者が用意した C&C サーバなど、普段は接続しない外部への通信が発生するケースがあります。その「いつもと違う外向き通信」を見つけるための監視システムを作ってみることにしました。
+17秒
+ 1日前 
+AI 診断×プロの運用で継続対策 ～ エーアイセキュリティラボとハートビーツ「2026年度末に始まるSCS評価制度 今必要な備えとは？」セミナー 10 / 15 共催
+株式会社エーアイセキュリティラボは9月29日、株式会社ハートビーツと共催で「2026年度末に始まるSCS評価制度、今必要な備えとは？～限られた人員でも『見つけて終わり』にしない、AI診断×プロの運用による継続対策～」を10月15日に開催すると発表した。
+22秒
+ 1日前 
+穴吹ハウジングサービスがオーナーズサイトを一時停止、直ちに情報漏えいにつながるものではないが追加対策を講じることが望ましい
+株式会社穴吹ハウジングサービスは10月9日、同社が運営するオーナーズサイトの一時停止について発表した。
+7秒
+ 1日前 
+ローソンのアカウントサービスに不正アクセス、215 万 5,345 件のローソン ID が漏えい
+株式会社ローソンは10月8日、同社が運営するアカウントサービス「ローソンID」および「ローソンアプリ予約」への不正アクセスについて発表した。
+9秒
+すべて見る（30） 
+評価とレビュー
+2
+5段階評価中
+8件の評価
+番組について
+セキュリティに特化した情報メディアの音声対応版です
+情報
+クリエイター
+株式会社イード 
+配信期間
+18年 - 26年 
+エピソード
+30 
+制限指定
+不適切な内容を含まない 
+Copyright
+℗ & © 2026 株式会社イード 
+番組のウェブサイト
+ ScanNetSecurity 最新セキュリティ情報 
+その他のおすすめ
+テクノロジー
+テクノロジー
+アップデート：毎週
+テクノロジー
+テクノロジー
+アップデート：週2回
+テクノロジー
+テクノロジー
+アップデート：毎月
+テクノロジー
+テクノロジー
+アップデート：毎週
+テクノロジー
+テクノロジー
+アップデート：隔週
+ビジネス
+ビジネス
+アップデート：毎月
+テクノロジー
+テクノロジー
+アップデート：毎週
+不適切な表現を含むエピソードを再生するには、サインインしてください。
+サインイン
+この番組の最新情報をチェック
+サインインまたは登録して番組をフォローし、エピソードを保存し、最新のアップデートを入手しましょう。
+サインイン
+エピソードを埋め込む
+ 埋め込みコードをコピー 
+国または地域を選択
+アフリカ、中東、インド
+すべて表示 
+Algeria
+Angola
+Armenia
+Azerbaijan
+Bahrain
+Benin
+Botswana
+Burkina Faso
+Cameroun
+Cape Verde
+Chad
+Côte d’Ivoire
+Congo, The Democratic Republic Of The
+Egypt
+Eswatini
+Gabon
+Gambia
+Ghana
+Guinea-Bissau
+India
+Iraq
+Israel
+Jordan
+Kenya
+Kuwait
+Lebanon
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger (English)
+Nigeria
+Oman
+Qatar
+Congo, Republic of
+Rwanda
+São Tomé and Príncipe
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+South Africa
+Sri Lanka
+Tajikistan
+Tanzania, United Republic Of
+Tunisia
+Turkmenistan
+United Arab Emirates
+Uganda
+Yemen
+Zambia
+Zimbabwe
+アジア太平洋
+すべて表示 
+Afghanistan
+Australia
+Bhutan
+Brunei Darussalam
+Cambodia
+中国大陆
+Fiji
+香港
+Indonesia (English)
+日本
+Kazakhstan
+대한민국
+Kyrgyzstan
+Lao People's Democratic Republic
+澳門
+Malaysia (English)
+Maldives
+Micronesia, Federated States of
+Mongolia
+Myanmar
+Nauru
+Nepal
+New Zealand
+Pakistan
+Palau
+Papua New Guinea
+Philippines
+Singapore
+Solomon Islands
+台灣
+Thailand
+Tonga
+Turkmenistan
+Uzbekistan
+Vanuatu
+Vietnam
+ヨーロッパ
+すべて表示 
+Albania
+Armenia
+Österreich
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France (Français)
+Georgia
+Deutschland
+Greece
+Hungary
+Iceland
+Ireland
+Italia
+Kosovo
+Latvia
+Lithuania
+Luxembourg (English)
+Malta
+Moldova, Republic Of
+Montenegro
+Nederland
+North Macedonia
+Norway
+Poland
+Portugal (Português)
+Romania
+Россия
+Serbia
+Slovakia
+Slovenia
+España
+Sverige
+Schweiz
+Türkiye (English)
+Ukraine
+United Kingdom
+ラテンアメリカ、カリブ海地域
+すべて表示 
+Anguilla
+Antigua and Barbuda
+Argentina (Español)
+Bahamas
+Barbados
+Belize
+Bermuda
+Bolivia (Español)
+Brasil
+Virgin Islands, British
+Cayman Islands
+Chile (Español)
+Colombia (Español)
+Costa Rica (Español)
+Dominica
+República Dominicana
+Ecuador (Español)
+El Salvador (Español)
+Grenada
+Guatemala (Español)
+Guyana
+Honduras (Español)
+Jamaica
+México
+Montserrat
+Nicaragua (Español)
+Panamá
+Paraguay (Español)
+Perú
+St. Kitts and Nevis
+Saint Lucia
+St. Vincent and The Grenadines
+Suriname
+Trinidad and Tobago
+Turks and Caicos
+Uruguay (English)
+Venezuela (Español)
+米国およびカナダ
+すべて表示 
+Canada (English)
+Canada (Français)
+United States
+Estados Unidos (Español México)
+الولايات المتحدة
+США
+美国 (简体中文)
+États-Unis (Français France)
+미국
+Estados Unidos (Português Brasil)
+Hoa Kỳ
+美國 (繁體中文台灣)
