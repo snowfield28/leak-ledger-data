@@ -236,6 +236,8 @@ ul.resp{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;f
 .gl{font:inherit;font-size:13px;font-weight:700;color:var(--ink);background:none;border:1px solid var(--ink);border-radius:99px;padding:8px 14px;cursor:pointer}
 .gl:hover{background:var(--ink);color:var(--bg)}
 .gl b{font-variant-numeric:tabular-nums;margin-inline:.2em}
+.visitors{display:flex;align-items:baseline;gap:12px;margin:0;padding-top:12px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+.visitors b{font-size:20px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--ink)}
 </style>
 <meta name="google-site-verification" content="Y-b7XfgSWxYdmYGcW0NcX9K-fwld9aktyLhifqb7-5g">
 <meta name="msvalidate.01" content="73462A96654CDE9A16167193A35A254E">
@@ -338,7 +340,7 @@ document.addEventListener("DOMContentLoaded",function(){
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://snowfield28.github.io/leak-ledger-data/ogp.png">
-<link rel="stylesheet" id="mag-css" href="../mag.css?v=5bc80dff">
+<link rel="stylesheet" id="mag-css" href="../mag.css?v=fa9c14b5">
 </head>
 <body>
 
@@ -429,6 +431,7 @@ document.addEventListener("DOMContentLoaded",function(){
   <nav class="foot" aria-label="Site information" style="display:flex;flex-wrap:wrap;gap:6px 16px"><a href="case/">All incidents</a><a href="about.html">About</a><a href="privacy.html">Privacy policy</a><a href="contact.html">Contact / corrections</a><a href="../" hreflang="ja" lang="ja">日本語</a></nav>
   <p class="foot" id="rule"></p>
   <p class="foot">Coverage is comprehensive from October 2025 onward; earlier incidents are only partly included. The period filter uses the date of the first announcement or of the latest update. Industries are this ledger's own classification based on each organization's main business. Counts are the organizations' published figures; people and records may be mixed and duplicates may be included. "Closed" means the investigation result or a final report has been published. Selecting several data types narrows to incidents that include all of them. Classification relies only on items stated in the sources. Incident descriptions are shown in Japanese, as written in the official announcements.</p>
+  <p class="visitors" id="visitors" hidden><span>Visitors (all time, cumulative)</span><b id="visitors-n"></b></p>
 </div>
 
 <div id="sheetRoot"></div>
@@ -732,6 +735,18 @@ fillInd();renderChips();render();
     if(location.hash==="#analysis")setView("ana");
     const id=location.hash.slice(1);if(id&&DB.cases.some(c=>c.id===id))openSheet(id);
   }catch(e){$("#rows").innerHTML='<tr><td colspan="3" class="empty">Could not load the data. Please try again later.</td></tr>'}
+})();
+</script>
+<script>
+/* 累計の訪問者数。GoatCounterの設定「Allow adding visitor counts on your website」が有効なときだけ表示する。
+   無効・通信失敗・想定外の値のときは何も出さない（数字と区切り文字以外は表示しない） */
+(function(){
+  var el=document.getElementById("visitors"),n=document.getElementById("visitors-n");
+  if(!el||!n||!window.fetch)return;
+  fetch("https://snow.goatcounter.com/counter/TOTAL.json",{credentials:"omit"})
+    .then(function(r){return r.ok?r.json():null})
+    .then(function(j){var c=j&&j.count;if(typeof c==="string"&&/^[0-9][0-9,.\s  ]*$/.test(c.trim())){n.textContent=c.trim();el.hidden=false}})
+    .catch(function(){});
 })();
 </script>
 </body>

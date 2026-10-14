@@ -110,6 +110,7 @@ more = [
  ('title="未公表：${u}件"', 'title="Not disclosed: ${u}"'),
  ('title="${B[i][0]}：${c}件"', 'title="${B[i][0]}: ${c}"'),
  ('業種ごとに、1事案あたりの流出件数の規模で事案を色分けしています。', 'Incidents in each industry are colored by the number of records per incident.'),
+ ('<span>訪問者数（累計・延べ）</span>', '<span>Visitors (all time, cumulative)</span>'),
  ('<span>事案</span>', '<span>Incidents</span>'), ('<span>流出件数の合計</span>', '<span>Total records</span>'), ('<span>調査中・続報待ち</span>', '<span>Ongoing / awaiting updates</span>'),
  ("'<div class=\"empty\">件数が公表された事案はありません</div>'", "'<div class=\"empty\">No incidents with a published count</div>'"),
  ('aria-label="${esc(d.co)} ${esc(d.label)}"', 'aria-label="${esc(d.co)} ${LAB(d)}"'),
