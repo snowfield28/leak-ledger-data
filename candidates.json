@@ -214,44 +214,6 @@
    "auto": true
   },
   {
-   "id": "conoha-wing",
-   "co": "GMOインターネット（ConoHa WING）",
-   "date": "2026-09-20",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 426,
-   "label": "426アカウント",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "ScanNetSecurityの報道によると、GMOインターネットは9月20日、ConoHa WING byGMOの一部の収容ホストで、第三者が9月3日から顧客のWebサーバ領域に不正アクセスし不正プログラムを設置したと発表。9月16日に検知、18日に原因と範囲を特定して不正プログラムを排除。影響は426件の顧客のWebサーバ領域に保存されたデータ。該当顧客へはメールで個別連絡。",
-   "status": "ongoing",
-   "statusText": "9月20日に公表（報道による）。公式本文は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "SmartScope（国内漏えい事案の集計一覧）",
-     "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
-    ],
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/10/14/56450.html"
-    ]
-   ],
-   "auto": true,
-   "ind": "通信・IT",
-   "cause": "cyber",
-   "pendingReason": "自動取得不可（公式ページが403で本文を読めない）。manual/ に公式文面を貼れば反映できる。公式の題名は「【重要】[ConoHa WING byGMO]一部収容ホスト（Webサーバー）への第三者による不正アクセスに関するお詫びとお知らせ（2026年9月20日 00:25時点）」",
-   "announced": "2026-09-20",
-   "occurred": "2026-09-16",
-   "who": [
-    "cust"
-   ]
-  },
-  {
    "id": "omu",
    "co": "大阪公立大学",
    "date": "2026-10-02",
