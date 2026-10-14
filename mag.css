@@ -117,6 +117,20 @@ main p a,main li a,main .note a{color:var(--ink);text-decoration:underline;text-
 dt{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em}
 .btn{font-family:var(--f-mono);letter-spacing:.08em}
 
+/* ---- 全事案一覧（case/・en/case/）：月の索引・検索・表 ---- */
+.ix-chip{border-radius:0;font-family:var(--f-mono);letter-spacing:.06em}
+.ix-count,.ix-months{font-family:var(--f-mono);letter-spacing:.06em}
+.ix-count{font-size:12px}
+.ix-months{margin-top:18px;padding-block:14px;border-block:0;border-top:2px solid var(--ink);border-bottom:1px solid var(--line)}
+.ix-months a:hover{text-decoration-thickness:2px}
+main section[data-m]{padding-top:22px}
+main section[data-m] h2{margin-bottom:12px;font-size:clamp(20px,3vw,26px)}
+main table.ix{border-top:0}
+table.ix td a{color:var(--ink);text-decoration:none;font-weight:800}
+table.ix td a:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.2em}
+table.ix td.d{font-family:var(--f-mono);font-size:12.5px;letter-spacing:.04em}
+table.ix th{white-space:nowrap}
+
 @media (min-width:900px){
   .app{max-width:1280px}
   .lrow{gap:28px 0}

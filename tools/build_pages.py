@@ -166,24 +166,144 @@ def case_page(c, D):
 """
 
 
-def index_page(cases, D):
-    url = f"{SITE}case/"
+IX_CSS = """
+.ix-tools{display:flex;flex-direction:column;gap:10px;margin:16px 0 6px}
+.ix-tools input{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
+.ix-chips{display:flex;flex-wrap:wrap;gap:6px}
+.ix-chip{font:inherit;font-size:12.5px;padding:6px 11px;border:1px solid var(--line);border-radius:99px;background:var(--surface);color:var(--ink);cursor:pointer;white-space:nowrap}
+.ix-chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.ix-count{margin:2px 0 0;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ix-months{display:flex;flex-wrap:wrap;gap:6px 18px;margin:14px 0 8px;padding:12px 0;border-block:1px solid var(--line);font-size:13px}
+.ix-months a{color:var(--ink);text-decoration:none;white-space:nowrap}
+.ix-months a:hover{text-decoration:underline;text-underline-offset:.2em}
+.ix-months small{margin-left:5px;font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ix-months a.is-empty{opacity:.35}
+table.ix{table-layout:auto}
+table.ix td.d{width:1%;white-space:nowrap;color:var(--muted);font-variant-numeric:tabular-nums}
+table.ix td a{font-weight:700}
+table.ix .sub{display:block;font-size:12.5px;color:var(--muted);line-height:1.5}
+table.ix td.st{width:1%;white-space:nowrap}
+table.ix td.st .pill{display:block;width:fit-content;margin:0 0 3px auto}
+table.ix td.st .pill:last-child{margin-bottom:0}
+table.ix .w{display:none}
+.ix-empty{margin:18px 0;color:var(--muted);font-size:14px}
+[hidden]{display:none!important}
+@media (min-width:700px){table.ix .w{display:table-cell}table.ix .m-only{display:none}table.ix td.st .pill{display:inline-block;margin:0 0 0 4px}}
+"""
+
+IX_JS = """
+(function(){
+  var root=document.getElementById("ix");if(!root)return;
+  var T=JSON.parse(root.getAttribute("data-t"));
+  var secs=[].slice.call(root.querySelectorAll("section[data-m]")),rows=[];
+  secs.forEach(function(sec){[].forEach.call(sec.querySelectorAll("tbody tr"),function(tr){rows.push({tr:tr,m:sec.getAttribute("data-m"),q:(tr.textContent+(T.href?" "+tr.querySelector("a").getAttribute("href").replace(".html",""):"")).toLowerCase()})})});
+  var q=document.getElementById("ix-q"),cnt=document.getElementById("ix-count"),none=document.getElementById("ix-none");
+  var tools=document.getElementById("ix-tools"),S={q:"",s:"",r:""};
+  var links={};[].forEach.call(document.querySelectorAll(".ix-months a[data-m]"),function(a){links[a.getAttribute("data-m")]=a});
+  function run(){
+    var n=0,term=S.q.trim().toLowerCase(),per={};
+    rows.forEach(function(o){
+      var tr=o.tr,ok=(!S.s||tr.getAttribute("data-s")===S.s)&&(!S.r||tr.getAttribute("data-r")===S.r)&&(!term||o.q.indexOf(term)>-1);
+      tr.hidden=!ok;if(ok){n++;per[o.m]=(per[o.m]||0)+1}
+    });
+    secs.forEach(function(sec){var m=sec.getAttribute("data-m");sec.hidden=!per[m];
+      var a=links[m];if(a){a.querySelector("small").textContent=per[m]||0;a.classList.toggle("is-empty",!per[m])}});
+    cnt.textContent=T.count.replace("{n}",n).replace("{t}",rows.length);none.hidden=n>0;
+  }
+  q.addEventListener("input",function(){S.q=q.value;run()});
+  [].forEach.call(document.querySelectorAll(".ix-chip"),function(b){
+    b.addEventListener("click",function(){
+      var g=b.getAttribute("data-g"),v=b.getAttribute("data-v"),on=b.getAttribute("aria-pressed")==="true";
+      [].forEach.call(document.querySelectorAll('.ix-chip[data-g="'+g+'"]'),function(o){o.setAttribute("aria-pressed","false")});
+      S[g]=on?"":v;if(!on)b.setAttribute("aria-pressed","true");run();
+    });
+  });
+  tools.hidden=false;run();
+})();
+"""
+
+IX_LAB = {
+    "ja": dict(
+        search="組織名・業種・原因で検索", search_label="組織名・業種・原因で検索",
+        chips=[("s", "c", "漏えい確認"), ("s", "p", "漏えいの可能性"), ("r", "ongoing", "調査中"), ("r", "closed", "調査完了")],
+        count="{t}件中 {n}件を表示", none="条件に合う事案はありません。", jump="月へ移動",
+        th=("日付", "組織", "原因", "件数", "状況"),
+        st={"c": "漏えい確認", "p": "漏えいの可能性"}, rs={"closed": "調査完了", "ongoing": "調査中"}, tools="検索と絞り込み"),
+    "en": dict(
+        search="Search by organization, industry or cause", search_label="Search by organization, industry or cause",
+        chips=[("s", "c", "Leak confirmed"), ("s", "p", "Possible leak"), ("r", "ongoing", "Ongoing"), ("r", "closed", "Closed")],
+        count="Showing {n} of {t}", none="No incidents match these filters.", jump="Jump to month",
+        th=("Date", "Organization", "Cause", "Records", "Status"),
+        st={"c": "Confirmed", "p": "Possible"}, rs={"closed": "Closed", "ongoing": "Ongoing"}, tools="Search and filters"),
+}
+
+
+def _ix_body(lang, cases, D):
+    """全事案一覧の本体（日本語・英語共通）。全件をHTMLに載せ、JSは絞り込みだけを担う。"""
+    en = lang == "en"
+    L = IX_LAB[lang]
     by = defaultdict(list)
     for c in cases:
         by[c["date"][:7]].append(c)
-    parts = []
-    for k in sorted(by, reverse=True):
+    months = sorted(by, reverse=True)
+
+    def mlabel(k):
         y, m = k.split("-")
-        rows = "".join(
-            f'<tr><td><a href="{e(c["id"])}.html">{e(c["co"])}</a><br><span class="note">{int(c["date"][5:7])}月{int(c["date"][8:])}日・{e(c.get("ind", ""))}・{e(D["causeLabels"].get(c.get("cause", "cyber"), ""))}</span></td><td class="r">{e(c["label"])}</td></tr>'
-            for c in sorted(by[k], key=lambda c: c["date"], reverse=True))
-        parts.append(f'<section><h2>{int(y)}年{int(m)}月（{len(by[k])}件）</h2><table><thead><tr><th>組織</th><th class="r">件数</th></tr></thead><tbody>{rows}</tbody></table></section>')
+        return f"{EN.MONTHS[int(m)]} {int(y)}" if en else f"{int(y)}年{int(m)}月"
+
+    def cause_of(c):
+        k = c.get("cause", "cyber")
+        return EN.CAUSE.get(k, "") if en else D["causeLabels"].get(k, "")
+
+    def ind_of(c):
+        i = c.get("ind", "")
+        return EN.IND.get(i, i) if en else i
+
+    def row(c, k):
+        d = c["date"]
+        ds = f"{EN.MONTHS[int(d[5:7])]} {int(d[8:])}" if en else f"{int(d[5:7])}/{int(d[8:])}"
+        n = (EN.enum(c["n"]) if c.get("n") else "Unknown") if en else c["label"]
+        lang_attr = ' lang="ja"' if en else ""
+        sep = " · " if en else "・"
+        return (f'<tr data-s="{e(c.get("st"))}" data-r="{e(c.get("status"))}">'
+                f'<td class="d">{e(ds)}</td>'
+                f'<td><a href="{e(c["id"])}.html"{lang_attr}>{e(c["co"])}</a>'
+                f'<span class="sub">{e(ind_of(c))}<span class="m-only">{sep}{e(cause_of(c))}</span></span></td>'
+                f'<td class="w">{e(cause_of(c))}</td>'
+                f'<td class="r">{e(n)}</td>'
+                f'<td class="st"><span class="pill {e(c.get("st"))}">{e(L["st"].get(c.get("st"), ""))}</span>'
+                f'<span class="pill {e(c.get("status"))}">{e(L["rs"].get(c.get("status"), ""))}</span></td></tr>')
+
+    cls = ["", "", ' class="w"', ' class="r"', ' class="r"']
+    th = "".join(f"<th{c}>{e(x)}</th>" for c, x in zip(cls, L["th"]))
+    secs = []
+    for k in months:
+        body = "".join(row(c, k) for c in sorted(by[k], key=lambda c: c["date"], reverse=True))
+        h = f"{mlabel(k)} ({len(by[k])})" if en else f"{mlabel(k)}（{len(by[k])}件）"
+        secs.append(f'<section id="m-{k}" data-m="{k}"><h2>{h}</h2><table class="ix"><thead><tr>{th}</tr></thead><tbody>{body}</tbody></table></section>')
+    jump = "".join(f'<a href="#m-{k}" data-m="{k}">{e(mlabel(k))}<small>{len(by[k])}</small></a>' for k in months)
+    chips = "".join(f'<button type="button" class="ix-chip" data-g="{g}" data-v="{v}" aria-pressed="false">{e(t)}</button>' for g, v, t in L["chips"])
+    tools = (f'<div class="ix-tools" id="ix-tools" role="search" aria-label="{e(L["tools"])}" hidden>'
+             f'<input type="search" id="ix-q" placeholder="{e(L["search"])}" aria-label="{e(L["search_label"])}" autocomplete="off">'
+             f'<div class="ix-chips">{chips}</div><p class="ix-count" id="ix-count" aria-live="polite"></p></div>')
+    data_t = e(json.dumps({"count": L["count"], "href": en}, ensure_ascii=False))
+    return (tools + f'<nav class="ix-months" aria-label="{e(L["jump"])}">{jump}</nav>'
+            + f'<div id="ix" data-t="{data_t}">' + "".join(secs) + f'<p class="ix-empty" id="ix-none" hidden>{e(L["none"])}</p></div>'
+            + "<script>" + IX_JS + "</script>")
+
+
+def _with_ix_css(page):
+    return page.replace("</head>", "<style>" + IX_CSS + "</style>\n</head>", 1)
+
+
+def index_page(cases, D):
+    url = f"{SITE}case/"
     title = "全事案一覧｜国内情報漏えい台帳"
     desc = f"国内の企業・公共機関・大学・病院などの個人情報漏えい事案{len(cases)}件の一覧。すべて組織の公式発表と照合済み。"
-    return head(title, desc, url, "website", alt=(url, f"{SITE}en/case/")) + f"""<nav class="crumb" aria-label="パンくず"><a href="../">台帳</a><span>›</span><span>全事案一覧</span></nav>
+    return _with_ix_css(head(title, desc, url, "website", alt=(url, f"{SITE}en/case/"))) + f"""<nav class="crumb" aria-label="パンくず"><a href="../">台帳</a><span>›</span><span>全事案一覧</span></nav>
 <h1>全事案一覧</h1>
-<p class="note">公式発表と照合した{len(cases)}件を、発生・公表の年月ごとに並べています（{e(D.get('updated', ''))} 更新）。絞り込みやグラフは<a href="../">台帳</a>で使えます。</p>
-{''.join(parts)}
+<p class="note">公式発表と照合した{len(cases)}件を、公表の年月ごとに並べています（{e(D.get('updated', ''))} 更新）。月の見出しから飛べます。グラフでの集計は<a href="../">台帳</a>で使えます。</p>
+{_ix_body("ja", cases, D)}
 {FOOT.format(r='../')}
 </main></body>
 </html>
@@ -273,22 +393,12 @@ def case_page_en(c, D):
 
 def index_page_en(cases, D):
     url = f"{SITE}en/case/"
-    by = defaultdict(list)
-    for c in cases:
-        by[c["date"][:7]].append(c)
-    parts = []
-    for k in sorted(by, reverse=True):
-        y, m = k.split("-")
-        rows = "".join(
-            f'<tr><td><a href="{e(c["id"])}.html" lang="ja">{e(c["co"])}</a><br><span class="note">{EN.edate(c["date"])} · {e(EN.IND.get(c.get("ind", ""), c.get("ind", "")))} · {e(EN.CAUSE.get(c.get("cause", "cyber"), ""))}</span></td><td class="r">{e(EN.enum(c["n"]) if c.get("n") else "Unknown")}</td></tr>'
-            for c in sorted(by[k], key=lambda c: c["date"], reverse=True))
-        parts.append(f'<section><h2>{EN.MONTHS[int(m)]} {int(y)} ({len(by[k])})</h2><table><thead><tr><th>Organization</th><th class="r">Records</th></tr></thead><tbody>{rows}</tbody></table></section>')
     title = "All incidents | Japan Data Breach Ledger"
     desc = f"List of {len(cases)} personal data breaches at Japanese companies, public bodies, universities and hospitals. Every entry is checked against the organization's official release."
-    return head_en(title, desc, url, "website", alt=(f"{SITE}case/", url)) + f"""<nav class="crumb" aria-label="Breadcrumb"><a href="../">Ledger</a><span>›</span><span>All incidents</span></nav>
+    return _with_ix_css(head_en(title, desc, url, "website", alt=(f"{SITE}case/", url))) + f"""<nav class="crumb" aria-label="Breadcrumb"><a href="../">Ledger</a><span>›</span><span>All incidents</span></nav>
 <h1>All incidents</h1>
-<p class="note">{len(cases)} incidents matched against official releases, grouped by month (updated {e(D.get('updated', ''))}). Filters and charts are on the <a href="../">ledger</a>. {JA_NOTE}</p>
-{''.join(parts)}
+<p class="note">{len(cases)} incidents matched against official releases, grouped by month of announcement (updated {e(D.get('updated', ''))}). Use the month links to jump. Charts are on the <a href="../">ledger</a>. {JA_NOTE}</p>
+{_ix_body("en", cases, D)}
 {FOOT_EN.format(r='../', b=f"{SITE}case/")}
 </main></body>
 </html>
