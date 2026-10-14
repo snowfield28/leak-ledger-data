@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -226,21 +226,30 @@
    "items": [],
    "itemsText": "項目は公表資料で要確認",
    "notIncl": "",
-   "sum": "不正アクセス。集計サイトの一覧に基づく情報で、詳細は公式発表で確認が必要。",
+   "sum": "ScanNetSecurityの報道によると、GMOインターネットは9月20日、ConoHa WING byGMOの一部の収容ホストで、第三者が9月3日から顧客のWebサーバ領域に不正アクセスし不正プログラムを設置したと発表。9月16日に検知、18日に原因と範囲を特定して不正プログラムを排除。影響は426件の顧客のWebサーバ領域に保存されたデータ。該当顧客へはメールで個別連絡。",
    "status": "ongoing",
-   "statusText": "この台帳では初報の内容のみ把握。続報は未確認。",
+   "statusText": "9月20日に公表（報道による）。公式本文は未確認。",
    "resp": "",
    "official": [],
    "src": [
     [
      "SmartScope（国内漏えい事案の集計一覧）",
      "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/"
+    ],
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/14/56450.html"
     ]
    ],
    "auto": true,
    "ind": "通信・IT",
    "cause": "cyber",
-   "pendingReason": "10/12再確認：conoha.jp などに絞って検索したが、サポートFAQしか出ず公式発表は見つからなかった。その後、検索回数の上限（全エージェントで共有）に達し、それ以上は探せず未照合"
+   "pendingReason": "自動取得不可（公式ページが403で本文を読めない）。manual/ に公式文面を貼れば反映できる。公式の題名は「【重要】[ConoHa WING byGMO]一部収容ホスト（Webサーバー）への第三者による不正アクセスに関するお詫びとお知らせ（2026年9月20日 00:25時点）」",
+   "announced": "2026-09-20",
+   "occurred": "2026-09-16",
+   "who": [
+    "cust"
+   ]
   },
   {
    "id": "omu",
@@ -5004,16 +5013,6 @@
    "id": "pending-329"
   },
   {
-   "co": "静岡県長泉町（職員による廃棄予定文書の持ち帰り）",
-   "date": "2026-08-25",
-   "pendingReason": "町の懲戒処分公表(PDF)は確認したが、文書に個人情報が含まれたものの漏えいは確認されておらず、件数も「大量」のみ。対象に含めるか判断が必要",
-   "id": "pending-330",
-   "cause": "insider",
-   "types": [
-    "内部不正"
-   ]
-  },
-  {
    "co": "01銀行",
    "date": "2026-08-27",
    "pendingReason": "公式PDF(01bank.co.jp/news/pdf/2026/0827.pdf)がWebFetchでエラーとなり照合不可。報道では最大100社分の識別情報とメールアドレス",
@@ -5798,6 +5797,229 @@
    "src": [],
    "ind": "生活サービス・レジャー",
    "pendingReason": "公式お知らせは開けたが「更新」版で初出日が不明、件数・運営会社名の記載なし。報道が見つからず照合できていない。手間いらず本体（temairazu-2609）の影響施設の一つ"
+  },
+  {
+   "id": "washington-hotel-2602",
+   "co": "ワシントンホテル株式会社",
+   "date": "2026-02-14",
+   "last": "2026-09-07",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "sum": "一部サーバがランサムウェアに感染。最終報（2026/9/7）で、外部接続機器経由の侵入と一部サーバの暗号化を確認、情報窃取の明確な痕跡は確認されていないとされる（報道ベース）。感染サーバには一部従業員の個人情報が保存されていたという。",
+   "status": "closed",
+   "statusText": "2026年9月7日に最終報を公表（報道ベース）。",
+   "resp": "報道によれば、バックアップから復旧、EDR導入など再発防止策、対象者への個別通知。",
+   "official": [
+    [
+     "ランサムウェア感染被害に関する調査結果および対応状況のお知らせ（最終報）（2026/9/7）",
+     "https://www.washingtonhotel.co.jp/corporation/news/228/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/25/56299.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=40727"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "pendingReason": "公式発表（第1報〜最終報）の本文を取得できず（公式サイトに接続不可）、件数・項目・第一報の内容を公式文面で照合できていない。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "azuma-sangyo-2609",
+   "co": "東産業（公式サイト）",
+   "date": "2026-09-14",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "sum": "公式サイトがWordPressの脆弱性を悪用した不正アクセスを受けた（報道ベース）。個人情報の漏えい有無・件数は公式文面を読めておらず未確認。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式文面未確認。",
+   "official": [
+    [
+     "公式サイトへの不正アクセスに関するお知らせ",
+     "https://www.azuma-mie.co.jp/info/important/unauthorized-access-20260908/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/05/56381.html"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "自動取得不可（公式サイトに接続できず）。個人情報の漏えい有無・件数・発表日（報道は9/14、公式URLは0908表記）を公式本文で確認できていない。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "nagano-police-shiojiri-2609",
+   "co": "長野県警察（塩尻警察署交通課）",
+   "date": "2026-09-07",
+   "cause": "loss",
+   "types": [
+    "紛失"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "2021年度に作成した交通安全施設損壊事案報告書、修繕執行伺、修理結果表、工事監督等指示書、意見・要望対応の書類などが塩尻警察署交通課で所在不明となり、個人情報が記載されているとして9月7日に公表された（報道ベース）。",
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/18/56275.html"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表PDF（pref.nagano.lg.jp）が404で読めず件数・項目を確認できない。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "msc-2608",
+   "co": "株式会社マネジメントサービスセンター（ホームページ）",
+   "date": "2026-08-25",
+   "announced": "2026-08-25",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 297,
+   "label": "297名（報道ベース）",
+   "st": "p",
+   "items": [
+    "name",
+    "work",
+    "mail",
+    "tel"
+   ],
+   "itemsText": "氏名、会社名、メールアドレス、電話番号（報道ベース。項目は人により異なる）",
+   "sum": "7月にホームページへの不正アクセスと改ざんを確認。管理者権限が取得され、フォーム投稿の個人情報に影響した可能性があると8月25日に発表。件数・項目は報道（セキュリティ対策Lab）による。",
+   "pendingReason": "公式発表（msc-net.co.jp）の本文を取得できず、件数・項目を公式文面で確認できていない。manual/ に公式文面を貼れば反映できる",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/18/56274.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=39652"
+    ]
+   ],
+   "ind": "人材・教育・業務支援"
+  },
+  {
+   "id": "shiragiku-tsurumi-2604",
+   "co": "つるみ観光（ホテル白菊）",
+   "date": "2026-04-10",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "sum": "ホテル白菊が利用する宿泊予約・販売管理システムへの不正アクセスの可能性について、4月10日に公表し、8月27日に最終報告（調査結果）を公表したと報道。名称・ロゴを悪用した英語のフィッシングメールが一部顧客に送られていた。別府警察署に相談済み。",
+   "status": "closed",
+   "statusText": "報道によれば8月27日に最終報告が公表されている（公式本文は未確認）。",
+   "resp": "報道によれば、別府警察署への相談・報告、外部専門機関と連携したセキュリティ強化と再発防止策。",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/16/56247.html"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "pendingReason": "自動取得不可（公式ページ shiragiku.co.jp/news/101・102・108 が404）。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "fancrew-2608",
+   "co": "株式会社ファンくる（ファンくる）",
+   "date": "2026-08-24",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "報道によると、リスト型攻撃とみられる外部からの不正ログインを検知してサービスを一時停止し、8/24に第一報、8/25に第二報を公表。2アカウントで不正なポイント交換が確認された。",
+   "status": "ongoing",
+   "statusText": "報道では8/25の第二報まで確認。公式本文は未確認。",
+   "resp": "報道によるとサービスを一時停止し、第二報で再開と今後の対応を公表。",
+   "official": [
+    [
+     "不正ログインに関する調査結果、サービス再開および今後の対応について（第二報）",
+     "https://www.fancrew.co.jp/news/news-press-release/2608_investigation-results-regarding-unauthorized-logins-service-resumption-and-future-actions.html"
+    ],
+    [
+     "不正ログインに伴うシステム一時停止と情報流出の可能性に関するお詫びとお知らせ（第一報）",
+     "https://www.fancrew.co.jp/news/news-press-release/2608_notice-of-system-temporary-suspension-and-potential-data-breach-due-to-unauthorized-access.html"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/14/56222.html"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "自動取得不可（公式サイトがHTTP 403、WebFetchも不可）。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "swagelok-fst-2608",
+   "co": "日本スウェージロックFST株式会社",
+   "date": "2026-08-26",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "報道によると、3/10に一部サーバーへの不正アクセスとランサムウェア攻撃があり、8/26に個人情報漏えいの可能性を公表。",
+   "status": "ongoing",
+   "statusText": "公式本文は未確認。",
+   "resp": "公式本文未確認のため記載なし。",
+   "official": [
+    [
+     "2026年3月の不正アクセスに伴う個人情報漏えい等の可能性に関するお知らせ",
+     "https://www.japan.swagelok.com/whatsnew/notice-of-march-2026-cyber-incident"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/11/56209.html"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "自動取得不可（公式URLがHTTP 404、WebFetchも不可）。manual/ に公式文面を貼れば反映できる"
   }
  ]
 }

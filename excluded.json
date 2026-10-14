@@ -284,6 +284,297 @@
     "https://koshinomiyako.jp/info/important/phishing-email/"
    ],
    "checked": "2026-10-14"
+  },
+  {
+   "id": "anabuki-owners-site-2610",
+   "co": "穴吹ハウジングサービス（オーナーズサイト一時停止）",
+   "date": "2026-10-09",
+   "reason": "公式発表(2026/10/9)は外部診断で追加対策が望ましい事項が見つかったための予防的なサイト停止で、情報漏えい等の事実は確認されていないと明記",
+   "official": [
+    "https://www.anabuki-housing.co.jp/news/content.php?news_id=538"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "kufu-zaim-2609",
+   "co": "くふうカンパニー（くふう Zaim）",
+   "date": "2026-09-22",
+   "reason": "公式発表(2026/9/22)は不正な書き込みによる登録情報14名分の書き換えで、情報の漏えい・不正ログインはないと明記",
+   "official": [
+    "https://kufu.co.jp/2026/09/22/zaim-announce/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "lawson-mail-abuse-2610",
+   "co": "ローソン（メールサーバの不正利用）",
+   "date": "2026-10-01",
+   "reason": "公式発表(2026/10/1)は不審メール約70万通の送信のみで、個人情報等の漏えいは確認されていないと記載",
+   "official": [
+    "https://www.lawson.co.jp/contents/cont07/1532969_3310.html"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "taikisha-malaysia-2609",
+   "co": "大気社（マレーシア子会社 Taikisha Engineering (M) Sdn. Bhd.）",
+   "date": "2026-09-18",
+   "reason": "従業員1名のメールアカウントへの不正アクセスと不審メール送信の発表。個人情報の漏えいには触れておらず、現時点で具体的な被害は確認されていないとしている。",
+   "official": [
+    "https://www.taikisha.co.jp/common/mtimg/20260918.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "landhousing-2609",
+   "co": "ランドハウジング",
+   "date": "2026-09-18",
+   "reason": "他社の内見予約システム上の同社アカウントが不正利用された事案。流出した可能性があるのは物件の鍵情報で、個人情報の漏えいは公式発表に書かれていない。",
+   "official": [
+    "https://www.landhousing.co.jp/news/49"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "scorejp-2609",
+   "co": "スコア・ジャパン",
+   "date": "2026-09-16",
+   "reason": "ウェブサイト改ざんの事案。公式発表で、調査の結果、個人情報等の外部漏洩はないと明記。",
+   "official": [
+    "https://www.scorejp.com/PDF/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E5%85%AC%E9%96%8B%E7%94%A8%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E3%81%8A%E8%A9%AB%E3%81%B3_20260916.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "kkr-kyoto-kunisou-2608",
+   "co": "国家公務員共済組合連合会（KKR京都くに荘）",
+   "date": "2026-08-25",
+   "reason": "メールサーバへの不正アクセス。9月16日の調査結果で、メールボックスへのアクセスや閲覧を示す記録はなく、個人情報の漏えいした事実は確認されなかったとしている。",
+   "official": [
+    "https://www.kkr.or.jp/hotel/news/2026/09/post-227.html"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "kyushu-denshi-most-2609",
+   "co": "九州電子（台湾子会社 MOST社）",
+   "date": "2026-09-15",
+   "reason": "台湾子会社のランサムウェア感染の最終報。同社への感染拡大や情報漏えいにつながる通信の痕跡は確認されず、個人情報の漏えいにも触れていない。",
+   "official": [
+    "https://www.qdk.co.jp/information/most%E7%A4%BE%EF%BC%88%E5%BC%8A%E7%A4%BE%E5%8F%B0%E6%B9%BE%E5%AD%90%E4%BC%9A%E7%A4%BE%EF%BC%89%E3%81%AE%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A4%E3%83%B3/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "thinca-kaikura-site-2608",
+   "co": "シンカ（サービス紹介サイト）",
+   "date": "2026-08-28",
+   "reason": "サービス紹介サイトへの不正アクセス。9月17日の調査結果で、データを外部へ送信した形跡はなく、個人情報の外部への漏えいは確認されなかったとしている。",
+   "official": [
+    "https://www.thinca.co.jp/news/202609017_news/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "shinano-mainichi-digital-2609",
+   "co": "信濃毎日新聞社（信濃毎日新聞デジタル）",
+   "date": "2026-09-28",
+   "reason": "信毎ポイント交換システムへの不正アクセスで履歴データが一時消去された事案。公式発表で、個人情報の流出（外部漏洩）は確認されていないと明記。",
+   "official": [
+    "https://nano.shinmai.co.jp/info/media/93016/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "keio-dentetsu-2609",
+   "co": "京王電鉄（ランサムウェア攻撃）",
+   "date": "2026-09-26",
+   "reason": "公式発表(2026/9/26)に「情報漏洩の事実については現在確認できておりません」と記載。ランサムウェア攻撃による一部グループ会社の営業システム障害で、流出を含む影響範囲は調査中。続報で漏えいが確認されれば再登録",
+   "official": [
+    "https://www.keio.co.jp/news/update/announce/nr260926v13404/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "utokyo-sph-2609",
+   "co": "東京大学大学院医学系研究科 公共健康医学専攻（Webサイト不正アクセス）",
+   "date": "2026-09-12",
+   "reason": "公式発表(2026/9/12)に「本サイトでは会員登録や個人情報の入力を伴う機能を提供しておらず、入力された情報が流出した事実はない」と記載。不正プログラム設置（偽エラー画面表示）のみ",
+   "official": [
+    "https://www.m.u-tokyo.ac.jp/sph/wp-content/uploads/2026/09/af7c7d12a204fcf2ab9c475d587ed489.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "kumamoto-onestop-job-2609",
+   "co": "熊本県（ワンストップジョブサイトくまもと）",
+   "date": "2026-09-09",
+   "reason": "公式発表(2026/9/9、9/15更新)に「個人情報等の漏洩は確認されておりません」と記載。サイト改ざん（偽警告表示）のみ",
+   "official": [
+    "https://kumamoto.onestop-job.jp/2026/09/post-59.html"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "asahi-kasei-ex-employee-2609",
+   "co": "旭化成（元従業員による機密情報持ち出し）",
+   "date": "2026-09-17",
+   "reason": "公式発表(2026/9/17)に「流出した機密情報には、お取引先から預かった技術資料、個人情報等は含まれていない」と記載。潜在性硬化剤に関する技術情報の不正持ち出しで、個人情報の漏えいではない",
+   "official": [
+    "https://www.asahi-kasei.com/jp/news/2026/ze260917"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "nippon-trex-2609",
+   "co": "日本トレクス（極東開発工業グループ・不正アクセス）",
+   "date": "2026-09-08",
+   "reason": "公式発表(2026/9/8・9/11)に「個人情報や顧客データなどの外部への流出は確認されていない」と記載。受発注・メール送受信の業務停止を伴うシステム障害",
+   "official": [
+    "https://www.kyokuto.com/wp-content/uploads/260908.pdf",
+    "https://www.kyokuto.com/wp-content/uploads/260911-1.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "chiba-biodiversity-2609",
+   "co": "千葉県（生物多様性センター「生命のにぎわい調査団」ページ）",
+   "date": "2026-09-01",
+   "reason": "千葉県発表(2026/9/1)に、団員1,963名の氏名等が保存されていたが、現時点で個人情報が漏えいした事実は確認されていないと記載（専門業者が調査予定）",
+   "official": [
+    "https://www.pref.chiba.lg.jp/shizen/press/2026/260901hompageerror.html"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "paperlogic-2609",
+   "co": "ペーパーロジック",
+   "date": "2026-09-01",
+   "reason": "公式発表(2026/9/1)に、お客様情報が第三者からアクセスされ外部に漏えいした事実は確認されていない、閲覧・持出しの痕跡も見つからないと記載",
+   "official": [
+    "https://paperlogic.co.jp/post_17046/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "mogily-2609",
+   "co": "mogily株式会社（デジタル整理券システム「mogily」）",
+   "date": "2026-09-11",
+   "reason": "公式発表で、不正アクセスにより一部顧客133名の抽選結果が改ざんされたが、個人情報（氏名、連絡先など）の漏えいは一切発生していないと明記されているため。",
+   "official": [
+    "https://corp.mogily.me/news/5097564298805248/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "shizugin-tm-2608",
+   "co": "静銀ティーエム証券",
+   "date": "2026-08-28",
+   "reason": "公式発表(2026/8/28)はフィッシング詐欺等による顧客口座への不正アクセス・不正取引の注意喚起で、同社からの個人情報漏えいには触れていない",
+   "official": [
+    "https://www.shizugintm.co.jp/topics/01u79ob5df140to9t.html"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "yamanashi-univ-rental-server-2608",
+   "co": "山梨大学",
+   "date": "2026-08-27",
+   "reason": "レンタルサーバ上のWebサイト改ざん。公式発表は、侵害されたサイトで個人情報・機微情報を取り扱っておらず、情報の流出も確認されていないと明記。",
+   "official": [
+    "https://sojo.yamanashi.ac.jp/maintenance/6757/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "nskre-cloud-2608",
+   "co": "日鉄興和不動産",
+   "date": "2026-08-26",
+   "reason": "利用するクラウドサービスへの不正アクセス。公式発表は、顧客情報が保存されているが、現時点で個人情報の漏えい・不正利用の事実は確認されていないと明記（調査中）。",
+   "official": [
+    "https://www.nskre.co.jp/company/news/2026/20260826.html"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "tottori-radiation-monitoring-2609",
+   "co": "鳥取県（環境放射線モニタリングシステム）",
+   "date": "2026-09-03",
+   "reason": "ランサムウェア被害だが、公式発表は、システム内に機密情報や個人情報はないと明記しており、個人情報の漏えいに触れていない。",
+   "official": [
+    "https://db.pref.tottori.jp/pressrelease.nsf/webview/1E29F3226152B1B649258E66001DE2E2"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "sakura-sakuramirai-2609",
+   "co": "さくらさくみらい",
+   "date": "2026-09-07",
+   "reason": "委託先のクラウド事業者への不正アクセスで、同社契約サーバー（2017年までのメールバックアップ環境とDNS）のパスワードが流出した可能性。個人情報の漏えいは公式発表に記載がなく、保護者・入園検討者等の情報は影響範囲外と明記、不正アクセスや情報流出も確認されていない。",
+   "official": [
+    "https://www.sakura-39.jp/news/27120"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "scat-cloud-2609",
+   "co": "SCAT株式会社（利用クラウドサービスの不正利用）",
+   "date": "2026-09-04",
+   "reason": "公式発表(2026/9/4第一報)に、個人情報・機密情報その他のデータが外部へ漏えいした形跡は現時点で確認されていないと記載。有償クラウドの不正利用による料金発生が問題",
+   "official": [
+    "https://www.scat.inc/news/2026/09/04/537"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "pending-330",
+   "co": "静岡県長泉町（職員による廃棄予定文書の持ち帰り）",
+   "date": "2026-08-25",
+   "reason": "町の公式発表(2026/8/25)に、持ち帰った公文書に個人情報を含む文書があったが個人情報の流出は確認されていないと明記",
+   "official": [
+    "https://www.town.nagaizumi.lg.jp/material/files/group/2/r8choukaishobun0825.pdf"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "osaka-city-tax-staff-2608",
+   "co": "大阪市（財政局あべの市税事務所職員による税情報の不正閲覧・改ざん）",
+   "date": "2026-08-27",
+   "reason": "公式発表(2026/8/27)は懲戒免職の公表で、職員が税情報を不正に入力・閲覧した内容。外部への漏えいの記載はない",
+   "official": [
+    "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000684161.html"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "nihon-data-processing-2608",
+   "co": "株式会社日本ビジネスデータープロセシングセンター",
+   "date": "2026-08-24",
+   "reason": "公式発表(2026/8/24)は不正アクセスの確認と調査中のみで、個人情報の漏えいやその可能性に触れていない",
+   "official": [
+    "https://ssl.nihon-data.jp/new/news-13905/"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "jbfa-site-2608",
+   "co": "特定非営利活動法人日本ブラインドサッカー協会",
+   "date": "2026-08-20",
+   "reason": "公式発表(2026/8/20)はウェブサイト改ざんで、個人情報の流出は確認されていないと明記",
+   "official": [
+    "https://www.b-soccer.jp/news/34285-0820"
+   ],
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "nexco-east-gaikan-2609",
+   "co": "東日本高速道路（NEXCO東日本）東京外環プロジェクトホームページ",
+   "date": "2026-09-04",
+   "reason": "公式発表(2026/9/4)に、不正アクセスの疑いがあり現時点で個人情報の流出は確認されていないと明記",
+   "official": [
+    "https://www.e-nexco.co.jp/news/important_info/2026/0904/00016589.html"
+   ],
+   "checked": "2026-10-14"
   }
  ]
 }
