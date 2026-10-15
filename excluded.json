@@ -575,6 +575,46 @@
     "https://www.e-nexco.co.jp/news/important_info/2026/0904/00016589.html"
    ],
    "checked": "2026-10-14"
+  },
+  {
+   "id": "kingprinters-2609",
+   "co": "株式会社キングプリンターズ",
+   "date": "2026-09-14",
+   "reason": "公式発表(2026/9/14, 9/25)に「個人情報およびデータの漏洩は確認されていない」と明記。目的は生成AIサービスの不正利用とみられるとしている",
+   "official": [
+    "https://kingprinters.com/news/2026/oshirase_20260925"
+   ],
+   "checked": "2026-10-16"
+  },
+  {
+   "id": "spoonsports-2608",
+   "co": "株式会社スプーン",
+   "date": "2026-08-20",
+   "reason": "公式発表(2026/8/20, 9/2)はウェブサイト改ざんの事案で、個人情報への影響の有無は調査中とするのみ。漏えい（可能性）に触れていない",
+   "official": [
+    "https://www.spoonsports.jp/blog/?p=8274"
+   ],
+   "checked": "2026-10-16"
+  },
+  {
+   "id": "toho-tsushin-2608",
+   "co": "株式会社東邦通信システムズ",
+   "date": "2026-08-19",
+   "reason": "公式発表(2026/8/19)はホスティングサーバーへの不正アクセスとメール設定の書き換えで、大規模なデータ流出等の二次被害は確認されていないとされ、個人情報の漏えいに触れていない",
+   "official": [
+    "https://www.new-tts.co.jp/news"
+   ],
+   "checked": "2026-10-16"
+  },
+  {
+   "id": "daiko-next-link-2609",
+   "co": "DAIKO NEXT LINK株式会社",
+   "date": "2026-08-19",
+   "reason": "公式発表(2026/8/19)はメールアカウントのパスワード詐取とメールシステム停止の報告で、個人情報の漏えいに触れていない",
+   "official": [
+    "https://www.daiko-xtech.co.jp/group/dnl/news/p/852"
+   ],
+   "checked": "2026-10-16"
   }
  ]
 }

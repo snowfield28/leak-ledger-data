@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -2758,23 +2758,6 @@
    "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
   },
   {
-   "id": "gex-2602",
-   "co": "ジェックス",
-   "cause": "cyber",
-   "types": [
-    "ランサムウェア"
-   ],
-   "st": "p",
-   "sum": "ランサムウェア等のサイバー攻撃を受けたと公表（報道見出し）。",
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/02/25/54700.html"
-    ]
-   ],
-   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
-  },
-  {
    "id": "ulvac-korea",
    "co": "アルバック（韓国連結子会社）",
    "cause": "cyber",
@@ -5001,19 +4984,6 @@
    ]
   },
   {
-   "id": "daiko-next-link-2609",
-   "co": "DAIKO NEXT LINK",
-   "date": "",
-   "cause": "cyber",
-   "pendingReason": "2026-10-10の再照合では公式発表を開けず未確認：WebFetchが公式URLをPROVENANCE_REQUIREDで拒否し（検索結果経由のURLも同様）、公式発表の件数・内容を確認できなかった。URLは https://www.daiko-xtech.co.jp/group/dnl/news/p/854/。前回の保留理由：公式発表（メールアカウント関連）が WebFetch で開けず照合できない",
-   "official": [
-    [
-     "公式発表",
-     "https://www.daiko-xtech.co.jp/group/dnl/news/p/854/"
-    ]
-   ]
-  },
-  {
    "co": "小平市（公式ホームページ／保守委託先のクラウド基盤）",
    "date": "2026-10-07",
    "last": "2026-10-08",
@@ -5945,6 +5915,107 @@
    ],
    "ind": "製造",
    "pendingReason": "自動取得不可（公式URLがHTTP 404、WebFetchも不可）。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "hachioji-gakuen-2607",
+   "co": "八王子学園 八王子中学校・高等学校",
+   "date": "2026-09-30",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（在校生・卒業生・保護者・受験生・教職員・退職者の個人情報を含むファイルが暗号化）",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "サーバーと一部教職員端末のファイルがランサムウェアで暗号化され、個人情報を含むファイルも含まれる。第2報（2026/9/30）ではフォレンジック調査で外部流出の明確な痕跡は確認されていないが、ログの一部が消去されており完全には否定できないとしている。",
+   "status": "ongoing",
+   "statusText": "2026年9月30日に第2報。",
+   "resp": "リモートデスクトップ接続の遮断、ネットワーク再構築。問い合わせはフォームで受付。",
+   "official": [
+    [
+     "本校を標的にしたサイバー攻撃について（第２報）（2026/9/30）",
+     "https://www.hachioji.ed.jp/information/information-junr/5111/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/15/56465.html"
+    ]
+   ],
+   "ind": "大学・学校",
+   "pendingReason": "第2報の公式本文は読めたが、初報（2026/7/13）の公式本文を未確認で、件数・対象者区分が確定できない。流出は「確認されず、完全否定は不可能」との記載。"
+  },
+  {
+   "id": "toyobo-fiber-2609",
+   "co": "東洋紡せんい（東洋紡グループ）",
+   "date": "2026-09-25",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "unk"
+   ],
+   "sum": "従業員のメールアカウントが不正アクセスを受け、フィッシングサイトへ誘導する約1,500件の不審メールが社内外に送信された。アカウント内のメールや連絡先情報へのアクセスログを調査中で、個人情報漏えいの有無も調査中としている。",
+   "status": "ongoing",
+   "statusText": "2026年9月25日18時時点の発表。",
+   "resp": "パスワード変更・認証セッション失効、外部の関係者へ個別に注意喚起。",
+   "official": [
+    [
+     "当社グループ会社メールアカウントへの不正アクセスおよび不審メール送信について（お詫び）（2026/9/25）",
+     "https://www.toyobo.co.jp/system/files/News_Release/202609/press_20260925_3J.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/15/56462.html"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "公式発表（9/25）は個人情報の漏えい有無を「調査中」とするのみで、漏えい（可能性）を明記していない（東洋紡エムシーと同様）。"
+  },
+  {
+   "id": "medley-atlink-2610",
+   "co": "株式会社メドレー（@link アットリンク）",
+   "date": "2026-10-15",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "cust"
+   ],
+   "sum": "産婦人科向け業務支援システム「@link」、患者向けアプリ等に第三者の不正アクセスを確認し、登録患者の個人情報が漏えいした可能性があるとの報道。対象は利用する全医療機関（最大787件）。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/15）。",
+   "resp": "サービスを一時停止し調査中。個人情報保護委員会へ報告、警察へ相談との報道。",
+   "official": [],
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2148459.html"
+    ]
+   ],
+   "ind": "病院・医療",
+   "pendingReason": "メドレーの公式発表を自動取得できず（inboxに本文なし、WebFetchも不可）。manual/ に公式文面を貼れば反映できる"
   }
  ]
 }
