@@ -1,0 +1,307 @@
+URL: https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/
+
+An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation
+Threat Research Center
+Insights
+General
+General
+An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation
+ 4
+ min read 
+Related Products
+Unit 42 Frontier AI Defense
+Unit 42 Incident Response
+By:
+Renzon Cruz
+Nicolas Bareil
+Eric Semaan
+Omar Jbari
+Published:
+September 2, 2026
+Categories:
+General
+Insights
+Threat Research
+Tags:
+Agentic AI
+Frontier AI
+Share
+Unit 42 responded to an incident where a human attacker used frontier AI to breach an enterprise network autonomously as part of a ransom attack. The agents breached the company's security layers in a methodical manner, each targeting a different layer of defense to achieve a shared goal. The impact was at the scale of a coordinated effort from multiple red teams, which would normally take human operators around two weeks.
+The threat actor told us in negotiations that they leveraged frontier AI models and attack-specific agentic AI frameworks. By shifting execution to an automated loop, the attacker compressed weeks of methodical intrusion tradecraft (using more than 50 MITRE ATT&CK techniques) into less than 10 hours.
+After they gained initial access, the attacker used agents to map the internal architecture, raid source repositories and seize root credentials. The agents also triggered unauthorized continuous integration/continuous delivery (CI/CD) builds and claimed master keys to the victim's cloud AI infrastructure.
+What made the attack stand out was AI-assisted operational efficiency, without the need for a novel zero-day or super elite tradecraft. The attacker left tactical execution to AI agents that monitored, evaluated, acted and re-planned in real time, increasing speed throughout the attack chain.
+The attacker also directed the agent to leave behind a “report” on the organization’s security posture: an 80-page, technical audit detailing dozens of exploited findings.
+Inside the Machine-Speed Attack Chain
+The adversary ran their operation using current AI-enabled software development processes. We observed multiple indicators consistent with AI usage:
+LLM calls to multiple frontier AI agents in parallel
+Structured Markdown files passing information between agents and sessions
+Custom scripts (assessed with high confidence to be AI-generated due to UI elements) managing dynamic operations
+The 10-hour operational timeline included the following:
+Infiltration and mapping:
+ The actor breached a publicly accessible web service to tunnel into the network, deploying an automated recon agent to map internal microservices.
+Secrets harvesting:
+ Sub-agents combed enterprise code repositories, extracting hard-coded tokens and service passwords.
+Privilege takeover:
+ Using exposed tokens, the actor infiltrated the secrets management system, harvesting master administrative credentials to seize control of root system access.
+Pipeline exploitation:
+ The actor hijacked an enterprise code application via custom workflows to exfiltrate cloud access keys. They attempted to plant backdoors in Terraform configurations, but hard branch-protection controls stopped this.
+AI infrastructure hijacking:
+ Using stolen cloud keys, the actor turned the victim’s AI endpoints into post-compromise infrastructure — using the company’s compute power to perpetrate future moves.
+Figure 1 maps the AI-orchestrated workflow.
+Figure 1. AI-orchestrated intrusion workflow. The actor sets objectives and makes consequential decisions. Specialized agents execute, share results and adapt in real time.
+Unified Threat Framework Mapping
+For illustration, Table 1 below maps some of the techniques used against the MITRE ATT&CK and ATLAS frameworks:
+Intrusion Stage
+Threat Actor Action
+MITRE ATT&CK
+®
+ Mapping
+MITRE ATLAS™ (AI-Specific) Mapping
+Initial Access and Recon
+Publicly accessible web service breach; automated service mapping via service discovery tool
+T1190:
+ Exploit Public-Facing Application
+T1046:
+ Network Service Discovery
+AML.T0000:
+ Initial Access
+AML.T0002:
+ AI-Automated Reconnaissance
+Credential Access
+Code scraping for secrets across code repos
+T1552.001:
+ Credentials In Files
+AML.T0014:
+ Credentials Harvesting
+Privilege Escalation
+Infiltrating secrets manager to harvest admin system secrets
+T1555:
+ Credentials from Password Stores
+AML.T0016:
+ Privilege Escalation via Automated Pivot
+Pipeline Abuse
+Executing CI/CD actions; attempting cloud provisioning tool edits
+T1578:
+ Modify Cloud Compute Infrastructure
+AML.T0010:
+ ML/DevOps Pipeline Interception
+AI Infrastructure Abuse
+Invoking cloud AI models via stolen keys
+T1078:
+ Valid Accounts
+AML.T0043:
+ LLM Invocations via Stolen API Keys
+Table 1. Major MITRE ATT&CK and MITRE ATLAS techniques used by the attacker.
+Key Lessons: Addressing Agentic Attacks
+This incident exposes how an attacker who understands how to deploy frontier AI agents effectively can dramatically speed up the pace of their attack. We assess that attackers will increasingly add AI agents to their tool sets. Organizations should take note of the following to address agentic attacks:
+AI agents reduce the time between steps in the attack flow: 
+AI agents in this attack were designed to parse raw tool output and quickly take next steps, speeding up the overall attack flow.
+AI agents leave recognizable indicators: 
+Defenders can identify agentic attacks by watching for indicators such as the use of structured Markdown, Python caches and paired asset folders.
+Attackers can use AI to establish redundant persistence across the environment: 
+In this incident, the attacker used AI agents to efficiently establish overlapping persistence across SSH keys, serverless functions, container restart policies, cloud identities and CI/CD pipelines. Using AI agents can make it easier for an attacker to maintain and test this entire portfolio in parallel.
+Attackers can use an organization’s AI tools as post-compromise infrastructure: 
+Attackers can hijack enterprise AI services to assist in their attacks. This allows threat actors to hide orchestration traffic among expected traffic, and offload the financial cost onto the victim.
+Defending Against Machine-Speed Attacks
+Defending against automated agent loops requires matching the speed and adaptability of AI-driven attacks:
+Execute synchronized containment:
+ Deploy automated playbooks that simultaneously revoke credentials, terminate OAuth sessions, freeze CI/CD pipelines and isolate cloud accounts across all operational planes.
+Govern AI as core infrastructure:
+ Inventory every model endpoint, API key, Model Context Protocol (MCP) gateway and AI tool integration. Apply strict rate limits, least-privilege policies and diagnostic logging.
+Detect behavioral loops:
+ Hunt for operational loops including bursty API requests, rapid 401/200 HTTP state shifts, parallel authentications and sudden model usage from unexpected identities.
+Lock down DevOps pipelines:
+ Enforce mandatory, multi-party code reviews and immutable branch protection on all infrastructure-as-code repos to block automated backdoor injection.
+Learn more about how Unit 42 can help defend against AI-driven threats through 
+Unit 42 Frontier AI Defense
+.
+Updated Sept. 3, 2026, at 5:25 a.m. PT to clarify that the attack was an intrusion, and not a ransomware attack. 
+Updated Sept. 4, 2026, at 6:42 a.m. PT for minor clarifying copyedits. 
+Back to top
+Tags
+Agentic AI
+Frontier AI
+Threat Research Center
+Next: Spring Ring: An Inside Look at Voice Phishing Campaigns in Microsoft Teams
+Table of Contents
+Related Articles
+ A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity 
+ Attackers Expose Ongoing AI Tool Use Targeting Organizations in Latin America 
+ The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software 
+Related General Resources
+Insights
+October 7, 2026
+Evolution of Web3 in Cloud Supply Chain Attacks
+Cloud configuration
+DPRK
+Supply-chain attack
+ Read now 
+Insights
+September 16, 2026
+Atomic macOS (AMOS) Stealer Activity
+MacOS
+Threat intelligence
+Unit 42
+ Read now 
+Insights
+August 28, 2026
+Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety
+AI
+Jailbreak
+LLM
+ Read now 
+Insights
+August 21, 2026
+Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain
+ChainDrop
+Npm packages
+Software supply-chain attack
+ Read now 
+High Profile Threats
+August 18, 2026
+Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)
+Credential theft
+ Read now 
+Insights
+August 4, 2026
+The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software
+AI
+Frontier AI
+Vulnerability Exploitation
+ Read now 
+Insights
+July 2, 2026
+How We Added WebAuthn to a Browser-Based RDP Client
+IDA Pro
+Microsoft
+RDP
+ Read now 
+Insights
+June 12, 2026
+Tracing Digital Intent: New MacOS Tahoe 26 Artifact Discovered
+Digital forensics
+MacOS
+ Read now 
+Insights
+June 8, 2026
+When “Hi, This Is IT” Comes Through Microsoft Teams
+Cloaked Ursa
+Identity
+Phishing
+ Read now 
+ Get updates from Unit 42 
+Peace of mind comes from staying ahead of threats. Subscribe today.
+Your Email
+Subscribe for email updates to all Unit 42 threat research.
+By submitting this form, you agree to our 
+Terms of Use
+ and acknowledge our 
+Privacy Statement.
+ This site is protected by reCAPTCHA and the Google 
+Privacy Policy
+ and 
+Terms of Service
+ apply. 
+Invalid captcha!
+ Subscribe 
+Get the latest news, invites to events, and threat alerts
+Enter your email now to subscribe!
+Sign up 
+ By submitting this form, I understand my personal data will be processed in accordance with
+Palo Alto Networks Privacy Statement
+ and 
+Terms of Use.
+Sign up 
+Products and Services
+ AI-Powered Network Security Platform
+ Secure AI by Design
+ Prisma AIRS
+ AI Access Security
+ Cloud Delivered Security Services
+ Advanced Threat Prevention
+ Advanced URL Filtering
+ Advanced WildFire
+ Advanced DNS Security
+ Enterprise Data Loss Prevention
+ Enterprise IoT Security
+ Medical IoT Security
+ Industrial OT Security
+ SaaS Security
+ Next-Generation Firewalls
+ Hardware Firewalls
+ Software Firewalls
+ Strata Cloud Manager
+ SD-WAN for NGFW
+ PAN-OS
+ Panorama
+ Secure Access Service Edge
+ Prisma SASE
+ Application Acceleration
+ Autonomous Digital Experience Management
+ Enterprise DLP
+ Prisma Access
+ Prisma Browser
+ Prisma SD-WAN
+ Remote Browser Isolation
+ SaaS Security
+ AI-Driven Security Operations Platform
+ Cloud Security
+ Cortex Cloud
+ Application Security
+ Cloud Posture Security
+ Cloud Runtime Security
+ Prisma Cloud
+ AI-Driven SOC
+ Cortex XSIAM
+ Cortex XDR
+ Cortex XSOAR
+ Cortex Xpanse
+ Unit 42 Managed Detection & Response
+ Managed XSIAM
+ Observability
+ Cortex XCOR
+ Next-Generation Identity Security
+ Privileged Access Management
+ Identity and Access Management 
+ Endpoint Privilege Manager
+ Identity Governance
+ Workforce Password Management
+ Agentic Identities
+ Secrets Management
+ Unified Secrets Governance
+ Application Credentials Delivery
+ Vendor Privileged Access
+ Threat Intel and Incident Response Services
+ Prepare for Emerging Risks
+ Strengthen Your Defenses
+ Build Your Security Strategy
+ Understand the Adversary
+ Respond to a Cyber Attack
+Company
+ About Us
+ Careers
+ Contact Us
+ Corporate Responsibility
+ Customers
+ Investor Relations
+ Location
+ Newsroom
+Popular Links
+ Blog
+ Communities
+ Content Library
+ Cyberpedia
+ Event Center
+ Manage Email Preferences
+ Products A-Z
+ Product Certifications
+ Report a Vulnerability
+ Sitemap
+ Tech Docs
+ Unit 42
+ Do Not Sell or Share My Personal Information
+Your browser does not support the video tag.
+Default Heading
+Read the article
+Seekbar
+Volume
