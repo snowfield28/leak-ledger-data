@@ -22472,6 +22472,65 @@
     "src": "https://www.conoha.jp/wing/news/?btn_id=wing-news--news_wing-news&ap=2015054834"
    },
    "verified": "2026-10-15"
+  },
+  {
+   "id": "washington-hotel-2602",
+   "co": "ワシントンホテル株式会社",
+   "date": "2026-09-07",
+   "last": "2026-09-07",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "調査中（人数の記載なし）",
+   "st": "p",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "work",
+    "acct"
+   ],
+   "itemsText": "氏名、所属部署、生年月日、入社年月日（全対象）。住所（2018年2月以降の入社者）、基礎年金番号・標準報酬月額（雇用保険加入者）、履歴書・銀行口座情報（2020年4月以降の入社者）",
+   "sum": "ランサムウェア感染の調査過程で、一部の従業員（退職者を含む）の個人情報が保存されたサーバーが不正アクセスの対象になっていたことを確認。情報窃取を示す明確な痕跡やダークウェブ上での公開は確認されていないが、漏えいの可能性は否定できないとして、2000年4月〜2026年2月13日に入社した退職者を対象に個別通知を進め、連絡が困難な人には公式サイトの掲載で通知に代えている。",
+   "status": "closed",
+   "statusText": "2026年9月7日に最終報を公表。その後、退職者向けに個人情報の取扱いを知らせるお知らせを掲載。個人情報の不正利用や公開は確認されていないとしている。",
+   "resp": "対象者への個別通知を順次実施し、連絡先不明などで困難な人は公式サイトへの掲載で通知に代える。不審な電話・メール・SMS・郵便物・身に覚えのない請求への注意を呼びかけ。",
+   "official": [
+    [
+     "ランサムウェア感染被害に関する調査結果および対応状況のお知らせ（最終報）（2026/9/7）",
+     "https://www.washingtonhotel.co.jp/corporation/news/228/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/09/25/56299.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=40727"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "who": [
+    "staff"
+   ],
+   "contact": {
+    "mails": [
+     "privacy@washingtonhotel.co.jp"
+    ],
+    "tels": [
+     {
+      "tel": "052-745-9030",
+      "hours": "退職者向け（総務人事部）"
+     }
+    ],
+    "note": "総務人事部（退職者の個人情報に関するお知らせの窓口）",
+    "src": "https://www.washingtonhotel.co.jp/corporation/news/228/"
+   },
+   "verified": "2026-10-15"
   }
  ],
  "statusLabels": {
@@ -22504,7 +22563,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 270,
+ "pendingCount": 269,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
