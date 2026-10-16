@@ -1,6 +1,366 @@
 {
- "items": [],
- "generated": "2026-10-16 04:31 JST",
+ "items": [
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56482.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.16 Fri 8:05 システム業者への不正アクセスを受け、大分県で防災メール等配信システムの新規登録を停止 大分県は10月13日、不正アクセスの疑いに伴う防災メール等配信システムの新規登録の停止について発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/1cfa35e4b4d7.txt",
+   "official": [
+    {
+     "url": "https://www.pref.oita.jp/soshiki/13550/bosaimeil.html",
+     "status": "ok",
+     "chars": 1129,
+     "text_file": "inbox/texts/74b66d06232a.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4219,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56481.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.16 Fri 8:05 アルカディア運営の「SpeeCAN RAIDEN」に不正アクセス 株式会社アルカディアは10月13日、同社が運営する「SpeeCAN RAIDEN」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/d8021e07fe2d.txt",
+   "official": [
+    {
+     "url": "https://www.arcadia.co.jp/wp-content/uploads/2026/10/20261012_SpeeCANRAIDEN_cyberattack.pdf",
+     "status": "ok",
+     "chars": 1004,
+     "text_file": "inbox/texts/fb23e405df3a.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4219,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56480.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.16 Fri 8:05 TOPPAN 受託の「保険料控除証明書 発行サービス 」運用業務で 177,426 名分のデータ誤送付 TOPPAN株式会社は9月29日、同社が受託する「保険料控除証明書 発行サービス 」運用業務でのデータ誤送付について発表した。文字のコピーができないPDFファイルで公開している。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/237b057002bf.txt",
+   "official": [
+    {
+     "url": "https://www.holdings.toppan.com/ja/info/toppan_info20260929.pdf",
+     "status": "ok",
+     "chars": 2336,
+     "text_file": "inbox/texts/c151319e7894.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4219,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56479.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.16 Fri 8:05 三井不動産への不正アクセス、攻撃者による資格情報の不正利用を確認 三井不動産株式会社は9月28日、9月1日に公表した同社グループが利用する一部のシステムへの不正アクセスについて、第二報を発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/1aba6c3994e0.txt",
+   "official": [
+    {
+     "url": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
+     "status": "ok",
+     "chars": 1706,
+     "text_file": "inbox/texts/302595363196.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4219,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56478.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.16 Fri 8:05 フクビ化学工業 英語版ウェブサイトに不正アクセス フクビ化学工業株式会社は9月28日、同社が運営する英語版ウェブサイトへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/bc2b11e3fb8d.txt",
+   "official": [
+    {
+     "url": "https://www.fukuvi.co.jp/news/information/2026093001",
+     "status": "ok",
+     "chars": 869,
+     "text_file": "inbox/texts/88d3618a2998.txt"
+    },
+    {
+     "url": "https://www.fukuvi.co.jp/news/information/2026092801",
+     "status": "ok",
+     "chars": 704,
+     "text_file": "inbox/texts/9a2f64005f8a.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4219,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56477.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.16 Fri 8:05 サンポー食品ウェブサイトに不正アクセス、管理者権限の取得や改ざんを確認 サンポー食品株式会社は9月28日、同社ウェブサイトへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/d749b70cda52.txt",
+   "official": [
+    {
+     "url": "https://sanpofoods.co.jp/news/archives/1658/",
+     "status": "ok",
+     "chars": 873,
+     "text_file": "inbox/texts/2a4d1d76b6d7.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4219,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56476.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.16 Fri 8:05 「極上珈琲 生豆本舗」に SQL インジェクション攻撃、サイトが正常に表示されない障害が発生 コロンビア珈琲株式会社は9月28日、同社が運営する「極上珈琲 生豆本舗」での障害について発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/5024bfe7433d.txt",
+   "official": [
+    {
+     "url": "https://www.namamame.jp/index.php?main_page=news_manager&pages_id=995",
+     "status": "ok",
+     "chars": 3208,
+     "text_file": "inbox/texts/604361600f92.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4219,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56475.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.16 Fri 8:05 「TEMAIRAZU シリーズ」を利用する宿泊施設の予約客に不審なメッセージを送信 手間いらず株式会社は9月28日、同社サービス「TEMAIRAZU シリーズ」を利用する宿泊施設を予約した顧客への不審なメッセージの送信について発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/f4a775417fc9.txt",
+   "official": [
+    {
+     "url": "https://www.temairazu.co.jp/pdf/1206/news-update",
+     "status": "ok",
+     "chars": 3075,
+     "text_file": "inbox/texts/9c23e7c9e8a4.txt"
+    },
+    {
+     "url": "https://www.temairazu.co.jp/pdf/1210/news-update",
+     "status": "ok",
+     "chars": 1525,
+     "text_file": "inbox/texts/c2316b9715be.txt"
+    },
+    {
+     "url": "https://www.temairazu.co.jp/pdf/1212/ir-news",
+     "status": "ok",
+     "chars": 1949,
+     "text_file": "inbox/texts/87b34658e1c1.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4219,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56474.html",
+   "title": "脅威動向 ScanNetSecurity 2026.10.16 Fri 8:00 IPA、不正アクセスによる漏えい等の事案を踏まえ速やかに実施すべき対策を公表 独立行政法人情報処理推進機構（IPA）は10月9日、不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/cb5ca040bc73.txt",
+   "official": [
+    {
+     "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html",
+     "status": "ok",
+     "chars": 4718,
+     "text_file": "inbox/texts/e43b81e0b9de.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4219,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2022/02/21/47165.html",
+   "title": "情報漏えいした上場企業の株価、最大下落率は21.6%に",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/b60a83e1965c.txt",
+   "official": [
+    {
+     "url": "https://www.cscloud.co.jp/news/press/202202174115/",
+     "status": "ok",
+     "chars": 1902,
+     "final_url": "https://www.cscloud.co.jp/news/report/202202174115/",
+     "text_file": "inbox/texts/0a8d58e32b30.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4219,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://internet.watch.impress.co.jp/docs/news/2148860.html",
+   "title": "ヤマト運輸、「クロネコ代金後払いサービス」不正アクセスで約530万件の個人情報漏えい",
+   "source": "INTERNET Watch 個人情報",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/25fe603f7baa.txt",
+   "official": [
+    {
+     "url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+     "status": "ok",
+     "chars": 1865,
+     "text_file": "inbox/texts/b02d8b0b6650.txt"
+    },
+    {
+     "url": "https://www.hanken.impress.jp/",
+     "status": "thin",
+     "chars": 37,
+     "text_file": "inbox/texts/389200c66247.txt"
+    },
+    {
+     "url": "https://www.impressholdings.com/",
+     "status": "ok",
+     "chars": 1020,
+     "text_file": "inbox/texts/7c29deb4a01a.txt"
+    },
+    {
+     "url": "https://netatopi.jp",
+     "status": "ok",
+     "chars": 5546,
+     "final_url": "https://netatopi.jp/",
+     "text_file": "inbox/texts/4eb20824d5fd.txt"
+    },
+    {
+     "url": "https://dekiru.net/",
+     "status": "ok",
+     "chars": 4989,
+     "text_file": "inbox/texts/5348a3689af1.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://internet.watch.impress.co.jp/docs/news/2148798.html",
+   "title": "IPAが「不正アクセス特別相談窓口」設置、不正アクセス被害やその可能性を相談できる",
+   "source": "INTERNET Watch 個人情報",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/5f2fa452db79.txt",
+   "official": [
+    {
+     "url": "https://www.ipa.go.jp/pressrelease/2026/press20261016.html",
+     "status": "ok",
+     "chars": 1332,
+     "text_file": "inbox/texts/eb4fb7b009d6.txt"
+    },
+    {
+     "url": "https://www.hanken.impress.jp/",
+     "status": "thin",
+     "chars": 37,
+     "text_file": "inbox/texts/389200c66247.txt"
+    },
+    {
+     "url": "https://www.impressholdings.com/",
+     "status": "ok",
+     "chars": 1020,
+     "text_file": "inbox/texts/7c29deb4a01a.txt"
+    },
+    {
+     "url": "https://netatopi.jp",
+     "status": "ok",
+     "chars": 5546,
+     "final_url": "https://netatopi.jp/",
+     "text_file": "inbox/texts/4eb20824d5fd.txt"
+    },
+    {
+     "url": "https://dekiru.net/",
+     "status": "ok",
+     "chars": 4989,
+     "text_file": "inbox/texts/5348a3689af1.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://internet.watch.impress.co.jp/docs/news/2148769.html",
+   "title": "「SpeeCAN RAIDEN」に不正アクセス発生のアルカディアが続報、情報漏えいは引き続き調査中",
+   "source": "INTERNET Watch 個人情報",
+   "found": "2026-10-17",
+   "article_text_file": "inbox/texts/93358ece7871.txt",
+   "official": [
+    {
+     "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+     "status": "ok",
+     "chars": 7145,
+     "text_file": "inbox/texts/54c9422762f3.txt"
+    },
+    {
+     "url": "https://www.hanken.impress.jp/",
+     "status": "thin",
+     "chars": 37,
+     "text_file": "inbox/texts/389200c66247.txt"
+    },
+    {
+     "url": "https://www.impressholdings.com/",
+     "status": "ok",
+     "chars": 1020,
+     "text_file": "inbox/texts/7c29deb4a01a.txt"
+    },
+    {
+     "url": "https://netatopi.jp",
+     "status": "ok",
+     "chars": 5546,
+     "final_url": "https://netatopi.jp/",
+     "text_file": "inbox/texts/4eb20824d5fd.txt"
+    },
+    {
+     "url": "https://dekiru.net/",
+     "status": "ok",
+     "chars": 4989,
+     "text_file": "inbox/texts/5348a3689af1.txt"
+    }
+   ]
+  }
+ ],
+ "generated": "2026-10-17 04:28 JST",
  "last_report": {
   "sources_ok": 7,
   "sources_failed": [
