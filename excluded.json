@@ -615,6 +615,37 @@
     "https://www.daiko-xtech.co.jp/group/dnl/news/p/852"
    ],
    "checked": "2026-10-16"
+  },
+  {
+   "id": "fukuvi-english-sites-2609",
+   "co": "フクビ化学工業（英語版ウェブサイト）",
+   "date": "2026-09-28",
+   "reason": "公式発表（9/28・9/30続報）は海外向け英語版サイトへの不正アクセスとサイトのデータ削除・復旧を伝えるもので、個人情報の漏えいや漏えいの可能性には触れていない。続報でも基幹システム・国内サーバーへの影響は確認されていないとしている。",
+   "official": [
+    "https://www.fukuvi.co.jp/news/information/2026092801",
+    "https://www.fukuvi.co.jp/news/information/2026093001"
+   ],
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "sanpo-foods-web-2609",
+   "co": "サンポー食品（ウェブサイトへの不正アクセス）",
+   "date": "2026-09-28",
+   "reason": "公式発表（9/28）は、管理者権限の取得とサイト改ざんを確認した一方、問い合わせフォームの個人情報はシステム内に保存しておらず「個人情報漏洩の事実は確認されていない」と明記している。",
+   "official": [
+    "https://sanpofoods.co.jp/news/archives/1658/"
+   ],
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "namamame-site-outage-2609",
+   "co": "コロンビア珈琲（極上珈琲 生豆本舗・SQLインジェクション攻撃によるサイト障害）",
+   "date": "2026-09-28",
+   "reason": "公式発表（9/28）は攻撃が拒否・無効化され、顧客情報・注文情報などのデータ取得に至った形跡は確認されなかったとしており、漏えいは確認されていない。",
+   "official": [
+    "https://www.namamame.jp/index.php?main_page=news_manager&pages_id=995"
+   ],
+   "checked": "2026-10-17"
   }
  ]
 }
