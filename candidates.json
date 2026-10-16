@@ -6018,39 +6018,6 @@
    "pendingReason": "メドレーの公式発表を自動取得できず（inboxに本文なし、WebFetchも不可）。manual/ に公式文面を貼れば反映できる"
   },
   {
-   "id": "fancl-attenir-2610",
-   "co": "ファンケル・アテニア（ECサイト）",
-   "date": "2026-10-16",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 834947,
-   "label": "計約83万件（ファンケル約39万・アテニア約44万）と報道",
-   "st": "c",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認（クレジットカード情報の漏えいはなしと報道）",
-   "who": [
-    "cust"
-   ],
-   "sum": "ファンケルと子会社アテニアのECサイトに不正アクセスがあり、会員情報が外部に流出したと報じられた。社内調査で発覚したという。",
-   "status": "ongoing",
-   "statusText": "報道ベース（2026/10/16）。",
-   "official": [],
-   "src": [
-    [
-     "ITmedia NEWS",
-     "https://www.itmedia.co.jp/news/article/2610/16/2000002340/"
-    ],
-    [
-     "NHK",
-     "https://news.web.nhk/newsweb/na/nd-20261016de60600"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "公式発表を検索・取得で特定できず未確認。報道の件数もNHK（78万人余）と他社（約83万件）で異なる。manual/ に公式文面を貼れば反映できる"
-  },
-  {
    "id": "iwai-cosmo-tradeworks-2610",
    "co": "岩井コスモ証券（委託先 トレードワークス）",
    "date": "2026-10-16",
