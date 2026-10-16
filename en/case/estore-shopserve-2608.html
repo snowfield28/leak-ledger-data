@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Eストアー（ショップサーブ） data breach (Aug 2026) | Japan Data Breach Ledger</title>
-<meta name="description" content="Personal data breach at Eストアー（ショップサーブ） (Japan). Records: 8.9M. Cause: Cyber attack (Unauthorized access). Industry: Retail &amp; e-commerce.">
+<meta name="description" content="Personal data breach at Eストアー（ショップサーブ） (Japan). Records: 23.4M. Cause: Cyber attack (Unauthorized access). Industry: Retail &amp; e-commerce.">
 <link rel="alternate" hreflang="ja" href="https://snowfield28.github.io/leak-ledger-data/case/estore-shopserve-2608.html">
 <link rel="alternate" hreflang="en" href="https://snowfield28.github.io/leak-ledger-data/en/case/estore-shopserve-2608.html">
 <link rel="alternate" hreflang="x-default" href="https://snowfield28.github.io/leak-ledger-data/case/estore-shopserve-2608.html">
 <link rel="canonical" href="https://snowfield28.github.io/leak-ledger-data/en/case/estore-shopserve-2608.html">
 <meta property="og:title" content="Eストアー（ショップサーブ） data breach (Aug 2026) | Japan Data Breach Ledger">
-<meta property="og:description" content="Personal data breach at Eストアー（ショップサーブ） (Japan). Records: 8.9M. Cause: Cyber attack (Unauthorized access). Industry: Retail &amp; e-commerce.">
+<meta property="og:description" content="Personal data breach at Eストアー（ショップサーブ） (Japan). Records: 23.4M. Cause: Cyber attack (Unauthorized access). Industry: Retail &amp; e-commerce.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://snowfield28.github.io/leak-ledger-data/en/case/estore-shopserve-2608.html">
 <meta property="og:site_name" content="Japan Data Breach Ledger">
@@ -159,21 +159,21 @@ document.addEventListener("DOMContentLoaded",function(){
 <body><main>
 <nav class="crumb" aria-label="Breadcrumb"><a href="../">Ledger</a><span>›</span><a href="./">All incidents</a><span>›</span><span lang="ja">Eストアー（ショップサーブ）</span></nav>
 <h1><span lang="ja">Eストアー（ショップサーブ）</span>: personal data breach</h1>
-<div class="pills"><span class="pill p">Possible leak</span><span class="pill ongoing">Ongoing</span></div>
-<section><h2>Overview</h2><dl><dt>Records exposed</dt><dd>8.9M <span class="note" lang="ja">（最大延べ885万件）</span></dd><dt>First announced</dt><dd>Aug 1, 2026</dd><dt>Occurred / detected</dt><dd>Unverified</dd><dt>Latest update</dt><dd>Aug 3, 2026</dd><dt>Industry</dt><dd>Retail &amp; e-commerce</dd><dt>Cause</dt><dd>Cyber attack (Unauthorized access)</dd><dt>Whose data</dt><dd>Customers / users</dd><dt>Last checked</dt><dd>Oct 10, 2026 (against the official release)</dd></dl></section>
-<section><h2>Data exposed</h2><div class="items"><span>Name</span><span>Address</span><span>Phone number</span><span>Email address</span><span>Employer</span></div><p lang="ja">氏名、住所、電話番号、FAX番号、メールアドレス、勤務先、顧客が任意で入力した情報（カード名義・カード番号一部は調査中）</p></section>
+<div class="pills"><span class="pill c">Leak confirmed</span><span class="pill closed">Closed</span></div>
+<section><h2>Overview</h2><dl><dt>Records exposed</dt><dd>23.4M <span class="note" lang="ja">（約23,356,000人（対象店舗7,858店））</span></dd><dt>First announced</dt><dd>Aug 1, 2026</dd><dt>Occurred / detected</dt><dd>May 21, 2026</dd><dt>Latest update</dt><dd>Oct 16, 2026</dd><dt>Industry</dt><dd>Retail &amp; e-commerce</dd><dt>Cause</dt><dd>Cyber attack (Unauthorized access)</dd><dt>Whose data</dt><dd>Customers / users, Business partners / corporate clients</dd><dt>Last checked</dt><dd>Oct 16, 2026 (against the official release)</dd></dl></section>
+<section><h2>Data exposed</h2><div class="items"><span>Name</span><span>Address</span><span>Phone number</span><span>Email address</span><span>Employer</span><span>ID / password</span><span>Credit card</span></div><p lang="ja">購入者情報（氏名、住所、電話番号、FAX番号、メールアドレス、勤務先、任意入力情報）、会員ID・暗号化パスワード、クレジットカード情報の一部（カード名義、カード番号の先頭6桁と下4桁、有効期限。約2,096,900人）、ショップサーブ管理画面のログインID・パスワード、コンビニ払込票の店舗情報（販売責任者の氏名、店舗名、住所、電話番号、FAX番号）、アフィリエイト登録者のメールアドレス・パスワード</p><p class="note" lang="ja">完全なカード番号・セキュリティコード（保持せず）。第2報で対象としていた店舗メールのログインID・パスワード、FTPのID・パスワード、振込先口座情報は調査の結果、対象外と訂正</p></section>
 <p class="note">Descriptions below are shown in Japanese, as written in the official release.</p>
-<section><h2>What happened</h2><p lang="ja">ECカートシステム「ショップサーブ」のサーバーに8月1日、外部から不正アクセスがあり、購入者情報が漏えいした可能性がある。件数は延べ数で、重複登録を含む。</p></section>
+<section><h2>What happened</h2><p lang="ja">ECカート「ショップサーブ」のサーバー上のアプリケーションの脆弱性を悪用され、2026年5月21日〜8月1日に不正なプログラムが実行されてデータベースの情報が外部へ送信された。8月1日に攻撃元の通信を遮断。最終報で対象は約23,356,000人（名寄せ後の概数）、7,858店と確定した。第一報の「延べ885万件」は重複を含むデータ件数で、単位が異なる。</p></section>
 <div class="two">
-<section><h2>Investigation status</h2><p lang="ja">原因と範囲は調査中。第2報（8/2）あり。既存のPFU旧EC利用者の事案（9月）とは別の公表。</p></section>
-<section><h2>Organization response</h2><ul lang="ja"><li>攻撃元の通信遮断、個人情報保護委員会への報告予定、警察への相談を検討、再発防止策の策定。</li></ul></section>
+<section><h2>Investigation status</h2><p lang="ja">2026年10月16日に最終報を公表。フォレンジック調査が完了し、攻撃手法・期間・対象範囲が確定。二次被害の報告やダークウェブ上の流出は確認されていない。</p></section>
+<section><h2>Organization response</h2><ul lang="ja"><li>攻撃元の通信遮断、脆弱性の修正、認証情報のリセットを実施。</li><li>対象のお客様・店舗・アフィリエイターへ個別連絡を完了（連絡先不明の人は公表と窓口設置で代替）。</li><li>個人情報保護委員会と関東総合通信局へ報告書を提出し、警察へ相談。</li><li>脆弱性診断と是正、管理画面の二要素・二段階認証など認証強化を実施。</li><li>不審なメール・SMS・電話への注意を呼びかけ。</li></ul></section>
 </div>
-<section><h2>Contact</h2><a class="lk" href="mailto:support@estore.co.jp">support@estore.co.jp<small>Email</small></a><p class="note" lang="ja">個人情報カスタマーサポート</p><p class="note">Source: the contact listed in the <a href="https://estore.jp/press/20260801/" rel="noopener">official release</a>. The service period may have ended, so check the release before contacting them.</p></section>
-<section><h2>Official release (primary source)</h2><a class="lk off" href="https://estore.jp/press/20260801/" rel="noopener"><span lang="ja">不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（2026/8/1）</span><small>https://estore.jp/press/20260801/</small></a></section>
-<section><h2>News coverage</h2><a class="lk" href="https://rocket-boys.co.jp/security-measures-lab/estore-shopserve-unauthorized-access-personal-info-leak/" rel="noopener"><span lang="ja">セキュリティ対策Lab</span></a></section>
+<section><h2>Contact</h2><a class="lk" href="tel:0364340946"><b>03-6434-0946</b><small lang=ja>ショップサーブ利用店舗向け（Eストアーデスク）・平日10〜18時</small></a><a class="lk" href="mailto:support@estore.co.jp">support@estore.co.jp<small>Email</small></a><a class="lk" href="mailto:sp@estore.co.jp">sp@estore.co.jp<small>Email</small></a><a class="lk" href="https://estore.jp/press/20261016/" rel="noopener"><span lang="ja">お客様（購入者・会員）・アフィリエイター向け問い合わせフォーム</span><small>Web form</small></a><p class="note" lang="ja">購入者・会員・アフィリエイター向けは個人情報に関するお客様ご相談窓口（support@estore.co.jp）、店舗向けはEストアーデスク（sp@estore.co.jp）</p><p class="note">Source: the contact listed in the <a href="https://estore.jp/press/20261016/" rel="noopener">official release</a>. The service period may have ended, so check the release before contacting them.</p></section>
+<section><h2>Official release (primary source)</h2><a class="lk off" href="https://estore.jp/press/20260801/" rel="noopener"><span lang="ja">不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（2026/8/1）</span><small>https://estore.jp/press/20260801/</small></a><a class="lk off" href="https://estore.jp/press/20261016/" rel="noopener"><span lang="ja">不正アクセスによる個人情報漏えいに関するお知らせ（最終報）（2026/10/16）</span><small>https://estore.jp/press/20261016/</small></a></section>
+<section><h2>News coverage</h2><a class="lk" href="https://rocket-boys.co.jp/security-measures-lab/estore-shopserve-unauthorized-access-personal-info-leak/" rel="noopener"><span lang="ja">セキュリティ対策Lab</span></a><a class="lk" href="https://rocket-boys.co.jp/security-measures-lab/estore-shopserve-data-breach-final-report-20261016/" rel="noopener"><span lang="ja">セキュリティ対策Lab（最終報）</span></a><a class="lk" href="https://news.web.nhk/newsweb/na/nd-20261016de60742" rel="noopener"><span lang="ja">NHK</span></a></section>
 <p><a class="btn" href="../#estore-shopserve-2608">Compare with other incidents</a></p>
 <p class="note">This ledger lists only incidents whose details were matched against the organization's own official release. The descriptions are summaries of facts taken from the official release and news reports; please check the official release for exact wording. Report errors through <a href="../contact.html">Contact / corrections</a>.</p>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Eストアー（ショップサーブ） data breach (Aug 2026)", "datePublished": "2026-08-01", "dateModified": "2026-08-03", "inLanguage": "en", "url": "https://snowfield28.github.io/leak-ledger-data/en/case/estore-shopserve-2608.html", "publisher": {"@type": "Organization", "name": "Japan Data Breach Ledger"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Eストアー（ショップサーブ） data breach (Aug 2026)", "datePublished": "2026-08-01", "dateModified": "2026-10-16", "inLanguage": "en", "url": "https://snowfield28.github.io/leak-ledger-data/en/case/estore-shopserve-2608.html", "publisher": {"@type": "Organization", "name": "Japan Data Breach Ledger"}}</script>
 <nav class="foot" aria-label="Site information"><a href="../">Ledger</a><a href="../case/">All incidents</a><a href="../about.html">About</a><a href="../privacy.html">Privacy policy</a><a href="../contact.html">Contact / corrections</a><a href="https://snowfield28.github.io/leak-ledger-data/case/estore-shopserve-2608.html" hreflang="ja" lang="ja">日本語</a></nav>
 </main></body>
 </html>
