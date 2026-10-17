@@ -1,0 +1,348 @@
+URL: https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens
+
+Access tokens
+Skip to main content
+Collapse sidebar
+An access token is a credential your app sends with each API request. It authenticates your app to the API and carries a set of 
+access scopes
+ that authorize what your app can access. Shopify enforces those scopes on every request, returning only the data they allow.
+Your app obtains a token through an authorization flow called a grant, such as 
+token exchange
+, then includes it in a request header on each call. Because a token is scoped to a specific set of permissions and can expire or be revoked, a leaked token exposes only what it was granted, and you can revoke access without rotating your app's core credentials.
+This page covers access tokens for the 
+GraphQL Admin API
+, which authenticates requests with a token sent in the 
+X-Shopify-Access-Token
+ header. Other Shopify APIs issue their own token types and use their own headers. For which token and header each API expects, see 
+Shopify API authentication
+. If you're setting up authentication for an app, start with 
+About app authentication
+, which guides you to the flow for your app type. This page is the reference for the token types and grants themselves.
+Anchor to Access tokens and ID tokens
+Access tokens and ID tokens
+An access token and an ID token do two different jobs:
+Access token
+: Authenticates your app. It proves your app is allowed to call the API, and its 
+access scopes
+ determine what your app can read and write.
+ID token
+: Authenticates the user. It proves that a logged-in Shopify user is making the request from a specific store. It carries no permissions, and you can't use it to call a Shopify API.
+Your app gets the ID token first, then exchanges it for an access token. The ID token is how Shopify vouches for the user, and the access token is what your app sends on every 
+GraphQL Admin API
+ request.
+Anchor to Access token types
+Access token types
+The token type sets a token's lifetime and scope. Match it to what your app does:
+Offline access tokens
+: These are the default. They persist across sessions and cover most app work, including background tasks such as webhooks and scheduled jobs.
+Online access tokens
+: These are optional. Use them when your app needs to respect an individual staff member's permissions or attribute actions to them.
+Delegate access tokens
+: These are optional. Use them to give a subsystem scoped, limited access without sharing your app's full credentials.
+Offline and online access tokens are opaque strings that begin with 
+shpat_
+, whichever grant produced them. Delegate access tokens begin with 
+shppa_
+.
+Anchor to Offline access tokens
+Offline access tokens
+Offline access tokens persist beyond a merchant's session, and are what your app gets by default. In an embedded app, the app template sets one up for you. See 
+Authentication for apps built with Shopify CLI
+.
+Use expiring offline access tokens for public apps that call the GraphQL Admin API. Shopify keeps one current expiring offline token per app and store: when your app acquires a new one through token exchange or the authorization code grant, older expiring offline tokens for the same app and store are retired. Retired access tokens stay valid until their 
+expires_in
+ duration ends so in-progress requests can complete. Refreshing a token follows its own rules. See 
+Token refresh
+.
+Non-expiring offline tokens grant permanent access until the app is uninstalled or the secret is revoked. New public apps already can't use them for GraphQL Admin API requests, and existing public apps can't after January 1, 2027. See 
+Migrate to expiring offline access tokens
+.
+Caution
+Public apps must use expiring offline access tokens for GraphQL Admin API requests by January 1, 2027. This doesn't apply to custom apps or apps created by merchants. If your app still requests non-expiring tokens, see 
+Migrate to expiring offline access tokens
+.
+Caution
+:
+Public apps must use expiring offline access tokens for GraphQL Admin API requests by January 1, 2027. This doesn't apply to custom apps or apps created by merchants. If your app still requests non-expiring tokens, see 
+Migrate to expiring offline access tokens
+.
+Anchor to Online access tokens
+Online access tokens
+Online access tokens are tied to the staff member who opened your app, and their lifespan matches that user's web session. Request them when your app needs to respect an individual user's permission level or attribute actions to a specific user. How you request one depends on how your app authenticates: apps built with Shopify CLI declare it in their configuration, and apps running their own authorization code grant add a parameter to the authorization URL. See 
+Authentication for apps built with Shopify CLI
+ or 
+Request an online access token
+.
+An online token expires after 24 hours or when the user logs out of the Shopify admin, whichever comes first. Logging out revokes every online token minted during that web session, not just the current one. A user can also revoke their own access to your app at any time, which doesn't affect other users' tokens.
+Because each online token is evaluated against one user's permissions, a GraphQL Admin API request returns 
+ACCESS_DENIED
+ in 
+errors[n].extensions.code
+ when the token is valid but the user lacks access, and 
+401 Unauthorized
+ after the token expires. If your app caches data, scope the cache per user.
+The online token response includes an 
+associated_user
+ object describing the staff member who authorized it, alongside 
+associated_user_scope
+ (the intersection of your app's scopes and that user's permissions):
+id
+: Uniquely identifies the user. Use it to key per-user data.
+account_owner
+: 
+true
+ when the user owns the Shopify account.
+collaborator
+: 
+true
+ when the user is a collaborator rather than a staff member.
+email_verified
+: Whether the user's email is verified. The 
+email
+ field is always present, so trust it only when 
+email_verified
+ is 
+true
+.
+This intersection applies to users who sign in after the app is installed. Installation itself is stricter: if your app requests online access and isn't yet installed on the store, the user installing it must have every scope your app requires, or the installation fails.
+Anchor to Delegate access tokens
+Delegate access tokens
+A delegate access token derives from your app's offline access token and carries only the scopes you specify. Use one when your app is split across server-side subsystems, so each one holds only what it needs. For example, a background job that processes orders doesn't need read access to products. See 
+Delegate API access
+.
+Anchor to Token lifetimes
+Token lifetimes
+Some access tokens expire and some don't. A non-expiring token stays valid until the app is uninstalled or its credentials are revoked. Expiring offline access tokens come with a 
+refresh_token
+ that your app uses to get a new access token before the current one expires, without user interaction. The other expiring tokens have no refresh token: your app renews an online access token by re-running token exchange, and a client credentials token by repeating the same request.
+Expiring tokens limit the damage of a leak, because a stolen token stops working on its own. Use 
+expiring offline access tokens
+ for public apps calling the GraphQL Admin API. For how refresh works, see 
+Token refresh
+.
+The following table lists how long each token lasts.
+Info
+Read the 
+expires_in
+ value from the token response rather than hard-coding a duration, so your app keeps working if a lifetime changes.
+Info
+:
+Read the 
+expires_in
+ value from the token response rather than hard-coding a duration, so your app keeps working if a lifetime changes.
+Token
+Lifetime
+Expiring offline access token
+1 hour (
+expires_in
+ is 
+3600
+)
+Refresh token for an expiring offline access token
+90 days (
+refresh_token_expires_in
+ is 
+7776000
+) when issued. Using it to refresh can shorten it. See 
+Token refresh
+.
+Non-expiring offline access token
+No expiry. Valid until the app is uninstalled or its client secret is revoked.
+Online access token
+24 hours, or until the user logs out of the Shopify admin, whichever comes first
+Access token from the 
+client credentials grant
+24 hours (
+expires_in
+ is 
+86399
+)
+Delegate access token
+Inherits the parent token's remaining lifetime, or the shorter 
+expiresIn
+ you request
+Anchor to Refresh, rotation, and revocation
+Refresh, rotation, and revocation
+Several actions and events renew or end an access token or the credentials behind it. They're easy to confuse, so the following table describes how each one works, including who triggers it, and where to learn more.
+Operation
+How it works
+Learn more
+Token refresh
+A 
+Shopify app template
+ refreshes an access token before it expires so your app keeps working without re-authenticating. If your app doesn't use a template, it refreshes tokens itself.
+How token refresh works
+Token retirement
+Shopify automatically retires your previous expiring offline token as your app acquires or refreshes tokens. On a refresh, the previous refresh token remains usable until your app uses the new refresh token, or until 30 days after its first use or its original expiry, whichever comes first.
+Token refresh
+Secret rotation
+You can rotate your app's client secret, which invalidates access tokens tied to the old secret and requires every store's token to be refreshed. It's a deliberate operation, not part of normal token renewal.
+Rotate your client secret
+Scope revocation
+Your app can give back optional access scopes it no longer needs, or a merchant can revoke ones they granted, narrowing what a token can do without ending access. Only 
+optional scopes
+ that were 
+dynamically granted
+ qualify.
+Revoke granted scopes dynamically
+Token revocation
+A merchant uninstalling your app, or you revoking the client secret, ends all of a token's access. Requests then return 
+401
+, and your app re-authenticates the next time a merchant opens it.
+Response and error codes
+Anchor to Token refresh
+Token refresh
+Apps built from a Shopify app template refresh access tokens automatically, so most apps never refresh tokens themselves. You only implement refresh if your app doesn't use a template, and how you do it depends on context:
+When no merchant session is active, such as for background jobs and webhooks, use the stored 
+refresh_token
+ to renew an expiring offline token server-side, without user interaction. See 
+Refresh an expiring offline token
+.
+When a token expires during an active merchant session, or when your app uses session-bound online tokens, acquire a new token instead of refreshing one. Re-run 
+token exchange
+ with the ID token from the current request, or send the merchant through the 
+authorization code grant
+ if your app isn't embedded.
+Don't do the two at the same time for the same store. Acquiring a token and refreshing one each retire the other's result, so one of the two tokens your app receives is already invalid when it arrives.
+Anchor to How refresh token rotation works
+How refresh token rotation works
+Every refresh returns a new access token and a new refresh token. Store both securely, and use the new refresh token in the next refresh request.
+Shopify doesn't invalidate the refresh token your app presented at the moment it issues the replacement. The presented refresh token stays usable until the earliest of the following:
+Your app uses the newer refresh token.
+ Presenting it proves your app received it, so Shopify retires the previous one immediately. This is the normal case, and it happens on your app's next refresh.
+Your app acquires a new token.
+ Token exchange and the authorization code grant retire every other refresh token for the app on the store right away.
+30 days after your app first used that token to refresh.
+ This caps how long an app that ignores the tokens it receives can keep refreshing from the same one.
+The original 90-day expiry.
+Anchor to Get an access token
+Get an access token
+Which grant you use depends on where your app runs and whose stores it acts on. All grants exchange their inputs for an access token at the same OAuth token endpoint:
+1
+POST https://{shop}.myshopify.com/admin/oauth/access_token
+Info
+Apps created directly in the Shopify admin don't use a grant. Shopify pre-generates the access token when the merchant installs the app. You can no longer create these apps, but if you maintain one, see 
+Generate access tokens for admin-created custom apps
+.
+Info
+:
+Apps created directly in the Shopify admin don't use a grant. Shopify pre-generates the access token when the merchant installs the app. You can no longer create these apps, but if you maintain one, see 
+Generate access tokens for admin-created custom apps
+.
+Anchor to Token exchange grant
+Token exchange grant
+Embedded apps, running inside the Shopify admin, use this grant to exchange an 
+ID token
+ for an access token, without redirecting the merchant, either through an app template or directly.
+Send a 
+POST
+ request to the token endpoint with the following parameters in the body. For a walkthrough, see 
+Authentication for apps built with Shopify CLI
+.
+Token exchange parameters
+Parameter
+Description
+client_id
+required
+The client ID for the app.
+client_secret
+required
+The client secret for the app.
+grant_type
+required
+The value 
+urn:ietf:params:oauth:grant-type:token-exchange
+ indicates that token exchange is being performed.
+subject_token
+required
+The ID token that represents the identity and active session of the merchant using the app.
+subject_token_type
+required
+The value 
+urn:ietf:params:oauth:token-type:id_token
+ indicates that the subject token is an ID token.
+requested_token_type
+urn:shopify:params:oauth:token-type:offline-access-token
+ (default) for an offline access token.
+urn:shopify:params:oauth:token-type:online-access-token
+ for an online access token.
+expiring
+Only applies when 
+requested_token_type
+ is offline. Set to 
+1
+ for an expiring offline token, or 
+0
+ (default) for a non-expiring one.
+If the ID token is expired or otherwise invalid, then the request fails with 
+400 Bad Request
+. Get a fresh ID token from App Bridge and retry the exchange. ID tokens are short-lived, so request one per exchange instead of caching it. See 
+ID token claims
+.
+Anchor to Authorization code grant
+Authorization code grant
+Standalone apps, running outside the Shopify admin, use this grant to exchange an authorization code for an access token: the app redirects the merchant to Shopify, then exchanges the returned code.
+Send a 
+POST
+ request to the token endpoint with the following parameters in the body. For the full flow, including the authorization redirect and security checks, see 
+Authenticate a standalone or API-only app
+.
+Authorization code exchange parameters
+Parameter
+Description
+client_id
+required
+The client ID for the app.
+client_secret
+required
+The client secret for the app.
+code
+required
+The authorization code provided in the redirect.
+expiring
+Only applies when the initial authorization request was for an offline token. Set to 
+1
+ for an expiring offline token, or 
+0
+ (default) for a non-expiring one.
+Anchor to Client credentials grant
+Client credentials grant
+Server-side integrations acting on your own stores use this grant to exchange your app's own credentials for an access token, with no merchant interaction.
+Send a 
+POST
+ request to the token endpoint with the following parameters in the body. For the setup steps, see 
+Authenticate an app for stores in your organization
+.
+Client credentials parameters
+Parameter
+Description
+client_id
+required
+The client ID for the app.
+client_secret
+required
+The client secret for the app.
+grant_type
+required
+Must be set to 
+client_credentials
+.
+The access token from this grant is valid for 24 hours (
+expires_in
+ is 
+86399
+). To refresh it, send the same request again.
+Anchor to Next steps
+Next steps
+Learn what 
+ID tokens
+ are, the claims your app validates, and how they're exchanged for access tokens.
+Understand the 
+access scopes
+ you request and what each one grants.
+Keep the 
+client ID and client secret
+ behind your tokens secure, and learn what rotating the secret does to tokens already in use.
+Was this page helpful?
+Yes
+No

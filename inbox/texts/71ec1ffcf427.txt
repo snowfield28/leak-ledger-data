@@ -1,0 +1,151 @@
+URL: https://xyzscripts.com/wordpress-plugins/twitter-auto-publish/compare
+
+Twitter Auto Publish | Publish Wordpress Posts To Twitter - Compare
+Loading...
+Product Menu
+About
+About
+Features
+Features
+Compare
+Compare
+Testimonials
+Testimonials
+Demo
+Demo
+Buy Now
+Buy Now
+Price
+Freeware
+Feature Group
+Feature
+Free
+Premium
+(Starts from $39)
+Premium Plus
+(Starts from $69)
+Supported Media
+Facebook
+ (MULTIPLE ACCOUNTS)
+ (MULTIPLE ACCOUNTS)
+Twitter
+ (1 ACCOUNT)
+ (MULTIPLE ACCOUNTS)
+ (MULTIPLE ACCOUNTS)
+Linkedin
+ (MULTIPLE ACCOUNTS)
+ (MULTIPLE ACCOUNTS)
+Tumblr
+ (MULTIPLE ACCOUNTS)
+ (MULTIPLE ACCOUNTS)
+Pinterest
+ (MULTIPLE ACCOUNTS)
+ (MULTIPLE ACCOUNTS)
+Instagram
+ (MULTIPLE ACCOUNTS)
+ (MULTIPLE ACCOUNTS)
+Posting Options
+Publish to facebook pages
+Publish to facebook groups
+Publish to twitter profile
+Publish to linkedin profile and company pages
+Publish to tumblr profile
+Publish to Pinterest boards
+Publish to Instagram Business Accounts
+Publish to multiple social media accounts of same type
+Separate message formats for publishing to multiple social media accounts
+Hash Tags for Facebook, Twitter, Pinterest, Tumblr and Instagram
+Post tags as hash tags
+Image Options
+Publish images with post
+Separate default image url for multiple accounts
+Preference of featured image, post content, post meta and open graph tags
+Multiple images to facebook, twitter and tumblr
+Multiphoto preference from post content and post meta
+Video/Audio Options
+ Publish video to facebook, twitter and tumblr
+Video/Audio preference from post content, post meta and open graph tags
+Audio to tumblr
+Filter Options
+Filter posts based on categories and custom post type
+Category and custom post type filter for individual accounts
+Enable/Disable page publishing for individual accounts
+Publishing Schedule
+Instantaneous post publishing
+Republish while editing a post
+Scheduled post publishing using cron
+Configurable auto publishing time interval
+Auto publish scheduling for individual accounts
+Publishing History
+View auto publish history
+View auto publish error logs
+Advanced Scheduling
+Autopublish start time
+Repeat autopublish with stop configurations
+Scheduling for each social media account
+Facebook level publishing schedule
+Quick schedule existing posts in bulk
+Delay for multipages
+Delay between 2 posts
+Republish with interval and count
+Republish based on category
+Delete post from facebook automatically
+Privilege Management
+Role level permissions
+User level permissions
+Master password for super admin
+URL Shortening
+Shorten your urls
+bit.ly shortener
+goo.gl shortener
+yourls.org shortener
+Installation & Support
+Free Installation
+Privilege customer support
+Other
+Free Smapsolutions App (Basic Plan - 1 Account, 10 API per hour)
+Life time license
+Price
+FREE
+1 license - $39
+2 licenses - $49
+5 licenses - $79
+10 licenses - $99
+50 licenses - $249
+100 licenses - $399
+1000 licenses - $999
+1 license - $69
+2 licenses - $89
+5 licenses - $129
+10 licenses - $179
+50 licenses - $399
+100 licenses - $599
+1000 licenses - $1499
+Purchase
+Download
+Buy Now
+Buy Now
+Product price
+Freeware
+DEMO
+Free Download
+From production-ready web applications to custom web, mobile, AI and eCommerce solutions, XYZScripts helps startups, agencies and enterprises launch high-quality digital products faster.
+Products
+PHP Scripts
+Wordpress Plugins
+Services
+Web Designing
+SEO
+Company
+About
+Solutions
+Clone Scripts
+Testimonials
+Support
+Help Center
+Contact Us
+Hosting
+Terms & Conditions
+ © 2026 XYZScripts.com — All Rights Reserved
+ A division of 
+Renaisoft Solutions Pvt Ltd
