@@ -541,7 +541,7 @@ function renderLatest(){
       <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true">${ICON[ck]||ICON.cyber}</svg></span>
       <span class="ld">${md(d.date)}・${esc(CL()[ck]||"")}</span>
       <span class="ln">${esc(short(d.co))}</span>
-      <span class="lv">${d.n?fmt(d.n)+"<small>件</small>":"調査中"}</span>
+      <span class="lv">${d.n?fmt(d.n)+"<small>件</small>":"未公表"}</span>
       <span class="lt"><span class="pill ${esc(d.st)}">${stL}</span><span class="pill ${esc(d.status)}">${rsL}</span></span>
     </button>`}).join("");
 }
@@ -583,7 +583,7 @@ function render(){
     <td class="w">${esc(CL()[d.cause||"cyber"]||"")}${(d.cause||"cyber")==="cyber"&&d.types&&d.types.length?`<div class="cd">${esc(d.types.join("・"))}</div>`:""}</td>
     <td class="w">${esc((d.who||[]).map(k=>(DB.whoLabels||{})[k]||k).join("、"))}</td>
     <td class="w"><div class="tags">${(d.items||[]).map(k=>`<span>${esc(LABELS[k]||k)}</span>`).join("")||'<span class="cd">要確認</span>'}</div></td>
-    <td class="r"><span class="num">${d.n?fmt(d.n):"調査中"}</span></td>
+    <td class="r"><span class="num">${d.n?fmt(d.n):"未公表"}</span></td>
     <td class="r"><div class="pills"><span class="pill ${d.st}">${d.st==="c"?"漏えい確認":"可能性"}</span><span class="pill ${esc(d.status)}">${d.status==="closed"?"調査完了":"調査中"}</span>${d.auto?'<span class="pill auto">未確認</span>':""}</div></td>
   </tr>`).join(""):`<tr><td colspan="6" class="empty">条件に合う事案はありません</td></tr>`;
 }
