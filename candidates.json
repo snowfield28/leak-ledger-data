@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -4914,12 +4914,6 @@
    "id": "pending-323"
   },
   {
-   "co": "イエローハット",
-   "date": "2026-08-28",
-   "pendingReason": "公式ページ(yellowhat.jp)がWebFetchでエラー。TDnet経由の確認を別途試行",
-   "id": "pending-324"
-  },
-  {
    "co": "マルキユー（ECサイト）",
    "date": "2026-08-05",
    "pendingReason": "公式ページ(marukyu-shop.co.jp)がWebFetchでエラーとなり照合不可",
@@ -5414,48 +5408,6 @@
    ],
    "ind": "公共機関",
    "pendingReason": "綾瀬市公式サイトで本件の発表が見つからない（トップページ、メール概要2276.html、登録方法2287.htmlに記載なし。報道記事にも市の発表URLは無い）。件数約1万1,000件は報道のみで公式未確認。"
-  },
-  {
-   "id": "shimonoseki-city-bousai-mail-2610",
-   "co": "下関市（防災メール／委託先 アルカディア）",
-   "date": "2026-10-13",
-   "announced": "2026-10-13",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "who": [
-    "unk"
-   ],
-   "sum": "報道によると、下関市防災メールは委託先システムへの不正アクセスにより、10月13日11時から緊急停止した。登録先ドメインはアルカディア社「SpeeCAN RAIDEN」の停止環境と一致する。市の発表が個人情報の漏えい（可能性）に触れているかは確認できていない。",
-   "status": "ongoing",
-   "statusText": "復旧時期は未定（報道）",
-   "resp": "防災メールサービスを緊急停止",
-   "official": [
-    [
-     "不正アクセスに伴う防災メールサービス緊急停止のお知らせ（2026/10/13）",
-     "https://www.city.shimonoseki.lg.jp/soshiki/9/164196.html"
-    ],
-    [
-     "（記者発表資料）不正アクセスに伴う防災メールサービス緊急停止について（2026/10/13）",
-     "https://www.city.shimonoseki.lg.jp/soshiki/9/164253.html"
-    ]
-   ],
-   "src": [
-    [
-     "ROCKET BOYS セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/minamiboso_safety_email_suspended_vendor_unauthorized_access/"
-    ]
-   ],
-   "ind": "公共機関",
-   "pendingReason": "市の公式発表2件（164196・164253）のURLは市サイトのトップページと防災危機管理課の一覧で確認した。しかしWebFetchがprovenance制限で開けず、本文に漏えい（可能性）の記載があるか確認できていない。記載がなければ excluded、あれば add（n=null）に回す。"
   },
   {
    "id": "togo-town-bousai-mail-2610",
@@ -6016,6 +5968,158 @@
    ],
    "ind": "病院・医療",
    "pendingReason": "メドレーの公式発表を自動取得できず（inboxに本文なし、WebFetchも不可）。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "link-u-studio-2610",
+   "co": "Link-Uグループ（Studio／問い合わせフォーム）",
+   "date": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 7663,
+   "label": "7,663件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "報道によると、Studioへの不正アクセスに関連し、問い合わせフォームで取得した個人情報7,663件が漏えいした可能性がある。件数は報道ベースで、同社自身の発表本文は未確認。",
+   "status": "ongoing",
+   "statusText": "報道ベース",
+   "resp": "",
+   "official": [
+    [
+     "Studio社の発表（2026/10/16）",
+     "https://studio.design/ja/whats-new/unauthorized-access-2026-10"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/link-u-group-studio-unauthorized-access-7663-20261016/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "自社の公式発表（TDnetのPDF）がrobots.txtで自動取得不可。件数7,663件は報道のみ。manual/ に公式文面を貼れば反映できる（https://www.release.tdnet.info/inbs/140120261016552453.pdf）"
+  },
+  {
+   "id": "luup-studio-2610",
+   "co": "LUUP（Studio／フォーム）",
+   "date": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 21368,
+   "label": "21,368件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "報道（セキュリティ対策Lab 10/17付のまとめ）によると、Studioへの不正アクセスに関連し、LUUPのフォーム送信情報21,368件が漏えいした可能性がある。",
+   "status": "ongoing",
+   "statusText": "報道ベース",
+   "resp": "",
+   "official": [
+    [
+     "Studio社の発表（2026/10/16）",
+     "https://studio.design/ja/whats-new/unauthorized-access-2026-10"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/studio-unauthorized-access-affected-companies-form-data-20261017/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "pendingReason": "LUUP自身の公式発表の本文を取得できていない（inboxに未収録）。件数は報道のみ。公式文面を manual/ に貼れば反映できる"
+  },
+  {
+   "id": "fuller-studio-2610",
+   "co": "フラー（Studio／フォーム）",
+   "date": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 6029,
+   "label": "6,029件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "報道によると、Studioへの不正アクセスに関連し、フラーのフォーム送信情報6,029件が漏えいした可能性がある。",
+   "status": "ongoing",
+   "statusText": "報道ベース",
+   "resp": "",
+   "official": [
+    [
+     "フラーの発表（2026/10）",
+     "https://www.fuller-inc.com/news/202610-studio-unauthorized-access"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/studio-unauthorized-access-affected-companies-form-data-20261017/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式ページの本文が自動取得できず（thin：JavaScript描画の可能性）。件数6,029件は報道のみ。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "koike-sanso-2610",
+   "co": "小池酸素工業",
+   "date": "2026-10-06",
+   "announced": "2026-10-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "10月5日にサイバー攻撃の可能性を認識。10月8日の第2報で、一部サーバーへの不正アクセスの痕跡を確認し、外部専門家から得た情報でデータが漏えいしたことは認識しているが内容は確認中と公表。報道では、犯行声明グループがデータをネット上に公開したとされる。",
+   "status": "ongoing",
+   "statusText": "10月8日の第2報時点。個人情報が含まれるかは未公表。",
+   "resp": "社内ネットワークを切断し、外部専門家と調査。個人情報保護委員会へ報告。",
+   "official": [
+    [
+     "当社に対するサイバー攻撃の可能性に関するお知らせ（2026/10/6）",
+     "https://koike-japan.com/pages/1?b_id=206&detail=1&r_id=522"
+    ],
+    [
+     "当社に対するサイバー攻撃に関するお知らせ（第2報）（2026/10/8）",
+     "https://koike-japan.com/pages/1?b_id=206&detail=1&r_id=523"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/koike-sanso-cyberattack-exitium-publication-followup/"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "公式発表は漏えい（データ流出）を認めるが、個人情報が含まれるか・件数は未公表。10月15日付の訂正リリース（TDnet）は有料・取得不可で未確認。個人情報の漏えいが公式に確認できれば add"
   }
  ]
 }

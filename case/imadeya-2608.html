@@ -159,20 +159,20 @@ document.addEventListener("DOMContentLoaded",function(){
 <body><main>
 <nav class="crumb" aria-label="パンくず"><a href="../">台帳</a><span>›</span><a href="./">全事案一覧</a><span>›</span><span>株式会社いまでや（IMADEYA ONLINE STORE）</span></nav>
 <h1>株式会社いまでや（IMADEYA ONLINE STORE）の個人情報漏えい</h1>
-<div class="pills"><span class="pill p">漏えいの可能性</span><span class="pill ongoing">調査中</span></div>
-<section><h2>事案の概要</h2><dl><dt>件数</dt><dd>未公表</dd><dt>第一報の発表日</dt><dd>2026年8月21日</dd><dt>発生・検知日</dt><dd>2026年8月20日</dd><dt>業種</dt><dd>小売・EC</dd><dt>原因</dt><dd>サイバー攻撃（不正アクセス）</dd><dt>誰の情報</dt><dd>顧客・利用者</dd><dt>最終確認日</dt><dd>2026年10月14日（公式発表と照合）</dd></dl></section>
-<section><h2>流出した情報</h2><div class="items"><span>氏名</span><span>メールアドレス</span><span>契約・購入情報</span></div><p>お名前、メールアドレス、注文番号、注文金額</p><p class="note">含まれない情報：クレジットカード情報（取得されていない可能性があるが推定で未確定）</p></section>
-<section><h2>何が起きたか</h2><p>8/20夜に同社を装うフィッシングメールが届いたとの問い合わせが約30件あり、正確な氏名・注文番号・注文金額が記載されていたことから、注文情報が第三者に取得された可能性が高いと判断。オンラインストアと実店舗の会員購入者が対象になりうる。原因と範囲は調査中。フィッシングサイトにカード情報を入力した人が2名いる。</p></section>
+<div class="pills"><span class="pill c">漏えい確認</span><span class="pill ongoing">調査中</span></div>
+<section><h2>事案の概要</h2><dl><dt>件数</dt><dd>未公表</dd><dt>第一報の発表日</dt><dd>2026年8月21日</dd><dt>発生・検知日</dt><dd>2026年8月20日</dd><dt>最新の続報</dt><dd>2026年10月15日</dd><dt>業種</dt><dd>小売・EC</dd><dt>原因</dt><dd>サイバー攻撃（不正アクセス）</dd><dt>誰の情報</dt><dd>顧客・利用者</dd><dt>最終確認日</dt><dd>2026年10月18日（公式発表と照合）</dd></dl></section>
+<section><h2>流出した情報</h2><div class="items"><span>氏名</span><span>メールアドレス</span><span>契約・購入情報</span></div><p>お名前、メールアドレス、注文番号、注文金額</p><p class="note">含まれない情報：クレジットカード情報（漏えいがないことを第2報で確認済み）</p></section>
+<section><h2>何が起きたか</h2><p>8/20夜に同社を装うフィッシングメールが届いたとの問い合わせが約30件あり、正確な氏名・注文番号・注文金額が記載されていたことから、注文情報が第三者に取得された可能性が高いと判断。オンラインストアと実店舗の会員購入者が対象になりうる。10月15日の第2報で、自社構築のShopify連携アプリのAdmin APIアクセストークンが不正に取得・悪用され、海外IPアドレスからAPI経由で注文情報・顧客情報が不正取得されたことを確認。フィッシングサイトにカード情報を入力した人が2名いる。</p></section>
 <div class="two">
-<section><h2>調査の状況</h2><p>第1報（8/21）。外部専門機関が原因・範囲を調査中。</p></section>
-<section><h2>組織の対応</h2><ul><li>オンラインストアを一時停止、管理者パスワード変更と二段階認証設定、外部連携の停止、注意喚起メール送信、フィッシングサイト停止の通報、個人情報保護委員会へ報告中。</li><li>カード情報を入力した人にはカード会社への連絡を案内。</li></ul></section>
+<section><h2>調査の状況</h2><p>10月15日の第2報時点。不正取得の経路は遮断済み。流出範囲の詳細は引き続き確認中。ストア販売と新規会員登録は12月上旬に再開予定。</p></section>
+<section><h2>組織の対応</h2><ul><li>オンラインストアの販売停止（12月上旬再開予定）、新規会員受付の中止、不正取得経路の遮断、他の連携アプリの安全確認、注意喚起。</li><li>カード情報を入力した人にはカード会社への連絡を案内。</li><li>個人情報保護委員会へ報告中。</li></ul></section>
 </div>
-<section><h2>お問い合わせ先</h2><a class="lk" href="tel:0570015111"><b>0570-015-111</b><small>平日9〜17時</small></a><a class="lk" href="mailto:info@imadeya.co.jp">info@imadeya.co.jp<small>メール</small></a><p class="note">カスタマーサポート</p><p class="note">出典：<a href="https://prtimes.jp/main/html/rd/p/000000061.000065209.html" rel="noopener">公式発表</a>に記載の窓口。受付期間が終わっていることがあるため、連絡の前に公式発表を確認してください。</p></section>
-<section><h2>一次情報（公式発表）</h2><a class="lk off" href="https://prtimes.jp/main/html/rd/p/000000061.000065209.html" rel="noopener">お客様情報の外部流出の可能性に関するお詫びとお知らせ（第1報）（2026/8/21）<small>https://prtimes.jp/main/html/rd/p/000000061.000065209.html</small></a></section>
+<section><h2>お問い合わせ先</h2><a class="lk" href="tel:0570015111"><b>0570-015-111</b><small>平日9〜17時</small></a><a class="lk" href="mailto:info@imadeya.co.jp">info@imadeya.co.jp<small>メール</small></a><p class="note">カスタマーサポート</p><p class="note">出典：<a href="https://prtimes.jp/main/html/rd/p/000000063.000065209.html" rel="noopener">公式発表</a>に記載の窓口。受付期間が終わっていることがあるため、連絡の前に公式発表を確認してください。</p></section>
+<section><h2>一次情報（公式発表）</h2><a class="lk off" href="https://prtimes.jp/main/html/rd/p/000000061.000065209.html" rel="noopener">お客様情報の外部流出の可能性に関するお詫びとお知らせ（第1報）（2026/8/21）<small>https://prtimes.jp/main/html/rd/p/000000061.000065209.html</small></a><a class="lk off" href="https://prtimes.jp/main/html/rd/p/000000063.000065209.html" rel="noopener">お客様情報の外部流出に関するお詫びとお知らせ（第2報）（2026/10/15）<small>https://prtimes.jp/main/html/rd/p/000000063.000065209.html</small></a></section>
 <section><h2>報道</h2><a class="lk" href="https://scan.netsecurity.ne.jp/article/2026/09/11/56206.html" rel="noopener">ScanNetSecurity</a></section>
 <p><a class="btn" href="../#imadeya-2608">台帳でほかの事案と比べる</a></p>
 <p class="note">この台帳は、報道や一覧で見つけた事案のうち、組織自身の公式発表を開いて内容が一致したものだけを載せています。概要は公式発表と報道から事実を取り出して書いたもので、正確な内容は公式発表で確認してください。誤りは<a href="../contact.html">お問い合わせ・訂正依頼</a>からお知らせください。</p>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "株式会社いまでや（IMADEYA ONLINE STORE）の個人情報漏えい（2026年8月）", "datePublished": "2026-08-21", "dateModified": "2026-10-14", "inLanguage": "ja", "url": "https://snowfield28.github.io/leak-ledger-data/case/imadeya-2608.html", "publisher": {"@type": "Organization", "name": "国内情報漏えい台帳"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "株式会社いまでや（IMADEYA ONLINE STORE）の個人情報漏えい（2026年8月）", "datePublished": "2026-08-21", "dateModified": "2026-10-15", "inLanguage": "ja", "url": "https://snowfield28.github.io/leak-ledger-data/case/imadeya-2608.html", "publisher": {"@type": "Organization", "name": "国内情報漏えい台帳"}}</script>
 <nav class="foot" aria-label="サイト情報"><a href="../">台帳</a><a href="../case/">全事案一覧</a><a href="../about.html">このサイトについて</a><a href="../privacy.html">プライバシーポリシー</a><a href="../contact.html">お問い合わせ・訂正依頼</a><a href="../en/" hreflang="en" lang="en">English</a></nav>
 </main></body>
 </html>

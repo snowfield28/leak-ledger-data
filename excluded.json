@@ -182,16 +182,6 @@
    "checked": "2026-10-14"
   },
   {
-   "id": "hakodate-city-ansin-mail-2610",
-   "co": "函館市（防災メール／委託先 アルカディア）",
-   "date": "2026-10-13",
-   "reason": "市の発表「ANSINメールの停止について」は、10/13 11時からの緊急停止と、LINE・Xによる代替配信を伝えるだけだった。不正アクセスにも、個人情報の漏えい（可能性）にも一切触れていない。",
-   "official": [
-    "https://www.city.hakodate.hokkaido.jp/emergency/2026101300052/"
-   ],
-   "checked": "2026-10-14"
-  },
-  {
    "id": "minamiboso-city-anzen-mail-2610",
    "co": "南房総市（安全安心メール／委託先 アルカディア）",
    "date": "2026-10-13",
@@ -242,16 +232,6 @@
    "official": [
     "https://www.saga-u.ac.jp/koho/press/2026092541515",
     "https://www.saga-u.ac.jp/koho/press/2026092841520"
-   ],
-   "checked": "2026-10-14"
-  },
-  {
-   "id": "japanpost-intl-form-2609",
-   "co": "日本郵便（国際郵便調査請求Web受付）",
-   "date": "2026-09-25",
-   "reason": "公式発表（9/25）は10/12に開いて確認済み。サーバーへの不正アクセスの可能性と受付停止のみで、個人情報の漏えい・その可能性には触れていない。10/14の再検索でも続報は見当たらず（10/3の報道まとめも原因・影響は調査中とするのみ）",
-   "official": [
-    "https://www.post.japanpost.jp/newsrelease/pressrelease/6267689171.html"
    ],
    "checked": "2026-10-14"
   },
