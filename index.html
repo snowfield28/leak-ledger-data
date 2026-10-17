@@ -77,6 +77,16 @@ input[type=search]{width:100%;font:inherit;font-size:16px;color:var(--ink);backg
 .hscroll::-webkit-scrollbar{display:none}
 .chip{flex:0 0 auto;font:inherit;font-size:12.5px;padding:6px 11px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;white-space:nowrap}
 .chip[aria-pressed="true"]{background:var(--bar);border-color:var(--bar);color:var(--bg)}
+.chip.k-c,.chip.k-p,.chip.k-closed,.chip.k-ongoing{display:inline-flex;align-items:center;gap:5px}
+.chip.k-c::before,.chip.k-p::before,.chip.k-closed::before,.chip.k-ongoing::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.chip.k-c{background:var(--confirmed-soft);color:var(--confirmed);border-color:transparent}
+.chip.k-p{background:var(--possible-soft);color:var(--possible);border-color:transparent}
+.chip.k-closed{background:var(--done-soft);color:var(--done);border-color:transparent}
+.chip.k-ongoing{color:var(--muted)}
+.chip.k-c[aria-pressed="true"]{background:var(--confirmed);color:var(--bg);border-color:var(--confirmed)}
+.chip.k-p[aria-pressed="true"]{background:var(--possible);color:var(--bg);border-color:var(--possible)}
+.chip.k-closed[aria-pressed="true"]{background:var(--done);color:var(--bg);border-color:var(--done)}
+.chip.k-ongoing[aria-pressed="true"]{background:var(--muted);color:var(--bg);border-color:var(--muted)}
 .selrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5em,1fr));gap:8px}
 .selrow select,.daterow input{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 10px;min-width:0}
 .daterow{display:grid;grid-template-columns:1fr auto 1fr;gap:6px;align-items:center;font-size:12px;color:var(--muted)}
@@ -467,9 +477,9 @@ function filtered(){
   return DB.cases.filter(d=>inPeriod(d)&&(!S.who||(d.who||[]).includes(S.who))&&(!S.ind||d.ind===S.ind)&&(!S.noauto||!d.auto)&&causeOk(d)&&(!S.st||d.st===S.st)&&(!S.res||d.status===S.res)&&[...S.sel].every(k=>d.items.includes(k))&&(!q||(d.co+d.sum+d.itemsText+(d.claim||"")+(d.resp||"")+(d.ind||"")).toLowerCase().includes(q)))
     .sort(S.sort==="size"?(a,b)=>(b.n||0)-(a.n||0):(a,b)=>b.date.localeCompare(a.date));
 }
-const chip=(label,on,act)=>`<button class="chip" aria-pressed="${on}" data-act="${esc(act)}">${esc(label)}</button>`;
+const chip=(label,on,act,k)=>`<button class="chip${k?" k-"+k:""}" aria-pressed="${on}" data-act="${esc(act)}">${esc(label)}</button>`;
 function renderChips(){
-  const tg=(g,v,l)=>chip(l,S[g]===v,`${g}:${S[g]===v?"":v}`);
+  const tg=(g,v,l)=>chip(l,S[g]===v,`${g}:${S[g]===v?"":v}`,(g==="st"||g==="res")?v:"");
   $("#chips").innerHTML=
     tg("st","c","漏えい確認")+tg("st","p","漏えいの可能性")+'<span class="sep"></span>'+
     tg("res","ongoing","調査中")+tg("res","closed","調査完了")+'<span class="sep"></span>'+
