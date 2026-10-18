@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -23483,7 +23483,7 @@
    "date": "2026-10-16",
    "announced": "2026-10-16",
    "occurred": "2026-10-14",
-   "last": "2026-10-17",
+   "last": "2026-10-18",
    "cause": "cyber",
    "types": [
     "不正アクセス"
@@ -23492,23 +23492,28 @@
    "label": "調査中",
    "st": "c",
    "items": [
-    "deal"
+    "deal",
+    "id"
    ],
-   "itemsText": "ご利用店舗の注文情報など（購入者に届いた不審メールには注文日時、商品名、金額、お届け先などが記載）。流出した情報の範囲は調査中",
+   "itemsText": "ご利用店舗の注文情報（購入者に届いた不審メールには注文日時・商品名・金額・お届け先などが記載）、店舗が登録したメールアカウント情報（SMTP認証パスワードなど）。流出した範囲は調査中",
    "notIncl": "",
    "who": [
     "biz",
     "cust"
    ],
-   "sum": "複数ECモールの在庫・受注を一元管理するサービスWASABI SWITCHのシステムに10月14日、第三者が不正アクセスし、利用店舗の注文情報などが外部に流出したことが判明。店舗から「購入者に実際の注文内容入りの返金を装う不審メールが届いた」と10月15日に連絡があった。10月16日未明にも別の原因による不正アクセスを確認。全アカウントを一時非稼働とし、楽天市場・フューチャーショップとの連携も停止した。",
+   "sum": "複数ECモールの在庫・受注を一元管理するサービスWASABI SWITCHのシステムに10月14日、第三者が不正アクセスし、利用店舗の注文情報などが外部に流出したことが判明。店舗から「購入者に実際の注文内容入りの返金を装う不審メールが届いた」と10月15日に連絡があった。10月16日未明にも別の原因による不正アクセスを確認し、全アカウントを一時非稼働とし、楽天市場・フューチャーショップとの連携も停止した。10月17日の第三報では、流出した管理者パスワードで一部店舗の管理画面に不正ログインされ、10月17日の注文データの一部とメールアカウント情報が抜き取られ、店舗の正式なアドレスから不審メールが送信されていると公表した。",
    "status": "ongoing",
-   "statusText": "10月16日の第一報〜10月17日時点。外部専門会社と流出範囲を調査中。",
+   "statusText": "10月16日の第一報〜10月17日の第三報（10月18日更新）時点。外部専門会社と流出範囲を調査中。",
    "resp": "侵入経路の遮断とマルウェア削除、全アカウントの一時非稼働とパスワード変更依頼、個人情報保護委員会など関係機関への報告、フューチャーショップ・楽天市場とのAPI連携の停止、2026年11月のバージョンアップで認証情報などを暗号化保管にする再発防止策。",
    "contact": {
     "note": "公式発表に窓口の記載なし",
     "src": "https://wasabi-inc.biz/help/news/20261016-01/"
    },
    "official": [
+    [
+     "【緊急・第三報】メールアカウントのパスワード変更のお願い（2026/10/17）",
+     "https://wasabi-inc.biz/help/news/20261017-03/"
+    ],
     [
      "【重要・第一報】WASABI SWITCHへの不正アクセスによる情報流出に関するお詫びとご報告（2026/10/16）",
      "https://wasabi-inc.biz/help/news/20261016-01/"
@@ -23529,7 +23534,7 @@
     ]
    ],
    "ind": "通信・IT",
-   "verified": "2026-10-18"
+   "verified": "2026-10-19"
   },
   {
    "id": "mgc-t4c-2610",
@@ -24273,6 +24278,643 @@
    ],
    "ind": "通信・IT",
    "verified": "2026-10-18"
+  },
+  {
+   "id": "japan-arts-2610",
+   "co": "ジャパン・アーツ",
+   "date": "2026-10-16",
+   "announced": "2026-10-16",
+   "occurred": "2026-10-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 5376,
+   "label": "5,376件（連絡先）",
+   "st": "c",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "氏名、メールアドレス（社員のGoogleアカウントの連絡先に登録、または過去にやり取りのあった相手）",
+   "notIncl": "クレジットカード情報・財務情報は該当システムに保存されておらず対象外。ジャパン・アーツぴあオンラインチケット会員の情報漏えいは確認されていない",
+   "who": [
+    "unk"
+   ],
+   "sum": "社員が知人を装うフィッシングメールのリンクにパスワードを入力して認証を許可し、10月13日に第三者が当該Googleアカウントの連絡先データをダウンロード。10月14日に社員を装うなりすましメールの送信を検知し、パスワード再設定とアクセス遮断を完了した。不正利用は確認されていない。",
+   "status": "ongoing",
+   "statusText": "10月16日時点で外部アクセスログの監査と全社点検を継続中。",
+   "resp": "パスワード再設定とアクセス遮断、個人情報保護委員会へ10月16日に報告、パスキー認証など多要素認証の強化、ITリテラシー研修の再実施、監視体制の強化。不審メールの開封・返信をしないよう注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-3499-8099",
+      "hours": "業務管理部（FAX 03-3499-8103）"
+     }
+    ],
+    "note": "株式会社ジャパン・アーツ 業務管理部",
+    "src": "https://www.japanarts.co.jp/news/p10043/"
+   },
+   "official": [
+    [
+     "【重要なお知らせ】当社社員を装った「なりすましメール」に関するお詫び（2026/10/16）",
+     "https://www.japanarts.co.jp/news/p10043/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/japan-arts-google-account-phishing-5376-contacts-20261016/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "chiba-city-arcadia-2610",
+   "co": "千葉市（ちばし安全・安心メールなど4サービス／委託先 アルカディア）",
+   "date": "2026-10-14",
+   "announced": "2026-10-14",
+   "occurred": "2026-10-11",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 75747,
+   "label": "75,747件（市民65,141・職員10,606）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "ちばし安全・安心メール（61,319人）：メールアドレス・配信希望地域（町名）／職員参集メール（10,606人）：氏名・電話番号・メールアドレス／電話・FAX緊急情報配信（2,012人）：氏名・電話番号・メールアドレス・FAX番号／水位情報お知らせメール（1,810人）：メールアドレス・配信希望地域（町名）",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "市が情報配信に使う株式会社アルカディアの「SpeeCAN RAIDEN」が不正アクセスを受け、4サービスの登録者の個人情報が漏えいした可能性がある。10月11日に事業者が不審な挙動を確認、市の覚知は10月13日。実際の漏えいや不正利用は確認されていない。",
+   "status": "ongoing",
+   "statusText": "漏えいの有無、対象情報の内容・件数を確認中。",
+   "resp": "事業者が侵入経路を遮断し、サービスは継続。市は事業者に原因究明、影響範囲の調査、再発防止策の報告を要請。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://city-chiba.my.site.com/PUB_VF_Detail_Oshirase?key=dWtk8XwcyhjMDw5lzG13ALt2dRTPpTe8wHMOqfZB"
+   },
+   "official": [
+    [
+     "不正アクセスにより個人情報が漏えいした可能性のある事案の発生について（千葉市／2026/10/14）",
+     "https://city-chiba.my.site.com/PUB_VF_Detail_Oshirase?key=dWtk8XwcyhjMDw5lzG13ALt2dRTPpTe8wHMOqfZB"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/chiba-city-arcadia-speecan-raiden-75747-2026101/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "sasebo-city-arcadia-2610",
+   "co": "佐世保市（防災情報メール・道路冠水情報メール／委託先 アルカディア）",
+   "date": "2026-10-13",
+   "announced": "2026-10-13",
+   "occurred": "2026-10-11",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 11800,
+   "label": "約1万1,800人分（報道：市民ら約9,600・職員約2,200）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "work"
+   ],
+   "itemsText": "登録者のメールアドレス（公式発表）。報道によると、職員分は氏名・所属・職員番号・一部の電話番号も対象",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "市のメール配信サービスを運営するアルカディアの「SpeeCAN RAIDEN」が不正アクセスを受け、登録者のメールアドレスが漏えいした可能性がある。10月11日に事業者が不審な挙動を確認、市の覚知は10月13日。市の公式発表に件数の記載はなく、件数は報道による。10月15日には市民から、カード会社を装う不審メールが届いたとの連絡があった。",
+   "status": "ongoing",
+   "statusText": "事業者が詳細を調査中。",
+   "resp": "事業者が侵入経路を遮断。市は不審メールのURL・添付ファイルを開かないよう注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0956-23-9258",
+      "hours": "佐世保市防災情報メール（防災危機管理局）"
+     },
+     {
+      "tel": "0956-25-9632",
+      "hours": "佐世保市道路冠水情報メール（土木管理課）"
+     }
+    ],
+    "src": "https://www.city.sasebo.lg.jp/bousai/20261013_arcadia.html"
+   },
+   "official": [
+    [
+     "本市のメール配信サービス運用事業者への不正アクセスについて（佐世保市／2026/10/13）",
+     "https://www.city.sasebo.lg.jp/bousai/20261013_arcadia.html"
+    ]
+   ],
+   "src": [
+    [
+     "NCC長崎文化放送",
+     "https://www.ncctv.co.jp/news/article/16961455"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sc-namegooglead-sc/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "zama-city-arcadia-2610",
+   "co": "座間市（いさまメール・職員安否参集確認システム／委託先 アルカディア）",
+   "date": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 11900,
+   "label": "約1万1,900人（いさまメール約11,000・職員約900）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "work"
+   ],
+   "itemsText": "いさまメール：メールアドレス／職員安否参集確認システム：氏名・所属・メールアドレス",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "市の緊急情報配信システム「いさまメール」の委託先アルカディアが運営するSpeeCAN RAIDENが不正アクセスを受け、登録者の情報が漏えいした可能性がある。件数・範囲は確定しておらず調査中。",
+   "status": "ongoing",
+   "statusText": "漏えいした件数・範囲は未確定で、事業者が調査中。",
+   "resp": "2サービスを停止し、防災情報はHP・LINE・防災行政無線で発信。個人情報保護委員会へ報告。不審メールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "046-252-7395",
+      "hours": "危機管理課 防災計画係（FAX 046-252-7773）"
+     }
+    ],
+    "note": "専用フォームもあり",
+    "src": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1014143.html"
+   },
+   "official": [
+    [
+     "座間市緊急情報配信システム（いさまメール）の一時停止および個人情報漏洩の恐れ（座間市／2026/10/16）",
+     "https://www.city.zama.kanagawa.jp/kurashi/bousai/1014143.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/zama-isama-mail-arcadia-11000-data-leak-risk/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "mazda-club-community-2610",
+   "co": "マツダ（CLUB MAZDA COMMUNITY／委託先 コミューン）",
+   "date": "2026-10-14",
+   "announced": "2026-10-14",
+   "occurred": "2026-10-07",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 4103,
+   "label": "最大4,103名（会員と運営担当従業員を含む）",
+   "st": "p",
+   "items": [
+    "mail",
+    "id",
+    "deal"
+   ],
+   "itemsText": "会員ID、アカウント名、メールアドレス、性別、居住地（都道府県）、購買・利用状況履歴、趣味・嗜好・アンケート回答",
+   "notIncl": "クレジットカード情報",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "コミュニティサイトの運営を委託するコミューンのプラットフォーム「Commune」が不正アクセスを受け、会員情報と運営担当従業員の情報が閲覧・取得された可能性がある。10月7日に委託先から報告を受けた。悪用や二次被害は確認されていない。マツダの自社システムへの影響はない。",
+   "status": "ongoing",
+   "statusText": "サービス停止中で調査継続。",
+   "resp": "サイトのサービスを停止、委託先が経路を遮断。個人情報保護委員会への報告など関係法令に基づく対応を実施。",
+   "contact": {
+    "mails": [
+     "user-security@commune.co.jp"
+    ],
+    "note": "コミューン株式会社 本件専用窓口（件名・本文にコミュニティ名とユーザー名を記載）",
+    "src": "https://newsroom.mazda.com/ja/publicity/release/2026/202610/261014a.pdf"
+   },
+   "official": [
+    [
+     "当社コミュニティサービスサイト「CLUB MAZDA COMMUNITY」への不正アクセスに関するお知らせとお詫び（2026/10/14）",
+     "https://newsroom.mazda.com/ja/publicity/release/2026/202610/261014a.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mazda-club-mazda-community-commune-data-leak-risk/"
+    ]
+   ],
+   "ind": "製造",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "lili-2610",
+   "co": "Lili（リリ）運営事務局",
+   "date": "2026-10-14",
+   "announced": "2026-10-14",
+   "occurred": "2026-10-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 98256,
+   "label": "会員最大98,256名（利用中71,456・退会26,800）。うち本人確認書類画像は最大7,261名。会員以外の問い合わせ最大1,364件",
+   "st": "p",
+   "items": [
+    "mail",
+    "id",
+    "birth",
+    "doc"
+   ],
+   "itemsText": "全会員（退会者を含む）：メールアドレス、パスワード、生年月日・都道府県などのプロフィール、サイト内メッセージ、ログイン時のIPアドレス。本人確認書類提出者：2025年12月1日〜2026年10月12日提出分の書類画像",
+   "notIncl": "2025年11月30日以前に提出された本人確認書類画像、10月12日午前3時20分頃より後の登録会員の情報",
+   "who": [
+    "cust"
+   ],
+   "sum": "会員制マッチングサイトのサーバーに、2026年7月11日から10月6日まで第三者が不正侵入し、会員のパスワードを読み取るプログラムが設置されていた。10月6日に不審なプログラムに気付き、10月11日夜にも別経路から再侵入されたが、12日未明に遮断した。悪用の報告は受けていない。人数は精査中。",
+   "status": "ongoing",
+   "statusText": "人数は精査中で、新事実は随時公表するとしている。",
+   "resp": "全会員のパスワードを無効化し再設定を依頼、不審プログラムの削除、改ざん検知の導入。個人情報保護委員会に報告し警察に相談。脆弱性診断、監視強化、権限の厳格化、本人確認書類を審査後に削除する運用への見直しなどを実施予定。",
+   "contact": {
+    "mails": [
+     "support@lili-jo.com"
+    ],
+    "note": "Lili運営事務局。受付9〜19時。サイトのお問い合わせフォームからも可",
+    "src": "https://lili-jo.com/notice/20261014.html"
+   },
+   "official": [
+    [
+     "【重要】不正アクセスによる個人情報の漏えいの可能性について（2026/10/14）",
+     "https://lili-jo.com/notice/20261014.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/lili-unauthorized-access-98256-password-identity-document-clickfix-20261014/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "mouse-computer-idcf-2610",
+   "co": "マウスコンピューター（メールマガジン配信／委託先経由 IDCフロンティア）",
+   "date": "2026-10-14",
+   "announced": "2026-10-14",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 420000,
+   "label": "メールアドレス約42万件",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス約42万件と、2026年9月5日〜10月6日の同アドレス宛てメール配信記録",
+   "notIncl": "オンラインショップの注文・決済に関する情報（対象のクラウド基盤には保存されていない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "メールマガジン配信を委託する事業者が利用するIDCフロンティアのクラウド基盤で不正アクセスが発生。情報が漏えいした事実は確認されていないが、メールアドレス約42万件などが漏えいした可能性がある。",
+   "status": "ongoing",
+   "statusText": "関係事業者と事実確認中。影響が確認されれば再度お知らせするとしている。",
+   "resp": "メールマガジンの配信を一時停止。オンラインショップは通常どおり利用可能。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0570-783-794",
+      "hours": "アフターサポート電話窓口（同ページ記載）"
+     }
+    ],
+    "note": "本件専用のお問い合わせはページ上のメール問い合わせリンク（アドレス記載なし）",
+    "src": "https://www2.mouse-jp.co.jp/ssl/user_support2/info.asp?N_ID=535"
+   },
+   "official": [
+    [
+     "メールアドレス漏えいの可能性およびメールマガジン配信の一時停止について（マウスコンピューター／2026/10/14）",
+     "https://www2.mouse-jp.co.jp/ssl/user_support2/info.asp?N_ID=535"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mouse-computer-idcf-cloud-email-address-leak-risk-20261014/"
+    ]
+   ],
+   "ind": "製造",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "ntv-wands-faveconnect-2610",
+   "co": "日テレWands（FaveConnect／高嶺のなでしこ・HEROINES OFFICIAL WEBSITE）",
+   "date": "2026-10-14",
+   "occurred": "2026-10-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 117392,
+   "label": "117,392アカウント（2サービス合計）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "addr",
+    "tel",
+    "birth",
+    "work"
+   ],
+   "itemsText": "氏名、メールアドレス、住所、電話番号、職業、生年月日、性別、ニックネーム、その他会員情報、任意のコメント（アンケート回答を含む）",
+   "notIncl": "データベースサーバーへの直接侵入は確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "ファンクラブ運営基盤「FaveConnect」の管理画面に第三者が不正ログインし、10月11〜13日に2つのファンクラブサイトの会員と退会後6か月以内の元会員の情報を閲覧した形跡がある。10月13日に検知。公開や不正利用は確認されていない。",
+   "status": "ongoing",
+   "statusText": "新たな事実が判明すれば公表するとしている。",
+   "resp": "不正ログインに使われた管理者アカウントを削除し接続を遮断。他サービスに同様の被害がないことを確認。個人情報保護委員会への報告など必要な対応を実施。",
+   "contact": {
+    "mails": [
+     "support@ntv-wands.zendesk.com"
+    ],
+    "note": "退会した元会員の窓口（件名に「不正アクセスに関する問い合わせ」）。現会員は各ファンクラブ用の問い合わせ窓口",
+    "src": "https://www.ntv-wands.co.jp/news/articles/pbs9b02rgl3oubrj.html"
+   },
+   "official": [
+    [
+     "「FaveConnect」への不正アクセスによる個人情報閲覧の可能性について（日テレWands）",
+     "https://www.ntv-wands.co.jp/news/articles/pbs9b02rgl3oubrj.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ntv-wands-faveconnect-unauthorized-login-117392-20261014/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "meitetsu-bus-hassha-2610",
+   "co": "名鉄バス（発車オーライネット／高速バス名古屋・奈良線ほか）",
+   "date": "2026-10-16",
+   "announced": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 38,
+   "label": "38名（確認中）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "カタカナ予約名（氏名）、電話番号、予約バス情報（乗車日・路線・予約番号など）。利用日が2026年7月16日〜11月29日の一部の予約情報",
+   "notIncl": "クレジットカード情報、銀行口座情報、住所、メールアドレス、パスワード",
+   "who": [
+    "cust"
+   ],
+   "sum": "高速バス予約サイト「発車オーライネット」（運営：株式会社工房）の外部連携用サーバーへの不正アクセスにより、同社の予約情報が外部に流出した可能性がある。名鉄バスの対象は名古屋・奈良線、名古屋・新潟線、名古屋・徳島高松松山線で、流出の可能性があるのは38名（確認中）。",
+   "status": "ongoing",
+   "statusText": "原因・範囲は運営会社の工房が調査中。",
+   "resp": "お客様相談センターを設置。不審なSMS・電話への注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "052-588-0877",
+      "hours": "平日10〜17時（土日祝休み）"
+     }
+    ],
+    "src": "https://www.meitetsu-bus.co.jp/info/detail/1463"
+   },
+   "official": [
+    [
+     "【高速バス】予約システム「発車オーライネット」で発生した不正アクセスによる個人情報の流出について（名鉄バス／2026/10/16）",
+     "https://www.meitetsu-bus.co.jp/info/detail/1463"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hassha-orai-net-affected-bus-operators-summary/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "kanto-bus-hassha-2610",
+   "co": "関東バス（発車オーライネット／高速バス）",
+   "date": "2026-10-16",
+   "announced": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "カタカナ予約名（氏名）、電話番号、予約バス情報（乗車日・路線・予約番号など）。利用日が2026年7月16日〜11月29日の一部の予約情報",
+   "notIncl": "クレジットカード情報、銀行口座情報、住所、メールアドレス、パスワード",
+   "who": [
+    "cust"
+   ],
+   "sum": "高速バス予約サイト「発車オーライネット」（運営：株式会社工房）の外部連携用サーバーへの不正アクセスにより、同社の予約情報が外部に流出した可能性がある。関東バスの公式発表に同社分の件数の記載はない。",
+   "status": "ongoing",
+   "statusText": "原因・範囲は運営会社の工房が調査中。",
+   "resp": "お客様相談センターを設置。不審なSMS・電話への注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-539-020",
+      "hours": "発車オーライネットお客様相談センター。9〜18時（2026年10月19日開設。10月18日までは048-227-0523）"
+     }
+    ],
+    "forms": [
+     [
+      "発車オーライネット お問い合わせフォーム",
+      "https://secure.j-bus.co.jp/hon/inquiry/InputForm"
+     ]
+    ],
+    "src": "https://www.kanto-bus.co.jp/notice/detail.php?id=2DT6JG5"
+   },
+   "official": [
+    [
+     "高速バス予約サイト「発車オーライネット」で発生した個人情報の流出について（関東バス／2026/10/16）",
+     "https://www.kanto-bus.co.jp/notice/detail.php?id=2DT6JG5"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hassha-orai-net-affected-bus-operators-summary/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "alpico-hassha-2610",
+   "co": "アルピコ交通（発車オーライネット／高速バス）",
+   "date": "2026-10-16",
+   "announced": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "カタカナ予約名（氏名）、電話番号、予約バス情報（乗車日・路線・予約番号など）。利用日が2026年7月16日〜11月29日の一部の予約情報",
+   "notIncl": "クレジットカード情報、銀行口座情報、住所、メールアドレス、パスワード",
+   "who": [
+    "cust"
+   ],
+   "sum": "高速バス予約サイト「発車オーライネット」（運営：株式会社工房）の外部連携用サーバーへの不正アクセスにより、同社の予約情報が外部に流出した可能性がある。アルピコ交通の路線に関係する対象予約の有無は調査中。",
+   "status": "ongoing",
+   "statusText": "原因・範囲は運営会社の工房が調査中。",
+   "resp": "お客様相談センターを設置。不審なSMS・電話への注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-539-020",
+      "hours": "9〜18時（2026年10月19日開設）"
+     }
+    ],
+    "forms": [
+     [
+      "発車オーライネット お問い合わせフォーム",
+      "https://secure.j-bus.co.jp/hon/inquiry/InputForm"
+     ]
+    ],
+    "src": "https://www.alpico.co.jp/traffic/news/1738/"
+   },
+   "official": [
+    [
+     "バスチケット予約サイト「発車オーライネット」で発生したサーバーへの不正アクセスによる個人情報の流出に関するお知らせ（アルピコ交通／2026/10/16）",
+     "https://www.alpico.co.jp/traffic/news/1738/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hassha-orai-net-affected-bus-operators-summary/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-10-19"
+  },
+  {
+   "id": "willer-marketing-hassha-2610",
+   "co": "WILLER MARKETING（発車オーライネット）",
+   "date": "2026-10-16",
+   "announced": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 15,
+   "label": "15名",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "カタカナ予約名（氏名）、電話番号、予約バス情報（乗車日・路線・予約番号など）。利用日が2026年7月16日〜11月29日の一部の予約情報",
+   "notIncl": "クレジットカード情報、銀行口座情報、住所、メールアドレス、パスワード",
+   "who": [
+    "cust"
+   ],
+   "sum": "高速バス予約サイト「発車オーライネット」（運営：株式会社工房）の外部連携用サーバーへの不正アクセスにより、同社の予約情報が外部に流出した可能性がある。WILLER MARKETINGの対象は15名。",
+   "status": "ongoing",
+   "statusText": "原因・範囲は運営会社の工房が調査中。",
+   "resp": "お客様相談センターを設置。不審なSMS・電話への注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-539-020",
+      "hours": "発車オーライネットお客様相談センター。9〜18時（2026年10月19日開設。10月18日までは048-227-0523）"
+     }
+    ],
+    "forms": [
+     [
+      "発車オーライネット お問い合わせフォーム",
+      "https://secure.j-bus.co.jp/hon/inquiry/InputForm"
+     ]
+    ],
+    "src": "https://travel.willer.co.jp/static/pdf/20261016_notice.pdf"
+   },
+   "official": [
+    [
+     "お知らせ（WILLER MARKETING／2026/10/16）",
+     "https://travel.willer.co.jp/static/pdf/20261016_notice.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hassha-orai-net-affected-bus-operators-summary/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-10-19"
   }
  ],
  "statusLabels": {
@@ -24305,7 +24947,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 271,
+ "pendingCount": 274,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",

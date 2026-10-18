@@ -626,6 +626,17 @@
     "https://www.namamame.jp/index.php?main_page=news_manager&pages_id=995"
    ],
    "checked": "2026-10-17"
+  },
+  {
+   "id": "sapporo-intl-univ-phishing-2607",
+   "co": "札幌国際大学（メールアカウントの不正利用）",
+   "date": "2026-07-11",
+   "reason": "10月14日の調査結果報告で、フォレンジック調査の結果、乗っ取られたアカウントで一部メールボックスへの不正アクセスや不審ファイルの設置はあったが、「現時点で個人情報の外部への流出は確認されていない」と明記。",
+   "official": [
+    "https://www.siu.ac.jp/news/detail.html?news=1960",
+    "https://www.siu.ac.jp/news/detail.html?news=1848"
+   ],
+   "checked": "2026-10-19"
   }
  ]
 }
