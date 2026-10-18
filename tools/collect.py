@@ -49,7 +49,23 @@ MAX_OFFICIAL_PER_ARTICLE = 5
 _session = requests.Session()
 _session.headers["User-Agent"] = UA
 _robots = {}
+_robots_info = {}  # base -> {"status":..., "text": robots.txt の先頭}（拒否の原因調査用）
+_refused = set()   # 今回 robots で拒否した URL の base
 _last_hit = {}
+
+# 東証TDnetのPDFを、同じ内容を公開している Yahoo!ファイナンスの適時開示ミラーでも探す。
+# TDnet:  https://www.release.tdnet.info/inbs/1401<yyyymmdd><6桁>.pdf
+# ミラー: https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/<yyyymmdd>/<yyyymmdd><6桁>.pdf
+# どちらも robots_ok() を通すので、拒否されていれば取得しない。
+TDNET_RE = re.compile(r"release\.tdnet\.info/inbs/(?:\d{4})(\d{8})(\d{6})\.pdf", re.I)
+
+
+def mirror_urls(url):
+    m = TDNET_RE.search(url)
+    if not m:
+        return []
+    d, n = m.group(1), m.group(2)
+    return [f"https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/{d}/{d}{n}.pdf"]
 
 
 def now_jst():
@@ -64,14 +80,19 @@ def robots_ok(url):
         rp = urllib.robotparser.RobotFileParser()
         try:
             r = _session.get(base + "/robots.txt", timeout=15)
+            _robots_info[base] = {"status": r.status_code, "text": r.text[:1500] if r.status_code == 200 else ""}
             if r.status_code == 200:
                 rp.parse(r.text.splitlines())
             else:
                 rp.parse([])  # robots.txt が無ければ許可
-        except requests.RequestException:
+        except requests.RequestException as e:
+            _robots_info[base] = {"status": f"error:{type(e).__name__}", "text": ""}
             rp.parse([])
         _robots[base] = rp
-    return rp.can_fetch(UA, url)
+    ok = rp.can_fetch(UA, url)
+    if not ok:
+        _refused.add(base)
+    return ok
 
 
 def polite_get(url, timeout=25):
@@ -276,6 +297,13 @@ def main():
                         if text:
                             rec["text_file"] = save_text(ou, text)
                         item["official"].append(rec)
+                        if st != "ok":  # 取れなかったTDnet PDFは、同内容のミラーを試す（robots は尊重）
+                            for mu in mirror_urls(ou):
+                                mst, mtext, mfinal = fetch_text(mu)
+                                mrec = {"url": mu, "status": mst, "chars": len(mtext), "mirror_of": ou}
+                                if mtext:
+                                    mrec["text_file"] = save_text(mu, mtext)
+                                item["official"].append(mrec)
             else:
                 item["article_error"] = "robots"
         except requests.RequestException as e:
@@ -287,6 +315,7 @@ def main():
     manual_n = ingest_manual(inbox["items"], today)
 
     inbox["generated"] = now_jst().strftime("%Y-%m-%d %H:%M JST")
+    report["robots_refused"] = {b: _robots_info.get(b, {}) for b in sorted(_refused)}
     inbox["last_report"] = report
     (ROOT / "inbox.json").write_text(json.dumps(inbox, ensure_ascii=False, indent=1), encoding="utf-8")
     seen_data["urls"] = sorted(seen)[-5000:]
