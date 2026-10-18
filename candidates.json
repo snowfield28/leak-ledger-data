@@ -5970,43 +5970,6 @@
    "pendingReason": "メドレーの公式発表を自動取得できず（inboxに本文なし、WebFetchも不可）。manual/ に公式文面を貼れば反映できる"
   },
   {
-   "id": "link-u-studio-2610",
-   "co": "Link-Uグループ（Studio／問い合わせフォーム）",
-   "date": "2026-10-16",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": 7663,
-   "label": "7,663件（報道）",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "who": [
-    "unk"
-   ],
-   "sum": "報道によると、Studioへの不正アクセスに関連し、問い合わせフォームで取得した個人情報7,663件が漏えいした可能性がある。件数は報道ベースで、同社自身の発表本文は未確認。",
-   "status": "ongoing",
-   "statusText": "報道ベース",
-   "resp": "",
-   "official": [
-    [
-     "Studio社の発表（2026/10/16）",
-     "https://studio.design/ja/whats-new/unauthorized-access-2026-10"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/link-u-group-studio-unauthorized-access-7663-20261016/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "自社の公式発表（TDnetのPDF）がrobots.txtで自動取得不可。件数7,663件は報道のみ。manual/ に公式文面を貼れば反映できる（https://www.release.tdnet.info/inbs/140120261016552453.pdf）"
-  },
-  {
    "id": "luup-studio-2610",
    "co": "LUUP（Studio／フォーム）",
    "date": "2026-10-16",

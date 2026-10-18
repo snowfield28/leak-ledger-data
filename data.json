@@ -24228,6 +24228,51 @@
    ],
    "ind": "公共機関",
    "verified": "2026-10-18"
+  },
+  {
+   "id": "link-u-studio-2610",
+   "co": "Link-Uグループ（コーポレートサイト／クラウドサービス Studio）",
+   "date": "2026-10-16",
+   "announced": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 7663,
+   "label": "7,663件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（コーポレートサイトのお問い合わせフォームで取得した個人情報）",
+   "notIncl": "当社グループが運営する各サービスへの影響はなし（影響は当社及び連結子会社のコーポレートサイトに限る）",
+   "who": [
+    "unk"
+   ],
+   "sum": "コーポレートサイトの制作・運用に利用する外部サービス「Studio」で不正アクセスが発生し、お問い合わせフォームで取得した個人情報7,663件（10月16日時点）の漏えいの可能性を否定できないと公表。漏えいの有無と範囲は確認中。",
+   "status": "ongoing",
+   "statusText": "10月16日の第一報時点。漏えいの有無と範囲を確認中。",
+   "resp": "お問い合わせページを非表示にし、Studio社への確認と影響範囲の特定を進める。新たな事項は速やかに公表するとしている。",
+   "contact": {
+    "mails": [
+     "ir@link-u.group"
+    ],
+    "note": "IR問合せ先（執行役員グループCFO）",
+    "src": "https://www.release.tdnet.info/inbs/140120261016552453.pdf"
+   },
+   "official": [
+    [
+     "Studio株式会社で発生した不正アクセスに伴う個人情報漏えいの可能性に関するお知らせ（2026/10/16）",
+     "https://www.release.tdnet.info/inbs/140120261016552453.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/link-u-group-studio-unauthorized-access-7663-20261016/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-10-18"
   }
  ],
  "statusLabels": {
@@ -24260,7 +24305,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 272,
+ "pendingCount": 271,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
