@@ -1,0 +1,292 @@
+URL: https://itunes.apple.com/jp/podcast/id1391532897
+
+ScanNetSecurity 最新セキュリティ情報 - ポッドキャスト - Apple Podcast
+ScanNetSecurity 最新セキュリティ情報
+株式会社イード
+ 2.0（8） 
+テクノロジー
+アップデート：毎日 
+セキュリティに特化した情報メディアの音声対応版です
+最新のエピソード
+ 新しい順
+ 古い順
+エピソード
+ 2日前 
+Linux カーネルのネットワーク機能におけるページキャッシュの上書きが可能となるデータ検証不備の脆弱性（Scan Tech Report）
+2026 年 5 月に修正された Linux カーネルの脆弱性を悪用するエクスプロイトコードが公開されています。
+7秒
+ 2日前 
+システム業者への不正アクセスを受け、大分県で防災メール等配信システムの新規登録を停止
+大分県は10月13日、不正アクセスの疑いに伴う防災メール等配信システムの新規登録の停止について発表した。
+8秒
+ 2日前 
+アルカディア運営の「SpeeCAN RAIDEN」に不正アクセス
+株式会社アルカディアは10月13日、同社が運営する「SpeeCAN RAIDEN」への不正アクセスについて発表した。
+8秒
+ 2日前 
+TOPPAN 受託の「保険料控除証明書 発行サービス 」運用業務で 177,426 名分のデータ誤送付
+TOPPAN株式会社は9月29日、同社が受託する「保険料控除証明書 発行サービス 」運用業務でのデータ誤送付について発表した。文字のコピーができないPDFファイルで公開している。
+14秒
+ 2日前 
+三井不動産への不正アクセス、攻撃者による資格情報の不正利用を確認
+三井不動産株式会社は9月28日、9月1日に公表した同社グループが利用する一部のシステムへの不正アクセスについて、第二報を発表した。
+10秒
+ 2日前 
+SiteGuard Server Edition に OS コマンドインジェクションの脆弱性
+独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月14日、SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性性について「Japan Vulnerability Notes（JVN）」で発表した。
+20秒
+ 2日前 
+EC-CUBE4 系用プラグイン「AmazonPayプラグイン」に不変と想定している Web パラメータの外部制御の脆弱性
+独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月14日、EC-CUBE4系用プラグイン「AmazonPayプラグイン」における不変と想定しているWebパラメータの外部制御の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。
+23秒
+ 2日前 
+マイクロソフトが 10 月のセキュリティ情報公開、悪用の事実を確認済みの脆弱性が 1 件
+独立行政法人 情報処理推進機構（IPA）は10月14日、「Microsoft 製品の脆弱性対策について(2026年10月)」を発表した。一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）も「2026年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起」を発表している。
+24秒
+すべて見る（30） 
+評価とレビュー
+2
+5段階評価中
+8件の評価
+番組について
+セキュリティに特化した情報メディアの音声対応版です
+情報
+クリエイター
+株式会社イード 
+配信期間
+18年 - 26年 
+エピソード
+30 
+制限指定
+不適切な内容を含まない 
+Copyright
+℗ & © 2026 株式会社イード 
+番組のウェブサイト
+ ScanNetSecurity 最新セキュリティ情報 
+その他のおすすめ
+テクノロジー
+テクノロジー
+アップデート：毎週
+テクノロジー
+テクノロジー
+アップデート：毎月
+テクノロジー
+テクノロジー
+アップデート：週2回
+テクノロジー
+テクノロジー
+アップデート：毎週
+テクノロジー
+テクノロジー
+アップデート：隔週
+ビジネス
+ビジネス
+アップデート：毎月
+テクノロジー
+テクノロジー
+アップデート：毎週
+不適切な表現を含むエピソードを再生するには、サインインしてください。
+サインイン
+この番組の最新情報をチェック
+サインインまたは登録して番組をフォローし、エピソードを保存し、最新のアップデートを入手しましょう。
+サインイン
+エピソードを埋め込む
+ 埋め込みコードをコピー 
+国または地域を選択
+アフリカ、中東、インド
+すべて表示 
+Algeria
+Angola
+Armenia
+Azerbaijan
+Bahrain
+Benin
+Botswana
+Burkina Faso
+Cameroun
+Cape Verde
+Chad
+Côte d’Ivoire
+Congo, The Democratic Republic Of The
+Egypt
+Eswatini
+Gabon
+Gambia
+Ghana
+Guinea-Bissau
+India
+Iraq
+Israel
+Jordan
+Kenya
+Kuwait
+Lebanon
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger (English)
+Nigeria
+Oman
+Qatar
+Congo, Republic of
+Rwanda
+São Tomé and Príncipe
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+South Africa
+Sri Lanka
+Tajikistan
+Tanzania, United Republic Of
+Tunisia
+Turkmenistan
+United Arab Emirates
+Uganda
+Yemen
+Zambia
+Zimbabwe
+アジア太平洋
+すべて表示 
+Afghanistan
+Australia
+Bhutan
+Brunei Darussalam
+Cambodia
+中国大陆
+Fiji
+香港
+Indonesia (English)
+日本
+Kazakhstan
+대한민국
+Kyrgyzstan
+Lao People's Democratic Republic
+澳門
+Malaysia (English)
+Maldives
+Micronesia, Federated States of
+Mongolia
+Myanmar
+Nauru
+Nepal
+New Zealand
+Pakistan
+Palau
+Papua New Guinea
+Philippines
+Singapore
+Solomon Islands
+台灣
+Thailand
+Tonga
+Turkmenistan
+Uzbekistan
+Vanuatu
+Vietnam
+ヨーロッパ
+すべて表示 
+Albania
+Armenia
+Österreich
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France (Français)
+Georgia
+Deutschland
+Greece
+Hungary
+Iceland
+Ireland
+Italia
+Kosovo
+Latvia
+Lithuania
+Luxembourg (English)
+Malta
+Moldova, Republic Of
+Montenegro
+Nederland
+North Macedonia
+Norway
+Poland
+Portugal (Português)
+Romania
+Россия
+Serbia
+Slovakia
+Slovenia
+España
+Sverige
+Schweiz
+Türkiye (English)
+Ukraine
+United Kingdom
+ラテンアメリカ、カリブ海地域
+すべて表示 
+Anguilla
+Antigua and Barbuda
+Argentina (Español)
+Bahamas
+Barbados
+Belize
+Bermuda
+Bolivia (Español)
+Brasil
+Virgin Islands, British
+Cayman Islands
+Chile (Español)
+Colombia (Español)
+Costa Rica (Español)
+Dominica
+República Dominicana
+Ecuador (Español)
+El Salvador (Español)
+Grenada
+Guatemala (Español)
+Guyana
+Honduras (Español)
+Jamaica
+México
+Montserrat
+Nicaragua (Español)
+Panamá
+Paraguay (Español)
+Perú
+St. Kitts and Nevis
+Saint Lucia
+St. Vincent and The Grenadines
+Suriname
+Trinidad and Tobago
+Turks and Caicos
+Uruguay (English)
+Venezuela (Español)
+米国およびカナダ
+すべて表示 
+Canada (English)
+Canada (Français)
+United States
+Estados Unidos (Español México)
+الولايات المتحدة
+США
+美国 (简体中文)
+États-Unis (Français France)
+미국
+Estados Unidos (Português Brasil)
+Hoa Kỳ
+美國 (繁體中文台灣)

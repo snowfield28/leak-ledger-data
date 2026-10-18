@@ -1,0 +1,75 @@
+URL: https://www.cyera.com/research/opencode-breach-what-happened-and-how-to-rotate-exposed-ai-api-keys
+
+OpenCode Breach: What Happened and How to Rotate Exposed AI API Keys
+Get a demo
+Get a demo
+Back to Vulnerability Research
+OpenCode Breach: What Happened and How to Rotate Exposed AI API Keys
+If your developers use OpenCode, here's what to check and rotate today.
+Adam Ochayon
+Yuval Yogev
+Oct 17, 2026
+‍
+Developing story. Last updated October 17, 2026, 6:00 PM ET.
+Key facts
+Who's affected:
+ OpenCode Console users who linked external AI providers. According to OpenCode, if you didn't get an email from them, you weren't impacted.
+What's at risk:
+ the OpenAI, Anthropic, Google and other provider API keys linked in those Console workspaces.
+What to do:
+ revoke and reissue those keys in each provider's own dashboard, review usage, and set spend limits.
+Still unknown:
+ how attackers got in, how the keys were stored, and whether any were misused.
+OpenCode 
+confirmed
+ a security breach on October 17 that affected 1.4% of OpenCode Console users. API keys for AI providers linked in affected Console workspaces may have been exposed, and some users report usage charges they didn't make. If any of your developers got a notice from OpenCode, revoke and reissue every provider key they linked in Console, then check your provider bills.
+What happened at OpenCode
+OpenCode is an open-source AI coding agent that runs in the terminal, as a desktop app and inside IDEs. It's model-agnostic, so developers plug in keys from Anthropic, OpenAI, Google and other providers and switch between them.
+OpenCode says the breach hit a subset of Console users who had linked external providers, meaning their own OpenAI, Anthropic or Google keys. 
+OpenCode Console
+ is the hosted layer where teams share models from a workspace, set budgets, and connect their own model providers.
+In its 
+public statement
+, OpenCode tied the incident to "a large scale distillation attack that impacted 1.4% of OpenCode Console users." The company has emailed affected users and is working with Google, OpenAI and Anthropic on remediation. In that email, OpenCode attributed the intrusion to a legacy console system it was in the process of retiring. It hasn't said how attackers got in or how the keys were stored, and it says it can't yet confirm whether the exposed keys were misused.
+Why stolen AI keys matter
+Anyone holding a stolen provider key can run workloads on your account and run up your bill. Depending on how the key is scoped, they can also reach the files, prompts and fine-tuned models tied to it.
+OpenCode called this a distillation attack. In September, Anthropic described campaigns by China-based AI labs that pulled roughly 190 million exchanges from Claude to train their own models, partly through 
+"illegally harvested API keys"
+ belonging to real companies and individuals. Leaked AI keys feed that market, so expect them to be used fast and at scale. No one has publicly attributed the OpenCode attack.
+What to do after the OpenCode breach
+Start by finding every place OpenCode touches your AI providers. Then rotate keys at the source and watch for misuse.
+Find where OpenCode runs
+Check developer endpoints for OpenCode installs, and look for Console accounts tied to corporate email addresses or corporate cards. OpenCode emailed affected users directly, so ask your developers whether they received a notice instead of waiting for one to reach security. If your developers run OpenCode only locally with their own keys, nothing published so far says those keys were exposed. Rotating them is still cheap insurance.
+Revoke and reissue at the provider
+Revoke keys in the provider's own dashboard (OpenAI, Anthropic, Google, OpenRouter and any others), not in OpenCode, because deleting a key from OpenCode doesn't stop someone who already copied it. Go to each dashboard directly, not through links in a breach email, since notices like these are common phishing bait. Issue new keys, update the tools and pipelines that use them, and confirm the old keys are dead. Reset OpenCode account passwords and regenerate any OpenCode Console API keys while you're at it.
+Check usage and cap spend
+Review provider usage and billing from October 16 onward for spikes, unfamiliar models, or activity at odd hours. Set hard spend limits and usage alerts on every provider account. A cap won't stop the theft, but it limits the damage while you finish rotating keys. Where you can, scope keys per project or per user so the next leak stays small. In Console itself, review the providers linked to each workspace and remove any you no longer need. Console budgets only cover spend that runs through OpenCode, so they won't stop a stolen key used directly against the provider.
+Rotate fast, but with context
+Before you revoke, and after, answer three questions about each exposed key.
+Who owns the key
+Provider keys often start on one developer's account and end up in several tools. Find the owner first. Unowned keys are the ones nobody rotates.
+What else uses it
+A key linked in OpenCode Console may also run a CI job, an internal app or another coding agent. For keys OpenCode flagged, revoke now and fix what breaks. For keys you're rotating as a precaution, issue the replacement, move every consumer to it, then revoke the old one.
+What data it can reach
+Depending on the provider, a key can read files you've uploaded, stored responses and fine-tuned models. If a flagged key had that access, treat the data as possibly exposed and review it with the owner.
+Every AI coding tool your developers connect holds credentials and can reach data. Give it the same ownership, rotation and least-privilege rules as any service account. For more, read about 
+the AI trust layer for the agentic enterprise
+.
+Updates
+‍
+October 17, 2026, 6:00 PM ET:
+ First published. OpenCode confirmed a breach affecting 1.4% of Console users with linked external providers, and attributed it to a legacy console system it was retiring.
+‍
+Share
+Table of contents
+Heading 2
+Related Resources
+September 1, 2026
+PostGREShell: The database powering much of the internet had an open door for 12 years
+August 25, 2026
+Drive-By Agent Hijacking: One Website Visit, Persistent Model Poisoning
+August 7, 2026
+Breaking Local AI Runtimes: 10 vulnerabilities in the Engine Behind Your Open-Source Models
+Secure
+the unknown
+Book a demo
