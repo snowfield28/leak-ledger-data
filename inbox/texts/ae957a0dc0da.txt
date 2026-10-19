@@ -1,0 +1,86 @@
+URL: https://csrc.nist.gov/pubs/sp/800/61/r3/final
+
+SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile | CSRC
+You are viewing this page in an unauthorized frame window.
+This is a potential security issue, you are being redirected to 
+https://csrc.nist.gov
+.
+Official websites use .gov
+A
+.gov
+ website belongs to an official government
+ organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+ (
+Lock
+Locked padlock icon
+) or 
+https://
+ means you’ve safely connected to
+ the .gov website. Share sensitive information only on official,
+ secure websites.
+Information Technology Laboratory
+Computer Security Resource Center
+Publications
+ NIST SP 800-61 Rev. 3
+Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile
+Share to Facebook
+Share to X
+Share to LinkedIn
+Share ia Email
+Documentation
+Topics
+Date Published:
+April 2025
+Supersedes:
+SP 800-61 Rev. 2 (08/06/2012)
+Author(s)
+Alexander Nelson (NIST)
+, 
+Sanjay Rekhi (NIST)
+, 
+Murugiah Souppaya (NIST)
+, 
+Karen Scarfone (Scarfone Cybersecurity)
+Abstract
+This publication seeks to assist organizations with incorporating cybersecurity incident response recommendations and considerations throughout their cybersecurity risk management activities as described by the NIST Cybersecurity Framework (CSF) 2.0. Doing so can help organizations prepare for incident responses, reduce the number and impact of incidents that occur, and improve the efficiency and effectiveness of their incident detection, response, and recovery activities. Readers are encouraged to utilize online resources in conjunction with this document to access additional information on implementing these recommendations and considerations.
+ This publication seeks to assist organizations with incorporating cybersecurity incident response recommendations and considerations throughout their cybersecurity risk management activities as described by the NIST Cybersecurity Framework (CSF) 2.0. Doing so can help organizations prepare for...
+See full abstract
+This publication seeks to assist organizations with incorporating cybersecurity incident response recommendations and considerations throughout their cybersecurity risk management activities as described by the NIST Cybersecurity Framework (CSF) 2.0. Doing so can help organizations prepare for incident responses, reduce the number and impact of incidents that occur, and improve the efficiency and effectiveness of their incident detection, response, and recovery activities. Readers are encouraged to utilize online resources in conjunction with this document to access additional information on implementing these recommendations and considerations.
+Hide full abstract
+Keywords
+cyber threat information sharing
+; 
+Cybersecurity Framework
+; 
+cybersecurity incident
+; 
+cybersecurity risk management
+; 
+incident handling
+; 
+incident management
+; 
+incident response
+Control Families
+None selected
+Documentation
+Publication:
+ https://doi.org/10.6028/NIST.SP.800-61r3
+ Download URL
+Supplemental Material:
+ Incident Response project
+Document History:
+ 04/03/24: 
+SP 800-61 Rev. 3 (Draft)
+ 04/03/25: 
+SP 800-61 Rev. 3 (Final)
+Topics
+Security and Privacy
+incident response
+, 
+information sharing
+Applications
+cybersecurity framework

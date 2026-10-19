@@ -1,0 +1,266 @@
+URL: https://status.connectwise.com/
+
+ConnectWise Product and Services Status
+SUBSCRIBE
+SUBSCRIBE
+Active Incident
+Updated a few seconds ago
+Updated a few seconds ago
+Welcome to the ConnectWise status page. 
+Issues impacting our products and services are reported and tracked on this site. 
+Monitor this page if you are experiencing an issue to stay updated on the status and resolution.
+ConnectWise Cloud Backup Issue Investigation
+Security Issue
+Incident Status 
+Security Issue
+Components 
+Cloud Backup, Cloud Migration, Cloud Services Portal, SaaS Security & Cloud Automation
+Locations 
+All Regions
+October 16, 2026 1:48PM EDT
+October 16, 2026 5:48PM UTC
+INVESTIGATING
+ConnectWise is investigating recent attempts of unauthorized access associated with the ConnectWise Cloud Backup environment. Upon detecting this threat, we promptly initiated our incident response procedures. Containment measures are in place, and our investigation continues. At this time, there is no indication that partner backup data has been accessed.
+Our engineering teams are continuing to explore the nature and scope of the issue. Our investigation is ongoing, and we will provide additional information as appropriate. We appreciate your patience while we work through this process.
+Indicators of Compromise (IOCs)
+The following indicators have been associated with the reported suspicious authentication activity .
+Source IP Address
+144.172.64.128
+Observed User Agents
+Python-urllib/3.12
+python-requests/2.31
+These indicators are provided transparency to assist with security monitoring and investigation. Their presence alone does not establish unauthorized activity or confirm compromise.
+October 17, 2026 1:11AM EDT
+October 17, 2026 5:11AM UTC
+IDENTIFIED
+We recently identified unauthorized access to application identities within the ConnectWise Cloud Backup environment. 
+As a protective measure for our Cloud Backup partners and their clients, we are shutting off Cloud Backup application access. This will interrupt backup services for customers until further notice. 
+We have no indicators to date that Cloud Backup partner backup data has been compromised. The existing cloud backup archive is not impacted by this service interruption and will be accessible once services are restored. Our investigation and remediation efforts remain ongoing. 
+How to Check for Indicators of Compromise (IOCs) :
+If you would like to review your environment for potential indicators of compromise associated with this activity, follow the steps below:  
+1. In the Microsoft Entra Admin Center, navigate to Monitoring → Sign-in logs, select the Service principal sign-ins tab, and filter by Application ID 506e08f9-6e9a-4da4-942b-a099a03644ae.  
+2. This is where the application's authentication activity is recorded.  
+3. The default User sign-ins tab will not display the required information.  
+4. In the IP address column, review authentication activity originating from IP addresses outside expected Microsoft/Azure ranges. The application's normal egress has been identified as Azure private IPv6.  
+5. Identified suspicious IP address: 144.172.64.128  
+The presence of these indicators warrants further investigation but does not, by itself, confirm that your environment has been compromised. 
+Please check back with our Trust Center for updates and published guidance on monitoring your environment. Coordinate with your security team or managed security provider to review unusual application sign-ins and permission changes. Report suspicious activity to SecurityPartnerSupport@ConnectWise.com. 
+We recognize the impact on our partners' operations and will provide further updates, including service status through the Trust Center and Partner Care. 
+Thank you, 
+ConnectWise
+October 17, 2026 1:04PM EDT
+October 17, 2026 5:04PM UTC
+IDENTIFIED
+Cloud Backup investigation and service update:
+We have taken protective action following unauthorized access to application identities associated with ConnectWise Cloud Backup, formerly known as SkyKick. Our investigation remains ongoing. Since implementing the mitigations described below, we have not observed successful threat activity in the environments we monitor. 
+Actions taken:
+Out of an abundance of caution, we suspended Cloud Backup service by revoking certificates used for affected application connections across all users. This removed ConnectWise’s access through those connections. The shared credentials previously used for Cloud Backup are no longer valid and cannot be used. 
+In addition to mobilizing our internal security teams and Security Operations Center (SOC), we have engaged a reputable third-party incident response firm to support our investigation and containment efforts. Together, these teams are actively monitoring our backup infrastructure and broader environment, with the investigation extending across all partner-facing services. At this time, we have no indication that any other ConnectWise product, service, or offering is impacted. 
+Backup data and customer environments:
+Cloud Backup archives remain encrypted and isolated. We have no evidence that these encrypted backup archives have been accessed. Existing archives are isolated and preserved, although access and restoration remain unavailable during the service interruption. 
+These findings relate to our Cloud Backup environment. By design, the configuration of Cloud Backup does not provide us visibility or access to downstream partner and customer environments. As a result, we cannot determine through our investigation alone whether a particular customer’s Microsoft 365 environment experienced unauthorized activity. Partners should continue reviewing their environments with their security teams or managed security providers. 
+Investigation and restoration:
+We are in the second phase of our investigation and response, validating critical findings and mitigation paths. This work will determine the steps required to restore service. We will communicate when we exit this phase and share restoration timing and any required partner actions as soon as possible. 
+We appreciate the cybersecurity community’s support and contributions to the investigation. We recognize the urgency of restoring protection for our partners and their customers. 
+We will publish another update later today, October 17, 2026, through the ConnectWise Trust Center, including if there is no material change. Please use the Trust Center for current status and guidance. Contact Partner Care for service assistance and report suspicious activity to SecurityPartnerSupport@ConnectWise.com. 
+We understand the disruption this incident is causing our partners and their customers, particularly while backup and restoration services remain unavailable. Our teams are working urgently to restore service.
+October 17, 2026 9:24PM EDT
+October 18, 2026 1:24AM UTC
+IDENTIFIED
+Cloud Backup investigation and service update:
+We are continuing our investigation and remediation following unauthorized access to application identities associated with ConnectWise Cloud Backup, formerly known as SkyKick. This update provides more detail on the actions we have taken, the services currently unavailable, and the suggested system checks partners should complete in their Microsoft 365 environments.
+Actions taken by ConnectWise:
+At 07:00 UTC on October 17, 2026, we disabled the seven ConnectWise application identities posted on our Trust Center page. Disabling the affected connections prevents new authentication through those connections; it does not reverse changes previously made inside a tenant.
+We also suspended Cloud Backup service by revoking certificates used for affected application connections. The affected shared Cloud Backup credentials are no longer valid. Previously issued access tokens may remain usable until they expire or are otherwise invalidated. Any unauthorized credentials, permissions, or other access established through separate identities require additional review and remediation.
+In addition to mobilizing our internal security teams and Security Operations Center, we engaged a reputable third-party forensics firm. Together, these teams continue monitoring our backup infrastructure and broader environment. We are also reviewing other potentially affected partner facing services. Since implementing our mitigations, we have not observed successful threat activity in the environments we monitor. Investigation and validation remain ongoing.
+We are still in the investigation stage of our incident response process, validating critical findings and mitigation paths. We do not have a restoration time to share yet. We will advise partners when we exit this phase and provide reconnection or reauthorization instructions as soon as they are confirmed.
+Service availability and backup data:
+Cloud Backup remains suspended. Scheduled backups are not running, and access to affected backup archives and restoration capabilities remains unavailable. Existing archives remain encrypted, isolated, and preserved. We have no evidence that these archives have been accessed.
+As an additional precaution, we have temporarily taken SaaS Security and Cloud Management offline while we complete our review. During this pause, SaaS Security monitoring and alerting and Cloud Management user and license management are unavailable. Please contact Partner Care for assistance with changes you would normally make through these services.
+These service interruptions are proactive, protective actions. They do not, by themselves, establish that a partner or customer environment was compromised. We will communicate service-specific restoration status as our review progresses.
+Please visit our Trust Center for important actions to take, technical workflows, and information on our next update.
+https://www.connectwise.com/company/trust/advisories
+October 18, 2026 12:10PM EDT
+October 18, 2026 4:10PM UTC
+IDENTIFIED
+Cloud Backup service interruption update
+We are continuing our investigation and remediation following unauthorized access to application identities associated with ConnectWise Cloud Backup, formerly known as SkyKick.
+At this time, we have no new confirmed findings to report. Our previously published guidance remains unchanged and is available in the ConnectWise Trust Center.
+We are contacting our entire partner base to ensure all partners are aware of the incident, the protective actions we have taken, and where to find current guidance.
+For partners using the former SkyKick services, we suspended Cloud Backup in response to observed indicators of unauthorized activity. Because SaaS Security and Cloud Management are integrated with Cloud Backup, we also suspended those services out of an abundance of caution while our investigation and remediation continue. Cloud Backup jobs, archive access, and restores remain unavailable, as do SaaS Security monitoring and alerting and Cloud Management user and license management.
+We have implemented containment measures and engaged third-party incident response specialists. Our teams continue monitoring the affected environments, conducting forensic analysis and threat hunting, and carrying out remediation. We are validating the effectiveness of these measures to support a controlled restoration of service.
+Existing backup archives remain encrypted and isolated, and we have no indication that those archives have been compromised. These findings concern stored backup archives and do not establish whether individual live Microsoft 365 environments were affected. Partners should continue following the published guidance at ConnectWise Trust Center with their security teams or managed security providers.
+Our incident response, engineering, and operations teams are working around the clock to restore service. We recognize the disruption this continues to cause our partners and their customers. Restoring service safely remains our top priority.
+We will continue publishing updates, including when there is no material change. Our next update will be posted by 19:00 UTC on October 18, 2026.
+Please use the Trust Center for current status and guidance. 
+Contact Partner Care for service assistance and report suspicious activity to SecurityPartnerSupport@ConnectWise.com.
+October 18, 2026 3:01PM EDT
+October 18, 2026 7:01PM UTC
+IDENTIFIED
+Cloud Backup service interruption update
+We are continuing our investigation and remediation following unauthorized access to application identities associated with ConnectWise Cloud Backup, formerly known as SkyKick.
+Our investigation and remediation remain ongoing, and our incident response, engineering, and operations teams continue working around the clock with third-party specialists to restore service safely and as quickly as possible.
+For partners using the former SkyKick services, Cloud Backup is currently suspended in response to observed indicators of unauthorized activity. Because SaaS Security and Cloud Management are integrated with Cloud Backup, we also suspended those services out of an abundance of caution while our investigation and remediation continue.
+We recognize the continued disruption to your business and your customers, particularly while backup and restoration services remain unavailable.
+Additional IP Indicators:
+The following IP addresses were shared with us through downstream security monitoring of partner and customer environments. Partners should include these addresses when reviewing available Microsoft 365 authentication and audit logs.
+144.172.64[.]99 NEW
+144.172.64[.]60 NEW
+144.172.64[.]128 PREVIOUSLY LISTED
+Detailed guidance for partners and customer administrators:
+Our previously published guidance remains in effect. The Cloud Backup technical investigation and remediation guide provides detailed instructions for reviewing your MSP’s Microsoft 365 environment and each customer environment you manage. It covers affected application identities, sign-in and audit records, credentials, permissions, role assignments, and potential persistence through other identities or mailbox changes.
+If you provide these services through a reseller, distributor, or marketplace arrangement, ensure this guidance reaches the administrator responsible for each customer tenant. If you do not administer those environments directly, coordinate with the customer’s IT administrator or security provider to confirm that the guidance has been received and the review is being addressed.
+We will continue publishing updates, including when there is no material change. Our next update will be posted by 1:00 UTC on October 19, 2026.
+Please use the ConnectWise Trust Center for current status and guidance. Contact Partner Care for service assistance and report suspicious activity to SecurityPartnerSupport@ConnectWise.com.
+October 18, 2026 9:28PM EDT
+October 19, 2026 1:28AM UTC
+IDENTIFIED
+Cloud Backup service interruption update
+Our incident response, engineering, and operations teams continue working around the clock with third-party specialists to advance the investigation, complete remediation, and validate services for a safe restoration. We are responsible for restoring service safely and providing clear, timely updates.
+Containment measures remain in place. Since implementing mitigations, we have not observed successful threat activity in the environments we monitor.
+Cloud Backup, SaaS Security, and Cloud Management remain suspended while remediation and security validation continue. Scheduled backups, archive access, and restores remain unavailable, along with SaaS Security monitoring and alerting and Cloud Management user and license management.
+We understand that this interruption affects your ability to support your customers. We do not yet have a confirmed restoration time and will share a timeline as soon as we can do so reliably.
+Actions for partners:
+Please follow the Cloud Backup technical investigation and remediation guide. Review your own Microsoft 365 tenant and each customer tenant you manage, and keep affected applications disabled pending formal restoration instructions.
+If you provide services through a reseller, distributor, or marketplace, ensure the administrator responsible for each customer tenant receives and acts on this guidance.
+Our next update will be published by October 19 at 09:00 UTC. We will communicate significant developments sooner.
+Visit the ConnectWise Trust Center for current status and guidance. Contact Partner Care for service assistance and report suspicious activity to SecurityPartnerSupport@ConnectWise.com.
+October 19, 2026 10:21AM EDT
+October 19, 2026 2:21PM UTC
+IDENTIFIED
+Cloud Backup service interruption update
+The findings and partner guidance shared previously remain current as of this update.
+Our incident response, engineering, and operations teams continue advancing the investigation and remediation with third-party specialists. This work includes validating findings, verifying containment measures, and completing the security checks needed to restore services safely. We are responsible for this work and for keeping you informed.
+Containment measures remain in place. Since implementing mitigations, we have not observed successful threat activity in the environments we monitor since October 17, 05:00 UTC.
+Cloud Backup, SaaS Security, and Cloud Management remain suspended. Scheduled backups, archive access, and restores remain unavailable, along with SaaS Security monitoring and alerting and Cloud Management user and license management.
+We recognize the continued disruption to your operations and your customers. Our teams remain focused on restoring service safely. We do not yet have a confirmed restoration time and will share a timeline and any required reconnection instructions as soon as they are confirmed.
+Actions for partners
+Please continue following the Cloud Backup technical investigation and remediation guide. Review your own Microsoft 365 tenant and each customer tenant you manage, and keep affected applications disabled pending formal restoration instructions.
+If you provide services through a reseller, distributor, or marketplace, ensure the administrator responsible for each customer tenant receives and acts on this guidance.
+Our next update will be published by October 19 at 19:00 UTC. We will communicate significant developments sooner.
+Visit the ConnectWise Trust Center for current status and guidance. Contact Partner Care for service assistance and report suspicious activity to SecurityPartnerSupport@ConnectWise.com.
+CW Platform
+APAC
+EMEA
+North America
+Other Regions
+Operational
+Automate
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+BCDR (competency)
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+Cloud Backup
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Security Issue
+Cloud Migration
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Security Issue
+Cloud Services Portal
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Security Issue
+Co-Managed Backup
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+Co-Managed SIEM
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+ConnectWise Home
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+ConnectWise Marketplace
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+ConnectWise University
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+connectwise.com
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+Continuity Backup
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+CPQ
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+Customer Feedback
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+Customer Portal
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+Documentation
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operational
+Help Desk Services
+APAC
+EMEA
+North America
+All Regions
+Other Regions
+Operati
