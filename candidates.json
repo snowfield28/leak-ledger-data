@@ -6085,43 +6085,6 @@
    "pendingReason": "公式発表は漏えい（データ流出）を認めるが、個人情報が含まれるか・件数は未公表。10月15日付の訂正リリース（TDnet）は有料・取得不可で未確認。個人情報の漏えいが公式に確認できれば add"
   },
   {
-   "id": "nishinihon-jrbus-hassha-2610",
-   "co": "西日本JRバス（発車オーライネット／高速バス）",
-   "date": "2026-10-16",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "name",
-    "tel",
-    "deal"
-   ],
-   "itemsText": "予約者のカタカナ氏名、電話番号、予約バス情報（乗車日・路線・予約番号など）",
-   "who": [
-    "cust"
-   ],
-   "sum": "高速バス予約サイト「発車オーライネット」（運営：工房）への不正アクセスにより、同社の一部路線の予約情報が流出した可能性がある。",
-   "official": [
-    [
-     "「発車オーライネット」への不正アクセスによるお客様情報の流出に関するお知らせ（西日本JRバス）",
-     "https://www.nishinihonjrbus.co.jp/news/detail/2137"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/hassha-orai-net-affected-bus-operators-summary/"
-    ]
-   ],
-   "ind": "運輸・交通",
-   "pendingReason": "公式本文は読めたが、ページに掲載日の記載がなく公表日を確認できていない（WebFetchは拒否された）。日付は報道の整理（10/18時点）から推定したもので未確認。掲載日が確認できれば追加できる。"
-  },
-  {
    "id": "hokkaido-chuo-bus-hassha-2610",
    "co": "北海道中央バス（発車オーライネット／高速バス）",
    "date": "2026-10-16",
