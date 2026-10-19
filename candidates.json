@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -5523,41 +5523,6 @@
    "pendingReason": "公式トップページで2026/10/08付の該当お知らせ（タイトル・リンク先 /user_data/incident、カード情報は含まれない旨）の存在は確認したが、お知らせ本文ページはWebFetchで開けず（provenance制限）、件数・項目・経緯を公式本文で照合できていない。"
   },
   {
-   "id": "kissei-shoji-2610",
-   "co": "キッセイ商事（キッセイ薬品工業子会社）",
-   "date": "2026-10-09",
-   "announced": "2026-10-09",
-   "occurred": "2026-10-07",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認（報道では要配慮個人情報等の機微な情報が流出した可能性を否定できないとされる）",
-   "notIncl": "",
-   "sum": "報道によると、キッセイ薬品工業の子会社キッセイ商事が第三者から不正アクセスを受けた。10月7日夜にデータを窃取したとする第三者からのメールが関係者に届いて発覚。要配慮個人情報を含む機微な情報が流出した可能性を否定できないとして10月9日に公表した。内容・件数は調査中で、業務への支障は確認されていないとされる。",
-   "status": "ongoing",
-   "statusText": "報道時点で外部専門家と原因・被害範囲を調査中。",
-   "resp": "報道によると、アクセスを遮断し外部専門家と調査中。",
-   "official": [
-    [
-     "当社グループ会社への不正アクセスについて（2026/10/9）",
-     "https://www.kissei.co.jp/news/uploaded/8799a42c0104c787a0519f1fabd3b2a5.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "ロケットボーイズ（セキュリティ対策Lab）",
-     "https://rocket-boys.co.jp/security-measures-lab/kissei-shoji-unauthorized-access/"
-    ]
-   ],
-   "ind": "医療・製薬",
-   "pendingReason": "公式発表PDF（キッセイ薬品工業ニュース一覧 2026/10/9 掲載）のURLは特定できたが、WebFetch が provenance 制限で繰り返し拒否され本文を開けず、件数・項目・窓口を照合できていない。"
-  },
-  {
    "id": "skyperfect-jsat-idcf-2610",
    "co": "スカパーJSAT（スカパー！メンバーズ／委託先 IDCフロンティア）",
    "date": "2026-10-13",
@@ -6119,6 +6084,112 @@
    ],
    "ind": "公共機関",
    "pendingReason": "報道のみで、徳島県警の公式発表の本文を見つけられていない（inboxの公式候補は無関係のページ）。自動取得不可。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "saitama-police-arcadia-2610",
+   "co": "埼玉県警察（災害時安否確認システム／委託先 アルカディア）",
+   "date": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 13000,
+   "label": "約1万3,000人（報道）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "work"
+   ],
+   "itemsText": "警察官・職員の氏名、所属、個人のメールアドレス（報道）",
+   "who": [
+    "staff"
+   ],
+   "sum": "報道によると、災害時の安否確認のために利用していたアルカディアのシステムに登録した埼玉県警の警察官ら職員約1万3千人の氏名・所属・個人のメールアドレスが、同社への不正アクセスにより漏えいした可能性がある。10月13日に同社から県警へメールで連絡があった。不正利用は確認されていないとされる。",
+   "status": "ongoing",
+   "statusText": "報道時点で調査中。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "埼玉新聞",
+     "https://www.saitama-np.co.jp/articles/219700/postDetail"
+    ],
+    [
+     "TBS NEWS DIG",
+     "https://newsdig.tbs.co.jp/articles/-/3022126"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "報道（埼玉新聞・TBS・ライブドアニュース）のみで、埼玉県警の公式発表の本文が見つからない（Web検索でも県警サイトに該当ページなし）。自動取得不可。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "mappa-expo-studio-2610",
+   "co": "MAPPA EXPO 15th Anniversary運営事務局（公式サイト／クラウドサービス Studio）",
+   "date": "2026-10-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "公式サイトの「CONTACT」フォームに2026年6月19日〜10月15日に入力された氏名、メールアドレス、問い合わせ内容（報道）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、イベント公式サイトが利用するWeb制作サービス「Studio」のクラウド環境への不正アクセスに伴い、問い合わせフォームの送信情報が外部に流出した可能性がある。件数は調査中。",
+   "status": "ongoing",
+   "statusText": "報道時点で調査中。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mappa-expo-studio-unauthorized-access-contact-form-20261017/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "pendingReason": "MAPPA EXPO側の公式お知らせ（expo.mappa.co.jp/infomation/QVIAWjFu）は取得結果が本文なし（status=thin。JavaScript描画の可能性）。Studio社の発表は読めたが運営事務局自身の本文は未確認。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "karatsu-city-arcadia-2610",
+   "co": "唐津市（唐津市情報メール配信サービス／委託先 アルカディア）",
+   "date": "2026-10-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "登録者のメールアドレス等（報道）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、市が業務委託するアルカディアが不正アクセスを受け、唐津市情報メール配信サービスの登録者のメールアドレス等が外部流出した可能性がある。10月19日17時に新規会員受付を再開した。",
+   "status": "ongoing",
+   "statusText": "市の10月19日更新ページで、サービス提供会社が安全性を確認したと説明。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/19/56492.html"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "市の公式ページ（2026/10/19更新、https://www.city.karatsu.lg.jp/page/52939.html）は受付再開の案内で、漏えいの対象項目・件数の記載がなく、10/13の当初発表の本文は未取得のため、件数・内容を照合できていない。"
   }
  ]
 }

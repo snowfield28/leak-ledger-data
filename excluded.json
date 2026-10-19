@@ -637,6 +637,47 @@
     "https://www.siu.ac.jp/news/detail.html?news=1848"
    ],
    "checked": "2026-10-19"
+  },
+  {
+   "id": "jfa-passport-2610",
+   "co": "公益財団法人日本サッカー協会（公式アプリ JFA Passport）",
+   "date": "2026-10-18",
+   "reason": "10月18日の発表は、10月17日の不正アクセスで一部機能を停止したとし、個人情報を含む利用者情報への影響は「調査中」とするのみで、漏えいやその可能性には触れていない。続報で漏えいが公表されれば対象に戻す。",
+   "official": [
+    "https://www.jfa.jp/news/00036934/"
+   ],
+   "checked": "2026-10-20"
+  },
+  {
+   "id": "softbank-mysoftbank-2610",
+   "co": "ソフトバンク株式会社（My SoftBank ウェブサイト）",
+   "date": "2026-10-19",
+   "reason": "10月19日の発表は、10月17日に「不正アクセスの試み」を検知しウェブサイトを一時停止したとするもので、情報の漏えいには触れていない。続報で漏えいが公表されれば対象に戻す。",
+   "official": [
+    "https://www.softbank.jp/corp/news/press/sbkk/2026/20261019_01/",
+    "https://www.softbank.jp/mobile/info/personal/news/support/20261017a/"
+   ],
+   "checked": "2026-10-20"
+  },
+  {
+   "id": "aiphone-australia-2609",
+   "co": "アイホン株式会社（豪州法人 AIPHONE PTY LTD）",
+   "date": "2026-09-29",
+   "reason": "9月29日の第1報は、豪州子会社の社内ネットワークへの不正アクセスについて「外部への情報漏洩やお客様をはじめ関係する皆様に影響を及ぼす被害は確認されていない」と明記。",
+   "official": [
+    "https://www.aiphone.co.jp/docs/news/202609291325.html"
+   ],
+   "checked": "2026-10-20"
+  },
+  {
+   "id": "trustbank-furusato-fushin-2610",
+   "co": "株式会社トラストバンク（ふるさとチョイス／不正アクセスの疑い）",
+   "date": "2026-10-19",
+   "reason": "10月19日の発表は、不正アクセスの疑いがある事象を検知し関連サービスを一時停止して調査中とするのみで、漏えいやその可能性には触れていない（10月5日公表のAmazon Pay不具合による別事案は台帳に掲載済み）。続報で漏えいが公表されれば対象に戻す。",
+   "official": [
+    "https://www.trustbank.co.jp/newsroom/news/news261019/"
+   ],
+   "checked": "2026-10-20"
   }
  ]
 }
