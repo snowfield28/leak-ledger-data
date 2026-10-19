@@ -6085,43 +6085,6 @@
    "pendingReason": "公式発表は漏えい（データ流出）を認めるが、個人情報が含まれるか・件数は未公表。10月15日付の訂正リリース（TDnet）は有料・取得不可で未確認。個人情報の漏えいが公式に確認できれば add"
   },
   {
-   "id": "hokkaido-chuo-bus-hassha-2610",
-   "co": "北海道中央バス（発車オーライネット／高速バス）",
-   "date": "2026-10-16",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "name",
-    "tel",
-    "deal"
-   ],
-   "itemsText": "項目は公表資料で要確認",
-   "who": [
-    "cust"
-   ],
-   "sum": "同社サイトの新着情報に「「発車オーライネット」におけるお客様情報の漏えいについて（お詫び）」（2026/10/16）の掲載を確認したが、本文を開けていない。",
-   "official": [
-    [
-     "新着情報一覧（北海道中央バス）",
-     "https://www.chuo-bus.co.jp/main/info/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/hassha-orai-net-affected-bus-operators-summary/"
-    ]
-   ],
-   "ind": "運輸・交通",
-   "pendingReason": "inboxの公式URLは新着一覧で、タイトルと日付のみ。個別ページの本文（件数・項目・窓口）を開けず未照合。個別ページURLの検索結果にも出なかった。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "tokushima-police-arcadia-2610",
    "co": "徳島県警察（緊急連絡システム／委託先 アルカディア）",
    "date": "2026-10-15",

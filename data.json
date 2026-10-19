@@ -24972,6 +24972,57 @@
    ],
    "ind": "運輸・交通",
    "verified": "2026-10-19"
+  },
+  {
+   "id": "hokkaido-chuo-bus-hassha-2610",
+   "co": "北海道中央バス（発車オーライネット／高速バス・定期観光バス）",
+   "date": "2026-10-16",
+   "announced": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 5600,
+   "label": "約5,600名（工房の発表による全体規模）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "カタカナ氏名、電話番号、乗車日・路線など。乗車日が2026年7月16日〜11月29日の一部の予約情報",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "高速バス・定期観光バスの予約管理に使う「発車オーライネット」（運営：株式会社工房）の連携用サーバーが不正アクセスを受け、予約情報の一部が流出した。公式発表の「約5,600名」は工房の発表による全体規模で、同社分の件数ではない。",
+   "status": "ongoing",
+   "statusText": "詳細は運営元の工房の発表を参照とされている。",
+   "resp": "不審な電話・SMS・URLへの注意喚起。お客様相談センターを案内。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-539-020",
+      "hours": "発車オーライネットお客様相談センター（工房）。9〜18時（2026年10月19日開設）"
+     }
+    ],
+    "src": "https://www.chuo-bus.co.jp/main/info/"
+   },
+   "official": [
+    [
+     "「発車オーライネット」におけるお客様情報の漏えいについて（お詫び）（北海道中央バス／2026/10/16）",
+     "https://www.chuo-bus.co.jp/main/info/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hassha-orai-net-affected-bus-operators-summary/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-10-19"
   }
  ],
  "statusLabels": {
@@ -25004,7 +25055,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 273,
+ "pendingCount": 272,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
