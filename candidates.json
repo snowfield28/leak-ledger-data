@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -6156,6 +6156,397 @@
    ],
    "ind": "公共機関",
    "pendingReason": "市の公式ページ（2026/10/19更新、https://www.city.karatsu.lg.jp/page/52939.html）は受付再開の案内で、漏えいの対象項目・件数の記載がなく、10/13の当初発表の本文は未取得のため、件数・内容を照合できていない。"
+  },
+  {
+   "id": "globee-abceed-2610",
+   "co": "株式会社Globee（英語学習サービス「abceed」）",
+   "date": "2026-10-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 10834,
+   "label": "1万834アカウント",
+   "st": "p",
+   "items": [
+    "mail",
+    "id"
+   ],
+   "itemsText": "メールアドレス、ハッシュ化されたパスワード（1万834アカウント）、ユーザー名（うち90アカウント）",
+   "sum": "報道によると、10月17日に関連システムへの不正アクセスを検知。メールアドレスとハッシュ化パスワードが1万834アカウントで漏えいした可能性がある（数値はアカウント数）。",
+   "status": "ongoing",
+   "statusText": "10月20日の開示時点で原因・影響範囲を調査中（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/globee_abceed_unauthorized_access_10834_accounts/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "pendingReason": "自動取得不可（公式発表は日経の有料ページ）。manual/ に公式文面を貼れば反映できる。公式: https://www.nikkei.com/nkd/disclosure/tdnr/20261020553707/",
+   "who": [
+    "cust"
+   ]
+  },
+  {
+   "id": "ambition-dx-2610",
+   "co": "株式会社アンビションDXホールディングス",
+   "date": "2026-08-07",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "調査中（報道では約58万件）",
+   "st": "p",
+   "items": [],
+   "itemsText": "顧客、物件オーナー、入居者、取引先、役職員の個人情報を含む可能性（最終報の件数は公式本文未確認）",
+   "sum": "ファイルサーバーへの不正アクセス。8月28日の第3報（適時開示）で一部情報資産の漏えいを確認と公表。報道によると10月20日の最終報で約14万ファイル持ち出し、約58万件に個人情報漏えいのおそれ。",
+   "status": "ongoing",
+   "statusText": "10月20日に最終報（報道）。",
+   "resp": "",
+   "official": [
+    [
+     "不正アクセスによる情報漏えいの確認および調査状況について（第3報）（2026/8/28）",
+     "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260828/20260828527812.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ambition_dx_final_report_140k_files_580k_records_settra_20261020/"
+    ]
+   ],
+   "ind": "建設・不動産",
+   "pendingReason": "最終報の公式本文が読めず件数を照合できていない（日経の有料ページ）。manual/ に最終報の文面を貼れば反映できる。公式: https://www.nikkei.com/nkd/disclosure/tdnr/20261020553634/",
+   "who": [
+    "cust",
+    "biz",
+    "staff"
+   ]
+  },
+  {
+   "id": "hokan-suito-2610",
+   "co": "株式会社hokan（保険代理店向けクラウドサービス「hokan出納」）",
+   "date": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中（保険代理店2社）",
+   "st": "c",
+   "items": [],
+   "itemsText": "データの詳細は調査中（報道）",
+   "sum": "報道によると、認証基盤のアカウント登録機能を通じて不正アクセスがあり、10月14日に第三者によるデータ取得の記録を確認。現時点で情報流出が確認された利用企業は保険代理店2社。",
+   "status": "ongoing",
+   "statusText": "10月19日に第一報（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hokan_suito_unauthorized_access_confirmed_data_leak_20261020/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "自動取得不可（公式 https://www.corp.hkn.jp/news/category/press/261019 は本文が取れない）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "gdo-unauthorized-2610",
+   "co": "株式会社ゴルフダイジェスト・オンライン",
+   "date": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 1789,
+   "label": "1,789件（ほか会員55件に不正照会の可能性）",
+   "st": "c",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "現職従業員・退職者・委託先等の関係者の氏名・社用メールアドレス（報道）",
+   "sum": "報道によると、10月13日の初報では流出未確認だったが、10月16日の続報でログ調査により攻撃者のファイルダウンロードを確認。従業員等の氏名・社用メール1,789件が流出し、別サーバー経由で会員情報55件が不正照会された可能性がある。",
+   "status": "ongoing",
+   "statusText": "10月16日の続報（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/gdo_unauthorized_access_confirmed_1789_leaked_55_inquiry/"
+    ],
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/20/56514.html"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "pendingReason": "自動取得不可（公式発表本文が取得できていない）。manual/ に10月16日付の公式文面を貼れば反映できる。",
+   "who": [
+    "staff",
+    "biz"
+   ]
+  },
+  {
+   "id": "gettiis-linkstation-2610",
+   "co": "株式会社リンクステーション（チケット販売サービス「GETTIIS」）",
+   "date": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "birth",
+    "id",
+    "card"
+   ],
+   "itemsText": "会員ID、氏名、電話番号、メールアドレス、郵便番号、性別、生年月日、ハッシュ化パスワード、カード情報の一部（報道）",
+   "sum": "報道によると、10月18日未明に主催者向けサービス「Gettii-Lite」の脆弱性が悪用され、GETTIISの会員情報が外部に流出したことを確認。対象人数と項目の範囲は調査中。",
+   "status": "ongoing",
+   "statusText": "10月19日に第一報（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/gettiis_linkstation_gettii_lite_data_breach_20261019/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "自動取得不可（公式 https://www.gettiis.jp/notice/detail/40 がHTTP 503）。manual/ に公式文面を貼れば反映できる。",
+   "who": [
+    "cust"
+   ]
+  },
+  {
+   "id": "zigzag-worldshopping-2610",
+   "co": "株式会社ジグザグ（越境ECサービス「WorldShopping」）",
+   "date": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 301,
+   "label": "海外利用者301人",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "メールアドレス、氏名、住所、電話番号、注文に関する情報（報道）",
+   "sum": "報道によると、10月15〜16日に不正アクセスがあり、海外の利用者301人の個人情報が外部に漏えい。クレジットカード情報とパスワードは対象外。",
+   "status": "ongoing",
+   "statusText": "10月19日の適時開示（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/zigzag-worldshopping-unauthorized-access-data-leak-301-20261019/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "自動取得不可（公式発表は日経の有料ページ）。manual/ に公式文面を貼れば反映できる。公式: https://www.nikkei.com/nkd/disclosure/tdnr/20261019553141/",
+   "who": [
+    "cust"
+   ]
+  },
+  {
+   "id": "nec-vendor-2610",
+   "co": "日本電気株式会社（システム開発・保守の委託先経由、複数の顧客）",
+   "date": "2026-10-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [],
+   "itemsText": "個人情報とシステム関連情報を含むファイル（報道。対象者・件数は不明）",
+   "sum": "報道によると、NECが開発・保守を委託する企業が9月下旬にサイバー攻撃を受け、窃取された正規アカウントの認証情報で顧客環境に不正アクセス。顧客サーバーのファイルが暗号化され、共有クラウドストレージから個人情報を含むファイルが漏えいした。影響を受けた顧客の名称は不明。",
+   "status": "ongoing",
+   "statusText": "10月20日公表（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nec_vendor_compromise_customer_system_encryption_data_leak/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "自動取得不可（公式 https://jpn.nec.com/news/info/20261020.html がHTTP 403）。影響を受けた顧客や対象件数も不明。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "yoshinoya-applynow-2610",
+   "co": "株式会社吉野家ホールディングス（吉野家・はなまる／委託先 ApplyNow）",
+   "date": "2026-09-30",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 5366,
+   "label": "応募者5,366件（吉野家4,998件・はなまる368件）ほか従業員418件",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "tel",
+    "birth",
+    "addr",
+    "work",
+    "id"
+   ],
+   "itemsText": "応募者の氏名（カナ）、メールアドレス、電話番号、生年月日、性別、一部の住所・職業。採用担当者のユーザー名、メールアドレス、暗号化パスワード、権限（報道）",
+   "sum": "報道によると、アルバイト採用業務を一部委託していたApplyNowの採用管理プラットフォームが8月9日〜9月7日に不正アクセスを受け、契約終了後も残っていた応募者データが流出した。ApplyNow本体は台帳に掲載済み。",
+   "status": "ongoing",
+   "statusText": "9月30日に公表（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/20/56507.html"
+    ]
+   ],
+   "ind": "飲食",
+   "pendingReason": "公式PDF（https://contents.xj-storage.jp/xcontents/AS08813/afe2cda2/7ddb/4c8d/ac29/093acb365cc9/20260930152541531s.pdf）が自動取得不可（robots）。manual/ に公式文面を貼れば反映できる。",
+   "who": [
+    "staff"
+   ]
+  },
+  {
+   "id": "tochigi-police-arcadia-2610",
+   "co": "栃木県警察（内部システム／委託先 アルカディア）",
+   "date": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 3900,
+   "label": "約3,900人",
+   "st": "p",
+   "items": [
+    "name"
+   ],
+   "itemsText": "警察官・職員の個人情報（項目は報道では不明）",
+   "sum": "報道によると、アルカディアのサービスを利用する県警の内部システムに登録した警察官ら職員全約3,900人分の個人情報が流出した可能性がある（10月19日の県警取材で判明）。",
+   "status": "ongoing",
+   "statusText": "10月19日に県警への取材で判明（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tochigi_police_3900_personal_information_arcadia_20261020/"
+    ],
+    [
+     "下野新聞",
+     "https://www.shimotsuke.co.jp/articles/-/1443587"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "県警の公式発表が見つかっておらず、件数・項目を照合できていない。アルカディア側の公式ページ（https://raiden.site.ktaiwork.jp/archives/4597）には県警の記載なし。manual/ に県警の公式文面を貼れば反映できる。",
+   "who": [
+    "staff"
+   ]
+  },
+  {
+   "id": "nagasaki-city-studio-2610",
+   "co": "長崎市（アウェイ遠征応援キャンペーンサイト／クラウドサービス Studio）",
+   "date": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 19,
+   "label": "19人分22件",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "問い合わせフォームに入力された氏名、メールアドレス等（報道）",
+   "sum": "報道によると、Studio社への不正アクセス（9月30日〜10月1日）の影響で、市が管理するキャンペーンサイトの問い合わせフォームに入力された19人分22件の個人情報が漏えいしたおそれがある。Studio社からの通知メールに気づくのが遅れていたことも判明した。",
+   "status": "ongoing",
+   "statusText": "10月19日に市が発表（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "NBC長崎放送",
+     "https://newsdig.tbs.co.jp/articles/nbc/3022603?display=1"
+    ],
+    [
+     "NCC長崎文化放送",
+     "https://www.ncctv.co.jp/news/article/16976814"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nagasaki-city-studio-away-fan-campaign-data-exposure/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "長崎市の公式発表が見つかっておらず、報道のみ。manual/ に市の公式文面を貼れば反映できる。",
+   "who": [
+    "cust"
+   ]
+  },
+  {
+   "id": "isahaya-city-michinoeki-studio-2610",
+   "co": "諫早市（道の駅「251いいもりじゃがーロード」サイト／クラウドサービス Studio）",
+   "date": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 51,
+   "label": "51件",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "addr"
+   ],
+   "itemsText": "問い合わせフォームに送られた氏名、メールアドレス、住所など（報道）",
+   "sum": "報道によると、Studio社への不正アクセスの影響で、市が運用する道の駅サイトの問い合わせフォームに送られた51件分の個人情報が漏えいした可能性がある。",
+   "status": "ongoing",
+   "statusText": "10月19日に市が発表（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "NCC長崎文化放送",
+     "https://www.ncctv.co.jp/news/article/16976814"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "諫早市の公式発表が見つかっておらず、報道のみ。manual/ に市の公式文面を貼れば反映できる。",
+   "who": [
+    "cust"
+   ]
   }
  ]
 }
