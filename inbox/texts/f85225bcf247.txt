@@ -1,0 +1,47 @@
+URL: https://questions-statements.parliament.uk/written-statements/detail/2026-10-14/hcws376
+
+Written statements - Written questions, answers and statements - UK Parliament
+Skip to main content
+UK Parliament
+Business
+Written questions, answers and statements
+Find written statements
+HCWS376
+Legal Aid Agency Cyber-Security Incident: Data Update
+Statement made on 14 October 2026
+ Statement UIN HCWS376
+Statement made by
+ Sarah Sackman
+ Minister of State for Courts and Legal Services
+ Labour
+Finchley and Golders Green
+ Commons
+Statement
+In my previous statements to the House, I have provided updates on the 2025 criminal cyber-attack against the Legal Aid Agency’s digital services and the steps the Ministry of Justice and Legal Aid Agency have taken in response.
+I have been clear throughout that this was a significant and complex incident and that our understanding of the information affected would continue to develop as detailed technical and data analysis progressed. The Government committed from the outset to being transparent with Parliament as that understanding improved.
+I am therefore writing to update the House on further information identified through that work.
+The cyber-attack happened because criminals were able to exploit vulnerabilities in the LAA’s IT systems and gain access to systems containing personal information. They then copied and exfiltrated some data held by the Department.
+Our previous public information stated that the attackers had accessed and exfiltrated a significant amount of personal data relating to people who had applied for legal aid, or interacted with its services, between 2007 and 16 May 2025.
+Specialist technical and data teams have continued detailed analysis of the information exfiltrated during the attack. That work has enabled us to develop a more complete understanding of that information, which I outline below.
+It remains true that the vast majority of the exfiltrated LAA data dates between 2007 and 16 May 2025. However, we have now confirmed that a small proportion of the affected LAA records predate 2007. The majority of these pre-2007 records date from the 1990s and 2000s, with only a very small number extending further back than this. The earliest record currently verified dates from 1978.
+Exfiltrated data from the relevant period varies from person to person, but may include basic personal details such as names, addresses and dates of birth, as well as information relating to legal aid applications and cases, including in some instances financial or other sensitive personal information. In some cases, the information is limited to a single document or record about an individual, such as a letter sent by LAA to an individual or their solicitor about their case, or a record of a payment made. In other cases, more complete information relating to an application or bill submitted to LAA was affected. However, in no case was a complete record relating to a legal aid case affected.
+Our analysis has also established that some information relating to HM Prison and Probation Service (HMPPS), specifically limited probation data, which our analysis indicates does not include information about victims of crimes, was contained within material exfiltrated during the same cyber-attack.
+It is important to emphasise that affected data subjects constitute only a fraction of those who have had interactions with the LAA/HMPPS in the relevant period. The MoJ is working at pace and will, where data allows, be able to identify whether any specific individual’s data was exfiltrated in the cyber-attack.
+We are updating the public information on GOV.UK alongside this statement, to provide more detailed information to help individuals understand the data that was exfiltrated. It is important to remember that much of the exfiltrated information was unstructured, fragmented, and incomplete, meaning that, in many instances, the identification of specific individuals will not be straightforward for the criminals who stole it.
+The nature and amount of information exfiltrated varies considerably between individuals. Being within one of the periods or groups described in our public information does not, of itself, mean that an individual’s information was exfiltrated or, in the event it was, that the hackers exfiltrated every category of data itemised for each individual.
+We have provided the Information Commissioner’s Office with an update on the exfiltrated information and continue to cooperate fully with them.
+As I reported to the House in January, substantial work has taken place since the criminal cyber-attack on the LAA to restore services safely and strengthen the resilience of the Legal Aid Agency’s technology. The Department's objective is not simply to recover from the attack, but to emerge stronger, more resilient, and better prepared for the future. We have allocated £200 million for transformation, recovery, and moving legacy systems to a modern and safe technology platform. We are also strengthening security monitoring, technical checks, and the way risks are managed, to make LAA services more secure and resilient in future.
+Finally, but importantly; we have no indication that the stolen data has been published or shared.
+I recognise the concern that this incident has caused, particularly given the sensitive circumstances in which many people engage with the legal aid system. We will continue to be transparent as our work progresses and will ensure that the public information available reflects our best and most accurate understanding of the incident.
+Statement from
+ Ministry of Justice
+Linked statements
+ This statement has also been made in the House of Lords
+ Ministry of Justice
+ Legal Aid Agency Cyber-Security Incident: Data Update
+Lord Lemos
+Parliamentary Under-Secretary of State for Justice
+Labour, Life peer
+ Statement made 14 October 2026
+HLWS384
+ Lords

@@ -1,0 +1,103 @@
+URL: https://www.semperis.com/ransomware-risk-report/
+
+Ransomware Risk Report | Semperis
+New Ransomware Risk Report reveals evolving threats and resilience gaps
+Ransomware Risk Report: Are You Prepared for Today’s Threats?
+87% of Ransomware Attacks Targeted the Identity Infrastructure
+Our annual global study of IT and security professionals examines the impact of AI risk, escalating threat tactics, and identity threat detection and response (ITDR) gaps. 
+Download now
+The attack surface is enormous and continues to grow. The security and IT communities must work together to try to defend this surface, which is getting ever broader with AI being used by adversaries as well as the increasing occurrence of shadow AI in the workplace. One thing that hasn’t changed is the high prevalence of attacks that target the identity system.
+Simon Hodgkinson
+ Former bp CISO and Semperis Strategic Advisor 
+Ransomware attackers 
+take threat tactics beyond 
+the cyber realm
+Let’s start with some good news. Our third annual Ransomware Risk Report shows another decrease in the number of organizations who paid ransom: 59%, down from 69% last year and 78% in 2024.
+But attackers are ramping up their game. From exploiting targets’ AI agents and identity systems to threatening employees’ family and friends, the threats aren’t ending. Learn how you can continue to fight back.
+Get the report
+69%
+of respondents were targeted by ransomware multiple times within the past 12 months
+84%
+of attacks weaponized AI in some way
+87%
+of attacks compromised the identity infrastructure
+37%
+of attacks involved threats against friends or family of staff
+Collective resilience — that ‘we're all in it together’ spirit — is really important. Collectively, we need to understand both the upstream and downstream impacts of every attack and what we can do to protect not just ourselves but also one another.
+Sarah Armstrong-Smith
+ UK Government Cyber Advisory Board Member and Author 
+AI has entered the 
+ransomware chat
+Nearly 75% of respondents in our AI risk study said they were worried about AI making identity attacks more common. Those fears proved to be well founded. Attackers continue to target identity … and they are using AI to do so, through AI-based attacks and by exploiting companies’ own AI agents and systems. 
+Defenders are also using the technology … but results are mixed.
+Read more
+40%
+of respondents were victims of an AI-based ransomware attack
+44%
+of ransomware victims said their own AI agents or systems were exploited by attackers
+Evolving threats are the top challenge to operational resilience
+Data theft and system lockouts are still hot commodities for bad actors. However, they aren’t stopping there. They’re increasingly turning to extortion, psychological intimidation, and physical threats to force payment.
+“The bad guys are always evolving their tactics,” says Semperis CEO Mickey Bresman. “It makes sense that we'll continue to see attackers trying to find more ways to make victims pay.” 
+57%
+of respondents received threatening texts, letters, or packages
+19%
+of ransomware victims reported physical intrusion by attackers
+An attacker has one goal in mind: They want to extract something from you. And the only way they're going to do that is to make the cost of resisting their demands greater than the cost of giving in. Holding you at physical risk is the latest phenomenon because we've covered most of the other risks.
+Chris Inglis
+ Former U.S. National Cyber Director and Semperis Strategic Advisor 
+Ransomware is damaging 
+more than business
+Revenue losses from business disruption, insurance hikes, and data theft are nothing new. But attackers aren’t stopping there. They are expanding their threats to the family and friends of their targets’ employees and leveraging tactics like doxxing, swatting, stalking, and even abduction. 
+“Attackers play as dirty as they need to get what they want,” says Cyber Resiliency and Human Defense expert Sarah Gosler. “That’s why they're taking it beyond just a company's operation and making it personal. We need to start thinking about cyber attackers as the criminals that they are.”
+Download report
+42%
+experienced business disruption
+42%
+hit with cyber insurance cancellation/rate hike
+25%
+of targets or their families were doxed
+23%
+of targets or their families were swatted
+Cybersecurity is everyone’s problem. No individual or organization is immune from it. In a world of next-frontier AI, companies must invest in cybersecurity. It is no longer something that can take a backseat in budget discussion. And within cybersecurity, we’re starting to see a shift from cybersecurity to cyber resilience. As much as focusing on detection and prevention is important, you have to focus on resilience and recovery.
+Sarah Gosler
+ Cyber Resiliency and Human Defense Expert 
+Identity remains a top target, but effective ITDR tools are often absent
+Attackers target identity systems to expand their access and escalate privileges. 
+Cybersecurity experts keep beating this drum because it continues to be true. 
+But only about half the organizations in this year’s study have the ITDR tools that are proven to be the most effective in speeding safe identity recovery.
+Download report
+87%
+of attacks targeted identity systems
+Only 50%
+of victims had dedicated identity backups
+Only 40%
+had automated identity recovery tools
+60%
+or less included identity recovery in their crisis response plans
+Organizations have no way of predicting what an AI agent will decide to do and what unexpected affect its actions might have. An attacker that exploits that agent gains that same level of access. So, putting up guardrails around your identity systems as quickly as you can is critical.
+Mickey Bresman
+ Semperis CEO 
+Step up your ransomware resilience with expert insights
+Cyberattacks are now endemic, but effective response is possible … and necessary. 
+Drawing on the data in this year’s study and decades of real-world experiences, our experts provide insights and recommendations for strengthening ransomware preparedness.
+Companies can strengthen cyber resilience by addressing emerging AI-related risks and by proactively modernizing their crisis response plans to address criminal tactics both old and new. 
+Read the report
+More resources
+Learn more about how to prevent, detect, and respond to identity-based attacks.
+The State of Identity Security in the AI Era
+May 13, 2026
+Reports
+The State of Enterprise Cyber Crisis Readiness
+Reports
+The State of Critical Infrastructure Resilience
+Reports
+Purple Knight Report 2025
+Reports
+View all
+Experience a personalized demo
+Request a demo and one of our product experts will give you a spin of our solutions.
+Request a demo
+Tour the platform
+Unleash Purple Knight
+Uncover your AD and Entra ID security vulnerabilities in minutes.
+Download Purple Knight

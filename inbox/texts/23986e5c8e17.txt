@@ -1,0 +1,175 @@
+URL: https://www.gov.uk/government/news/legal-aid-agency-cyber-security-incident-data-update-october-2026
+
+Legal Aid Agency cyber security incident data update October 2026 - GOV.UK
+Cookies on GOV.UK
+We use some essential cookies to make this website work.
+We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.
+We also use cookies set by other sites to help us deliver content from their services.
+You have accepted additional cookies. 
+You can 
+change your cookie settings
+ at any time.
+You have rejected additional cookies. 
+You can 
+change your cookie settings
+ at any time.
+Accept additional cookies
+Reject additional cookies
+View cookies
+ Hide cookie message
+Skip to main content
+ News story
+ Legal Aid Agency cyber security incident data update October 2026
+ An update following the 2025 cyber-attack affecting the Legal Aid Agency’s online digital services and personal data held by the Ministry of Justice. 
+From:
+Legal Aid Agency
+Published:
+14 October 2026
+On Wednesday 23 April 2025, we identified a cyber-attack affecting the Legal Aid Agency’s (LAA) online digital services 
+In the days following the discovery, we took immediate action to secure our systems and informed legal aid providers that some of their information, including financial information, may have been compromised. We have continued to work with the National Crime Agency, National Cyber Security Centre, and Information Commission (formally the Information Commissioner’s Office) as part of our response. 
+On 16 May 2025, we established that the attack was more extensive than originally understood and that the criminal group behind it had accessed and exfiltrated a significant amount of personal data. We subsequently informed the public that this included information relating to legal aid applicants and providers. 
+Since then, extensive and detailed digital analysis has continued. The objective has been to establish more precisely what data was exfiltrated. That work has refined our understanding of both the date range and the type of information affected.
+What we now know about the data
+The vast majority of the LAA data relates to applications, claims or payments submitted to the LAA between January 2007 and 16 May 2025, or to cases that were live during this period. However, we have now confirmed that approximately 250,000 records predate 2007. The overwhelming majority of these are from the 1990s and 2000s, with only a fractionally small number dating from before 1990. The earliest record currently verified dates from 1978. 
+Our analysis has also established that some information relating to HM Prison and Probation Service (HMPPS), specifically probation data, was contained within material exfiltrated during the same cyber-attack. None of this data relates to victims of crime. 
+The nature and amount of information affected varies considerably between individuals. Additionally, but importantly; we have no indication that the stolen data has been published or shared. 
+It is important to put this updated information in context. The presence of records predating 2007 does not mean that everyone who received or applied for legal aid, or otherwise interacted with the justice system before 2007, has been affected. 
+We recognise that people will want to understand whether this incident is relevant to them specifically. The information below therefore provides more detail about the groups potentially affected and the types of data that may have been exfiltrated. 
+The below tables should not be read as meaning that every individual within a particular group had all, or any, of the information listed exfiltrated. The information exfiltrated, if any, varies between individuals. In all cases personal details and circumstances are as they were reported to LAA at the point of any application, or subsequent amendment to that application.
+Legal aid applicants and recipients
+Category of Individual
+Affected Dates
+Nature of data that could be affected. This will vary for each individual whose data was exfiltrated
+Recipients of Civil Legal Help or Mediation.
+Claims for costs by solicitors submitted to the Legal Aid Agency (LAA) between January 2000 and May 2025.
+Details may include your full name, Date of Birth, National Insurance Number, post code, equalities monitoring codes, case start and end dates, costs claimed, the amount of VAT claimed/paid and codes indicating the type of legal aid received.
+Recipients of police station advice and assistance, advice in criminal proceedings, representation in the Magistrate’s Court, advice on criminal appeals and advice or representation relating to prison law.
+Claims for costs by solicitors submitted to the Legal Aid Agency (LAA) between January 2007 and May 2025.
+Details may include your surname and initial, post code, equalities monitoring codes, case start and end dates, costs claimed, the amount of VAT claimed/paid, and codes indicating the type of legal aid received and where relevant, the location of the court, prison, or police station.
+Individuals in receipt of a civil funding certificate or represented in the Crown Court.
+Claims for costs paid to solicitors or advocates between December 2019 and May 2025.
+Your full name, case reference number, and amount paid to your legal representatives.
+Individuals with a debt to the Legal Aid Agency (LAA) or Legal Services Commission (LSC) arising from civil proceedings.
+Debt management activity between April 2019 and December 2025.
+Either your full name, or surname, case reference number, debt amount, details of payments made and some information about queries relating to debts.
+Individuals that made a payment to the Legal Aid Agency (LAA) relating to a civil case, including civil contributions, payment of the statutory charge or civil debt recovery.
+Payment made by you between April 2019 and December 2025.
+Either your full name, or surname, case reference number, transaction reference number, amount of payment, date of payment, method of payment. In some cases, where payment was made by card, partially redacted card details.
+Individuals in civil certificated proceedings specifically where the case was managed on Legal Aid Agency’s (LAA) Client and Cost Management System (CCMS).
+Cases where an application, amendment, bill or payment on account was worked on and saved or submitted by your solicitor between March and May 2025.
+Details of all answers to questions entered into the Legal Aid Agency’s (LAA) Client and Cost Management System (CCMS) for applications, amendments, bills, and payments on account, including details of financial assessments and merits / legal assessments. 
+Details vary depending on the nature of your case but may typically include your full name, Date of Birth, National Insurance Number and address as at the time the questions were being completed. Answers to application questions may include details about your legal case and your financial circumstances. They may also include similar details about partners and other family members where relevant to your case at the time. 
+Bills may include information about the amounts claimed and work completed by your legal representatives.
+Individuals in civil certificated proceedings specifically where the case was managed on the Legal Aid Agency’s (LAA) Client and Cost Management System (CCMS).
+Cases where the Legal Aid Agency (LAA) sent correspondence to your legal representatives electronically between May 2022 and May 2025 or correspondence to you or your legal representatives by post between November 2022 and March 2023.
+The letter(s) or notification(s) sent by Legal Aid Agency (LAA). These typically contain your full name, your case reference, and information about a Legal Aid Agency (LAA) decision such as to grant a certificate or confirm we have paid your solicitor’s bill.
+Individuals in civil certificated proceedings specifically where the case was managed on the Legal Aid Agency’s (LAA) Client and Cost Management System (CCMS).
+Some individuals whose records were created on CCMS for the first time between April 2014 and February 2023.
+Your full name, date of birth, address, national insurance number and telephone number.
+An individual receiving legal aid in the Crown Court.
+Application for legal aid granted on or after March 2010 and final decision on both income and capital contributions made before July 2018.
+In addition, four days of decisions on 17th September 2018, 23rd December 2019, 18th February 2020 and 20th February 2020.
+For those assessed to pay an income contribution, including any income sanction, details may include: your and your partner’s full name, address, Date of Birth, National Insurance Number, telephone number, offence category, whether imprisoned, whether employed, details of property with a financial interest, bank accounts and/or other capital. It may also include details of your contribution, including value, details of the final cost of your case, and whether you were acquitted or convicted.
+For individuals that did not have an income contribution but received a contribution notice advising a capital contribution would be assessed at the end of the case if you were convicted, details may include: your and your partner’s full name, address, Date of Birth, National Insurance Number, telephone number, and whether you were imprisoned. It may also include details of capital declared to the Legal Aid Agency (LAA) and details of the final cost of your case.
+An individual receiving legal aid in the Crown Court.
+Trial dates between August 2010 and August 2017, or July 2018 and January 2025.
+Details may include your full name, address declared to the Court, Date of Birth, offences charged, your plea, whether you were convicted of each offence, and your sentence if convicted.
+An individual that applied for criminal legal aid in the Magistrates or Crown Court.
+Cases where the Legal Aid Agency (LAA) wrote to you in May 2019 or between November 2022 and March 2023.
+The contents of any letters sent in this time period, which may include your full name, address, reference number, Date of Birth, the outcome of your application, your legal aid Representation Order, contribution amounts, means assessment results and evidence requests.
+For Representation Orders in May 2019 only, these letters also included a list of offences charged.
+An individual that applied for criminal legal aid in the Magistrates or Crown Court.
+Cases where the Legal Aid Agency (LAA) made a decision on your application between April 2021 and May 2025.
+Logs of emails to your solicitor in this time period which failed to send. The log includes either your full name or surname and case reference number.
+An individual in receipt of criminal legal aid whose case was managed under the Very High Cost Cases (VHCC) funding scheme.
+Payments made on cases between 1981 and 2004.
+Your full name, your case reference, the name of your instructed solicitor or advocate receiving payment, the type of payment received, the amount of the payment, the date of the payment.
+An individual that applied for civil certificated / licensed legal aid declaring receipt of a passported benefit at any point during their case.
+ A passported benefit is a means assessed benefit receipt of which qualifies an individual for legal aid with (during the dates in question) no other financial assessment. Qualifying benefits in this period included Income Support, Income Based Job Seekers Allowance, Income Related Employment & Support Allowance and Guarantee State Pension Credit.
+Benefit status assessment between 1978 and 2012.
+Details may include your full name and case reference number, the full name of the person receiving the benefit, their Date of Birth, National Insurance Number, and address.
+A recipient of civil legal aid that resulted in a statutory charge applied to property following the case.
+Letters sent by the Legal Services Commission (LSC) in January 2008 – limited to 8 sets of letters.
+A copy of the correspondence issued by the Legal Services Commission (LSC) to either yourself and/or your solicitor including your full name, address, case reference number and details of the statutory charge, including the address of the property subject to the charge if different to the correspondence address.
+Legal aid practitioners
+Legal aid practitioners (Solicitors, Providers, Barristers and others who interact with the Legal Aid Agency’s systems and processes) have been notified and updated throughout the incident via GOV.UK and through Legal Aid Agency (LAA) staff. Data affected in relation to legal aid providers may include: 
+Provider contracts, schedules, offices and office locations, details of payments received and financial account information, banking details including bank account name, account number and sort code and contact information;  
+user account and access details for the LAA’s Online Portal, including names, and email addresses of users; 
+records relating to correspondence and notifications from the LAA’s CCMS and MAAT systems; 
+In certain circumstances, limited information entered into, or generated by, the LAA case management systems may also have been affected, such as the names of fee earners associated with a legal aid case.
+Others connected with legal aid cases
+Category of Individual
+Affected Dates
+Nature of data that could be affected. This will vary for each individual whose data was exfiltrated
+Judges, solicitors and advocates (for both defence and prosecution) and court reporters, in Crown Court cases.
+Attended a Crown Court trial between August 2010 and August 2017, or July 2018 and January 2025.
+Judiciary – name of the judge as it appears in the Court record.
+Solicitors and advocates – full name of individual and their organisation / chambers for defence and prosecution for all represented parties at the trial.
+Court reporters – initial, surname and organisation.
+Opponents / other parties in civil certificated proceedings where the case was managed on Legal Aid Agency’s (LAA) Client and Cost Management System (CCMS).
+Cases where an application or amendment was worked on and saved or submitted by instructed solicitor of the legally aided party between March and May 2025.
+Details may include of all answers to questions entered into the LAA’s CCMS system for applications and amendments to a civil certificate including the full names of opponents, their Date of Birth (where relevant), their organisation (where relevant) and details of their involvement in the proceedings.
+Individuals managing pay point locations used to make payments for civil legal aid contributions or debts.
+A list of individuals who managed pay point locations as at September 2021.
+Details may include your full name, your organisation / business name, your telephone number associated with your pay point, which may be either a personal or business number and a reference number.
+HMPPS information  
+Our improved cyber capabilities have also identified that data relating to probation service users was also accessed. The data exfiltrated by the attackers includes some names, dates of birth, nationalities, and case reference numbers for a relatively small number of offenders who were being actively managed by Probation Services between 2010 and 2017 (although more than 99% of the data in question related to offenders under supervision between 2016 and 2017 specifically).
+Why has this information changed? 
+The cyber-attack affected a number of complex digital systems and significant volumes of information. Much of that data was unstructured, fragmented, or incomplete. This has made analysing the data complex. Therefore, since the incident, specialist technical and data teams have undertaken extensive work to understand what information the attackers accessed and exfiltrated. 
+Because of our increased capability to identify data, we have developed a more complete understanding of the information compromised. 
+Our previous public updates reflected the best information available to us at the time. We are updating this notice because that further analysis has changed part of our understanding of the data affected. We want the information available to the public to reflect what we now know.
+What should I do? 
+The steps you should take will depend on the nature of the information that may have been compromised. 
+We continue to recommend that people who believe they may have been affected: 
+remain alert to suspicious messages, emails or telephone calls;  
+be cautious about unexpected requests for personal or financial information;  
+independently verify the identity of anyone asking for sensitive information; and  
+ensure that passwords are strong and are not reused across different accounts.  
+Further advice on protecting yourself following a data breach is available from the National Cyber Security Centre.
+Does this mean my data was compromised? 
+No. The fact that you received or applied for legal aid during one of the periods described above, or interacted with the Probation Service, does not, by itself, mean that your information was contained in the data exfiltrated by the attackers. Similarly, where several possible types of information are listed for a particular group, this does not mean that every type of information was compromised for every person.
+Has the stolen information been published? 
+We have no indication that the stolen data has been published or shared.
+What are we doing in response? 
+Since the attack, the Ministry of Justice and Legal Aid Agency have undertaken significant work to strengthen the security of the technology estate and reduce the risk of a similar incident occurring again. 
+This includes strengthening authentication and access controls, improving security monitoring, addressing vulnerabilities, retiring or isolating higher-risk technology and progressing longer-term work to modernise legacy systems. 
+We continue to work with the National Cyber Security Centre and other specialist partners. We made the Information Commission aware of the cyber-attack and will continue to engage with them.
+Further information 
+We recognise that this incident may cause concern. We will continue to keep the information on this page under review and update it where appropriate. 
+For queries relating to the cyber-attack, contact the LAA Customer Services Team on 0300 200 20 20, between 9am and 5pm, Monday to Friday. 
+Alternatively, contact the Chief Executive’s Correspondence and Parliamentary Engagement Team at 
+corporatecorrespondenceteam@justice.gov.uk
+. 
+Case-specific queries should continue to be directed through the usual LAA channels. These are the contact routes currently published on the main incident page.
+Related links
+Minister Sarah Sackman MP 
+Written Ministerial Statement - Legal Aid Agency Cyber-Security Incident: Data Update 14 October 2026
+Legal Aid Agency cyber security incident - GOV.UK
+Data breach FAQs
+Share this page
+ The following links open in a new tab
+ Share on Facebook
+ (opens in new tab)
+ Share on X
+ (opens in new tab)
+Is this page useful?
+ Maybe
+ Yes 
+this page is useful
+ No 
+this page is not useful
+ Thank you for your feedback
+ Report a problem with this page
+Help us improve GOV.UK
+Do not include personal or financial information like your National Insurance number or credit card details.
+This field is for robots only. Please leave blank
+What were you doing?
+What went wrong?
+Send
+Cancel
+Help us improve GOV.UK
+ To help us improve GOV.UK, we’d like to know more about your visit today.
+Please fill in this survey (opens in a new tab
+)
+.
+Cancel

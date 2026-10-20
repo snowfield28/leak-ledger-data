@@ -1,0 +1,113 @@
+URL: https://csrc.nist.gov/pubs/sp/800/161/r1/upd1/final
+
+SP 800-161 Rev. 1, Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations | CSRC
+You are viewing this page in an unauthorized frame window.
+This is a potential security issue, you are being redirected to 
+https://csrc.nist.gov
+.
+Official websites use .gov
+A
+.gov
+ website belongs to an official government
+ organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+ (
+Lock
+Locked padlock icon
+) or 
+https://
+ means you’ve safely connected to
+ the .gov website. Share sensitive information only on official,
+ secure websites.
+Information Technology Laboratory
+Computer Security Resource Center
+Publications
+ NIST SP 800-161 Rev. 1
+Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations
+Share to Facebook
+Share to X
+Share to LinkedIn
+Share ia Email
+Documentation
+Topics
+Date Published:
+May 2022 (includes updates as of 11-01-2024)
+Supersedes:
+SP 800-161 Rev. 1 (05/05/2022)
+Planning Note (
+12/02/2025
+):
+A fillable version of the 
+SCRM Assessment Scoping Questionnaire (Table 26)
+ is now available.
+Author(s)
+Jon Boyens (NIST)
+, 
+Angela Smith (NIST)
+, 
+Nadya Bartol (Boston Consulting Group)
+, 
+Kris Winkler (Boston Consulting Group)
+, 
+Alex Holbrook (Boston Consulting Group)
+, 
+Matthew Fallon (Boston Consulting Group)
+Abstract
+Organizations are concerned about the risks associated with products and services that may potentially contain malicious functionality, are counterfeit, or are vulnerable due to poor manufacturing and development practices within the supply chain. These risks are associated with an enterprise’s decreased visibility into and understanding of how the technology they acquire is developed, integrated, and deployed or the processes, procedures, standards, and practices used to ensure the security, resilience, reliability, safety, integrity, and quality of the products and services.
+This publication provides guidance to organizations on identifying, assessing, and mitigating cybersecurity risks throughout the supply chain at all levels of their organizations. The publication integrates cybersecurity supply chain risk management (C-SCRM) into risk management activities by applying a multilevel, C-SCRM-specific approach, including guidance on the development of C-SCRM strategy implementation plans, C-SCRM policies, C-SCRM plans, and risk assessments for products and services.
+ Organizations are concerned about the risks associated with products and services that may potentially contain malicious functionality, are counterfeit, or are vulnerable due to poor manufacturing and development practices within the supply chain. These risks are associated with an enterprise’s...
+See full abstract
+Organizations are concerned about the risks associated with products and services that may potentially contain malicious functionality, are counterfeit, or are vulnerable due to poor manufacturing and development practices within the supply chain. These risks are associated with an enterprise’s decreased visibility into and understanding of how the technology they acquire is developed, integrated, and deployed or the processes, procedures, standards, and practices used to ensure the security, resilience, reliability, safety, integrity, and quality of the products and services.
+This publication provides guidance to organizations on identifying, assessing, and mitigating cybersecurity risks throughout the supply chain at all levels of their organizations. The publication integrates cybersecurity supply chain risk management (C-SCRM) into risk management activities by applying a multilevel, C-SCRM-specific approach, including guidance on the development of C-SCRM strategy implementation plans, C-SCRM policies, C-SCRM plans, and risk assessments for products and services.
+Hide full abstract
+Keywords
+acquire
+; 
+C-SCRM
+; 
+cybersecurity supply chain
+; 
+cybersecurity supply chain risk management
+; 
+information and communication technology
+; 
+risk management
+; 
+supplier
+; 
+supply chain
+; 
+supply chain risk assessment
+; 
+supply chain assurance
+; 
+supply chain risk
+; 
+supply chain security
+Control Families
+None selected
+Documentation
+Publication:
+ https://doi.org/10.6028/NIST.SP.800-161r1-upd1
+ Download URL
+Supplemental Material:
+ SCRM Assessment Scoping Questionnaire (Table 26) (xlsx)
+ EO 14028: Software Security in Supply Chains 
+ NIST’s Cyber Supply Chain Risk Management Program 
+ NIST news article (2022) 
+Related NIST Publications:
+SP 1326 
+IR 8286 Rev. 1 
+Other 
+Document History:
+ 11/01/24: 
+SP 800-161 Rev. 1 (Final)
+Topics
+Security and Privacy
+acquisition
+, 
+cybersecurity supply chain risk management
+Laws and Regulations
+Executive Order 14028
