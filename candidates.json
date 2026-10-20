@@ -6125,40 +6125,6 @@
    "pendingReason": "報道（埼玉新聞・TBS・ライブドアニュース）のみで、埼玉県警の公式発表の本文が見つからない（Web検索でも県警サイトに該当ページなし）。自動取得不可。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "mappa-expo-studio-2610",
-   "co": "MAPPA EXPO 15th Anniversary運営事務局（公式サイト／クラウドサービス Studio）",
-   "date": "2026-10-17",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "name",
-    "mail"
-   ],
-   "itemsText": "公式サイトの「CONTACT」フォームに2026年6月19日〜10月15日に入力された氏名、メールアドレス、問い合わせ内容（報道）",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道によると、イベント公式サイトが利用するWeb制作サービス「Studio」のクラウド環境への不正アクセスに伴い、問い合わせフォームの送信情報が外部に流出した可能性がある。件数は調査中。",
-   "status": "ongoing",
-   "statusText": "報道時点で調査中。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/mappa-expo-studio-unauthorized-access-contact-form-20261017/"
-    ]
-   ],
-   "ind": "メディア・出版",
-   "pendingReason": "MAPPA EXPO側の公式お知らせ（expo.mappa.co.jp/infomation/QVIAWjFu）は取得結果が本文なし（status=thin。JavaScript描画の可能性）。Studio社の発表は読めたが運営事務局自身の本文は未確認。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "karatsu-city-arcadia-2610",
    "co": "唐津市（唐津市情報メール配信サービス／委託先 アルカディア）",
    "date": "2026-10-13",

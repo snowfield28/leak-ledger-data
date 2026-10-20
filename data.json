@@ -25567,6 +25567,54 @@
    ],
    "ind": "生活サービス・レジャー",
    "verified": "2026-10-20"
+  },
+  {
+   "id": "mappa-expo-studio-2610",
+   "co": "MAPPA EXPO 15th Anniversary運営事務局（公式サイト／クラウドサービス Studio）",
+   "date": "2026-10-17",
+   "announced": "2026-10-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "公式サイトの「CONTACT」フォームに2026年6月19日〜10月15日に入力された、お名前、メールアドレス、お問い合わせ内容",
+   "notIncl": "MAPPA公式サイトおよびMAPPA ONLINE SHOPへの不正アクセスは確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "イベント公式サイトの運営に利用するクラウドサービス「Studio」でStudio社のクラウド環境への不正アクセスがあったと10月16日に同社から報告を受けた。公式サイトの「CONTACT」フォームに寄せられた氏名・メールアドレス・問い合わせ内容が外部に流出した可能性を否定できない。第三者が実際にデータを取得した事実は確認されていないが、取得されたものとみなして対応している。対象範囲と件数は確認中。",
+   "status": "ongoing",
+   "statusText": "10月17日の発表時点で、対象範囲と件数を確認中。不正利用や二次被害は確認されていない。",
+   "resp": "Studio社へ詳細を確認中。必要に応じて対象者へ個別に案内。事務局やStudio社を装う不審なメールへの注意を呼びかけ。",
+   "contact": {
+    "mails": [
+     "contact@mappaexpo15.jp"
+    ],
+    "note": "MAPPA EXPO 15th Anniversary 運営事務局（公式発表に電話の記載なし）",
+    "src": "https://expo.mappa.co.jp/infomation/QVIAWjFu"
+   },
+   "official": [
+    [
+     "【MAPPA EXPO公式サイトが利用するクラウドサービス「STUDIO」への不正アクセスに関するお知らせとお詫び】（2026/10/17）",
+     "https://expo.mappa.co.jp/infomation/QVIAWjFu"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mappa-expo-studio-unauthorized-access-contact-form-20261017/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-20"
   }
  ],
  "statusLabels": {
@@ -25599,7 +25647,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 274,
+ "pendingCount": 273,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
