@@ -6368,45 +6368,6 @@
    ]
   },
   {
-   "id": "yoshinoya-applynow-2610",
-   "co": "株式会社吉野家ホールディングス（吉野家・はなまる／委託先 ApplyNow）",
-   "date": "2026-09-30",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": 5366,
-   "label": "応募者5,366件（吉野家4,998件・はなまる368件）ほか従業員418件",
-   "st": "c",
-   "items": [
-    "name",
-    "mail",
-    "tel",
-    "birth",
-    "addr",
-    "work",
-    "id"
-   ],
-   "itemsText": "応募者の氏名（カナ）、メールアドレス、電話番号、生年月日、性別、一部の住所・職業。採用担当者のユーザー名、メールアドレス、暗号化パスワード、権限（報道）",
-   "sum": "報道によると、アルバイト採用業務を一部委託していたApplyNowの採用管理プラットフォームが8月9日〜9月7日に不正アクセスを受け、契約終了後も残っていた応募者データが流出した。ApplyNow本体は台帳に掲載済み。",
-   "status": "ongoing",
-   "statusText": "9月30日に公表（報道）。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/10/20/56507.html"
-    ]
-   ],
-   "ind": "飲食",
-   "pendingReason": "公式PDF（https://contents.xj-storage.jp/xcontents/AS08813/afe2cda2/7ddb/4c8d/ac29/093acb365cc9/20260930152541531s.pdf）が自動取得不可（robots）。manual/ に公式文面を貼れば反映できる。",
-   "who": [
-    "staff"
-   ]
-  },
-  {
    "id": "tochigi-police-arcadia-2610",
    "co": "栃木県警察（内部システム／委託先 アルカディア）",
    "date": "2026-10-19",
