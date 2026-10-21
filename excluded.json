@@ -690,6 +690,37 @@
     "https://www.ashiya-u.ac.jp/topics/news/20261019gs/"
    ],
    "checked": "2026-10-21"
+  },
+  {
+   "id": "futureshop-2610",
+   "co": "株式会社フューチャーショップ（futureshop）",
+   "date": "2026-10-21",
+   "reason": "第一報（2026/10/21）はサーバー4台への不正アクセスと停止のみで、個人情報の漏えいには触れていない（影響範囲は調査中）。続報で漏えいが公表されれば対象に戻す",
+   "official": [
+    "https://www.future-shop.jp/news/2026/10/21.html"
+   ],
+   "checked": "2026-10-21"
+  },
+  {
+   "id": "yamamoto-town-insider-2610",
+   "co": "宮城県山元町（職員の懲戒処分）",
+   "date": "2026-10-20",
+   "reason": "懲戒処分の公表で、庁内共有フォルダへの不正アクセスとデータの閲覧・削除等は記載されているが、個人情報の漏えいには触れていない",
+   "official": [
+    "https://www.town.yamamoto.miyagi.jp/uploaded/attachment/21914.pdf",
+    "https://www.town.yamamoto.miyagi.jp/soshiki/1/22474.html"
+   ],
+   "checked": "2026-10-21"
+  },
+  {
+   "id": "onamae-desktop-cloud-2610",
+   "co": "お名前.com デスクトップクラウド（GMO Internet）",
+   "date": "2026-10-21",
+   "reason": "公式発表に「お預かりしているお客様の個人情報の漏えいや、閲覧された情報が悪用された事実は確認されておりません」とあり、サーバー内の情報が閲覧された可能性(26,739サーバー)に留まる。続報で漏えいが公表されれば対象に戻す",
+   "official": [
+    "https://www.onamae.com/news/article/11584"
+   ],
+   "checked": "2026-10-21"
   }
  ]
 }

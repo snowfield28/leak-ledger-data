@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -23079,27 +23079,27 @@
    "date": "2026-10-16",
    "announced": "2026-10-16",
    "occurred": "2026-10-15",
-   "last": "2026-10-18",
+   "last": "2026-10-21",
    "cause": "cyber",
    "types": [
     "不正アクセス"
    ],
-   "n": null,
-   "label": "未公表",
+   "n": 4200000,
+   "label": "最大約420万件（ログ）／会員情報319件",
    "st": "c",
    "items": [
     "mail",
     "birth",
     "id"
    ],
-   "itemsText": "メールアドレス、ハッシュ化されたパスワード、生年月日、性別、ニックネーム",
+   "itemsText": "会員データベース上の登録情報319件（メールアドレス、ハッシュ化されたパスワード、ニックネーム、生年月日、性別）、システムログ上の情報は最大約420万件（メールアドレス、ニックネーム、生年月日、性別。重複を含む可能性があり、パスワードは含まれない）",
    "notIncl": "クレジットカード情報（対象システムで保有せず）。購入履歴・MY本棚の流出・消失・欠損は現時点で確認されていない",
    "who": [
     "cust"
    ],
-   "sum": "電子書籍ストア「コミックシーモア」のサーバーへの外部からの不正アクセスの可能性が高いと10月15日に判断し、同日11時35分にサービスを停止して遮断対応を実施。10月16日の調査で、会員情報を管理するシステムへの不正アクセスと会員情報の第三者への流出を確認した。件数は精査中。",
+   "sum": "電子書籍ストア「コミックシーモア」への不正アクセスで、第4報（10月21日）により影響範囲が判明した。会員DBの登録情報319件と、システムログファイル上の最大約420万件（同一顧客の重複を含む可能性）が流出。侵入経路と攻撃手法の特定・遮断は完了している。",
    "status": "ongoing",
-   "statusText": "2026年10月18日の第3報時点。原因・侵入経路は特定し再発防止措置を実施。影響範囲は精査中で、一部のシステムログファイルも閲覧・取得されたことが判明し会員情報の有無を確認中。サービスは停止中で再開日時は未定。",
+   "statusText": "2026年10月21日の第4報時点。侵入経路・攻撃手法の遮断は完了し、サービス再開の時期は調整中。",
    "resp": "不正アクセスの遮断対応を継続し、外部専門機関と調査。サービス再開時に全会員へパスワードの再設定を求める予定。同じメールアドレス・パスワードを使う他社サービスのパスワード変更、不審なメールやフィッシングサイトへの注意を呼びかけ。",
    "contact": {
     "mails": [
@@ -23116,6 +23116,10 @@
     [
      "『コミックシーモア』会員情報の流出に関するご報告（第3報）（2026/10/18）",
      "https://www.nttsolmare.com/press/2026/1016-1.html"
+    ],
+    [
+     "『コミックシーモア』お客様の情報流出に関するご報告（第4報）（2026/10/21）",
+     "https://www.nttsolmare.com/press/2026/1021.html"
     ]
    ],
    "src": [
@@ -23125,7 +23129,7 @@
     ]
    ],
    "ind": "メディア・出版",
-   "verified": "2026-10-20"
+   "verified": "2026-10-21"
   },
   {
    "id": "fancl-attenir-2610",
@@ -26340,6 +26344,320 @@
    ],
    "ind": "飲食",
    "verified": "2026-10-21"
+  },
+  {
+   "id": "osaka-u-nec-2610",
+   "co": "大阪大学（委託先 日本電気株式会社／全学教育用電子計算機システム）",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "occurred": "2026-09-26",
+   "cause": "cyber",
+   "types": [
+    "委託先経由"
+   ],
+   "n": 77851,
+   "label": "77,851人",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "氏名、大阪大学個人ID、本学付与のメールアドレス（OUMailアカウント等）、学籍番号又は職員番号、所属情報（項目は対象者により異なる）",
+   "notIncl": "NECの調査では、本件に関連する同システムへの不正アクセスの痕跡は確認されていない。漏えい情報の不正利用や二次被害は確認されていない",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "全学教育用電子計算機システムの運用を委託しているNECから10月9日、9月26日に第三者が大阪大学の個人情報を含むファイルをダウンロードしたとの報告があった。大学に報告のない協力会社が業務に関与し、NECが契約に基づかずクラウドストレージ上で共有し、作業後に削除すべきファイルも保持していたことが判明。対象は卒業生59,014名、在学生15,035名、教職員3,802名（重複除く）。",
+   "status": "ongoing",
+   "statusText": "2026年10月21日の発表時点。個別の対象情報は今後通知。NECに収束対応・原因究明・再発防止の徹底を求めている。",
+   "resp": "対象者へ個別に通知する予定。フィッシングメールやなりすましメールへの注意を呼びかけ。NECに対し本件の収束、原因究明、再発防止策の徹底を求める。",
+   "contact": {
+    "forms": [
+     [
+      "問い合わせフォーム",
+      "https://forms.cloud.microsoft/r/9hieJr8Qd3"
+     ]
+    ],
+    "note": "情報推進部情報基盤課",
+    "src": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004"
+   },
+   "official": [
+    [
+     "委託事業者における個人情報漏えいについて（2026/10/21）",
+     "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/osaka_university_nec_personal_data_leak_77851_20261021/"
+    ]
+   ],
+   "ind": "大学・学校",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "fujitv-promo-system-2610",
+   "co": "株式会社フジテレビジョン（番組宣伝システム）",
+   "date": "2026-10-20",
+   "announced": "2026-10-20",
+   "occurred": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 730,
+   "label": "最大730件",
+   "st": "p",
+   "items": [
+    "name",
+    "work",
+    "mail"
+   ],
+   "itemsText": "メディア関係者の氏名・会社名・メールアドレス等（登録されていた資料を含む影響範囲は確認中）",
+   "notIncl": "視聴者の個人情報は当該システムに登録されていない",
+   "who": [
+    "biz"
+   ],
+   "sum": "番組宣伝システムに10月19日夜に第三者による不正アクセスがあり、登録されていたメディア関係者の個人情報が最大730件漏えいした可能性がある。発生を確認後、システムの利用を停止した。",
+   "status": "ongoing",
+   "statusText": "2026年10月20日の発表時点。登録資料を含む影響範囲を確認中。",
+   "resp": "システムの利用を停止して被害拡大を防止。原因究明と安全性の確認を進め、再発防止策を検討。新たな事実が判明すれば公表するとしている。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf"
+   },
+   "official": [
+    [
+     "番組宣伝システムへの不正アクセスについて（2026/10/20）",
+     "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/fujitv_program_promotion_system_unauthorized_access_20261021/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ots-okinawa-tourist-2610",
+   "co": "沖縄ツーリスト株式会社（OTSレンタカー・OTS HOTEL ほか）",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "cust"
+   ],
+   "sum": "社外からの問い合わせを受けた初期調査で、運営サービスの個人情報が漏えいした可能性を確認。10月18日に当該サイトへの外部からのアクセスを遮断し、10月20日16時30分からOTSレンタカー、OTS HOTEL、OTS ACTIVITIES、デジタルDMOプラットフォーム、OTS Clubの新規予約受付を停止した。対象・影響範囲・原因は外部専門家と調査中。",
+   "status": "ongoing",
+   "statusText": "2026年10月21日の発表時点。対象情報・影響範囲・原因を調査中。",
+   "resp": "10月18日に外部からのアクセスを遮断。5サービスの新規予約受付を一時停止（受付済みの予約は利用可）。個人情報保護委員会への報告を含む対応を進める。",
+   "contact": {
+    "mails": [
+     "otsrc.change@otsinfo.co.jp",
+     "otsh.change@otsinfo.co.jp",
+     "otsa.change@otsinfo.co.jp"
+    ],
+    "note": "サービス別窓口（順にOTSレンタカー、OTS HOTEL、OTS ACTIVITIES）",
+    "src": "https://otspremium.com/news/3008"
+   },
+   "official": [
+    [
+     "お客様の個人情報漏えいの可能性とサービスの一時停止についてのお知らせ（2026/10/21）",
+     "https://otspremium.com/news/3008"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/okinawa_tourist_ots_personal_information_ple_leak_reservations_suspended/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cocolonet-tamanoya-kigetsudo-2610",
+   "co": "こころネット株式会社（子会社 たまのや・喜月堂セレオ／供花・供物の電子注文システム）",
+   "date": "2026-10-20",
+   "announced": "2026-10-20",
+   "occurred": "2026-09-10",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "供花・供物の注文者の氏名、住所、電話番号、メールアドレス、ご注文内容",
+   "notIncl": "クレジットカード情報は外部サービス上で入力する方式で、両社は取得・保持していない。現時点で個人情報の外部出力・持ち出しの痕跡や不正使用は確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "子会社のたまのや（9月10日）と喜月堂セレオ（9月11日）の公式ホームページの供花・供物の電子注文システムへの第三者による不正アクセスを確認し、注文者の個人情報が漏えいした可能性がある。件数は未公表。外部専門家の調査は10月末頃に完了予定。",
+   "status": "ongoing",
+   "statusText": "2026年10月20日の発表時点。外部専門家による調査中（10月末頃完了予定）。",
+   "resp": "不正アカウントの削除、攻撃元IPアドレスの遮断、アクセス状況の継続監視。可能性のある顧客へ個別連絡。個人情報保護委員会へ報告、警察に相談。システム全面更新も検討。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "024-573-6556",
+      "hours": ""
+     }
+    ],
+    "note": "こころネット株式会社 経営企画部営業開発担当",
+    "src": "https://cocolonet.jp/uploads/20261020_news.pdf"
+   },
+   "official": [
+    [
+     "子会社における不正アクセスの発生及び個人情報漏洩の可能性に関するお知らせ（2026/10/20）",
+     "https://cocolonet.jp/uploads/20261020_news.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/cocolonet_tamanoya_kigetsudo_cereo_flower_order_unauthorized_access/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "pingcap-tidb-2610",
+   "co": "PingCAP株式会社（TiDB）",
+   "date": "2026-10-19",
+   "announced": "2026-10-19",
+   "occurred": "2026-10-07",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 50000,
+   "label": "最大約5万件",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "work",
+    "deal"
+   ],
+   "itemsText": "TiDB Cloudアカウント情報（ユーザー名、メールアドレス、組織・プロジェクトの関連付け、SQL実行履歴、問合せ情報）、顧客の連絡先（氏名、メールアドレス、企業名、電話番号）、契約条件（注文内容、支払い条件、請求設定）、APIキーのPublic Key部分（影響データの種類は顧客により異なる）",
+   "notIncl": "TiDB Cloudへの不正アクセス、クレジットカード情報の流出は確認されていない。APIキーのPrivate Keyは流出していない",
+   "who": [
+    "biz",
+    "cust"
+   ],
+   "sum": "9月9日から10月7日（米国時間）にかけて第三者が不正取得した認証情報でPingCAPの社内システムにアクセスしデータを複製、日本国内で最大約5万件の個人情報が漏えいした。10月7日に認識し同日中に認証情報の無効化を開始。10月21日に問合せ情報を追記。",
+   "status": "ongoing",
+   "statusText": "2026年10月21日時点で外部調査機関と調査継続中。侵害された認証情報は無効化、不正アクセス経路は遮断済み。",
+   "resp": "流出キー等のローテーション、権限の厳格化、ネットワーク管理の見直し、脅威検知の導入、法執行機関への届出と各国当局への報告。顧客にアクセスログ確認・権限見直し・APIキーのローテーション・フィッシング注意を依頼。",
+   "contact": {
+    "mails": [
+     "security-jp@pingcap.com"
+    ],
+    "note": "PingCAP株式会社 インシデント対応窓口",
+    "src": "https://pingcap.co.jp/trust-hub/security/security-update-october-2026/"
+   },
+   "official": [
+    [
+     "不正アクセスによる情報漏洩に関するお詫びとご報告（2026/10/21 追記版）",
+     "https://pingcap.co.jp/trust-hub/security/security-update-october-2026/"
+    ],
+    [
+     "Security Incident Report: Unauthorized Access to PingCAP（2026/10/19）",
+     "https://www.pingcap.com/trust-hub/security/security-update-october-2026/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/pingcap_tidb_unauthorized_access_data_leak_20261021/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "eyelashgarage-2610",
+   "co": "株式会社アイラッシュガレージ（ECサイト）",
+   "date": "2026-10-15",
+   "announced": "2026-10-15",
+   "occurred": "2026-10-10",
+   "last": "2026-10-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 49191,
+   "label": "49,191件",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "work",
+    "id"
+   ],
+   "itemsText": "会社名、サロン名、お客様名、営業形態、サロンURL、電話番号、メールアドレス、パスワードのハッシュ値、パスワード再設定用の質問・回答のハッシュ値（2026年10月10日23時55分時点のECシステム保存分）",
+   "notIncl": "住所・配送先情報、購入履歴、クレジットカード情報を含む決済情報の漏えいは確認されていない。公開や不正利用の事実は確認されていない",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "ECサイトのサーバーに10月10〜12日に不正侵入があり、お客様情報49,191件が外部に流出。10月13日に検知し経路を遮断。10月20日の第2報でECサイトは通常利用可能と案内。ビューティガレージ側の公表（775,725件、両ブランド分）との件数の関係は公式発表に記載がない。",
+   "status": "ongoing",
+   "statusText": "2026年10月20日の第2報時点。セキュリティ専門会社と連携して対策を強化中。",
+   "resp": "侵入経路の遮断と監視体制の強化を完了。専門会社と連携して防止・検知を強化し、個人情報管理体制を強化。個人情報保護委員会へ報告済み。対象のお客様へ個別案内。同一・類似パスワードの変更と不審な連絡への注意を呼びかけ。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-5774-0811",
+      "hours": "10:00〜18:00（日祝除く）"
+     }
+    ],
+    "note": "株式会社アイラッシュガレージ",
+    "src": "https://www.eyelashgarage.jp/topics/news_unauthorizedaccess2026"
+   },
+   "official": [
+    [
+     "不正アクセスによるお客様情報漏洩に関するお詫びとお知らせ（2026/10/15）",
+     "https://www.eyelashgarage.jp/topics/news_unauthorizedaccess2026"
+    ],
+    [
+     "不正アクセスによるお客様情報漏洩に関するお詫びとお知らせ（第2報）（2026/10/20）",
+     "https://www.eyelashgarage.jp/topics/news_unauthorizedaccess2026-2"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/eyelashgarage_second_report_ec_site_operating_security_20261020/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-10-22"
   }
  ],
  "statusLabels": {
@@ -26372,7 +26690,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 282,
+ "pendingCount": 283,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
