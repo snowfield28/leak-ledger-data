@@ -1,0 +1,18 @@
+URL: https://www.cde.ca.gov/nr/in/ets-notification.asp
+
+Radware Captcha Page
+We apologize for the inconvenience...
+...but your activity and behavior on this site made us think that you are a bot.
+Note:
+ A number of things could be going on here.
+If you are attempting to access this site using an anonymous Private/Proxy network, please disable that and try accessing site again.
+Due to previously detected malicious behavior which originated from the network you're using, please request unblock to site.
+Incident ID:
+ 2a39d07a-ctxv-4e08-8ea8-4b18df8e4d1b
+ Please solve this CAPTCHA to request unblock to the website 
+ You reached this page when trying to access
+https://www.cde.ca.gov/nr/in/ets-notification.asp
+ from
+64.236.161.39
+ on
+October 21 2026, 19:32:28 UTC
