@@ -1,0 +1,46 @@
+URL: https://ototoy.jp/feature/maintenance_info
+
+OTOTOY サービス再開のお知らせ - OTOTOY
+Collections
+Redeem Passcode
+Sign In
+Sign Up
+Guest mode has some restrictions. Please sign in or sign up for free to use all the features of OTOTOY.
+Guest Mode
+Messages
+Collections
+My Page
+Settings
+Register Your Card
+Purchase History
+Points History
+OTOTOY Coupon
+Sign Out
+2026/10/20 21:00
+OTOTOY サービス再開のお知らせ
+ 2026年10月19日(月）14時ごろよりセキュリティ上の問題への対応のため停止しておりましたOTOTOYのサービスにつきまして、必要な対応および確認を行い、サービスを再開いたしました。 
+ お客様をはじめ、関係者の皆様には、多大なるご心配とご迷惑をおかけしましたことを、深くお詫び申し上げます。 
+ 本件について、これまでの経緯および現在の状況を以下のとおりご報告いたします。 
+1．これまでの経緯
+ 2026年10月18日13時ごろ、弊社システムへの脅威となるアクセスが開始され、翌19日14時ごろに本件を把握したため、サービスを停止いたしました。 
+2．現在の状況
+ 原因となった脆弱性および攻撃の目的について特定し、影響範囲の調査とサービス再開に向けた対応を進めてまいりました。 
+ このたび、必要な対応および確認を行い、サービスを再開いたしました。 
+ なお、本件に関する調査については、引き続き進めております。 
+3．今後の対応
+ 今後も引き続き本件に関する調査および状況の確認を行い、新たにお知らせすべき事実が判明した場合には、本ページを更新し、最新の状況をご案内してまいります。 
+ このたびは、サービスの停止によりお客様および関係者の皆様にご不便とご心配をおかけしましたことを、重ねてお詫び申し上げます。 
+ 今後ともOTOTOYをよろしくお願い申し上げます。 
+人気の特集記事はこちら 
+特集記事一覧はこちら 
+記事検索はこちら 
+TOP
+×
+Choose your language
+日本語 - ja
+English - en
+Français - fr
+简体中文 - zh-Hans
+繁體中文 - zh-Hant
+Cancel
+Save Changes

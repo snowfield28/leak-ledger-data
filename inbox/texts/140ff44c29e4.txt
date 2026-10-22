@@ -1,0 +1,76 @@
+URL: https://asec.ahnlab.com/en/95944/
+
+Analysis of the GitHub "php2shell" Repository: Public PoCs and Defense Tools That Spread Immediately After the Disclosure of the PHP Vulnerability - ASEC
+Overview
+Immediately after the PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619 were disclosed on October 21, 
+2026, a large number of repositories named “php2shell” were created in a short period of time on GitHub, a code repository platform. Of the top 100 repositories (excluding forks) found by searching for “php2shell,” 99 addressed these vulnerabilities, and nearly all of them were created on October 21 alone.
+According to the official 
+PHP announcement, CVE-2026-109618 occurs when request data is partially initialized and then cleaned up while handling a memory shortage condition, while CVE-2026-109619 occurs when the internal state owned by a request persists even after memory is deallocated, causing subsequent requests from the same worker to use the outdated state. Both vulnerabilities could allow unauthenticated remote code execution and have a CVSS v4.0 Score of 9.2; The risk is highest in mod_php environments (
+official PHP announcement
+). Meanwhile, while GitHub repositories describe the `session.Upload_progress` feature as an attack vector and note that it has been enabled by default since PHP 5.4, This information is based on repository descriptions and has not been confirmed in official announcements.
+Security firm watchTower stated that it observed actual exploitation on its honeypot network as of October 21. It also reported that all versions of PHP 5 and later may be affected, but explained that this scope has not been officially confirmed. At the time this page was written, this vulnerability had not been listed on the CISA KEV list (
+watchTowr FAQ
+).
+From a 
+threat intelligence perspective, this incident requires a comprehensive examination of the scale and speed at which the publicly available PoC is spreading, as well as its reliability. Although the attack code and defense tools were released at the same period, the level of interest in the two types differed significantly, and the attack code includes numerous pieces whose sources are difficult to verify.
+Threat Analysis
+The subject of 
+analysis is the list of repositories collected by gitscan.Py at 1:30 PM on October 22, 2026. The latest activity time recorded in the list was October 21 at 4:27 PM (UTC). The repositories were classified by purpose based on their names, descriptions, and topics; the code within the repositories was not examined directly.
+When classified 
+by purpose, there are 46 defensive repositories intended for assessment, mitigation, and detection, and 36 offensive repositories such as PoCs and reproduction labs. However, the focus is on the offensive side. Of the total 1,394 stars, 1,158 (83%) are on PoC repositories, while defensive repositories received a combined total of only 148 stars (Figure 1). The top two repositories by stars—ikow/php2shell-poc (617) and eness’s PoC repository (333)—account for 68% of the total, and when the top five repositories are included, this figure rises to 81%. The remaining 90 repositories received almost no attention. Among the top 10 repositories by stars, five were PoCs, while the defensive-focused repositories included an emergency mitigation tool for Apache, a PHP extension to disable the upload-progress handler, and the operational information repository of the Netherlands National Cyber Security Center (NCSC-NL).
+Figure 1. Number of repositories and distribution of stars by purpose
+Looking at the creation dates, the defense repositories appeared first. The earliest relevant repository—containing Corelight detection rules—was created on October 18 at 06:43 (UTC), while the first PoC repository was created on October 20 at 19:16 (UTC). Subsequently, the number of PoCs increased as the afternoon progressed, peaking at 3:00 PM (UTC; 12:00 AM on the 22nd, Korea Standard Time) (Figure 2). Furthermore, one repository stated that its list of IoCs was created before the CVE was published, suggesting that vulnerability information may have been shared in advance among security vendors. However, since the collected data ends at 4:27 PM (UTC) on October 21, trends after that time must be verified through additional data collection.
+Figure 2. Repository creation trends by time (UTC)
+Cases of direct participation by organizations and security vendors were also identified, such as repositories associated with the NCSC-NL, Corelight, syhunt, and openai accounts. In terms of programming languages, Python (47 repositories) and Shell (24 repositories) accounted for the majority; proof-of-concept (PoC) and audit tools were primarily written in Python, while server mitigation scripts were primarily written in Shell. Repositories without a specified license numbered 51, accounting for more than half of the total. While most descriptions were in English, there were also repositories written in China, France, Russia, Portuguese, Spanish, and the Netherlands, suggesting that multiple regions are responding simultaneously. No repositories written in Korean were identified.
+Caution is advised regarding the reliability of the 
+published code. Of the 27 PoCs, 21 have fewer than 10 stars, and 61 of the total repositories have one star or fewer. There are 29 repositories without descriptions and 11 without information on the programming language; such repositories appear to be empty or contain only documentation. Since there are cases where a repository name is secured first and the code is added later, it is difficult to assess safety based solely on the current content.
+It is also unclear whether the publicly released PoCs actually work. While some repositories claim to enable remote code execution, others state that only state-corruption bugs—not remote code execution—can be reproduced, and there are even repositories that document failed reproduction attempts. One repository has a description that is identical to that of `ikow/php2shell-poc`, suggesting that the perpetrator may have cloned a popular repository, modified the code, and redistributed it. There have been repeated instances in the past where malware was embedded in fake PoCs exploiting popular CVEs to target security researchers.
+Even tools purported to provide 
+protection can pose a risk. Some mitigation scripts are distributed with the claim that they “apply to all PHP installations with a single line of code”; however, since such scripts run with root privileges, they can be exploited as attack paths disguised as security tools. One tool explicitly states that it was written by AI and comes with no guarantees.
+Response and Implications
+The fundamental solution is to update PHP to a patched version. PHP released a security update on October 21, and the official announcement states that immediate updating is the most reliable solution. Administrators should take steps as follows:
+1. Identify PHP Version and Apply Patches: Identify the version of PHP running on each asset and update it to one of the patched versions: 8.5.12, 8.4.27, 8.3.36, Or 8.2.35. Support for the 8.2 Branch will end on February 31, 2026. Since distribution and LTS vendors have already received the patches, check for package updates first and prioritize addressing mod_php environments, which are at the highest risk. Downloads and release notes are available on the official PHP website (
+Downloads
+).
+2. Versions 8.1 And below: No official releases are provided. The PHP Security Team has released minimal backports for versions 7.4, 8.0, And 8.1 As branches in the source repository; these can be reviewed in environments where you build from source. However, fundamentally, you should migrate to a supported version or check whether your LTS vendor provides backports.
+3. Temporary Block: For servers that cannot be patched immediately, temporarily block the vulnerability by setting `session.Upload_progress.Enabled` to Off. Since this setting disables the file upload progress indicator, first verify the impact on Services that use this feature. The official PHP advisory states that this mitigation only reduces some attack paths and does not make the system secure; therefore, this setting cannot replace a patch.
+4. Web Application Firewall (WAF) Rules: Rules designed to block suspicious multipart requests should be tested for false positives before being deployed to the production environment.
+5. Detection Rules: For detection, first refer to materials provided by organizations and security vendors, such as Corelight’s Zeek and Suricata rules, and NCSC-NL’s operational intelligence.
+6. Handling Public Code: If you must use a proof-of-concept (PoC) or testing tool, read the code yourself to verify its contents and run it only in an isolated environment.
+Servers that were exposed to the internet prior to applying the patch must also be checked for signs of compromise. Since watchTower reported observing actual exploitation on October 21, it is difficult to rule out the possibility that servers exposed before the update were compromised. Check web server logs for abnormal multipart requests, and investigate whether there are any suspicious files created in the web root directory or abnormal processes running under the web server account. If evidence of a breach is found, investigate the incident in accordance with DFIR procedures while preserving evidence; organizations in Korea should report the breach to the Korea Internet & Security Agency (KISA) Internet Security Response Center. If a personal information leak is confirmed, it must be reported to the Personal Information Protection Commission or KISA in accordance with the Personal Information Protection Act, and data subjects must be notified.
+This case demonstrates that, although approximately 100 related repositories were created within a day of the vulnerability’s disclosure, interest in defensive tools remained relatively low. Furthermore, many of the published repositories contained proof-of-concept (PoC) code whose functionality was uncertain and code with unknown sources. Therefore, organizations need to establish and share the principle of prioritizing official advisories and materials from trusted institutions, and refraining from code execution for repositories with unverified sources.
+Patches and Reference Links
+• Official PHP Security Release Announcement: 
+https://www.Php.Net/archive/2026.Php#2026-10-21-5
+• CVE-2026-109618 Details (GHSA-w8hw-w9fx-j79w): 
+https://github.Com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w
+• CVE-2026-109619 Details (GHSA-w8hw-w9fx-j79w): 
+https://github.Com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp
+• PHP 8.5.12 Release Notes: 
+https://www.Php.Net/ChangeLog-8.Php#8.5.12
+• PHP 8.4.27 Release Notes: 
+https://www.Php.Net/ChangeLog-8.Php#8.4.27
+• PHP 8.3.36 Release Notes: 
+https://www.Php.Net/ChangeLog-8.Php#8.3.36
+• PHP 8.2.35 Release Notes: 
+https://www.Php.Net/ChangeLog-8.Php#8.2.35
+• PHP 7.4 Minimum Backport Branch: 
+https://github.Com/php/php-src/tree/PHP-7.4-CVE-2026-109618-109619
+•    PHP 8.0 Minimum backport branch: 
+https://github.Com/php/php-src/tree/PHP-8.0-CVE-2026-109618-109619
+•    PHP 8.1 Minimum backport branch: 
+https://github.Com/php/php-src/tree/PHP-8.1-CVE-2026-109618-109619
+•    watchTower FAQ: 
+https://watchtowr.Com/intelligence/php-cve-2026-109618-faq/
+Gain access to related IOCs and detailed analysis by subscribing to 
+AhnLab TIP
+.
+For subscription details, click the banner below.
+Tags:
+CVE-2026-109618
+CVE-2026-109619
+exploit
+취약점
+PHP
+ Previous Post 
+They told me to check my retirement savings balance, but now they’re asking for my password?

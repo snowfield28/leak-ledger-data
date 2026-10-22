@@ -1,0 +1,327 @@
+URL: https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/
+
+Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance
+Blog
+Featured
+CrowdStrike Uncovers New Agentic AI Campaigns
+Oct 21, 2026
+CrowdStrike Protects Customers from Threats Delivered via PHP2Shell
+Oct 21, 2026
+CrowdStrike Achieves NCSC CIR Enhanced Level Assurance
+Oct 20, 2026
+October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities
+Oct 13, 2026
+Recent
+CrowdStrike Uncovers New Agentic AI Campaigns
+Oct 21, 2026
+CrowdStrike Protects Customers from Threats Delivered via PHP2Shell
+Oct 21, 2026
+CrowdStrike Achieves NCSC CIR Enhanced Level Assurance
+Oct 20, 2026
+October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities
+Oct 13, 2026
+Video
+Video Highlights the 4 Key Steps to Successful Incident Response
+Dec 02, 2019
+Helping Non-Security Stakeholders Understand ATT&CK in 10 Minutes or Less [VIDEO]
+Feb 21, 2019
+Analyzing Targeted Intrusions Through the ATT&CK Framework Lens [VIDEO]
+Jan 22, 2019
+Qatar’s Commercial Bank Chooses CrowdStrike Falcon®: A Partnership Based on Trust [VIDEO]
+Aug 20, 2018
+Category
+Agentic SOC
+Agentic SOC
+CrowdStrike Delivers the Next Evolution of the Agentic SOC
+09/02/26 
+Teaching AI to Reason Through Detection Triage
+08/17/26 
+How AI-leading Security Teams Are Building the Agentic SOC
+07/06/26 
+New Claude Integration Brings Audit Data into the Falcon Platform
+05/21/26 
+Cloud & Application Security
+Cloud & Application Security
+New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation
+10/05/26 
+CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms
+08/20/26 
+Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud
+07/29/26 
+Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud
+06/29/26 
+Threat Hunting & Intel
+Threat Hunting & Intel
+CrowdStrike Uncovers New Agentic AI Campaigns
+10/21/26 
+U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance
+10/13/26 
+Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance
+10/07/26 
+Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them
+09/29/26 
+Endpoint Security & XDR
+Endpoint Security & XDR
+CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises Vendor Assessment
+10/07/26 
+CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks
+09/02/26 
+Browser Security: Zero-Days Are Only Part of the Problem 
+06/30/26 
+New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever
+06/18/26 
+Engineering & Tech
+Engineering & Tech
+EMBER2024: Advancing the Training of Cybersecurity ML Models Against Evasive Malware
+09/03/25 
+Falcon Platform Prevents COOKIE SPIDER’s SHAMOS Delivery on macOS
+08/20/25 
+CrowdStrike’s Approach to Better Machine Learning Evaluation Using Strategic Data Splitting
+08/11/25 
+CrowdStrike Researchers Develop Custom XGBoost Objective to Improve ML Model Release Stability
+03/20/25 
+Executive Viewpoint
+Executive Viewpoint
+Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense
+07/20/26 
+Frontier AI Is Collapsing the Exploit Window. Here’s How Defenders Must Respond.
+04/20/26 
+Frontier AI for Defenders: CrowdStrike and OpenAI TAC
+04/16/26 
+Anthropic Claude Mythos Preview: The More Capable AI Becomes, the More Security It Needs
+04/06/26 
+From The Front Lines
+From The Front Lines
+CrowdStrike Protects Customers from Threats Delivered via PHP2Shell
+10/21/26 
+CrowdStrike Achieves NCSC CIR Enhanced Level Assurance
+10/20/26 
+CrowdStrike Technical Risk Assessments Reveal Common Exposure Patterns 
+05/04/26 
+Introducing the CrowdStrike Shadow AI Visibility Service
+04/21/26 
+Next-Gen Identity Security
+Next-Gen Identity Security
+Solving the Continuous Authorization Conundrum
+10/08/26 
+CrowdStrike Announces Agentic Identity Provider
+09/02/26 
+The Identity Problem Hiding in AI Agent Deployments 
+06/24/26 
+CrowdStrike Announces Continuous Identity for AI Agents
+06/15/26 
+Next-Gen SIEM & Log Management
+Next-Gen SIEM & Log Management
+CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX
+08/07/26 
+Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats
+07/29/26 
+5 High-Impact Use Cases for Falcon Onum
+07/27/26 
+Falcon Next-Gen SIEM Supports Third-Party EDR Tools, Starting with Microsoft Defender
+03/23/26 
+Public Sector
+Public Sector
+CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS
+10/01/26 
+CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04 
+07/22/26 
+Falcon Platform for Government Now Offers Falcon for XIoT to Secure Connected Assets 
+03/18/26 
+CrowdStrike Innovates to Modernize National Security and Protect Critical Systems 
+03/18/26 
+Exposure Management
+Exposure Management
+October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities
+10/13/26 
+CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026
+09/24/26 
+September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs
+09/08/26 
+August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs
+08/11/26 
+Securing AI
+Securing AI
+CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage
+10/08/26 
+Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers
+10/06/26 
+A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack
+09/28/26 
+CrowdStrike SafeMind: When the Best Offense Builds the Best Defense
+09/17/26 
+Data Security
+Data Security
+Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365
+10/05/26 
+CrowdStrike Accelerates Real-Time Data Classification with On-Device AI
+09/16/26 
+ISO 42001:2023 and the New Reality of Cloud AI Data Risk
+06/04/26 
+Falcon Data Security Secures Data Wherever It Lives and Moves
+03/24/26 
+Start Free Trial
+Featured
+Recent
+Video
+Category
+Start Free Trial
+Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance
+October 07, 2026
+•
+ Counter Adversary Operations
+•
+Threat Hunting & Intel
+CrowdStrike Intelligence identified infrastructure associated with a targeted campaign against South Korean financial organizations that resulted in exfiltrated data. The campaign was active from late September to early October 2026. Analysis of threat actor-controlled open directories uncovered Claude Code session histories, ARTEX configuration files, and Claude memory files, providing direct insight into the threat actor's operational methodology and tooling.
+The use of agentic AI tooling alongside traditional offensive capabilities highlights the continued evolution CrowdStrike has observed in adversarial tradecraft. In this activity, the threat actor leveraged ARTEX, a recently released open-source agentic penetration testing (pentesting) tool developed in China, alongside large language models (LLMs). CrowdStrike’s intelligence collection capabilities enable close monitoring of such developments in adversarial tradecraft.
+While this activity has not been attributed to a named adversary, the threat actor is likely a Chinese speaker and financially motivated. This assessment is made with moderate confidence based on the use of the Chinese-developed tool ARTEX and observed Chinese-language prompts.
+Details
+According to industry reports,
+1
+ beginning in late September 2026, several South Korean financial organizations experienced data breaches. At one affected bank, the threat actor reportedly breached a loan progress inquiry service used by financial brokers. At another bank, the threat actor compromised an employee mobile work–support system. As of this writing, the number of organizations affected remains unconfirmed.
+Activity at multiple organizations purportedly involved overlapping IP addresses. Reporting also suggested the attacker used ARTEX based on references to the string 
+ARTEX
+ in HTML files observed on a reportedly threat actor-controlled server.
+ARTEX Infrastructure Analysis
+The IP address 
+38.244.50[.]120
+ was associated with the activity described and hosted an ARTEX instance and open directory containing a Claude Code markdown document at 
+http[:]//38.244.50[.]120:18899/.claude/CLAUDE.md
+. The markdown document contained a Chinese-language pentesting prompt that specified how the LLM should conduct pentesting activities. A threat actor-controlled Hong Kong–based IP address also appeared in the document. 
+Analysis of the Hong Kong-based IP address identified additional open directories that contained Claude Code session histories, ARTEX configuration files, and Claude memory files. These files indicate that from late September 2026 to early October 2026, the threat actor targeted South Korean financial organizations with extensive activity leveraging ARTEX and LLMs. Targeted organizations overlap with those identified in industry reporting. 
+The Claude Code sessions reveal a two-server architecture: The Hong Kong-based IP address serves as the primary attacker-controlled infrastructure, and the IP address 
+38.244.50[.]120
+ hosts the ARTEX instance likely responsible for the described Korean attacks. The ARTEX instance used DeepSeek v4.1-flash as the primary LLM backend, and the threat actor supplemented this LLM with GLM-5.3 (Zhipu AI) and Grok 4.6 for additional Claude Code sessions. The threat actor likely accessed DeepSeek via the likely LLM API proxy/reseller 
+xcai[.]pro
+.
+Analysis of Claude Code sessions showed the threat actor also used the following proxy IP addresses during the ARTEX-related activity:
+101.53.80[.]20
+205.214.59[.]31
+124.155.252[.]63
+154.201.79[.]246
+23.248.249[.]90
+23.158.220[.]98
+103.248.148[.]84
+203.160.133[.]172
+209.209.85[.]38
+In addition to conducting ARTEX-related operations, the threat actor asked Claude where threat actors typically sell Korean data breach information and asked Claude for assistance in finding Korean Telegram data sales groups.
+Possible Threat Actor Details
+In one Claude Code session, the user asked Claude to create a security researcher résumé that specifically included bullet points conveying the results of the ARTEX-related activity. The prompt included the following personal details:
+Name: 
+YY
+Phone: 
+17820191556
+Telegram: 
+@YY520CN
+Age: 
+26
+ (though the attacker initially provided the date of birth 
+2007-09-22
+)
+Education: 
+South China University of Technology
+Location: 
+Maoming, Guangdong, China
+Claude Code sessions conducting vulnerability research on a Telegram-based NFT gift marketplace also used the Telegram username YY520CN. An unknown threat actor also employed this username to target a possible Chinese payment platform. While the personal details included in the prompt likely belong to the threat actor who conducted the ARTEX-related activity, currently available information cannot definitively associate these details with the threat actor.
+Assessment
+The use of agentic AI tooling alongside traditional offensive capabilities highlights the continued evolution observed by CrowdStrike in adversarial tradecraft. This activity demonstrates how AI tooling can enable a financially motivated threat actor to conduct multiple intrusions within a short time span. CrowdStrike Intelligence assesses that adversaries will likely continue to experiment with implementing AI tooling in their operations to enhance their operational tempo and capabilities. 
+IOCs
+This table details the IOCs related to the information provided in this report.
+Table 1. IOCs
+IOC
+Description
+101.53.80[.]20
+Proxy IP address
+205.214.59[.]31
+Proxy IP address
+124.155.252[.]63
+Proxy IP address
+154.201.79[.]246
+Proxy IP address
+23.248.249[.]90
+Proxy IP address
+23.158.220[.]98
+Proxy IP address
+103.248.148[.]84
+Proxy IP address
+203.160.133[.]172
+Proxy IP address
+209.209.85[.]38
+Proxy IP address
+38.244.50[.]120
+Threat actor-controlled IP address
+MITRE ATT&CK
+This table details the tactics and techniques described in this report. 
+Table 2. MITRE ATT&CK
+Tactic
+Technique
+Observables
+Resource Development
+T1583.003 - Acquire Infrastructure: Virtual Private Server
+The threat actor acquires infrastructure at multiple IP addresses to establish command-and-control operations.
+T1588.007 - Obtain Capabilities: Artificial Intelligence
+The threat actor obtains and deploys ARTEX, an open-source Chinese-developed agentic penetration testing tool, to conduct attacks against South Korean financial sector organizations.
+Command and Control
+T1090 - Proxy
+The threat actor used multiple proxy IP addresses during the ARTEX-related activity.
+Additional Resources
+Learn more about 
+CrowdStrike Counter Adversary Operations
+ threat intelligence and threat hunting, or 
+request a demo
+.
+Tune in to the 
+Adversary Universe podcast
+, where CrowdStrike reveals the threat actors behind the latest cyberattacks. 
+1
+ https[:]//www.khan[.]co[.]kr/en/article/202610042320007
+Related Content
+ Threat Hunting & Intel | Oct 21, 2026
+CrowdStrike Uncovers New Agentic AI Campaigns
+ Threat Hunting & Intel | Oct 13, 2026
+U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance
+ Threat Hunting & Intel | Sep 29, 2026
+Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them
+Categories
+Agentic SOC
+55
+Cloud & Application Security
+150
+Data Security
+27
+Endpoint Security & XDR
+362
+Engineering & Tech
+87
+Executive Viewpoint
+181
+Exposure Management
+127
+From The Front Lines
+207
+Next-Gen Identity Security
+76
+Next-Gen SIEM & Log Management
+116
+Public Sector
+44
+Securing AI
+55
+Threat Hunting & Intel
+228
+CrowdStrike Falcon Platform 
+Ready to protect your business? 
+Try CrowdStrike free today
+Start free trial
+Subscribe
+Sign up now to receive the latest notifications and updates from CrowdStrike
+Subscribe
+See CrowdStrike Falcon in action
+Explore demos
+Copyright © 2026 CrowdStrike
+ Privacy
+ Request Info
+ Blog
+ Contact Us
+ 1.888.512.8906
+ Accessibility

@@ -1,0 +1,151 @@
+URL: https://fxtrade.co.jp/2026-10-22/
+
+【緊急・重要】不正アクセスに関し、VPSサーバをご利用のお客様へパスワード変更のお願い
+はじめての方へ
+はじめてのFX
+はじめてのCFD
+はじめてのノックアウトオプション
+テクニカル分析解説
+ゼロスプレッドの全貌
+入出金・振替について
+取扱いサービス
+FX
+FXTF GX-FX
+FXTF MT4
+証券
+FXTF GX-証券CFD
+商品
+FXTF GX-商品CFD
+FXTF MT5-商品CFD
+暗号資産
+FXTF GX-暗号資産CFD
+FXTF MT5-暗号資産CFD
+オプション
+ノックアウトオプション
+入出金・振替について
+システム・ツール
+FXTF GX
+FXTF MT5
+FXTF MT4
+TradingView
+証拠金カリキュレーター
+入出金・振替について
+キャンペーン
+建玉連動手数料 キャッシュバックキャンペーン
+FXTF はじめて取引キャンペーン
+キャンペーン一覧
+情報サービス
+経済指標カレンダー
+FXTF情報局
+FXTF メルマガ
+FXTF 未来チャート
+金融情報サービス「FXi24」
+お客様サポート
+よくあるご質問
+お問い合わせ
+サポート時間外連絡
+税金確定申告について
+約款・規定集
+会社情報
+会社案内
+会社概要
+社長挨拶
+採用情報
+開示情報
+コーポレートポリシー
+20周年記念｜5つの感謝企画
+口座開設
+【個人】口座開設の流れ 
+【法人】口座開設の流れ 
+ログイン
+パスワードをお忘れの方
+ログインIDをお忘れの方
+ お客様サポート
+ 受付時間
+平日(祝日も含む)
+8:00～20:00
+（土日・年末年始を除く）
+ 0120-445-435
+ support@fxtrade.co.jp
+ チャットでもお問い合わせ可能
+LINE ID
+ @GWFX
+ サポート時間外連絡
+ホーム
+/
+お知らせ
+/
+【緊急・重要】不正アクセスに関し、VPSサーバをご利用のお客様へパスワード変更のお願い
+【緊急・重要】不正アクセスに関し、VPSサーバをご利用のお客様へパスワード変更のお願い
+お知らせ
+/
+2026/10/22
+本日、他社VPSサーバが受けたと考えられるサイバー攻撃により、VPSサーバを利用されている一部のお客様の取引口座のログインIDおよびパスワードが第三者に不正に取得され、ログインや取引が行われた可能性があることを検出いたしました。
+・VPSサーバを利用してお取引をされているお客様は、第三者による不正アクセス等を防止するため、至急、取引口座のパスワードを変更していただきますようお願いいたします。
+※パスワード変更方法は
+こちら
+・パスキー登録がお済みでない場合は、マイページからパスキー登録を行っていただき、パスキー認証によるログインを有効にしていただきますようお願いいたします。
+※パスキー登録についての詳細は
+こちら
+※パスワード変更ができないご状況のお客様は当社カスタマーサポートまでご連絡ください。
+【電話でのお問い合わせ】
+0120-445-435
+【受付時間】
+平日(祝日も含む) 8:00～20:00
+（土日・年末年始を除く）
+また、上記に該当しないお客様につきましても、セキュリティ対策の観点から、取引口座のパスワード変更を強く推奨いたします。
+なお、今般の事象は、当社への直接的な攻撃ではなく、また、現時点で当社からの顧客データの漏洩は確認されておりません。
+お客様の大切な資産をお守りするため、速やかなご対応をお願い申し上げます。
+【重要】「スマートフォンでスピード開設」の一時停止および「通常開設」でのお申込みについて
+2026/10/22
+【重要】セキュリティ強化に伴う海外からのマイページへのアクセス制限について
+2026/10/22
+米国東部標準時間（冬時間）移行による取引時間変更のお知らせ（2026年11月2日）
+2026/10/19
+次へ
+不正な業者・投資勧誘にご注意ください >
+投資にかかる手数料等およびリスクについて >
+外国為替証拠金取引(FX)、商品CFD取引、暗号資産CFD取引、証券CFD取引及びオプション取引は、元本や利益を保証するものではなく、相場の変動や金利差により損失が生ずる場合がございます。なお、商品ごとに手数料等及びリスクは異なりますので、当該商品等の「契約締結前交付書面」及び「約款」等をよくお読みいただき、それらの内容をご理解のうえ、ご自身の判断でお取り組みください。
+【注】お客様がお預けになった証拠金額以上のお取引額で取引を行うため、証拠金額以上の損失が出る可能性がございます。オプション取引の場合は損失額が証拠金額を上回ることはありませんが、予測と反対方向に市場が動き原資産価格がノックアウトレベルに達すると価値はゼロとなります。
+当社相談窓口：0120-445-435 
+日本商品先物取引協会相談センター：03-3664-6243
+当社の企業情報は、当社ホームページ及び日本商品先物取引協会ホームページに開示しています。
+取引システム
+ログイン
+LINEでのお問い合わせ
+3つの方法でLINE友達追加
+友達追加用ボタン
+ LINEサービス
+コード読み取り
+検索
+LINE ID: 
+@
+GWFX
+ゴールデンウェイ・ジャパン株式会社
+第一種金融商品取引業者 
+関東財務局長（金商）第258号 
+商品先物取引業者
+加入協会：
+日本証券業協会 
+一般社団法人 金融先物取引業協会 
+一般社団法人 日本暗号資産等取引業協会 
+日本商品先物取引協会 
+一般社団法人 資産運用業協会
+Copyright © Goldenway Japan Co.,Ltd.
+All Rights Reserved.
+×
+Attention please!
+We have recently identified instances of unauthorized use of our website and trademarks outside of Japan. Therefore, we wish to issue a cautionary notice.
+Currently, FXTF's services are exclusively available within Japan. We do not support application from locations outside Japan, and we kindly request your understanding.
+It has been confirmed that multiple fraudulent FXTF sites are operational overseas. These sites have no affiliation with FXTF, therefore, we urge you to exercise utmost caution when accessing such sites.
+The trademarks of FXTF are owned by Goldenway Japan Co., Ltd., and are not licensed or lent to any third parties. To ensure you are accessing our official services, please verify the URL of the site.
+We request all users accessing our website from abroad to heed the information provided above to ensure a safe and accurate access. 
+Continue
+ゴールデンウェイ・ジャパン株式会社
+第一種金融商品取引業者
+ 関東財務局長（金商）第258号
+商品先物取引業者
+一般社団法人 金融先物取引業協会
+一般社団法人 日本暗号資産等取引業協会
+日本商品先物取引協会
+一般社団法人 資産運用業協会
