@@ -9,45 +9,6 @@
    "official": []
   },
   {
-   "article_url": "https://internet.watch.impress.co.jp/docs/news/2150101.html",
-   "title": "ニフティ、不正アクセスで続報。調査により対象が絞り込まれ、最大1万8000件に",
-   "source": "INTERNET Watch 個人情報",
-   "found": "2026-10-22",
-   "article_text_file": "inbox/texts/22537824046f.txt",
-   "official": [
-    {
-     "url": "https://www.nifty.co.jp/newsrelease/nifty202610215453.htm",
-     "status": "error:http403",
-     "chars": 0
-    },
-    {
-     "url": "https://www.hanken.impress.jp/",
-     "status": "thin",
-     "chars": 37,
-     "text_file": "inbox/texts/389200c66247.txt"
-    },
-    {
-     "url": "https://www.impressholdings.com/",
-     "status": "ok",
-     "chars": 1020,
-     "text_file": "inbox/texts/7c29deb4a01a.txt"
-    },
-    {
-     "url": "https://netatopi.jp",
-     "status": "ok",
-     "chars": 5546,
-     "final_url": "https://netatopi.jp/",
-     "text_file": "inbox/texts/4eb20824d5fd.txt"
-    },
-    {
-     "url": "https://dekiru.net/",
-     "status": "ok",
-     "chars": 4989,
-     "text_file": "inbox/texts/5348a3689af1.txt"
-    }
-   ]
-  },
-  {
    "article_url": "https://internet.watch.impress.co.jp/docs/news/2149845.html",
    "title": "岩井コスモ証券、不正アクセスにより4975人の個人情報漏えいと7件の不正取引が発生",
    "source": "INTERNET Watch 個人情報",
