@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -6480,6 +6480,46 @@
    "who": [
     "cust"
    ]
+  },
+  {
+   "id": "kanagawa-police-expired-license-2610",
+   "co": "神奈川県警察",
+   "date": "2026-10-22",
+   "cause": "insider",
+   "types": [
+    "内部不正"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name"
+   ],
+   "itemsText": "項目は公表資料で要確認（報道は失効した運転免許証の顔写真等）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、更新後に失効した運転免許証が警備部門の資料に流用されていた疑いがあり、31枚の持ち出しで発覚。約30年にわたり常態化していた可能性があるとして、警察庁が全国調査を指示したと報じられている。報道では個人情報保護法に抵触する恐れとされ、外部への漏えいがあったかは確認できていない。",
+   "status": "ongoing",
+   "statusText": "2026年10月22日に報道。神奈川県警・警察庁の公式発表は確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "日本経済新聞",
+     "https://www.nikkei.com/article/DGXZQOUD216KS0R21C26A0000000/"
+    ],
+    [
+     "時事ドットコム",
+     "https://www.jiji.com/jc/article?k=2026102200330&g=soc&m=rss"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kanagawa_police_expired_drivers_license_misuse_20261022/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表を確認できていない。報道の内容は個人情報の目的外利用で、外部への漏えいかは不明。manual/ に神奈川県警または警察庁の公式文面を貼れば、漏えいに当たるか判断して反映できる"
   }
  ]
 }
