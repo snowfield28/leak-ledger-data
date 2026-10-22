@@ -26723,6 +26723,587 @@
    ],
    "ind": "人材・教育・業務支援",
    "verified": "2026-10-22"
+  },
+  {
+   "id": "fujicco-campaign-2610",
+   "co": "フジッコ株式会社（キャンペーン応募受付の委託先サーバー）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "occurred": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 15500,
+   "label": "延べ約15,500件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "氏名、年齢、性別、職業、婚姻状況、電話番号、メールアドレス、住所、アンケート情報",
+   "notIncl": "免許証、クレジットカード、口座番号などは含まれない。フジッコイン会員向け応募フォーム・応募はがき・Xでの応募は対象外。不特定多数への公開や不正利用は確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "2026年5月以降に実施した「カスピ海ヨーグルト『もっと！とろぉ～もっちキャンペーン 第2弾』」と「フジッコ大感謝祭キャンペーン」の非会員向け応募フォームの受付業務を委託している会社のサーバーが不正アクセスを受け、応募者の個人情報が漏えいした可能性があることが10月21日に判明した。同社は情報が第三者に取得されたものとみなして対応している。",
+   "status": "ongoing",
+   "statusText": "2026年10月22日の発表時点。該当する応募受付を一時停止し、再発防止策を進めている。",
+   "resp": "不正アクセスを受けたサーバーを停止。個人情報保護委員会に報告し、警察に相談のうえ被害届を提出予定。対象者には準備ができ次第メールで個別連絡（URL・添付なし）。システムを安全な環境に集約し、監視体制とセキュリティ対策を強化。フィッシング等への注意を呼びかけ。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-954-659",
+      "hours": "フジッコキャンペーン事務局・お客様向け・10〜17時（土日祝・12/26〜1/3除く）。2027年4月15日まで"
+     }
+    ],
+    "note": "フジッコキャンペーン事務局",
+    "src": "https://www.fujicco.co.jp/upload/pr_261022.pdf"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報漏えいの可能性に関するお詫び（2026/10/22）",
+     "https://www.fujicco.co.jp/upload/pr_261022.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/fujicco_campaign_outsourced_form_15500_data_leak_risk_20261022/"
+    ]
+   ],
+   "ind": "製造",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "np-atobarai-2610",
+   "co": "株式会社ネットプロテクションズ（NP後払い）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "occurred": "2026-10-14",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 28884,
+   "label": "28,884件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "work"
+   ],
+   "itemsText": "氏名、住所（法人利用の場合は会社名・部署名、請求書が返送された場合は請求書が未着であったこと）",
+   "notIncl": "住所は購入時の登録情報で実際の住所と異なる場合がある。情報の不正利用は確認されていない",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "後払い決済サービス「NP後払い」の請求書再発行システムに、第三者から通常想定されない方法で機械的・連続的なリクエストが行われ、お客様の個人情報の一部にアクセスされたことが10月14日に判明した。対象は一部の取引28,884件。",
+   "status": "ongoing",
+   "statusText": "2026年10月22日の発表時点。原因と影響範囲を調査中で、安全確認後に当該システムを再開予定。",
+   "resp": "個人情報保護委員会とJIPDECに報告。対象者へメール等で個別案内。セキュリティを強化し、安全が確認でき次第、該当システムを再開する。サービス提供自体への影響はない。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0570-077-015",
+      "hours": "サポートデスク・平日9〜18時"
+     }
+    ],
+    "forms": [
+     [
+      "お問合せフォーム",
+      "https://help.np-atobarai.jp/hc/ja/requests/new?ticket_form_id=63463738663065"
+     ]
+    ],
+    "src": "https://corp.netprotections.com/news/info/corporate/20261022/"
+   },
+   "official": [
+    [
+     "「NP後払い」への不正アクセスについて（2026/10/22）",
+     "https://corp.netprotections.com/news/info/corporate/20261022/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/np_atobarai_unauthorized_access_28884_corporate_risk_20261022/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "capcom-id-2610",
+   "co": "株式会社カプコン（CAPCOM ID）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "occurred": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 11774247,
+   "label": "11,774,247件（全世界合計）",
+   "st": "c",
+   "items": [
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "（1）メールアドレス、システム固有の識別情報（アカウント作成日時・最終ログイン日時・ログイン回数・最終ログイン時のクライアントIP）11,774,247件（2）うち43件は生年月日・性別・国／地域・ニックネーム（3）うち196件でログインパスワードが不正に変更された",
+   "notIncl": "クレジットカード情報は含まれない。お客様自身が設定したパスワードの漏えいは確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "オンライン会員サービス「CAPCOM ID」に第三者の不正アクセスがあり、会員情報の一部が外部に漏えいした。10月19日に不審な痕跡を発見して同日不正アクセスを確認、20日に情報漏えいと一部アカウントのパスワード不正変更が判明した。",
+   "status": "ongoing",
+   "statusText": "2026年10月22日の発表時点。緊急対策と攻撃手段の特定・対応は完了、影響範囲を引き続き調査中。",
+   "resp": "アクセスを遮断し緊急対策を実施。パスワードが不正変更された196アカウントはリセット済み。警察と個人情報保護委員会に10月21日に報告。対象者へ順次個別連絡し、専用問い合わせ窓口を設置。不審なメールへの注意を呼びかけ。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-801-271",
+      "hours": "日本・CAPCOM ID不正アクセス専用窓口・10〜20時"
+     }
+    ],
+    "mails": [
+     "feedback@capcom.com",
+     "info-asia@capcom.com"
+    ],
+    "forms": [
+     [
+      "北米・中米・南米／欧州・中東・アフリカ 問い合わせフォーム",
+      "https://www.capcom-support.com/hc/en-us/requests/new"
+     ]
+    ],
+    "src": "https://www.capcom.co.jp/ir/news/html/261022.html"
+   },
+   "official": [
+    [
+     "不正アクセスによるお客様情報漏えいのお詫びとお知らせ（2026/10/22）",
+     "https://www.capcom.co.jp/ir/news/html/261022.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/capcom_id_data_breach_11774247_password_changed_20261022/"
+    ],
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2150509.html"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "blastmail-rakuslightcloud-2610",
+   "co": "株式会社ラクスライトクラウド（メール配信システム「ブラストメール」／親会社 株式会社ラクス）",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "occurred": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "全契約者（件数は調査中）",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "全契約者の会社名、担当者名、電話番号、メールアドレス、請求先メールアドレス、契約・支払履歴など。一部の契約者は配信先リストなどメール配信に関する情報も漏えい",
+   "notIncl": "クレジットカード番号は同社で保持していない",
+   "who": [
+    "biz"
+   ],
+   "sum": "ラクスの子会社ラクスライトクラウドが提供するメール配信システム「ブラストメール」で、10月21日午前0時30分にサービスを緊急停止。調査の結果、第三者がAPI用サーバー2台に侵入して販売管理システムとサービスのデータベースに接続し、全契約者の情報を外部に持ち出したと確認した。利用企業の配信先リストにも一部で漏えいがあり、利用企業側の事案（JAPEXなど）が派生している。",
+   "status": "ongoing",
+   "statusText": "2026年10月21日の第2報の時点。漏えい情報の詳細と侵入経路を調査中で、サービス再開日時は未定。",
+   "resp": "サービスを緊急停止し、個人情報保護委員会とJIPDECに報告済み。該当するお客さまには個別に連絡する。",
+   "contact": {
+    "mails": [
+     "support@blastmail.jp"
+    ],
+    "src": "https://www.rakus.co.jp/news/2026/1021-3.html"
+   },
+   "official": [
+    [
+     "【第2報】「ブラストメール」における不正アクセスによる情報漏えいおよびサービス停止について（2026/10/21）",
+     "https://www.rakus.co.jp/news/2026/1021-3.html"
+    ],
+    [
+     "【第1報】「ブラストメール」における不審なアクセスの検知およびサービス停止について（2026/10/21）",
+     "https://www.rakus.co.jp/news/2026/1021-2.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/blastmail_rakuslightcloud_data_breach_second_report_20261022/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "japex-blastmail-2610",
+   "co": "石油資源開発株式会社（JAPEX／委託先 ラクスライトクラウド「blastmail」）",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "occurred": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "work"
+   ],
+   "itemsText": "JAPEXメールマガジン登録者：メールアドレス。機関投資家・証券アナリスト向けイベント案内の配信対象者：氏名、会社名、所属部署、役職、メールアドレス、郵便番号、住所、電話番号",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "メールマガジンと機関投資家・アナリスト向け案内の配信に使うASPサービス「blastmail」（ラクスライトクラウド社）が不正アクセスを受け、同社に登録した当社管理の個人情報が漏えいした可能性があることを10月21日に同社から受けて公表した。漏えい件数は調査中。JAPEX自身のシステムへの影響はない。",
+   "status": "ongoing",
+   "statusText": "2026年10月21日の発表時点。漏えい件数と範囲は調査中。",
+   "resp": "漏えいが確認された場合は該当者へ個別に連絡し、二次被害防止の注意喚起を行う。不正利用は確認されていない。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-6268-7111",
+      "hours": "IR関係・平日9:00〜17:35"
+     },
+     {
+      "tel": "03-6268-7000",
+      "hours": "代表（その他全般）・平日9:00〜17:35"
+     }
+    ],
+    "src": "https://www.japex.co.jp/news/detail/20261021_01/"
+   },
+   "official": [
+    [
+     "株式会社ラクスライトクラウドで発生した不正アクセスに伴う個人情報漏えいの可能性について（2026/10/21）",
+     "https://www.japex.co.jp/news/detail/20261021_01/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/japex_blastmail_vendor_data_exposure_20261022/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ototoy-2610",
+   "co": "OTOTOY（音楽配信サービス）",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "occurred": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 480000,
+   "label": "最大約48万件",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "内部ユーザーID（6〜9桁の数字）、メールアドレス、ユーザー登録日時",
+   "notIncl": "ハッシュ化されたパスワード、購入履歴、物販用登録住所、クレジットカード番号などの決済情報は閲覧・取得の形跡なし（10月21日17時時点）",
+   "who": [
+    "cust"
+   ],
+   "sum": "音楽配信サービス「OTOTOY」に第三者が不正アクセスし、会員の一部（最大約48万件）の内部ユーザーID・メールアドレス・登録日時が閲覧・取得された可能性がある。10月19日に把握してサービスを停止、原因究明と修正の後、20日夜にサービスを再開した。",
+   "status": "ongoing",
+   "statusText": "2026年10月21日18時の発表時点。詳細を継続して確認中。",
+   "resp": "サービスを一時停止して原因となった脆弱性を修正し、再開。調査を継続し、新たな事実は同ページで更新する。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://ototoy.jp/feature/maintenance_20261020"
+   },
+   "official": [
+    [
+     "不正アクセスによるお客様情報漏洩の可能性に関するお知らせ（2026/10/21）",
+     "https://ototoy.jp/feature/maintenance_20261020"
+    ],
+    [
+     "OTOTOY サービス再開のお知らせ（2026/10/20）",
+     "https://ototoy.jp/feature/maintenance_info"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ototoy_unauthorized_access_up_to_480k_accounts_20261022/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "good-fudousan-goweb-2610",
+   "co": "株式会社Good不動産（入居申込クラウド「GoWeb」／提供元 株式会社GoWebクラウド）",
+   "date": "2026-10-20",
+   "announced": "2026-10-20",
+   "occurred": "2026-10-17",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（入居申込者の個人情報と不動産仲介会社の利用者情報が保存されている）",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "入居申込業務に利用するクラウドサービス「GoWeb」に第三者の不正アクセスがあったことを10月17日に確認した。同サービスには入居申込者の個人情報と不動産仲介会社の利用者情報が保存されており、外部への漏えいと不正利用の有無は調査中。",
+   "status": "ongoing",
+   "statusText": "2026年10月20日の発表時点。クラウド提供元と連携して被害の有無を調査中。",
+   "resp": "提供元と連携して調査とセキュリティ対応、システム修正状況の確認を進める。結果は判明次第公表する。専用窓口を設置。",
+   "contact": {
+    "mails": [
+     "gf_contact@good-fudousan.co.jp"
+    ],
+    "src": "https://www.good-fudousan.co.jp/app/wp-content/uploads/2026/10/6224bc5384d9939bf332ddebab21c679.pdf"
+   },
+   "official": [
+    [
+     "当社が利用するクラウドサービスへの不正アクセスに関するお知らせとお詫び（2026/10/20）",
+     "https://www.good-fudousan.co.jp/app/wp-content/uploads/2026/10/6224bc5384d9939bf332ddebab21c679.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/good_fudousan_goweb_unauthorized_access_20261021/"
+    ]
+   ],
+   "ind": "建設・不動産",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "valtec-mot-2610",
+   "co": "株式会社バルテック（MOT/Cloud・POS製品など）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（お客様情報の流出とみなされる事実を確認）",
+   "who": [
+    "unk"
+   ],
+   "sum": "第三者の不正アクセスにより、同社が保有するお客様情報の流出とみなされる事実が発生したことを確認し、MOT/Cloud、POSシステムなど多数のサービスを停止して緊急メンテナンス中。第一報で原因を「PHPの脆弱性を標的とした攻撃」としたが、のちに誤りと訂正し、同社サービス自体の脆弱性を突かれたものとしている。影響範囲は調査中。",
+   "status": "ongoing",
+   "statusText": "2026年10月22日の発表時点。詳細な原因と影響範囲は判明次第報告。復旧は最短で10月26日（月）中の予定。",
+   "resp": "一部サービスを停止して緊急メンテナンスを実施。詳細は判明次第改めて報告する。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-863-366",
+      "hours": "サポートヘルプデスク・平日9:00〜17:30"
+     }
+    ],
+    "src": "https://www.webjapan.co.jp/maintenance/serviceteishi261022/"
+   },
+   "official": [
+    [
+     "不正アクセスによるお客様情報流出の可能性および一部サービス停止のお知らせ（2026/10/22）",
+     "https://www.webjapan.co.jp/maintenance/serviceteishi261022/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/valtec_php_vulnerability_unauthorized_access_20261022/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "fxtf-goldenway-vps-2610",
+   "co": "ゴールデンウェイ・ジャパン株式会社（FXTF／他社VPSへのサイバー攻撃）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "VPS利用の一部のお客様（件数の記載なし）",
+   "st": "p",
+   "items": [
+    "id"
+   ],
+   "itemsText": "VPSサーバーを利用する一部のお客様の取引口座のログインIDとパスワード",
+   "notIncl": "同社への直接の攻撃ではなく、同社からの顧客データの漏えいは現時点で確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "他社のVPSサーバーが受けたとみられるサイバー攻撃により、VPSを利用する一部のお客様の取引口座のログインID・パスワードが第三者に不正に取得され、ログインや取引が行われた可能性があることを10月22日に検出した。同社は該当顧客にパスワード変更とパスキー登録を要請している。",
+   "status": "ongoing",
+   "statusText": "2026年10月22日の発表時点。",
+   "resp": "VPS利用者に取引口座のパスワード変更を至急要請し、それ以外の顧客にも変更を強く推奨。パスキー登録を案内。マイページへの海外からのアクセスを制限。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-445-435",
+      "hours": "お客様サポート・平日（祝日含む）8〜20時"
+     }
+    ],
+    "mails": [
+     "support@fxtrade.co.jp"
+    ],
+    "src": "https://fxtrade.co.jp/2026-10-22/"
+   },
+   "official": [
+    [
+     "【緊急・重要】不正アクセスに関し、VPSサーバをご利用のお客様へパスワード変更のお願い（2026/10/22）",
+     "https://fxtrade.co.jp/2026-10-22/"
+    ],
+    [
+     "【重要】セキュリティ強化に伴う海外からのマイページへのアクセス制限について（2026/10/22）",
+     "https://fxtrade.co.jp/2026-10-22-2/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/fxtf_vps_unauthorized_access_20261022/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "zkai-zid-2610",
+   "co": "株式会社Z会（Z-IDシステム）",
+   "date": "2026-10-19",
+   "announced": "2026-10-19",
+   "occurred": "2026-10-15",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 13,
+   "label": "13件のアカウント",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "氏名、メールアドレス、Z-ID（13アカウント分）",
+   "notIncl": "これ以外の情報が閲覧された形跡は現時点で確認されていない。サーバーやデータベースへの直接侵入による流出の形跡はない。不正利用・二次被害は確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "Z会グループのサービスのログインに使う「Z-IDシステム」で、10月15日未明にパスワードリセット機能に対し短時間で連続した13件のパスワード変更があり、第三者による不正ログインが判明。対象アカウントの氏名・メールアドレス・Z-IDが閲覧された可能性がある。",
+   "status": "ongoing",
+   "statusText": "2026年10月20日14:30更新時点。詳細な調査を継続中。",
+   "resp": "対象アカウントを一時停止して個別に案内。パスワードリセット機能は強化のうえ再開。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-636-322",
+      "hours": "Z会テクニカルサポートセンター・月〜金10〜18時（祝日・夏季休業・年末年始除く）"
+     }
+    ],
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://forms.gle/8wd93C9H1zYwuoqS6"
+     ]
+    ],
+    "src": "https://www.zkai.co.jp/post-120678/"
+   },
+   "official": [
+    [
+     "Z-IDシステムへの不正ログインについて（第一報）（2026/10/19）",
+     "https://www.zkai.co.jp/post-120678/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/22/56540.html"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "japan-times-2610",
+   "co": "ジャパンタイムズ（グループ会社管理サーバー）",
+   "date": "2026-10-02",
+   "announced": "2026-10-02",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "unk"
+   ],
+   "sum": "グループ会社が管理するサーバーの一部が不正アクセスを受けた。情報漏えいの有無と影響範囲は外部専門業者と調査中。電子版サービス・購読者データベース・決済システムは別インフラで運用され、影響は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年10月2日の発表時点。調査完了までには一定期間を要する見込み。",
+   "resp": "外部専門業者と連携して調査。なりすましメール・電話への注意を呼びかけ。新聞発行・ウェブサイト等は通常どおり継続。",
+   "contact": {
+    "mails": [
+     "jtsales@japantimes.co.jp"
+    ],
+    "note": "お客さま・お取引先様のお問い合わせ専用窓口（お客様対応デスク）",
+    "src": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/02/566349.pdf"
+   },
+   "official": [
+    [
+     "当社グループ管理サーバーへの不正アクセスに関するお知らせ（2026/10/2）",
+     "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/02/566349.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/?p=42404"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-22"
   }
  ],
  "statusLabels": {
@@ -26755,7 +27336,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 283,
+ "pendingCount": 287,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",

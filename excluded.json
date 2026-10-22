@@ -721,6 +721,16 @@
     "https://www.onamae.com/news/article/11584"
    ],
    "checked": "2026-10-21"
+  },
+  {
+   "id": "shinryo-reinetsu-2610",
+   "co": "新菱冷熱工業株式会社",
+   "date": "2026-10-21",
+   "reason": "公式発表に「個人情報や顧客データが外部へ流出した事実は確認されておりません」とあり、システム障害（10月17日の不正アクセス）に留まる。続報で漏えいが公表されれば対象に戻す",
+   "official": [
+    "https://www.shinryo.com/news/20261021.html"
+   ],
+   "checked": "2026-10-22"
   }
  ]
 }

@@ -5017,42 +5017,6 @@
    "id": "kodaira-city-2610"
   },
   {
-   "co": "ジャパンタイムズ（グループ会社管理サーバー）",
-   "date": "2026-10-02",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "who": [
-    "unk"
-   ],
-   "sum": "グループ会社が管理する一部のサーバーに不正アクセスがあり、情報漏えいの有無と影響範囲を外部の専門業者と調査中。電子版・購読者データベース・決済システムは別のインフラで、影響は確認されていない。ランサムウェアグループがリークサイトに掲載したが、同社の発表はランサムウェアに触れていない（報道による）。",
-   "status": "ongoing",
-   "statusText": "10月2日に公表。調査中。",
-   "resp": "外部の専門業者と調査。なりすましの連絡に注意するよう呼びかけ。新聞発行とWebサービスは継続（報道による）。",
-   "official": [
-    [
-     "お知らせ（2026/10/2）",
-     "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/?p=42404"
-    ]
-   ],
-   "ind": "メディア・出版",
-   "pendingReason": "10/12再確認：公式発表URL（japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/）は報道経由で確認したが、WebFetchが拒否し本文を照合できず。続報は見つからず。途中で検索回数の上限に達し、追加の検索はできなかった",
-   "id": "japan-times-2610"
-  },
-  {
    "id": "toyobo-mc-2609",
    "co": "東洋紡エムシー",
    "date": "2026-09-28",
@@ -6520,6 +6484,184 @@
    ],
    "ind": "公共機関",
    "pendingReason": "公式発表を確認できていない。報道の内容は個人情報の目的外利用で、外部への漏えいかは不明。manual/ に神奈川県警または警察庁の公式文面を貼れば、漏えいに当たるか判断して反映できる"
+  },
+  {
+   "id": "mirarth-takaraleben-dlps-2610",
+   "co": "MIRARTHホールディングス（タカラレーベン オーナーズクラブ「DLPS」／委託先 Solvvy・ブラストメール）",
+   "date": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 11300,
+   "label": "約11,300件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "mail"
+   ],
+   "itemsText": "氏名、メールアドレス、住所（報道）",
+   "sum": "報道によると、グループ会社タカラレーベンのオーナーズクラブ「DLPS」のメール配信を受託するSolvvyが利用する「ブラストメール」への不正アクセスにより、会員約1万1,300件の情報が漏えいした可能性がある。10月21日18時ごろにSolvvyから連絡を受け、DLPSアプリのログインを停止した。",
+   "status": "ongoing",
+   "statusText": "10月22日に適時開示（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mirarth_dlps_blastmail_11300_possible_leak_20261022/"
+    ]
+   ],
+   "ind": "建設・不動産",
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "自動取得不可（公式の適時開示 https://www.nikkei.com/nkd/disclosure/tdnr/20261022554817/ は有料会員限定で本文が読めない）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "jfe-chemical-2610",
+   "co": "JFEケミカル株式会社",
+   "date": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（社外関係者・同社社員に関する情報が含まれる可能性・報道）",
+   "sum": "報道によると、10月14日に不正アクセスの可能性を認識し、19日に第三者によるIT環境からのデータ不正取得が判明した。取得された情報には社外関係者や同社・同社社員に関する情報が含まれる可能性があり、件数と項目は調査中。",
+   "status": "ongoing",
+   "statusText": "10月21日に第一報（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/jfe_chemical_unauthorized_access_data_exfiltration_first_report_20261022/"
+    ]
+   ],
+   "ind": "製造",
+   "who": [
+    "biz",
+    "staff"
+   ],
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-5820-6500",
+      "hours": "総務部（報道による）"
+     }
+    ],
+    "src": "https://www.jfe-chem.com/uploads/2026/10/baa6f7b08015cd87b11014e01d51141e.pdf"
+   },
+   "pendingReason": "自動取得不可（公式PDF https://www.jfe-chem.com/uploads/2026/10/baa6f7b08015cd87b11014e01d51141e.pdf が PdfStreamError）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "zonexpert-amazon-seller-2610",
+   "co": "ZonExpert株式会社（委託元のAmazonセラーセントラルアカウント）",
+   "date": "2026-10-01",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "購入者の氏名、住所、電話番号、注文履歴（注文番号・購入商品・注文日時等）（報道）",
+   "sum": "報道によると、8月8日〜18日に委託元から付与されたAmazonセラーセントラルのユーザーアカウントが第三者に不正に変更され、委託元各社の管理画面上の購入者情報が閲覧され得る状態だった。閲覧の事実は確認されていないが、漏えいの可能性がある。",
+   "status": "ongoing",
+   "statusText": "10月1日に発表（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html"
+    ]
+   ],
+   "ind": "小売・EC",
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "inboxに公式発表の本文なし（ScanNetSecurity記事のみ）。公式URLを特定できず未照合。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "kindai-classroom-2609",
+   "co": "学校法人近畿大学（国際学部・Google Classroom）",
+   "date": "2026-09-30",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": 85,
+   "label": "85名が閲覧可能（20名が閲覧、1名がダウンロード）",
+   "st": "c",
+   "items": [
+    "name"
+   ],
+   "itemsText": "項目は公表資料で要確認（受講生の個人情報が記載されたシート）",
+   "sum": "報道によると、9月23日に国際学部の教員が座席表データをGoogle Classroomで共有する際、受講生の個人情報が記載されたシートを含むファイルを誤ってアップロードし、受講生85名が閲覧・ダウンロードできる状態だった。ログ解析で20名が閲覧、1名がダウンロード。",
+   "status": "ongoing",
+   "statusText": "9月30日に発表（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/21/56524.html"
+    ]
+   ],
+   "ind": "大学・学校",
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "自動取得不可（公式 https://www.kindai.ac.jp/international-studies/news/important/2026/09/049536.html がHTTP 404）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "nikkei-natgeo-2610",
+   "co": "株式会社日経ナショナル ジオグラフィック（日本経済新聞社への不正アクセスに伴う利用者情報）",
+   "date": "2026-10-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "sum": "日本経済新聞社への不正アクセスで漏えいした個人情報の中に、日経ナショナル ジオグラフィックのサービス利用者の情報も一部含まれている可能性がある。",
+   "status": "ongoing",
+   "statusText": "10月17日に発表。10月22日に最新情報が掲載されているが本文を確認できていない。",
+   "resp": "",
+   "official": [
+    [
+     "【重要なお知らせ】日本経済新聞社への不正アクセスに伴う当社サービス利用者情報に関するお知らせ（2026/10/17）",
+     "https://natgeo.nikkeibp.co.jp/atcl/topics/15/271114/101700365/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/21/56530.html"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "who": [
+    "cust"
+   ],
+   "pendingReason": "10/17の公式告知は読めたが、件数・項目の記載がなく、10/22付の最新情報（別ページ）を取得できていない。manual/ に最新情報の公式文面を貼れば反映できる。"
   }
  ]
 }
