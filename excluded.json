@@ -731,6 +731,18 @@
     "https://www.shinryo.com/news/20261021.html"
    ],
    "checked": "2026-10-22"
+  },
+  {
+   "id": "tokai-tlc-2610",
+   "co": "TOKAIホールディングス（TLC会員サービス）",
+   "date": "2026-10-23",
+   "reason": "TLCポイントサイト・アプリ・マイページの一部システムへの不正アクセスの試みが疑われたため10月19日22時からサービスを一時停止したが、公式発表は「現時点では、お客様情報の漏えいや、TLCポイントの不正利用は確認されていない」と明記している。10月22日のグループ会社サイト一時停止（PHP脆弱性対応）も漏えいに触れていない。",
+   "official": [
+    "https://www.tokaiholdings.co.jp/news/2026/20261023release2.html",
+    "https://tlc.tokai.jp/exchange/",
+    "https://www.tokaiholdings.co.jp/news/2026/20261022release.html"
+   ],
+   "checked": "2026-10-24"
   }
  ]
 }

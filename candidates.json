@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -6266,8 +6266,8 @@
    "types": [
     "不正アクセス"
    ],
-   "n": null,
-   "label": "調査中",
+   "n": 317971,
+   "label": "会員ID 317,971件（項目別の件数は報道）",
    "st": "c",
    "items": [
     "name",
@@ -6277,23 +6277,24 @@
     "id",
     "card"
    ],
-   "itemsText": "会員ID、氏名、電話番号、メールアドレス、郵便番号、性別、生年月日、ハッシュ化パスワード、カード情報の一部（報道）",
-   "sum": "報道によると、10月18日未明に主催者向けサービス「Gettii-Lite」の脆弱性が悪用され、GETTIISの会員情報が外部に流出したことを確認。対象人数と項目の範囲は調査中。",
+   "itemsText": "会員ID 317,971件、ハッシュ化パスワード311,451件、メールアドレス311,426件、氏名309,759件、電話番号309,668件、クレジットカード関連情報29,515件、性別5,900件、生年月日5,192件、郵便番号489件（項目ごとの件数で重複あり。第2報の報道）",
+   "sum": "報道によると、10月18日未明に主催者向けサービス「Gettii-Lite」の脆弱性が悪用され、GETTIISの会員情報が外部に流出したことを確認。第2報で項目別の件数が公表された。",
    "status": "ongoing",
-   "statusText": "10月19日に第一報（報道）。",
+   "statusText": "10月20日に第2報（報道）。10月18日0時〜7時ごろに公演主催者向け「Gettii-Lite」サーバーが侵入され、対象サーバーの切り替えと脆弱性対策は完了。",
    "resp": "",
    "official": [],
    "src": [
     [
      "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/gettiis_linkstation_gettii_lite_data_breach_20261019/"
+     "https://rocket-boys.co.jp/security-measures-lab/gettiis_linkstation_second_report_317971_members_data_leak/"
     ]
    ],
    "ind": "通信・IT",
-   "pendingReason": "自動取得不可（公式 https://www.gettiis.jp/notice/detail/40 がHTTP 503）。manual/ に公式文面を貼れば反映できる。",
+   "pendingReason": "自動取得不可（公式第1報 https://www.gettiis.jp/notice/detail/40 がHTTP 503、第2報 https://www.gettiis.jp/notice/detail/42 は本文を取得できていない）。manual/ に公式文面を貼れば反映できる。",
    "who": [
     "cust"
-   ]
+   ],
+   "last": "2026-10-20"
   },
   {
    "id": "zigzag-worldshopping-2610",
@@ -6662,6 +6663,339 @@
     "cust"
    ],
    "pendingReason": "10/17の公式告知は読めたが、件数・項目の記載がなく、10/22付の最新情報（別ページ）を取得できていない。manual/ に最新情報の公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "gyet-machouse-blastmail-2610",
+   "co": "ジーイエット株式会社（マックハウス メールマガジン／ブラストメール）",
+   "date": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "birth"
+   ],
+   "itemsText": "氏名、メールアドレス、生年月日、性別、地域（仮会員はメールアドレスのみ）（報道）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、マックハウスのメールマガジン配信に使う外部サービス「ブラストメール」への不正アクセスにより、配信先として登録していた個人情報が漏えいした可能性がある。対象件数は調査中。",
+   "status": "ongoing",
+   "statusText": "10月23日19時の適時開示（報道）。件数は調査中。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/gyet_machouse_blastmail_data_leak_risk_20261023/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式の適時開示（https://www.nikkei.com/nkd/disclosure/tdnr/20261023555550/）は有料会員限定で本文が読めない。自動取得不可。manual/ に公式文面を貼れば反映できる。",
+   "announced": "2026-10-23"
+  },
+  {
+   "id": "jr-shikoku-tour-blastmail-2610",
+   "co": "四国旅客鉄道（JR四国ツアーウェブ会員／ブラストメール）",
+   "date": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 30000,
+   "label": "約3万件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "mail",
+    "birth"
+   ],
+   "itemsText": "氏名、生年月日、住所、メールアドレス（報道）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、ブラストメールで配信しているJR四国ツアーウェブ会員の個人情報約3万件が漏えいした可能性があると10月22日に発表。範囲を調査中。",
+   "status": "ongoing",
+   "statusText": "10月22日の発表（報道）。範囲を調査中。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/jr-shikoku-tour-web-blastmail-30000-data-leak-risk-20261022/"
+    ],
+    [
+     "KSB瀬戸内海放送",
+     "https://news.ksb.co.jp/article/16985634"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "pendingReason": "JR四国の公式発表の本文を開けていない（報道のみ。KSB・熊本日日新聞）。公式発表のURLが分かれば照合できる。manual/ に公式文面を貼れば反映できる。",
+   "announced": "2026-10-22"
+  },
+  {
+   "id": "renta-papyless-2610",
+   "co": "株式会社パピレス（電子書籍販売サイト「Renta!」）",
+   "date": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "一部会員（人数は未公表）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "一部会員のメールアドレス等（報道）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、2026年10月18日にRenta!のサーバーへの不正アクセスの可能性を把握してサービスを一時停止し、10月23日に一部会員のメールアドレス等が流出したおそれがあると公式Xで発表。クレジットカード情報は保有しておらず、購入履歴・本棚の流出は未確認。",
+   "status": "ongoing",
+   "statusText": "10月23日時点。サービス停止中で、再開時にパスワード再設定を求める予定。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/renta_papyless_unauthorized_access_member_email_leak_risk_20261023/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "pendingReason": "パピレスの10月21日付お知らせは影響範囲を精査中としか書かれておらず、漏えいに触れていない。10月23日の公式X投稿とTDnet資料（robots拒否で取得不可）が読めない。manual/ に公式文面を貼れば反映できる。",
+   "announced": "2026-10-23"
+  },
+  {
+   "id": "gallery2-xebio-commerble-2610",
+   "co": "ゼビオホールディングス子会社 GALLERY・2（ECサイト／プラットフォーム Commerble）",
+   "date": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 128000,
+   "label": "最大約12.8万件",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "addr",
+    "tel"
+   ],
+   "itemsText": "購入者名・メールアドレス最大約12.8万件、住所・電話番号など最大約12.2万件、注文確認メール等の送信履歴最大約15.8万件（報道）",
+   "notIncl": "クレジットカード番号、ログインパスワードは含まれない（報道）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、ECプラットフォーム「Commerble」への不正アクセスで顧客データベースにアクセスされ、購入者情報などが漏えいした可能性があると10月23日に公表。決済入力画面の改ざんも確認され、サイトは10月18日から停止中。外部への持ち出しは公表時点で未確認。",
+   "status": "ongoing",
+   "statusText": "10月23日の公表（報道）。個別通知は準備中。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/xebio_gallery2_commerble_unauthorized_ac128k_payment_page_tampering_20261023/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式の適時開示PDF（release.tdnet.info）がrobots.txtで、別経路（Yahoo!ファイナンス）が403で取得できない。manual/ に公式文面を貼れば反映できる。",
+   "announced": "2026-10-23"
+  },
+  {
+   "id": "andst-hd-2610",
+   "co": "株式会社アンドエスティHD（業務サーバー）",
+   "date": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 2500000,
+   "label": "約250万件（顧客）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth"
+   ],
+   "itemsText": "顧客：氏名、生年月日、性別、住所、電話番号、メールアドレス、会員ID／取引先約1万件：会社名、住所、担当者名、電話番号、メールアドレス（報道）",
+   "notIncl": "クレジットカード等の決済情報、顧客が設定したパスワードは含まれない（報道）",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "報道によると、2026年10月22日朝から業務サーバーへの不正アクセスがあり、顧客約250万件、取引先約1万件の情報が流出した可能性があると10月23日に適時開示。従業員情報は確認中。2023年の別事案とは別件。",
+   "status": "ongoing",
+   "statusText": "10月23日17時の適時開示（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/andst_hd_cyberattack_customer_2500000_privacy_risk_20261023/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "2026年10月の適時開示（https://www.nikkei.com/nkd/disclosure/tdnr/20261023555489/）は有料会員限定で本文が読めない。inboxにあった同社サイトの2ページは2023年の別事案で、本件の公式発表ではない。manual/ に公式文面を貼れば反映できる。",
+   "announced": "2026-10-23"
+  },
+  {
+   "id": "greenmonster-fxnavi-2610",
+   "co": "グリーンモンスター株式会社（FXデモトレードアプリ「FXなび」）",
+   "date": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "約619万件のユーザー情報等（個人情報に該当しないデータを含む）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス66,003件、性別・年代・職業分類、XのID、ニックネーム、初回アンケート回答、ログイン用認証情報、引き継ぎコードなど（報道）",
+   "notIncl": "氏名・住所・電話番号・生年月日・カード情報・銀行口座情報・マイナンバーは登録項目に含まれない（報道）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、APIの機能の問題で2026年4月27日〜30日にユーザー情報等が継続的に取得されていた可能性が判明し、個人情報を含む約619万件が第三者に取得されたおそれがあると10月23日に公表。",
+   "status": "ongoing",
+   "statusText": "10月23日の第一報（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/greenmonster_fxnavi_cyberattack_personal_data_leak_risk_2026102/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式の適時開示（https://www.nikkei.com/nkd/disclosure/tdnr/20261023555394/）は有料会員限定で本文が読めない。inboxの同社サイトはアプリ紹介ページで本件の発表ではない。manual/ に公式文面を貼れば反映できる。",
+   "announced": "2026-10-23"
+  },
+  {
+   "id": "treasure-factory-2610",
+   "co": "株式会社トレジャー・ファクトリー（出張買取・トレファク引越の案件管理システム）",
+   "date": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 746277,
+   "label": "746,277件",
+   "st": "p",
+   "items": [
+    "mail",
+    "name",
+    "addr"
+   ],
+   "itemsText": "顧客情報746,277件（大半はメールアドレス、うち11件は氏名・住所を含む）、取引先業者・従業員等750件（氏名・メールアドレス）、端末に関する情報1,000件（報道）",
+   "notIncl": "クレジットカード番号などの決済情報は含まれない（報道）",
+   "who": [
+    "cust",
+    "biz",
+    "staff"
+   ],
+   "sum": "報道によると、2026年10月20日にデータベースの脆弱性を悪用した不正アクセスを受け、案件管理システムから顧客情報などが不正取得されたと10月23日に公表。8月の子会社カインドオルの事案とは別件。",
+   "status": "ongoing",
+   "statusText": "10月23日15時30分の適時開示（報道）。10月28日を目途にサービス再開予定。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/treasure_factory_746277_db_vulnerability_leak_20261023/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式の適時開示（https://www.nikkei.com/nkd/disclosure/tdnr/20261023555328/）は有料会員限定で本文が読めない。inboxにあるカインドオルの公式発表（8月の別事案）とは別件。manual/ に公式文面を貼れば反映できる。",
+   "announced": "2026-10-23"
+  },
+  {
+   "id": "nomura-iport-ymirlink-2610",
+   "co": "野村證券（金融機関等向け「i-Port」／メール配信委託先 ユミルリンク）",
+   "date": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "i-Port関連の顧客メールアドレスなど（報道）",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "報道によると、i-Portのメール配信を委託するユミルリンクへの不正アクセスにより、顧客のメールアドレスなどが漏えいした可能性があると10月23日に公表。運用資産や取引口座の情報は対象外。対象件数は調査中。",
+   "status": "ongoing",
+   "statusText": "10月23日の公表（報道）。対象の顧客には個別に連絡する方針。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nomura_iport_cuenote_information_leak_20261023/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "野村ホールディングスの公式発表（nomuraholdings.com/jp/news/topics/20261023.html）がHTTP 403で取得できない。manual/ に公式文面を貼れば反映できる。",
+   "announced": "2026-10-23"
+  },
+  {
+   "id": "green-expo-assoc-blastmail-2610",
+   "co": "公益社団法人2027年国際園芸博覧会協会（GREEN×EXPO 2027 ボランティア向け一斉メール／ブラストメール）",
+   "date": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中（対象に含まれるか未確認）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "ボランティア受付番号、活動番号、メールアドレス（個人名はサービスに提供していない）",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "受託事業者が使うブラストメールの提供事業者で不正アクセスと情報持ち出しが確認された。協会は、GREEN×EXPO 2027ボランティア登録者が漏えい対象かどうかは現時点で確認されていないとして、情報を公表した（横浜市の記者発表資料に協会の発表文が掲載）。",
+   "status": "ongoing",
+   "statusText": "10月22日の発表。提供事業者が影響範囲を調査中。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "横浜市 記者発表資料（協会発表文を含む）",
+     "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kankyo/2026/1022expovolunteer.files/0004_20261022.pdf"
+    ]
+   ],
+   "ind": "団体",
+   "pendingReason": "協会自身のサイトの発表は未確認（横浜市の記者発表PDFに転載された発表文を読んだ）。対象に含まれるか未確認のため保留。manual/ に協会の公式文面を貼れば反映できる。",
+   "announced": "2026-10-22"
   }
  ]
 }

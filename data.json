@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -11788,22 +11788,23 @@
     "不正アクセス",
     "委託先経由"
    ],
-   "n": 35000,
-   "label": "最大3.5万人",
-   "st": "p",
+   "n": 24000,
+   "label": "約2.4万名（8月28日の最大3.5万名から修正）",
+   "st": "c",
    "items": [
     "name",
     "addr",
+    "tel",
     "deal"
    ],
-   "itemsText": "施工を請け負った顧客の氏名、住所、施工関連資料",
+   "itemsText": "施工を請け負った顧客の氏名、住所、電話番号、施工関連資料。対象となる本人の概数は24,000名",
    "notIncl": "",
    "who": [
     "cust"
    ],
-   "sum": "施工記録を管理する外部クラウドサービスに第三者が不正アクセスし、顧客の個人情報が漏えいした可能性がある。悪用は確認されていない。",
-   "statusText": "原因・範囲を外部専門家と調査中。",
-   "resp": "全利用者アカウントの無効化とリセット、個人情報保護委員会への報告、個人情報相談窓口の設置。",
+   "sum": "施工情報を管理する外部クラウドサービスに第三者が不正アクセスし、顧客の個人情報が漏えいした。第2報で、インターネット上に当社に関する情報が掲載されていることを確認し、掲載情報はクラウドで保管していたファイルと一致、特定アカウントの認証情報の漏えいとデータのダウンロードも確認した。悪用は確認されていない。",
+   "statusText": "10月22日の第2報時点。原因は漏えいした認証情報を第三者が使った可能性が高い。経緯は調査中で、対象者の特定を進めている。",
+   "resp": "全ユーザーアカウントの無効化と再設定、不正アクセスを受けたアカウントの停止、パスワード強化と多要素認証の設定。個人情報保護委員会への報告、個人情報相談窓口の設置。対象者には順次個別に連絡する。当該アカウントは多要素認証がなく、パスワードの強度も不十分だった。",
    "contact": {
     "tels": [
      {
@@ -11821,18 +11822,31 @@
     [
      "クラウドサービスへの不正アクセスについて（2026/8/28頃、公式ページに日付記載なし）",
      "https://www.corona.co.jp/report/safety/post_152.html"
+    ],
+    [
+     "当社が利用するクラウドサービスへの不正アクセスによる個人情報漏えいの可能性に関するお知らせ（お詫び）（2026/8/28）",
+     "https://www.corona.co.jp/news/other/post-439.html"
+    ],
+    [
+     "同【第2報】（2026/10/22）",
+     "https://www.corona.co.jp/news/other/-2-1.html"
     ]
    ],
    "src": [
     [
      "セキュリティ対策Lab",
      "https://rocket-boys.co.jp/security-measures-lab/corona-cloud-ransomware-35000-leak/"
+    ],
+    [
+     "セキュリティ対策Lab（第2報）",
+     "https://rocket-boys.co.jp/security-measures-lab/corona_cloud_data_breach_24000_metaencryptor_second_report_20261023/"
     ]
    ],
    "ind": "製造",
    "verified": "2026-10-10",
    "status": "ongoing",
-   "announced": "2026-08-28"
+   "announced": "2026-08-28",
+   "last": "2026-10-22"
   },
   {
    "co": "チャーム（チャーム本店）",
@@ -27304,6 +27318,799 @@
    ],
    "ind": "メディア・出版",
    "verified": "2026-10-22"
+  },
+  {
+   "id": "niigata-nippo-blastmail-2610",
+   "co": "新潟日報社（新潟日報パスポート会員／委託先 ラクスライトクラウド「ブラストメール」）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "last": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 253000,
+   "label": "最大約25.3万人",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "mail"
+   ],
+   "itemsText": "新潟日報パスポート会員の氏名（カタカナ）、都道府県名、市町村名、メールアドレス、性別、年代、購読商品名、購読するメルマガサービス名。別に「にいがた鮭プロジェクト会員」約7,000人も漏えいの可能性があり調査中",
+   "notIncl": "クレジットカード情報、電話番号、生年月日、口座番号、パスワード等は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信サービス「ブラストメール」の運営会社ラクスライトクラウドが第三者の不正アクセスを受け、同社から10月22日午後に「パスポート会員全ての個人情報が漏えいした」との報告があった。新潟日報社は最大約25万3,000人分とみている。不正利用は確認されていない。",
+   "status": "ongoing",
+   "statusText": "第2報（10月22日掲載、23日17:08最終更新）時点。にいがた鮭プロジェクト会員約7,000人分はラクスライトクラウドで調査中。",
+   "resp": "メール配信サービス（ニュースレター、記者セレクト、健活メール、速報メール）を10月21日から一時停止し、復旧時期は未定。当社や関係先を装った不審メールへの注意を呼びかけ。再発防止策に取り組むとしている。",
+   "contact": {
+    "forms": [
+     [
+      "新潟日報パスポート事務局 お問い合わせ",
+      "https://www.niigata-nippo.co.jp/auth/update?menu=contact"
+     ]
+    ],
+    "note": "新潟日報パスポート事務局",
+    "src": "https://www.niigata-nippo.co.jp/articles/-/929006"
+   },
+   "official": [
+    [
+     "【お詫びとお知らせ】ラクスライトクラウドへの不正アクセスに伴う当社会員の個人情報漏えいについて（第2報）（2026/10/22）",
+     "https://www.niigata-nippo.co.jp/articles/-/929006"
+    ],
+    [
+     "【第2報】「ブラストメール」における不正アクセスによる情報漏えいおよびサービス停止について（2026/10/21）",
+     "https://www.rakus.co.jp/news/2026/1021-3.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/niigata_nippo_passport_253000_blastmail_official_second_notice_20261023/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "nanjo-shobashi-blastmail-2610",
+   "co": "南城市（尚巴志ハーフマラソン大会のアンケート配信／委託先 沖縄広告・ブラストメール）",
+   "date": "2026-10-22",
+   "last": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 11117,
+   "label": "11,117件",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "過去5年間に尚巴志ハーフマラソン大会へ参加申込みをしたランナーのメールアドレス（氏名・住所等は含まれない）",
+   "notIncl": "氏名、住所等の情報漏えいはない",
+   "who": [
+    "cust"
+   ],
+   "sum": "市が委託した沖縄広告が大会ランナーへのアンケート配信に使ったブラストメールの運営会社が不正アクセスを受け、ランナーのメールアドレス11,117件が漏えいした可能性があるとして調査。第2報（10月23日）では、運営会社が現時点で漏えいを確認した対象にランナーのメールアドレスは該当していないとされたが、調査は継続中。",
+   "status": "ongoing",
+   "statusText": "10月23日の第2報時点。現時点で漏えいが判明している対象には含まれないが、運営会社の調査が続いている。",
+   "resp": "新たな情報が届き次第、市のページで案内。不審なメールのURL・添付ファイルを開かないよう、また公式サイトで同内容の掲載を確認するよう注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "098-917-5394",
+      "hours": "まちづくり推進課"
+     }
+    ],
+    "note": "南城市 まちづくり推進課",
+    "src": "https://www.city.nanjo.okinawa.jp/topics/1792646187/"
+   },
+   "official": [
+    [
+     "「尚巴志ハーフマラソン大会地域振興支援委託業務」ランナーへのアンケート配信サービスに対する不正アクセスによる情報漏洩の可能性について（第2報 2026/10/23更新）",
+     "https://www.city.nanjo.okinawa.jp/topics/1792646187/"
+    ],
+    [
+     "【第2報】「ブラストメール」における不正アクセスによる情報漏えいおよびサービス停止について（2026/10/21）",
+     "https://www.rakus.co.jp/news/2026/1021-3.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/blastmail_nanjo_shobashi_marathon_11117_20261023/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "okazaki-city-blastmail-2610",
+   "co": "岡崎市（防犯情報メールマガジン・市営住宅募集情報メール／委託先 ラクスライトクラウド「ブラストメール」）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 26000,
+   "label": "約2.6万件（市営住宅分は件数確認中）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "岡崎市防犯情報メールマガジン登録者のメールアドレス約26,000件、市営住宅の募集情報メール配信サービス登録者のメールアドレス（件数確認中）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "市の情報配信システムの提供元ラクスライトクラウドが不正アクセスを受け、10月22日に同社から契約者情報の漏えいと一部契約者の配信先情報の漏えいを確認したとの報告があった。市は登録メールアドレスが漏えいした可能性があるとして公表した。",
+   "status": "ongoing",
+   "statusText": "10月22日15時時点。システム提供元が調査中で、市の対象者には同社から順次連絡する予定。",
+   "resp": "システムは緊急停止中で、提供元が侵入経路を遮断し原因を究明中。対象者には同社から順次連絡する予定。市民に、不審なメールの添付ファイル・URLを開かないこと等を注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0564-23-6340",
+      "hours": "市民安全部 防犯交通安全課"
+     }
+    ],
+    "note": "市民安全部 防犯交通安全課（専用フォームあり）",
+    "src": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1016621/1017457.html"
+   },
+   "official": [
+    [
+     "情報配信システムの不正アクセスによる個人情報漏えいの可能性があることが判明しました（報道発表 2026/10/22）",
+     "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1016621/1017457.html"
+    ],
+    [
+     "【第2報】「ブラストメール」における不正アクセスによる情報漏えいおよびサービス停止について（2026/10/21）",
+     "https://www.rakus.co.jp/news/2026/1021-3.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/okazaki_blastmail_26000_email_potential_leak_20261023/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "okazaki-city-arcadia-2610",
+   "co": "岡崎市（おかざき防災緊急メール・学校情報メール・メール指令用配信／委託先 アルカディア）",
+   "date": "2026-10-14",
+   "announced": "2026-10-14",
+   "occurred": "2026-10-11",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 69400,
+   "label": "3サービス合計約6.9万件（重複の可能性あり）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "おかざき防災緊急メール約37,000件（メールアドレス・電話番号・ファクス番号・氏名）／学校情報メール配信システム：市立小中学校の児童生徒約30,000人の保護者等（氏名・メールアドレス）／メール指令用配信サービス約2,400件（消防職員・団員のメールアドレス・電話番号）",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "市が使う情報配信システムの提供元アルカディアが不正アクセスの疑われる不審な挙動を確認し、10月11日に市へ連絡。3つの配信サービスの登録情報が漏えいした可能性がある。",
+   "status": "ongoing",
+   "statusText": "10月14日15時時点。提供元が侵入経路を遮断し影響範囲を調査中。",
+   "resp": "提供元が侵入経路を遮断。システムが使用可能であることを確認し、対象者に同システムで注意喚起メールを送信。市民に不審なメール等への注意を呼びかけ。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0564-23-6006",
+      "hours": "総合政策部 秘書課"
+     }
+    ],
+    "note": "総合政策部 秘書課（専用フォームあり）",
+    "src": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1016621/1017348.html"
+   },
+   "official": [
+    [
+     "情報配信システムの不正アクセスによる個人情報漏えいの可能性があることが判明しました（報道発表 2026/10/14）",
+     "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1016621/1017348.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/okazaki_blastmail_26000_email_potential_leak_20261023/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "yokohama-greenexpo-vol-blastmail-2610",
+   "co": "横浜市（GREEN×EXPO 2027 市出展エリア ボランティア応募者／ブラストメール）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "occurred": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 6334,
+   "label": "6,334人",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "ボランティア応募者の氏名、メールアドレス",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "横浜市出展横浜市民活動フィールド実行委員会（事務局：みどり環境局）が応募者への一斉メールに使うブラストメールが第三者の不審なアクセスを受け、配信先リストの一部が漏えいしたとの報告があり、登録者の個人情報が漏えいした可能性がある。",
+   "status": "ongoing",
+   "statusText": "10月22日の記者発表時点。サービス提供事業者が影響範囲を調査中。",
+   "resp": "配信サービス事業者が全サービスを緊急停止して調査・安全確認中。新たな事実が判明すれば市ホームページ等で公表。応募者に不審なメール等への注意を呼びかけ。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "045-671-4423",
+      "hours": "みどり環境局戦略企画課（市出展エリアボランティア）"
+     },
+     {
+      "tel": "045-671-2891",
+      "hours": "みどり環境局戦略企画課"
+     }
+    ],
+    "mails": [
+     "mk-kikaku@city.yokohama.lg.jp"
+    ],
+    "note": "みどり環境局戦略企画部戦略企画課",
+    "src": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kankyo/2026/1022expovolunteer.html"
+   },
+   "official": [
+    [
+     "横浜グリーンエクスポ市出展エリアのボランティア応募者に係るメール配信システムにおける個人情報の漏えいの可能性について（2026/10/22）",
+     "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kankyo/2026/1022expovolunteer.html"
+    ],
+    [
+     "記者発表資料（PDF）（2026/10/22）",
+     "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kankyo/2026/1022expovolunteer.files/0004_20261022.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/blastmail_yokohama_greenexpo_volunteers_6334_20261023/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "his-hotel-blastmail-2610",
+   "co": "H.I.S.ホテルホールディングス（ホテル会員メールマガジン／ブラストメール）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 140000,
+   "label": "約14万人",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "ホテル会員約14万人分の氏名、メールアドレス",
+   "notIncl": "クレジットカード情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "ホテル会員向けメールマガジンの配信に使う外部サービス（ブラストメール）の運営会社が不正アクセスを受け、当社との契約情報の漏えいが確定したとの連絡に続き、会員の配信先リストも漏えいした可能性が判明した。",
+   "status": "ongoing",
+   "statusText": "10月22日時点。外部サービス会社の報告と調査で詳細を確認中。",
+   "resp": "事実関係の調査と二次被害防止に努める。個人情報保護委員会に速やかに報告する方針。PHPの脆弱性については予約サイトのバージョンアップを実施済み。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "050-1743-0810",
+      "hours": "お客様窓口"
+     }
+    ],
+    "src": "https://www.hishotelgroup.com/news/3359/"
+   },
+   "official": [
+    [
+     "個人情報流出の可能性に関するお知らせ（2026/10/22）",
+     "https://www.hishotelgroup.com/news/3359/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/his_hotel_holdings_140000_member_data_possible_leak_20261023/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "tohoku-frontier-epoint-blastmail-2610",
+   "co": "東北電力フロンティア（eポイントモール／委託先 ADDIX・ブラストメール）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 100000,
+   "label": "最大約10万件",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "eポイントモール会員のメールアドレスと内部管理ID（ログインには使えない会員識別用の管理番号）",
+   "notIncl": "氏名、住所、電話番号、パスワード、クレジットカード情報、銀行口座情報、電気・光回線等の契約情報は連携しておらず対象外",
+   "who": [
+    "cust"
+   ],
+   "sum": "eポイントモールの開発・運営委託先ADDIXが使うメール配信サービス「ブラストメール」で、10月21日に不正アクセスと情報漏えいの連絡があった。配信先リスト等の一部の漏えいが確認されているが、eポイントモール会員が対象に含まれるかは未確認で、漏えいした可能性があるものとして対応している。",
+   "status": "ongoing",
+   "statusText": "10月22日時点。会員情報が漏えい対象に含まれるかを確認中。",
+   "resp": "ADDIXにメールマガジン配信の停止を指示し、eポイントモールのWebサイトの利用も一時停止。対象のお客さまにはメールやホームページで連絡し、個人情報保護委員会への報告など必要な手続きを実施する。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "050-3189-4031",
+      "hours": "月〜金9〜17時（土日祝・年末年始を除く）"
+     }
+    ],
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://support.tohoku-frontier.co.jp/hc/ja/requests/new"
+     ]
+    ],
+    "src": "https://www.tohoku-frontier.co.jp/news/1960/"
+   },
+   "official": [
+    [
+     "当社が利用する外部サービス（メール配信サービス）への不正アクセスに伴う個人情報漏洩の可能性について（2026/10/22）",
+     "https://www.tohoku-frontier.co.jp/news/1960/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/blastmail_tohoku_frontier_epointmall_100000_20261023/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "tohoku-frontier-studio-2610",
+   "co": "東北電力フロンティア（イベント関連Webサイトの問い合わせフォーム／クラウドサービス Studio）",
+   "date": "2026-10-17",
+   "announced": "2026-10-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 182,
+   "label": "延べ182件",
+   "st": "p",
+   "items": [
+    "name",
+    "work",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "問い合わせフォームに入力された会社名、氏名、メールアドレス、電話番号、お問い合わせ内容。対象サイトは東北恋愛活動大作戦 in Tokyo、キャンプフロンティア、仙台うみの杜むすび2024、山形かもすいむすび2024、MusuBiz",
+   "notIncl": "クレジットカード情報は入力を求めておらず含まれない",
+   "who": [
+    "unk"
+   ],
+   "sum": "Studio社のクラウド環境に不正アクセスがあり（2026年9月30日〜10月1日）、同社サービスで運営するイベント関連Webサイトの問い合わせフォームの入力情報が外部に漏えいした可能性がある。第三者による実際の情報取得は現時点で確認されていない。",
+   "status": "ongoing",
+   "statusText": "10月17日の発表時点。Studio社が二次被害の有無を調査中。",
+   "resp": "キャンプフロンティアとMusuBizの問い合わせフォームを閉鎖。対象のお客さまにメールで連絡し、個人情報保護委員会への報告など必要な手続きを実施する。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "050-3189-4031",
+      "hours": "月〜金9〜17時（土日祝・年末年始を除く）"
+     }
+    ],
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://support.tohoku-frontier.co.jp/hc/ja/requests/new"
+     ]
+    ],
+    "src": "https://www.tohoku-frontier.co.jp/news/1947/"
+   },
+   "official": [
+    [
+     "当社が利用する外部サービスへの不正アクセスに伴う個人情報漏洩の可能性について（2026/10/17）",
+     "https://www.tohoku-frontier.co.jp/news/1947/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/blastmail_tohoku_frontier_epointmall_100000_20261023/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "sally-2610",
+   "co": "株式会社Sally（ウズへのお問い合わせ・Webサイトのフォーム／クラウドサービス Studio）",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "occurred": "2026-10-14",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 948,
+   "label": "948名（ウズ544名＋Webフォーム404名）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "ウズへのお問い合わせ（544名）：メールアドレス、電話番号、お問い合わせ内容（ユーザーID、添付ファイル含む）／Webサイトのフォーム（404名）：氏名、メールアドレス、お問い合わせ内容（フォームにより会社名、部署名、役職、電話番号）",
+   "notIncl": "ウズのアカウント登録の連絡先、アプリ内メッセージ、クレジットカード情報は含まれない",
+   "who": [
+    "unk"
+   ],
+   "sum": "2件の不正アクセスで問い合わせ情報が漏えいしたおそれがある。ウズの件は10月14日に社員のメールアカウントが不正利用され問い合わせ管理システムに社員になりすましてログインされたもの、Webサイトの件は以前の制作に使ったStudioのクラウド環境への不正アクセス（10月16日に報告）による。情報の公開や悪用は確認されていない。",
+   "status": "ongoing",
+   "statusText": "10月21日の発表時点。不正なアクセスは遮断済み。",
+   "resp": "社員アカウントの保護とシステム修正を実施し、多要素認証の徹底や監視強化を進める。個人情報保護委員会へ10月17日に報告（Studioの件はStudio社と連名）。対象者にはメールで個別に連絡。",
+   "contact": {
+    "note": "株式会社Sally 個人情報に関するお問い合わせ窓口（メール・平日10〜18時。アドレスはページ上で非表示）",
+    "src": "https://sally-inc.jp/news/2026-10-incident"
+   },
+   "official": [
+    [
+     "【重要】お問い合わせ情報の漏えいのおそれに関するお詫びとお知らせ（2026/10/21）",
+     "https://sally-inc.jp/news/2026-10-incident"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sally_uzu_studio_two_unauthorized_access_incidents_20261021/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "smarthr-group-studio-2610",
+   "co": "株式会社SmartHR（グループ5社のWebサイトのフォーム／クラウドサービス Studio）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 2012,
+   "label": "2,012名",
+   "st": "p",
+   "items": [
+    "name",
+    "work",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "問い合わせフォームに入力された氏名、会社名、電話番号、メールアドレス、お問い合わせ内容など。対象はSmartHR（保険関連事業の紹介ページの一部）、Smart相談室、AIRVISA、BYARD、Looperのサイト",
+   "notIncl": "SmartHR及び各グループ企業が提供するクラウドサービス上のデータは対象外",
+   "who": [
+    "unk"
+   ],
+   "sum": "Studio社のクラウド環境への不正アクセス（2026年9月30日〜10月1日）により、グループ5社の一部サイトの問い合わせフォームの入力情報が外部に流出した可能性がある。第三者が取得した事実や不正利用は現時点で確認されていない。",
+   "status": "ongoing",
+   "statusText": "10月22日時点の対象人数。引き続き確認中。",
+   "resp": "対象サイトや保存情報の確認を進め、Studio社の案内に基づきアカウントのパスワード変更等を実施。不審な連絡への注意を呼びかけ。",
+   "contact": {
+    "forms": [
+     [
+      "お問い合わせ（「個人情報に関する請求・お問い合わせ」を選択）",
+      "https://smarthr.co.jp/contact/"
+     ]
+    ],
+    "src": "https://smarthr.co.jp/news/info/20261022/"
+   },
+   "official": [
+    [
+     "「Studio」への不正アクセスに伴う情報流出の可能性に関するお知らせ（2026/10/22）",
+     "https://smarthr.co.jp/news/info/20261022/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/smarthr_group_studio_information_leak_2012_20261023/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "digital-agency-studio-2610",
+   "co": "デジタル庁（ホームページのお問合せフォーム／クラウドサービス Studio）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 13323,
+   "label": "最大13,323件（ほかStudioアカウント35件）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "work"
+   ],
+   "itemsText": "2021年5月〜2023年3月のお問合せフォーム入力内容：一般意見（最大8,833件）、採用（最大250件）、接種証明書アプリ（最大3,661件）、着ぐるみ借用（最大117件）、ワークショップ等（最大462件）の氏名・メールアドレス・問合せ内容（電話番号、所属、住所などを含むものあり）。ほか職員・委託事業従事者のStudioアカウント35件（氏名、メールアドレス）",
+   "notIncl": "氏名・メールアドレス等は任意記入の場合に限る",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "ホームページ運営の一部に使っていたStudio株式会社のクラウド環境への不正アクセスにより、フォーム入力内容と職員等のアカウント情報が漏えいした可能性がある。範囲は精査中で、二次被害は確認されていない。",
+   "status": "ongoing",
+   "statusText": "10月22日時点。漏えいの可能性がある範囲を精査中。",
+   "resp": "Studio社の発表を案内し、デジタル庁や関係機関を装う不審なメール・電話・SMSへの注意を呼びかけ。",
+   "contact": {
+    "mails": [
+     "unified-web+contact@digital.go.jp"
+    ],
+    "note": "デジタル庁 国民向けサービスグループ 省庁統一ウェブサイト担当",
+    "src": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22"
+   },
+   "official": [
+    [
+     "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について（2026/10/22）",
+     "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/digital_agency_studio_form_leak_cause_risk_20261023/"
+    ],
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2150695.html"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "komoju-2610",
+   "co": "KOMOJU株式会社（決済プラットフォーム「KOMOJU」・CRMシステム）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "occurred": "2026-10-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 4100,
+   "label": "約4,100件（決済システム。CRM分は調査中）",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "決済システムのメールアドレスなどの個人データ約4,100件（法人顧客の役員・従業員、消費者ほかの個人データ）。CRMシステムは影響範囲を調査中。一部加盟店のAPI認証情報も漏えい",
+   "notIncl": "クレジットカード情報の漏えいはないと説明",
+   "who": [
+    "biz",
+    "cust"
+   ],
+   "sum": "10月13日夜から非本番環境の脆弱性を突かれて管理画面などに不正アクセスされ、決済システムの個人データ約4,100件（メールアドレス含む）の漏えいを確認した。CRMシステムへの不正アクセスも確認され影響を調査中。",
+   "status": "ongoing",
+   "statusText": "10月22日の発表時点。外部専門家と詳細な影響範囲を調査中で、決済サービスは稼働を継続。",
+   "resp": "不正通信の遮断と関連アカウント・セッションの無効化、漏えいしたAPI認証情報の加盟店へ個別連絡。Shopify連携やセブン-イレブン決済の認証情報を更新し、一時的に一部決済手段が利用できなかった。なりすましへの注意を呼びかけ。",
+   "contact": {
+    "mails": [
+     "security-contact@komoju.com"
+    ],
+    "note": "本件専用窓口",
+    "src": "https://en.komoju.com/news/10-22-notice/"
+   },
+   "official": [
+    [
+     "Unauthorized Access to Our Systems and Impact on Payment Services（2026/10/22・PDF）",
+     "https://23804948.fs1.hubspotusercontent-na1.net/hubfs/23804948/Unauthorized%20Access%20to%20Our%20Systems%20and%20Impact%20on%20Payment%20Services.pdf"
+    ],
+    [
+     "[Important] Notice Regarding Unauthorized System Access and Impact on Payment Services（2026/10/22）",
+     "https://en.komoju.com/news/10-22-notice/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/komoju_unauthorized_access_4100_api_credentials_payment_20261023/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "system5-2610",
+   "co": "株式会社システムファイブ（オンラインショップ連携システム／開発・保守の委託先）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "クレジットカード情報は社内で保有せず、委託事業者の調査でも流出は確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "オンラインショップと連携する一部システムに第三者による不正アクセスが確認され、一部のお客様の個人情報が外部に流出したおそれがあると、システムの開発・保守の委託事業者から報告を受けた。",
+   "status": "ongoing",
+   "statusText": "10月22日時点。影響範囲の特定と原因調査を委託事業者と実施中。",
+   "resp": "安全確認とセキュリティ強化のためWebサイトを一時停止し、脆弱性の修正対応を実施。再開時期は未定。代理店向けECサイトなど他のサイトは対象外。",
+   "contact": {
+    "mails": [
+     "info@system5.jp"
+    ],
+    "note": "東京本社 お客様窓口（お問い合わせフォームあり）",
+    "src": "https://www.system5.jp/password"
+   },
+   "official": [
+    [
+     "脆弱性対応に伴うメンテナンスのご案内（2026/10/22）",
+     "https://www.system5.jp/password"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/system5_unauthorized_access_ec_maintenance_20261023/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "kodansha-beck-2610",
+   "co": "講談社BECK（旧講談社ビーシー時代の従業員メールアカウント）",
+   "date": "2026-10-02",
+   "announced": "2026-10-02",
+   "occurred": "2026-09-14",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "件数非公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（メールボックスに保存されていた個人情報等）",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "従業員1名のメールアカウント（旧講談社ビーシーのドメイン）が不正アクセスを受け、9月14日に外部へ不審メール50件が一斉送信された。ログの調査で、過去にさかのぼってメールデータが取得された形跡も判明し、保存されていた個人情報等が漏えいしたおそれがある。",
+   "status": "ongoing",
+   "statusText": "10月2日の公表時点。対象者が多く特定が困難なため、本公表をもって個別連絡に代えるとしている。",
+   "resp": "対象アカウントを停止・削除し、個人情報保護委員会へ報告。当該メールサービスの利用を停止し、従業員への情報セキュリティ教育を再徹底。なりすましメールへの注意を呼びかけ。",
+   "contact": {
+    "mails": [
+     "info@kodansha-beck.co.jp"
+    ],
+    "note": "受付時間 平日10:00〜18:00",
+    "src": "https://kodansha-beck.co.jp/news/unauthorizedaccess20261002"
+   },
+   "official": [
+    [
+     "不正アクセスによる迷惑メール発信に関するおわびとご報告（2026/10/2）",
+     "https://kodansha-beck.co.jp/news/unauthorizedaccess20261002"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/23/56552.html"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-24"
+  },
+  {
+   "id": "fujiq-highland-2610",
+   "co": "富士急ハイランド（公式アプリ・会員サイト CLUB フジQ）",
+   "date": "2026-10-20",
+   "announced": "2026-10-20",
+   "occurred": "2026-09-04",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 159,
+   "label": "159名",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "deal",
+    "card",
+    "id"
+   ],
+   "itemsText": "氏名、メールアドレス、生年月日、性別、電話番号、郵便番号、都道府県、会員番号。一部のお客様は購入履歴、クレジットカード関連情報の一部（番号の一部・有効期限・名義）、チケット情報も対象",
+   "notIncl": "カード番号全体、セキュリティコードは含まれない。サーバー・データベースへの侵入や会員データの一括流出は確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "外部で入手されたメールアドレスとパスワードの一覧を使う「リスト型攻撃」により、9月4日〜7日に159名の会員アカウントへ不正ログインされ、会員情報が閲覧された可能性がある。",
+   "status": "ongoing",
+   "statusText": "10月20日の発表時点。不正な購入・決済、会員情報の変更、チケットの不正利用などの二次被害は確認されていない。",
+   "resp": "対象者にメールで個別連絡し、不正ログインされたアカウントのパスワードを初期化。パスワード変更を依頼。監視体制を強化し、個人情報保護委員会と富士吉田警察署に報告。",
+   "contact": {
+    "note": "富士急ハイランド お客様窓口（公式サイトのお問い合わせフォーム）",
+    "src": "https://www.fujiq.jp/news/20261020_oshirase.html"
+   },
+   "official": [
+    [
+     "富士急ハイランド公式アプリ・会員サイト（CLUB フジQ）への不正ログインに関するお詫びとお知らせ（2026/10/20）",
+     "https://www.fujiq.jp/news/20261020_oshirase.html"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/23/56549.html"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-10-24"
   }
  ],
  "statusLabels": {
@@ -27336,7 +28143,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 287,
+ "pendingCount": 296,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
