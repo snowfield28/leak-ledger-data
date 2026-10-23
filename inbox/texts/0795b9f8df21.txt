@@ -1,0 +1,71 @@
+URL: https://paradigm-healthcare.com/notice
+
+Notice — Paradigm Healthcare Services
+0
+Notice of Data Breach
+The privacy and security of the personal information we maintain is of the utmost importance to Paradigm Healthcare Services (“Paradigm”). Paradigm is a third-party service provider that processes Medi-Cal (California’s Medicaid program) billing and maintains Medi-Cal member identification numbers on behalf of and pursuant to a Data Use Agreement with the California Department of Health Care Services (“DHCS”). Please read this notice carefully, as it provides information about the incident and the significant measures we take to protect your information.
+What Happened?
+On October 13, 2025, Paradigm became aware of unauthorized access to its local network. Paradigm’s online service documentation and billing platform, Student Health Network (“SHN”), was 
+not 
+impacted by this incident. 
+What We Are Doing.
+Immediately upon detecting this activity, we took steps to mitigate the incident, including taking certain systems offline and notifying law enforcement. We also quickly engaged professionals experienced in handling these types of incidents to conduct an investigation to determine what, if any, information was impacted. On August 18, 2026, we determined that certain files containing select individuals’ protected health information may have been accessed by an unauthorized party between October 8, 2025, and October 15, 2025.  
+What Information Was Involved?
+The information that may have been accessed included your name, date of birth, gender, and Medi-Cal member identification number. 
+What You Can Do. 
+We have no evidence that any of your information has been used to commit fraud or identity theft as a result of this incident. 
+Nevertheless, out of an abundance of caution, we want to make you aware of the incident.
+This notice provides precautionary measures you can take to protect your personal information, including placing a Fraud Alert and Security Freeze on your credit files, and obtaining a free credit report. Additionally, you should always remain vigilant in reviewing your financial account statements and credit reports for fraudulent or irregular activity.
+For More Information.
+If you have questions, please contact our dedicated and confidential call center at 1-833-851-9382.  
+The response line is available between the hours of 5:00 am – 5:00 pm PT, Monday through Friday, excluding holidays.  
+We apologize for any concern this causes. We have taken this matter very seriously and will continue to take significant measures to protect the data we maintain. 
+Sincerely,
+Paradigm Healthcare Services
+Other Important Information
+1. Protecting Your Medical Information.
+We have no information to date indicating that your medical information involved in this incident was or will be used for any unintended purposes. As a general matter, however, the following practices can help to protect you from medical identity theft.
+Only share your health insurance cards with your health care providers and other family members who are covered under your insurance plan or who help you with your medical care.
+Review your “explanation of benefits statement” which you receive from your health insurance company. Follow up with your insurance company or care provider for any items you do not recognize. If necessary, contact the care provider on the explanation of benefits statement and ask for copies of medical records from the date of the potential access (noted above) to current date.
+Ask your insurance company for a current year-to-date report of all services paid for you as a beneficiary. Follow up with your insurance company or the care provider for any items you do not recognize.
+2. Placing a Fraud Alert.
+We recommend that you place a one-year “Fraud Alert” on your credit files, at no charge. A fraud alert tells creditors to contact you personally before they open any new accounts. To place a fraud alert, call any one of the three major credit bureaus at the numbers listed below. As soon as one credit bureau confirms your fraud alert, they will notify the others.
+Equifax
+P.O. Box 105069
+Atlanta, GA 30348-5069
+www.equifax.com/personal/creditreport-services/credit-fraud-alerts/
+(888) 378-4329
+Experian
+P.O. Box 9554
+Allen, TX 75013
+www.experian.com/fraud/center.html
+(888) 397-3742
+TransUnion - Fraud Victim Assistance Department
+P.O. Box 2000
+Chester, PA 19016
+www.transunion.com/fraud-alerts
+(800) 680-7289
+3. Consider Placing a Security Freeze on Your Credit File.
+If you are very concerned about becoming a victim of fraud or identity theft, you may request a “Security Freeze” be placed on your credit file at no cost. A security freeze prohibits, with certain specific exceptions, the consumer reporting agencies from releasing your credit report or any information from it without your express authorization. You may place a security freeze on your credit report by sending a request in writing, by mail, to all three nationwide credit reporting companies. To find out more on how to place a security freeze, you can use the following contact information:
+Equifax Security Freeze
+P.O. Box 105788
+Atlanta, GA 30348-5788
+www.equifax.com/personal/creditreport-services/credit-freeze/
+(888) 298-0045
+Experian Security Freeze
+P.O. Box 9554
+Allen, TX 75013
+www.experian.com/freeze/center.html
+(888) 397-3742
+TransUnion Security Freeze
+P.O. Box 160
+Woodlyn, PA 19094
+www.transunion.com/credit-freeze
+(888) 916-8800
+In order to place the security freeze, you will need to supply your name, address, date of birth, Social Security number and other personal information such as copy of a government issued identification. After receiving your freeze request, each credit reporting company will send you a confirmation letter containing a unique PIN (personal identification number) or password. Keep the PIN or password in a safe place. You will need it if you choose to lift the freeze. If you do place a security freeze prior to enrolling in a credit monitoring service, you will need to remove the freeze in order to sign up for the credit monitoring service. After you sign up for the credit monitoring service, you may refreeze your credit file.
+4. Obtain a Free Credit Report.
+Under federal law, you are entitled to one free credit report every 12 months from each of the above three major nationwide credit reporting companies. Call 1-877-322-8228 or request your free credit reports online at 
+www.annualcreditreport.com
+. Once you receive your credit reports, review them for discrepancies. Identify any accounts you did not open or inquiries from creditors that you did not authorize. Verify all information is correct. If you have questions or notice incorrect information, contact the credit reporting company.
+5. Additional Helpful Resources.
+Even if you do not find any suspicious activity on your initial credit reports, the Federal Trade Commission (FTC) recommends that you check your credit reports periodically. Checking your credit report periodically can help you spot problems and address them quickly. If you find suspicious activity on your credit reports or have reason to believe your information is being misused, call your local law enforcement agency and file a police report. Be sure to obtain a copy of the police report, as many creditors will want the information it contains to absolve you of the fraudulent debts. You may also file a complaint with the FTC by contacting them on the web at www.ftc.gov/idtheft, by phone at 1-877-IDTHEFT (1-877-438-4338), or by mail at Federal Trade Commission, Consumer Response Center, 600 Pennsylvania Avenue, NW, Washington, DC 20580. Your complaint will be added to the FTC’s Identity Theft Data Clearinghouse, where it will be accessible to law enforcement for their investigations. In addition, you may obtain information from the FTC about fraud alerts and security freezes.

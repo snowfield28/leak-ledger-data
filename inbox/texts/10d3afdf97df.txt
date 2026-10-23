@@ -1,0 +1,427 @@
+URL: https://status.komoju.com/
+
+KOMOJU Status
+Subscribe to Updates
+Subscribe
+ x
+ Get email notifications whenever KOMOJU 
+creates
+, 
+updates
+ or 
+resolves
+ an incident.
+Email address:
+Enter OTP:
+Resend OTP in: 
+ seconds 
+ Didn't receive the OTP?
+Resend OTP 
+ This site is protected by reCAPTCHA and the Google 
+Privacy Policy
+ and 
+Terms of Service
+ apply.
+ Get incident updates and maintenance status messages in Slack.
+Subscribe via Slack
+By subscribing you agree to the Atlassian 
+Cloud Terms of Service
+ and acknowledge Atlassian's 
+Privacy Policy
+.
+ Get the 
+Atom Feed
+ or 
+RSS Feed
+.
+ All Systems Operational
+ Uptime over the past 
+90
+ days. 
+View historical uptime.
+ JSON API
+ Operational
+ Hosted Page API
+ Operational
+ Website
+?
+ Operational
+ Management Portal
+ Operational
+ KOMOJU Card
+ Operational
+ Documentation Center
+ Operational
+ Operational
+ Degraded Performance
+ Partial Outage
+ Major Outage
+ Maintenance
+ Major outage
+ Partial outage
+ No downtime recorded on this day.
+ No data exists for this day.
+ had a major outage.
+ had a partial outage.
+Related
+No incidents or maintenance related to this downtime.
+Scheduled Maintenance
+Komoju Upstream Gateway Maintenance - SoftBank Carrier Billing
+ Oct 
+27
+, 
+2026
+02:00
+-
+06:00
+ JST
+SoftBank Carrier Billing will undergo system maintenance during the following window.
+Maintenance Window:
+October 27, 2026 (Tue) 02:00 AM - 06:00 AM JST
+Potential Impact:
+Carrier Billing for Softbank payments may encounter longer processing times or may not be available periodically during the aforementioned times.
+ソフトバンク側にて、下記の日時でシステムメンテナンスが実施される予定です。
+メンテナンス日時：
+2026年 10月 27日（火）02:00 AM ~ 06:00 AM JST
+影響について：
+メンテナンス期間中そ、ソフトバンクのキャリア決済の決済作成および処理時間が延長または、失敗する可能性がございます。
+Posted on
+Oct 
+16
+, 
+2026
+ - 
+14:35
+ JST
+Komoju Upstream Gateway Maintenance - SoftBank Carrier Billing
+ Oct 
+29
+, 
+2026
+02:00
+-
+06:00
+ JST
+SoftBank Carrier Billing will undergo system maintenance during the following window.
+Maintenance Window:
+October 29, 2026 (Thu) 02:00 AM - 06:00 AM JST
+Potential Impact:
+Carrier Billing for Softbank payments may encounter longer processing times or may not be available periodically during the aforementioned times.
+ソフトバンク側にて、下記の日時でシステムメンテナンスが実施される予定です。
+メンテナンス日時：
+2026年 10月 29日（木）02:00 AM ~ 06:00 AM JST
+影響について：
+メンテナンス期間中そ、ソフトバンクのキャリア決済の決済作成および処理時間が延長または、失敗する可能性がございます。
+Posted on
+Oct 
+16
+, 
+2026
+ - 
+14:36
+ JST
+Past Incidents
+Oct 
+24
+, 
+2026
+No incidents reported today.
+Oct 
+23
+, 
+2026
+Maintenance for Shopify Payment Apps
+Completed
+ -
+The scheduled maintenance has been completed.
+ Oct 
+23
+, 
+18:00
+ JST
+In progress
+ -
+Scheduled maintenance is currently in progress. We will provide updates as necessary.
+ Oct 
+23
+, 
+14:30
+ JST
+Scheduled
+ -
+KOMOJU will be conducting scheduled system maintenance on our Shopify Payment Apps during the following window.
+Maintenance Window:
+Start: October 23, 2026 (Fri) 02:30 PM JST
+Estimated Completion: October 23, 2026 (Fri) 06:00 PM JST
+*The maintenance window is subject to change based on progress.
+Potential Impact:
+No downtime or disruption to transaction processing is expected, and no action is required from merchants at this time. However, our team may reach out directly to select merchants as needed to help facilitate the update.
+下記の日程におきまして、KOMOJUのShopify決済アプリに関するシステムメンテナンスを実施いたします。
+メンテナンス日時： 
+開始: 2026年 10月 23日（金）02:30 PM JST
+終了予定: 2026年 10月 23日（金）06:00 PM JST
+※作業の進み具合によって、終了時刻が早まったり遅れたりすることがあります。
+影響について：
+また、今回のメンテナンスに際して、現時点で加盟店様側でのご対応は不要でございます。今後、ご対応をお願いする必要が発生いたしました際には、別途ご連絡しますのでご安心くださいませ。 
+ご利用の加盟店様にはご理解とご協力を賜りますようお願い申し上げます。
+ Oct 
+23
+, 
+14:21
+ JST
+KOMOJU Payment Gateway Maintenance - BitCash
+Completed
+ -
+The scheduled maintenance has been completed.
+ Oct 
+23
+, 
+14:10
+ JST
+In progress
+ -
+Scheduled maintenance is currently in progress. We will provide updates as necessary.
+ Oct 
+23
+, 
+14:00
+ JST
+Scheduled
+ -
+BitCash payments will undergo maintenance during the following window.
+Maintenance Window:
+Friday, October 23, 2026 14:00 AM - 14:10 AM JST
+Potential Impact:
+Payment processing will be temporarily suspended as follows:
+BitCash: Approximately 10 minutes
+If you are unable to complete a payment during this period, please try again after the maintenance has ended.
+BitCashの決済サービスにつきまして、下記の日時でメンテナンスを実施いたします。
+メンテナンス日時：
+2026年10月22日（金）14:00 ～ 14:10（日本時間）
+影響について：
+メンテナンス期間中、以下のとおり決済処理が一時的にご利用いただけなくなります。
+BitCash：約10分間
+メンテナンス期間中に決済をご利用いただけない場合は、メンテナンス終了後に再度お試しください。
+ Oct 
+23
+, 
+09:53
+ JST
+Komoju Upstream Gateway Maintenance - SoftBank Carrier Billing
+Completed
+ -
+The scheduled maintenance has been completed.
+ Oct 
+23
+, 
+06:00
+ JST
+In progress
+ -
+Scheduled maintenance is currently in progress. We will provide updates as necessary.
+ Oct 
+23
+, 
+02:00
+ JST
+Scheduled
+ -
+SoftBank Carrier Billing will undergo system maintenance during the following window.
+Maintenance Window:
+October 23, 2026 (Fri) 02:00 AM - 06:00 AM JST
+Potential Impact:
+Carrier Billing for Softbank payments may encounter longer processing times or may not be available periodically during the aforementioned times.
+ソフトバンク側にて、下記の日時でシステムメンテナンスが実施される予定です。
+メンテナンス日時：
+2026年 10月 23日（金）02:00 AM ~ 06:00 AM JST
+影響について：
+メンテナンス期間中そ、ソフトバンクのキャリア決済の決済作成および処理時間が延長または、失敗する可能性がございます。
+ Oct 
+16
+, 
+14:34
+ JST
+Oct 
+22
+, 
+2026
+No incidents reported.
+Oct 
+21
+, 
+2026
+No incidents reported.
+Oct 
+20
+, 
+2026
+Komoju Upstream Gateway Maintenance - SoftBank Carrier Billing
+Completed
+ -
+The scheduled maintenance has been completed.
+ Oct 
+20
+, 
+05:00
+ JST
+In progress
+ -
+Scheduled maintenance is currently in progress. We will provide updates as necessary.
+ Oct 
+20
+, 
+01:00
+ JST
+Scheduled
+ -
+SoftBank Carrier Billing will undergo system maintenance during the following window.
+Maintenance Window:
+October 20, 2026 (Tue) 01:00 AM - 05:00 AM JST
+Potential Impact:
+Carrier Billing for Softbank payments may encounter longer processing times or may not be available periodically during the aforementioned times.
+ソフトバンク側にて、下記の日時でシステムメンテナンスが実施される予定です。
+メンテナンス日時：
+2026年 10月 20日（火）01:00 AM ~ 05:00 AM JST
+影響について：
+メンテナンス期間中そ、ソフトバンクのキャリア決済の決済作成および処理時間が延長または、失敗する可能性がございます。
+ Oct 
+16
+, 
+14:31
+ JST
+Oct 
+19
+, 
+2026
+No incidents reported.
+Oct 
+18
+, 
+2026
+No incidents reported.
+Oct 
+17
+, 
+2026
+No incidents reported.
+Oct 
+16
+, 
+2026
+Issues Affecting Shopify Payments
+Resolved
+ -
+Following a period of monitoring, the affected services are confirmed to be operating normally and transactions are stable. 
+We sincerely apologize for the disruption and thank you for your patience while we resolved this matter.
+現在は影響されたアプリが通常どおり安定してご利用いただける状態となっております。
+ご利用の加盟店様には多大なるご不便とご迷惑をおかけいたしましたことを、重ねて深くお詫び申し上げます。
+ Oct 
+16
+, 
+21:31
+ JST
+Monitoring
+ -
+The issue affecting KOMOJU Shopify apps has been resolved. Previously disabled payment methods are now operational.
+Our engineering team is actively monitoring system performance and transaction processing to ensure continued stability. 
+Shopify連携アプリにて発生しておりました不具合につきまして、修正対応が完了いたしました。
+これにより、一時停止しておりました各種決済処理を再開いたしました。
+システムの安定稼働を維持するため、開発チームにて引き続き状況の監視を行っております。
+ Oct 
+16
+, 
+21:18
+ JST
+Update
+ -
+We have temporarily disabled Rakuten Pay, Paidy, au PAY, and Naver Pay payments through Shopify while our engineering team works to resolve this issue.
+We sincerely apologize for the inconvenience caused and will provide further updates as soon as more information becomes available.
+本障害の解消に向けた対応に伴い、Shopifyを経由した楽天ペイ、Paidy、au PAY、およびNaver Payによる決済の受付を一時的に停止いたしました。
+ご利用の加盟店様にはご不便をおかけいたしますが、復旧まで今しばらくお待ちいただけますようお願い申し上げます。
+ Oct 
+16
+, 
+19:12
+ JST
+Investigating
+ -
+We are currently investigating an issue affecting a subset of transactions processed through Shopify.
+While payments are completing successfully on KOMOJU, there may be delays or errors when updating the final order status to Shopify.
+We apologize for the inconvenience and will provide further updates as new information becomes available.
+現在、Shopifyを経由した一部のお取引におきまして障害が発生しており、原因の調査を進めております。
+なお、KOMOJU側での決済処理自体は正常に完了しておりますが、Shopify側への注文ステータスの連携・更新において遅延やエラーが発生する可能性がございます。
+ご利用の加盟店様にはご不便とご迷惑をおかけしておりますことを深くお詫び申し上げます。情報が確認でき次第、改めて本ページにて進捗をお知らせいたします。
+ Oct 
+16
+, 
+18:41
+ JST
+Emergency Maintenance: Temporary Interruption to Konbini and Pay-easy Payments
+Completed
+ -
+The scheduled maintenance has been completed.
+ Oct 
+16
+, 
+19:15
+ JST
+In progress
+ -
+Scheduled maintenance is currently in progress. We will provide updates as necessary.
+ Oct 
+16
+, 
+18:50
+ JST
+Scheduled
+ -
+KOMOJU is currently undergoing emergency maintenance affecting Konbini and Pay-easy payment methods.
+Maintenance time and date:
+October 16, 18:58 JST – October 16, 19:10 JST
+Impact:
+During this maintenance window, the creation of new Konbini and Pay-easy payments will fail and return an error.
+Please note that all other payment methods will remain fully operational.
+現在、KOMOJUにおいて緊急メンテナンスを実施しており、コンビニ決済およびPay-easy（ペイジー）決済に影響が発生しております。
+メンテナンス日時：
+10月16日 18:58 〜 10月16日 19:10 (JST)
+影響範囲：
+本メンテナンス期間中、コンビニ決済およびPay-easy決済の新規決済作成に失敗し、エラーが返却されます。
+※なお、その他の決済手段はすべて通常どおりご利用いただけます。
+ Oct 
+16
+, 
+17:47
+ JST
+Oct 
+15
+, 
+2026
+No incidents reported.
+Oct 
+14
+, 
+2026
+No incidents reported.
+Oct 
+13
+, 
+2026
+No incidents reported.
+Oct 
+12
+, 
+2026
+No incidents reported.
+Oct 
+11
+, 
+2026
+No incidents reported.
+Oct 
+10
+, 
+2026
+No incidents reported.
+←
+ Incident History
+Powered by Atlassian Statuspage

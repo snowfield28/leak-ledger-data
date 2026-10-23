@@ -1,0 +1,54 @@
+URL: https://en.komoju.com/news/10-22-notice/
+
+[Important] Notice Regarding Unauthorized System Access and Impact on Payment Services - KOMOJU
+Skip to content
+Company News
+22 October 2026
+[Important] Notice Regarding Unauthorized System Access and Impact on Payment Services
+Share
+ About KOMOJU 
+Session replay and smarter error tracking built for engineers
+ Start for free 
+[Important] 
+Notice Regarding Unauthorized System Access and Impact on Payment Services
+We have confirmed that, beginning on 13 October, 2026, an external third party gained unauthorized access and logged into our systems. As a result, we have confirmed a data breach involving certain merchant information, and there is a possibility that personal data may have also been compromised.
+Furthermore, our subsequent investigation confirmed unauthorized access to the CRM system used in our business operations. We are currently conducting a thorough investigation to determine the full scope of the impact.
+In the process of responding to this incident, temporary disruptions occurred across a portion of our payment services.
+We sincerely apologize for the considerable concern and inconvenience this incident has caused to all affected parties and stakeholders.
+For additional details, please refer to the report attached below.
+Notice Regarding Unauthorized System Access and Impact on Payment Services
+Stay up to date
+Sign up to receive the latest news to your email
+Subscribe
+Payment methods
+All Payment Methods
+ Japan Payments 
+ S. Korea Payments 
+ Chinese Payments 
+ European Payments 
+We offer several payments methods across Japan
+Visa
+Mastercard
+Konbini
+PayPay
+LINE Pay
+see all payment methods
+We offer several payments methods across South Korea
+Visa
+Mastercard
+Toss
+Payco
+Culture Voucher
+see all payment methods
+We offer several payments methods across China
+Alipay
+UnionPay
+WeChat Pay
+see all payment methods
+We offer several payments methods across Europe
+Paysafecard
+iDeal
+Bancontact
+giropay
+Multibanco
+see all payment methods
