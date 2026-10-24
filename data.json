@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -55,9 +55,13 @@
    ],
    "id": "times-car",
    "status": "ongoing",
-   "statusText": "9月29日の第3報（10月1日追記）時点で外部専門機関の調査が継続中。本人確認書類画像の漏えいが確認されたのは約160万アカウントで、詳細は2週間程度をめどに改めて知らせるとしている。",
+   "statusText": "第5報（10月23日）で、本人確認書類画像のうち外部送信の痕跡が確認されたのは約146万件（従来の約160万件から訂正）と公表。外部送信の痕跡はないがアクセスの痕跡がある暗号化データも存在。連携サービスIDの漏えいは9件から4件に訂正。タイムズクラブWebシステムへの不正アクセスも確認。漏えい情報の売買・公開の事実は確認されていないとしている。",
    "resp": "本人確認書類（運転免許証画像、現住所確認書類画像、学生証画像、家族確認書類画像）の漏えいが確認された会員へメールで個別に案内を開始。退会済みの人向けに対象かどうかを確かめる専用フォームを設置し、FAQを公開。会社を装ったメール・SMS・電話への注意を呼びかけ、専用窓口（24時間）で問い合わせを受け付けている。",
    "official": [
+    [
+     "第5報 ご報告と今後の対応について（2026/10/23）",
+     "https://park24.co.jp/news/2026/10/20261023-1.html"
+    ],
     [
      "第3報 調査結果および今後の対応（2026/9/29、10/1追記）",
      "https://share.timescar.jp/news/2026/0929/1816.html"
@@ -73,7 +77,7 @@
    ],
    "ind": "運輸・交通",
    "cause": "cyber",
-   "verified": "2026-10-11",
+   "verified": "2026-10-24",
    "contact": {
     "tels": [
      {
@@ -97,7 +101,7 @@
     "cust",
     "biz"
    ],
-   "last": "2026-10-01",
+   "last": "2026-10-23",
    "announced": "2026-09-25"
   },
   {
@@ -28224,6 +28228,274 @@
     "src": "https://www.gettiis.jp/notice/detail/42"
    },
    "verified": "2026-10-24"
+  },
+  {
+   "id": "m3-mrkun-2610",
+   "co": "エムスリー株式会社（製薬企業向けサービス「MR君」）",
+   "date": "2026-10-15",
+   "announced": "2026-10-15",
+   "occurred": "2026-10-14",
+   "last": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 28035,
+   "label": "約2.8万名（m3.com会員等25,775名＋製薬企業担当者2,260名）",
+   "st": "c",
+   "items": [
+    "name",
+    "work",
+    "mail"
+   ],
+   "itemsText": "氏名、勤務先、一部の方のメールアドレス、一部の当社サービスのご利用に関する情報、取引先の製薬企業が登録していた情報（担当関係等）",
+   "notIncl": "ログインパスワード、m3ポイント、クレジットカード番号等（カード情報は当社で保持していない）",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "製薬企業向けサービス「MR君」のシステムが第三者の不正アクセスを受け、m3.com会員等（一部は製薬企業から預かった医師の情報）と製薬企業の担当者の情報が漏えいした。第一報では人数は精査中としていたが、第2報（10月23日）で25,775名（うちメールアドレス含む6名）と2,260名（同264名）と公表した。",
+   "status": "ongoing",
+   "statusText": "第2報（10月23日）時点で、不正取得経路は封じ込め済みで新たな不正取得は確認されていない。漏えい情報が公開・不正利用された事実は確認されておらず、調査を継続中。",
+   "resp": "不正アクセス経路を遮断し防御策を強化。監督官庁へ報告し、対象の会員へは10月22日以降メールで個別連絡（届かない場合は本お知らせで代替）。当社を装う不審なメール・SMS・電話への注意を呼びかけ。",
+   "contact": {
+    "mails": [
+     "cs-security@m3.com"
+    ],
+    "note": "会員向け：m3.com カスタマーサポート。取引先の製薬企業へは担当者から個別に連絡",
+    "src": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/TYwLIgktADUIxwA5M6XFE/3bcb64e5e6857ebaf8e5a5a4efd8f25f/20261023_Public_J.pdf"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（2026/10/15）",
+     "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/c7865f094fe436292d7c81e1116a9c7f/20261015_Public_J.pdf"
+    ],
+    [
+     "同（第2報）（2026/10/23）",
+     "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/TYwLIgktADUIxwA5M6XFE/3bcb64e5e6857ebaf8e5a5a4efd8f25f/20261023_Public_J.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/m3_mrkun_second_report_25775_2260_abuse_risks_measures/"
+    ]
+   ],
+   "ind": "医療・製薬",
+   "verified": "2026-10-25"
+  },
+  {
+   "id": "m3-studio-2610",
+   "co": "エムスリー株式会社（M3PSP・1人1円ファンド／クラウドサービス Studio）",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 398,
+   "label": "398名（M3PSP 271名＋1人1円ファンド 127名）",
+   "st": "p",
+   "items": [
+    "name",
+    "work",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "問い合わせ・資料請求等のフォーム入力情報（氏名、会社名、電話番号、メールアドレス、問い合わせ内容等。添付ファイルはファイル名のみ）",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "サイト運営に使うクラウドサービス「Studio」への第三者の不正アクセスにより、「M3PSP」と「1人1円ファンド」のフォームで取得した個人情報が漏えいした可能性がある。第三者が実際にデータを取得した事実は確認されていないが、Studio社は取得されたものとみなして対応している。",
+   "status": "ongoing",
+   "statusText": "10月21日時点で対象情報・影響範囲を確認中。当社システムへの不正アクセスは確認されていない。",
+   "resp": "対象となる方への連絡を含め必要な対応を進める。便乗した不審なメール・SMS・電話への注意を呼びかけ。",
+   "contact": {
+    "mails": [
+     "info@m3.com"
+    ],
+    "note": "対象サイトをご利用の方向け：エムスリー カスタマーサポート",
+    "src": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/7tQjGKGMtsasFkBD2dX3Sq/05abba2f58cdd6543d38fa3c6e5e140c/20261021_Public_J.pdf"
+   },
+   "official": [
+    [
+     "Studio不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ（2026/10/21）",
+     "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/7tQjGKGMtsasFkBD2dX3Sq/05abba2f58cdd6543d38fa3c6e5e140c/20261021_Public_J.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/m3_mrkun_second_report_25775_2260_abuse_risks_measures/"
+    ]
+   ],
+   "ind": "医療・製薬",
+   "verified": "2026-10-25"
+  },
+  {
+   "id": "goodsmile-2610",
+   "co": "株式会社グッドスマイルカンパニー（公式ショップ）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "occurred": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal",
+    "card"
+   ],
+   "itemsText": "氏名、読み仮名、性別、住所、電話番号、メールアドレス、注文情報（注文日・商品名・数量・金額・お届先、決済方法・状況）、クレジットカードのブランド・番号下4桁・有効期限",
+   "notIncl": "カード名義、カード番号の全桁（下4桁除く）、セキュリティコード",
+   "who": [
+    "cust"
+   ],
+   "sum": "ECサイト「グッドスマイルカンパニー公式ショップ」の管理情報に、2026年10月19日午後3時過ぎから22日午後10時ごろにかけて、脆弱性を突いた複数回の不正アクセスによる閲覧があった。会員の個人情報等が閲覧された可能性がある。",
+   "status": "ongoing",
+   "statusText": "10月23日時点で原因・詳細を調査中。サイトは閉鎖中で再開見込みは未定。",
+   "resp": "判明後ただちにサイトを閉鎖し、脆弱性の改修等を実施。10月23日に個人情報保護委員会へ報告。対象となる可能性のある会員へは確認後、順次メールで個別連絡する予定。不審なメール・電話・SMSへの注意を呼びかけ。",
+   "contact": {
+    "forms": [
+     [
+      "カスタマーサポート お問い合わせフォーム",
+      "https://support.goodsmile.com/hc/ja/requests/new?ticket_form_id=48452039907097"
+     ]
+    ],
+    "note": "グッドスマイルカンパニー カスタマーサポート",
+    "src": "https://support.goodsmile.com/hc/ja/articles/63547468806297-%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+   },
+   "official": [
+    [
+     "不正アクセスによるお客様情報流出の可能性について（2026/10/23）",
+     "https://support.goodsmile.com/hc/ja/articles/63547468806297-%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/goodsmile_company_official_shop_unauthoriz/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-10-25"
+  },
+  {
+   "id": "lindt-japan-2610",
+   "co": "リンツ＆シュプルングリージャパン株式会社（オンラインショップ・公式アプリ／委託先フューチャーショップ）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "occurred": "2026-10-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 3147469,
+   "label": "3,147,469件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "会員ID、氏名、メールアドレス、住所、電話番号、生年月日、性別、メルマガ受信設定、ご登録店舗情報、ハッシュ化されたログインパスワード、フリガナ・会員登録日時・最終ログイン日時等",
+   "notIncl": "クレジットカード情報など支払いに関する情報（保存していない）。退会済み会員（取得時点）",
+   "who": [
+    "cust"
+   ],
+   "sum": "オンラインショップのシステムを提供する委託先フューチャーショップのサーバーが脆弱性を悪用した不正アクセスを受け（10月17日23時〜18日0時台）、オンラインショップ・公式アプリ共通の会員情報が取得された。同社から10月19日に報告を受けた。",
+   "status": "ongoing",
+   "statusText": "10月23日時点で漏えい情報の悪用は確認されていない。委託先とともに調査を継続し、外部専門機関の調査も予定。",
+   "resp": "オンラインショップを10月21日16時から一時停止。個人情報保護委員会に委託先と連名で報告し、委託先は警察に相談。対象会員へ10月26日からメールで順次連絡。再開時にパスワード変更を依頼予定。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-713-065",
+      "hours": "9:00〜21:00（土日祝含む・会員様専用）"
+     }
+    ],
+    "mails": [
+     "privacy-incident-jp@lindt.jp"
+    ],
+    "note": "会員様専用お問い合わせ窓口",
+    "src": "https://www.lindt.jp/contents/chocolat-cafe/notice_20261023/"
+   },
+   "official": [
+    [
+     "委託先事業者への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（2026/10/23）",
+     "https://www.lindt.jp/contents/chocolat-cafe/notice_20261023/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/lindt_japan_futureshop_3147469_member_data_breach_20261024/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-10-25"
+  },
+  {
+   "id": "futureshop-2610",
+   "co": "株式会社フューチャーショップ（futureshop・1店舗分の会員情報）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "occurred": "2026-10-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 3147469,
+   "label": "3,147,469件（1店舗分）",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "会員ID、氏名、メールアドレス、住所、生年月日、電話番号、性別、メルマガ受信設定、ご登録店舗情報、ハッシュ化されたログインパスワード、その他会員情報",
+   "notIncl": "クレジットカード情報（決済代行会社が直接処理し当社サーバーを経由・保存しない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "ECプラットフォーム「futureshop」のサーバーが、使用ソフトウェアの脆弱性を悪用した不正アクセスを受け（10月17日23時02分）、対象1店舗の会員情報が翌18日0時16分に取得された。10月19日に監視で判明。同店舗はリンツ＆シュプルングリージャパンとされる（同社の発表による）。",
+   "status": "ongoing",
+   "statusText": "第一報（10月23日）時点。外部専門機関の調査を実施予定。具体的な二次被害の報告はない。",
+   "resp": "侵入経路を遮断し、悪用された脆弱性への対策を全管理画面サーバーに実施。対象店舗へ10月19日に報告し連携。個人情報保護委員会へ店舗と連名で報告、警察に相談。再発防止策は調査結果を踏まえ策定。",
+   "contact": {
+    "note": "株式会社フューチャーショップ サポートセンター（連絡先は公式発表参照）",
+    "src": "https://www.future-shop.jp/news/2026/10/23.html"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第一報）（2026/10/23）",
+     "https://www.future-shop.jp/news/2026/10/23.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/lindt_japan_futureshop_3147469_member_data_breach_20261024/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-10-25"
   }
  ],
  "statusLabels": {
@@ -28256,7 +28528,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 294,
+ "pendingCount": 297,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",

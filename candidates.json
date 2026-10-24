@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -6922,6 +6922,130 @@
    "ind": "団体",
    "pendingReason": "協会自身のサイトの発表は未確認（横浜市の記者発表PDFに転載された発表文を読んだ）。対象に含まれるか未確認のため保留。manual/ に協会の公式文面を貼れば反映できる。",
    "announced": "2026-10-22"
+  },
+  {
+   "id": "mos-card-2610",
+   "co": "株式会社モスフードサービス（モスカード／委託先バリューデザイン）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（報道ではカード番号・PIN番号・残高情報）",
+   "who": [
+    "cust"
+   ],
+   "sum": "委託先のサーバーへの第三者の不正アクセスにより、一部のモスカード情報が外部に流出したとモスバーガー公式サイトが公表。流出したカードのPIN番号は強制変更された。報道では113万3,070件とされるが、件数・項目を載せたIR資料は取得不可。",
+   "status": "ongoing",
+   "statusText": "10月23日公表。件数・項目は公式IR未確認。",
+   "resp": "流出したモスカード番号のPIN番号を強制変更。専用窓口で対応。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-3496-8322",
+      "hours": "9:00〜22:00（10月26日まで）"
+     },
+     {
+      "tel": "0120-395-126",
+      "hours": "9:00〜22:00（10月27日以降）"
+     }
+    ],
+    "note": "モスカードお問い合わせ専用窓口",
+    "src": "https://www.mos.jp/topics/20261023_1/"
+   },
+   "official": [
+    [
+     "【重要】第三者の不正アクセスに伴うモスカード情報の流出について（2026/10/23）",
+     "https://www.mos.jp/topics/20261023_1/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mos-card-unauthorized-access-20261023/"
+    ]
+   ],
+   "ind": "飲食",
+   "pendingReason": "公式サイト告知は読めたが件数・流出項目の記載がなく、IR資料（TDnet PDF：https://ssl4.eir-parts.net/doc/8153/tdnet/2898082/00.pdf）はrobotsで取得不可。自動取得不可（robots）。manual/ にIR資料の文面を貼れば反映できる"
+  },
+  {
+   "id": "valuedesign-valuecard-2610",
+   "co": "株式会社バリューデザイン（ハウス電子マネー発行サービス「Value Card」）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "unk"
+   ],
+   "sum": "「Value Card」のサーバーへの第三者の不正アクセスにより、管理情報の一部が外部へ流出したと公表。詳細は親会社ペイクラウドホールディングスの開示資料に記載とされる。モスフードサービス（モスカード）の委託先。",
+   "status": "ongoing",
+   "statusText": "10月23日公表。件数・項目は未確認。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://www.valuedesign.jp/news/info/20261023"
+   },
+   "official": [
+    [
+     "当社提供システムへの不正アクセスに関するお知らせ（2026/10/23）",
+     "https://www.valuedesign.jp/news/info/20261023"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mos-card-unauthorized-access-20261023/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式ページには件数・項目がなく、親会社ペイクラウドホールディングスの開示資料（URL未取得）を確認できていない。manual/ に開示資料の文面を貼れば反映できる"
+  },
+  {
+   "id": "yamada-denki-2610",
+   "co": "株式会社ヤマダデンキ（ヤマダビデオ・スマホゴールド会員）",
+   "date": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "unk"
+   ],
+   "sum": "「ヤマダビデオ」「スマホゴールド会員」の各種手続き画面への外部からの不正アクセスを確認し、10月22日午後4時13分ごろからサービスを一時停止。報道では個人情報への影響は調査中で、漏えいの発生は確認されたとされていない。",
+   "status": "ongoing",
+   "statusText": "10月23日発表。影響・復旧見通しは調査中。",
+   "official": [
+    [
+     "ヤマダデンキ お知らせ（2026/10/23）",
+     "https://www.yamada-denki.jp/information/pdf/261023_3.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/yamada-denki-yamada-video-smartphone-gold-unauthorized-access/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式PDFが error:ConnectTimeout で取得できず、漏えいの有無を公式本文で確認できていない。自動取得不可。manual/ に公式文面を貼れば反映できる"
   }
  ]
 }
