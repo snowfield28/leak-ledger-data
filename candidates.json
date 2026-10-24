@@ -6259,44 +6259,6 @@
    ]
   },
   {
-   "id": "gettiis-linkstation-2610",
-   "co": "株式会社リンクステーション（チケット販売サービス「GETTIIS」）",
-   "date": "2026-10-19",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 317971,
-   "label": "会員ID 317,971件（項目別の件数は報道）",
-   "st": "c",
-   "items": [
-    "name",
-    "tel",
-    "mail",
-    "birth",
-    "id",
-    "card"
-   ],
-   "itemsText": "会員ID 317,971件、ハッシュ化パスワード311,451件、メールアドレス311,426件、氏名309,759件、電話番号309,668件、クレジットカード関連情報29,515件、性別5,900件、生年月日5,192件、郵便番号489件（項目ごとの件数で重複あり。第2報の報道）",
-   "sum": "報道によると、10月18日未明に主催者向けサービス「Gettii-Lite」の脆弱性が悪用され、GETTIISの会員情報が外部に流出したことを確認。第2報で項目別の件数が公表された。",
-   "status": "ongoing",
-   "statusText": "10月20日に第2報（報道）。10月18日0時〜7時ごろに公演主催者向け「Gettii-Lite」サーバーが侵入され、対象サーバーの切り替えと脆弱性対策は完了。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/gettiis_linkstation_second_report_317971_members_data_leak/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "自動取得不可（公式第1報 https://www.gettiis.jp/notice/detail/40 がHTTP 503、第2報 https://www.gettiis.jp/notice/detail/42 は本文を取得できていない）。manual/ に公式文面を貼れば反映できる。",
-   "who": [
-    "cust"
-   ],
-   "last": "2026-10-20"
-  },
-  {
    "id": "zigzag-worldshopping-2610",
    "co": "株式会社ジグザグ（越境ECサービス「WorldShopping」）",
    "date": "2026-10-19",
