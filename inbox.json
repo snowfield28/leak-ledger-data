@@ -1,10 +1,283 @@
 {
- "items": [],
- "generated": "2026-10-24 04:33 JST",
+ "items": [
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/yamada-denki-yamada-video-smartphone-gold-unauthorized-access/",
+   "title": "ヤマダデンキに不正アクセス、「ヤマダビデオ」「スマホゴールド会員」の一部サービス停止 個人情報への影響を調査",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-10-25",
+   "article_text_file": "inbox/texts/d8ff03132fa9.txt",
+   "official": [
+    {
+     "url": "https://www.yamada-denki.jp/information/pdf/261023_3.pdf",
+     "status": "error:ConnectTimeout",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/mos-card-unauthorized-access-20261023/",
+   "title": "モスバーガー「モスカード」113万3,070件が流出、PIN番号・残高情報も-委託先のサーバへのサイバー攻撃で",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-10-25",
+   "article_text_file": "inbox/texts/524bab8ec136.txt",
+   "official": [
+    {
+     "url": "https://ssl4.eir-parts.net/doc/8153/tdnet/2898082/00.pdf",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://contents.xj-storage.jp/xcontents/AS71226/a90ef759/c4e7/403b/8096/5a78ba81a912/140120261023555340.pdf",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.valuedesign.jp/news/info/20261023",
+     "status": "ok",
+     "chars": 1040,
+     "text_file": "inbox/texts/394b4701df91.txt"
+    },
+    {
+     "url": "https://www.valuedesign.jp/news/info/20261022",
+     "status": "ok",
+     "chars": 1833,
+     "text_file": "inbox/texts/ac63c8a9fbaf.txt"
+    },
+    {
+     "url": "https://www.mos.jp/topics/20261023_1/",
+     "status": "ok",
+     "chars": 707,
+     "text_file": "inbox/texts/7dc4553b571a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/goodsmile_company_official_shop_unauthoriz/",
+   "title": "グッドスマイルカンパニー 公式 ECサイトに不正アクセス、会員情報や購入履歴を不正閲覧 カード下4桁・有効期限も対象、悪用リスクと対策",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-10-25",
+   "article_text_file": "inbox/texts/cb9bcaa6d474.txt",
+   "official": [
+    {
+     "url": "https://support.goodsmile.com/hc/ja",
+     "status": "ok",
+     "chars": 2603,
+     "text_file": "inbox/texts/842c56378c20.txt"
+    },
+    {
+     "url": "https://support.goodsmile.com/hc/ja/requests/new?ticket_form_id=48452039907097",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://support.goodsmile.com/hc/ja/articles/63547468806297-%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+     "status": "ok",
+     "chars": 1819,
+     "text_file": "inbox/texts/5fb346bd2735.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/m3_mrkun_second_report_25775_2260_abuse_risks_measures/",
+   "title": "エムスリー「MR君」へのサイバー攻撃で医師ら2万5,775名と製薬企業担当者2,260名の個人情報漏えい、悪用リスクと対策",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-10-25",
+   "article_text_file": "inbox/texts/23c2a3eba85a.txt",
+   "official": [
+    {
+     "url": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/TYwLIgktADUIxwA5M6XFE/3bcb64e5e6857ebaf8e5a5a4efd8f25f/20261023_Public_J.pdf",
+     "status": "ok",
+     "chars": 1691,
+     "text_file": "inbox/texts/a3bb5a7e4ed4.txt"
+    },
+    {
+     "url": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/c7865f094fe436292d7c81e1116a9c7f/20261015_Public_J.pdf",
+     "status": "ok",
+     "chars": 1437,
+     "text_file": "inbox/texts/c92f5b556635.txt"
+    },
+    {
+     "url": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/7tQjGKGMtsasFkBD2dX3Sq/05abba2f58cdd6543d38fa3c6e5e140c/20261021_Public_J.pdf",
+     "status": "ok",
+     "chars": 1711,
+     "text_file": "inbox/texts/479b6e652813.txt"
+    },
+    {
+     "url": "https://www.ipa.go.jp/security/support/abuse_email.html",
+     "status": "ok",
+     "chars": 1320,
+     "text_file": "inbox/texts/45a04a982bde.txt"
+    },
+    {
+     "url": "https://www.ipa.go.jp/security/bec/bec_faq.html",
+     "status": "ok",
+     "chars": 3341,
+     "text_file": "inbox/texts/cb44762a79d7.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/lindt_japan_futureshop_3147469_member_data_breach_20261024/",
+   "title": "チョコレートブランド「リンツ（Lindt）」、フューチャーショップへのサイバー攻撃でオンラインショップの会員 314万7,469件の個人情報漏洩",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-10-25",
+   "article_text_file": "inbox/texts/484a27f86788.txt",
+   "official": [
+    {
+     "url": "https://www.lindt.jp/contents/chocolat-cafe/notice_20261023/",
+     "status": "ok",
+     "chars": 2838,
+     "text_file": "inbox/texts/a09942161988.txt"
+    },
+    {
+     "url": "https://www.future-shop.jp/news/2026/10/23.html",
+     "status": "ok",
+     "chars": 2074,
+     "text_file": "inbox/texts/c6f7a2906c36.txt"
+    },
+    {
+     "url": "https://www.future-shop.jp/news/2026/10/22.html",
+     "status": "ok",
+     "chars": 1103,
+     "text_file": "inbox/texts/496100bd7c97.txt"
+    },
+    {
+     "url": "https://www.future-shop.jp/news/2026/10/22-2.html",
+     "status": "ok",
+     "chars": 1158,
+     "text_file": "inbox/texts/f609d87200be.txt"
+    },
+    {
+     "url": "https://www.lindt.jp/」をブラウザから直接開き、告知内容とサービスの再開状況を確認してください。",
+     "status": "error:http404",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/timescar_420man_fake_leak_claim_analysis_20261024_updated/",
+   "title": "ハッカーがタイムズカーから窃取した420万件の個人情報を販売と投稿も高確率で虚偽の可能性",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-10-25",
+   "article_text_file": "inbox/texts/1e5935188e31.txt",
+   "official": [
+    {
+     "url": "https://park24.co.jp/news/2026/10/20261023-1.html",
+     "status": "ok",
+     "chars": 4607,
+     "text_file": "inbox/texts/028bd0681aee.txt"
+    },
+    {
+     "url": "https://park24.co.jp/news/2026/09/20260928-1.html",
+     "status": "ok",
+     "chars": 1892,
+     "text_file": "inbox/texts/4212d67b41bf.txt"
+    },
+    {
+     "url": "https://share.timescar.jp/sp/faq/change/03.html",
+     "status": "ok",
+     "chars": 1047,
+     "text_file": "inbox/texts/98104956dbbf.txt"
+    },
+    {
+     "url": "https://share.timescar.jp/fare/basic.html",
+     "status": "ok",
+     "chars": 1736,
+     "text_file": "inbox/texts/d4215ad35889.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2018/02/26/40635.html",
+   "title": "「支払いが完了しなかった」、Netflixを騙るフィッシングメールを確認（フィッシング対策協議会）",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-25",
+   "article_text_file": "inbox/texts/99a8d0965881.txt",
+   "official": [
+    {
+     "url": "http://www.antiphishing.jp/news/alert/netflix_20180223.html",
+     "status": "ok",
+     "chars": 2370,
+     "final_url": "https://www.antiphishing.jp/news/alert/netflix_20180223.html",
+     "text_file": "inbox/texts/b9cdf13beb70.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4275,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2023/01/12/48758.html",
+   "title": "アフラック「新がん保険」「スーパーがん保険」「スーパーがん保険Vタイプ」加入者情報漏えい、1月7日に外部業者に不正アクセス",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-10-25",
+   "article_text_file": "inbox/texts/31504d3455ac.txt",
+   "official": [
+    {
+     "url": "https://www.aflac.co.jp/news_pdf/2023011001.pdf",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4275,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  }
+ ],
+ "generated": "2026-10-25 04:24 JST",
  "last_report": {
   "sources_ok": 9,
   "sources_failed": [],
   "robots_refused": {
+   "https://contents.xj-storage.jp": {
+    "status": 200,
+    "text": "User-Agent: *\r\nDisallow: /"
+   },
    "https://ssl4.eir-parts.net": {
     "status": 200,
     "text": "User-agent: *\nDisallow: /\n"
@@ -12,10 +285,6 @@
    "https://www.linkedin.com": {
     "status": 200,
     "text": "# Notice: The use of robots or other automated means to access LinkedIn without\n# the express permission of LinkedIn is strictly prohibited.\n# See https://www.linkedin.com/legal/user-agreement.\n# LinkedIn may, in its discretion, permit certain automated access to certain LinkedIn pages,\n# for the limited purpose of including content in approved publicly available search engines.\n# If you would like to apply for permission to crawl LinkedIn, please email whitelist-crawl@linkedin.com.\n# Any and all permitted crawling of LinkedIn is subject to LinkedIn's Crawling Terms and Conditions.\n# See http://www.linkedin.com/legal/crawling-terms.\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: Googlebot\nDisallow: /addContacts*\nDisallow: /addressBookExport*\nDisallow: /ambry\nDisallow: /analytics/\nDisallow: /answers*\nDisallow: /authwall\nDisallow: /badges/profile/create\nDisallow: /cap/\nDisallow: /chat/\nDisallow: /checkpoint/\nDisallow: /companyDir*\nDisallow: /connections*\nDisallow: /csp/\nDisallow: /e/\nDisallow: /edurec*\nDisallow: /embed/feed/update/\nDisallow: /endorsements\nDisallow: /feed/update/\nDisallow: /find/\nDisallow: /fizzy/admin\nDisallow: /groups/\nDisallow: /groupAnswers*\nDisallow: /groupSharingMsg*\nDisallow: /inviteFromProfile*\nDisallow: /inviteMany*\nDisallow: /jobs?runSearch*\nDisallow: /jobs/view/externalApply/\nDisallow: /jobs-guest/\nDisallow: /api/jobPostings/jobs*\nDisallow: /jsearch*\nDisallow: /job-apply/\nDisallow: /learning*?auth=true\nDisallow: /learning*&auth=true\nDisallow: /learnin"
-   },
-   "https://www.release.tdnet.info": {
-    "status": 200,
-    "text": "User-agent: *\nDisallow: /\n"
    }
   }
  }
