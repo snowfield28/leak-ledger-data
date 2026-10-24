@@ -6927,42 +6927,6 @@
    "announced": "2026-10-23"
   },
   {
-   "id": "nomura-iport-ymirlink-2610",
-   "co": "野村證券（金融機関等向け「i-Port」／メール配信委託先 ユミルリンク）",
-   "date": "2026-10-23",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "mail"
-   ],
-   "itemsText": "i-Port関連の顧客メールアドレスなど（報道）",
-   "notIncl": "",
-   "who": [
-    "cust",
-    "biz"
-   ],
-   "sum": "報道によると、i-Portのメール配信を委託するユミルリンクへの不正アクセスにより、顧客のメールアドレスなどが漏えいした可能性があると10月23日に公表。運用資産や取引口座の情報は対象外。対象件数は調査中。",
-   "status": "ongoing",
-   "statusText": "10月23日の公表（報道）。対象の顧客には個別に連絡する方針。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/nomura_iport_cuenote_information_leak_20261023/"
-    ]
-   ],
-   "ind": "金融・保険",
-   "pendingReason": "野村ホールディングスの公式発表（nomuraholdings.com/jp/news/topics/20261023.html）がHTTP 403で取得できない。manual/ に公式文面を貼れば反映できる。",
-   "announced": "2026-10-23"
-  },
-  {
    "id": "green-expo-assoc-blastmail-2610",
    "co": "公益社団法人2027年国際園芸博覧会協会（GREEN×EXPO 2027 ボランティア向け一斉メール／ブラストメール）",
    "date": "2026-10-22",
