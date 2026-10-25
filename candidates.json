@@ -7012,40 +7012,6 @@
    ],
    "ind": "通信・IT",
    "pendingReason": "公式ページには件数・項目がなく、親会社ペイクラウドホールディングスの開示資料（URL未取得）を確認できていない。manual/ に開示資料の文面を貼れば反映できる"
-  },
-  {
-   "id": "yamada-denki-2610",
-   "co": "株式会社ヤマダデンキ（ヤマダビデオ・スマホゴールド会員）",
-   "date": "2026-10-23",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "who": [
-    "unk"
-   ],
-   "sum": "「ヤマダビデオ」「スマホゴールド会員」の各種手続き画面への外部からの不正アクセスを確認し、10月22日午後4時13分ごろからサービスを一時停止。報道では個人情報への影響は調査中で、漏えいの発生は確認されたとされていない。",
-   "status": "ongoing",
-   "statusText": "10月23日発表。影響・復旧見通しは調査中。",
-   "official": [
-    [
-     "ヤマダデンキ お知らせ（2026/10/23）",
-     "https://www.yamada-denki.jp/information/pdf/261023_3.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/yamada-denki-yamada-video-smartphone-gold-unauthorized-access/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "公式PDFが error:ConnectTimeout で取得できず、漏えいの有無を公式本文で確認できていない。自動取得不可。manual/ に公式文面を貼れば反映できる"
   }
  ]
 }
