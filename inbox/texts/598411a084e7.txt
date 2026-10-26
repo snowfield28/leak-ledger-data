@@ -1,0 +1,510 @@
+URL: https://www.ivs.events/news/20261023-ivs2025-security-incident
+
+IVS2025公式サイトで利用していたWeb制作サービス「Studio」への不正アクセスによる 個人情報漏洩の可能性に関するお知らせとお詫び｜IVS2026
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+JAPAN IS BACK
+ジャパンイズバック
+IVS
+アイ・ヴイ・エス
+IVS CORE
+ホテルオークラ京都
+SIDE EVENTS
+PARTNER
+MAP / TIMETABLE
+SPEAKERS
+NEWS
+CONTENTS
+FOR GUIEST
+ABOUT
+Select Language
+日本語
+日本語
+Buy Pass
+PASS購入
+Select Language
+日本語
+日本語
+IVS2025公式サイトで利用していたWeb制作サービス「Studio」への不正アクセスによる 個人情報漏洩の可能性に関するお知らせとお詫び
+IVS2025公式サイトで利用していたWeb制作サービス「Studio」への不正アクセスによる 個人情報漏洩の可能性に関するお知らせとお詫び
+2026年10月23日
+株式会社Headline Japanは、京都市、京都府とともにIVS KYOTO実行委員会を組織し、2023年以降、4年連続でIVSを京都にて開催しております。
+このたび、当社が運営するIVS2025公式サイト（以下「当該サイト」という。）で利用していたWeb制作サービス「Studio」に対する第三者からの不正アクセスにより、当該サイトのフォーム回答が流出した可能性があることが判明しました。関係する皆様に多大なるご心配とご迷惑をおかけしますことを、深くお詫び申し上げます。
+経緯
+Studio社が2026年10月16日、同社クラウド環境が第三者による不正アクセス（2026年9月30日〜10月1日）を受け、全顧客のフォーム送信内容などが外部に流出した可能性があると公表しました。
+当該サイトは、当社がStudio社のツールを利用して構築し、イベントの企画運営の観点から、フォーム回答についても保有を続けておりましたが、今回、当該フォーム回答についても流出した可能性があります。
+ただし、当該ツールの脆弱性はすでにStudio社において修正され、不正アクセスに利用された経路は遮断済みです。また、現時点で、不正利用や二次被害は確認されていません。
+影響
+当該サイトの全てのフォーム回答（計約4,200件／氏名・メールアドレス・会社名・役職など）が対象に含まれる可能性があります。
+なお、IVS2026公式サイトは別サービスを利用しているため、本件の対象外です。
+対応
+個人情報保護委員会への報告は、Studio社より本件を含む連名の形で行います。また、本件に関連した詐欺等の悪意あるメール等が送信されるおそれがあるため、当社より、情報が漏洩した可能性のある全ての皆様へ個別にご連絡いたします。不審なメールを受信された場合は、記載のリンクや添付ファイルを開かないようご注意ください。
+当社では、今回の事態を厳粛に受け止め、外部サービスの利用における情報管理体制を一層強化し、再発防止に努めてまいります。
+＜本件に関するお問合せ先＞
+株式会社Headline Japan
+【E-mail】ivs-office@infinityventures.com
+IVS
+Startup Conference
+スタートアップカンファレンス
+KYOTO July
+京都七月
+13,000+ Registered
+13,000人超
+アイ・ブイ・
+エス
+MAP / TIMETABLE
+SPEAKERS
+IVS GUEST GUIDEBOOK
+1. 開催概要 / 時間
+2. 会場へのアクセス
+3. PASSの受け取り方法
+4. 受付事前準備
+5. 参加パスの交換・紛失について
+6. 会場内のご案内
+7. セッション参加について
+8. 事前のミーティング機能について
+9. サイドイベントについて
+10. 参加に関する注意事項
+IVS2026
+IVS2025の実績
+IVS2025の様子
+ニュース
+IVS2026 テーマ
+4大コンテンツ
+コンテンツ一覧
+IVS PASS
+開催概要
+IVS CORE
+IVS CORE GUIDE
+SIDE EVENTS
+サイドイベントとは
+注目サイドイベント
+お役立ち情報
+サイドイベント申し込み
+種別について
+申請フロー
+注意事項
+事前説明会動画とFAQ
+NETWORKING AREA
+NETWORKING AREA
+AMA｢闇市｣
+NETWORKING AREA
+AMA｢闇市｣
+NETWORKING AREA
+AMA｢闇市｣
+IVS Startup Market
+IVS Startup Market
+スタァトアプマーケシト
+IVS Startup Market
+スタァトアプマーケシト
+IVS Startup Market
+スタァトアプマーケシト
+KYOTO ZONE
+KYOTO ZONE
+京都ゾーン
+KYOTO ZONE
+京都ゾーン
+KYOTO ZONE
+京都ゾーン
+IVS Youth
+IVS Youth
+IVS Youthのご案内
+IVS Youth
+IVS Youthのご案内
+IVS Youth
+IVS Youthのご案内
+SPIKES ZONE
+SPIKES ZONE
+京都ゾーン
+SPIKES ZONE
+京都ゾーン
+SPIKES ZONE
+京都ゾーン
+IVS2026 LAUNCHPAD
+IVS2026 LAUNCHPAD
+京都ゾーン
+IVS2026 LAUNCHPAD
+京都ゾーン
+IVS2026 LAUNCHPAD
+京都ゾーン
+MV SPECIAL SITE
+MV SPECIAL SITE
+MV特設サイト
+MV SPECIAL SITE
+MV特設サイト
+MV SPECIAL SITE
+MV特設サイト
+I'm In! Generator
+I'm In! Generator
+参加表明
+I'm In! Generator
+参加表明
+I'm In! Generator
+参加表明
+GROUP PASS
+GROUP PASS
+セット販売について
+GROUP PASS
+セット販売について
+GROUP PASS
+セット販売について
+PARTNERS LIST
+PARTNERS LIST
+パートナー一覧
+PARTNERS LIST
+パートナー一覧
+PARTNERS LIST
+パートナー一覧
+PARTNER INQUIRIES
+PARTNER INQUIRIES
+パートナーお問い合わせ
+PARTNER INQUIRIES
+パートナーお問い合わせ
+PARTNER INQUIRIES
+パートナーお問い合わせ
+IVS2026 ACCESS PASS
+IVS PASS
+IVS PASS Student
+CORE PASS
+CORE PASS Startup
+NEWS
+2026/06/29
+京都の伝統グルメから最先端フードテックまで。「IVS2026」フードエリアの詳細を公開
+2026/06/29
+IVS2026、注目セッションの第三弾を発表。AI・ディープテック・投資など6つのジャンル別に、京都市長 松井孝治氏、ユーグレナ 出雲充氏、OpenAIなど注目24セッションをご紹介
+2026/06/29
+国内外の厳選されたスタートアップ340社が集結！「IVS Startup Market」の出展企業決定。進化した「開かれた市場」でビジネスを加速
+CHILDCARE
+CHILDCARE
+託児所のご案内
+CHILDCARE
+託児所のご案内
+CHILDCARE
+託児所のご案内
+COLUMN
+COLUMN
+コラム
+COLUMN
+コラム
+COLUMN
+コラム
+PRESS KIT
+PRESS KIT
+プレスキット
+PRESS KIT
+プレスキット
+PRESS KIT
+プレスキット
+ACCESS / PARKING
+ACCESS / PARKING
+アクセスと駐車場
+ACCESS / PARKING
+アクセスと駐車場
+ACCESS / PARKING
+アクセスと駐車場
+ABOUT IVS2026
+ABOUT IVS2026
+IVS2026とは
+ABOUT IVS2026
+IVS2026とは
+ABOUT IVS2026
+IVS2026とは
+TEAM IVS2026
+TEAM IVS2026
+チーム体制
+TEAM IVS2026
+チーム体制
+TEAM IVS2026
+チーム体制
+ABOUT IVS
+ABOUT IVS
+IVSとは
+ABOUT IVS
+IVSとは
+ABOUT IVS
+IVSとは
+IVS JOURNAL
+IVS JOURNAL
+IVSジャーナル
+IVS JOURNAL
+IVSジャーナル
+IVS JOURNAL
+IVSジャーナル
+IVS CORE Waiting List Register
+IVS CORE Waiting List Register
+ウェイティングリスト登録
+IVS CORE Waiting List Register
+ウェイティングリスト登録
+IVS CORE Waiting List Register
+ウェイティングリスト登録
+OTHER INQUIRIES
+OTHER INQUIRIES
+その他お問い合わせ
+OTHER INQUIRIES
+その他お問い合わせ
+OTHER INQUIRIES
+その他お問い合わせ
+X
+LinkedIn
+Facebook
+Instagram
+IVSにおけるプライバシーポリシー 
+IVS2026 参加規約
+特定商取引法に基づく表記
+Headline Asia DE&Iポリシー
+IVS アンチハラスメントポリシー
+IVS 2026における ハラスメント相談窓口ガイドライン
+IVS2025 Website
+©2026 IVS. ALL Rights Reserved.
+Startup Conference
+スタートアップカンファレンス
+KYOTO July
+京都七月
+13,000+ Registered
+13,000人超
+MAP / TIMETABLE
+SPEAKERS
+IVS GUEST GUIDEBOOK
+1. 開催概要 / 時間
+2. 会場へのアクセス
+3. PASSの受け取り方法
+4. 受付事前準備
+5. 参加パスの交換・紛失について
+6. 会場内のご案内
+7. セッション参加について
+8. 事前のミーティング機能について
+9. サイドイベントについて
+10. 参加に関する注意事項
+IVS2026
+IVS2025の実績
+IVS2025の様子
+ニュース
+IVS2026 テーマ
+4大コンテンツ
+コンテンツ一覧
+IVS PASS
+開催概要
+IVS CORE
+IVS CORE GUIDE
+SIDE EVENTS
+サイドイベントとは
+注目サイドイベント
+お役立ち情報
+サイドイベント申し込み
+種別について
+申請フロー
+注意事項
+事前説明会動画とFAQ
+GROUP PASS
+GROUP PASS
+AMA｢闇市｣
+GROUP PASS
+AMA｢闇市｣
+GROUP PASS
+AMA｢闇市｣
+IVS Startup Market
+IVS Startup Market
+スタァトアプマーケシト
+IVS Startup Market
+スタァトアプマーケシト
+IVS Startup Market
+スタァトアプマーケシト
+KYOTO ZONE
+KYOTO ZONE
+京都ゾーン
+KYOTO ZONE
+京都ゾーン
+KYOTO ZONE
+京都ゾーン
+IVS Youth
+IVS Youth
+IVS Youthのご案内
+IVS Youth
+IVS Youthのご案内
+IVS Youth
+IVS Youthのご案内
+SPIKES ZONE
+SPIKES ZONE
+京都ゾーン
+SPIKES ZONE
+京都ゾーン
+SPIKES ZONE
+京都ゾーン
+IVS2026 LAUNCHPAD
+IVS2026 LAUNCHPAD
+京都ゾーン
+IVS2026 LAUNCHPAD
+京都ゾーン
+IVS2026 LAUNCHPAD
+京都ゾーン
+MV SPECIAL SITE
+MV SPECIAL SITE
+MV特設サイト
+MV SPECIAL SITE
+MV特設サイト
+MV SPECIAL SITE
+MV特設サイト
+I'm In! Generator
+I'm In! Generator
+参加表明
+I'm In! Generator
+参加表明
+I'm In! Generator
+参加表明
+GROUP PASS
+GROUP PASS
+セット販売について
+GROUP PASS
+セット販売について
+GROUP PASS
+セット販売について
+PARTNERS LIST
+PARTNERS LIST
+パートナー一覧
+PARTNERS LIST
+パートナー一覧
+PARTNERS LIST
+パートナー一覧
+PARTNER INQUIRIES
+PARTNER INQUIRIES
+パートナーお問い合わせ
+PARTNER INQUIRIES
+パートナーお問い合わせ
+PARTNER INQUIRIES
+パートナーお問い合わせ
+IVS2026 ACCESS PASS
+IVS PASS
+IVS PASS Student
+CORE PASS
+CORE PASS Startup
+NEWS
+2026/06/29
+京都の伝統グルメから最先端フードテックまで。「IVS2026」フードエリアの詳細を公開
+2026/06/29
+IVS2026、注目セッションの第三弾を発表。AI・ディープテック・投資など6つのジャンル別に、京都市長 松井孝治氏、ユーグレナ 出雲充氏、OpenAIなど注目24セッションをご紹介
+2026/06/29
+国内外の厳選されたスタートアップ340社が集結！「IVS Startup Market」の出展企業決定。進化した「開かれた市場」でビジネスを加速
+CHILDCARE
+CHILDCARE
+託児所のご案内
+CHILDCARE
+託児所のご案内
+CHILDCARE
+託児所のご案内
+COLUMN
+COLUMN
+コラム
+COLUMN
+コラム
+COLUMN
+コラム
+PRESS KIT
+PRESS KIT
+プレスキット
+PRESS KIT
+プレスキット
+PRESS KIT
+プレスキット
+ACCESS / PARKING
+ACCESS / PARKING
+アクセスと駐車場
+ACCESS / PARKING
+アクセスと駐車場
+ACCESS / PARKING
+アクセスと駐車場
+ABOUT IVS2026
+ABOUT IVS2026
+IVS2026とは
+ABOUT IVS2026
+IVS2026とは
+ABOUT IVS2026
+IVS2026とは
+TEAM IVS2026
+TEAM IVS2026
+チーム体制
+TEAM IVS2026
+チーム体制
+TEAM IVS2026
+チーム体制
+ABOUT IVS
+ABOUT IVS
+IVSとは
+ABOUT IVS
+IVSとは
+ABOUT IVS
+IVSとは
+IVS JOURNAL
+IVS JOURNAL
+IVSジャーナル
+IVS JOURNAL
+IVSジャーナル
+IVS JOURNAL
+IVSジャーナル
+IVS CORE Waiting List Register
+IVS CORE Waiting List Register
+ウェイティングリスト登録
+IVS CORE Waiting List Register
+ウェイティングリスト登録
+IVS CORE Waiting List Register
+ウェイティングリスト登録
+OTHER INQUIRIES
+OTHER INQUIRIES
+その他お問い合わせ
+OTHER INQUIRIES
+その他お問い合わせ
+OTHER INQUIRIES
+その他お問い合わせ
+X
+LinkedIn
+Facebook
+Instagram
+IVSにおけるプライバシーポリシー 
+IVS2026 参加規約
+特定商取引法に基づく表記
+Headline Asia DE&Iポリシー
+IVS アンチハラスメントポリシー
+IVS 2026における ハラスメント相談窓口ガイドライン
+IVS2025 Website
+©2026 IVS. ALL Rights Reserved.
