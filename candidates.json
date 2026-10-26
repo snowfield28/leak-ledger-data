@@ -6961,46 +6961,6 @@
    ],
    "ind": "通信・IT",
    "pendingReason": "公式ページには件数・項目がなく、親会社ペイクラウドホールディングスの開示資料（URL未取得）を確認できていない。manual/ に開示資料の文面を貼れば反映できる"
-  },
-  {
-   "id": "onamae-desktop-cloud-2610-p",
-   "co": "お名前.com デスクトップクラウド（GMOインターネット）【対象外から再確認中】",
-   "date": "2026-10-21",
-   "announced": "2026-10-21",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "who": [
-    "unk"
-   ],
-   "sum": "10月21日の第1報では個人情報の漏えいは未確認とされ対象外にしていたが、報道によれば10月24日の第4報でGMOが「顧客の情報が外部に持ち出された事実を確認」と発表した。持ち出された情報の種類・件数は報道上も不明。攻撃者を名乗る者が10月24日に金銭要求の声明を出している（攻撃者側の主張で未検証）。",
-   "status": "ongoing",
-   "statusText": "報道ベースで第5報（10月24日）まで。",
-   "resp": "全プランのサーバー停止、全利用者に見舞金5,000円、不正取引の損失補償（報道）。",
-   "official": [
-    [
-     "第1報（2026/10/21）",
-     "https://www.onamae.com/news/article/11584"
-    ]
-   ],
-   "src": [
-    [
-     "CODE（商事法務）",
-     "https://code.shojihomu.jp/document/01a16c16b969e932446aef19"
-    ],
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/gmo_onamae_hacker_statement_lab_sources_20261025/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "第4報（10/24、group.gmo/info/alert/20261024/ 等）の公式本文を自動取得・WebFetchとも開けず未照合。excluded.json の onamae-desktop-cloud-2610 は第1報時点の判断。自動取得不可。manual/ に第4報・第5報の公式文面を貼れば反映できる"
   }
  ]
 }
