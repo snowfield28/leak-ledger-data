@@ -30137,6 +30137,56 @@
    ],
    "ind": "公共機関",
    "verified": "2026-10-26"
+  },
+  {
+   "id": "jr-smartex-express-ymirlink-2610",
+   "co": "東海旅客鉄道・西日本旅客鉄道・九州旅客鉄道（エクスプレス予約／スマートEX／委託先 ユミルリンク）",
+   "date": "2026-10-26",
+   "announced": "2026-10-26",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中（報道は約17万件）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "メールアドレス、会員ID、氏名（カタカナ）、会員種別",
+   "notIncl": "カタカナ以外の氏名、生年月日、住所、電話番号、クレジットカード番号・有効期限",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信を委託するユミルリンクが10月16日に不正アクセスを受けた際は「影響なし」と報告していたが、10月26日に同社から利用客の情報が第三者に閲覧または取得されたと連絡があり、JR3社が連名で公表。Cuenote FCで販促メール等を受信した会員が対象。件数は公式発表では未公表（ユミルリンクで確認中）で、報道は3社合計で約17万件としている。JR東海の予約システムからの漏えいは確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年10月26日の公表時点。件数はユミルリンクで確認中。",
+   "resp": "不正アクセスを受けたメール配信サービスの使用を直ちに停止。10月26日に個人情報保護委員会へ報告。対象の利用客にメール等で個別に連絡する。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://jr-central.co.jp/news/release/_pdf/000046119.pdf"
+   },
+   "official": [
+    [
+     "ユミルリンク株式会社で発生した不正アクセスに伴う「エクスプレス予約」「スマートＥＸ」の個人情報漏えいのおそれについて（2026/10/26）",
+     "https://jr-central.co.jp/news/release/_pdf/000046119.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "福岡TNCニュース",
+     "https://news.tnc.co.jp/news/articles/NID2026102732601"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/jr_smartex_express_reservation_cuenote_fc_leak_20261027_new_article/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-10-27"
   }
  ],
  "statusLabels": {
