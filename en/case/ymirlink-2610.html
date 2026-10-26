@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ユミルリンク株式会社（メール配信サービス） data breach (Oct 2026) | Japan Data Breach Ledger</title>
-<meta name="description" content="Personal data breach at ユミルリンク株式会社（メール配信サービス） (Japan). Records: 9M. Cause: Cyber attack (Unauthorized access). Industry: Telecom &amp; IT.">
+<meta name="description" content="Personal data breach at ユミルリンク株式会社（メール配信サービス） (Japan). Records: 51.6M. Cause: Cyber attack (Unauthorized access). Industry: Telecom &amp; IT.">
 <link rel="alternate" hreflang="ja" href="https://snowfield28.github.io/leak-ledger-data/case/ymirlink-2610.html">
 <link rel="alternate" hreflang="en" href="https://snowfield28.github.io/leak-ledger-data/en/case/ymirlink-2610.html">
 <link rel="alternate" hreflang="x-default" href="https://snowfield28.github.io/leak-ledger-data/case/ymirlink-2610.html">
 <link rel="canonical" href="https://snowfield28.github.io/leak-ledger-data/en/case/ymirlink-2610.html">
 <meta property="og:title" content="ユミルリンク株式会社（メール配信サービス） data breach (Oct 2026) | Japan Data Breach Ledger">
-<meta property="og:description" content="Personal data breach at ユミルリンク株式会社（メール配信サービス） (Japan). Records: 9M. Cause: Cyber attack (Unauthorized access). Industry: Telecom &amp; IT.">
+<meta property="og:description" content="Personal data breach at ユミルリンク株式会社（メール配信サービス） (Japan). Records: 51.6M. Cause: Cyber attack (Unauthorized access). Industry: Telecom &amp; IT.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://snowfield28.github.io/leak-ledger-data/en/case/ymirlink-2610.html">
 <meta property="og:site_name" content="Japan Data Breach Ledger">
@@ -160,20 +160,20 @@ document.addEventListener("DOMContentLoaded",function(){
 <nav class="crumb" aria-label="Breadcrumb"><a href="../">Ledger</a><span>›</span><a href="./">All incidents</a><span>›</span><span lang="ja">ユミルリンク株式会社（メール配信サービス）</span></nav>
 <h1><span lang="ja">ユミルリンク株式会社（メール配信サービス）</span>: personal data breach</h1>
 <div class="pills"><span class="pill c">Leak confirmed</span><span class="pill ongoing">Ongoing</span></div>
-<section><h2>Overview</h2><dl><dt>Records exposed</dt><dd>9M <span class="note" lang="ja">（延べ約900万件（5システム・試算））</span></dd><dt>First announced</dt><dd>Oct 19, 2026</dd><dt>Occurred / detected</dt><dd>Oct 16, 2026</dd><dt>Industry</dt><dd>Telecom &amp; IT</dd><dt>Cause</dt><dd>Cyber attack (Unauthorized access)</dd><dt>Whose data</dt><dd>Not specified</dd><dt>Last checked</dt><dd>Oct 20, 2026 (against the official release)</dd></dl></section>
-<section><h2>Data exposed</h2><div class="items"><span>Email address</span></div><p lang="ja">メールアドレスを含む情報（出力されたデータの詳細は調査中）</p></section>
+<section><h2>Overview</h2><dl><dt>Records exposed</dt><dd>51.6M <span class="note" lang="ja">（延べ51,628,280件（Cuenote FC 49システム）＋Cuenote BASE 190件（調査中16システムあり））</span></dd><dt>First announced</dt><dd>Oct 19, 2026</dd><dt>Occurred / detected</dt><dd>Oct 16, 2026</dd><dt>Latest update</dt><dd>Oct 26, 2026</dd><dt>Industry</dt><dd>Telecom &amp; IT</dd><dt>Cause</dt><dd>Cyber attack (Unauthorized access)</dd><dt>Whose data</dt><dd>Customers / users, Business partners / corporate clients</dd><dt>Last checked</dt><dd>Oct 20, 2026 (against the official release)</dd></dl></section>
+<section><h2>Data exposed</h2><div class="items"><span>Email address</span><span>Name</span><span>Date of birth</span><span>Phone number</span><span>Address</span></div><p lang="ja">Cuenote FC：配信先メールアドレスと付属情報（氏名、都道府県、生年月日など。利用企業ごとに異なる）、配信記録、Webアクセス記録、利用企業担当者の氏名・メールアドレス・住所・電話番号。Cuenote BASE：契約者の企業名、氏名、電話番号、メールアドレス（190件）</p></section>
 <p class="note">Descriptions below are shown in Japanese, as written in the official release.</p>
-<section><h2>What happened</h2><p lang="ja">同社が運営するメール配信サービスの一部サーバーが、プログラムの脆弱性を突いた不正アクセスを受けた。10月16日未明に発覚。サポート・品質管理担当者の認証情報が取得され、不正プログラムによりデータベースから合計5システムのデータが出力されたことを確認した。メールアドレスを含む情報が延べ約900万件出力されたと試算している。</p></section>
+<section><h2>What happened</h2><p lang="ja">同社メール配信サービスの一部サーバーが、ライブラリの脆弱性を突いた不正アクセスを受けた。10月16日に確認。第一報では5システム・延べ約900万件としたが、10月26日の第二報で、データ出力を確認したのはCuenote FCの49システム（延べ51,628,280件）、Cuenote BASEの契約者情報190件に拡大した。調査中のシステムが16あり、件数は増える可能性がある。</p></section>
 <div class="two">
-<section><h2>Investigation status</h2><p lang="ja">第一報（2026/10/19）の時点。外部専門家の協力のもと詳細調査中。</p></section>
-<section><h2>Organization response</h2><ul lang="ja"><li>当該サーバーをネットワークから切り離し、脆弱性修正プログラムの適用、担当者の認証情報の削除、不正プログラム検知体制の整備を実施。</li><li>捜査機関へ届出。</li><li>不正アクセス専用の問い合わせ窓口を設置。</li></ul></section>
+<section><h2>Investigation status</h2><p lang="ja">2026年10月26日の第二報時点。16システムで漏洩件数を調査中。漏洩した個人情報が公開された事実や不正利用は確認されていないとしている。</p></section>
+<section><h2>Organization response</h2><ul lang="ja"><li>当該サーバーの切り離し、脆弱性修正、サポート・品質管理担当者の認証情報の削除、不正プログラム検知体制の整備、認証画面・APIへの接続元IP制限。</li><li>警視庁へ通報し、個人情報保護委員会とJIPDECへ報告。</li><li>影響のあるお客様企業に個別連絡。</li><li>同社ドメインを使った迷惑メールへの注意を呼びかけ。</li></ul></section>
 </div>
 <section><h2>Contact</h2><a class="lk" href="tel:0368200088"><b>03-6820-0088</b><small lang=ja>平日9〜20時</small></a><a class="lk" href="mailto:support@cuenote.ne.jp">support@cuenote.ne.jp<small>Email</small></a><p class="note" lang="ja">不正アクセス専用お問い合わせ窓口（メールは24時間受付、返信は平日9〜19時）</p><p class="note">Source: the contact listed in the <a href="https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261019/20261019553124.pdf" rel="noopener">official release</a>. The service period may have ended, so check the release before contacting them.</p></section>
-<section><h2>Official release (primary source)</h2><a class="lk off" href="https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261019/20261019553124.pdf" rel="noopener"><span lang="ja">当社システムへの不正なアクセスに関するご報告（第一報）（2026/10/19）</span><small>https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261019/20261019553124.pdf</small></a></section>
+<section><h2>Official release (primary source)</h2><a class="lk off" href="https://japanir.jp/wp-content/uploads/2026/10/4372-20261026-01.pdf" rel="noopener"><span lang="ja">当社システムへの不正なアクセスに関するご報告（第二報）（2026/10/26）</span><small>https://japanir.jp/wp-content/uploads/2026/10/4372-20261026-01.pdf</small></a><a class="lk off" href="https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261019/20261019553124.pdf" rel="noopener"><span lang="ja">当社システムへの不正なアクセスに関するご報告（第一報）（2026/10/19）</span><small>https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261019/20261019553124.pdf</small></a></section>
 <section><h2>News coverage</h2><a class="lk" href="https://rocket-boys.co.jp/security-measures-lab/ymirlink_unauthorized_access_9million_records/" rel="noopener"><span lang="ja">セキュリティ対策Lab</span></a></section>
 <p><a class="btn" href="../#ymirlink-2610">Compare with other incidents</a></p>
 <p class="note">This ledger lists only incidents whose details were matched against the organization's own official release. The descriptions are summaries of facts taken from the official release and news reports; please check the official release for exact wording. Report errors through <a href="../contact.html">Contact / corrections</a>.</p>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ユミルリンク株式会社（メール配信サービス） data breach (Oct 2026)", "datePublished": "2026-10-19", "dateModified": "2026-10-20", "inLanguage": "en", "url": "https://snowfield28.github.io/leak-ledger-data/en/case/ymirlink-2610.html", "publisher": {"@type": "Organization", "name": "Japan Data Breach Ledger"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ユミルリンク株式会社（メール配信サービス） data breach (Oct 2026)", "datePublished": "2026-10-19", "dateModified": "2026-10-26", "inLanguage": "en", "url": "https://snowfield28.github.io/leak-ledger-data/en/case/ymirlink-2610.html", "publisher": {"@type": "Organization", "name": "Japan Data Breach Ledger"}}</script>
 <nav class="foot" aria-label="Site information"><a href="../">Ledger</a><a href="../case/">All incidents</a><a href="../about.html">About</a><a href="../privacy.html">Privacy policy</a><a href="../contact.html">Contact / corrections</a><a href="https://snowfield28.github.io/leak-ledger-data/case/ymirlink-2610.html" hreflang="ja" lang="ja">日本語</a></nav>
 </main></body>
 </html>

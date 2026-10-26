@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -25157,21 +25157,26 @@
    "types": [
     "不正アクセス"
    ],
-   "n": 9000000,
-   "label": "延べ約900万件（5システム・試算）",
+   "n": 51628280,
+   "label": "延べ51,628,280件（Cuenote FC 49システム）＋Cuenote BASE 190件（調査中16システムあり）",
    "st": "c",
    "items": [
-    "mail"
+    "mail",
+    "name",
+    "birth",
+    "tel",
+    "addr"
    ],
-   "itemsText": "メールアドレスを含む情報（出力されたデータの詳細は調査中）",
+   "itemsText": "Cuenote FC：配信先メールアドレスと付属情報（氏名、都道府県、生年月日など。利用企業ごとに異なる）、配信記録、Webアクセス記録、利用企業担当者の氏名・メールアドレス・住所・電話番号。Cuenote BASE：契約者の企業名、氏名、電話番号、メールアドレス（190件）",
    "notIncl": "",
    "who": [
-    "unk"
+    "cust",
+    "biz"
    ],
-   "sum": "同社が運営するメール配信サービスの一部サーバーが、プログラムの脆弱性を突いた不正アクセスを受けた。10月16日未明に発覚。サポート・品質管理担当者の認証情報が取得され、不正プログラムによりデータベースから合計5システムのデータが出力されたことを確認した。メールアドレスを含む情報が延べ約900万件出力されたと試算している。",
+   "sum": "同社メール配信サービスの一部サーバーが、ライブラリの脆弱性を突いた不正アクセスを受けた。10月16日に確認。第一報では5システム・延べ約900万件としたが、10月26日の第二報で、データ出力を確認したのはCuenote FCの49システム（延べ51,628,280件）、Cuenote BASEの契約者情報190件に拡大した。調査中のシステムが16あり、件数は増える可能性がある。",
    "status": "ongoing",
-   "statusText": "第一報（2026/10/19）の時点。外部専門家の協力のもと詳細調査中。",
-   "resp": "当該サーバーをネットワークから切り離し、脆弱性修正プログラムの適用、担当者の認証情報の削除、不正プログラム検知体制の整備を実施。捜査機関へ届出。不正アクセス専用の問い合わせ窓口を設置。",
+   "statusText": "2026年10月26日の第二報時点。16システムで漏洩件数を調査中。漏洩した個人情報が公開された事実や不正利用は確認されていないとしている。",
+   "resp": "当該サーバーの切り離し、脆弱性修正、サポート・品質管理担当者の認証情報の削除、不正プログラム検知体制の整備、認証画面・APIへの接続元IP制限。警視庁へ通報し、個人情報保護委員会とJIPDECへ報告。影響のあるお客様企業に個別連絡。同社ドメインを使った迷惑メールへの注意を呼びかけ。",
    "contact": {
     "tels": [
      {
@@ -25187,6 +25192,10 @@
    },
    "official": [
     [
+     "当社システムへの不正なアクセスに関するご報告（第二報）（2026/10/26）",
+     "https://japanir.jp/wp-content/uploads/2026/10/4372-20261026-01.pdf"
+    ],
+    [
      "当社システムへの不正なアクセスに関するご報告（第一報）（2026/10/19）",
      "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261019/20261019553124.pdf"
     ]
@@ -25198,7 +25207,8 @@
     ]
    ],
    "ind": "通信・IT",
-   "verified": "2026-10-20"
+   "verified": "2026-10-20",
+   "last": "2026-10-26"
   },
   {
    "id": "jetro-2610",
@@ -29026,6 +29036,1107 @@
    "ind": "通信・IT",
    "verified": "2026-10-26",
    "last": "2026-10-24"
+  },
+  {
+   "id": "joshin-2610",
+   "co": "株式会社Joshin（ジョーシン）",
+   "date": "2026-10-17",
+   "announced": "2026-10-17",
+   "occurred": "2026-10-16",
+   "last": "2026-10-26",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 6000000,
+   "label": "最大約600万件（会員情報）ほか、サブスク最大約23万件・リフォーム写真システム最大約800件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "deal",
+    "id",
+    "doc",
+    "acct"
+   ],
+   "itemsText": "会員情報DB：氏名、住所、電話番号、会員番号（最大約600万件）。ジョーシンのサブスク：会員番号、電話番号と手書きサイン、ログインIDと初期パスワード、請求履歴、契約番号・デバイスID、有効化コード（最大約23万件）。リフォーム写真アップロードシステム：免許証画像2件、マイナンバーカード1件、口座番号5件、施工中の工事写真（最大約800件）",
+   "notIncl": "クレジットカード情報（決済情報は非保持）",
+   "who": [
+    "cust"
+   ],
+   "sum": "10月16日にネットワークの異常を検知し、不正アクセスの形跡を確認。10月17日に第一報で公表し、26日の第2報で3つのシステムについて漏えいの可能性がある件数と項目を公表した。件数は漏えいの可能性がある総数で、確定した件数ではないとしている。",
+   "status": "ongoing",
+   "statusText": "2026年10月26日の第2報時点。不正アクセスの詳細と影響範囲、情報漏えいの有無を調査中で、一部サービスは停止中。",
+   "resp": "不正アクセスの形跡があるサーバーをネットワークから遮断し、外部専門機関に調査を依頼。個人情報保護委員会と警察に相談・報告済み。免許証画像・マイナンバーカード・口座番号が含まれる該当のお客さまには個別に連絡。当社を装う不審なメール・SMS・電話への注意を呼びかけ。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "06-6631-1323",
+      "hours": "お客様相談窓口・9:30〜18:30"
+     }
+    ],
+    "mails": [
+     "joshin_otoiawase@joshin.co.jp"
+    ],
+    "src": "https://www.joshin.co.jp/ja/ir/news/auto_20261026556267/pdfFile.pdf"
+   },
+   "official": [
+    [
+     "不正アクセスによるシステム障害発生のお詫びとお知らせ（第2報）（2026/10/26）",
+     "https://www.joshin.co.jp/ja/ir/news/auto_20261026556267/pdfFile.pdf"
+    ],
+    [
+     "不正アクセスによるシステム障害発生のお詫びとお知らせ（2026/10/17）",
+     "https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2151273.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/%e3%82%b8%e3%83%a7%e3%83%bc%e3%82%b7%e3%83%b3%e3%80%81%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%a7%e4%bc%9a%e5%93%a1%e6%83%85%e5%a0%b1%e6%9c%80%e5%a4%a7600%e4%b8%87%e4%bb%b6/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "rakuten-travel-2610",
+   "co": "楽天グループ（楽天トラベル 海外ホテル予約サイト／多言語予約サイト）",
+   "date": "2026-10-26",
+   "announced": "2026-10-26",
+   "occurred": "2026-09-10",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 3540000,
+   "label": "最大約354万件（4区分の合計）",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "deal",
+    "card",
+    "id"
+   ],
+   "itemsText": "事象①（海外ホテル予約ページ）：予約者最大約4万件の氏名・メールアドレス・電話番号・居住国・社内用識別番号・予約情報・同伴者の氏名と居住国、うち最大約3万6千件はカード発行者識別番号と下4桁・名義・有効期限・ブランド。ログイン者最大約260万件の氏名・メールアドレス・電話番号・社内用識別番号。事象②（多言語予約サイト）：ログイン者最大約86万件のメールアドレス・社内用識別番号、管理画面で入力された宿泊施設従業員最大約4万件のアカウント名・メールアドレス・社内用識別番号",
+   "notIncl": "カード番号の全桁・セキュリティコード、パスワード、パスポート等の身分証明書情報、住所",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "海外ホテル予約サイトの一部ページ（子会社Rakuten Travel Xchange管理）で9月10日に異常を検知し、10月20日には多言語予約サイトで不正アクセスの可能性を検知。10月26日に2件の不正アクセスとして公表した。報道は合計約350万件としているが、本台帳は公式発表の4区分の最大件数を合算した。",
+   "status": "ongoing",
+   "statusText": "2026年10月26日の公表時点。対象者への個別連絡を順次実施中。",
+   "resp": "アクセス経路の遮断とシステム改修（事象①は9月16日、事象②は10月21日に完了）、対象者への個別連絡と注意喚起、個人情報保護委員会と国外の関係当局への報告。",
+   "contact": {
+    "mails": [
+     "travel-support@faq.rakuten.co.jp"
+    ],
+    "forms": [
+     [
+      "多言語予約サイト（英語）",
+      "https://travel.faq.rakuten.net/en-us/s/inquiries"
+     ],
+     [
+      "多言語予約サイト（宿泊施設関係者向け）",
+      "https://rakutenkoqml.formstack.com/forms/travel_partner_inquiries"
+     ]
+    ],
+    "note": "事象①は専用メール。事象②は言語別フォーム（韓国語・繁體中文あり）",
+    "src": "https://travel.rakuten.co.jp/info/announce/20261026.html"
+   },
+   "official": [
+    [
+     "海外ホテル予約サイトの一部ページならびに多言語予約サイトに関するお詫びとお知らせ（2026/10/26）",
+     "https://travel.rakuten.co.jp/info/announce/20261026.html"
+    ]
+   ],
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2151305.html"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "valuence-nanboya-online-2610",
+   "co": "バリュエンスジャパン株式会社（「なんぼや」オンライン買取）",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "occurred": "2026-10-18",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 1165,
+   "label": "最大1,165名",
+   "st": "p",
+   "items": [
+    "tel",
+    "name",
+    "addr",
+    "birth",
+    "work",
+    "mail",
+    "acct",
+    "doc"
+   ],
+   "itemsText": "対象期間2026年9月14日〜10月18日午前9時。電話番号（最大1,165名全員）、氏名・住所・生年月日・性別・職業・メールアドレス・銀行口座情報等（最大439名）、本人確認書類の画像（10名）。お客さまにより項目は異なる",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "10月18日にオンライン買取システムへの不正アクセスを検知し、お客さまおよび従業員の情報が取得された可能性があると10月21日に公表。店頭・出張・宅配買取は影響なし。",
+   "status": "ongoing",
+   "statusText": "2026年10月21日の公表時点。警察への相談は予定とされている。",
+   "resp": "不正アクセス経路の遮断と検証、オンライン買取サービスは復旧。対象のお客さまに個別案内。個人情報保護委員会とプライバシーマーク審査機関に速報し、警察に相談予定。不審な連絡への注意を呼びかけ。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-4580-9864",
+      "hours": "月〜金10:00〜19:00（祝日除く）・お客さま相談窓口"
+     }
+    ],
+    "src": "https://www.valuence.inc/news/2026/10/21/notice-regarding-unauthorized-access/"
+   },
+   "official": [
+    [
+     "【お詫び】当社オンライン買取システムへの不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ（2026/10/21）",
+     "https://www.valuence.inc/news/2026/10/21/notice-regarding-unauthorized-access/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/valuence-nanboya-online-kaitori-identity-misuse-revised/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "valuence-allu-wasabi-2610",
+   "co": "バリュエンスジャパン株式会社（ALLU／委託先 ワサビ「WASABI SWITCH」）",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "ALLUの外部モール経由で注文したお客さまの氏名、住所、電話番号、メールアドレス、注文日時、商品名、金額など（ワサビ社の公表に基づく）。漏えいの範囲・対象期間はワサビ社で調査中",
+   "notIncl": "クレジットカード情報（同システムは保持せず）",
+   "who": [
+    "cust"
+   ],
+   "sum": "受注管理に利用する株式会社ワサビの「WASABI SWITCH」への不正アクセスで注文情報が漏えいし、ALLUのお客さまの情報も漏えいした可能性があるとして10月21日に第一報で注意喚起。実際の注文内容を記載した「返金」を装う不審メールが届いている。",
+   "status": "ongoing",
+   "statusText": "2026年10月21日18時時点の第一報。件数や範囲は調査中。",
+   "resp": "不審メール（返金案内・LINE誘導）への注意喚起。対象の外部モールを公表。委託先の管理を含め調査。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-4580-9864",
+      "hours": "月〜金10:00〜19:00（祝日除く）・お客さま相談窓口"
+     }
+    ],
+    "note": "購入者向けにワサビ社の窓口もあり",
+    "src": "https://www.valuence.inc/news/2026/10/21/unauthorized-access-to-wasabi-switch/"
+   },
+   "official": [
+    [
+     "【注意喚起（第一報）】当社が利用する外部の受注管理システムへの不正アクセスに伴う、不審なメール（返金案内・LINE誘導）へのご注意のお願い（2026/10/21）",
+     "https://www.valuence.inc/news/2026/10/21/unauthorized-access-to-wasabi-switch/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/valuence-nanboya-online-kaitori-identity-misuse-revised/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "komehyo-wasabi-2610",
+   "co": "コメ兵ホールディングス（コメ兵・ブランドオフ各社／委託先 ワサビ「WASABI SWITCH」）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "occurred": "2026-10-14",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 473,
+   "label": "473件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "氏名、住所、電話番号、メールアドレス、ご注文内容等（お客様により異なる）。対象期間は2026年10月3日〜10月16日の注文（BRAND OFFは10月14日の注文）",
+   "notIncl": "クレジットカード情報（決済代行会社が管理）",
+   "who": [
+    "cust"
+   ],
+   "sum": "グループ各社のECサイトが利用するワサビ社の「WASABI SWITCH」への不正アクセスで、注文したお客様の情報473件が流出したと10月23日に公表。購入者に注文情報を使った不審メールが届いている。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日22時時点。ワサビ社と外部専門機関による原因・影響範囲の調査が続いている。",
+   "resp": "当該システムとの連携・アクセスを遮断し、アカウントを一時非稼働化。一部の直営ECと各種ECモールを一時停止。対象のお客様には特定後に個別案内。委託先の管理・監査体制を強化。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-808-126",
+      "hours": "コメ兵（KOMEHYO）・10:30〜18:00"
+     }
+    ],
+    "mails": [
+     "dedicated-support@komehyo.co.jp"
+    ],
+    "forms": [
+     [
+      "BRAND OFF（K-ブランドオフ）",
+      "https://www.brandoff-store.com/Form/Inquiry/InquiryInput.aspx"
+     ],
+     [
+      "ロデオドライブ（アールケイエンタープライズ）",
+      "https://www.rodeodrive.co.jp/shop/contact/contact.aspx"
+     ]
+    ],
+    "note": "グループ会社別の窓口あり（BRAND OFF台湾・香港もフォーム）",
+    "src": "https://komehyohds.com/2026/10/23/%E5%BD%93%E7%A4%BE%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%8C%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E5%A4%96%E9%83%A8%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%A7%94%E8%A8%97%E5%85%88%E3%81%B8%E3%81%AE/"
+   },
+   "official": [
+    [
+     "当社グループが利用する外部システム(委託先)への不正アクセスによる個人情報漏洩に関するお知らせ（2026/10/23）",
+     "https://komehyohds.com/2026/10/23/%E5%BD%93%E7%A4%BE%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%8C%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E5%A4%96%E9%83%A8%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%A7%94%E8%A8%97%E5%85%88%E3%81%B8%E3%81%AE/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/komehyo_wasabi_switch_473_orders_leak_20261025/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "ejudo-blastmail-2610",
+   "co": "株式会社eJudo（柔道ニュース／委託先 ラクスライトクラウド「ブラストメール」）",
+   "date": "2026-10-24",
+   "announced": "2026-10-24",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "全件（件数非公表）",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "eJudo会員（過去の会員を含む）のメールアドレス",
+   "notIncl": "氏名、クレジットカード情報（登録していない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信サービス「ブラストメール」への不正アクセスで、同社が登録していた配信先リスト（読者データ）の全件が漏えいしたとの報告を受けたと公表。",
+   "status": "ongoing",
+   "statusText": "2026年10月24日の公表時点。ニュースレターの配信は休止中で、再開は未定。",
+   "resp": "10月21日以降、ブラストメールと自社システムの連携を停止し、ニュースレター配信を休止。当社を装う不審メールへの注意を呼びかけ。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://ejudo.info/articles/34272"
+   },
+   "official": [
+    [
+     "委託先メール配信サービス「ブラストメール」における個人情報の漏洩に関するお詫びとお知らせ（2026/10/24）",
+     "https://ejudo.info/articles/34272"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ejudo_blastmail_all_mailing_list_email_leak_20261025/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "nhk-shumi-engei-blastmail-2610",
+   "co": "NHK出版（「みんなの趣味の園芸」／委託先 ラクスライトクラウド「ブラストメール」）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 127000,
+   "label": "約12万7,000件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス、ニックネーム、性別、お住まいの都道府県",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "「ブラストメール」への不正アクセスで、メールマガジンに登録した会員のメール送付先リスト（全件）の漏えいが10月23日に報告されたと公表。漏えい件数は約12万7,000件とみられる。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日15時時点。メール配信サービスの復旧時期は未定。",
+   "resp": "安全確認と復旧作業が完了するまでメール配信サービスを停止。不審メールへの注意を呼びかけ。",
+   "contact": {
+    "note": "「みんなの趣味の園芸」メール配信サービスに関するお問い合わせフォームを設置（URLは発表ページ参照）",
+    "src": "https://news.nhk-book.co.jp/archives/35481"
+   },
+   "official": [
+    [
+     "「みんなの趣味の園芸」メール配信サービスに関するお知らせとおわび（2026/10/23）",
+     "https://news.nhk-book.co.jp/archives/35481"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nhk-shumi-engei-blastmail-127000-leak-20261026/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "jinjibu-hrvision-blastmail-2610",
+   "co": "株式会社HRビジョン（「日本の人事部」／委託先 ラクスライトクラウド「ブラストメール」）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 212243,
+   "label": "最大212,243件（登録アドレス数）",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "「日本の人事部」メールマガジン（毎週火曜配信）の登録者のメールアドレス（2026年10月20日23時55分時点の登録分）",
+   "notIncl": "氏名、勤務先、部署・役職、電話番号、ログイン用パスワード（ブラストメールには共有していない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "「ブラストメール」への不正アクセスで、同社が登録していたメールマガジン配信先のメールアドレスの漏えいを確認したと10月23日に公表。実際の漏えい件数はラクスライトクラウド社の報告待ち。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日の公表時点。正確な漏えい件数はラクスライトクラウド社の報告待ち。",
+   "resp": "10月21日以降ブラストメールでの配信を停止し、別の配信環境で送信。対象会員に個別連絡。個人情報保護委員会とJIPDECに報告。",
+   "contact": {
+    "mails": [
+     "privacy-support@jinjibu.jp"
+    ],
+    "note": "『日本の人事部』事務局",
+    "src": "https://jinjibu.jp/hrvision/"
+   },
+   "official": [
+    [
+     "【重要】メールマガジン配信用外部サービスへの不正アクセス、および配信先メールアドレスの漏えいに関するお詫びとお知らせ（2026/10/23）",
+     "https://jinjibu.jp/hrvision/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/jinjibu-hrvision-blastmail-email-leak-20261023/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "ai-lab-225-2610",
+   "co": "日本成令株式会社（「AI Lab 225」）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "occurred": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 19630,
+   "label": "約19,630件（会員約380名＋登録途中約19,250件）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "会員（退会者含む約380名）：ニックネーム、氏名、メールアドレス、生年月日、性別、都道府県、Facebook連携情報、ログインパスワード。登録途中の方（約19,250件）：メールアドレス、ログインパスワード。問い合わせ者：氏名、メールアドレス、問い合わせ内容",
+   "notIncl": "クレジットカード情報",
+   "who": [
+    "cust"
+   ],
+   "sum": "10月22日にサーバーへの不正アクセスを確認。2026年9月13日ごろから侵入され、2022年1月ごろにも不正プログラムが設置されていたと判明した。パスワードは暗号化せず保存していた。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日の公表時点。",
+   "resp": "経路遮断、不正プログラム削除、全会員のパスワード無効化、Facebookログイン停止。個人情報保護委員会へ報告し、会員にメールで個別連絡。システム刷新とパスワード暗号化で再発防止。",
+   "contact": {
+    "mails": [
+     "info@ai-lab-225.com"
+    ],
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://ai-lab-225.com/contactus"
+     ]
+    ],
+    "note": "平日10時〜17時に順次返信",
+    "src": "https://ai-lab-225.com/news2?id=836"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報漏えいのおそれに関するお詫びとお知らせ（2026/10/23）",
+     "https://ai-lab-225.com/news2?id=836"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ai_lab_225_nihon_seirei_unauthorized_access_password_leak_risk_20261026/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "ivs-headline-studio-2610",
+   "co": "株式会社Headline Japan（IVS2025公式サイト／クラウドサービス Studio）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 4200,
+   "label": "約4,200件",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "work"
+   ],
+   "itemsText": "IVS2025公式サイトの全フォーム回答（氏名、メールアドレス、会社名、役職など）",
+   "notIncl": "IVS2026公式サイトは別サービスのため対象外",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "Studio社が10月16日に公表した不正アクセス（9月30日〜10月1日）で、IVS2025公式サイトのフォーム回答約4,200件が流出した可能性があると10月23日に公表。不正利用や二次被害は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日の公表時点。個人情報保護委員会への報告はStudio社が連名で行う。",
+   "resp": "脆弱性は修正済みで経路は遮断済み。情報が漏えいした可能性のある全員に個別連絡。詐欺等の不審メールへの注意を呼びかけ。",
+   "contact": {
+    "mails": [
+     "ivs-office@infinityventures.com"
+    ],
+    "note": "株式会社Headline Japan",
+    "src": "https://www.ivs.events/news/20261023-ivs2025-security-incident"
+   },
+   "official": [
+    [
+     "IVS2025公式サイトで利用していたWeb制作サービス「Studio」への不正アクセスによる個人情報漏洩の可能性に関するお知らせとお詫び（2026/10/23）",
+     "https://www.ivs.events/news/20261023-ivs2025-security-incident"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ivs2025-studio-form-data-exposure-4200/"
+    ]
+   ],
+   "ind": "団体",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "monitas-qzoo-2610",
+   "co": "株式会社モニタス（アンケートサイト「Qzoo」）",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "occurred": "2026-10-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 400000,
+   "label": "約40万件（Qzooの保有全件・調査中）",
+   "st": "p",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "mail",
+    "id",
+    "acct"
+   ],
+   "itemsText": "基本情報（氏名、生年月日、住所、電話番号、メールアドレス等）、会員認証情報（会員ID、パスワード等）、口座番号・支店名・口座名義、アンケート回答情報（年収、職業等）。影響を受けた可能性のあるデータベースで、特定を確認中",
+   "notIncl": "クレジットカード情報、マイナンバー（保有せず）",
+   "who": [
+    "cust"
+   ],
+   "sum": "10月17日にQzooのサーバーへの不正アクセスを確認。SQLインジェクションでデータベースの閲覧・更新があった。サービスを停止して調査し、10月21日に公表した。",
+   "status": "ongoing",
+   "statusText": "2026年10月21日の公表時点。影響範囲と漏えいデータは調査中で、サービスは停止中。",
+   "resp": "アクセス遮断とサービス停止、個人情報保護委員会へ速報、外部専門機関と調査。再開時に全モニターのパスワード再設定を依頼。対象者に順次個別案内。",
+   "contact": {
+    "mails": [
+     "qzoo_support@monitas.co.jp"
+    ],
+    "note": "Qzooお客さまお問い合わせ窓口",
+    "src": "https://monitas.co.jp/news/security-notice-20261021.html"
+   },
+   "official": [
+    [
+     "当社が運営するアンケートサイト「Qzoo」への不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（2026/10/21）",
+     "https://monitas.co.jp/news/security-notice-20261021.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/monitas-qzoo-sql-injection-400000-possible-leak/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "mlit-shoene2024-hakuhodo-2610",
+   "co": "国土交通省「住宅省エネ2024キャンペーン」事務局（運営 博報堂）",
+   "date": "2026-10-20",
+   "announced": "2026-10-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 23918,
+   "label": "23,918名（16,950事業者・速報値）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "work"
+   ],
+   "itemsText": "法人代表者情報（氏名、肩書）、個人事業主情報（氏名、住所）、補助金担当者（統括アカウント担当者）の氏名・部署・役職・業務用の住所・電話番号・メールアドレス",
+   "notIncl": "補助事業を利用した消費者（共同事業者）の個人情報の漏洩は確認されていない",
+   "who": [
+    "biz"
+   ],
+   "sum": "事務局である博報堂が運営する補助金申請システムに外部から不正操作があり、登録事業者の情報が漏洩した可能性があると10月20日に国土交通省と事務局が公表。数字は速報値で重複等を精査中。",
+   "status": "ongoing",
+   "statusText": "2026年10月20日の公表時点。原因と被害の詳細は博報堂が調査中で、国土交通省が早急な調査と再発防止を指示。",
+   "resp": "システム機能を全停止（完了実績報告に必要な機能に限り再開予定）。登録事業者の統括アカウント担当者に10月20日メールで連絡。事業者・消費者向けの相談窓口を設置。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0570-062-065",
+      "hours": "平日9:00〜17:00（IP電話は050-3524-7232）・住宅省エネ2024キャンペーン事務局"
+     }
+    ],
+    "forms": [
+     [
+      "個人情報漏洩に関するお問い合わせフォーム",
+      "https://jutaku-shoene2024.mlit.go.jp/form-inquiry/"
+     ]
+    ],
+    "note": "消費者向けに住まいるダイヤルの窓口もあり",
+    "src": "https://jutaku-shoene2024.mlit.go.jp/news/2026102001.html"
+   },
+   "official": [
+    [
+     "【重要】「住宅省エネ2024キャンペーン」の事務局における登録事業者情報の漏洩の可能性について（2026/10/20）",
+     "https://jutaku-shoene2024.mlit.go.jp/news/2026102001.html"
+    ],
+    [
+     "報道発表資料：「住宅省エネ2024キャンペーン」の事務局における登録事業者情報の漏洩の可能性について（2026/10/20）",
+     "https://www.mlit.go.jp/report/press/house04_hh_001366.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mlit-hakuhodo-jutaku-shoene2024-personal-data-23918-20261026/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "nichigas-mynichigas-2610",
+   "co": "日本瓦斯株式会社（ニチガス「マイニチガス」）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "occurred": "2026-10-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 85,
+   "label": "85件",
+   "st": "c",
+   "items": [
+    "name",
+    "tel"
+   ],
+   "itemsText": "81件：氏名、一部が伏字の電話番号。4件：姓、一部が伏字の電話番号",
+   "notIncl": "クレジットカード情報、銀行口座情報、ログイン用パスワード",
+   "who": [
+    "cust"
+   ],
+   "sum": "10月20日に「マイニチガス」の新規会員登録システムへの不正アクセスを確認。連続的なアクセスで一部のお客さまの情報が閲覧・取得されたと10月23日に公表。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日現在の情報。二次被害は確認されていない。",
+   "resp": "海外IPアドレス等からのアクセスを遮断し、該当APIの改修と監視強化を完了。個人情報保護委員会へ報告、警察に相談・被害申告。対象のお客さまに個別案内。アプリ・Web版は10月23日20時〜26日9時にメンテナンス。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-564-927",
+      "hours": "日本瓦斯コールセンター・平日9時〜17時"
+     }
+    ],
+    "forms": [
+     [
+      "専用お問い合わせWEBフォーム（24時間）",
+      "https://forms.gle/KYnp4WVMGaEL7X1C9"
+     ]
+    ],
+    "src": "https://www.nichigas.co.jp/for-home/important-news/hcnrb5b56"
+   },
+   "official": [
+    [
+     "当社システムへの不正アクセスによるお客さま情報の漏えいに関するお詫びとご報告（2026/10/23）",
+     "https://www.nichigas.co.jp/for-home/important-news/hcnrb5b56"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nichigas-my-nichigas-unauthorized-access-85/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "chariloto-2610",
+   "co": "株式会社チャリ・ロト（「チャリロト」アプリ）",
+   "date": "2026-10-24",
+   "announced": "2026-10-24",
+   "occurred": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 373,
+   "label": "373名",
+   "st": "c",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "mail",
+    "acct",
+    "card",
+    "deal"
+   ],
+   "itemsText": "チャリカ会員373名の会員ID、氏名、生年月日、性別、住所、メール、電話番号、チャリカ残高ほか、銀行口座情報（銀行名・支店名・口座種別・口座番号・名義）、クレジットカード情報（名義、下4桁のみ、有効期限、ブランド）、入出金・精算履歴、投票履歴",
+   "notIncl": "ログインパスワード、クレジットカード番号の全桁、セキュリティコード",
+   "who": [
+    "cust"
+   ],
+   "sum": "10月21日の約3時間半に脆弱性を悪用した不正アクセスがあり、チャリカ会員の情報が取得された。10月22日に不審なログを発見し、24日に取得情報を特定して公表。二次被害は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年10月24日の公表時点。",
+   "resp": "脆弱性修正を10月23日に反映し、アプリサービスを再開。対象者へ順次個別連絡。個人情報保護委員会へ速報。不審な電話・メールへの注意を呼びかけ。",
+   "contact": {
+    "mails": [
+     "support@biz.chariloto.com"
+    ],
+    "note": "チャリロトコールセンター",
+    "src": "https://chariloto.jp/news/20261024/index.html"
+   },
+   "official": [
+    [
+     "「チャリロト」アプリサービスへの不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ（2026/10/24）",
+     "https://chariloto.jp/news/20261024/index.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/chariloto_373_users_bank_account_voting_history_data_breach_20261026/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "mhlw-1fedu-technohill-2610",
+   "co": "厚生労働省（委託先 テクノヒル「1FEdu」）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 595,
+   "label": "最大595名（うち6名の漏えいを確認）",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "work",
+    "id"
+   ],
+   "itemsText": "メールアドレスとパスワード（6名の漏えいを確認、不正ログインも確認）。同データベースの受講者最大595名分の氏名、ふりがな、年代、性別、所属組織・部署、役職、職種、メールアドレス、パスワード、電話番号、福島第一原発での経験年数、従事業務（登録状況により異なる）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "委託事業「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」の受託者テクノヒルが運営するサイト「1FEdu」にサイバー攻撃があり、個人情報が漏えいしたと10月22日に厚労省が発表。",
+   "status": "ongoing",
+   "statusText": "2026年10月22日の発表時点。漏えいの原因は調査中。二次被害は確認されていない。",
+   "resp": "サービスを停止し外部からのアクセスを遮断。厚労省が委託事業者に再発防止と原因調査を指導。対象者に個別連絡する。パスワードはシステムが機械的に付与し利用者が変更できない仕様。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-3502-6755",
+      "hours": "労働基準局安全衛生部労働衛生課・直通"
+     }
+    ],
+    "note": "照会先：電離放射線労働者健康対策室",
+    "src": "https://www.mhlw.go.jp/stf/newpage_76892.html"
+   },
+   "official": [
+    [
+     "委託事業に係る個人情報の漏えいについて（2026/10/22）",
+     "https://www.mhlw.go.jp/stf/newpage_76892.html"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/26/56565.html"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "sankei-living-2610",
+   "co": "株式会社サンケイリビング新聞社",
+   "date": "2026-10-21",
+   "occurred": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "リビングWeb・シティリビングWeb・まちっと等の会員（退会者を含む）やアンケート利用者の氏名・連絡先など（項目は登録内容により異なる）",
+   "notIncl": "クレジットカード情報（預かっていない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "10月16日にWebサイトへの不正アクセスを確認。サーバーに保管する個人情報が漏えいした可能性があるとして第一報を公表し、一部Webサービスを停止した。公式ページに発表日の表記がなく、10月21日時点の状況が記載されている。委託元の自治体が別途発表している。",
+   "status": "ongoing",
+   "statusText": "第一報（10月21日時点の状況）。対象件数は調査中。",
+   "resp": "不正なアクセスを遮断し、個人情報保護委員会へ速報。外部専門機関と調査し、安全確認までWebサービスを一時停止。",
+   "contact": {
+    "mails": [
+     "toiawase@sankeiliving.co.jp"
+    ],
+    "src": "https://oshirase.living.jp/"
+   },
+   "official": [
+    [
+     "当社サーバーへの不正アクセスによる個人情報漏えいの可能性とサービスの一時停止に関するお詫びとお知らせ（第一報）（2026/10/21時点）",
+     "https://oshirase.living.jp/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sankei-living-newspaper-unauthorized-access-municipalities/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "tome-city-sankeiliving-2610",
+   "co": "宮城県登米市（結婚支援事業／委託先の親会社 サンケイリビング新聞社）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "occurred": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 39,
+   "label": "39人",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "birth",
+    "tel",
+    "work",
+    "mail"
+   ],
+   "itemsText": "氏名、住所、生年月日、電話番号、勤務先又は業種、メールアドレス（令和8年度登米市結婚支援事業の申込者）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "委託事業者（仙台リビング新聞社）の親会社サンケイリビング新聞社のサーバーへの不正アクセスで、結婚支援事業の申込者の情報が漏えいした可能性があると登米市が公表。不正利用の事実は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日の発表時点。委託先とその親会社が調査中。",
+   "resp": "委託事業者が運営するWebサービス（リビング仙台Web）を一時停止。対象者へは委託事業者から連絡する予定。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0220-22-2173",
+      "hours": "まちづくり推進部市民協働課・直通"
+     }
+    ],
+    "src": "https://www.city.tome.miyagi.jp/koshitu/shisejoho/happyoshiryo/r8/documents/081023_houdou.pdf"
+   },
+   "official": [
+    [
+     "株式会社サンケイリビング新聞社で発生した不正アクセスに伴う個人情報漏えいの可能性について（2026/10/23）",
+     "https://www.city.tome.miyagi.jp/koshitu/shisejoho/happyoshiryo/r8/documents/081023_houdou.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sankei-living-newspaper-unauthorized-access-municipalities/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "hiroshima-pref-dayori-sankeiliving-2610",
+   "co": "広島県（ひろしま県民だよりプレゼントフォーム／サンケイリビング新聞社）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "occurred": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 1470,
+   "label": "約1,470件（723件＋747件）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "vol.386（10/1〜10/22・723件）：氏名、年齢、住所、電話番号、メールアドレス、アンケート回答。vol.385（7/1〜7/31・747件）：氏名、年齢、住所、電話番号、アンケート回答",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "県民だよりのプレゼントフォームに利用するサンケイリビング新聞社のサーバーへの不正アクセスで、応募情報約1,470件が漏洩した可能性があると広島県が公表。二次被害は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日の発表時点。委託先とその親会社が調査中。",
+   "resp": "広島リビング新聞社のプレゼントフォームの利用を停止し、10月23日から県の電子申請システムのフォームに切り替え。受託者に再発防止策を求めている。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "082-513-2378",
+      "hours": "広島県総務局広報課"
+     }
+    ],
+    "mails": [
+     "soukouhou@pref.hiroshima.lg.jp"
+    ],
+    "src": "https://www.pref.hiroshima.lg.jp/dayori/notice-20261023.html"
+   },
+   "official": [
+    [
+     "不正アクセスに伴うひろしま県民だよりに関する個人情報漏洩の可能性について(お詫びと注意喚起)（2026/10/23）",
+     "https://www.pref.hiroshima.lg.jp/dayori/notice-20261023.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sankei-living-newspaper-unauthorized-access-municipalities/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "shimane-rekishi-seminar-sankeiliving-2610",
+   "co": "島根県（歴史・文化オンラインセミナー／委託先 サンケイリビング新聞社）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "occurred": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 335,
+   "label": "335件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "10月3日開催「歴史・文化オンラインセミナー」応募者の氏名、メールアドレス、住所、電話番号",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "委託先サンケイリビング新聞社への不正アクセスで、セミナー応募者の個人情報が外部流出した可能性があると島根県が公表。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日の発表時点。委託先とその親会社が調査中。",
+   "resp": "不審なメール等への注意を呼びかけ。詳細は委託先のホームページで案内。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0852-22-6757",
+      "hours": "観光振興課"
+     }
+    ],
+    "mails": [
+     "kankou@pref.shimane.lg.jp"
+    ],
+    "src": "https://www1.pref.shimane.lg.jp/press_release/2026/arat0fkhnsm8.html"
+   },
+   "official": [
+    [
+     "「歴史・文化を活用した情報発信業務」委託事業者への不正アクセスによる個人情報漏洩の可能性について（2026/10/23）",
+     "https://www1.pref.shimane.lg.jp/press_release/2026/arat0fkhnsm8.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sankei-living-newspaper-unauthorized-access-municipalities/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-26"
+  },
+  {
+   "id": "shimane-kankei-seminar-sankeiliving-2610",
+   "co": "島根県（関係人口セミナー「美保関」／委託先 サンケイリビング新聞社）",
+   "date": "2026-10-23",
+   "announced": "2026-10-23",
+   "occurred": "2026-10-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 136,
+   "label": "136名（同伴者50名を含む）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "birth",
+    "addr"
+   ],
+   "itemsText": "関係人口セミナー申込者（同伴者含む）の氏名、フリガナ、メールアドレス、年齢、自宅都道府県、性別、電話番号。同伴者は氏名・年齢",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "運営を委託するサンケイリビング新聞社への不正アクセスで、10月31日開催の関係人口セミナー申込者の個人情報が外部流出した可能性があると島根県が公表。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日の発表時点。委託先とその親会社が調査中。",
+   "resp": "不審なメール等への注意を呼びかけ。詳細は委託先のホームページで案内。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0852-22-5068",
+      "hours": "しまね暮らし推進課"
+     }
+    ],
+    "mails": [
+     "shimanegurashi@pref.shimane.lg.jp"
+    ],
+    "src": "https://www1.pref.shimane.lg.jp/press_release/2026/x7ci69jeby8o.html"
+   },
+   "official": [
+    [
+     "関係人口セミナー「北前船で栄えた島根・松江の港町“美保関”の歴史と今」委託事業者への不正アクセスによる個人情報漏洩の可能性について（2026/10/23）",
+     "https://www1.pref.shimane.lg.jp/press_release/2026/x7ci69jeby8o.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sankei-living-newspaper-unauthorized-access-municipalities/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-26"
   }
  ],
  "statusLabels": {
@@ -29058,7 +30169,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 295,
+ "pendingCount": 297,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
