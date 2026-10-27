@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7036,6 +7036,197 @@
    ],
    "ind": "運輸・交通",
    "pendingReason": "公式発表が画像ファイルで本文を読めず、漏えいした情報が個人情報か社内情報かも確認できない。自動取得不可（画像）。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "levelenter-air-scorer-2610",
+   "co": "株式会社レベルエンター（AI採点・添削サービス「AI.R-Scorer」）",
+   "date": "2026-10-22",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "利用者の氏名、メールアドレス、パスワードのハッシュ値、学籍・クラス情報、答案画像、採点結果、講評、契約・取引担当者の連絡先など（報道による）",
+   "sum": "サービス運用サーバーが2025年12月5日に脆弱性を悪用されて侵入され、10月21日の点検で発覚。約10か月半、サーバー内のデータが閲覧・取得可能な状態だったが、実際の外部持ち出しは確認できていない。10月21日に個人情報保護委員会へ報告。京都文教大学は教員18名・学生197名の情報を公表。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/levelenter-air-scorer-cyberattack-kyoto-bunkyo-20261027-second/"
+    ]
+   ],
+   "status": "ongoing",
+   "statusText": "第1報（10月22日）時点。第三者機関による調査は今後実施。",
+   "resp": "旧サーバー停止、新環境への移行、認証情報の無効化・変更。生徒・保護者向けお詫び文を利用校へ提供（10月23日）。",
+   "official": [
+    [
+     "【重要】AI.R-Scorerへの不正アクセスによる個人情報漏えいのおそれに関するご報告とお詫び（第1報）",
+     "https://levelenter.com/posts/MjUPeYGD"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "cause": "cyber",
+   "pendingReason": "自動取得不可（公式 levelenter.com の本文が thin／JavaScript描画の可能性）。件数・項目は報道と京都文教大学の公表のみで照合。manual/ に公式文面を貼れば反映できる。公式: https://levelenter.com/posts/MjUPeYGD"
+  },
+  {
+   "id": "resona-three-banks-cuenote-2610",
+   "co": "りそな銀行・埼玉りそな銀行・関西みらい銀行（委託先 ユミルリンク「Cuenote FC」）",
+   "date": "2026-10-27",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス、メール配信用の顧客管理番号（報道による）",
+   "sum": "メール配信に使うユミルリンクの「Cuenote FC」への不正アクセスで、10月21日に「顧客情報の外部持ち出しなし」との報告を受けていたが、10月26日の追加調査で3行の顧客情報を含むシステムからも外部持ち出しの可能性が高いと判明した（報道による）。口座番号・暗証番号・パスワード・カード情報は対象外。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/resona-three-banks-cuenote-fc-customer-data-possible-leak/"
+    ],
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2151621.html"
+    ]
+   ],
+   "status": "ongoing",
+   "statusText": "3行の連名発表（10月27日）時点。件数は調査中。",
+   "resp": "11月20日まで専用電話窓口を設置（報道による）。",
+   "official": [
+    [
+     "りそなホールディングス ニュースリリース",
+     "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026"
+    ]
+   ],
+   "ind": "金融・保険",
+   "cause": "cyber",
+   "pendingReason": "自動取得不可（公式 resona-gr.co.jp が HTTP 403）。件数・項目・窓口は報道のみ。manual/ に3行の公式文面を貼れば反映できる。公式: https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026"
+  },
+  {
+   "id": "tsukutsuku-2610",
+   "co": "TSUKU TSUKU株式会社（通販・ウェブチケットサイト「ツクツク!!!」）",
+   "date": "2026-10-26",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 362750,
+   "label": "カード情報19,115件・その他の個人情報362,750件（重複の可能性あり）",
+   "st": "p",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "mail",
+    "id",
+    "card"
+   ],
+   "itemsText": "カード情報（名義人、カード番号、有効期限、セキュリティコード）19,115件で漏えいの可能性が極めて高い。その他は氏名、生年月日、住所、電話番号、性別、メールアドレス、ログインID・パスワード、配送先情報、職業、既婚・未婚など362,750件で漏えいの可能性を否定できない（報道による）",
+   "sum": "2025年9月4日にカード会社が不正利用の懸念を検知し、9月9日に事案を認知。決済入力ページへの不正プログラム設置などで、2025年5月10日〜9月9日にカードの新規登録をした利用者のカード情報が漏えいした可能性が極めて高いとして、2026年10月26日に調査結果を公表した（報道による）。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tsukutsuku-card-data-breach-19115-personal-info-362750/"
+    ]
+   ],
+   "status": "ongoing",
+   "statusText": "2026年10月26日の公表（報道による）。",
+   "resp": "不正プログラムの除去、脆弱性修正、対象者への個別連絡、監視体制の強化。JCB・American Express・Diners Clubは決済停止中（公表時点）（報道による）。",
+   "official": [
+    [
+     "ツクツク!!! お知らせ",
+     "https://home.tsuku2.jp/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "cause": "cyber",
+   "pendingReason": "自動取得不可（公式 home.tsuku2.jp が HTTP 403）。件数・項目は報道のみ。manual/ に公式文面を貼れば反映できる。公式: https://home.tsuku2.jp/"
+  },
+  {
+   "id": "basic-ferret-one-2610",
+   "co": "株式会社ベーシック（「ferret One」）",
+   "date": "2026-10-27",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "導入企業のログイン用メールアドレスが閲覧・取得された可能性（報道による）。不正ログインされた計6アカウント内の情報は調査中",
+   "sum": "内部管理機能の不備を突かれ、10月14日に不正アカウントが作成され、10月26日に発見・遮断。ベーシック自身と導入企業のアカウント計6件で不正ログインが確認された（報道による）。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/basic-ferret-one-unauthorized-access-six-accounts/"
+    ]
+   ],
+   "status": "ongoing",
+   "statusText": "第一報（10月27日14時40分、報道による）。",
+   "resp": "不正アカウント削除、経路遮断、不備修正、2段階認証の必須化、対象アカウントのパスワード初期化（報道による）。",
+   "official": [
+    [
+     "当社サービスへの不正アクセスに関するお知らせ（第一報）（2026/10/27）",
+     "https://www.nikkei.com/nkd/disclosure/tdnr/20261027556805/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "cause": "cyber",
+   "pendingReason": "自動取得不可（公式の適時開示は日経の有料ページ、ferret-one.com のお知らせ本文も取得できず）。manual/ に公式文面を貼れば反映できる。公式: https://www.nikkei.com/nkd/disclosure/tdnr/20261027556805/"
+  },
+  {
+   "id": "maruki-medical-2610",
+   "co": "丸木医科器械株式会社（基幹システム）",
+   "date": "2026-10-26",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "sum": "10月15日に基幹システム（発注・仕入・入出庫管理）で障害が発生し、その後サーバーへの外部からの不正アクセスが確認された。公式発表は、顧客・取引先の情報への影響と外部への流出の有無は確認が完了していないとし、10月15日以降に公式サイトの問い合わせフォームから送信された内容が確認できない状態が続いている。",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/maruki-medical-unauthorized-access-follow-up-20261026/"
+    ]
+   ],
+   "status": "ongoing",
+   "statusText": "10月26日の続報時点。影響範囲は調査中。",
+   "resp": "外部専門家と調査、個人情報保護委員会へ速報、警察等へ報告・相談。注文はFAXで受付。",
+   "official": [
+    [
+     "【続報】弊社システム障害に関するお詫びとご案内（2026/10/26）",
+     "https://maruki-ms.co.jp/archives/8428"
+    ]
+   ],
+   "ind": "医療・製薬",
+   "cause": "cyber",
+   "pendingReason": "公式発表（10月26日の続報）は不正アクセスの確認と、情報への影響・外部流出の有無は確認が完了していない旨のみで、漏えいのおそれを明示していない。続報で漏えいの可能性・確認が公表されたら台帳へ",
+   "contact": {
+    "tels": [
+     {
+      "tel": "022-242-3331",
+      "hours": "9:00〜17:00（12:30〜13:30除く）"
+     }
+    ],
+    "note": "法務コンプライアンス室",
+    "src": "https://maruki-ms.co.jp/archives/8428"
+   }
   }
  ]
 }

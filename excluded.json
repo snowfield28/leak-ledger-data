@@ -733,6 +733,16 @@
     "https://www.yamada-denki.jp/information/pdf/261023_3.pdf"
    ],
    "checked": "2026-10-25"
+  },
+  {
+   "id": "wiseman-mellplus-2610",
+   "co": "株式会社ワイズマン（介護・医療連携「MeLL+professional」ほか8サービス）",
+   "date": "2026-10-26",
+   "reason": "10月26日の公式発表は、10月24日にクラウド環境へ不正アクセスがあり関連サービスを停止したとし、「本サービスでお預かりしている個人情報の漏えいは確認されておりません」と明記している。続報で漏えいの確認・可能性が公表されたら台帳へ",
+   "official": [
+    "https://www.wiseman.co.jp/wp-content/uploads/2026/10/release_20261026.pdf"
+   ],
+   "checked": "2026-10-28"
   }
  ]
 }
