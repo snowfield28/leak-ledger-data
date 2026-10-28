@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -6484,46 +6484,6 @@
    "pendingReason": "自動取得不可（公式の適時開示 https://www.nikkei.com/nkd/disclosure/tdnr/20261022554817/ は有料会員限定で本文が読めない）。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "jfe-chemical-2610",
-   "co": "JFEケミカル株式会社",
-   "date": "2026-10-21",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "c",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認（社外関係者・同社社員に関する情報が含まれる可能性・報道）",
-   "sum": "報道によると、10月14日に不正アクセスの可能性を認識し、19日に第三者によるIT環境からのデータ不正取得が判明した。取得された情報には社外関係者や同社・同社社員に関する情報が含まれる可能性があり、件数と項目は調査中。",
-   "status": "ongoing",
-   "statusText": "10月21日に第一報（報道）。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/jfe_chemical_unauthorized_access_data_exfiltration_first_report_20261022/"
-    ]
-   ],
-   "ind": "製造",
-   "who": [
-    "biz",
-    "staff"
-   ],
-   "contact": {
-    "tels": [
-     {
-      "tel": "03-5820-6500",
-      "hours": "総務部（報道による）"
-     }
-    ],
-    "src": "https://www.jfe-chem.com/uploads/2026/10/baa6f7b08015cd87b11014e01d51141e.pdf"
-   },
-   "pendingReason": "自動取得不可（公式PDF https://www.jfe-chem.com/uploads/2026/10/baa6f7b08015cd87b11014e01d51141e.pdf が PdfStreamError）。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "zonexpert-amazon-seller-2610",
    "co": "ZonExpert株式会社（委託元のAmazonセラーセントラルアカウント）",
    "date": "2026-10-01",
@@ -7188,6 +7148,147 @@
     "note": "法務コンプライアンス室",
     "src": "https://maruki-ms.co.jp/archives/8428"
    }
+  },
+  {
+   "id": "jal-jta-amadeus-2610",
+   "co": "日本航空・日本トランスオーシャン航空（旅客システムの委託先 Amadeus IT Group）",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 92000,
+   "label": "約9万2,000人（報道）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "doc",
+    "deal"
+   ],
+   "itemsText": "報道：約9万人は予約番号・氏名・搭乗日・区間・クラス、約2,000人はメールアドレス・電話番号・パスポート番号・国籍・マイレージ番号・航空券番号・座席番号なども対象（公式本文は未確認）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、JALとJTAは10月28日、予約・発券・搭乗手続きに使う旅客システムの委託先アマデウスで不正アクセスが発生し、予約情報の一部に外部から参照された形跡があると公表した。10月23日にアマデウスから報告を受けた。",
+   "status": "ongoing",
+   "statusText": "10月28日に公表（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/jal_jta_amadeus_92000_primary_sources_individual_corporate_measures/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "pendingReason": "自動取得不可（公式 https://www.jal.co.jp/ja-jp/news/general/2026/other/261028.html が http403）。件数・項目が公式本文で未照合。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "satofull-cuenote-2610",
+   "co": "株式会社さとふる（ふるさと納税ポータル「さとふる」／委託先 ユミルリンク「Cuenote FC」）",
+   "date": "2026-10-27",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "項目は公表資料で要確認（決済用のクレジットカード情報はメール配信システムに保存していないと説明・報道）",
+   "who": [
+    "cust"
+   ],
+   "sum": "さとふるが一部のメール配信に使うユミルリンクの「Cuenote FC」への不正アクセスにより、さとふるが保存していた情報の一部が漏えいしたとの報告を受け、10月27日に公表。福島県古殿町など複数の自治体が、さとふるからの報告を受けて寄附者・住民へ注意喚起している。件数・項目は調査中。",
+   "status": "ongoing",
+   "statusText": "10月27日に公表。件数・項目は調査中（報道）。",
+   "resp": "",
+   "official": [
+    [
+     "ふるさと納税ポータルサイト「さとふる」における情報漏えいの恐れについて（古殿町、確認日2026/10/28）",
+     "https://www.town.furudono.fukushima.jp/news-topikkusu/oshirase/3554"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/satofull-cuenote-fc-data-breach-municipalities-20261028/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "さとふる自身の公式発表（https://www.satofull.jp/news/detail.php?news_id=12170 および PDF）が ReadTimeout で取得不可。自治体ページは注意喚起のみで件数・項目なし。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "suzuki-nirin-world-2610",
+   "co": "株式会社スズキ二輪（スズキワールドホームページ）",
+   "date": "2026-10-14",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 4400,
+   "label": "約4,400件（報道）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "tel",
+    "addr"
+   ],
+   "itemsText": "報道：問い合わせフォームの送信ログに記録された名前、メールアドレス、電話番号、住所、問い合わせ内容",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、スズキ二輪は10月14日、スズキワールドホームページで7月29日に不正アクセスを検知し、問い合わせフォームの送信ログの情報（約4,400件）が第三者に閲覧または取得された可能性があると公表した。外部流出の形跡は確認されていない。",
+   "status": "ongoing",
+   "statusText": "10月14日に公表（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "自動取得不可（公式 https://suzukiworld.jp/post/2026/10/post-70.html が http403）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "taiwan-otsuka-2610",
+   "co": "台湾大塚製薬股份有限公司（大塚製薬の台湾拠点）",
+   "date": "2026-10-17",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（公式は「情報漏えいの疑い」とし、種類・範囲は調査中と報道）",
+   "who": [
+    "unk"
+   ],
+   "sum": "報道によると、台湾大塚製薬は10月17日に公式サイトで情報セキュリティ事案を公表し、10月15日に情報漏えいの疑いを把握した。ランサムウェアグループがデータ832GBの窃取を主張しているが、個人情報の漏えいがあったかは公式に確認されていない。",
+   "status": "ongoing",
+   "statusText": "10月17日に公表（報道）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/taiwan-otsuka-eclipse-the-gentlemen-ransomware-claims/"
+    ]
+   ],
+   "ind": "医療・製薬",
+   "pendingReason": "自動取得不可（公式 https://www.otsuka.com.tw/jp/news/detail/163 が http404）。個人情報の漏えいかも公式本文で未確認。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }
