@@ -7188,41 +7188,6 @@
    "pendingReason": "さとふる自身の公式発表（https://www.satofull.jp/news/detail.php?news_id=12170 および PDF）が ReadTimeout で取得不可。自治体ページは注意喚起のみで件数・項目なし。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "suzuki-nirin-world-2610",
-   "co": "株式会社スズキ二輪（スズキワールドホームページ）",
-   "date": "2026-10-14",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 4400,
-   "label": "約4,400件（報道）",
-   "st": "p",
-   "items": [
-    "name",
-    "mail",
-    "tel",
-    "addr"
-   ],
-   "itemsText": "報道：問い合わせフォームの送信ログに記録された名前、メールアドレス、電話番号、住所、問い合わせ内容",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道によると、スズキ二輪は10月14日、スズキワールドホームページで7月29日に不正アクセスを検知し、問い合わせフォームの送信ログの情報（約4,400件）が第三者に閲覧または取得された可能性があると公表した。外部流出の形跡は確認されていない。",
-   "status": "ongoing",
-   "statusText": "10月14日に公表（報道）。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html"
-    ]
-   ],
-   "ind": "製造",
-   "pendingReason": "自動取得不可（公式 https://suzukiworld.jp/post/2026/10/post-70.html が http403）。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "taiwan-otsuka-2610",
    "co": "台湾大塚製薬股份有限公司（大塚製薬の台湾拠点）",
    "date": "2026-10-17",
