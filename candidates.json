@@ -7074,45 +7074,6 @@
    "pendingReason": "自動取得不可（公式 levelenter.com の本文が thin／JavaScript描画の可能性）。件数・項目は報道と京都文教大学の公表のみで照合。manual/ に公式文面を貼れば反映できる。公式: https://levelenter.com/posts/MjUPeYGD"
   },
   {
-   "id": "resona-three-banks-cuenote-2610",
-   "co": "りそな銀行・埼玉りそな銀行・関西みらい銀行（委託先 ユミルリンク「Cuenote FC」）",
-   "date": "2026-10-27",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "mail"
-   ],
-   "itemsText": "メールアドレス、メール配信用の顧客管理番号（報道による）",
-   "sum": "メール配信に使うユミルリンクの「Cuenote FC」への不正アクセスで、10月21日に「顧客情報の外部持ち出しなし」との報告を受けていたが、10月26日の追加調査で3行の顧客情報を含むシステムからも外部持ち出しの可能性が高いと判明した（報道による）。口座番号・暗証番号・パスワード・カード情報は対象外。",
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/resona-three-banks-cuenote-fc-customer-data-possible-leak/"
-    ],
-    [
-     "INTERNET Watch",
-     "https://internet.watch.impress.co.jp/docs/news/2151621.html"
-    ]
-   ],
-   "status": "ongoing",
-   "statusText": "3行の連名発表（10月27日）時点。件数は調査中。",
-   "resp": "11月20日まで専用電話窓口を設置（報道による）。",
-   "official": [
-    [
-     "りそなホールディングス ニュースリリース",
-     "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026"
-    ]
-   ],
-   "ind": "金融・保険",
-   "cause": "cyber",
-   "pendingReason": "自動取得不可（公式 resona-gr.co.jp が HTTP 403）。件数・項目・窓口は報道のみ。manual/ に3行の公式文面を貼れば反映できる。公式: https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026"
-  },
-  {
    "id": "tsukutsuku-2610",
    "co": "TSUKU TSUKU株式会社（通販・ウェブチケットサイト「ツクツク!!!」）",
    "date": "2026-10-26",
