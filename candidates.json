@@ -7150,43 +7150,6 @@
    }
   },
   {
-   "id": "jal-jta-amadeus-2610",
-   "co": "日本航空・日本トランスオーシャン航空（旅客システムの委託先 Amadeus IT Group）",
-   "date": "2026-10-28",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": 92000,
-   "label": "約9万2,000人（報道）",
-   "st": "p",
-   "items": [
-    "name",
-    "tel",
-    "mail",
-    "doc",
-    "deal"
-   ],
-   "itemsText": "報道：約9万人は予約番号・氏名・搭乗日・区間・クラス、約2,000人はメールアドレス・電話番号・パスポート番号・国籍・マイレージ番号・航空券番号・座席番号なども対象（公式本文は未確認）",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道によると、JALとJTAは10月28日、予約・発券・搭乗手続きに使う旅客システムの委託先アマデウスで不正アクセスが発生し、予約情報の一部に外部から参照された形跡があると公表した。10月23日にアマデウスから報告を受けた。",
-   "status": "ongoing",
-   "statusText": "10月28日に公表（報道）。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/jal_jta_amadeus_92000_primary_sources_individual_corporate_measures/"
-    ]
-   ],
-   "ind": "運輸・交通",
-   "pendingReason": "自動取得不可（公式 https://www.jal.co.jp/ja-jp/news/general/2026/other/261028.html が http403）。件数・項目が公式本文で未照合。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "satofull-cuenote-2610",
    "co": "株式会社さとふる（ふるさと納税ポータル「さとふる」／委託先 ユミルリンク「Cuenote FC」）",
    "date": "2026-10-27",
