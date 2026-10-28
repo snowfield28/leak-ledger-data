@@ -25237,13 +25237,13 @@
    "statusText": "10月19日の発表時点で、被害の詳細、原因、サイトの安全性を調査中。サイトは停止中で臨時サイトを運用。",
    "resp": "漏えいのあった企業へ個人情報保護法に基づき概要・漏えい項目を通知済み。セキュリティ専門家と連携して調査。ウェブサイトの一時停止と臨時ウェブサイトの開設。",
    "contact": {
-    "note": "公式発表に窓口の記載なし（各サービスの連絡先は同ページの「お問い合わせ」を参照とある）",
-    "src": "https://www.jetro.go.jp/"
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html"
    },
    "official": [
     [
      "当機構ウェブサイトへの不正アクセスについて（2026/10/19）",
-     "https://www.jetro.go.jp/"
+     "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html"
     ]
    ],
    "src": [
@@ -25253,7 +25253,7 @@
     ]
    ],
    "ind": "公共機関",
-   "verified": "2026-10-20"
+   "verified": "2026-10-28"
   },
   {
    "id": "h2o-hankyu-hanshin-2610",
