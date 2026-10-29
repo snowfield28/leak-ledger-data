@@ -7150,44 +7150,6 @@
    }
   },
   {
-   "id": "satofull-cuenote-2610",
-   "co": "株式会社さとふる（ふるさと納税ポータル「さとふる」／委託先 ユミルリンク「Cuenote FC」）",
-   "date": "2026-10-27",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "mail"
-   ],
-   "itemsText": "項目は公表資料で要確認（決済用のクレジットカード情報はメール配信システムに保存していないと説明・報道）",
-   "who": [
-    "cust"
-   ],
-   "sum": "さとふるが一部のメール配信に使うユミルリンクの「Cuenote FC」への不正アクセスにより、さとふるが保存していた情報の一部が漏えいしたとの報告を受け、10月27日に公表。福島県古殿町など複数の自治体が、さとふるからの報告を受けて寄附者・住民へ注意喚起している。件数・項目は調査中。",
-   "status": "ongoing",
-   "statusText": "10月27日に公表。件数・項目は調査中（報道）。",
-   "resp": "",
-   "official": [
-    [
-     "ふるさと納税ポータルサイト「さとふる」における情報漏えいの恐れについて（古殿町、確認日2026/10/28）",
-     "https://www.town.furudono.fukushima.jp/news-topikkusu/oshirase/3554"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/satofull-cuenote-fc-data-breach-municipalities-20261028/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "さとふる自身の公式発表（https://www.satofull.jp/news/detail.php?news_id=12170 および PDF）が ReadTimeout で取得不可。自治体ページは注意喚起のみで件数・項目なし。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "taiwan-otsuka-2610",
    "co": "台湾大塚製薬股份有限公司（大塚製薬の台湾拠点）",
    "date": "2026-10-17",
