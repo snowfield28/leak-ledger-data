@@ -1,0 +1,109 @@
+URL: https://www.malwarebytes.com/blog/news/2025/12/pornhub-tells-users-to-expect-sextortion-emails-after-data-exposure
+
+Pornhub tells users to expect sextortion emails after data exposure | Malwarebytes
+Skip to content
+News
+, 
+Privacy
+Pornhub tells users to expect sextortion emails after data exposure
+ by 
+Pieter Arntz
+ |
+December 22, 2025
+After a recent 
+data breach that affected Pornhub Premium members
+, Pornhub has updated its 
+online statement
+ to warn users about potential direct contact from cybercriminals.
+“We are aware that the individuals responsible for this incident have threatened to contact impacted Pornhub Premium users directly. You may therefore receive emails claiming they have your 
+personal information
+. As a reminder, we will never ask for your password or payment information by email.”
+Pornhub is one of the world’s most visited adult video-sharing websites, allowing users to view content anonymously or create accounts to upload and interact with videos.
+Pornhub has 
+reported
+ that on November 8, 2025, a security breach at third-party analytics provider Mixpanel exposed “a limited set of analytics events for certain users.” Pornhub stressed that this was not a breach of Pornhub’s own systems, and said that passwords, payment details, and financial information were not exposed. 
+Mixpanel confirmed it experienced a security incident on November 8, 2025, but disputes that the Pornhub data originated from that breach. The company stated there is:
+ “No indication that this data was stolen from Mixpanel during our November 2025 security incident or otherwise.”
+Regardless of the source, cybercriminals commonly attempt to monetize stolen user data through direct extortion. At the moment, it is unclear how many users are affected, although available information suggests that only Premium members had their data exposed.
+In October, we 
+reported
+ that one in six mobile users are targeted by sextortion scams. Sextortion is a form of online blackmail where criminals threaten to share a person’s private, nude, or sexually explicit images or videos unless the victim complies with their demands—often for more sexual content, sexual favors, or money.
+Having your email address included in a dataset of known Pornhub users makes you a likely target for this type of blackmail.
+How to stay safe from sextortion
+Unless you used a dedicated throwaway email address to sign up for Pornhub Premium, you should be prepared to receive a sextortion-type email. If one arrives:
+Any message referencing your Pornhub use, searches, or payment should be treated as an attempt to exploit breached or previously leaked data.
+Never provide passwords or payment information by email. Pornhub has stated it will not ask for these.
+Do not respond to blackmail emails. Ignore demands, do not pay, and do not reply—responding confirms your address is actively monitored.
+Save extortion emails, including headers, content, timestamps, and attachments, but do not open links or files. This information can support reports to your email provider, local law enforcement, or cybercrime units.
+Change your Pornhub password (if your account is still active) and ensure it’s unique and not reused anywhere else.
+Turn on 
+multi-factor authentication (MFA)
+ for your primary email account and any accounts that could be used for account recovery or identity verification.
+Review your bank and card statements for unfamiliar charges and report any suspicious transactions at once.
+If you used a real-name email address for Pornhub, consider moving sensitive subscriptions to a separate, pseudonymous email going forward.
+Use 
+STOP
+, our simple scam response framework to help protect against scams. 
+S
+—
+Slow down:
+ Don’t let urgency or pressure push you into action. Take a breath before responding. Legitimate businesses like your bank or credit card don’t push immediate action.  
+T
+—
+Test them:
+ If you answered the phone and are feeling panicked about the situation, likely involving a family member or friend, ask a question only the real person would know—something that can’t be found online. 
+O
+—
+Opt out
+: If it feels off, hang up or end the conversation. You can always say the connection dropped. 
+P
+—
+Prove it:
+ Confirm the person is who they say they are by reaching out yourself through a trusted number, website or method you have used before. 
+Should you have doubts about the legitimacy of any communications, submit them to 
+Malwarebytes Scam Guard
+. It will help you determine whether it’s a scam and provide advice on how to act.
+Let’s face it, an incognito window can only do so much.
+Breaches, dark web trading, credit fraud. 
+Malwarebytes Identity Theft Protection
+ monitors for all of it, alerts you fast, and comes with identity theft insurance. 
+SHARE THIS ARTICLE
+About the author
+Pieter Arntz
+Malware Intelligence Researcher
+Was a Microsoft MVP in consumer security for 12 years running. Can speak four languages. Smells of rich mahogany and leather-bound books.
+LATEST ARTICLES
+News
+Malicious Firefox extensions impersonate popular crypto wallets
+October 29, 2026
+Fake Firefox extensions posing as Phantom, Jupiter, and Bitget targeted users to steal crypto wallet recovery phrases and private keys.
+Bugs
+Have an older iPhone or iPad? Apple has a security update for you
+October 29, 2026
+Apple has backported a fix for a CoreGraphics flaw reportedly exploited in targeted attacks to the iPhone XS, XS Max and XR, and seventh-generation iPad.
+AI
+Banks are blocking AI agents from customer accounts
+October 28, 2026
+They cite security risks. But could keeping these tools out also protect banks’ profits?
+Related articles
+Malicious Firefox extensions impersonate popular crypto wallets
+ October 29, 2026 
+Have an older iPhone or iPad? Apple has a security update for you
+ October 29, 2026 
+Banks are blocking AI agents from customer accounts
+ October 28, 2026 
+Thank you for signing up!
+Keep an eye on your email inbox for the latest newsletter
+Sign up for our newsletter
+ to get the latest cybersecurity news to your inbox
+Sign Up
+By submitting this form, you consent to Malwarebytes contacting you regarding products and services and using your personal data as described in our 
+Terms of Service
+ and 
+Privacy Policy
+.
+Contributors
+Threat Center
+Podcast
+Glossary
+Scams
