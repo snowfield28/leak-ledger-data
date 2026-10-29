@@ -33909,6 +33909,58 @@
    "ind": "飲食",
    "date": "2026-10-27",
    "verified": "2026-10-30"
+  },
+  {
+   "id": "kagoshima-paydon-arara-2610",
+   "co": "鹿児島銀行・南日本銀行・鹿児島相互信用金庫・鹿児島信用金庫（地域決済サービス「Payどん」／委託先 アララ）",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail",
+    "deal"
+   ],
+   "itemsText": "Payどんユーザーのメールアドレス、Payどん加盟店のメールアドレス、決済情報（日時、店舗名、お支払い金額）",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "Payどんのメール送信を委託しているアララ株式会社への不正アクセスが10月28日に確認され、メール送信された個人情報の一部が外部に漏えいした可能性が判明した。対象はPayどんユーザーと加盟店のメールアドレス、および決済情報（日時・店舗名・支払金額）。件数は公表されていない。アララの流出総件数（約301万件）のうち当該分の内訳は不明。二次被害の報告はない。",
+   "status": "ongoing",
+   "statusText": "2026年10月28日の発表時点。新たな事実が判明次第、各行庫のサイトで公表。",
+   "official": [
+    [
+     "Ｐａｙどんへの不正アクセスによる個人情報漏えいの可能性に関するお知らせとお詫び（2026/10/28）",
+     "https://www.kagin.co.jp/important/emergency_20261029_3.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/paydon_arara_data_breach_payment_history_bank_names_title_20261029/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "announced": "2026-10-28",
+   "occurred": "2026-10-28",
+   "notIncl": "",
+   "resp": "アララが10月28日17時23分にサービスを停止（Payどんアプリのメール通知機能、新規登録）。4行庫を名乗る不審メール、URL・添付ファイルへの注意喚起。セキュリティ対策と管理体制の見直し・強化を図る。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-947-230",
+      "hours": "Payどんをご利用の方。デジタルサポートプラザ。平日9:00〜17:00（土日祝・12/31〜1/3除く）"
+     }
+    ],
+    "src": "https://www.kagin.co.jp/important/emergency_20261029_3.html"
+   },
+   "verified": "2026-10-30"
   }
  ],
  "statusLabels": {
@@ -33941,7 +33993,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 314,
+ "pendingCount": 313,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
