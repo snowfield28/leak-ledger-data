@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7179,6 +7179,470 @@
    ],
    "ind": "医療・製薬",
    "pendingReason": "自動取得不可（公式 https://www.otsuka.com.tw/jp/news/detail/163 が http404）。個人情報の漏えいかも公式本文で未確認。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "palan-metabase-2610",
+   "co": "株式会社palan（データ分析ツール「Metabase」）",
+   "date": "2026-10-26",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（岐阜県は1,135名分、宮崎県は551件を公表）",
+   "who": [
+    "unk"
+   ],
+   "sum": "palanが業務で使う外部データ分析ツール「Metabase」への第三者の不正アクセスにより、保管されていた情報が漏えいした。岐阜県（スタンプラリー1,135名分）と宮崎県（キキタビ観光ガイド551件）が委託元として公表。palan自身の公表は10月26日。",
+   "status": "ongoing",
+   "statusText": "2026年10月26日にpalanが公表、岐阜県・宮崎県が10月27日に公表。",
+   "official": [
+    [
+     "不正アクセスによる個人情報の漏えいに関するお知らせとお詫び（2026/10/26）",
+     "https://palan.co.jp/news/20261026"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/palan-metabase-gifu-miyazaki-data-leak/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "自動取得不可（palan.co.jp の本文が thin／JavaScript描画の可能性）。件数・項目は岐阜県・宮崎県の公式発表のみで照合。manual/ に公式文面を貼れば反映できる。公式: https://palan.co.jp/news/20261026"
+  },
+  {
+   "id": "sonylife-medicare-agency-2610",
+   "co": "ソニー生命保険株式会社（契約者専用サイト「お客さまWEBサービス」等／メディケア生命の代理店契約分）",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 385000,
+   "label": "約38.5万件（報道・メディケア生命の発表による）",
+   "st": "c",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "氏名、生年月日、性別、住所、電話番号、証券番号、契約内容（メディケア生命の契約者・被保険者。メディケア生命の発表による）",
+   "who": [
+    "cust"
+   ],
+   "sum": "ソニー生命のシステムが10月27日に不正アクセスを受け、10月28日朝からアプリ等6サービスを停止。メディケア生命は同社の契約者・被保険者の約38.5万件が漏えいしたと公表（メディケア生命分は台帳に掲載）。ソニー生命自身の公式発表の本文は読めていない。",
+   "status": "ongoing",
+   "statusText": "報道・メディケア生命の発表ベース（2026/10/28）。",
+   "official": [
+    [
+     "ソニー生命の公表資料（2026/10/28）",
+     "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sony-life-medicarelife-385000-data-breach-20261028/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "自動取得不可（error:SSLError。sonylife.co.jp の公式PDF・お知らせとも取得できず、WebFetchもURL制約で不可）。件数・項目はメディケア生命の公式発表のみで照合。manual/ にソニー生命の公式文面を貼れば反映できる。公式: https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf"
+  },
+  {
+   "id": "asahi-shimbun-cuenote-2610",
+   "co": "株式会社朝日新聞社（メール配信 委託先 ユミルリンク「Cuenote FC」）",
+   "date": "2026-10-29",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 70921,
+   "label": "延べ70,921件（報道ベース）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレスが9割超。一部に氏名、学校名など（報道による）",
+   "who": [
+    "cust"
+   ],
+   "sum": "イベント登録者を中心としたメール配信用アドレス帳の延べ70,921件が外部に流出したおそれがあると、10月29日に朝日新聞社が公表したと報じられた。10月26日にユミルリンクから連絡を受けた。クレジットカード情報・ログインパスワードは対象外。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/29）。",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/asahi_shimbun_cuenote_fc_70921_possible_leak_20261029/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "pendingReason": "朝日新聞社自身の公式発表の本文を取得できていない（inbox の公式リンクはユミルリンクのページのみ。朝日新聞社の公式ページへのWebFetchもURL制約で不可）。manual/ に朝日新聞社の公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "tbs-shopping-mail-2610",
+   "co": "株式会社TBSグロウディア（TBSショッピング／メール配信の業務委託先）",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 49995,
+   "label": "最大49,995人分（延べ・報道ベース）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス等（報道による。氏名・住所・電話番号・クレジットカード情報は含まれない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "TBSショッピングで、業務委託先が利用するメール配信システムへの不正アクセスにより、会員（約110万人）のうち最大4万9,995人分（延べ）のメールアドレス等が流出したと、10月28日に発表された。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/28発表）。",
+   "official": [
+    [
+     "【重要】個人情報漏洩に関するお詫びとお知らせ（TBSショッピング お知らせ一覧に掲載）",
+     "https://shopping.tbs.co.jp/tbs/info"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tbs_shopping_email_data_leak_49995_20261029/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表の本文を取得できていない（お知らせ一覧ページは取得できたが、個別の「個人情報漏洩に関するお詫びとお知らせ」の本文リンクが保存されていない）。manual/ に公式文面を貼れば反映できる。公式: https://shopping.tbs.co.jp/tbs/info"
+  },
+  {
+   "id": "kagoshima-paydon-arara-2610",
+   "co": "鹿児島銀行・南日本銀行・鹿児島相互信用金庫・鹿児島信用金庫（地域決済サービス「Payどん」／委託先 アララ）",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail",
+    "deal"
+   ],
+   "itemsText": "メールアドレス、決済日時、店舗名、支払金額（報道による）",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "Payどんのメール通知の送信を委託していたアララ株式会社への不正アクセスにより、利用者や加盟店の個人情報が漏えいした可能性があると、4行庫が10月28日に共同で発表したと報じられた。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/28）。",
+   "official": [
+    [
+     "Payどんに関するお知らせ（鹿児島銀行）",
+     "https://www.kagin.co.jp/important/emergency_20261029_3.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/paydon_arara_data_breach_payment_history_bank_names_title_20261029/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "自動取得不可（鹿児島銀行 kagin.co.jp は error:http403、適時開示PDF contents.xj-storage.jp は robots 取得拒否。WebFetchもURL制約で不可）。アララの公式発表（約301万件のメールアドレス）とは別に、各行庫の公式本文で件数・項目を照合する必要がある。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "ana-amadeus-2610",
+   "co": "全日本空輸（ANA）（旅客サービスシステムの委託先 Amadeus IT Group）",
+   "date": "2026-10-29",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "航空便予約情報に含まれる顧客の個人情報の一部（具体項目は調査中）",
+   "who": [
+    "cust"
+   ],
+   "sum": "ANAは2026年10月29日、予約システムの委託先Amadeus（スペイン）が不正アクセスを受け、ANA便などの予約情報に含まれる顧客の個人情報の一部が外部から参照された形跡があると発表した（10月20日にAmadeusから報告）。対象人数・項目は調査中で、漏えいの有無を確認している。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/29）。",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ana-amadeus-unauthorized-access-reservation-data/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "pendingReason": "ANA自身の公式発表の本文を取得できていない（inboxの公式リンクは報道とJALの公式ページのみ）。manual/ にANAの公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "gametrade-2610",
+   "co": "株式会社ゲームトレード（ゲームトレード）",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "mail",
+    "id"
+   ],
+   "itemsText": "氏名、生年月日、性別、住所、電話番号、メールアドレス、ハッシュ化されたパスワード（報道による）",
+   "who": [
+    "cust"
+   ],
+   "sum": "ゲームアカウント・データ売買サイト「ゲームトレード」で第三者による不正アクセスを確認し、利用者の氏名・住所・電話番号などが漏えいした可能性があると、10月28日に公表されたと報じられた。影響範囲は精査中。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/28）。",
+   "official": [
+    [
+     "お知らせ（ゲームトレード）",
+     "https://gametrade.jp/official_notifications/283"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/gametrade-unauthorized-access-personal-countermeasures/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "自動取得不可（gametrade.jp は error:http403。WebFetchもURL制約で不可）。manual/ に公式文面を貼れば反映できる。公式: https://gametrade.jp/official_notifications/283"
+  },
+  {
+   "id": "impress-digitalx-cuenote-2610",
+   "co": "株式会社インプレス（メールマガジン「DIGITAL X News」／委託先 ユミルリンク「Cuenote」）",
+   "date": "2026-10-27",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 58000,
+   "label": "約58,000件（報道ベース）",
+   "st": "p",
+   "items": [
+    "mail",
+    "name",
+    "work"
+   ],
+   "itemsText": "会員ID、メールアドレス、登録日。一部は氏名、会社名、都道府県、業種、職種、役職区分（報道による）",
+   "who": [
+    "cust"
+   ],
+   "sum": "ユミルリンクの「Cuenote」への不正アクセスにより、メルマガ「DIGITAL X News」の登録情報約58,000件が漏えいした。インプレスは10月27日に第1報、28日に第2報を公表したと報じられた。",
+   "status": "ongoing",
+   "statusText": "報道ベース（第2報 2026/10/28）。",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/impress_digital_x_news_cuenote_fc_58000_second_report_20261028/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "pendingReason": "インプレス自身の公式発表の本文を取得できていない（inbox の公式リンクはユミルリンクのページのみ）。manual/ にインプレスの公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "benefit-one-tokugai-forestec-2610",
+   "co": "株式会社ベネフィット・ワン（クレディセゾン会員向け「トク買」／委託先 フォレステック）",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 29465,
+   "label": "29,465人（報道ベース）",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "氏名、メールアドレス、生年月日、会費決済に用いる管理番号など。会費決済連携の認証関連情報の一部（報道による）",
+   "who": [
+    "cust"
+   ],
+   "sum": "ベネフィット・ワンは10月28日、委託先フォレステックが運用するシステムへの不正アクセスにより、クレディセゾンのカード会員向けサービス「トク買」の2万9,465人の個人情報が漏えいしたと発表したと報じられた。クレジットカード番号などは流出していない。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/28）。",
+   "official": [
+    [
+     "当社業務委託先への不正アクセスによる提携先会員の個人情報漏えいに関するお詫びとお知らせ（2026/10/28）",
+     "https://corp.benefit-one.co.jp/company/news/news/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/benefit_one_tokugai_forestec_29465_data_breach_20261028/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "pendingReason": "公式発表の個別ページの本文を取得できていない（お知らせ一覧ページのみ取得。個別ページ corp.benefit-one.co.jp/company/news/news/2026/20260930/ は thin で別の9月30日の発表）。manual/ に10月28日付の公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "kyushu-fg-sec-seminar-2610",
+   "co": "九州FG証券株式会社（セミナー受付システム）",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 1708,
+   "label": "1,708名（報道ベース）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "セミナー申込者のメールアドレス（報道による）",
+   "who": [
+    "cust"
+   ],
+   "sum": "セミナー受付システムへの不正アクセスにより、申込者1,708名のメールアドレスが外部に漏えいした可能性が高いと、10月28日に公表されたと報じられた。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/28）。",
+   "official": [
+    [
+     "お知らせ（九州FG証券）",
+     "https://www.kyushu-fg-sec.co.jp/article/data/info/files/20261028_170000_001.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kyushu-fg-securities-seminar-unauthorized-access-1708-20261028/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "自動取得不可（kyushu-fg-sec.co.jp は3件とも error:http403）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "meti-dentorinet-2610",
+   "co": "経済産業省 電力・ガス取引監視等委員会（電力・ガス事業者の定期報告システム「デントリネット」）",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "電力・ガス事業者が報告した販売量、契約件数、料金設定、財務に関する情報など（事業者情報。報道による）",
+   "who": [
+    "biz"
+   ],
+   "sum": "電力・ガス取引監視等委員会は10月28日、定期報告システム「デントリネット」が10月27日未明に不正アクセスを受けたと発表した。報告された事業者情報が流出した可能性があるが、10月28日時点で流出の有無は調査中。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/28）。",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/meti-dentorinet-electricity-gas-reporting-system-cyberattack-20261028/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表の本文を取得できていない（egc.meti.go.jp は4件とも error:http403）。事業者情報が中心で、個人情報の漏えいかどうかも公式本文で確認できていない。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "panasonic-genai-hr-2610",
+   "co": "パナソニック オペレーショナルエクセレンス株式会社（人事情報システム導入プロジェクトでの外部生成AIへのアップロード）",
+   "date": "2026-10-23",
+   "cause": "mis",
+   "types": [
+    "誤送信・誤掲載"
+   ],
+   "n": 250000,
+   "label": "従業員約7.5万人・元従業員約17.8万人ほか家族約8.1万人（報道ベース）",
+   "st": "p",
+   "items": [
+    "addr",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "社員番号、住所、電話番号、メールアドレス（氏名は含まれない）。家族は氏名、住所、電話番号、メールアドレス（報道による）",
+   "who": [
+    "staff"
+   ],
+   "sum": "人事情報システム導入プロジェクトのメンバーが、禁止されていた外部生成AIサービスに、パナソニックグループの従業員・元従業員・家族の個人情報を含むデータをアップロードしたと、10月23日に発表されたと報じられた（ScanNetSecurity 2026.10.29）。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/23発表）。",
+   "official": [
+    [
+     "パナソニックホールディングス お知らせ（2026/10/23）",
+     "https://holdings.panasonic/jp/information/topics/20261023.html"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/10/29/56617.html"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "自動取得不可（holdings.panasonic は error:http403）。件数・項目はScanNetSecurityの記事のみで、公式本文と照合できていない。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "jumonji-univ-cyber-2609",
+   "co": "十文字学園女子大学",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（外部サイトに掲載された組織情報（所在地等）と本学システムの関連性、情報漏えいの有無を調査中）",
+   "who": [
+    "unk"
+   ],
+   "sum": "2026年9月19日に外部からのサイバー攻撃を確認。その後、インターネット上の特定の外部サイトにドメイン名を含む本学の組織情報（所在地等）が掲載されているのを確認し、掲載情報と本学システムとの関連性や情報漏えいの有無を含めて調査中と10月28日に公表した。個人情報の漏えい（可能性）は明記されていない。",
+   "status": "ongoing",
+   "statusText": "2026年10月28日の発表時点。影響範囲の全容は特定に至っていない。",
+   "official": [
+    [
+     "サイバー攻撃に関するお知らせ（2026/10/28）",
+     "https://www.jumonji-u.ac.jp/important/systemfailure_20261028/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/jumonji_cyberattack_article/"
+    ]
+   ],
+   "ind": "大学・学校",
+   "pendingReason": "公式発表は、組織情報が外部サイトに掲載されたことと漏えいの有無を調査中である旨のみで、個人情報の漏えい・漏えいのおそれを明示していない。続報で個人情報の漏えいの可能性が公表されたら台帳へ"
   }
  ]
 }
