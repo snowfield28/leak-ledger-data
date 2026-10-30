@@ -7317,47 +7317,6 @@
    "pendingReason": "ANA自身の公式発表の本文を取得できていない（inboxの公式リンクは報道とJALの公式ページのみ）。manual/ にANAの公式文面を貼れば反映できる。"
   },
   {
-   "id": "gametrade-2610",
-   "co": "株式会社ゲームトレード（ゲームトレード）",
-   "date": "2026-10-28",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "name",
-    "birth",
-    "addr",
-    "tel",
-    "mail",
-    "id"
-   ],
-   "itemsText": "氏名、生年月日、性別、住所、電話番号、メールアドレス、ハッシュ化されたパスワード（報道による）",
-   "who": [
-    "cust"
-   ],
-   "sum": "ゲームアカウント・データ売買サイト「ゲームトレード」で第三者による不正アクセスを確認し、利用者の氏名・住所・電話番号などが漏えいした可能性があると、10月28日に公表されたと報じられた。影響範囲は精査中。",
-   "status": "ongoing",
-   "statusText": "報道ベース（2026/10/28）。",
-   "official": [
-    [
-     "お知らせ（ゲームトレード）",
-     "https://gametrade.jp/official_notifications/283"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/gametrade-unauthorized-access-personal-countermeasures/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "自動取得不可（gametrade.jp は error:http403。WebFetchもURL制約で不可）。manual/ に公式文面を貼れば反映できる。公式: https://gametrade.jp/official_notifications/283"
-  },
-  {
    "id": "impress-digitalx-cuenote-2610",
    "co": "株式会社インプレス（メールマガジン「DIGITAL X News」／委託先 ユミルリンク「Cuenote」）",
    "date": "2026-10-27",
