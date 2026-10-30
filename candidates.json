@@ -7177,40 +7177,6 @@
    "pendingReason": "朝日新聞社自身の公式発表の本文を取得できていない（inbox の公式リンクはユミルリンクのページのみ。朝日新聞社の公式ページへのWebFetchもURL制約で不可）。manual/ に朝日新聞社の公式文面を貼れば反映できる。"
   },
   {
-   "id": "impress-digitalx-cuenote-2610",
-   "co": "株式会社インプレス（メールマガジン「DIGITAL X News」／委託先 ユミルリンク「Cuenote」）",
-   "date": "2026-10-27",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": 58000,
-   "label": "約58,000件（報道ベース）",
-   "st": "p",
-   "items": [
-    "mail",
-    "name",
-    "work"
-   ],
-   "itemsText": "会員ID、メールアドレス、登録日。一部は氏名、会社名、都道府県、業種、職種、役職区分（報道による）",
-   "who": [
-    "cust"
-   ],
-   "sum": "ユミルリンクの「Cuenote」への不正アクセスにより、メルマガ「DIGITAL X News」の登録情報約58,000件が漏えいした。インプレスは10月27日に第1報、28日に第2報を公表したと報じられた。",
-   "status": "ongoing",
-   "statusText": "報道ベース（第2報 2026/10/28）。",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/impress_digital_x_news_cuenote_fc_58000_second_report_20261028/"
-    ]
-   ],
-   "ind": "メディア・出版",
-   "pendingReason": "インプレス自身の公式発表の本文を取得できていない（inbox の公式リンクはユミルリンクのページのみ）。manual/ にインプレスの公式文面を貼れば反映できる。"
-  },
-  {
    "id": "kyushu-fg-sec-seminar-2610",
    "co": "九州FG証券株式会社（セミナー受付システム）",
    "date": "2026-10-28",
