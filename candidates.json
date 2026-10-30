@@ -7384,7 +7384,16 @@
     ]
    ],
    "ind": "金融・保険",
-   "pendingReason": "自動取得不可（kyushu-fg-sec.co.jp は3件とも error:http403）。manual/ に公式文面を貼れば反映できる。"
+   "pendingReason": "自動取得不可（kyushu-fg-sec.co.jp は error:http403）。ユーザー貼付は問い合わせ先のみで、本文（件数・項目・対応）が未確認。manual/ に本文（画像の場合はテキスト化したもの）を貼れば反映できる。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "096-285-9306",
+      "hours": "事務管理部。平日9:00〜17:00（土日祝・年末年始除く）"
+     }
+    ],
+    "src": "https://www.kyushu-fg-sec.co.jp/article/data/info/files/20261028_170000_001.pdf"
+   }
   },
   {
    "id": "meti-dentorinet-2610",
