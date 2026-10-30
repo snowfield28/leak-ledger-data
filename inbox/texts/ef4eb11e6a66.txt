@@ -1,0 +1,39 @@
+URL: https://www.politie.nl/nieuws/2026/oktober/28/03-internationale-actie-tegen-bulletproof-hoster.html
+
+Internationale politieactie tegen bulletproof hoster | politie.nl
+Direct naar de inhoud
+Direct naar het menu
+Direct naar het menu
+Direct naar de chat
+Internationale politieactie tegen bulletproof hoster
+Gepubliceerd op:
+28 oktober 2026
+Laatste update:
+29 oktober 2026
+Plaatsnaam:
+Utrecht/provincie Limburg
+In een internationaal onderzoek naar een malafide hostingbedrijf zijn door Team Cybercrime politie Midden-Nederland tientallen servers in beslaggenomen. Het hostingbedrijf wordt ervan verdacht medeplichtig te zijn aan het faciliteren van cybercrime. Het bedrijf presenteert zichzelf als zogenaamde bulletproof hosting provider; zo adverteert het met volledige anonimiteit voor gebruikers en wordt de suggestie gewekt dat het klachten en verzoeken van opsporingsdiensten negeert.
+Uit onderzoek bleek dat het hostingbedrijf sinds 2022 onder andere in verband werd gebracht met het faciliteren van ransomware-aanvallen, botnets, infostealers, phishing-activiteiten en het verspreiden van kinderporno. Door de inbeslagneming heeft de politie data en gegevens in handen van meer dan 3000 klanten die gebruikmaakten van de servers voor criminele activiteiten. De politie neemt op dit moment vervolgacties richting deze gebruikers.
+Internationaal onderzoek
+Tijdens deze internationale politieactie zijn er gelijktijdig door de 
+FBI 
+en de Duitse politie acties geweest gericht op de verdachten, de inbeslagname van cryptovaluta en het internationaal verstoren en offline halen van de infrastructuur.
+Verhuur van online ruimte
+Hostingbedrijven zorgen ervoor dat websites, applicaties en andere onlinediensten beschikbaar zijn op het internet. Ze verhuren als het ware digitale ruimte door het aanbieden van servers. Naast de vele legale hostingbedrijven, zijn er ook aanbieders van hostingdiensten die bewust cybercrime faciliteren.
+Tientallen servers in Nederland
+Bij de actie van eind oktober zijn door Team Cybercrime de Nederlandse servers in beslag genomen. Het gaat om tientallen fysieke servers die in een datacentrum in Limburg stonden. Door de inbeslagname van deze fysieke servers zijn er ook honderden virtuele servers offline gehaald. De veiliggestelde data zullen gebruikt worden voor nader politieonderzoek met betrekking tot klanten die deze servers hebben gebruikt voor criminele doeleinden.
+Brede bestrijding
+Hostingbedrijven hebben een belangrijke positie in de verbinding tussen de on- en offlinewereld. Om sneller en effectiever online misbruik te bestrijden, heeft de Nederlandse internetsector recent de gedragscode Abusebestrijding en de Gedragscode Notice and Take Down (NTD) vernieuwd. Hierin worden hostingdiensten en online platforms aangespoord om illegale online content te verwijderen of ontoegankelijk te maken zodra zij hier kennis van hebben. Ook op politiek niveau heeft het thema bad hosting de aandacht, zo blijkt uit een kamerbrief van minister van Weel (Ministerie van Justitie en Veiligheid) gepubliceerd op 6 juli 2026.
+Maatregelen
+Alhoewel het overgrote deel van de Nederlandse hostingsector inderdaad zelf maatregelen neemt tegen het gebruik van hun diensten door criminelen, is er ook een deel dat onbewust (bad hosting) danwel bewust (bulletproof hosting) malafide activiteiten faciliteert. Om de negatieve gevolgen van bad hosting en illegale praktijken van bulletproof hosting tegen te gaan worden strafrechtelijke en bestuursrechtelijke maartregelen genomen. Hierbij werkt de overheid nauw samen met bestuursrechtelijke autoriteiten en worden er contacten onderhouden met toonaangevende bedrijven binnen de internetsector.
+Delen:
+Delen via 
+ Facebook
+Delen via 
+ X
+Delen via 
+ LinkedIn
+Delen via 
+ WhatsApp
+Delen via 
+ E-mail

@@ -1,0 +1,136 @@
+URL: https://www.trmlabs.com/resources/blog/fbi-seizes-virtualine-domain-after-provider-led-bulletproof-hosting-sector-in-illicit-inflows
+
+FBI Seizes Virtualine Domain After Provider Led Bulletproof Hosting Sector in Illicit Inflows | TRM Labs
+Insights
+October 28, 2026
+FBI Seizes Virtualine Domain After Provider Led Bulletproof Hosting Sector in Illicit Inflows
+TRM Team
+On October 27, 2026, the FBI seized the domain of Virtualine, a Russian-speaking bulletproof hosting provider whose direct customers included ransomware groups, an infostealer operator, and a Russian drug marketplace. In 2026, Virtualine received more illicit-attributed cryptocurrency than any other TRM-labeled bulletproof hosting provider, despite receiving less total value than several peers.
+Its customer mix shows the range of criminal services paying for this infrastructure. Ransomware groups accounted for about 5% of Virtualine’s direct inflows, while a Russian drug marketplace accounted for about 44%. A large sextortion scheme and a mixer were also major sources of funds.
+The seizure disrupts Virtualine’s storefront. Its blockchain activity is a record of the financial relationships around the service — and a starting point for monitoring where funds and customers move next.
+Key takeaways
+On October 27, 2026, the FBI seized the domain of Virtualine, a Russian-speaking bulletproof hosting provider, in an operation with German, Dutch, and UK partners
+Virtualine received more illicit-attributed value than any other TRM-labeled bulletproof hosting provider in 2026 to date, despite ranking lower on total inflows
+A Russian drug marketplace accounted for about 44% of Virtualine’s direct inflows. Ransomware groups accounted for about 5%
+Virtualine’s direct counterparties also included a large sextortion scheme, a mixer, the StealC infostealer, and Volhav, another bulletproof hosting provider
+Across TRM-labeled bulletproof hosting providers, quarterly inflow value was about 4% higher in Q3 2026 than in Q1 2025, while incoming transfers were 60% higher
+{{horizontal-line}}
+The hosting infrastructure behind criminal services
+Ransomware groups, malware operators, and illicit marketplaces need servers, domains, and network capacity to run their services. Bulletproof hosting providers sell access to that infrastructure while advertising resistance to abuse complaints and law enforcement requests.
+US cybersecurity agencies describe bulletproof hosts as providers that do not engage in good faith with legal process or complaints from victims and third parties. Their joint guidance, Bulletproof Defense: Mitigating Risks from Bulletproof Hosting Providers, published on November 19, 2025, identifies uses including fast-flux obfuscation, command and control, malware delivery, phishing, and hosting illicit content. These functions can support ransomware, data extortion, and denial-of-service attacks.
+Customers pay for infrastructure they expect to remain available despite reports of abuse. That makes bulletproof hosts a shared dependency across several forms of cybercrime.
+TRM labels dozens of bulletproof hosting providers, with a small group receiving most of the sector’s cryptocurrency inflows. Virtualine stands out within that group: it was not among the largest by total inflows, but it received the most illicit-attributed value in 2026 to date.
+F0XYF0X appears on this chart. Forum reports describe the name as banned after an alleged exit scam. 
+Across the labeled sector, quarterly inflow value changed relatively little between Q1 2025 and Q3 2026, ending about 4% above its starting level. Incoming transfers rose more substantially, ending 60% higher. Both measures fluctuated during the period.
+Direct payers across the sector include ransomware groups such as Coinbase Cartel, The Gentlemen, INC, DragonForce, and Qilin, alongside malware operators such as the StealC infostealer and the Matanbuchus loader. Other counterparties include darknet markets, illicit goods and services operators, bot and malware-distribution services, and sites linked to child sexual abuse material. Mixers also account for a substantial portion of the funds reaching these providers.
+Virtualine’s own inflows were concentrated in a drug marketplace, a sextortion scheme, and a mixer, with ransomware and malware operators accounting for smaller shares.
+Virtualine’s service and customers
+Virtualine joined the cybercrime forum Exploit on August 28, 2024 and claims to have operated since 2019. It advertises “off-shore web hosting, bulletproof cloud servers, bulletproof domains, and dedicated machines,” with prices starting at USD 0.79 per month.
+The provider also claims that its collection of autonomous system numbers was the largest for malware and botnet hosting in 2025. Customers could reach it through two Telegram accounts. Reporting on the seizure lists Omegatech among the names used by the operator.
+TRM’s analysis of Virtualine’s labeled Bitcoin addresses shows the services that paid it directly. These payments establish financial relationships with the host. They do not, by themselves, identify which attacks or services ran on its infrastructure.
+A Russian drug marketplace accounted for about 44% of Virtualine’s direct inflows. A large sextortion scheme accounted for about 17%, sending funds between February and June 2026. The transfers do not state a purpose. A mixer accounted for about 13%. Ransomware groups accounted for about 5%.
+Virtualine also received payments from the StealC infostealer throughout 2026. The transactions show a continuing financial relationship.
+Another direct counterparty was Volhav, a second bulletproof hosting provider. That payment links Virtualine to other infrastructure in the same sector. Providers in this market resell infrastructure to one another.
+What the seizure changes
+The FBI Washington Field Office and the US Attorney’s Office for the Eastern District of Virginia announced the seizure of virtualine.net on October 27, 2026. Reporting on the announcement names Germany’s Polizei Hessen, the Netherlands’ Politie Midden-Nederland, and the UK National Crime Agency as partners.
+TRM was tracking Virtualine before the seizure. Its labeled addresses connect the provider to ransomware groups, an infostealer, a drug marketplace, a sextortion scheme, and other cybercrime services.
+A domain seizure disrupts how customers find and access a service. It does not, by itself, establish that the operator has stopped working, or that customers have lost access to all underlying infrastructure.
+The labeled addresses remain available for monitoring. Subsequent transactions can show withdrawals to know-your-customer (KYC) exchanges, continued payments to Virtualine’s known addresses, or financial links to other bulletproof hosting providers. Customer activity can also show movement to alternative hosts.
+The existing transaction history already shows why Virtualine mattered. It was a financial point of connection for several kinds of criminal activity. Payments from a drug marketplace and a sextortion scheme accounted for a much larger share of its direct receipts than ransomware.
+{{horizontal-line}}
+Frequently Asked Questions (FAQs)
+1. What is a bulletproof hosting provider?
+A bulletproof hosting provider rents servers, domains, or network capacity while advertising resistance to abuse complaints and law enforcement requests. Criminal customers can use that infrastructure to host illicit services, deliver malware, and support attacks.
+2. Who paid Virtualine?
+Direct counterparties included a Russian drug marketplace, a large sextortion scheme, a mixer, five ransomware groups the StealC infostealer, and other cybercrime services. Ransomware groups accounted for about 5% of direct inflows, compared with about 44% from the Russian drug marketplace.
+3. Does the seizure end Virtualine?
+No. The domain seizure alone does not establish that Virtualine has ceased operating. Its labeled cryptocurrency addresses remain on-chain and can be monitored for subsequent activity.
+4. Can TRM customers see this activity?
+Yes. A graph of the Virtualine cluster is available in Graph Visualizer with a TRM license.
+This is some text inside of a div block.
+Related posts
+BLOG
+July 1, 2025
+US Treasury Sanctions Global Bulletproof Hosting Service Aeza Group For Enabling Cybercriminal Activity
+BLOG
+November 20, 2025
+US, Australia, and UK Sanction Russian Cybercrime Infrastructure Supporting Ransomware
+BLOG
+February 11, 2025
+US, UK and Australia Target Zservers and LockBit Affiliates
+No posts to show
+No posts to show
+No posts to show
+No posts to show
+No posts to show
+Subscribe and stay up to date with our insights
+No items found.
+REPORT
+See the trends and typologies that shaped the illicit crypto ecosystem in 2025
+READ THE REPORT →
+REPORT
+Unlocking more clarity for institutional adoption with key crypto policy shifts in 2025
+READ THE REPORT →
+FLIP BOOK
+Learn more about common crypto-enabled scam typologies in our "Investigating Crypto Scams" flip book
+Get your copy →
+USE CASE
+Learn how TRM helps compliance teams monitor exposure, detect threats, and safeguard their organizations
+TRM for stablecoin risk management →
+BLOG
+Learn about the recent rise of "wrench attacks" and crypto-related violent crime
+Read the post →
+GUIDE
+Learn best practices for evaluating the legal, operational, and financial integrity of crypto entities before engagement
+Get the guide →
+REGULATORY ACTION TRACKER
+Stay updated on the latest crypto-linked regulatory actions available in the public domain
+Check it out →
+BLOG
+Learn more about the global law enforcement operation that took down Garantex
+Read the post →
+REPORT
+2025 Crypto Crime Report: Explore how the crypto crime landscape evolved over the past year
+DIG IN NOW →
+REPORT
+As AI technology becomes more sophisticated, so will the ways in which criminals use it. See what TRM is doing to counter AI-enabled crime.
+FIGHT AI WITH AI →
+REPORT
+The crypto crime landscape saw significant shifts in 2024, including decreases in illicit volumes. Dig into the data here.
+PREVIEW THE CRYPTO CRIME REPORT →
+DOCUMENTARY
+Stream “Biggest Heist Ever” and get a behind-the-scenes peek from the TRM team
+CHECK IT OUT →
+REPORT
+Explore the macro trends and jurisdictional developments that shaped the global crypto policy landscape in 2024
+READ THE REPORT →
+REPORT
+See the countries with the highest rates of crypto adoption — and the highest rates of exposure to illicit activity
+READ THE REPORT NOW →
+WHITE PAPER
+Explore four ways TRM improves compliance in the modern sanctions enforcement era
+Download the white paper →
+CASE STUDY
+See how Deputy District Attorney Erin West and the REACT Task Force are fighting back against pig butchering
+WATCH THE VIDEO →
+REPORT
+Explore the key trends that shaped that the illicit crypto economy in 2023
+GET THE REPORT →
+BLOG
+Learn why cryptocurrency has become a central issue in the 2024 US election
+READ THE POST
+REPORT
+Take a deep-dive into the Russian-speaking illicit crypto ecosystem
+READ THE FULL REPORT
+Case Study
+ Learn more about how the REACT Task Force is tackling pig butchering
+Read the case study
+REPORT
+Explore recent ransomware trends in the Russian-speaking crypto ecosystem—including the role of ransomware groups in cybercrime around the world
+GET THE REPORT
+BLOG POST
+Learn about summer 2024’s spate of ransomware attacks, and the proliferation of RaaS around the world
+READ THE POST
+REPORT
+Learn about cryptocurrency’s role in the international synthetic drug precursor market
+GET THE REPORT
