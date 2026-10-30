@@ -7181,40 +7181,6 @@
    "pendingReason": "自動取得不可（公式 https://www.otsuka.com.tw/jp/news/detail/163 が http404）。個人情報の漏えいかも公式本文で未確認。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "palan-metabase-2610",
-   "co": "株式会社palan（データ分析ツール「Metabase」）",
-   "date": "2026-10-26",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "c",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認（岐阜県は1,135名分、宮崎県は551件を公表）",
-   "who": [
-    "unk"
-   ],
-   "sum": "palanが業務で使う外部データ分析ツール「Metabase」への第三者の不正アクセスにより、保管されていた情報が漏えいした。岐阜県（スタンプラリー1,135名分）と宮崎県（キキタビ観光ガイド551件）が委託元として公表。palan自身の公表は10月26日。",
-   "status": "ongoing",
-   "statusText": "2026年10月26日にpalanが公表、岐阜県・宮崎県が10月27日に公表。",
-   "official": [
-    [
-     "不正アクセスによる個人情報の漏えいに関するお知らせとお詫び（2026/10/26）",
-     "https://palan.co.jp/news/20261026"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/palan-metabase-gifu-miyazaki-data-leak/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "自動取得不可（palan.co.jp の本文が thin／JavaScript描画の可能性）。件数・項目は岐阜県・宮崎県の公式発表のみで照合。manual/ に公式文面を貼れば反映できる。公式: https://palan.co.jp/news/20261026"
-  },
-  {
    "id": "asahi-shimbun-cuenote-2610",
    "co": "株式会社朝日新聞社（メール配信 委託先 ユミルリンク「Cuenote FC」）",
    "date": "2026-10-29",
