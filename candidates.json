@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7285,36 +7285,6 @@
    ],
    "ind": "メディア・出版",
    "pendingReason": "朝日新聞社自身の公式発表の本文を取得できていない（inbox の公式リンクはユミルリンクのページのみ。朝日新聞社の公式ページへのWebFetchもURL制約で不可）。manual/ に朝日新聞社の公式文面を貼れば反映できる。"
-  },
-  {
-   "id": "ana-amadeus-2610",
-   "co": "全日本空輸（ANA）（旅客サービスシステムの委託先 Amadeus IT Group）",
-   "date": "2026-10-29",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "航空便予約情報に含まれる顧客の個人情報の一部（具体項目は調査中）",
-   "who": [
-    "cust"
-   ],
-   "sum": "ANAは2026年10月29日、予約システムの委託先Amadeus（スペイン）が不正アクセスを受け、ANA便などの予約情報に含まれる顧客の個人情報の一部が外部から参照された形跡があると発表した（10月20日にAmadeusから報告）。対象人数・項目は調査中で、漏えいの有無を確認している。",
-   "status": "ongoing",
-   "statusText": "報道ベース（2026/10/29）。",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/ana-amadeus-unauthorized-access-reservation-data/"
-    ]
-   ],
-   "ind": "運輸・交通",
-   "pendingReason": "ANA自身の公式発表の本文を取得できていない（inboxの公式リンクは報道とJALの公式ページのみ）。manual/ にANAの公式文面を貼れば反映できる。"
   },
   {
    "id": "impress-digitalx-cuenote-2610",
