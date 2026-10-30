@@ -6998,42 +6998,6 @@
    "pendingReason": "公式発表が画像ファイルで本文を読めず、漏えいした情報が個人情報か社内情報かも確認できない。自動取得不可（画像）。manual/ に公式文面を貼れば反映できる"
   },
   {
-   "id": "levelenter-air-scorer-2610",
-   "co": "株式会社レベルエンター（AI採点・添削サービス「AI.R-Scorer」）",
-   "date": "2026-10-22",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "name",
-    "mail",
-    "id"
-   ],
-   "itemsText": "利用者の氏名、メールアドレス、パスワードのハッシュ値、学籍・クラス情報、答案画像、採点結果、講評、契約・取引担当者の連絡先など（報道による）",
-   "sum": "サービス運用サーバーが2025年12月5日に脆弱性を悪用されて侵入され、10月21日の点検で発覚。約10か月半、サーバー内のデータが閲覧・取得可能な状態だったが、実際の外部持ち出しは確認できていない。10月21日に個人情報保護委員会へ報告。京都文教大学は教員18名・学生197名の情報を公表。",
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/levelenter-air-scorer-cyberattack-kyoto-bunkyo-20261027-second/"
-    ]
-   ],
-   "status": "ongoing",
-   "statusText": "第1報（10月22日）時点。第三者機関による調査は今後実施。",
-   "resp": "旧サーバー停止、新環境への移行、認証情報の無効化・変更。生徒・保護者向けお詫び文を利用校へ提供（10月23日）。",
-   "official": [
-    [
-     "【重要】AI.R-Scorerへの不正アクセスによる個人情報漏えいのおそれに関するご報告とお詫び（第1報）",
-     "https://levelenter.com/posts/MjUPeYGD"
-    ]
-   ],
-   "ind": "人材・教育・業務支援",
-   "cause": "cyber",
-   "pendingReason": "自動取得不可（公式 levelenter.com の本文が thin／JavaScript描画の可能性）。件数・項目は報道と京都文教大学の公表のみで照合。manual/ に公式文面を貼れば反映できる。公式: https://levelenter.com/posts/MjUPeYGD"
-  },
-  {
    "id": "tsukutsuku-2610",
    "co": "TSUKU TSUKU株式会社（通販・ウェブチケットサイト「ツクツク!!!」）",
    "date": "2026-10-26",
