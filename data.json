@@ -34228,6 +34228,54 @@
     "src": "https://holdings.panasonic/jp/information/topics/20261023.html"
    },
    "verified": "2026-10-30"
+  },
+  {
+   "id": "sonylife-medicare-agency-2610",
+   "co": "ソニー生命保険株式会社（契約者専用サイト「お客さまWEBサービス」等／メディケア生命の代理店契約分）",
+   "date": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 385000,
+   "label": "約38.5万件（メディケア生命の保険契約の契約者・被保険者）",
+   "st": "c",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "氏名、生年月日、性別、住所、電話番号、証券番号、ご契約内容（当社が保険代理店として取り扱ったメディケア生命保険の契約の契約者・被保険者）",
+   "who": [
+    "cust"
+   ],
+   "sum": "ソニー生命の契約者専用サイト「お客さまWEBサービス」などのシステムが第三者の不正アクセスを受け、保険代理店として取り扱ったメディケア生命の契約者・被保険者の情報約38.5万件が漏えいした。不正アクセスは10月27日に判明。原因・影響範囲は調査中で、現時点で不正使用は確認されていない。メディケア生命も同日に発表している（メディケア生命分は別事案として掲載）。",
+   "status": "ongoing",
+   "statusText": "2026年10月28日の発表時点。原因と影響範囲を調査中。関連サービスは一時停止中。",
+   "official": [
+    [
+     "【重要】当社システムに対する不正アクセスの発生および情報漏えいに関するお詫び（2026/10/28）",
+     "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sony-life-medicarelife-385000-data-breach-20261028/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "announced": "2026-10-28",
+   "occurred": "2026-10-27",
+   "notIncl": "マイナンバー、クレジットカード情報、保険料振替口座情報",
+   "resp": "対象システムへの外部アクセスを遮断し関連サービス（お客さまWEBサービス、アプリ等）を停止。金融庁へ報告済み。対象のお客さまへ順次連絡。ソニー生命を装うメール・SMS・電話への注意喚起。",
+   "contact": {
+    "note": "公式発表（貼付分）に窓口の記載なし",
+    "src": "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf"
+   },
+   "verified": "2026-10-30"
   }
  ],
  "statusLabels": {
@@ -34260,7 +34308,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 308,
+ "pendingCount": 307,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",

@@ -7215,46 +7215,6 @@
    "pendingReason": "自動取得不可（palan.co.jp の本文が thin／JavaScript描画の可能性）。件数・項目は岐阜県・宮崎県の公式発表のみで照合。manual/ に公式文面を貼れば反映できる。公式: https://palan.co.jp/news/20261026"
   },
   {
-   "id": "sonylife-medicare-agency-2610",
-   "co": "ソニー生命保険株式会社（契約者専用サイト「お客さまWEBサービス」等／メディケア生命の代理店契約分）",
-   "date": "2026-10-28",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 385000,
-   "label": "約38.5万件（報道・メディケア生命の発表による）",
-   "st": "c",
-   "items": [
-    "name",
-    "birth",
-    "addr",
-    "tel",
-    "deal"
-   ],
-   "itemsText": "氏名、生年月日、性別、住所、電話番号、証券番号、契約内容（メディケア生命の契約者・被保険者。メディケア生命の発表による）",
-   "who": [
-    "cust"
-   ],
-   "sum": "ソニー生命のシステムが10月27日に不正アクセスを受け、10月28日朝からアプリ等6サービスを停止。メディケア生命は同社の契約者・被保険者の約38.5万件が漏えいしたと公表（メディケア生命分は台帳に掲載）。ソニー生命自身の公式発表の本文は読めていない。",
-   "status": "ongoing",
-   "statusText": "報道・メディケア生命の発表ベース（2026/10/28）。",
-   "official": [
-    [
-     "ソニー生命の公表資料（2026/10/28）",
-     "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/sony-life-medicarelife-385000-data-breach-20261028/"
-    ]
-   ],
-   "ind": "金融・保険",
-   "pendingReason": "自動取得不可（error:SSLError。sonylife.co.jp の公式PDF・お知らせとも取得できず、WebFetchもURL制約で不可）。件数・項目はメディケア生命の公式発表のみで照合。manual/ にソニー生命の公式文面を貼れば反映できる。公式: https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf"
-  },
-  {
    "id": "asahi-shimbun-cuenote-2610",
    "co": "株式会社朝日新聞社（メール配信 委託先 ユミルリンク「Cuenote FC」）",
    "date": "2026-10-29",
