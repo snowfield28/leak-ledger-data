@@ -35302,6 +35302,59 @@
    ],
    "ind": "製造",
    "verified": "2026-10-31"
+  },
+  {
+   "id": "mofa-2610",
+   "co": "外務省",
+   "date": "2026-10-30",
+   "announced": "2026-10-30",
+   "occurred": "2026-07-27",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 3600,
+   "label": "約3,600件（うち外務省員以外約900件）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "メールアドレスや氏名など（個人情報を含むメール等の一部）",
+   "notIncl": "機密性の高い情報は含まれていないことを確認。旅券・たびレジ等を扱う領事システムは別構築で対象外",
+   "who": [
+    "staff",
+    "cust"
+   ],
+   "sum": "外部とのやり取りが可能なネットワークへの不正アクセスにより、個人情報を含むメール等の一部が漏えいした可能性がある。7月27日に検知して遮断・認証情報の無効化を実施し、外部専門事業者の調査で漏えいの可能性を確認した。対象は約3,600件で、うち外務省員以外が約900件。二次被害は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年10月30日の発表時点。対象者を特定のうえ個別に連絡予定。",
+   "resp": "不正アクセスの遮断と認証情報の無効化。対象者へ個別連絡予定。アクセス制御・認証方法の見直し、監視強化、情報セキュリティ教育の再徹底。なりすましメール等への注意を呼びかけ。",
+   "contact": {
+    "mails": [
+     "contact-ismd@mofa.go.jp"
+    ],
+    "note": "大臣官房情報システム総括課",
+    "src": "https://www.mofa.go.jp/mofaj/press/oshirase/index.html"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報の漏えいの可能性について（2026/10/30）",
+     "https://www.mofa.go.jp/mofaj/press/oshirase/index.html"
+    ]
+   ],
+   "src": [
+    [
+     "INTERNET Watch",
+     "https://internet.watch.impress.co.jp/docs/news/2152757.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mofa_unauthorized_access_personal_info_3600_20261030/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-10-31"
   }
  ],
  "statusLabels": {
@@ -35334,7 +35387,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 307,
+ "pendingCount": 306,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
