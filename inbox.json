@@ -1,32 +1,5 @@
 {
- "items": [
-  {
-   "article_url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56628.html",
-   "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.30 Fri 8:05 セカンドリテイリングに不正アクセス 株式会社セカンドリテイリングは10月19日、10月17日に公表した同社の社内システムへの不正アクセスについて、調査結果を発表した。",
-   "source": "ScanNetSecurity 月別 1",
-   "found": "2026-10-31",
-   "article_text_file": "inbox/texts/1207c990fb43.txt",
-   "official": [
-    {
-     "url": "https://2nd-rtl.com/news/82032/",
-     "status": "error:http403",
-     "chars": 0
-    },
-    {
-     "url": "https://2nd-rtl.com/news/82023/",
-     "status": "error:http403",
-     "chars": 0
-    },
-    {
-     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
-     "status": "ok",
-     "chars": 4120,
-     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
-     "text_file": "inbox/texts/b77453ec9305.txt"
-    }
-   ]
-  }
- ],
+ "items": [],
  "generated": "2026-10-31 04:45 JST",
  "last_report": {
   "sources_ok": 9,
