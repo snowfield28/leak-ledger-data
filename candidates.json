@@ -7318,30 +7318,6 @@
    ],
    "ind": "生活サービス・レジャー",
    "pendingReason": "コアデの公式発表本文を開けず（inboxの公式リンクは別事案のもの、検索でも公式ページを特定できず）、件数・項目を照合できない。manual/ に公式文面を貼れば反映できる"
-  },
-  {
-   "id": "irisplaza-2610",
-   "co": "株式会社アイリスプラザ（アイリスオーヤマ公式通販）",
-   "date": "2026-10-29",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "sum": "アイリスオーヤマ公式通販「アイリスプラザ」で不正アクセスが確認されECサイトを一時停止し、情報漏えいの可能性を含め調査中と報じられた。クレジットカード情報の漏えいは確認されていない。",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/irisplaza_unauthorized_access_ec_site_suspended_20261030/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "公式発表本文を取得できず（403/robots/JS）、漏えいの有無・件数・項目を照合できない。manual/ に公式文面を貼れば反映できる"
   }
  ]
 }
