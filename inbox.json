@@ -1,6 +1,253 @@
 {
- "items": [],
- "generated": "2026-10-31 04:45 JST",
+ "items": [
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/gmo_trustlogin_data_leak_third_report_20261030/",
+   "title": "GMOトラスト・ログインで情報漏えい、対象2,492社・45,030人に拡大 公開ストレージの設定不備が原因",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-01",
+   "article_text_file": "inbox/texts/41abe8d037ca.txt",
+   "official": [
+    {
+     "url": "https://news.trustlogin.com/20261030",
+     "status": "ok",
+     "chars": 5575,
+     "text_file": "inbox/texts/7fed93108a0b.txt"
+    },
+    {
+     "url": "https://news.trustlogin.com/20261007-1",
+     "status": "ok",
+     "chars": 772,
+     "text_file": "inbox/texts/f6f96a499034.txt"
+    },
+    {
+     "url": "https://news.trustlogin.com/20260916",
+     "status": "ok",
+     "chars": 2261,
+     "text_file": "inbox/texts/a8afa163382a.txt"
+    },
+    {
+     "url": "https://internet.gmo/news/article/248/",
+     "status": "ok",
+     "chars": 2663,
+     "text_file": "inbox/texts/69dea53abb5d.txt"
+    },
+    {
+     "url": "https://internet.gmo/news/article/256/",
+     "status": "ok",
+     "chars": 3580,
+     "text_file": "inbox/texts/60ca21e5c010.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/dhc_online_shop_5096_account_tampering_20261031/",
+   "title": "DHC公式オンラインショップに不正アクセス、会員情報5,096アカウントを改ざん 不審な注文27件も確認",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-01",
+   "article_text_file": "inbox/texts/6dda2880b7ee.txt",
+   "official": [
+    {
+     "url": "https://dhc-corporate.co.jp/cms_dH8vjpRq/wp-content/uploads/2026/10/0deb6f2426f1d5ab2b2b1824288b374d.pdf",
+     "status": "ok",
+     "chars": 1721,
+     "text_file": "inbox/texts/5d826b60e392.txt"
+    },
+    {
+     "url": "https://www.wwdjapan.com/articles/2540414",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/saga_university_ransomware_gentlemen_update_20261031/",
+   "title": "佐賀大学、ランサムウェアによるサイバー攻撃で約8万人の個人情報漏洩のおそれ-ランサムウェアグループ「The Gentlemen」が犯行声明",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-01",
+   "article_text_file": "inbox/texts/658c87ad1802.txt",
+   "official": [
+    {
+     "url": "https://www.saga-u.ac.jp/koho/press/2026103041765",
+     "status": "ok",
+     "chars": 4566,
+     "text_file": "inbox/texts/8c4db98974cd.txt"
+    },
+    {
+     "url": "https://www.saga-u.ac.jp/koho/press/2026103041773",
+     "status": "ok",
+     "chars": 4973,
+     "text_file": "inbox/texts/69754441fc05.txt"
+    },
+    {
+     "url": "https://www.saga-u.ac.jp/koho/press/2026092841520",
+     "status": "ok",
+     "chars": 4683,
+     "text_file": "inbox/texts/cdf1a8291e27.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/kddi_lifenet_linked_system_22541_possible_leak_20261031/",
+   "title": "KDDI、最大2万2,541件が個人情報漏えいのおそれ ライフネット生命の連携システムに不正アクセス",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-01",
+   "article_text_file": "inbox/texts/ee9c19c4f7aa.txt",
+   "official": [
+    {
+     "url": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-82_4796/kddi_nr_s-82_4796_pdf_01.pdf",
+     "status": "ok",
+     "chars": 1895,
+     "text_file": "inbox/texts/95b75c023511.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/ida_mybrands_unauthorized_access_135000_possible_leak_20261031/",
+   "title": "iDA「MyBRANDS」に不正アクセス、最大約13万5,000アカウントの個人情報が漏えいのおそれ クラウドアクセスキーを悪用",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-01",
+   "article_text_file": "inbox/texts/532528faeb69.txt",
+   "official": [
+    {
+     "url": "https://ida-mode.com/lp/news/unauthorized-access-2026-10/",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/tokyo_himitsukichi_additional_disclosure_20261031/",
+   "title": "女風「東京秘密基地」へのサイバー攻撃の続報、ハッカーが利用者約2,700人の実名特定を主張 個人情報を追加公開か",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-01",
+   "article_text_file": "inbox/texts/00d8d88a1370.txt",
+   "official": [
+    {
+     "url": "https://www.ipa.go.jp/archive/files/000084974.pdf",
+     "status": "ok",
+     "chars": 23947,
+     "text_file": "inbox/texts/57eec8209085.txt"
+    },
+    {
+     "url": "https://about.fb.com/ja/news/2021/07/keeping-instagram-safe-and-secure/",
+     "status": "ok",
+     "chars": 4008,
+     "text_file": "inbox/texts/6fab41e2d558.txt"
+    },
+    {
+     "url": "https://www.npa.go.jp/bureau/cyber/soudan.html",
+     "status": "ok",
+     "chars": 2403,
+     "text_file": "inbox/texts/0836575086fa.txt"
+    },
+    {
+     "url": "https://go-kichi.com/tokyo/shoplist",
+     "status": "ok",
+     "chars": 2636,
+     "text_file": "inbox/texts/3e4fb5adac9b.txt"
+    },
+    {
+     "url": "https://go-kichi.com/hakata/free_pages/yoyakuhakata",
+     "status": "ok",
+     "chars": 1784,
+     "text_file": "inbox/texts/961357a1fe30.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2024/11/15/51919.html",
+   "title": "クラブツーリズムのサーバに不正アクセス、海外ツアー参加者の個人情報が漏えいした可能性",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-01",
+   "article_text_file": "inbox/texts/ead40bce837c.txt",
+   "official": [
+    {
+     "url": "https://www.club-tourism.co.jp/jpn/news/2024/1101_1/",
+     "status": "ok",
+     "chars": 1577,
+     "text_file": "inbox/texts/dffe0d98a8a1.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4106,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  }
+ ],
+ "generated": "2026-11-01 04:36 JST",
  "last_report": {
   "sources_ok": 9,
   "sources_failed": [],
@@ -8,14 +255,6 @@
    "https://www.linkedin.com": {
     "status": 200,
     "text": "# Notice: The use of robots or other automated means to access LinkedIn without\n# the express permission of LinkedIn is strictly prohibited.\n# See https://www.linkedin.com/legal/user-agreement.\n# LinkedIn may, in its discretion, permit certain automated access to certain LinkedIn pages,\n# for the limited purpose of including content in approved publicly available search engines.\n# If you would like to apply for permission to crawl LinkedIn, please email whitelist-crawl@linkedin.com.\n# Any and all permitted crawling of LinkedIn is subject to LinkedIn's Crawling Terms and Conditions.\n# See http://www.linkedin.com/legal/crawling-terms.\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: Googlebot\nDisallow: /addContacts*\nDisallow: /addressBookExport*\nDisallow: /ambry\nDisallow: /analytics/\nDisallow: /answers*\nDisallow: /authwall\nDisallow: /badges/profile/create\nDisallow: /cap/\nDisallow: /chat/\nDisallow: /checkpoint/\nDisallow: /companyDir*\nDisallow: /connections*\nDisallow: /csp/\nDisallow: /e/\nDisallow: /edurec*\nDisallow: /embed/feed/update/\nDisallow: /endorsements\nDisallow: /feed/update/\nDisallow: /find/\nDisallow: /fizzy/admin\nDisallow: /groups/\nDisallow: /groupAnswers*\nDisallow: /groupSharingMsg*\nDisallow: /inviteFromProfile*\nDisallow: /inviteMany*\nDisallow: /jobs?runSearch*\nDisallow: /jobs/view/externalApply/\nDisallow: /jobs-guest/\nDisallow: /api/jobPostings/jobs*\nDisallow: /jsearch*\nDisallow: /job-apply/\nDisallow: /learning*?auth=true\nDisallow: /learning*&auth=true\nDisallow: /learnin"
-   },
-   "https://www.release.tdnet.info": {
-    "status": 200,
-    "text": "User-agent: *\nDisallow: /\n"
-   },
-   "https://www.threads.com": {
-    "status": 200,
-    "text": "# Notice: Collection of data on Threads through automated means is\n# prohibited unless you have express written permission from Threads\n# and may only be conducted for the limited purpose contained in said\n# permission.\n# All authorized user-agents listed on this page must comply with Meta’s\n# Automated Data Collection Terms available at:\n# https://www.facebook.com/legal/automated_data_collection_terms\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Brightbot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: Scrapy\nDisallow: /\n\nUser-agent: uptimerobot\nDisallow: /\n\nUser-agent: viberbot\nDisallow: /\n\nUser-agent: YaK\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /\n\nUser-agent: Yeti\nDisallow: /\n\nUser-agent: Applebot\nDisallow: /accounts/\nDisallow: /activity/\nDisallow: /ajax/\nDisallow: /client_error/\nDisallow: /deck/\nDisallow: /intent/\nDisallow: /logging/\nDisallow: /onboarding/\nDisallow: /publicapi/\nDisallow: /qp/batch_fetch_web/\nDisallow: /query/\nDisallow: /settings/\n\nUser-agent: Bingbot\nDisallow: /*/c/\nDisallow: /*/comments/\nDisallow: /*/liked_by/\nDisallow: /*/p/\nDisallow: /accounts/\nDisallow: /activity/\nDisallow: /ajax/\nDisallow: /client_error/\nDisallow: /deck/\nDisallow: /intent/\nDisallow: /logging/\nDisallow: /onboarding/\nDisallow: /publicapi/\nDisallow: /qp/batch_fetch_web/\nDisallow: /quer"
    }
   }
  }
