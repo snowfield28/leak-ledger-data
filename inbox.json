@@ -1,6 +1,216 @@
 {
- "items": [],
- "generated": "2026-11-01 04:36 JST",
+ "items": [
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/mono_investment_invest_concierge_data_breach_20261029_analysis/",
+   "title": "MONO Investment「投資のコンシェルジュ」に不正アクセス、顧客情報が流出 みんかぶの口座連携も停止、二次詐欺の危険性と対策",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-02",
+   "article_text_file": "inbox/texts/e2164c1a3b07.txt",
+   "official": [
+    {
+     "url": "https://monoinv.com/news/newsrelease-20261029/",
+     "status": "thin",
+     "chars": 19,
+     "text_file": "inbox/texts/ef87e5d66dfc.txt"
+    },
+    {
+     "url": "https://www.invest-concierge.com/guidance/account-linkage",
+     "status": "ok",
+     "chars": 2590,
+     "text_file": "inbox/texts/04eff17245fa.txt"
+    },
+    {
+     "url": "https://www.invest-concierge.com/guidance/account-linkage/account-linking-overview/faqs/account-linking-login-error-response",
+     "status": "ok",
+     "chars": 2114,
+     "text_file": "inbox/texts/ca34c214a1a3.txt"
+    },
+    {
+     "url": "https://www.invest-concierge.com/guidance/account-linkage/account-linking-methods/faqs/multi-factor-authentication-securities",
+     "status": "ok",
+     "chars": 1420,
+     "text_file": "inbox/texts/4b78455c294d.txt"
+    },
+    {
+     "url": "https://minkabu.jp/announcement",
+     "status": "error:http403",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/club_tourism_20261101_data_breach_article/",
+   "title": "クラブツーリズムへ不正アクセスによるサイバー攻撃、最大約432万件の個人情報漏洩の恐れ",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-02",
+   "article_text_file": "inbox/texts/bce024f9659e.txt",
+   "official": [
+    {
+     "url": "https://www.club-tourism.co.jp/jpn/news/2026/1031/",
+     "status": "ok",
+     "chars": 2347,
+     "text_file": "inbox/texts/6984ba37cf19.txt"
+    },
+    {
+     "url": "https://www.kntcthd.co.jp/ja/release/2026/20261101.html",
+     "status": "ok",
+     "chars": 412,
+     "text_file": "inbox/texts/5367d1d0734c.txt"
+    },
+    {
+     "url": "https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html",
+     "status": "ok",
+     "chars": 3063,
+     "text_file": "inbox/texts/676fae481dbc.txt"
+    },
+    {
+     "url": "https://www.ipa.go.jp/security/support/abuse_email.html",
+     "status": "ok",
+     "chars": 1320,
+     "text_file": "inbox/texts/45a04a982bde.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/ana_trading_egift_unauthorized_access_october_20261030/",
+   "title": "全日空商事「選べるe-GIFT」に再び不正アクセス、8月とは異なる侵入経路・手口 全サービス停止が長期化へ",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-02",
+   "article_text_file": "inbox/texts/940788bdfc66.txt",
+   "official": [
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    },
+    {
+     "url": "https://www.threads.com/@securitylab_jp",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/shogun-burger-app-dirigio-picks-data-breach-20261030/",
+   "title": "SHOGUN BURGERの公式アプリに不正アクセス、顧客の個人情報漏えい 運営元「PICKS」のAPI侵害が複数飲食ブランドに波及",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-02",
+   "article_text_file": "inbox/texts/ba71fd18e99c.txt",
+   "official": [
+    {
+     "url": "https://shogun-burger.com/news/217",
+     "status": "ok",
+     "chars": 1150,
+     "text_file": "inbox/texts/95a50aa24d25.txt"
+    },
+    {
+     "url": "https://dirigio.jp/news/release20261030",
+     "status": "ok",
+     "chars": 1903,
+     "text_file": "inbox/texts/804cedff8159.txt"
+    },
+    {
+     "url": "https://subway.co.jp/news/bhi2h9kf00mf/",
+     "status": "ok",
+     "chars": 1965,
+     "text_file": "inbox/texts/e6fb3ff96e80.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2025/10/20/53838.html",
+   "title": "「ランサムウェア被害ゼロ」電算システムが語る ChromeOS のセキュリティ設計とコスト優位性 PR",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-02",
+   "article_text_file": "inbox/texts/91a4dbc7adfa.txt",
+   "official": [
+    {
+     "url": "https://f2ff.jp/event/secd",
+     "status": "ok",
+     "chars": 8283,
+     "text_file": "inbox/texts/e3ae8756217c.txt"
+    },
+    {
+     "url": "https://f2ff.jp/introduction/11124?event_id=secd-2025-02-tokyo",
+     "status": "ok",
+     "chars": 1431,
+     "text_file": "inbox/texts/6e0b2fdeab17.txt"
+    },
+    {
+     "url": "https://www.densan-s.co.jp/",
+     "status": "ok",
+     "chars": 887,
+     "text_file": "inbox/texts/da40900d60ac.txt"
+    },
+    {
+     "url": "https://f2ff.jp/introduction/11157?event_id=secd-2025-02-tokyo",
+     "status": "ok",
+     "chars": 859,
+     "text_file": "inbox/texts/7e88d52d3f7c.txt"
+    },
+    {
+     "url": "https://f2ff.jp/introduction/11193?event_id=secd-2025-02-tokyo",
+     "status": "ok",
+     "chars": 876,
+     "text_file": "inbox/texts/6860f06c5fa1.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/03/04/54752.html",
+   "title": "私的宴席で救急事案の概要を漏えい、主任消防主事の男性職員（20代）を懲戒処分",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-02",
+   "article_text_file": "inbox/texts/45e26660835e.txt",
+   "official": [
+    {
+     "url": "https://www.city.narita.chiba.jp/anshin/page220600_00004.html",
+     "status": "error:http404",
+     "chars": 0
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4106,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  }
+ ],
+ "generated": "2026-11-02 04:36 JST",
  "last_report": {
   "sources_ok": 9,
   "sources_failed": [],
@@ -8,6 +218,10 @@
    "https://www.linkedin.com": {
     "status": 200,
     "text": "# Notice: The use of robots or other automated means to access LinkedIn without\n# the express permission of LinkedIn is strictly prohibited.\n# See https://www.linkedin.com/legal/user-agreement.\n# LinkedIn may, in its discretion, permit certain automated access to certain LinkedIn pages,\n# for the limited purpose of including content in approved publicly available search engines.\n# If you would like to apply for permission to crawl LinkedIn, please email whitelist-crawl@linkedin.com.\n# Any and all permitted crawling of LinkedIn is subject to LinkedIn's Crawling Terms and Conditions.\n# See http://www.linkedin.com/legal/crawling-terms.\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: Googlebot\nDisallow: /addContacts*\nDisallow: /addressBookExport*\nDisallow: /ambry\nDisallow: /analytics/\nDisallow: /answers*\nDisallow: /authwall\nDisallow: /badges/profile/create\nDisallow: /cap/\nDisallow: /chat/\nDisallow: /checkpoint/\nDisallow: /companyDir*\nDisallow: /connections*\nDisallow: /csp/\nDisallow: /e/\nDisallow: /edurec*\nDisallow: /embed/feed/update/\nDisallow: /endorsements\nDisallow: /feed/update/\nDisallow: /find/\nDisallow: /fizzy/admin\nDisallow: /groups/\nDisallow: /groupAnswers*\nDisallow: /groupSharingMsg*\nDisallow: /inviteFromProfile*\nDisallow: /inviteMany*\nDisallow: /jobs?runSearch*\nDisallow: /jobs/view/externalApply/\nDisallow: /jobs-guest/\nDisallow: /api/jobPostings/jobs*\nDisallow: /jsearch*\nDisallow: /job-apply/\nDisallow: /learning*?auth=true\nDisallow: /learning*&auth=true\nDisallow: /learnin"
+   },
+   "https://www.threads.com": {
+    "status": 200,
+    "text": "# Notice: Collection of data on Threads through automated means is\n# prohibited unless you have express written permission from Threads\n# and may only be conducted for the limited purpose contained in said\n# permission.\n# All authorized user-agents listed on this page must comply with Meta’s\n# Automated Data Collection Terms available at:\n# https://www.facebook.com/legal/automated_data_collection_terms\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Brightbot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: Scrapy\nDisallow: /\n\nUser-agent: uptimerobot\nDisallow: /\n\nUser-agent: viberbot\nDisallow: /\n\nUser-agent: YaK\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /\n\nUser-agent: Yeti\nDisallow: /\n\nUser-agent: Applebot\nDisallow: /accounts/\nDisallow: /activity/\nDisallow: /ajax/\nDisallow: /client_error/\nDisallow: /deck/\nDisallow: /intent/\nDisallow: /logging/\nDisallow: /onboarding/\nDisallow: /publicapi/\nDisallow: /qp/batch_fetch_web/\nDisallow: /query/\nDisallow: /settings/\n\nUser-agent: Bingbot\nDisallow: /*/c/\nDisallow: /*/comments/\nDisallow: /*/liked_by/\nDisallow: /*/p/\nDisallow: /accounts/\nDisallow: /activity/\nDisallow: /ajax/\nDisallow: /client_error/\nDisallow: /deck/\nDisallow: /intent/\nDisallow: /logging/\nDisallow: /onboarding/\nDisallow: /publicapi/\nDisallow: /qp/batch_fetch_web/\nDisallow: /quer"
    }
   }
  }
