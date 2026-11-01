@@ -7327,36 +7327,6 @@
    "pendingReason": "公式発表が403で自動取得できず本文を確認できない。報道では第2報で漏えい未確認とされており、公式本文で漏えいの記載がなければ対象外(excluded)にする。manual/ に公式文面を貼れば反映できる"
   },
   {
-   "id": "ida-mybrands-2610",
-   "co": "株式会社iDA（求人サイト「MyBRANDS」）",
-   "date": "2026-10-30",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": 135000,
-   "label": "最大約13万5,000アカウント（報道）",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認（報道では氏名、メールアドレス、電話番号、住所、プロフィール・職歴、ログイン用パスワードの変換値など）",
-   "sum": "報道によると、求人サイト「MyBRANDS」で委託先のクラウド管理用アクセスキーが10月21〜22日に不正利用され、複製データベースから外部へのデータ送信記録が確認された。求職者・企業担当者のアカウント（退会者含む）最大約13万5,000件が対象で、サービスは停止中。公式発表の本文は未確認。",
-   "official": [
-    [
-     "MyBRANDSへの不正アクセスによる個人情報漏えいのおそれについて（2026/10/30）",
-     "https://ida-mode.com/lp/news/unauthorized-access-2026-10/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/ida_mybrands_unauthorized_access_135000_possible_leak_20261031/"
-    ]
-   ],
-   "ind": "人材・教育・業務支援",
-   "pendingReason": "自動取得不可（公式発表が error:http403、WebFetchも不可）。manual/ に公式文面を貼れば反映できる"
-  },
-  {
    "id": "tokyo-himitsukichi-2610",
    "co": "東京秘密基地（女性向け風俗サービス・各店舗）",
    "date": "2026-10-31",
