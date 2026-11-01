@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -35820,6 +35820,122 @@
    ],
    "ind": "人材・教育・業務支援",
    "verified": "2026-11-01"
+  },
+  {
+   "id": "club-tourism-2610",
+   "co": "クラブツーリズム株式会社",
+   "announced": "2026-10-31",
+   "occurred": "2026-10-30",
+   "date": "2026-10-31",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 4320000,
+   "label": "約432万件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "氏名（漢字・カナ）、国籍、性別、生年月日、年齢、住所、電話番号、メールアドレス、会員ID、緊急連絡先",
+   "notIncl": "ログインパスワード、パスポート（旅券）情報、クレジットカード情報、金融機関口座番号",
+   "who": [
+    "cust"
+   ],
+   "sum": "同社のインターネット予約システムにインターネット会員として登録された顧客情報について、サーバへの外部からの不正アクセスにより、約432万件が外部に流出した可能性があることを確認した。10月30日5時45分に不正なアクセスを検知し、通信遮断などを実施した。第1信時点で具体的な二次被害は確認されていない。親会社のKNT-CTホールディングスも11月1日に同内容を告知した。",
+   "status": "ongoing",
+   "statusText": "2026年10月31日の第1信時点。調査継続中で、続報を予定。",
+   "resp": "不正アクセスを受けたサーバの隔離と攻撃元からの通信遮断、侵入経路の特定と是正を実施済み。被害拡大防止と調査のためホームページを一時停止。対象の可能性がある会員へ順次連絡。警察へ相談、個人情報保護委員会と監督官庁へ報告。不審な連絡への注意喚起とパスワード変更の案内。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-335-255",
+      "hours": "平日9:30〜17:00（11月中は土日祝も同時間）"
+     }
+    ],
+    "note": "お客様特設窓口",
+    "src": "https://www.club-tourism.co.jp/jpn/news/2026/1031/"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第1信）（2026/10/31）",
+     "https://www.club-tourism.co.jp/jpn/news/2026/1031/"
+    ],
+    [
+     "グループ会社における不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（KNT-CTホールディングス）（2026/11/1）",
+     "https://www.kntcthd.co.jp/ja/release/2026/20261101.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/club_tourism_20261101_data_breach_article/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-11-02"
+  },
+  {
+   "id": "shogun-burger-ganesha-picks-2610",
+   "co": "株式会社ガネーシャ（SHOGUN BURGER公式アプリ／提供元 DIRIGIO「PICKS」）",
+   "announced": "2026-10-30",
+   "occurred": "2026-10-27",
+   "date": "2026-10-30",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "tel",
+    "birth",
+    "deal"
+   ],
+   "itemsText": "氏名、メールアドレス、電話番号、生年月日、性別、ご注文内容",
+   "notIncl": "クレジットカード番号等のカード情報、ログインパスワード",
+   "who": [
+    "cust"
+   ],
+   "sum": "SHOGUN BURGER公式アプリで利用するシステム（DIRIGIO運営のモバイルオーダー「PICKS」）が第三者から不正アクセスを受け、一部の顧客の個人情報が漏えいしたことが判明した。対象者は特定済みだが、同店の件数は公式発表に記載がない。提供元DIRIGIOの発表では、PICKS全体で対象のお客様8,312人（対象注文9,992件）、10月27日12:30頃に確認。",
+   "status": "ongoing",
+   "statusText": "2026年10月30日の発表時点。提供元で原因調査とセキュリティ診断を継続し、アプリのモバイルオーダーは停止中。",
+   "resp": "モバイルオーダーサービスを一時停止。提供元DIRIGIOが外部診断ツールでシステム全体のセキュリティ診断と原因調査を実施。対象者へ運営会社から個別案内。不審なメール・SMS・電話への注意喚起。",
+   "contact": {
+    "mails": [
+     "restaurant@picks.fun"
+    ],
+    "tels": [],
+    "note": "株式会社DIRIGIO（受付：平日10:00〜17:00）",
+    "src": "https://shogun-burger.com/news/217"
+   },
+   "official": [
+    [
+     "SHOGUN BURGER公式アプリにおける個人情報漏えいに関するお詫びとお知らせ（2026/10/30）",
+     "https://shogun-burger.com/news/217"
+    ],
+    [
+     "モバイルオーダーサービス「PICKS」への不正アクセスによる個人情報漏えいに関するお知らせとお詫び（2026/10/30）",
+     "https://dirigio.jp/news/release20261030"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/shogun-burger-app-dirigio-picks-data-breach-20261030/"
+    ]
+   ],
+   "ind": "飲食",
+   "verified": "2026-11-02"
   }
  ],
  "statusLabels": {
@@ -35852,7 +35968,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 306,
+ "pendingCount": 307,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
