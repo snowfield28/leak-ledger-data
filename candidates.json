@@ -7349,38 +7349,6 @@
    ],
    "ind": "生活サービス・レジャー",
    "pendingReason": "inboxの公式リンク（店舗一覧等）に漏えいの記載なし。運営の公式発表が見つからず、攻撃者の主張のみで照合不可。公式文面があれば manual/ に貼れば反映できる"
-  },
-  {
-   "id": "mono-investment-concierge-2610",
-   "co": "株式会社MONO Investment（投資のコンシェルジュ）",
-   "date": "2026-10-29",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "c",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "who": [
-    "unk"
-   ],
-   "sum": "資産運用支援サービス「投資のコンシェルジュ」で第三者による不正アクセスがあり、登録顧客の情報の一部が流出したと10月29日に公表（報道による）。確認は10月27日。報道では、メールアドレスと、登録がある場合の氏名が挙げられている。",
-   "pendingReason": "公式発表（https://monoinv.com/news/newsrelease-20261029/）が自動取得不可（thin：本文19文字。JS描画の可能性）。WebFetchも不可。manual/ に公式文面を貼れば反映できる。",
-   "official": [
-    [
-     "MONO Investment ニュースリリース（2026/10/29）",
-     "https://monoinv.com/news/newsrelease-20261029/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/mono_investment_invest_concierge_data_breach_20261029_analysis/"
-    ]
-   ],
-   "ind": "金融・保険"
   }
  ]
 }
