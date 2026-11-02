@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7349,6 +7349,361 @@
    ],
    "ind": "生活サービス・レジャー",
    "pendingReason": "inboxの公式リンク（店舗一覧等）に漏えいの記載なし。運営の公式発表が見つからず、攻撃者の主張のみで照合不可。公式文面があれば manual/ に貼れば反映できる"
+  },
+  {
+   "id": "prestige-international-2611",
+   "co": "株式会社プレステージ・インターナショナル（業務システム）",
+   "date": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 5500000,
+   "label": "最大約550万件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（報道: ロードサービスの車両・事故情報、口座情報など）",
+   "who": [
+    "unk"
+   ],
+   "sum": "報道によると、グループの業務システムへの不正アクセスで最大約550万件の個人情報が持ち出された。公式の適時開示（2026/11/2）は本文を取得できていない。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式本文未確認。",
+   "resp": "公式本文未確認のため記載しない。",
+   "official": [
+    [
+     "個人情報漏えいに関するお知らせとお詫び（2026/11/2・適時開示）",
+     "https://www.nikkei.com/nkd/disclosure/tdnr/20261102563007/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/prestige_international_5500000_roadside_data_breach_20261102/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "pendingReason": "公式発表（TDnet適時開示）の本文を取得できず（日経の転載ページは有料会員限定）。自動取得不可（robots/有料）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "suntory-cloud-2611",
+   "co": "サントリーホールディングス（グループが利用する外部クラウド）",
+   "date": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "従業員約9万人ほか（報道）",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "tel"
+   ],
+   "itemsText": "報道: 従業員等の氏名・メールアドレス（約9万人）、新卒採用応募者7,173人のマイページ登録情報（氏名・メールアドレス・電話番号等）、体験プログラム登録者7,323人のメールアドレス",
+   "who": [
+    "staff",
+    "cust"
+   ],
+   "sum": "MBS報道によると、グループが利用する外部クラウドへの不正アクセスで、10月28日に異常を検知し、第三者がダウンロードしたファイルの一部に個人情報が含まれていた。決済情報は含まれない。公式発表の原本は確認できていない。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/11/2）。",
+   "resp": "報道: 個人情報保護委員会へ報告し、対象者へ連絡を開始。",
+   "official": [],
+   "src": [
+    [
+     "MBSニュース",
+     "https://newsdig.tbs.co.jp/articles/mbs/3056177?display=1"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/suntory_external_cloud_unauthorized_access_employee_applicant_data_leak/"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "サントリーの公式発表を見つけられず、報道（MBS）のみ。公式文面が出たら照合する。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "niitsufood-greenstamp-2610",
+   "co": "株式会社にいつフード・株式会社リオン・ドールコーポレーション（グリーンカード／委託先 グリーンスタンプ）",
+   "date": "2026-10-30",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 297,
+   "label": "297名（報道）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "birth"
+   ],
+   "itemsText": "報道: 会員番号、氏名、住所、電話番号、生年月日、性別",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、会員情報の管理委託先グリーンスタンプへの不正アクセスで、2026年6〜9月の新規入会者297名の情報が漏えいした可能性がある。公式ページは本文が短く（JavaScript描画の可能性）、内容を確認できていない。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/30公表）。",
+   "resp": "報道: 委託先と原因究明・再発防止、専用問い合わせフォーム設置。",
+   "official": [
+    [
+     "「にいつフードグリーンカード」会員様の個人情報漏えいの可能性に関するお知らせとお詫び（2026/10/30）",
+     "https://www.niitsufood.com/2026/10/30/%E3%80%8C%E3%81%AB%E3%81%84%E3%81%A4%E3%83%95%E3%83%BC%E3%83%89%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%80%8D%E4%BC%9A%E5%93%A1%E6%A7%98%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/niitsufood_green_card_data_leak_risk_20261102/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式ページの本文を自動取得できず（thin: 見出しのみ）。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "mleague-shop-2611",
+   "co": "一般社団法人Mリーグ機構（公式サイト・公式オンラインショップ）",
+   "date": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 9502,
+   "label": "9,502人（報道）",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal",
+    "id"
+   ],
+   "itemsText": "報道: 氏名、請求先・配送先住所、電話番号、メールアドレス、ログインID、パスワードのハッシュ値、注文履歴13,922件",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、10月29日夜の不正アクセスで公式オンラインショップ等の利用者9,502人の情報が漏えいした。クレジットカード情報は対象外。公式ページは本文を取得できていない。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/11/2公表）。",
+   "resp": "報道: サーバー停止、新環境で再構築、個人情報保護委員会へ報告済み。",
+   "official": [
+    [
+     "公式サイトおよび公式オンラインショップへの不正アクセスによるお客様情報の漏えいについて（お詫びとご報告）（2026/11/2）",
+     "https://m-league.jp/news/article/?id=article-8d1eb109-c366-444e-8525-c30a6e9ec8ff"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mleague-official-shop-9502-data-breach-personal-risks-20261102/"
+    ]
+   ],
+   "ind": "団体",
+   "pendingReason": "公式ページの本文を自動取得できず（thin: 見出しのみ）。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "ohara-gakuen-2610",
+   "co": "学校法人大原学園（教職員採用サイト・大原大学院大学ほか）",
+   "date": "2026-10-30",
+   "occurred": "2026-10-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "work"
+   ],
+   "itemsText": "報道: 採用応募者の履歴書・職務経歴書の記載内容、大学院生の氏名・学生番号・住所・生年月日、教職員の氏名・顔写真など（対象者により異なる）",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "報道によると、Webサーバーへの不正アクセスで採用応募者・大学院生・教職員などの個人情報が漏えいした可能性がある（持ち出しの事実は確認されていない）。10月13日に異常を検知、10月16日に個人情報保護委員会へ報告。対象人数は公表されていない。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/30公表）。",
+   "resp": "報道: 2サイト停止、接続制限、個人情報保護委員会へ報告。",
+   "official": [
+    [
+     "お知らせ（2026/10/30）",
+     "https://www.o-hara.ac.jp/news/detail/?id=46"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ohara-gakuen-web-server-unauthorized-access-applicants-students-20261030/"
+    ]
+   ],
+   "ind": "大学・学校",
+   "pendingReason": "公式ページの本文を自動取得できず（thin）。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "nihon-kotsu-2607",
+   "co": "日本交通株式会社（ハイヤー・タクシー関連システム）",
+   "date": "2026-07-13",
+   "occurred": "2026-07-11",
+   "last": "2026-10-30",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中（第6報で区分別人数を公表）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "cust",
+    "staff",
+    "biz"
+   ],
+   "sum": "2026年7月11日の不正アクセスについて、10月30日の第6報で個人情報が漏えいした可能性のある方の範囲と項目を公表した（タクシー乗客の配車・乗車情報は対象外、クレジットカード情報は保有せず）。保存した公式ページ本文では区分別の人数・項目の表が欠落しており、内容を照合できていない。",
+   "status": "ongoing",
+   "statusText": "2026/10/30 第6報。",
+   "resp": "対象者へ書面またはメールで順次通知、個人情報保護委員会・警察へ報告、再発防止策。",
+   "official": [
+    [
+     "弊社システムへの不正アクセスに関するお知らせ（第6報）（2026/10/30）",
+     "https://nihon-kotsu-hire.jp/news/261030/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tepco_nihonkotsu_hire_personal_data_exposure_critical_infrastructure_risks_20261101/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "pendingReason": "公式ページ（第6報）の本文は取得できたが、漏えい対象者・件数・項目の表が欠落。第1〜5報も未確認。manual/ に公式文面（表を含む）を貼れば反映できる。"
+  },
+  {
+   "id": "tepco-nihonkotsu-2610",
+   "co": "東京電力ホールディングス（委託先 日本交通のハイヤー手配）",
+   "date": "2026-10-30",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel"
+   ],
+   "itemsText": "報道: 氏名、役職名、自宅住所、電話番号の全部または一部",
+   "who": [
+    "staff"
+   ],
+   "sum": "報道によると、ハイヤー手配の委託先・日本交通への不正アクセスにより、2006年8月頃〜2026年7月に東京電力HDが手配したハイヤーの利用者・申込者（役員・社員ら）の情報が漏えいした可能性がある。人数は公表資料にないと報じられている。公式PDFは取得できず（HTTP 403）。",
+   "status": "ongoing",
+   "statusText": "報道ベース（2026/10/30公表）。",
+   "resp": "報道: 対象者へ順次通知、委託先への情報管理徹底を要請。",
+   "official": [
+    [
+     "日本交通株式会社への不正アクセスに伴う個人情報漏えいの可能性について（2026/10/30）",
+     "https://www.tepco.co.jp/press/news/2026/pdf/261030j0101.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tepco_nihonkotsu_hire_personal_data_exposure_critical_infrastructure_risks_20261101/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "pendingReason": "公式PDFの取得が拒否された（HTTP 403）。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "enoteca-online-2610",
+   "co": "エノテカ株式会社（エノテカ・オンライン）",
+   "date": "2026-10-30",
+   "occurred": "2026-10-29",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "cust"
+   ],
+   "sum": "10月29日に第三者による不正アクセスとみられる事象があり、一部のお客様アカウントで身に覚えのない注文や不審な会員登録を確認したため、サイトを一時停止した。個人情報への影響は調査中で、公式発表には漏えいの確認も否定も書かれていない。",
+   "status": "ongoing",
+   "statusText": "10月30日の公表時点。サイト再開時期は未定。",
+   "resp": "サイトを一時停止、身に覚えのない注文があった顧客へ個別連絡。",
+   "official": [
+    [
+     "エノテカ・オンライン サイト一時停止のお知らせ（2026/10/30）",
+     "https://www.enoteca.jp/news/2026/10/post-27.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/enoteca_online_suspicious_orders_registration_site_suspended/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表は個人情報への影響を調査中とするのみで、漏えいの確認の記載がない。続報待ち。"
+  },
+  {
+   "id": "ships-cycle-swym-2610",
+   "co": "株式会社シップス（SHIPS CYCLE MARKET／外部アプリ Swym Wishlist Plus）",
+   "date": "2026-10-22",
+   "occurred": "2026-10-14",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "card"
+   ],
+   "itemsText": "クレジットカード情報（偽サイトで入力された可能性。当店DBからの流出ではない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "外部アプリ「Swym Wishlist Plus」の開発元への不正アクセスで、2026年10月14日19:06〜15日1:32頃に購入手続きボタンから偽サイトへ誘導される不正プログラムが読み込まれた可能性がある。当店への影響の有無は開発元に確認中で、偽サイトでカード番号を入力した可能性のある顧客に利用明細の確認を呼びかけている。",
+   "status": "ongoing",
+   "statusText": "10月22日の公表時点。開発元の最終調査結果待ち。",
+   "resp": "開発元がアプリ機能を全ショップで一時停止、カード利用明細の確認を呼びかけ、問い合わせフォームを設置。",
+   "official": [
+    [
+     "【重要】外部アプリ「Swym Wishlist Plus」におけるセキュリティ事象についてのお知らせとお詫び（2026/10/22）",
+     "https://ships-cycle-market.jp/blogs/news/swym-security-notice-20261022"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/11/02/56643.html"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "当店への影響の有無が未確定（開発元の調査結果待ち）で、個人情報の漏えいを確認できない。続報待ち。"
   }
  ]
 }

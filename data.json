@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -30901,17 +30901,19 @@
     "委託先経由",
     "不正アクセス"
    ],
-   "n": null,
-   "label": "調査中",
+   "n": 6096,
+   "label": "メールアドレス6,096件（延べ7,588件）",
    "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（それ以外の項目は提供元が調査中）",
    "who": [
     "unk"
    ],
-   "sum": "メール配信に使うユミルリンクの「Cuenote FC」で第三者による不正アクセスがあり、同社が登録した顧客の個人情報が外部に流出した可能性が高いと判明した。サービス提供元の調査では、10月16日に同社の利用環境からアドレス帳データが外部へ不正に出力された形跡がある。項目と件数は提供元が調査中。公式ページに掲載日の記載はなく、date は報道で確認できた日付。",
+   "sum": "メール配信に使うユミルリンクの「Cuenote FC」で第三者による不正アクセスがあり、同社が登録した顧客の個人情報が外部に流出した可能性が高いと判明した。サービス提供元の調査では、10月16日に同社の利用環境からアドレス帳データが外部へ不正に出力された形跡がある。10月30日の追記で、不正取得された可能性のあるメールアドレスは重複を除き6,096件（延べ7,588件）と報告された。それ以外の項目は提供元が調査中。公式ページに掲載日の記載はなく、date は報道で確認できた日付。",
    "status": "ongoing",
-   "statusText": "公表時点。項目・対象件数は提供元が調査中。",
+   "statusText": "10月30日の追記時点。メールアドレス以外の項目と対象者の詳細は提供元が調査中。",
    "resp": "サービス提供元が脆弱性の修正とアクセス制限を実施。同社は影響範囲の特定を提供元と進める。不審なメールへの注意を呼びかけ。",
    "contact": {
     "forms": [
@@ -30932,10 +30934,15 @@
     [
      "INTERNET Watch",
      "https://internet.watch.impress.co.jp/docs/news/2151621.html"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/valuecommerce_cuenote_fc_6096_possible_data_access_20261102/"
     ]
    ],
    "ind": "通信・IT",
-   "verified": "2026-10-28"
+   "verified": "2026-11-03",
+   "last": "2026-10-30"
   },
   {
    "id": "resona-three-banks-cuenote-2610",
@@ -33433,21 +33440,26 @@
    "types": [
     "不正アクセス"
    ],
-   "n": 3010000,
-   "label": "約301万件（メールアドレス）",
+   "n": 77000000,
+   "label": "メールアドレス約7,700万件（精査中）",
    "st": "c",
    "items": [
-    "mail"
+    "name",
+    "tel",
+    "mail",
+    "birth",
+    "addr"
    ],
-   "itemsText": "エンドユーザーリストに登録されたメールアドレス（対象環境：bvam001）",
-   "notIncl": "メールアドレス以外の流出は確認されていない",
+   "itemsText": "メールアドレス、利用企業が登録した会員情報（氏名、性別、生年月日、電話番号、会員番号、住所等。企業により異なる）",
+   "notIncl": "クレジットカード番号は保有していない",
    "who": [
-    "cust"
+    "cust",
+    "biz"
    ],
-   "sum": "アララのメール配信サービスに第三者が不正アクセスし、エンドユーザーリストに登録されたメールアドレス約301万件が流出した。対象環境は「bvam001」で、利用各社ごとの流出内容は調査中。10月28日に不正アクセスを確認してサービスの一部を停止し、同日中に流出を公表した。再開時期は未定。",
+   "sum": "アララのメール配信サービスに第三者が不正アクセスし、10月28日に共用環境のメールアドレス約301万件の流出を公表した。11月2日の第2報で、10月28〜31日にサーバー97台（最大約380社）から約7,700万件（精査中）のメールアドレスと会員情報が持ち出されたこと、共用環境の件数が61社・3,386,187件に更新されたこと、サービス全面停止（10月31日）、不審メール最大約713万通の送信が判明した。件数は重複を含み、最終ユーザー数ではない。",
    "status": "ongoing",
-   "statusText": "2026年10月28日の発表時点。対象環境の利用各社分を調査中。サービス再開時期は未定。",
-   "resp": "対象環境のサービスを一時停止。利用各社ごとの流出メールアドレスを調査中。",
+   "statusText": "2026年11月2日の第2報時点。件数は精査中で第3報で公表予定。サービス全面停止中、再開時期は未定。",
+   "resp": "サービスの提供をすべて停止（10月31日）、不正に使われた認証情報の無効化、各サーバーの通信遮断、不審メールへの注意喚起。",
    "contact": {
     "mails": [
      "am-user@a-message.net"
@@ -33463,17 +33475,26 @@
     [
      "弊社メール配信サービス停止および個人情報流出に関するお詫びとご報告（2026/10/28）",
      "https://am.arara.com/news/2026102802"
+    ],
+    [
+     "当社連結子会社が提供する「アララメッセージ」への不正アクセスによる情報流出およびサービス停止について（第２報）（ペイクラウドホールディングス 適時開示 2026/11/2）",
+     "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261102/20261102562067.pdf"
     ]
    ],
    "src": [
     [
      "セキュリティ対策Lab",
      "https://rocket-boys.co.jp/security-measures-lab/arara_message_3010000_email_leak_20261028/"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/arara_message_77000000_second_report_20261102/"
     ]
    ],
    "ind": "通信・IT",
    "date": "2026-10-28",
-   "verified": "2026-10-30"
+   "verified": "2026-11-03",
+   "last": "2026-11-02"
   },
   {
    "id": "generics-warehouse-2610",
@@ -35980,6 +36001,1283 @@
    ],
    "ind": "金融・保険",
    "verified": "2026-11-02"
+  },
+  {
+   "id": "daily-umasaburo-2611",
+   "co": "株式会社ネットドリーマーズ（競馬新聞デイリー馬三郎）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "occurred": "2026-10-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 152500,
+   "label": "最大約15万2,500件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "mail",
+    "birth",
+    "deal",
+    "acct",
+    "id"
+   ],
+   "itemsText": "全会員: メールアドレス、パスワード、ニックネーム、生年月日、性別、IPアドレス、契約・課金の履歴。アンケート回答者: 氏名、郵便番号、住所。口座振替（PayPay銀行・楽天銀行）利用者: 支店番号、口座番号",
+   "notIncl": "クレジットカード情報（保有していない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "競馬情報サービス「競馬新聞デイリー馬三郎」のデータベース管理ツールに2026年4月下旬〜7月に不正アクセスがあり、5月上旬に会員情報を含むデータが外部に取得された可能性がある。10月20日の点検で痕跡を発見した。対象は2026年10月時点の登録会員（退会者を含む）で、項目は会員ごとに異なる。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表。調査とサーバー環境の再構築を継続中。",
+   "resp": "ツールを閉鎖して不正アクセスを遮断、全会員のパスワードをリセット、対象者へ順次メールで個別連絡（届かない場合は公表で代替）、個人情報保護委員会へ速報済み。",
+   "contact": {
+    "mails": [
+     "uma36-privacy@netdreamers.co.jp"
+    ],
+    "note": "競馬新聞デイリー馬三郎サポート窓口",
+    "src": "https://www.uma36.com/?pid=news_uma36alert"
+   },
+   "official": [
+    [
+     "「競馬新聞デイリー馬三郎」への不正アクセスに伴う個人情報漏えいのおそれに関するお詫びとお知らせ（2026/11/2）",
+     "https://www.uma36.com/?pid=news_uma36alert"
+    ]
+   ],
+   "src": [
+    [
+     "デイリースポーツ online",
+     "https://www.daily.co.jp/information/2026/11/02/0020993894.shtml"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/daily-umasaburo-netdreamers-152500-data-leak-risk-20261102/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "gmo-pg-lifecard-vpreca-2611",
+   "co": "GMOペイメントゲートウェイ株式会社（ライフカード向けイシュイングサポートサービス／Vプリカ）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "occurred": "2026-10-30",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 69,
+   "label": "69件（アカウント数）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "card"
+   ],
+   "itemsText": "63件: 氏名、メールアドレス、電話番号、住所の一部。3件: Vプリカ番号、専用セキュリティコード、有効期限、氏名。3件: Vプリカ番号の一部",
+   "notIncl": "決済代行サービスなど他のサービス・他のお客様向けのイシュイングサポートサービスへの影響はないと公表",
+   "who": [
+    "cust"
+   ],
+   "sum": "ライフカード向けに提供しているイシュイングサポートサービスの個別機能で10月30日に不正なユーザーによる行為があり、チャージ式プリペイドカード「Vプリカ」の利用者情報の一部が窃取された可能性が判明した。",
+   "status": "ongoing",
+   "statusText": "11月2日に第一報。新たな事実が判明次第公表するとしている。",
+   "resp": "対象サービスの一部を停止して安全性を確認中。対象者にはライフカード経由で個別に案内。",
+   "contact": {
+    "note": "公式発表に専用窓口の記載なし（対象のお客様にはライフカード経由で個別案内）",
+    "src": "https://www.gmo-pg.com/news/news/info/2026/1102.html"
+   },
+   "official": [
+    [
+     "お客様情報の一部が窃取された可能性に関するお詫びとお知らせ（2026/11/2）",
+     "https://www.gmo-pg.com/news/news/info/2026/1102.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/gmo-payment-gateway-lifecard-vpreca-69/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "nojima-online-2611",
+   "co": "株式会社ノジマ（ノジマオンライン・中古スマホ買取サイト）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "occurred": "2026-11-01",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 7000000,
+   "label": "約700万件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "氏名（漢字・カナ）、生年月日、性別、郵便番号、住所、電話番号、ログインID、暗号化されたパスワード、メールアドレス",
+   "notIncl": "クレジットカード情報（決済情報は保持していない）。退会者は含まない",
+   "who": [
+    "cust"
+   ],
+   "sum": "ECサイト「ノジマオンライン」と中古スマホ買取サイトの会員管理システムに11月1日、第三者が不正アクセスし、同日中に会員情報が外部に漏えいしたことを確認した。不正利用や二次被害の有無は調査中。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表。影響範囲と原因を調査中。",
+   "resp": "外部アクセスの遮断と監視強化、警察署へ相談、個人情報保護委員会など関係機関へ報告準備、対象2サイトを一時休止、公式サイト・SNSで注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-574-853",
+      "hours": "9:30〜19:00"
+     }
+    ],
+    "note": "ノジマカスタマーセンター",
+    "src": "https://www.nojima.co.jp/wp-content/uploads/2026/11/fa47750556e505f2ddb83dc080a6420f.pdf"
+   },
+   "official": [
+    [
+     "ノジマオンラインの不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ（2026/11/2）",
+     "https://www.nojima.co.jp/wp-content/uploads/2026/11/fa47750556e505f2ddb83dc080a6420f.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nojima_online_7million_breach_risks/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "istyle-cosme-2611",
+   "co": "株式会社アイスタイル（@cosme共通ID）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "occurred": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 3000000,
+   "label": "約300万人",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "ユーザーID、ニックネーム、名前（漢字・カナ）、郵便番号、住所、電話番号、メールアドレス、性別、生年月日、肌質、髪質",
+   "notIncl": "ログイン用パスワード、クレジットカード情報（現時点で含まれないことを確認）",
+   "who": [
+    "cust"
+   ],
+   "sum": "@cosmeへの第三者による不正アクセスが10月28日にあり、「@cosme共通ID」登録会員の情報の一部が外部に漏えいしたことを確認した。退会済みでも不正アクセス時点の会員は対象。9月に公表した設定ミスによる別事案とは別。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表。第三者機関が原因と影響範囲を調査中。個別連絡は11月6日完了予定。",
+   "resp": "被害拡大防止の対応、個人情報保護委員会へ報告済み、対象者へ「cosme.net」ドメインのメールで個別連絡（11月6日完了予定）、専用窓口を設置。",
+   "contact": {
+    "mails": [
+     "security-support@cosme.net"
+    ],
+    "note": "不正アクセス対応お問い合わせ窓口。10:00〜18:00（土日祝を除く）",
+    "src": "https://www.istyle.co.jp/news/info/2026/11/1102.html"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報漏えいに関するお詫びとお知らせについて（2026/11/2）",
+     "https://www.istyle.co.jp/news/info/2026/11/1102.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/atcosme-member-data-breach-3million/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "sonicmoov-comsbi-2610",
+   "co": "株式会社ソニックムーブ（LINE連携基盤「COMSBI エンタープライズ基盤」）",
+   "date": "2026-10-26",
+   "announced": "2026-10-26",
+   "occurred": "2026-10-23",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "管理画面の利用者情報（氏名、メールアドレス、暗号化されたパスワード）、LINE公式アカウントの設定情報、顧客企業が保有する利用者の情報（氏名、メールアドレス等。企業ごとに項目が異なる）",
+   "notIncl": "クレジットカード情報（保持していない）。SaaS版「COMSBI」への影響は確認されていない",
+   "who": [
+    "biz",
+    "cust"
+   ],
+   "sum": "法人向けLINE連携基盤「COMSBI エンタープライズ基盤」の管理システムに10月23日、第三者が不正にログインし、サービスの利用企業に関する情報と、企業が保有する利用者の個人情報が漏えいした、またはそのおそれがあることが判明した。対象は一部の利用企業で、企業ごとに個別報告している。件数は公表していない。",
+   "status": "ongoing",
+   "statusText": "10月26日の公表時点。サービス停止継続中、外部専門機関と調査中。",
+   "resp": "外部アクセス遮断とサービス停止、全認証情報の無効化、対象企業へ個別報告と利用者対応を支援、認証強化など再発防止策。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "050-1743-6993",
+      "hours": "平日10:00〜18:00"
+     }
+    ],
+    "mails": [
+     "comsbi_enterprise-support@sonicmoov.com"
+    ],
+    "note": "COMSBI エンタープライズ基盤 お問い合わせ窓口",
+    "src": "https://sonicmoov.com/news/xr5qdn-cnfsn"
+   },
+   "official": [
+    [
+     "弊社サービス「COMSBI エンタープライズ基盤」への不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び（2026/10/26）",
+     "https://sonicmoov.com/news/xr5qdn-cnfsn"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ucc_ueshima_comsbi_sonicmoov_5529_email_leak_20261102/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "ucc-comsbi-2611",
+   "co": "UCC上島珈琲株式会社（委託先 ソニックムーブ「COMSBI エンタープライズ基盤」）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 5529,
+   "label": "5,529件（メールアドレス）",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス",
+   "notIncl": "氏名、住所、クレジットカード情報の漏えいはないと公表",
+   "who": [
+    "cust"
+   ],
+   "sum": "過去に利用していたLINE連携サービス「COMSBI エンタープライズ基盤」（利用期間2019年12月〜2023年12月）の提供元ソニックムーブへの不正アクセスにより、顧客のメールアドレス5,529件が漏えいしたとの報告を受けた。UCC自社システムへの不正アクセスは確認されていない。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表。提供元と連携して影響範囲と再発防止策を確認中。",
+   "resp": "対象者へ個別にメールで連絡、不審なメールへの注意喚起、提供元と連携して確認。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-050-183",
+      "hours": "月〜金10:00〜17:00（祝日・年末年始を除く）"
+     }
+    ],
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://www.ucc.co.jp/customer/ucc_form/"
+     ]
+    ],
+    "note": "UCC上島珈琲 お客様担当",
+    "src": "https://www.ucc.co.jp/press/20261102.html"
+   },
+   "official": [
+    [
+     "外部サービス提供元における不正アクセスに関するお詫びとお知らせ（2026/11/2）",
+     "https://www.ucc.co.jp/press/20261102.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ucc_ueshima_comsbi_sonicmoov_5529_email_leak_20261102/"
+    ]
+   ],
+   "ind": "製造",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "buysell-wasabi-2610",
+   "co": "株式会社BuySell Technologies（グループ会社 DelightZ・REGATE・日晃堂／委託先 ワサビ「WASABI SWITCH」）",
+   "date": "2026-10-19",
+   "announced": "2026-10-19",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "注文情報1,369件・顧客情報224件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "注文情報: 氏名、フリガナ、メールアドレス、電話番号、郵便番号、住所、会員ID、支払方法、合計金額、注文の対応状況、注文作成日時、注文ID。顧客情報: 氏名、フリガナ、電話番号、メールアドレス",
+   "notIncl": "クレジットカード情報（同システムでは保有していない）。注文情報と顧客情報の重複の有無は公表されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "外部の受注管理システム「WASABI SWITCH」への不正アクセスにより、グループのECサイトの注文情報1,369件（2026年10月13〜16日の注文ほか）と顧客情報224件が漏えいしたことがワサビの調査で確認された。漏えいした注文情報を使った「返金」を装う不審なメール（LINE誘導）が確認されている。10月19日に注意喚起を公表し、10月29日（11月2日更新）に漏えいを確認したと公表。",
+   "status": "ongoing",
+   "statusText": "10月29日に漏えいを確認と公表、11月2日更新。ワサビと連携し新たな事実があればページ更新としている。",
+   "resp": "注意喚起と不審メールへの対処案内、顧客情報の対象者へ10月29日にメールで個別連絡、ワサビの窓口で注文情報の対象確認が可能、委託先管理体制の見直し。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-915-164",
+      "hours": "9:00〜18:00（土日祝も受付）"
+     }
+    ],
+    "note": "BuySell Technologies グループ お客様相談室。情報漏えいの問い合わせは株式会社ワサビの購入者様向け窓口",
+    "src": "https://buysell-technologies.com/announcement/202610295550/"
+   },
+   "official": [
+    [
+     "【重要】WASABI SWITCHへの不正アクセスによる、お客様情報の漏えいについてのお知らせとお詫び（2026/10/29・11/2更新）",
+     "https://buysell-technologies.com/announcement/202610295550/"
+    ],
+    [
+     "【注意喚起】不審なメール（返金案内・LINE誘導）へのご注意のお願い（2026/10/19）",
+     "https://www.regate-inc.jp/info_20261019.php"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/buysell_wasabi_switch_confirmed_data_leak_1369_orders_224_customers_20261101/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "suzuki-media-arara-2610",
+   "co": "スズキ株式会社（スズキメディアサイト／委託先 アララ）",
+   "date": "2026-10-30",
+   "announced": "2026-10-30",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 2575,
+   "label": "最大2,575件（メールアドレス）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "「スズキメディアサイト」登録者のメールアドレス",
+   "notIncl": "氏名、住所等は含まれない",
+   "who": [
+    "biz"
+   ],
+   "sum": "報道関係者向けニュース配信「スズキメディアサイト」のメール配信を担うアララでの第三者による不正アクセスにより、登録メールアドレス最大2,575件が漏えいした可能性があるとの連絡が10月28日にサービス提供事業者からあった。",
+   "status": "ongoing",
+   "statusText": "10月30日に公表。詳細と影響範囲を確認中。",
+   "resp": "メール配信は安全性が確認された代替手段で継続、外部サービスの個人情報管理状況の再確認、フィッシング等への注意喚起。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://www.suzuki.co.jp/release/d/2026/1030/"
+   },
+   "official": [
+    [
+     "弊社委託先における個人情報漏洩の可能性について（2026/10/30）",
+     "https://www.suzuki.co.jp/release/d/2026/1030/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/suzuki_media_site_arara_email_leak_20261030/"
+    ]
+   ],
+   "ind": "製造",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "tokumoni-2610",
+   "co": "株式会社ストラテジックマーケティング（モニターサイト「とくモニ！」）",
+   "date": "2026-10-22",
+   "announced": "2026-10-22",
+   "occurred": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 42900,
+   "label": "会員42,900名・取引先819社の担当者",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "acct",
+    "id"
+   ],
+   "itemsText": "会員: 氏名、ログインID、メールアドレス、電話番号、生年月日、住所、謝礼受取口座（金融機関名・支店名・口座種別・口座番号・口座名義）、保有ポイント数、応募履歴。取引先担当者: 会社名、担当者名、住所、ログインID。項目は人により異なる",
+   "notIncl": "クレジットカード情報（預かっていない）",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "覆面調査・モニターサイト「とくモニ！」の管理用システムに10月21日、第三者が不正アクセスして会員（約34万名のうち42,900名）と取引先（819社の担当者）の情報を取得したことが22日の調査で判明した。10月23日に範囲が拡大、10月31日に同社を装う偽メールへの注意喚起を追記。",
+   "status": "ongoing",
+   "statusText": "10月22日に公表、10月23日・31日に更新。サービス停止中で再開時期は未定。",
+   "resp": "不正アクセス経路の遮断とサービス一時停止、個人情報保護委員会へ報告、対象会員へメール連絡、偽メール・偽サイトの見分け方を案内、再発防止策実施後に再開予定。",
+   "contact": {
+    "mails": [
+     "cs@tokumoni.jp"
+    ],
+    "note": "「とくモニ！」運営事務局",
+    "src": "https://www.strategic-m.jp/pr/notice_20261022.html"
+   },
+   "official": [
+    [
+     "「とくモニ！」における個人情報の漏えいに関するお詫びとお知らせ（2026/10/22・10/31更新）",
+     "https://www.strategic-m.jp/pr/notice_20261022.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tokumoni_42900_data_leak_phishing/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "vook-2610",
+   "co": "株式会社Vook（ヴック）",
+   "date": "2026-10-30",
+   "announced": "2026-10-30",
+   "occurred": "2026-10-14",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "work",
+    "id"
+   ],
+   "itemsText": "氏名、メールアドレス、電話番号、住所、生年月日、勤務先、職務経歴・学歴の一部、ログイン用認証情報（10月22日に無効化済み）、登録した作品の閲覧パスワード、IPアドレス、SNSプロフィール等、決済サービスの顧客ID、アンケート回答、通知内容等。項目は人により異なる",
+   "notIncl": "クレジットカード情報、銀行口座情報、会員のログインパスワード",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "社内業務で使うデータ分析ツールの脆弱性が悪用され、同ツール経由で当社データベースに第三者が不正アクセスし、会員、イベント申込者、問い合わせ者、利用企業・取引先の担当者の個人情報の一部が漏えいした可能性がある。10月14日に不審なアカウントを発見、22日に情報取得の可能性を確認。",
+   "status": "ongoing",
+   "statusText": "10月30日に第一報。対象者の特定を進め、判明後に個別連絡するとしている。",
+   "resp": "ログイン認証情報の無効化、DB接続認証情報の変更、ツールの利用停止、個人情報保護委員会へ報告・警察に相談、専用窓口を設置。",
+   "contact": {
+    "mails": [
+     "security-info@vook.co.jp"
+    ],
+    "note": "個人情報漏えいに関する専用お問い合わせ窓口。平日9:30〜17:30（土日祝・年末年始を除く）",
+    "src": "https://vook.co.jp/574"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ【第一報】（2026/10/30）",
+     "https://vook.co.jp/574"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/vook_data_analytics_tool_unauthorized_access_20261031/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "medianavi-blastmail-2610",
+   "co": "株式会社メディアナビ（メールマガジン／委託先 ラクスライトクラウド「ブラストメール」）",
+   "date": "2026-10-30",
+   "announced": "2026-10-30",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 110000,
+   "label": "約11万件",
+   "st": "c",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "メールアドレス、お名前（未登録の人はメールアドレスのみ）",
+   "notIncl": "クレジットカード情報、パスワード、住所、購入履歴",
+   "who": [
+    "cust"
+   ],
+   "sum": "メールマガジン配信に利用するラクスライトクラウドの「ブラストメール」が第三者の不正アクセスを受け、配信先として預けていた全件（配信停止者を含む）の情報が漏えいしたと10月23日に報告を受け、28日にデータ提供を受けて約11万件と確認した。",
+   "status": "ongoing",
+   "statusText": "10月30日に公表。メール配信は停止中で、再開前に対象者へメールで通知予定。",
+   "resp": "ラクスライトクラウドと連名で個人情報保護委員会へ報告手続き中、配信停止、配信再開後に対象者へメール通知、問い合わせフォームを設置。",
+   "contact": {
+    "forms": [
+     [
+      "メールマガジン配信先情報の漏えいに関するお問い合わせ（「ご質問内容」の冒頭に「メールマガジン配信先情報の件」と記入）",
+      "https://www.medianavi.co.jp/support/supform_other.html"
+     ]
+    ],
+    "note": "平日10:00〜17:00（土日祝を除く）",
+    "src": "https://www.medianavi.co.jp/info/info_20261030.html"
+   },
+   "official": [
+    [
+     "【重要】メール配信システムへの不正アクセスによるお客様情報の漏えいに関するお詫びとお知らせ（2026/10/30）",
+     "https://www.medianavi.co.jp/info/info_20261030.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/medianavi_blastmail_110000_confirmed_leak_20261101/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "starts-securities-securitize-2610",
+   "co": "スターツ証券株式会社（スターツ・アセット・トークン／委託先 Securitize Japan「Securitize PF」）",
+   "date": "2026-10-31",
+   "announced": "2026-10-31",
+   "occurred": "2026-10-29",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "deal"
+   ],
+   "itemsText": "氏名、保有口数",
+   "notIncl": "住所、電話番号、メールアドレス等の連絡先、パスワード等の認証情報へのアクセスは確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "不動産セキュリティ・トークンの管理に使うプラットフォーム提供元Securitize社のシステムに10月29日に第三者による不正アクセスがあり、第三者が顧客情報の一部を取得したと報告を受けた。氏名と保有口数について情報漏えいの懸念がある。",
+   "status": "ongoing",
+   "statusText": "10月31日に公表。Securitize社が事実関係と影響範囲を調査中。",
+   "resp": "新たな事実が判明した場合は報告するとしている。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-3686-2511",
+      "hours": ""
+     }
+    ],
+    "mails": [
+     "webadmin@starts.co.jp"
+    ],
+    "note": "スターツ証券 証券事業部",
+    "src": "https://www.starts-sc.com/info/20261031.html"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報流出の可能性に関するお知らせ（2026/10/31）",
+     "https://www.starts-sc.com/info/20261031.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/starts_securities_securitize_pf_unauthorized_access_investor_data/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "sonybank-digital-securities-2610",
+   "co": "ソニー銀行株式会社（デジタル証券／外部委託先）",
+   "date": "2026-10-30",
+   "announced": "2026-10-30",
+   "occurred": "2026-10-29",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 621,
+   "label": "621名",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "birth",
+    "acct"
+   ],
+   "itemsText": "4名: 氏名、住所、生年月日、口座番号。617名: 氏名",
+   "notIncl": "デジタル証券以外のサービスは無関係と公表",
+   "who": [
+    "cust"
+   ],
+   "sum": "デジタル証券に関連する外部委託先1社のシステムへの不正アクセスにより、ソニー銀行の顧客情報が漏えいしたことが、委託先のログ調査で確認された。10月29日に委託先が異常を検知し第一報を受けた。不正な取引や情報のネット上への公開は確認されていない。",
+   "status": "ongoing",
+   "statusText": "10月30日に公表、11月2日更新。デジタル証券の取引を停止中で復旧時期は未定。",
+   "resp": "対象者へ個別連絡、デジタル証券取引の停止、窓口（不正利用緊急ダイヤル）を設置。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-365-738",
+      "hours": "9:00〜17:00（土日祝も受付）"
+     },
+     {
+      "tel": "03-6731-1340",
+      "hours": "通話料有料。9:00〜17:00（土日祝も受付）"
+     }
+    ],
+    "note": "不正利用緊急ダイヤル",
+    "src": "https://sonybank.jp/info/2026/1030-01.html"
+   },
+   "official": [
+    [
+     "デジタル証券に関する外部委託先への不正アクセスによるお客さま情報の漏洩について（2026/10/30・11/2更新）",
+     "https://sonybank.jp/info/2026/1030-01.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sony_bank_digital_securities_vendor_breach_20261030/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "kintetsu-ghd-bond-2610",
+   "co": "近鉄グループホールディングス株式会社（第135回無担保社債／委託先 NTTデータ「デジタル証券プラットフォーム」）",
+   "date": "2026-10-31",
+   "announced": "2026-10-31",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 2678,
+   "label": "2,678件",
+   "st": "p",
+   "items": [
+    "name",
+    "deal"
+   ],
+   "itemsText": "氏名、第135回無担保社債の購入金額",
+   "notIncl": "証券口座番号、パスワード等の金融取引に関する情報は保持しておらず含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "社債の特典申込に使う外部サービス提供元NTTデータから、同社委託先の「デジタル証券プラットフォーム」への第三者の不正アクセスにより、第135回無担保社債を100万円以上購入した投資家全員（2,678件）の情報が漏えいした可能性があるとの報告を10月30日に受けた。",
+   "status": "ongoing",
+   "statusText": "10月31日に公表。NTTデータとその委託先が原因・影響範囲を調査中。",
+   "resp": "個人情報保護委員会等へ報告済み、NTTデータ・委託先と原因究明と再発防止を進める、不審な連絡への注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "06-6775-3472",
+      "hours": "平日10:00〜17:00"
+     }
+    ],
+    "note": "総合政策本部 事業推進部",
+    "src": "https://files.microcms-assets.io/assets/b5bb8ced8fa1487390ad071605410061/3d5fea5cb2814f86a6e7f89d5aec14a0/20261031hd.pdf"
+   },
+   "official": [
+    [
+     "外部サービスへの不正アクセスによる投資家様情報漏えいの可能性について（2026/10/31）",
+     "https://files.microcms-assets.io/assets/b5bb8ced8fa1487390ad071605410061/3d5fea5cb2814f86a6e7f89d5aec14a0/20261031hd.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nttdata_stdirectservices_bond_investor_possible_leak_20261031_securitize/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "kagome-bond-2610",
+   "co": "カゴメ株式会社（デジタル特典付き社債／委託先 NTTデータ「デジタル証券プラットフォーム」）",
+   "date": "2026-10-31",
+   "announced": "2026-10-31",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 109,
+   "label": "109名",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth"
+   ],
+   "itemsText": "氏名、住所、電話番号、メールアドレス、性別、生年月日",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "2023年発行の「カゴメ 日本の野菜で健康応援債」の購入者5,472名のうち109名について、申込に使っていたNTTデータの委託先「デジタル証券プラットフォーム」への不正アクセスにより、個人情報が外部に漏えいした可能性があることを確認した。10月30日にNTTデータから報告を受けた。",
+   "status": "ongoing",
+   "statusText": "10月31日に公表。NTTデータとその委託先が原因・影響範囲を調査中。",
+   "resp": "販売元の楽天証券から対象109名へ個別連絡（ログイン後の「重要なお知らせ」）、個人情報保護委員会等へ報告済み。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-5623-8503",
+      "hours": "月〜金9:00〜17:00（土日祝を除く）"
+     }
+    ],
+    "note": "財務・IR部／コーポレートコミュニケーション部 広報グループ",
+    "src": "https://www.kagome.co.jp/s3-contents/notification/20261031054555.pdf"
+   },
+   "official": [
+    [
+     "当社デジタル特典付き社債を購入されたお客様の個人情報漏えいの可能性と当社の対応について（2026/10/31）",
+     "https://www.kagome.co.jp/s3-contents/notification/20261031054555.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nttdata_stdirectservices_bond_investor_possible_leak_20261031_securitize/"
+    ]
+   ],
+   "ind": "製造",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "westjr-bond-2610",
+   "co": "西日本旅客鉄道株式会社（第80回無担保社債／委託先 NTTデータ「デジタル証券プラットフォーム」）",
+   "date": "2026-10-31",
+   "announced": "2026-10-31",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 2,
+   "label": "2件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth"
+   ],
+   "itemsText": "氏名、住所、電話番号、メールアドレス、性別、生年月日",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "第80回無担保社債（2024年6月19日発行）の募集で利用した外部サービス提供元NTTデータの委託先「デジタル証券プラットフォーム」への不正アクセスにより、購入投資家2件の情報が漏えいした可能性がある。10月30日に報告を受けた。",
+   "status": "ongoing",
+   "statusText": "10月31日に公表。NTTデータとその委託先が詳細調査中。",
+   "resp": "販売会社の楽天証券から対象者へ個別連絡、不審な連絡への注意喚起、再発防止。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "06-6375-8939",
+      "hours": "平日9:30〜17:00"
+     }
+    ],
+    "note": "経営戦略本部 財務部",
+    "src": "https://www.westjr.co.jp/press/article/2026/10/31/items/261031_00_press_gaibuservice.pdf"
+   },
+   "official": [
+    [
+     "外部サービスへの不正アクセスによる投資家様情報漏えいの可能性について（2026/10/31）",
+     "https://www.westjr.co.jp/press/article/2026/10/31/items/261031_00_press_gaibuservice.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nttdata_stdirectservices_bond_investor_possible_leak_20261031_securitize/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "phillip-securities-st-2610",
+   "co": "フィリップ証券株式会社（映画デジタル証券／外部委託先プラットフォーム運営事業者）",
+   "date": "2026-10-31",
+   "announced": "2026-10-31",
+   "occurred": "2026-10-29",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 162,
+   "label": "162名",
+   "st": "c",
+   "items": [
+    "name",
+    "deal"
+   ],
+   "itemsText": "氏名、取引数量",
+   "notIncl": "当社管理システムへの不正アクセスや当社管理情報の漏えいではないと公表",
+   "who": [
+    "cust"
+   ],
+   "sum": "デジタル証券（セキュリティトークン）の発行・管理プラットフォーム運営事業者への不正アクセスで、映画デジタル証券を買い付けた顧客162名の氏名と取引数量が漏えいした。10月31日の第一報の項目に誤りがあったとして、11月2日の続報で訂正した。",
+   "status": "ongoing",
+   "statusText": "10月31日に第一報、11月2日に続報。情報の公開・拡散は確認されていない。",
+   "resp": "対象のお客様へ個別に連絡。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-883-301",
+      "hours": "平日9:00〜17:00"
+     }
+    ],
+    "src": "https://www.phillip.co.jp/information/news/11486"
+   },
+   "official": [
+    [
+     "外部委託先への不正アクセスによるお客様情報の漏えいについて（続報）（2026/11/2）",
+     "https://www.phillip.co.jp/information/news/11486"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/starts_securities_securitize_pf_unauthorized_access_investor_data/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "credit-saison-st-2610",
+   "co": "株式会社クレディセゾン（セゾンのスマート不動産投資／外部委託先の会員管理プラットフォーム）",
+   "date": "2026-10-31",
+   "announced": "2026-10-31",
+   "occurred": "2026-10-29",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 1889,
+   "label": "1,889名",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "acct",
+    "deal"
+   ],
+   "itemsText": "39名: 氏名、メールアドレス、住所、生年月日、電話番号、国籍、配当金受取口座に関する情報、投資家適合性に関する情報、購入口数（項目は人により異なる）。1,850名: 氏名、購入口数",
+   "notIncl": "クレジットカード情報（会員プラットフォームでは保有していない）。保有資産の記録書き換えやブロックチェーン上の資産移転は確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "不動産セキュリティ・トークン「セゾンのスマート不動産投資」の外部委託先が提供する会員管理プラットフォームに10月29日3時42分〜6時17分、第三者の不正アクセスがあり、会員1,889名の個人情報漏えいが確認された。外部からアクセス可能な認証の仕組みの不備が悪用された。",
+   "status": "ongoing",
+   "statusText": "10月31日に公表。会員プラットフォームを緊急停止中で再開時期は未定。",
+   "resp": "不正アクセス経路の遮断・認証情報の変更、会員プラットフォームの緊急停止、影響を受けた会員へ順次連絡、専用窓口を設置。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-3988-2256",
+      "hours": "10:00〜17:00（土日祝休み。11月1日・3日は受付）"
+     }
+    ],
+    "mails": [
+     "saison-st@finance.help.saisoncard.co.jp"
+    ],
+    "forms": [
+     [
+      "セゾン・UCカード会員様専用お問い合わせフォーム",
+      "https://www.saisoncard.co.jp/customer-support/information/20261031/"
+     ]
+    ],
+    "note": "「セゾンのスマート不動産投資」お客様専用窓口。メールはカード会員以外の方向け",
+    "src": "https://www.saisoncard.co.jp/customer-support/information/20261031/"
+   },
+   "official": [
+    [
+     "「セゾンのスマート不動産投資」に関する外部委託先への不正アクセスによる個人情報漏えいに関するお知らせ（2026/10/31）",
+     "https://www.saisoncard.co.jp/customer-support/information/20261031/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/starts_securities_securitize_pf_unauthorized_access_investor_data/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "sbi-securities-bond-2610",
+   "co": "株式会社SBI証券（近鉄グループHD第135回無担保社債／NTTデータ委託先「デジタル証券プラットフォーム」）",
+   "date": "2026-10-31",
+   "announced": "2026-10-31",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 1169,
+   "label": "1,169名",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "カナ氏名、メールアドレス、本社債の購入金額",
+   "notIncl": "SBI証券のシステムが不正アクセスを受けたものではなく、ログイン用ユーザーネーム・パスワード等は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "近鉄グループHDが2026年7月に発行した第135回無担保社債のデジタル証券プラットフォーム（NTTデータの委託先が提供）への不正アクセスにより、SBI証券で同社債を購入した対象顧客1,169名の情報が漏えいした可能性がある。公式ページは文字化けがあり、人数・項目は判読できた範囲に基づく。",
+   "status": "ongoing",
+   "statusText": "10月31日に公表、11月2日更新。関係各社と影響範囲を確認中。",
+   "resp": "対象顧客への案内を進める、不審なメール・SMS・電話への注意喚起。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし（判読できた範囲）",
+    "src": "https://www.sbisec.co.jp/ETGate/?OutSide=on&_ActionID=DefaultAID&_ControlID=WPLETmgR001Control&_DataStoreID=DSWPLETmgR001Control&_PageID=WPLETmgR001Mdtl30&burl=search_home&cat1=home&cat2=info&dir=info&file=home_info261031_bond.html&getFlg=on"
+   },
+   "official": [
+    [
+     "当社取扱社債に関する投資家情報の漏えいの可能性について（2026/10/31・11/2更新）",
+     "https://www.sbisec.co.jp/ETGate/?OutSide=on&_ActionID=DefaultAID&_ControlID=WPLETmgR001Control&_DataStoreID=DSWPLETmgR001Control&_PageID=WPLETmgR001Mdtl30&burl=search_home&cat1=home&cat2=info&dir=info&file=home_info261031_bond.html&getFlg=on"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nttdata_stdirectservices_bond_investor_possible_leak_20261031_securitize/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "nttdata-stdirect-2610",
+   "co": "株式会社NTTデータ（STdirectServices／委託先SaaS）",
+   "date": "2026-10-31",
+   "announced": "2026-10-31",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "unk"
+   ],
+   "sum": "社債購入者への特典付与を支援する「STdirectServices」で利用する委託先SaaSに第三者の不正アクセスがあり、同社で取り扱う個人情報が漏えいした可能性がある。サービスは停止中。近鉄グループHD・カゴメ・西日本旅客鉄道などの社債購入者の情報が対象に含まれると各社が公表している。",
+   "status": "ongoing",
+   "statusText": "10月31日に公表。委託先で調査中。",
+   "resp": "サービスを停止し、関係各社と状況を確認中。",
+   "contact": {
+    "mails": [
+     "nttdata-pr-inquiries@am.nttdata.co.jp"
+    ],
+    "note": "広報部",
+    "src": "https://www.nttdata.com/global/ja/news/release/2026/103101/"
+   },
+   "official": [
+    [
+     "STdirectServicesのサービス停止についてのお知らせ（2026/10/31）",
+     "https://www.nttdata.com/global/ja/news/release/2026/103101/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nttdata_stdirectservices_bond_investor_possible_leak_20261031_securitize/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "dcm-cuenote-2610",
+   "co": "DCMホールディングス株式会社（会員サービス「マイボ」のメール配信／委託先 ユミルリンク「Cuenote FC」）",
+   "date": "2026-10-27",
+   "announced": "2026-10-27",
+   "last": "2026-10-30",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 753272,
+   "label": "753,272人",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "メールアドレス、会員ID、氏名、性別、生年月、居住都道府県（422人はメールアドレスと会員IDのみ）",
+   "notIncl": "パスワード、クレジットカード情報、ポイント残高・利用履歴",
+   "who": [
+    "cust"
+   ],
+   "sum": "子会社DCMが「マイボ」（11月1日にDCM会員制度へ改称）のメール配信に使うユミルリンクの「Cuenote FC」への不正アクセスで、会員情報が外部に漏えいしたことを確認した（10月27日の第1報は漏えいの可能性、10月30日の第2報で確認）。10月13日公表の会員情報管理システムへの不正アクセスとは別事案。",
+   "status": "ongoing",
+   "statusText": "10月30日の第2報時点。ユミルリンクが原因を調査中。",
+   "resp": "10月30日から対象会員へ個別にメール連絡、個人情報保護委員会へ報告、委託先管理を含む情報管理体制の点検・強化。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0570-069-868",
+      "hours": "9:00〜18:00（年末年始を除く）。マイボ（DCM会員）コンタクトセンター"
+     }
+    ],
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://co.myvot.fun/enquiry/"
+     ]
+    ],
+    "src": "https://www.dcm-hc.co.jp/news/news_file/file/20261030news.pdf"
+   },
+   "official": [
+    [
+     "メール配信委託先ユミルリンク株式会社で発生した不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ（第2報）（2026/10/30）",
+     "https://www.dcm-hc.co.jp/news/news_file/file/20261030news.pdf"
+    ],
+    [
+     "同（第1報）（2026/10/27）",
+     "https://www.dcm-hc.co.jp/news/news_file/file/20261027news.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/dcm_maibo_cuenote_fc_753272_confirmed_20261030_followup/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "tsslk-2610",
+   "co": "株式会社ティエスエスリンク",
+   "date": "2026-10-21",
+   "announced": "2026-10-21",
+   "occurred": "2026-10-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "問い合わせ約160件・認証情報約250件",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "work",
+    "id"
+   ],
+   "itemsText": "問い合わせ／評価版申込フォーム: 氏名、メールアドレス、電話番号、会社名／部署名、保守ユーザーID、申込製品、問い合わせ内容、添付ファイル。製品サポートサイト: ユーザーID、ログイン用パスワード",
+   "notIncl": "ユーザーIDに紐づく顧客情報・契約情報は別システムで管理し漏えいは確認されていない",
+   "who": [
+    "biz"
+   ],
+   "sum": "外部委託で運用するウェブサイトの管理に使うWordPressプラグインの脆弱性が悪用され、2026年6月12日〜10月13日に不正アクセスがあった。フォーム送信内容（約160件）とサポートサイトの認証情報（約250件）が漏えいした可能性がある。取得の確証はないが、一部期間の記録がなく否定できない。",
+   "status": "ongoing",
+   "statusText": "10月21日に第一報。外部委託先と原因・影響範囲を調査中。",
+   "resp": "不正な管理者アカウント・ファイル等の削除、ID・パスワードの再発行と個別連絡、10月20日に個人情報保護委員会へ報告、再発防止策。",
+   "contact": {
+    "mails": [
+     "security@tsslk.jp"
+    ],
+    "note": "不正アクセスインシデントお問い合わせ窓口",
+    "src": "https://www.tsslk.jp/news/info/security_notice_202610/"
+   },
+   "official": [
+    [
+     "当社ウェブサイトへの不正アクセスに関するお詫びとお知らせ（2026/10/21）",
+     "https://www.tsslk.jp/news/info/security_notice_202610/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/11/02/56648.html"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "mamaworks-aidma-2610",
+   "co": "株式会社アイドマ・ホールディングス（在宅ワーク求人サイト「ママワークス」）",
+   "date": "2026-10-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "氏名（漢字・フリガナ）、生年月日、性別、電話番号、郵便番号・住所、メールアドレス、職務経歴等の登録情報、パスワードのハッシュ値（会員ごとに項目は異なる）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "サイトの運用システムの設定の脆弱性を突かれた不正アクセスにより、会員情報の一部が漏えいした可能性が確認された。「会員名簿とされるデータ」がインターネット上にアップロードされているとの警察からの報告で発覚し、外部専門会社の調査で10月1日に原因を確認した。対象件数は公表されていない。運営会社名は公式PDFに記載がなく、報道に基づく。",
+   "status": "ongoing",
+   "statusText": "10月20日の会員向け報告時点。脆弱性への対応は完了、調査・再発防止を継続。",
+   "resp": "会員へパスワード変更を要請、不審メール等への注意喚起、個人情報保護委員会へ報告・警察に相談、監視体制の見直し。",
+   "contact": {
+    "forms": [
+     [
+      "「ママワークス」個人情報お問合せ窓口",
+      "https://docs.google.com/forms/d/e/1FAIpQLScHuIMK8hYC0x2EBGcnOUHQjErfSmXLSc7rQvpFarwn_13xlA/viewform"
+     ]
+    ],
+    "src": "https://mamaworks.jp/files/notice_20261020.pdf"
+   },
+   "official": [
+    [
+     "「ママワークス」における個人情報漏えいに関するご報告とお詫び（2026/10/20）",
+     "https://mamaworks.jp/files/notice_20261020.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "verified": "2026-11-03"
+  },
+  {
+   "id": "valuegolf-hitori-2611",
+   "co": "株式会社バリューゴルフ（ゴルフ場予約サービス「1人予約ランド」）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "occurred": "2026-11-01",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail",
+    "id"
+   ],
+   "itemsText": "ログイン用メールアドレス",
+   "notIncl": "氏名等メールアドレス以外の登録情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "ゴルフ場予約サービス「1人予約ランド」で第三者の不正アクセスがあり、利用者のログイン用メールアドレスが閲覧または取得された可能性がある。11月1日に痕跡を発見し、経路の遮断と不備の修正を実施。件数は公表されていない。",
+   "status": "ongoing",
+   "statusText": "11月2日の第一報（17時時点）。調査継続中。",
+   "resp": "経路遮断・緊急対策、関係機関へ報告・相談、不審メールへの注意喚起、再発防止策の実施。",
+   "contact": {
+    "mails": [
+     "support@valuegolf.co.jp"
+    ],
+    "note": "不正アクセスお問い合わせ窓口",
+    "src": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261102/20261102563148.pdf"
+   },
+   "official": [
+    [
+     "当社サービスへの不正アクセスに関するお知らせ（第一報）（2026/11/2）",
+     "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261102/20261102563148.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/valuegolf_hitori_yoyaku_land_unauthorized/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-11-03"
   }
  ],
  "statusLabels": {
@@ -36012,7 +37310,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 306,
+ "pendingCount": 315,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
