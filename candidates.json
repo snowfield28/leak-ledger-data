@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7463,6 +7463,117 @@
    ],
    "ind": "小売・EC",
    "pendingReason": "当店への影響の有無が未確定（開発元の調査結果待ち）で、個人情報の漏えいを確認できない。続報待ち。"
+  },
+  {
+   "id": "cbcloud-pickgo-2611",
+   "co": "CBcloud株式会社（配送サービス「ピックゴー」）",
+   "date": "2026-11-03",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "cust"
+   ],
+   "sum": "配送サービス「ピックゴー」が第三者の不正アクセスを受けた。セブン‐イレブン・ジャパンは7NOW利用者169,151件、出前館は最大799件の情報が取得されたと公表（各社の公式発表は台帳に掲載）。CBcloud自身の発表本文は取得できていない。",
+   "status": "ongoing",
+   "statusText": "CBcloud第2報のタイトルのみ確認。",
+   "resp": "",
+   "official": [
+    [
+     "「ピックゴー」への不正アクセス及び個人情報流出の可能性について（第2報）",
+     "https://cb-cloud.com/news/MC7mDLUO"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/cbcloud-pickgo-data-breach-seven-eleven-demaecan/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "pendingReason": "CBcloud自身の公式発表が自動取得不可（thin：本文が短い／JS描画の可能性）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "wills-netmile-2611",
+   "co": "株式会社ウィルズ（ポイント交換サービス「ネットマイル」）",
+   "date": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 5490000,
+   "label": "最大約549万人（報道）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "氏名、メールアドレス、ポイント・特典交換情報など（報道による）",
+   "who": [
+    "cust"
+   ],
+   "sum": "ネットマイルのシステム環境が第三者の不正アクセスを受け、退会者を含む最大約549万人の個人情報が漏えいした可能性があるとウィルズが11月2日に適時開示したと報じられている。",
+   "status": "ongoing",
+   "statusText": "11月2日に開示。原因・影響範囲は調査中（報道）。",
+   "resp": "",
+   "official": [
+    [
+     "「ネットマイル」における不正アクセスによる個人情報漏えいの可能性に関するお知らせ（TDnet）（2026/11/2）",
+     "https://www.nikkei.com/nkd/disclosure/tdnr/20261102562660/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/wills-netmile-5490000-possible-data-breach/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "自動取得不可（TDnetは日経サイトの有料会員向け表示、ネットマイル公式は503）。件数・項目を公式本文で確認できていない。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "johnsmedley-arara-2611",
+   "co": "ジョン スメドレー（ジョンスメドレー日本公式）",
+   "date": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "顧客のメールアドレス（公式ページのタイトルによる。詳細未確認）",
+   "who": [
+    "cust"
+   ],
+   "sum": "公式ニュースに「当社顧客のメールアドレス流出に関するお知らせとお詫び」が掲載されている。本文を取得できず、件数・経緯は未確認。",
+   "status": "ongoing",
+   "statusText": "タイトルのみ確認。",
+   "resp": "",
+   "official": [
+    [
+     "【重要】当社顧客のメールアドレス流出に関するお知らせとお詫び",
+     "https://www.johnsmedley.jp/news/411"
+    ]
+   ],
+   "src": [
+    [
+     "生活協同組合ユーコープ 公式発表（同ページへのリンクあり）",
+     "https://www.ucoop.or.jp/info/2026/info_34571.html"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "自動取得不可（thin：本文が取得できずタイトルのみ）。アララ関連かも未確認。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -37600,6 +37600,595 @@
    ],
    "ind": "エネルギー",
    "verified": "2026-11-03"
+  },
+  {
+   "id": "seven-eleven-7now-cbcloud-2611",
+   "co": "株式会社セブン‐イレブン・ジャパン（デリバリー「7NOW」／委託先 CBcloud「ピックゴー」）",
+   "date": "2026-11-03",
+   "announced": "2026-11-03",
+   "occurred": "2026-11-01",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 169151,
+   "label": "169,151件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel"
+   ],
+   "itemsText": "注文者（届け先）の氏名（カナ）164,180件／氏名（カナ）・住所4,762件／氏名（カナ）・住所・電話番号・郵便番号209件。一部で注文日、注文店舗名・店舗住所、注文商品名も取得",
+   "notIncl": "クレジットカード情報、ID・パスワード",
+   "who": [
+    "cust"
+   ],
+   "sum": "7NOWの一部の配達を委託しているCBcloudの「ピックゴー」が第三者の不正アクセスを受け、7NOW利用者の情報の一部が外部に取得された。公式発表の件数は合計169,151件（164,180＋4,762＋209）。",
+   "status": "ongoing",
+   "statusText": "11月3日に公表。現時点で本件を原因とする不正利用の被害は確認されていない。",
+   "resp": "対象者へ登録の電話番号宛にショートメッセージで順次連絡。CBcloudが不正通信の遮断、不正利用アカウントの停止、悪用された不具合の修正を実施し、一部機能と海外からのアクセスを制限。個人情報保護委員会へ報告済み。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-711-099",
+      "hours": "7NOWお問い合わせ窓口 9:00〜21:00"
+     }
+    ],
+    "mails": [
+     "customer.support@cb-cloud.com"
+    ],
+    "note": "CBcloudお客様相談窓口（公式発表ではwebフォームと表記）",
+    "src": "https://www.sej.co.jp/company/important/185116.html"
+   },
+   "official": [
+    [
+     "当社デリバリーサービス「7NOW」の委託先への不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び（2026/11/3）",
+     "https://www.sej.co.jp/company/important/185116.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/seven-eleven-7now-cbcloud-pickgo-data-breach/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "demaecan-cbcloud-2611",
+   "co": "株式会社出前館（委託先 CBcloud「ピックゴー」）",
+   "date": "2026-11-03",
+   "announced": "2026-11-03",
+   "occurred": "2026-11-01",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 799,
+   "label": "最大799件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel"
+   ],
+   "itemsText": "注文者（届け先）の氏名799件、住所（番地まで）794件、電話番号・郵便番号33件。一部で注文店舗名・店舗の住所・電話番号、注文メモ、商品名、料金明細も取得",
+   "notIncl": "クレジットカード情報、ID・パスワード",
+   "who": [
+    "cust"
+   ],
+   "sum": "配達業務を一部委託しているCBcloudの「ピックゴー」が第三者の不正アクセスを受け、出前館の配達案件に含まれる利用者情報の一部が外部に取得された。",
+   "status": "ongoing",
+   "statusText": "11月3日に公表。現時点で本件を原因とする不正利用の被害は確認されていない。新事実が判明すれば速やかに公表。",
+   "resp": "対象者へ登録メールアドレス宛に順次連絡。11月2日14時過ぎにCBcloudとの連携を停止し、不具合の修正を確認後、同日21時ごろ再開。CBcloudに原因の全容究明と再発防止策を要請。個人情報保護委員会へ報告済み。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://corporate.demae-can.co.jp/pr/info/20261103.html"
+   },
+   "official": [
+    [
+     "委託先による不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び（2026/11/3）",
+     "https://corporate.demae-can.co.jp/pr/info/20261103.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/cbcloud-pickgo-data-breach-seven-eleven-demaecan/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "ryobi-bus-arara-2611",
+   "co": "両備バス（両備ホールディングス／メルマガ配信委託先 アララ「repica」）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 43221,
+   "label": "延べ43,221件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "10月8日〜10月29日にメール配信があった顧客のメールアドレス",
+   "notIncl": "メールアドレス以外の個人情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "メルマガ配信に使う外部サービス「repica」の提供元アララのサーバーが第三者の不正アクセスを受け、メールマガジン会員のメールアドレスが外部に流出した。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表。氏名・住所・クレジットカード情報の漏えいはないとアララ社から報告を受けている。",
+   "resp": "メルマガ配信は再開時期未定。不審メールへの注意喚起。新事実があればHPで公表。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://www.ryobi-holdings.jp/bus/news-kousoku/20261102/"
+   },
+   "official": [
+    [
+     "メールマガジン配信サービス提供元における不正アクセスに関するお知らせとお詫び（2026/11/2）",
+     "https://www.ryobi-holdings.jp/bus/news-kousoku/20261102/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ryobi-bus-arara-repica-43221-email-leak/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "smt-members-arara-2611",
+   "co": "株式会社松竹マルチプレックスシアターズ（SMT Members／委託先 アララ「アララ メッセージ」）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "SMT Members会員のメールアドレス（そのほかの登録情報はアララ社が調査中）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信に利用するアララ メッセージへの不正アクセスにより、SMT Members会員のメールアドレスが流出した。10月29・30日には流出なしと案内していたが、別環境への不正アクセスが判明し11月2日に訂正した。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表。対象件数と、メールアドレス以外の情報の有無は調査中。",
+   "resp": "SMT Membersのメール配信を安全確認まで停止。アララ社に範囲の早期特定と再発防止を要請。チケット購入・ポイント利用は通常どおり。松竹株式会社もグループ会社の件として告知。",
+   "contact": {
+    "mails": [
+     "club-member-info@movix.co.jp"
+    ],
+    "note": "SMT Members事務局",
+    "src": "https://www.smt-cinema.com/site/shinjuku/news/detail/098809.html"
+   },
+   "official": [
+    [
+     "メール配信サービス「アララ メッセージ」への不正アクセスによるSMT Members会員情報の流出に関するお詫びとお知らせ（2026/11/2）",
+     "https://www.smt-cinema.com/site/shinjuku/news/detail/098809.html"
+    ],
+    [
+     "株式会社松竹マルチプレックスシアターズにおけるSMT Members会員情報の流出について（松竹株式会社）（2026/11/2）",
+     "https://www.shochiku.co.jp/news/20261102_01-2/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/smt_members_arara_email_leak_correction/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "maisen-cloud-2611",
+   "co": "井筒まい泉株式会社（外部クラウドサービスへの不正アクセス）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "occurred": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 96,
+   "label": "96名",
+   "st": "c",
+   "items": [
+    "name",
+    "addr"
+   ],
+   "itemsText": "宅配を注文した顧客および配送した従業員の氏名、お届け先の位置情報",
+   "notIncl": "クレジットカード等の決済情報",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "外部クラウドサービスで第三者による不正アクセスがあり、ファイルがダウンロードされ、その一部に宅配注文者と配送従業員の個人情報が含まれていた。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表（10月28日に異常を検知）。調査継続中。不正利用の事実は現時点で確認されていない。",
+   "resp": "不正アクセスを遮断し、個人情報保護委員会へ速報を報告。対象者への個別連絡を開始。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-863-971",
+      "hours": "お客様相談室 9:00〜18:00（土日祝・年末年始を除く）"
+     }
+    ],
+    "note": "井筒まい泉 お客様相談室（お問い合わせフォームは24時間受付）",
+    "src": "https://mai-sen.com/news/other/post-3030/"
+   },
+   "official": [
+    [
+     "外部クラウドサービスへの不正アクセスによる 個人情報漏えいに関するお詫び（2026/11/2）",
+     "https://mai-sen.com/news/other/post-3030/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/maisen-cloud-delivery-location-data-breach/"
+    ]
+   ],
+   "ind": "飲食",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "ucoop-arara-2611",
+   "co": "生活協同組合ユーコープ（委託先 アララ「repica」）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 210495,
+   "label": "210,495件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "10月8日〜10月29日にメール配信があった顧客のメールアドレス",
+   "notIncl": "メールアドレス以外の個人情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信を委託するアララのサービス「repica」から、登録メールアドレスが外部に流出した。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表。悪用や二次被害の有無は確認中。",
+   "resp": "委託先と連携して影響範囲を確認し、管理状況と安全対策を再確認。サービス継続・再開は安全確認後に判断。フィッシング注意喚起。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://www.ucoop.or.jp/info/2026/info_34571.html"
+   },
+   "official": [
+    [
+     "委託先における個人情報漏えいについて（2026/11/2）",
+     "https://www.ucoop.or.jp/info/2026/info_34571.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ucoop_repica_email_breach/"
+    ]
+   ],
+   "ind": "団体",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "hokuriku-hokulink-arara-2611",
+   "co": "北陸電力株式会社（会員サービス「ほくリンク」／メール配信委託先経由 アララ）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 550000,
+   "label": "約55万件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "「ほくリンク」会員のメールアドレス",
+   "notIncl": "メールアドレス以外の個人情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "ほくリンク会員向けメール配信を委託する運営会社が使うメール配信サービスで10月28〜31日に不正アクセスがあり、会員のメールアドレス約55万件が流出した。流出はメールアドレスに限られ、ほかの情報の流出は確認されていない。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表。ほくリンク以外の情報流出は調査中で、現時点で確認されていない。",
+   "resp": "ほくリンクアプリ等で対象会員へ連絡し、不審メールへの注意を呼びかけ。委託先と連携して情報収集中。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://www.rikuden.co.jp/press/attach/26110201.pdf"
+   },
+   "official": [
+    [
+     "北陸電力会員サービス「ほくリンク」会員のメールアドレス外部流出について（2026/11/2）",
+     "https://www.rikuden.co.jp/press/attach/26110201.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hokuriku_electric_hokulink_550k_arara_email_breach_20261103/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "kobe-shimbun-arara-2611",
+   "co": "株式会社神戸新聞社（メールマガジン／委託先 アララ メッセージ）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 40000,
+   "label": "約4万件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールマガジン受信者のメールアドレス（メールアドレスのみ）",
+   "notIncl": "メールアドレス以外の個人情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信に利用するアララ メッセージで不正アクセスによる情報流出が発生し、メールマガジン受信者のメールアドレス約4万件が漏えいしたとの連絡を11月2日に受けた。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表。影響範囲はアララ社に確認中。",
+   "resp": "全てのメールサービス（ニュースレター・メルマガ）の配信を停止。アララ社へ影響範囲の情報提供を要請。不審メールへの注意喚起。",
+   "contact": {
+    "mails": [
+     "next@kobe-np.co.jp"
+    ],
+    "src": "https://www.kobe-np.co.jp/news/information/202611/0020994385.shtml"
+   },
+   "official": [
+    [
+     "【お詫び】アララ社への不正アクセスによる情報流出およびメールサービス停止について（2026/11/2）",
+     "https://www.kobe-np.co.jp/news/information/202611/0020994385.shtml"
+    ],
+    [
+     "【お詫び】メールサービスの配信一時停止について（2026/11/2）",
+     "https://www.kobe-np.co.jp/news/information/202611/0020994444.shtml"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kobe-shimbun-arara-message-email-leak-40000/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "osakagas-fitdish-arara-2611",
+   "co": "大阪ガス株式会社（FitDish／委託先 アララ）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 34489,
+   "label": "34,489件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "10月8日〜10月29日に配信されたお客さまのメールアドレス",
+   "notIncl": "メールアドレス以外の個人情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "FitDishのメール配信に利用するアララのサービスが不正アクセスを受け、顧客のメールアドレスが流出した。",
+   "status": "ongoing",
+   "statusText": "11月2日に公表。氏名・住所・電話番号・クレジットカード情報・購買データは含まれないとしている。",
+   "resp": "対象者へ個別にメールで連絡。不審なメール・SMSへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-609-048",
+      "hours": "FitDish事務局 9:00〜18:00（12/29〜1/4を除く）"
+     }
+    ],
+    "src": "https://www.fitdish.jp/news/3ccb218ce63bcb240d990522939b83e69c96b268.html"
+   },
+   "official": [
+    [
+     "【重要】当社委託先のメール配信サービスへの不正アクセスによるお客さま情報の流出について（FitDish）（2026/11/2）",
+     "https://www.fitdish.jp/news/3ccb218ce63bcb240d990522939b83e69c96b268.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/osaka-gas-fitdish-arara-email-leak-34489/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "odakyu-travel-arara-2611",
+   "co": "株式会社小田急トラベル（小田急旅の予約サイト／委託先 アララ）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 63006,
+   "label": "63,006件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "10月8日〜10月29日に「小田急トラベル」「小田急旅のサポートセンター」からメールを配信したお客さまのメールアドレス",
+   "notIncl": "メールアドレス以外の個人情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信に使うアララのサービスへの不正アクセスにより、会員の一部のメールアドレスが流出した。別システムから配信する予約関連メールのみの受信者は対象外。",
+   "status": "ongoing",
+   "statusText": "11月2日（23:05時点）に公表。詳細は確認中。",
+   "resp": "アララ社経由のメール配信を停止。対象者が特定でき次第メールで個別連絡。個人情報保護委員会への報告はアララ社が実施。",
+   "contact": {
+    "mails": [
+     "weborder@odakyu-travel.co.jp"
+    ],
+    "note": "サービス・会員登録に関する問い合わせ先。流出対象かの個別回答はできない場合がある",
+    "src": "https://www.odakyu-travel.co.jp/web/info_20261102.html"
+   },
+   "official": [
+    [
+     "アララ株式会社で発生した不正アクセスに伴うメールアドレスの漏えいについて（2026/11/2）",
+     "https://www.odakyu-travel.co.jp/web/info_20261102.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/odakyu_travel_arara_63006_email_leak/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "tkc-arara-2611",
+   "co": "株式会社TKC（メール配信委託先 アララ メッセージ）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 2230812,
+   "label": "最大2,230,812件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "TKCシステム利用者のメールアドレス（アララ社報告では氏名等も外部流出。TKC発表の件数はメールアドレス）",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "メール配信を委託するアララ メッセージの不正アクセスで、TKCシステムを利用する顧客のメールアドレスが最大223万812件、漏えい対象に含まれることが判明した。第1報（11月2日）は漏えい対象に含まれるか確認中としていた。",
+   "status": "ongoing",
+   "statusText": "11月2日に第2報を公表。漏えいした内容の詳細と影響範囲は調査中。",
+   "resp": "アララ社と連携して詳細と影響範囲を調査。税理士報酬管理、スマート申請、マイナンバーカード交付予約など多数のシステムでメール送信が停止。不審メールへの注意喚起。",
+   "contact": {
+    "note": "TKCグループ ニュースリリースの広報・その他お問合せフォーム",
+    "src": "https://www.tkc.jp/news/2026/20261102_2/"
+   },
+   "official": [
+    [
+     "メール配信委託先への不正アクセスによる情報漏えいに関する件（第2報）（2026/11/2）",
+     "https://www.tkc.jp/news/2026/20261102_2/"
+    ],
+    [
+     "メール配信委託先への不正アクセスによる情報漏えいの可能性について（第1報）（2026/11/2）",
+     "https://www.tkc.jp/news/2026/20261102_1/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tkc_arara_message_2230812_email_addresses_20261103/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-04"
+  },
+  {
+   "id": "yokohama-eshinsei-arara-2611",
+   "co": "横浜市（電子申請・届出システム／委託先 TKC・メール送信 アララ）",
+   "date": "2026-11-03",
+   "announced": "2026-11-03",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中（利用者登録約82万件）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "利用者メールアドレス、利用者名など（対象件数・本市利用者への影響は確認中）",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "電子申請・届出システムが使うメール送信サービス（アララ）への第三者の不正アクセスで、利用者のメールアドレス・利用者名などが漏えいした可能性がある。利用者登録は約82万件（個人及び事業者のアカウント数）。",
+   "status": "ongoing",
+   "statusText": "11月3日に公表。漏えいの有無と対象件数は確認中。",
+   "resp": "メール送信サービスを停止し緊急メンテナンス中（利用者登録・ログイン・二要素認証メール等に影響）。影響の有無は委託事業者を通じて確認中。不審なメール・SMSへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "045-671-2113",
+      "hours": "総務局システム管理部DX基盤課"
+     }
+    ],
+    "src": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/somu/2026/1103denshishinsei.html"
+   },
+   "official": [
+    [
+     "横浜市電子申請・届出システムが使用するメール送信サービスにおける個人情報の漏えいの可能性について（2026/11/3）",
+     "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/somu/2026/1103denshishinsei.html"
+    ],
+    [
+     "記者発表資料（PDF）（2026/11/3）",
+     "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/somu/2026/1103denshishinsei.files/0001_20261103.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/yokohama-online-application-arara-email-leak-risk/"
+    ]
+   ],
+   "ind": "公共機関",
+   "occurred": "2026-10-31",
+   "verified": "2026-11-04"
   }
  ],
  "statusLabels": {
@@ -37632,7 +38221,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 309,
+ "pendingCount": 312,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
