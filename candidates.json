@@ -7390,46 +7390,6 @@
    "pendingReason": "サントリーの公式発表を見つけられず、報道（MBS）のみ。公式文面が出たら照合する。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "tepco-nihonkotsu-2610",
-   "co": "東京電力ホールディングス（委託先 日本交通のハイヤー手配）",
-   "date": "2026-10-30",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "name",
-    "addr",
-    "tel"
-   ],
-   "itemsText": "報道: 氏名、役職名、自宅住所、電話番号の全部または一部",
-   "who": [
-    "staff"
-   ],
-   "sum": "報道によると、ハイヤー手配の委託先・日本交通への不正アクセスにより、2006年8月頃〜2026年7月に東京電力HDが手配したハイヤーの利用者・申込者（役員・社員ら）の情報が漏えいした可能性がある。人数は公表資料にないと報じられている。公式PDFは取得できず（HTTP 403）。",
-   "status": "ongoing",
-   "statusText": "報道ベース（2026/10/30公表）。",
-   "resp": "報道: 対象者へ順次通知、委託先への情報管理徹底を要請。",
-   "official": [
-    [
-     "日本交通株式会社への不正アクセスに伴う個人情報漏えいの可能性について（2026/10/30）",
-     "https://www.tepco.co.jp/press/news/2026/pdf/261030j0101.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/tepco_nihonkotsu_hire_personal_data_exposure_critical_infrastructure_risks_20261101/"
-    ]
-   ],
-   "ind": "エネルギー",
-   "pendingReason": "公式PDFの取得が拒否された（HTTP 403）。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "enoteca-online-2610",
    "co": "エノテカ株式会社（エノテカ・オンライン）",
    "date": "2026-10-30",

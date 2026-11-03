@@ -37537,6 +37537,59 @@
    ],
    "ind": "運輸・交通",
    "verified": "2026-11-03"
+  },
+  {
+   "id": "tepco-nihonkotsu-2610",
+   "co": "東京電力ホールディングス株式会社（委託先 日本交通のハイヤー手配）",
+   "date": "2026-10-30",
+   "announced": "2026-10-30",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "addr",
+    "work"
+   ],
+   "itemsText": "ハイヤー利用者・申込者の氏名、役職名、自宅住所、電話番号の全部または一部（2006年8月頃〜2026年7月に手配分）",
+   "notIncl": "",
+   "who": [
+    "staff"
+   ],
+   "sum": "業務委託先の日本交通の社内サーバーが第三者から不正アクセスを受け、システムに登録されていた当社の役員・社員等（退任・退職者を含む）の個人情報が外部に漏えいした可能性があるとの報告を受けた。対象は2006年8月頃から2026年7月に当社が手配したハイヤーの利用者・申込者。人数は公表されていない。",
+   "status": "ongoing",
+   "statusText": "10月30日に公表。二次被害は確認されていない。調査状況は委託先のホームページで案内。",
+   "resp": "対象者へ順次通知（通知が困難な一部の対象者には本お知らせで代替）、委託先に情報管理の徹底を求める、不審なSMS・電話への注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-6373-1111",
+      "hours": "代表番号"
+     }
+    ],
+    "note": "ビジネスソリューションカンパニー 総務サービスセンター 現業管理グループ",
+    "src": "https://www.tepco.co.jp/press/news/2026/pdf/261030j0101.pdf"
+   },
+   "official": [
+    [
+     "業務委託先への不正アクセスによる当社役員等の個人情報漏えいの可能性について（2026/10/30）",
+     "https://www.tepco.co.jp/press/news/2026/pdf/261030j0101.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tepco_nihonkotsu_hire_personal_data_exposure_critical_infrastructure_risks_20261101/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "verified": "2026-11-03"
   }
  ],
  "statusLabels": {
@@ -37569,7 +37622,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 310,
+ "pendingCount": 309,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
