@@ -7614,44 +7614,6 @@
    "pendingReason": "報道（セキュリティ対策Lab）が伝える約16万件を、鎌倉シャツ自身の公式発表の本文で照合できていない（inboxの公式候補はアララのPDFとSNSのみ）。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "workman-arara-2611",
-   "co": "株式会社ワークマン（委託先 アララ メッセージ）",
-   "date": "2026-11-04",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "mail"
-   ],
-   "itemsText": "メールアドレス（報道による。公式で未確認）",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道は最大約145万件のメールアドレス流出の恐れを伝える。",
-   "status": "ongoing",
-   "statusText": "公式発表を未確認。",
-   "resp": "",
-   "official": [
-    [
-     "ワークマン 詐欺メールにご注意ください（日付不明）",
-     "https://workman.jp/shop/t/t1021/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/workman-arara-email-leak-1450000-20261104/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "inboxの公式候補（workman.jp/shop/t/t1021/）は詐欺メール注意喚起のみで、情報漏えいや約145万件の記載がなく報道と照合できない。自動取得不可。manual/ に流出に関する公式文面を貼れば反映できる。"
-  },
-  {
    "id": "belluna-notis-sunstage-2611",
    "co": "株式会社ベルーナノーティス（サンステージ）",
    "date": "2026-11-02",
