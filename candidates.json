@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7574,6 +7574,160 @@
    ],
    "ind": "小売・EC",
    "pendingReason": "自動取得不可（thin：本文が取得できずタイトルのみ）。アララ関連かも未確認。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "kamakura-shirts-arara-2611",
+   "co": "株式会社鎌倉シャツ（委託先 アララ「repica」）",
+   "date": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（報道による。公式で未確認）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道は約16万件のメールアドレス流出の可能性を伝える。",
+   "status": "ongoing",
+   "statusText": "公式発表を未確認。",
+   "resp": "",
+   "official": [
+    [
+     "アララ株式会社 第2報（2026/11/2）",
+     "https://www.arara.com/dcms_media/other/arara_20261102__.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kamakura_shirts_arara_repica_email_leak_160000/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "報道（セキュリティ対策Lab）が伝える約16万件を、鎌倉シャツ自身の公式発表の本文で照合できていない（inboxの公式候補はアララのPDFとSNSのみ）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "workman-arara-2611",
+   "co": "株式会社ワークマン（委託先 アララ メッセージ）",
+   "date": "2026-11-04",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（報道による。公式で未確認）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道は最大約145万件のメールアドレス流出の恐れを伝える。",
+   "status": "ongoing",
+   "statusText": "公式発表を未確認。",
+   "resp": "",
+   "official": [
+    [
+     "ワークマン 詐欺メールにご注意ください（日付不明）",
+     "https://workman.jp/shop/t/t1021/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/workman-arara-email-leak-1450000-20261104/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "inboxの公式候補（workman.jp/shop/t/t1021/）は詐欺メール注意喚起のみで、情報漏えいや約145万件の記載がなく報道と照合できない。自動取得不可。manual/ に流出に関する公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "belluna-notis-sunstage-2611",
+   "co": "株式会社ベルーナノーティス（サンステージ）",
+   "date": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "acct"
+   ],
+   "itemsText": "口座情報・契約内容など（報道による）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道は顧客最大19,853名の口座情報・契約内容などが閲覧・取得された可能性を伝える。",
+   "status": "ongoing",
+   "statusText": "公式発表を未確認。",
+   "resp": "",
+   "official": [
+    [
+     "ベルーナ 公式発表PDF（2026/11/2）",
+     "https://www.belluna.co.jp/pdf/20261102sunstage.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/belluna-notis-sunstage-19853-customer-data-unauthorized-access/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "公式PDF（belluna.co.jp/pdf/20261102sunstage.pdf）がHTTP 403で開けず、報道の最大19,853名・口座情報などを照合できない。自動取得不可。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "asoview-arara-2611",
+   "co": "アソビュー株式会社（委託先 アララ）",
+   "date": "2026-11-02",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "会員の個人情報（報道による）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道は会員1,582万1,184件の個人情報漏洩の恐れを伝える。",
+   "status": "ongoing",
+   "statusText": "公式発表を未確認。",
+   "resp": "",
+   "official": [
+    [
+     "アソビュー 公式ニュース（日付不明）",
+     "https://www.asoview.co.jp/news/articles/AyTdT_tX"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/asoview-arara-data-leak-15821184-ticket-history/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "pendingReason": "公式ページ（asoview.co.jp/news/articles/AyTdT_tX）はthin（JavaScript描画）で本文が取得できず、報道の1,582万1,184件を照合できない。自動取得不可（JS）。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }
