@@ -1,9 +1,0 @@
-URL: https://t.me/air_alert_ua/338382
-
-Telegram: View @air_alert_ua
- Download
-Context
-Embed
-View In Channel
-<script async src="https://telegram.org/js/telegram-widget.js?24" data-telegram-post="air_alert_ua/338382" data-width="100%"></script>
-Copy
