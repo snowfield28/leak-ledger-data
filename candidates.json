@@ -7576,47 +7576,6 @@
    "pendingReason": "自動取得不可（thin：本文が取得できずタイトルのみ）。アララ関連かも未確認。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "wellness-ashita-lafool-2611",
-   "co": "ウェルネス・コミュニケーションズ株式会社／株式会社あしたのチーム（「あしたのサーベイ」／OEM提供元 ラフール）",
-   "date": "2026-11-04",
-   "announced": "2026-11-04",
-   "cause": "cyber",
-   "n": 209,
-   "label": "3社209人（報道）",
-   "st": "p",
-   "items": [
-    "name",
-    "work"
-   ],
-   "itemsText": "氏名、所属部署、従業員番号、ストレスチェック結果（報道）",
-   "notIncl": "",
-   "who": [
-    "biz"
-   ],
-   "sum": "報道によると、OEM提供元ラフールのシステム環境への不正アクセスで、「あしたのサーベイ」の顧客企業3社・209人分の情報が不正取得された。",
-   "status": "ongoing",
-   "statusText": "報道ベース。公式発表の本文は未確認。",
-   "resp": "",
-   "official": [
-    [
-     "ウェルネス・コミュニケーションズ TDnet適時開示（2026/11/4）",
-     "https://www.release.tdnet.info/inbs/140120261104564889.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/lafool_ashita_survey_stress_check_209_unauthorized_access_20261105/"
-    ]
-   ],
-   "ind": "人材・教育・業務支援",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "pendingReason": "公式発表（TDnet 11/4）はrobots.txtで、Yahoo!ファイナンス経由は403で取得できず、WebFetchも不可。manual/ に公式文面を貼れば反映できる"
-  },
-  {
    "id": "heisei-enterprise-vip-liner-2611",
    "co": "株式会社平成エンタープライズ（高速バス「VIPライナー」予約サイト）",
    "date": "2026-11-04",
