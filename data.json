@@ -41297,6 +41297,64 @@
    "ind": "金融・保険",
    "occurred": "2026-10-29",
    "verified": "2026-11-06"
+  },
+  {
+   "id": "artpass-arara-2611",
+   "co": "インヴェンティット株式会社（ARTPASS／委託先 アララ）",
+   "date": "2026-11-04",
+   "announced": "2026-11-04",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 1000000,
+   "label": "最大約100万件（精査中）",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "ARTPASSのメールマガジン配信用に登録していたメールアドレスのみ。氏名・住所・電話番号・クレジットカード情報・パスワードは対象外。",
+   "notIncl": "氏名、住所、電話番号、クレジットカード情報、パスワード",
+   "who": [
+    "cust"
+   ],
+   "sum": "メールマガジン配信を委託するアララのシステムへの不正アクセスで、ARTPASSのメルマガ配信用メールアドレスが外部に漏えいした。当初アララからは「ARTPASSの情報を管理する環境は保護され流出なし」と説明されたが、その後の攻撃で被害が拡大し漏えいの報告を受けた。最大約100万件で、具体的な件数はアララと精査中。ARTPASS自体のシステムからの漏えいではない。",
+   "status": "ongoing",
+   "statusText": "2026年11月4日の発表時点。アララが原因と影響範囲を調査中。流出アドレスは未特定。",
+   "resp": "対象が確定次第、順次個別に案内。アララと連携して原因究明と影響調査を継続し、関係当局へ法令に基づき報告予定。ARTPASSを装う不審メールへの注意喚起。",
+   "contact": {
+    "forms": [
+     [
+      "ARTPASS事業本部 問い合わせフォーム（「イベント名」で「個人情報に関するお問い合わせ」を選択）",
+      "https://www.art.passes.jp/#comp-kaasio5m"
+     ]
+    ],
+    "note": "インヴェンティット株式会社 ARTPASS事業本部",
+    "src": "https://www.art.passes.jp/"
+   },
+   "official": [
+    [
+     "【重要】メールマガジン配信業務委託先への不正アクセスに関するお詫びとお知らせ（2026/11/4）",
+     "https://www.art.passes.jp/"
+    ],
+    [
+     "アララ株式会社 第2報（2026/11/2）",
+     "https://www.arara.com/dcms_media/other/arara_20261102__.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/artpass_arara_email_leak_max_1million_20261105/"
+    ],
+    [
+     "大阪中之島美術館（2026/11/5）",
+     "https://nakka-art.jp/news/20261105/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-11-06"
   }
  ],
  "statusLabels": {
@@ -41329,7 +41387,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 316,
+ "pendingCount": 315,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
