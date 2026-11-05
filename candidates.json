@@ -7657,44 +7657,6 @@
    "pendingReason": "公式発表（fancrew.co.jp のお知らせ）がHTTP 403で本文を取得できず、WebFetchも不可。manual/ に公式文面を貼れば反映できる"
   },
   {
-   "id": "sompo-japan-pcs-2611",
-   "co": "損害保険ジャパン株式会社（委託先 プレステージ・コアソリューション）",
-   "date": "2026-11-05",
-   "announced": "2026-11-05",
-   "cause": "cyber",
-   "n": 65000,
-   "label": "約65,000件（報道）",
-   "st": "p",
-   "items": [],
-   "itemsText": "契約情報、問い合わせ履歴、ロードサービスの手配履歴（報道）",
-   "notIncl": "",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道によると、自動車保険の問い合わせ・受付管理業務を委託するプレステージ・コアソリューション（PCS）の業務システムへの不正アクセスで、契約者の情報約6万5,000件が漏えいした可能性がある。クレジットカード情報は対象外。PCS側はprestige-international-2611で掲載済み。",
-   "status": "ongoing",
-   "statusText": "報道ベース。公式発表の本文は未確認。",
-   "resp": "",
-   "official": [
-    [
-     "損保ジャパン ニュースリリース（2026/11/5）",
-     "https://www.sompo-japan.co.jp/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/sompo_japan_pcs_premiernet2_65000_20261105/"
-    ]
-   ],
-   "ind": "金融・保険",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "pendingReason": "損保ジャパンの公式発表がHTTP 403で取得できず、WebFetchも不可。プレステージ・インターナショナルの発表には損保ジャパン分の件数がない。manual/ に公式文面を貼れば反映できる"
-  },
-  {
    "id": "wellness-ashita-lafool-2611",
    "co": "ウェルネス・コミュニケーションズ株式会社／株式会社あしたのチーム（「あしたのサーベイ」／OEM提供元 ラフール）",
    "date": "2026-11-04",
