@@ -7576,47 +7576,6 @@
    "pendingReason": "自動取得不可（thin：本文が取得できずタイトルのみ）。アララ関連かも未確認。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "fancrew-2611",
-   "co": "株式会社ファンくる（ファンくる／会員情報管理システム）",
-   "date": "2026-11-02",
-   "announced": "2026-11-02",
-   "cause": "cyber",
-   "n": 1030741,
-   "label": "1,030,741件（報道）",
-   "st": "p",
-   "items": [
-    "name",
-    "mail",
-    "id"
-   ],
-   "itemsText": "会員ID、メールアドレス、氏名、ログインパスワードのハッシュ値（報道）",
-   "notIncl": "",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道によると、会員情報を管理するシステムへの不正アクセスで会員情報1,030,741件が第三者に取得された。11月2日に第1報、11月4日に第2報を公表した。8月公表のリスト型攻撃（fancrew-2608）とは別の事案。",
-   "status": "ongoing",
-   "statusText": "報道ベース。公式発表の本文は未確認。",
-   "resp": "",
-   "official": [
-    [
-     "ファンくる お知らせ一覧",
-     "https://www.fancrew.co.jp/news/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/fancrew_member_data_leak_1030741_20261105/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "types": [
-    "不正アクセス"
-   ],
-   "pendingReason": "公式発表（fancrew.co.jp のお知らせ）がHTTP 403で本文を取得できず、WebFetchも不可。manual/ に公式文面を貼れば反映できる"
-  },
-  {
    "id": "wellness-ashita-lafool-2611",
    "co": "ウェルネス・コミュニケーションズ株式会社／株式会社あしたのチーム（「あしたのサーベイ」／OEM提供元 ラフール）",
    "date": "2026-11-04",
