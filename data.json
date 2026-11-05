@@ -41142,6 +41142,62 @@
     "不正アクセス"
    ],
    "verified": "2026-11-06"
+  },
+  {
+   "id": "kamakura-shirts-arara-2611",
+   "co": "メーカーズシャツ鎌倉株式会社（メールマガジン／委託先 アララ「repica」）",
+   "date": "2026-11-04",
+   "announced": "2026-11-04",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 160000,
+   "label": "約16万件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026年10月8日〜10月29日にメールマガジン配信対象として登録されていたメールアドレス",
+   "notIncl": "氏名、住所、電話番号、生年月日、購買履歴、パスワード、クレジットカード情報は流出対象に含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "アララ「repica」への不正アクセスで、メールマガジン配信対象のメールアドレス約16万件が流出した。",
+   "status": "ongoing",
+   "statusText": "11月4日に公表。事実関係を確認中。",
+   "resp": "アララのシステムは全停止中。より安全な別のメール配信システムへの移行を準備中。対象のお客様へは準備が整い次第メールで案内予定。クレジットカード会社を装う不審メールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-843-018",
+      "hours": "10:00〜18:00"
+     }
+    ],
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://shop.shirt.co.jp/shop/contact/contact.aspx"
+     ]
+    ],
+    "note": "メーカーズシャツ鎌倉 株式会社 カスタマーサポート窓口",
+    "src": "https://yomukama.shirt.co.jp/5374"
+   },
+   "official": [
+    [
+     "【緊急・重要なお知らせ】メール配信システムからのメールアドレス流出に関するご報告とお詫び（2026/11/4）",
+     "https://yomukama.shirt.co.jp/5374"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kamakura_shirts_arara_repica_email_leak_160000/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-06"
   }
  ],
  "statusLabels": {
@@ -41174,7 +41230,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 319,
+ "pendingCount": 318,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",

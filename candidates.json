@@ -7576,44 +7576,6 @@
    "pendingReason": "自動取得不可（thin：本文が取得できずタイトルのみ）。アララ関連かも未確認。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "kamakura-shirts-arara-2611",
-   "co": "株式会社鎌倉シャツ（委託先 アララ「repica」）",
-   "date": "2026-11-02",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "mail"
-   ],
-   "itemsText": "メールアドレス（報道による。公式で未確認）",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道は約16万件のメールアドレス流出の可能性を伝える。",
-   "status": "ongoing",
-   "statusText": "公式発表を未確認。",
-   "resp": "",
-   "official": [
-    [
-     "アララ株式会社 第2報（2026/11/2）",
-     "https://www.arara.com/dcms_media/other/arara_20261102__.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/kamakura_shirts_arara_repica_email_leak_160000/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "報道（セキュリティ対策Lab）が伝える約16万件を、鎌倉シャツ自身の公式発表の本文で照合できていない（inboxの公式候補はアララのPDFとSNSのみ）。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "konaka-arara-repica-2611",
    "co": "株式会社コナカ（連結子会社 サマンサタバサ等／委託先 アララ「repica」）",
    "date": "2026-11-05",
