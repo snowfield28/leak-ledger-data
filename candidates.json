@@ -7576,46 +7576,6 @@
    "pendingReason": "自動取得不可（thin：本文が取得できずタイトルのみ）。アララ関連かも未確認。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "konaka-arara-repica-2611",
-   "co": "株式会社コナカ（連結子会社 サマンサタバサ等／委託先 アララ「repica」）",
-   "date": "2026-11-05",
-   "announced": "2026-11-05",
-   "cause": "cyber",
-   "n": 434414,
-   "label": "43万4,414件（報道）",
-   "st": "p",
-   "items": [
-    "mail"
-   ],
-   "itemsText": "メールアドレス（報道）",
-   "notIncl": "",
-   "who": [
-    "unk"
-   ],
-   "sum": "報道によると、コナカが11月5日に適時開示し、連結子会社2社が利用するアララのメール配信サービス「repica」への不正アクセスで顧客のメールアドレス43万4,414件が流出した。対象はサマンサタバサ等のサービス。",
-   "status": "ongoing",
-   "statusText": "報道ベース。公式発表の本文は未確認。",
-   "resp": "",
-   "official": [
-    [
-     "連結子会社のメール配信サービス提供元への不正アクセスによるメールアドレスの漏えいに関するお知らせ（2026/11/5）",
-     "https://www.nikkei.com/nkd/disclosure/tdnr/20261105565832/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/konaka-samantha-thavasa-repica-email-leak-434414/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "pendingReason": "公式発表（コナカの適時開示 https://www.nikkei.com/nkd/disclosure/tdnr/20261105565832/）は有料会員限定で本文が読めず、コナカ公式サイトにもWebFetchでアクセスできなかった（PROVENANCE_REQUIRED）。manual/ に公式文面を貼れば反映できる"
-  },
-  {
    "id": "artpass-arara-2611",
    "co": "インヴェンティット株式会社（ARTPASS／委託先 アララ）",
    "date": "2026-11-04",

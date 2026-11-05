@@ -41198,6 +41198,55 @@
    ],
    "ind": "小売・EC",
    "verified": "2026-11-06"
+  },
+  {
+   "id": "konaka-arara-repica-2611",
+   "co": "株式会社コナカ（連結子会社 サマンサタバサジャパンリミテッド・バーンデストローズジャパンリミテッド／委託先 アララ「repica」）",
+   "date": "2026-11-05",
+   "announced": "2026-11-05",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 434414,
+   "label": "434,414件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "サマンサタバサ・バーンデストローズ・フィットハウスの公式オンラインショップおよびフィットハウスアプリに登録されたメールアドレス。氏名・住所・電話番号・パスワード・クレジットカード情報の流出は確認されていない。",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "連結子会社2社がメール配信に利用するアララの「repica」のサーバーが第三者の不正アクセスを受け、顧客のメールアドレス434,414件が外部に流出した。",
+   "status": "ongoing",
+   "statusText": "2026年11月5日の第一報時点。アララに詳細調査を要請中。",
+   "resp": "アララへ詳細調査を要請し、個人情報保護委員会へ報告等を実施。顧客向けメール配信システムを一時停止し、復旧後に対象者へ個別案内。便乗した不審メールへの注意喚起。",
+   "contact": {
+    "forms": [
+     [
+      "サマンサタバサグループカスタマーセンター",
+      "https://www.samantha.co.jp/shop/contact/contact.aspx"
+     ]
+    ],
+    "src": "https://www.nikkei.com/nkd/disclosure/tdnr/20261105565832/"
+   },
+   "official": [
+    [
+     "連結子会社のメール配信サービス提供元への不正アクセスによるメールアドレスの漏えいに関するお知らせ（コナカ 適時開示 2026/11/5）",
+     "https://www.nikkei.com/nkd/disclosure/tdnr/20261105565832/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/konaka-samantha-thavasa-repica-email-leak-434414/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-06"
   }
  ],
  "statusLabels": {
@@ -41230,7 +41279,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 318,
+ "pendingCount": 317,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
