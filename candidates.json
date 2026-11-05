@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7612,6 +7612,247 @@
    ],
    "ind": "小売・EC",
    "pendingReason": "報道（セキュリティ対策Lab）が伝える約16万件を、鎌倉シャツ自身の公式発表の本文で照合できていない（inboxの公式候補はアララのPDFとSNSのみ）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "konaka-arara-repica-2611",
+   "co": "株式会社コナカ（連結子会社 サマンサタバサ等／委託先 アララ「repica」）",
+   "date": "2026-11-05",
+   "announced": "2026-11-05",
+   "cause": "cyber",
+   "n": 434414,
+   "label": "43万4,414件（報道）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（報道）",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "報道によると、コナカが11月5日に適時開示し、連結子会社2社が利用するアララのメール配信サービス「repica」への不正アクセスで顧客のメールアドレス43万4,414件が流出した。対象はサマンサタバサ等のサービス。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式発表の本文は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "連結子会社のメール配信サービス提供元への不正アクセスによるメールアドレスの漏えいに関するお知らせ（2026/11/5）",
+     "https://www.nikkei.com/nkd/disclosure/tdnr/20261105565832/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/konaka-samantha-thavasa-repica-email-leak-434414/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "pendingReason": "公式発表（コナカの適時開示 https://www.nikkei.com/nkd/disclosure/tdnr/20261105565832/）は有料会員限定で本文が読めず、コナカ公式サイトにもWebFetchでアクセスできなかった（PROVENANCE_REQUIRED）。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "artpass-arara-2611",
+   "co": "インヴェンティット株式会社（ARTPASS／委託先 アララ）",
+   "date": "2026-11-04",
+   "announced": "2026-11-04",
+   "cause": "cyber",
+   "n": null,
+   "label": "最大約100万件（報道。正確な件数は調査中）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（報道）。氏名・住所・電話番号・パスワード・クレジットカード情報は対象外とされる（報道）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、ARTPASSが11月4日に、メルマガ配信を委託するアララへの不正アクセスで配信先メールアドレスの流出を確認したと発表した。最大約100万件だが正確な件数は調査中。大阪中之島美術館が11月5日に委託先の事案として案内している。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式発表の本文は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "大阪中之島美術館：アソビュー！およびARTPASSのメールマガジン配信業務委託先への不正アクセスに関するお知らせ（2026/11/5）",
+     "https://nakka-art.jp/news/20261105/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/artpass_arara_email_leak_max_1million_20261105/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "pendingReason": "ARTPASSの公式お知らせ（2026/11/4）の本文が取得できなかった（トップページのみ取得。個別記事は404、WebFetchも不可）。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "fancrew-2611",
+   "co": "株式会社ファンくる（ファンくる／会員情報管理システム）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "cause": "cyber",
+   "n": 1030741,
+   "label": "1,030,741件（報道）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "会員ID、メールアドレス、氏名、ログインパスワードのハッシュ値（報道）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、会員情報を管理するシステムへの不正アクセスで会員情報1,030,741件が第三者に取得された。11月2日に第1報、11月4日に第2報を公表した。8月公表のリスト型攻撃（fancrew-2608）とは別の事案。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式発表の本文は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "ファンくる お知らせ一覧",
+     "https://www.fancrew.co.jp/news/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/fancrew_member_data_leak_1030741_20261105/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "types": [
+    "不正アクセス"
+   ],
+   "pendingReason": "公式発表（fancrew.co.jp のお知らせ）がHTTP 403で本文を取得できず、WebFetchも不可。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "sompo-japan-pcs-2611",
+   "co": "損害保険ジャパン株式会社（委託先 プレステージ・コアソリューション）",
+   "date": "2026-11-05",
+   "announced": "2026-11-05",
+   "cause": "cyber",
+   "n": 65000,
+   "label": "約65,000件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "契約情報、問い合わせ履歴、ロードサービスの手配履歴（報道）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、自動車保険の問い合わせ・受付管理業務を委託するプレステージ・コアソリューション（PCS）の業務システムへの不正アクセスで、契約者の情報約6万5,000件が漏えいした可能性がある。クレジットカード情報は対象外。PCS側はprestige-international-2611で掲載済み。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式発表の本文は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "損保ジャパン ニュースリリース（2026/11/5）",
+     "https://www.sompo-japan.co.jp/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sompo_japan_pcs_premiernet2_65000_20261105/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "pendingReason": "損保ジャパンの公式発表がHTTP 403で取得できず、WebFetchも不可。プレステージ・インターナショナルの発表には損保ジャパン分の件数がない。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "wellness-ashita-lafool-2611",
+   "co": "ウェルネス・コミュニケーションズ株式会社／株式会社あしたのチーム（「あしたのサーベイ」／OEM提供元 ラフール）",
+   "date": "2026-11-04",
+   "announced": "2026-11-04",
+   "cause": "cyber",
+   "n": 209,
+   "label": "3社209人（報道）",
+   "st": "p",
+   "items": [
+    "name",
+    "work"
+   ],
+   "itemsText": "氏名、所属部署、従業員番号、ストレスチェック結果（報道）",
+   "notIncl": "",
+   "who": [
+    "biz"
+   ],
+   "sum": "報道によると、OEM提供元ラフールのシステム環境への不正アクセスで、「あしたのサーベイ」の顧客企業3社・209人分の情報が不正取得された。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式発表の本文は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "ウェルネス・コミュニケーションズ TDnet適時開示（2026/11/4）",
+     "https://www.release.tdnet.info/inbs/140120261104564889.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/lafool_ashita_survey_stress_check_209_unauthorized_access_20261105/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "pendingReason": "公式発表（TDnet 11/4）はrobots.txtで、Yahoo!ファイナンス経由は403で取得できず、WebFetchも不可。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "heisei-enterprise-vip-liner-2611",
+   "co": "株式会社平成エンタープライズ（高速バス「VIPライナー」予約サイト）",
+   "date": "2026-11-04",
+   "announced": "2026-11-04",
+   "cause": "cyber",
+   "n": 6949,
+   "label": "カード情報6,949件（顧客情報計15,493件・報道）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "card"
+   ],
+   "itemsText": "クレジットカード番号・名義・有効期限・セキュリティコード、氏名・住所等（報道）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、予約サイトの入力フォームのプログラムが改ざんされ、クレジットカード情報6,949件（セキュリティコード含む）が漏えいした可能性がある。顧客情報は計15,493件が対象となり得る。10月27日に対象者へ通知したとされる。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式発表の本文は未確認。",
+   "resp": "",
+   "official": [
+    [
+     "VIPライナー 公式サイト（お知らせ未確認）",
+     "https://www.vipliner.co.jp/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/vip-liner-credit-card-leak-6949-security-code/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "types": [
+    "不正アクセス"
+   ],
+   "pendingReason": "同社の公式発表が見つからず（報道は読売新聞・日テレNEWS・名古屋テレビ等）、公式本文で件数・項目を確認できていない。manual/ に公式文面を貼れば反映できる"
   }
  ]
 }
