@@ -1,0 +1,148 @@
+URL: https://next.ink/briefs/le-brief-du-4-novembre-2026/
+
+#Le brief du 4 novembre 2026 - Next
+S'abonner à
+Flux RSS
+ Deezer
+ Podcast Addict
+ Apple Podcast
+ Spotify
+ gPodder
+ Downcast
+ Instacast
+#Le brief du
+ 04 novembre 2026 
+ Une erreur ?
+L’Établissement français du sang touché par le piratage de certaines chambres froides
+ Martin Clavey 
+ Le 04 novembre à 10h42 
+ 2 min 
+ Sécurité 
+ Sécurité 
+Après les frigos de plusieurs enseignes de supermarché en 
+France
+ puis en 
+Europe
+, c’est maintenant les chambres froides de l’Établissement français du sang (EFS) qui ont été visées par un piratage.
+Selon le 
+Canard enchaîné
+, le prestataire de l’établissement public, Coolworld, a été ciblé par une cyberattaque dans la nuit de dimanche 1er novembre au lundi 2.
+Coolworld est censé assurer la maintenance des chambres froides de l’établissement qui gère les centres de collecte de sang, plasma et plaquettes en France.
+Mais, selon nos consœurs du palmipède, certaines chambres froides ont été programmées pour passer des - 30 °C prévus pour conserver des échantillons de donneurs à 110 °C.
+Illustration : Flock
+Interrogé par le Canard enchaîné, le ministère de la Santé rassure sur les conséquences du piratage : 
+« Il y a zéro conséquence opératoire, car la situation a été repérée »
+.
+Du côté de l’ESF, on explique qu’ « 
+un technicien de permanence a constaté dans la nuit de dimanche à lundi une remontée en température dans les chambres froides »
+, des échantillons d’un dispositif de veille sanitaire concernant la transfusion sanguine seraient concernés mais aussi du plasma congelé destiné à la transfusion.
+Dans un 
+communiqué
+, l’EFS précise que les installations de supervision et de pilotage de chambres froides déployées sur trois sites de l’EFS ont été touchées. Les systèmes de surveillance et d’alarme de l’EFS ont cela dit « 
+permis d’identifier rapidement ces anomalies et de prendre les mesures nécessaires afin qu’aucun échantillon ou produit sanguin ne soit altéré
+ » : 
+« 
+Aucun impact sanitaire n’a été identifié et aucune perte de produits sanguins n’est à déclarer. Les produits conservés dans les équipements concernés, des poches de plasma destinées à la transfusion et des poches de plasma destinées au fractionnement pour la fabrication de médicaments, ont été transférés ou sécurisés.
+ »
+ Martin Clavey 
+ Le 04 novembre à 10h42 
+L’Établissement français du sang touché par le piratage de certaines chambres froides
+ Commentaires
+26
+26
+ Une erreur ?
+[MàJ] Le Crédit Mutuel Arkéa victime d’une cyberattaque
+ Mickael Bazoge 
+ Le 04 novembre à 15h07 
+ 3 min 
+ Sécurité 
+ Sécurité 
+Mise à jour 20 h – Le Crédit Mutuel Arkéa a 
+publié
+ de nouveaux détails sur la cyberattaque dont l’établissement a été victime. D’abord, l’entreprise dément que les pirates soient passés par Fortuneo : « 
+Les attaquants sont passés par la plateforme d’un de nos prestataires et ont ainsi atteint le Crédit Mutuel Arkéa directement.
+ » Nous avons donc changé le titre de cet article en conséquence.
+La banque précise le mode opératoire de l’attaque. Les attaquants ont utilisé un compte propre de Crédit Mutuel Arkéa pour « 
+réaliser des transactions vers d’autres acteurs bancaires, qui leur ont ensuite potentiellement permis de convertir cet argent en crypto monnaie via des plateformes spécialisées
+ ». Aucun compte client des fédérations ou des filiales du groupe n’est concerné. Il ne s’agit pas d’une erreur humaine, mais d’« 
+une attaque sophistiquée venant de l’extérieur
+ ».
+L’établissement réitère que l’incident n’a entraîné aucune conséquence sur les avoirs de la clientèle, simplement « 
+une exécution différée de certaines opérations de virement
+ » (ça va mieux en le disant). Quant au chiffre de 133 millions de dollars (118 millions d’euros) qui circule, le Crédit Mutuel Arkéa ne peut rien confirmer, mais « 
+valide l’ordre de grandeur
+ ».
+Mise à jour 16h30 — Le préjudice se monterait à 133 millions de dollars, selon le chercheur en sécurité ZachXBT cité par 
+The Block
+. L’enquêteur donne des détails : l’attaque aurait débuté le 1er novembre, les pirates ne seraient pas associés au groupe Lazarus de Corée du Nord.
+Article d’origine, 15h07 – Le Crédit Mutuel Arkéa a été victime d’une cyberattaque, a confirmé l’établissement ce mercredi 4 novembre. Un incident « 
+maîtrisé 
+» qui a touché la filiale Fortuneo et qui n’a aucune conséquence sur les avoirs des clients, assure la banque.
+La cyberattaque a permis de réaliser des opérations frauduleuses, selon le Crédit Mutuel Arkéa qui regroupe le Crédit Mutuel de Bretagne et le Crédit Mutuel du Sud-Ouest (
+PDF
+). Selon 
+Le Figaro
+, ce sont les fonds propres de la banque en ligne Fortuneo qui ont été ciblés par des pirates. Les montants concernés sont encore en cours d’évaluation, mais l’établissement assure qu’« 
+en tout état de cause pas de nature à remettre en cause la solidité et la santé financière du groupe.
+ »
+Illustration : Flock
+L’incident a nécessité une suspension temporaire de certaines transactions pour sécuriser les opérations et prévenir tout mouvement frauduleux, détaille l’entreprise. Il est « 
+clos et maîtrisé
+ », et les opérations sont en cours de reprise progressive depuis la matinée de ce mercredi. Le groupe et ses filiales ont réalisé les vérifications nécessaires et pris des mesures de « 
+sécurisation renforcées
+ ».
+Le Crédit Mutuel Arkéa se veut rassurant : cette cyberattaque n’entraîne « 
+aucune conséquence sur 
+[les]
+ avoirs
+ » des clients, simplement une « 
+exécution différée de certaines opérations de virement
+ ». Conformément aux procédures standards, la banque a notifié les instances de supervision.
+L’entreprise met en garde contre des tentatives d’hameçonnage et appelle ses clients à la plus grande vigilance : ils ne doivent jamais communiquer leurs informations personnelles et bancaires. Elle recommande de contacter un conseiller pour confirmer l’authenticité d’un message.
+ Mickael Bazoge 
+ Le 04 novembre à 15h07 
+[MàJ] Le Crédit Mutuel Arkéa victime d’une cyberattaque
+ Commentaires
+19
+19
+ Une erreur ?
+Meta réduit la voilure en France : un tiers des effectifs visé par un plan de départs
+ Mickael Bazoge 
+ Le 04 novembre à 16h50 
+ 2 min 
+ Économie 
+ Économie 
+Meta voudrait se séparer d’un tiers de ses effectifs en France. Le géant des réseaux sociaux s’apprêterait en effet à lancer un plan de départs volontaires dans le cadre d’une rupture conventionnelle collective négociée depuis juillet, selon 
+La Lettre
+. Le groupe emploie 300 salariés au sein de sa branche française : le plan concernerait donc jusqu’à une centaine de postes.
+Ce plan de départs serait la concrétisation pour la France de la vague de licenciements annoncée fin août par Meta, touchant 8 000 salariés (soit 10 % des effectifs mondiaux). On a échappé au pire : à l’origine, Mark Zuckerberg avait imaginé 
+se passer de 60 % du personnel
+ de son entreprise.
+Dans l’Hexagone, Meta proposerait des conditions de départs de 2,15 mois de salaire par année d’ancienneté et un congé mobilité de dix mois (rémunéré à hauteur de 80 % du salaire brut). De quoi peut-être attirer des candidats. Comme le rappellent 
+Les Échos
+, 88 salariés avaient quitté Meta France lors d’une précédente rupture conventionnelle collective en 2023 (la filiale comptait alors 350 salariés).
+Le groupe s’est engagé dans une course folle à l’IA depuis plusieurs années, occasionnant une restructuration en profondeur et des réassignations de postes (
+7 000 annoncées mi-mai
+) pour réduire les couches de management et améliorer la productivité.
+Dans son 
+manifeste
+ pro-IA, Mark Zuckerberg avait assuré que cette technologie allait provoquer une « 
+abondance d’emplois à l’avenir
+ » : « 
+Il y a bien davantage d’entreprises et de services utiles à créer que ce que les gens sont aujourd’hui en mesure de réaliser
+ », affirmait-il.
+« 
+La taille des entreprises pourrait diminuer, comme cela a été le cas lors du passage des géants industriels aux entreprises technologiques. Mais cela ne signifie pas moins d’emplois au total. Cela suppose un plus grand nombre d’entreprises, chacune employant moins de personnes.
+ »
+Les promesses d’abondance d’emplois n’engageant que ceux qui y croient, pour le moment il faudra faire avec leur attrition.
+ Mickael Bazoge 
+ Le 04 novembre à 16h50 
+Meta réduit la voilure en France : un tiers des effectifs visé par un plan de départs
+ Commentaires
+4
+4
+ Précédent
+ Suivant
+ Fermer
+❮
+❯
