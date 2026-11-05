@@ -7614,45 +7614,6 @@
    "pendingReason": "報道（セキュリティ対策Lab）が伝える約16万件を、鎌倉シャツ自身の公式発表の本文で照合できていない（inboxの公式候補はアララのPDFとSNSのみ）。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "belluna-notis-sunstage-2611",
-   "co": "株式会社ベルーナノーティス（サンステージ）",
-   "date": "2026-11-02",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "name",
-    "acct"
-   ],
-   "itemsText": "口座情報・契約内容など（報道による）",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道は顧客最大19,853名の口座情報・契約内容などが閲覧・取得された可能性を伝える。",
-   "status": "ongoing",
-   "statusText": "公式発表を未確認。",
-   "resp": "",
-   "official": [
-    [
-     "ベルーナ 公式発表PDF（2026/11/2）",
-     "https://www.belluna.co.jp/pdf/20261102sunstage.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/belluna-notis-sunstage-19853-customer-data-unauthorized-access/"
-    ]
-   ],
-   "ind": "金融・保険",
-   "pendingReason": "公式PDF（belluna.co.jp/pdf/20261102sunstage.pdf）がHTTP 403で開けず、報道の最大19,853名・口座情報などを照合できない。自動取得不可。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "asoview-arara-2611",
    "co": "アソビュー株式会社（委託先 アララ）",
    "date": "2026-11-02",
