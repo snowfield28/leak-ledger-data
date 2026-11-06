@@ -1,9 +1,0 @@
-URL: https://www.pcisecuritystandards.org/faqs/are-merchants-allowed-to-request-card-verification-codes-values-from-cardholders/
-
-Are merchants allowed to request card-verification codes/values from cardholders? - PCI Security Standards Council
-Yes. Card verification codes/values (e.g., CVV2, CVC2, CID, or CAV2) are commonly requested during card-not-present (CNP) transactions such as e-commerce or mail order/telephone order (MOTO) to help verify that the customer is in possession of the card. Card verification codes/values are normaly three- or four- digit code printed on the front or back of a payment card.
-These codes/values are considered Sensitive Authentication Data (SAD). PCI DSS Requirement 3.3.1.2 strictly prohibits storing them after authorization — even if encrypted.
-Merchants must ensure:
-These codes are collected only when necessary for authorization
-They are never stored post-authorization
-Systems and processes are configured to prevent retention

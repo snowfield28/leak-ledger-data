@@ -1,17 +1,1302 @@
 {
- "items": [],
- "generated": "2026-11-06 04:53 JST",
+ "items": [
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/arara_message_third_report_81329467_20261106/",
+   "title": "アララ、不正アクセスでメールアドレス8,132万9,467件の漏洩が判明-別クラウドから324万9,492件、第3報で確認",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/34ef80bc351b.txt",
+   "official": [
+    {
+     "url": "https://www.release.tdnet.info/inbs/140120261106568143.pdf",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261106/20261106568143.pdf",
+     "status": "ok",
+     "chars": 2654,
+     "mirror_of": "https://www.release.tdnet.info/inbs/140120261106568143.pdf",
+     "text_file": "inbox/texts/746063b808cc.txt"
+    },
+    {
+     "url": "https://www.arara.com/information/",
+     "status": "ok",
+     "chars": 8056,
+     "text_file": "inbox/texts/faff95d198bc.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/aioi_nissay_dowa_444000_customer_data_leak_20261106/",
+   "title": "あいおいニッセイ同和損保、不正アクセスで約44万4,000件の個人情報漏洩 保険証券番号・住所・カード番号下4桁も対象",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/7ca414a7760d.txt",
+   "official": [
+    {
+     "url": "https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2026/news_2026110601531.pdf",
+     "status": "ok",
+     "chars": 1670,
+     "text_file": "inbox/texts/2314214700b5.txt"
+    },
+    {
+     "url": "https://www.ms-ins.com/news/fy2026/pdf/1106_1.pdf",
+     "status": "ok",
+     "chars": 1349,
+     "text_file": "inbox/texts/88403b03cd7e.txt"
+    },
+    {
+     "url": "https://www.ms-ins.com/information/2026/information_1103_1.pdf",
+     "status": "ok",
+     "chars": 3923,
+     "text_file": "inbox/texts/13806e1609fe.txt"
+    },
+    {
+     "url": "https://www.msa-life.co.jp/news/assets/pdf/20261106_newsrelease_huseiausesukaizi.pdf",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261105_1.pdf?la=ja-JP",
+     "status": "error:http403",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/euglena_akyrise_three_independent_breaches_20261105/",
+   "title": "ユーグレナ「あきゅらいず」に不正アクセスによるサイバー攻撃、最大約90万件の個人情報、漏洩の恐れ-アララ・佐川経由でも被害",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/ba60110268e1.txt",
+   "official": [
+    {
+     "url": "https://www.euglena.jp/news/20261105-1/",
+     "status": "ok",
+     "chars": 3480,
+     "text_file": "inbox/texts/6c7b46044ae1.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/toyo-university-accounts-unauthorized-access/",
+   "title": "東洋大学、大学関係者の一部アカウントに不正アクセス 文科省・個人情報保護委員会に報告、情報漏えいの影響を調査",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/3df6b6bc7e64.txt",
+   "official": [
+    {
+     "url": "https://www.toyo.ac.jp/news/20261105-20479.html",
+     "status": "ok",
+     "chars": 1017,
+     "text_file": "inbox/texts/0166bbc6644e.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/rohto_2797545_9715_phone_account_data_breach_20261106/",
+   "title": "ロート製薬、サイバー攻撃で279万7,545人の個人情報漏えい、クレカ番号も一部漏洩-電話システムの認証情報を悪用",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/82194c7f72ce.txt",
+   "official": [
+    {
+     "url": "https://www.rohto.co.jp/news/whatsnew/2026/1106_01",
+     "status": "ok",
+     "chars": 3375,
+     "text_file": "inbox/texts/8e49b3917852.txt"
+    },
+    {
+     "url": "https://www.rohto.co.jp/news/whatsnew/2026/0915_01",
+     "status": "ok",
+     "chars": 1312,
+     "text_file": "inbox/texts/6bf93b8cfdde.txt"
+    },
+    {
+     "url": "https://www.rohto.co.jp/news/whatsnew/2026/0911_01",
+     "status": "ok",
+     "chars": 725,
+     "text_file": "inbox/texts/0e3b49a91739.txt"
+    },
+    {
+     "url": "https://www.shop.rohto.co.jp/faq2026.html",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/yamaguchi_buchieco_arara_email_leak_risk_25911_20261106/",
+   "title": "山口県、省エネ家電購入支援事業で最大25,911件のメールアドレス漏えいのおそれ 委託先が利用するアララに不正アクセス",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/cde2b857f166.txt",
+   "official": [
+    {
+     "url": "https://www.arara.com/dcms_media/other/arara_20261102__.pdf",
+     "status": "ok",
+     "chars": 5052,
+     "text_file": "inbox/texts/f57fcca12f80.txt"
+    },
+    {
+     "url": "https://news.livedoor.com/article/detail/32746290/",
+     "status": "ok",
+     "chars": 10502,
+     "text_file": "inbox/texts/ea3227521ef6.txt"
+    },
+    {
+     "url": "https://www.pref.yamaguchi.lg.jp/soshiki/38/340347.html",
+     "status": "ok",
+     "chars": 1942,
+     "text_file": "inbox/texts/ded6b2b5a9ea.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/rivsta_ereverse_blastmail_120000_20261105_third_report/",
+   "title": "バスタ「e-reverse.com」、メールアドレス12万件が流出 ブラストメール不正アクセスで第3報、対象者への通知完了",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/8c8916d70765.txt",
+   "official": [
+    {
+     "url": "https://www.rvsta.co.jp/news/20261105/",
+     "status": "ok",
+     "chars": 1884,
+     "text_file": "inbox/texts/6cd94bcfed34.txt"
+    },
+    {
+     "url": "https://www.rvsta.co.jp/news/20261028/",
+     "status": "ok",
+     "chars": 2164,
+     "text_file": "inbox/texts/ffc2643f8e60.txt"
+    },
+    {
+     "url": "https://www.rvsta.co.jp/news/20261023/",
+     "status": "ok",
+     "chars": 1347,
+     "text_file": "inbox/texts/b14679890ee5.txt"
+    },
+    {
+     "url": "https://www.rakus.co.jp/news/2026/1021-3.html",
+     "status": "ok",
+     "chars": 1595,
+     "text_file": "inbox/texts/6091ca365c8f.txt"
+    },
+    {
+     "url": "https://www.rvsta.co.jp/news/20261030/",
+     "status": "ok",
+     "chars": 2926,
+     "text_file": "inbox/texts/3a54460dd4f9.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/ecoco_order_csv_data_breach_20261105_updated_personal_business/",
+   "title": "ポケットWi-FiやeSIMのecoco、受注管理アカウントに不正ログイン 氏名・住所・注文情報などが流出、楽天市場店の購入者も対象",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/baddade4aa36.txt",
+   "official": [
+    {
+     "url": "https://ecoco.cloud/blogs/important/1",
+     "status": "ok",
+     "chars": 2271,
+     "text_file": "inbox/texts/49e16a82df1d.txt"
+    },
+    {
+     "url": "https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html",
+     "status": "ok",
+     "chars": 3063,
+     "text_file": "inbox/texts/676fae481dbc.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/japanpost_bosai_yu_storage_arara_data_leak_risk_20261106/",
+   "title": "日本郵便「防災ゆうストレージ」、氏名・会員ID・メール本文など漏えいの可能性 アララへの不正アクセスが波及",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/853489d6981d.txt",
+   "official": [
+    {
+     "url": "https://www.arara.com/dcms_media/other/arara_20261102__.pdf",
+     "status": "ok",
+     "chars": 5052,
+     "text_file": "inbox/texts/f57fcca12f80.txt"
+    },
+    {
+     "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/1342644881.html",
+     "status": "ok",
+     "chars": 1084,
+     "text_file": "inbox/texts/26fecfd7b7aa.txt"
+    },
+    {
+     "url": "https://www.terrada.co.jp/ja/news/17123/",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/414336381813.html",
+     "status": "ok",
+     "chars": 1007,
+     "text_file": "inbox/texts/51b545232621.txt"
+    },
+    {
+     "url": "https://www.post.japanpost.jp/life/you_storage/introduction/",
+     "status": "ok",
+     "chars": 4659,
+     "text_file": "inbox/texts/8987391d157b.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/mobiconnect_cyberattack_uploaded_files_leaked_20261106/",
+   "title": "インヴェンティットのMDM「mobiconnect（モビコネクト）」にサイバー攻撃 顧客がアップロードした一部ファイルの流出を確認",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/56aa834dcd76.txt",
+   "official": [
+    {
+     "url": "https://www.mobi-connect.net/",
+     "status": "ok",
+     "chars": 2357,
+     "text_file": "inbox/texts/ff81be9a1736.txt"
+    },
+    {
+     "url": "https://help.mobi-connect.net/function/c0210/c0210001/7317/",
+     "status": "ok",
+     "chars": 27512,
+     "text_file": "inbox/texts/8d715a7005a8.txt"
+    },
+    {
+     "url": "https://www.mobi-connect.net/function/",
+     "status": "ok",
+     "chars": 12356,
+     "text_file": "inbox/texts/ed6a98345637.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/jnsa_security_literacy_check_15128_possible_leak_20261106/",
+   "title": "特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）に不正アクセス、最大1万5,128件の個人情報漏えいの可能性 セキュリティ理解度チェックのID・ハッシュ化パスワードも対象",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/1820fe988216.txt",
+   "official": [
+    {
+     "url": "https://www.jnsa.org/dl/annual/20261106.pdf",
+     "status": "ok",
+     "chars": 1304,
+     "text_file": "inbox/texts/a9d168d82ab0.txt"
+    },
+    {
+     "url": "https://www.jnsa.org/",
+     "status": "ok",
+     "chars": 17872,
+     "text_file": "inbox/texts/545021191d4a.txt"
+    },
+    {
+     "url": "https://slb.jnsa.org/eslb/",
+     "status": "error:SSLError",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/surugaya_affiliate_5500_data_tampering_possible_leak_20261106/",
+   "title": "駿河屋、アフィリエイト登録者約5,500人の個人情報が改ざん パスワード・口座情報など流出の可能性、通販サイトへの影響なし",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/7232266a8865.txt",
+   "official": [
+    {
+     "url": "https://www.suruga-ya.co.jp/ja/node/2544",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://www.ipa.go.jp/security/anshin/attention/2025/mgdayori20250828.html",
+     "status": "ok",
+     "chars": 4632,
+     "text_file": "inbox/texts/2d7b91fcc83e.txt"
+    },
+    {
+     "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/bec.html",
+     "status": "ok",
+     "chars": 2630,
+     "text_file": "inbox/texts/531b97f61221.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/sushiro_employee_id_1117_admin_password_unauthorized_access_20261105/",
+   "title": "スシロー、従業員番号1,117件が流出 管理画面のパスワードを推測され不正ログイン、退職者も対象",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/82d353f0c7a1.txt",
+   "official": [
+    {
+     "url": "https://food-and-life.co.jp/corporate-news/31909/",
+     "status": "ok",
+     "chars": 1722,
+     "text_file": "inbox/texts/6539322a8250.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/globar_qnavi_order_unauthenticated_chat_api_17_accesses_20261106/",
+   "title": "グローバー「QナビORDER」に不正アクセス 認証不要で添付ファイルを読み書き可能、店長氏名など流出の可能性",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/2867bd239f5e.txt",
+   "official": [
+    {
+     "url": "https://www.globar.co.jp/news/category-news/2026/11/05/1842/",
+     "status": "ok",
+     "chars": 1611,
+     "text_file": "inbox/texts/833e9484e422.txt"
+    },
+    {
+     "url": "https://www.globar.co.jp/news/category-news/2026/10/23/1837/",
+     "status": "ok",
+     "chars": 806,
+     "text_file": "inbox/texts/6fba2c393924.txt"
+    },
+    {
+     "url": "https://www.globar.co.jp/service/dx/qnavi/",
+     "status": "ok",
+     "chars": 4260,
+     "text_file": "inbox/texts/4978932f7662.txt"
+    },
+    {
+     "url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+     "status": "ok",
+     "chars": 3487,
+     "text_file": "inbox/texts/8be69153a400.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/digicert_customer_archive_unauthorized_access_20261106/",
+   "title": "DigiCert（デジサート）、顧客情報に不正アクセス-パスポート・運転免許証なども対象、社内システムが約17カ月外部から到達可能に",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/7dc9ca569fc4.txt",
+   "official": [
+    {
+     "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2084460",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+     "status": "ok",
+     "chars": 5963,
+     "text_file": "inbox/texts/6b1d9cd5a096.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/sourcenext_cuenote_fc_142669_individual_article_20261106/",
+   "title": "ソースネクスト、メールアドレス14万2,669件が流出対象-ユミルリンク 「Cuenote FC」への不正アクセスで注文・返金情報も",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/04d2b2c08ef9.txt",
+   "official": [
+    {
+     "url": "https://ssl4.eir-parts.net/doc/4372/tdnet/2898564/00.pdf",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/gmo_makeshop_arara_12600000_email_leak_gmo_group_incidents_20261106/",
+   "title": "GMOメイクショップ、約1,260万件のメールアドレスが流出 makeshop・MakeRepeater利用ショップに波及、アララへの不正アクセスで",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/ecd340ba17f4.txt",
+   "official": [
+    {
+     "url": "https://www.arara.com/dcms_media/other/arara_20261102__.pdf",
+     "status": "ok",
+     "chars": 5052,
+     "text_file": "inbox/texts/f57fcca12f80.txt"
+    },
+    {
+     "url": "https://www.makeshop.co.jp/news/info/2026-11-05_2/",
+     "status": "ok",
+     "chars": 3666,
+     "text_file": "inbox/texts/1fb278eddc67.txt"
+    },
+    {
+     "url": "https://www.gmo-c.jp/info/当社サービスで利用する外部のメール配信サービス/",
+     "status": "error:http404",
+     "chars": 0
+    },
+    {
+     "url": "https://www.gmo-ps.com/news/20261105/",
+     "status": "ok",
+     "chars": 1318,
+     "text_file": "inbox/texts/9c4a4f5ed10e.txt"
+    },
+    {
+     "url": "https://www.epsilon.jp/news/20261105.html",
+     "status": "ok",
+     "chars": 968,
+     "text_file": "inbox/texts/506d68c276fc.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/fanplus_ticketplus_plusmemberid_arara_email_leak_20261102/",
+   "title": "Fanplus・チケットプラス、共通ID「Plus member ID」利用者のメールアドレス流出 アララへの不正アクセスで",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/d9f00bb60d40.txt",
+   "official": [
+    {
+     "url": "https://fanplus.co.jp/static/fanplus/information/arara_notice_20261102.pdf",
+     "status": "ok",
+     "chars": 1095,
+     "text_file": "inbox/texts/62fa398f6cca.txt"
+    },
+    {
+     "url": "https://www.arara.com/dcms_media/other/arara_20261102__.pdf",
+     "status": "ok",
+     "chars": 5052,
+     "text_file": "inbox/texts/f57fcca12f80.txt"
+    },
+    {
+     "url": "https://tixplus.jp/information/",
+     "status": "ok",
+     "chars": 6884,
+     "text_file": "inbox/texts/bcf84b06c1b3.txt"
+    },
+    {
+     "url": "https://help.plusmember.jp/register/1618/",
+     "status": "ok",
+     "chars": 1221,
+     "text_file": "inbox/texts/59c1a4a7a460.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/docomo_smtb_bank_122635_smbc_cf_guarantee_data_leak_20261106/",
+   "title": "ドコモSMTBネット銀行、カードローン 顧客 最大12万2,635人の個人情報漏えい-SMBCコンシューマーファイナンス株式会社への不正アクセスで",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/97941578933a.txt",
+   "official": [
+    {
+     "url": "https://www.smbc-cf.com/news/data/2026/11/news_20261105.pdf",
+     "status": "ok",
+     "chars": 1621,
+     "text_file": "inbox/texts/96e020396435.txt"
+    },
+    {
+     "url": "https://www.netbk.co.jp/contents/support/form/",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://www.netbk.co.jp/contents/company/info/2026/1105_006601.html",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html",
+     "status": "ok",
+     "chars": 3063,
+     "text_file": "inbox/texts/676fae481dbc.txt"
+    },
+    {
+     "url": "https://www.jicc.co.jp/faq/detail/a095i000000LtgMAAS",
+     "status": "ok",
+     "chars": 1264,
+     "text_file": "inbox/texts/dc4212d74ab7.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/gmo_desktop_cloud_compensation_individual_notice_20261106/",
+   "title": "GMO「お名前.com デスクトップクラウド」、サイバー攻撃による不正取引の損失補償で個別案内開始 補償総額は未算定、11月13日決算説明会で状況公表へ",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/1ab5cf6d34b9.txt",
+   "official": [
+    {
+     "url": "https://help.onamae.com/contact/",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://internet.gmo/news/article/264/",
+     "status": "ok",
+     "chars": 2573,
+     "text_file": "inbox/texts/43bc2b22ed33.txt"
+    },
+    {
+     "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20261106567874/",
+     "status": "ok",
+     "chars": 414,
+     "text_file": "inbox/texts/775dcae3b1e5.txt"
+    },
+    {
+     "url": "https://internet.gmo/news/article/249/",
+     "status": "ok",
+     "chars": 5126,
+     "text_file": "inbox/texts/46e696e3a1bb.txt"
+    },
+    {
+     "url": "https://internet.gmo/news/article/263/",
+     "status": "ok",
+     "chars": 2502,
+     "text_file": "inbox/texts/c78ae45e33f2.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/azone_azonet_closure_personal_data_minimization_20261106/",
+   "title": "ドールメーカーのアゾンインターナショナル、自社通販「AZONET」閉鎖へ サイバー攻撃 リスクを受け個人情報の保有削減、ファンクラブも終了",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/117d16cf4159.txt",
+   "official": [
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    },
+    {
+     "url": "https://www.threads.com/@securitylab_jp",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/subway_arara_1107494_leak_clubcard_20261105/",
+   "title": "サブウェイ、顧客情報最大110万7,494件の流出を確認 終了済みプリペイドカードの残高・利用履歴も対象",
+   "source": "セキュリティ対策Lab 情報漏えい(2)",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/1488d0144ed0.txt",
+   "official": [
+    {
+     "url": "https://subway.co.jp/contact_us/query/",
+     "status": "ok",
+     "chars": 2109,
+     "text_file": "inbox/texts/14de06efe273.txt"
+    },
+    {
+     "url": "https://subway.co.jp/news/20261105-01/",
+     "status": "ok",
+     "chars": 1641,
+     "text_file": "inbox/texts/eda96ceaaade.txt"
+    },
+    {
+     "url": "https://subway.co.jp/news/20261102-1/",
+     "status": "ok",
+     "chars": 1460,
+     "text_file": "inbox/texts/0782d6b45979.txt"
+    },
+    {
+     "url": "https://subway.co.jp/news/bhi2h9kf00mf/",
+     "status": "ok",
+     "chars": 1965,
+     "text_file": "inbox/texts/e6fb3ff96e80.txt"
+    },
+    {
+     "url": "https://www.ppc.go.jp/news/careful_information/data_syokyo/",
+     "status": "error:http503",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/tokio_marine_direct_unauthorized_access_74_contracts_20261105/",
+   "title": "東京海上ダイレクト、不正アクセスで契約者の個人情報漏洩の恐れ-ドコモの自動車保険や、総合自動車保険「&e（アンディー）」のWeb手続きを停止",
+   "source": "セキュリティ対策Lab 情報漏えい(2)",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/01ca9b457b86.txt",
+   "official": [
+    {
+     "url": "https://www.e-design.net/company/news/2026/2026_11_05.html",
+     "status": "ok",
+     "chars": 1822,
+     "text_file": "inbox/texts/a3bc59905f94.txt"
+    },
+    {
+     "url": "https://www.e-design.net/company/information/2026/2026_11_04.html",
+     "status": "ok",
+     "chars": 664,
+     "text_file": "inbox/texts/7b9c73e85fe0.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/asahi-life-arara-email-address-leak-19000/",
+   "title": "朝日生命、顧客メールアドレス約1万9,000件が流出 アララのメール配信システムに不正アクセス",
+   "source": "セキュリティ対策Lab 情報漏えい(2)",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/2e5578e4fec8.txt",
+   "official": [
+    {
+     "url": "https://www.asahi-life.co.jp/company/newsrelease/20261105.pdf",
+     "status": "ok",
+     "chars": 1204,
+     "text_file": "inbox/texts/5e817fcd047a.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/kakakucom-arara-data-leak-5700000-20261105/",
+   "title": "カカクコム、食べログ・価格.comなど5サービスで約570万件の個人情報流出 誕生日・性別も約65万件が対象、アララへの不正アクセスで",
+   "source": "セキュリティ対策Lab 情報漏えい(2)",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/6825d1e9313f.txt",
+   "official": [
+    {
+     "url": "https://www.arara.com/dcms_media/other/arara_20261102__.pdf",
+     "status": "ok",
+     "chars": 5052,
+     "text_file": "inbox/texts/f57fcca12f80.txt"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000001064.000001455.html",
+     "status": "ok",
+     "chars": 1779,
+     "text_file": "inbox/texts/e003e40ac744.txt"
+    },
+    {
+     "url": "https://prtimes.jp/a/?c=1455&f=d1455-1064-2fe86b4e48b3d1ee417afe7a716da15c.pdf&r=1064",
+     "status": "ok",
+     "chars": 2530,
+     "text_file": "inbox/texts/5fe9d2c2abf6.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/starx_spartanx_11million_metabase_20261105/",
+   "title": "ハッカーがクラウドロジなどを提供するスタークスから約1,100万件の窃取を主張 Metabase不正アクセス後に顧客情報とみられるCSVを確認",
+   "source": "セキュリティ対策Lab 情報漏えい(2)",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/2eb5930eb381.txt",
+   "official": [
+    {
+     "url": "https://starx.co.jp/news/1024.html",
+     "status": "ok",
+     "chars": 1085,
+     "text_file": "inbox/texts/6b3bd10b1bed.txt"
+    },
+    {
+     "url": "https://starx.co.jp/news/1040.html",
+     "status": "ok",
+     "chars": 1170,
+     "text_file": "inbox/texts/3d1d1cc5864e.txt"
+    },
+    {
+     "url": "https://starx.co.jp/news/",
+     "status": "ok",
+     "chars": 722,
+     "text_file": "inbox/texts/f8c7cf4451cd.txt"
+    },
+    {
+     "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+     "status": "ok",
+     "chars": 7111,
+     "text_file": "inbox/texts/c5e5094b0931.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56697.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 「MUJIアプリ」への不正アクセス、新たにカード情報が外部からアクセスされた可能性も 株式会社良品計画は11月4日、10月30日に公表した無印良品の公式アプリ「MUJIアプリ」での顧客情報の流出について、第二報を発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/3487aa1b03c4.txt",
+   "official": [
+    {
+     "url": "https://www.ryohin-keikaku.jp/news/articles/2026_1104_02",
+     "status": "error:http429",
+     "chars": 0
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56696.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 「@cosme」に不正アクセス、約300万人の会員情報が漏えい 株式会社アイスタイルは11月2日、同社が運営する「@cosme」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/52bc71cafe8e.txt",
+   "official": [
+    {
+     "url": "https://www.istyle.co.jp/news/info/2026/11/1102.html",
+     "status": "ok",
+     "chars": 1761,
+     "text_file": "inbox/texts/bbb9a3ff55ff.txt"
+    },
+    {
+     "url": "https://www.cosme.net/help/info/id/17117",
+     "status": "ok",
+     "chars": 2129,
+     "text_file": "inbox/texts/fb4547527788.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56695.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 クラブツーリズムに不正アクセス、約432万件の会員情報が漏えいした可能性 クラブツーリズム株式会社は10月31日、同社サーバへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/a25251732aa4.txt",
+   "official": [
+    {
+     "url": "https://www.club-tourism.co.jp/jpn/news/2026/1031/",
+     "status": "ok",
+     "chars": 2347,
+     "text_file": "inbox/texts/6984ba37cf19.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56694.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 日本郵便がメールマガジンの配信業務を委託している事業者に不正アクセス 日本郵便株式会社は10月29日、同社がメールマガジンの配信業務を委託している事業者への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/421c64592588.txt",
+   "official": [
+    {
+     "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/01175116571.html",
+     "status": "ok",
+     "chars": 650,
+     "text_file": "inbox/texts/40cae14401dd.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56693.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 マーケティングプラットフォーム「ferret One」への不正アクセス、内部管理機能に不備 株式会社ベーシックは10月27日、同社が提供するマーケティングプラットフォーム「ferret One」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/b73cca1320d6.txt",
+   "official": [
+    {
+     "url": "https://ferret-one.com/notice/20261027",
+     "status": "ok",
+     "chars": 2142,
+     "text_file": "inbox/texts/90e79acc0a76.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56692.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 ブシロード「バンドリ！アワーノーツ」開発業務委託先に不正アクセス 株式会社ブシロードは10月27日、同社が運営するスマートフォン向けゲームアプリ「バンドリ！アワーノーツ」の開発業務の委託先への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/a7fa88ffd8ed.txt",
+   "official": [
+    {
+     "url": "https://bushiroad.co.jp/media/a87298c628c65925",
+     "status": "ok",
+     "chars": 2213,
+     "text_file": "inbox/texts/c99704d39bde.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56691.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 オンライン診療サービス「クロンオンライン診療」にリスト型攻撃 株式会社MICINは10月27日、同社が提供するオンライン診療サービス「クロンオンライン診療」への不正ログインについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/ca0b861339f5.txt",
+   "official": [
+    {
+     "url": "https://micin.jp/news/14859/",
+     "status": "ok",
+     "chars": 1990,
+     "text_file": "inbox/texts/eecab0bf10e5.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56690.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 SNSキャンペーンツール「OWNLY」に不正アクセス、合計1万4,034 件の参加者情報が漏えい スマートシェア株式会社は10月27日、同社が提供するSNSキャンペーンツール「OWNLY」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/53dd637bb7d6.txt",
+   "official": [
+    {
+     "url": "https://www.smartshare.jp/news/20261027",
+     "status": "ok",
+     "chars": 1982,
+     "text_file": "inbox/texts/00172a3c5b85.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56689.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 JETROが利用する国際ビジネスマッチングサイトに不正アクセス 独立行政法人日本貿易振興機構（JETRO）は10月27日、ビジネスマッチングサービスで利用しているシステム「e-Venue」への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/66028a7cd49f.txt",
+   "official": [
+    {
+     "url": "https://www.jetro.go.jp/news/announcement/2026/5eebe72f41bc2230.html",
+     "status": "ok",
+     "chars": 940,
+     "text_file": "inbox/texts/ee2d55c2eb4c.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56688.html",
+   "title": "調査・ホワイトペーパー ScanNetSecurity 2026.11.6 Fri 8:05 2026年は438万件のカード情報が漏えい ～ MM総研 株式会社MM総研は11月4日、「国内サイバー攻撃による情報漏えい動向調査」を発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/4bcc468f93e6.txt",
+   "official": [
+    {
+     "url": "https://www.m2ri.jp/release/detail.html?id=745",
+     "status": "ok",
+     "chars": 6329,
+     "text_file": "inbox/texts/b31608fa8a4c.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56687.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 サントリーグループが利用する外部クラウドサービスに不正アクセス、個人情報が含まれるファイルのダウンロードを確認 サントリーホールディングス株式会社は11月2日、サントリーグループが利用する外部クラウドサービスへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/f22da1d1eed5.txt",
+   "official": [
+    {
+     "url": "https://www.suntory.co.jp/note/detail/261102_008203.html",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56686.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 徳間書店のニュースサイト「GoodsPress Web」のテスト環境に不正アクセス 株式会社徳間書店は10月26日、同社運営のニュースサイト「GoodsPress Web」のテスト環境への不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/1f5e6ed724af.txt",
+   "official": [
+    {
+     "url": "https://www.tokuma.jp/news/n65028.html",
+     "status": "ok",
+     "chars": 3744,
+     "text_file": "inbox/texts/4c87b229fdf3.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56685.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.6 Fri 8:05 バンダイロジパルに不正アクセス、「一番くじONLINE」の配送情報が漏えいした可能性 株式会社バンダイナムコホールディングスは10月26日、同社の物流子会社である株式会社バンダイロジパルへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/3d596c176227.txt",
+   "official": [
+    {
+     "url": "https://www.bandainamco.co.jp/files/2026102620HPE794A820E4B88DE6ADA3E382A2E382AFE382BB.pdf",
+     "status": "ok",
+     "chars": 1789,
+     "text_file": "inbox/texts/91fa9c2bb341.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56675.html",
+   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.5 Thu 8:05 ドトールコーヒーのシステムに不正アクセス、従業員及び退職者 計951名の個人情報が漏えいした可能性 株式会社ドトールコーヒーは10月26日、同社システムへの不正アクセスについて発表した。",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-07",
+   "article_text_file": "inbox/texts/63daa8ded210.txt",
+   "official": [
+    {
+     "url": "https://www.doutor.co.jp/news/newsrelease/detail/20261026144748.html",
+     "status": "ok",
+     "chars": 1134,
+     "text_file": "inbox/texts/3766757f58a7.txt"
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4092,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
+  }
+ ],
+ "generated": "2026-11-07 04:51 JST",
  "last_report": {
   "sources_ok": 9,
   "sources_failed": [],
   "robots_refused": {
-   "https://contents.xj-storage.jp": {
+   "https://bugzilla.mozilla.org": {
     "status": 200,
-    "text": "User-Agent: *\r\nDisallow: /"
+    "text": "User-agent: *\nDisallow: /\nCrawl-delay: 30\n\nAllow: /$\nAllow: /index.cgi\n\nAllow: /page.cgi\nDisallow: /page.cgi*id=voting*\nDisallow: /page.cgi*id=productdashboard*\nDisallow: /page.cgi*id=user_activity*\n\nAllow: /show_bug.cgi\nDisallow: /show_bug.cgi*ctype=*\nDisallow: /show_bug.cgi*format=multiple*\n\nAllow: /describecomponents.cgi\nAllow: /describekeywords.cgi\nDisallow: /showdependency*\nDisallow: /banmyipforever.cgi\n\nAllow: /extensions/OpenGraph/web/\n\nAllow: /sitemap/\nSitemap: https://bugzilla.mozilla.org/sitemap/sitemap_index.xml"
    },
-   "https://www.airdo.jp": {
+   "https://ssl4.eir-parts.net": {
     "status": 200,
-    "text": "User-Agent:*\r\nDisallow:/ap/rsv/\r\n\r\nSitemap: https://www.airdo.jp/sitemap.xml\r\n"
+    "text": "User-agent: *\nDisallow: /\n"
    },
    "https://www.linkedin.com": {
     "status": 200,
@@ -20,6 +1305,10 @@
    "https://www.release.tdnet.info": {
     "status": 200,
     "text": "User-agent: *\nDisallow: /\n"
+   },
+   "https://www.threads.com": {
+    "status": 200,
+    "text": "# Notice: Collection of data on Threads through automated means is\n# prohibited unless you have express written permission from Threads\n# and may only be conducted for the limited purpose contained in said\n# permission.\n# All authorized user-agents listed on this page must comply with Meta’s\n# Automated Data Collection Terms available at:\n# https://www.facebook.com/legal/automated_data_collection_terms\nUser-agent: __usage_ai-training\nDisallow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Brightbot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: Scrapy\nDisallow: /\n\nUser-agent: uptimerobot\nDisallow: /\n\nUser-agent: viberbot\nDisallow: /\n\nUser-agent: YaK\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /\n\nUser-agent: Yeti\nDisallow: /\n\nUser-agent: Applebot\nDisallow: /accounts/\nDisallow: /activity/\nDisallow: /ajax/\nDisallow: /client_error/\nDisallow: /deck/\nDisallow: /intent/\nDisallow: /logging/\nDisallow: /onboarding/\nDisallow: /publicapi/\nDisallow: /qp/batch_fetch_web/\nDisallow: /query/\nDisallow: /settings/\n\nUser-agent: Bingbot\nDisallow: /*/c/\nDisallow: /*/comments/\nDisallow: /*/liked_by/\nDisallow: /*/p/\nDisallow: /accounts/\nDisallow: /activity/\nDisallow: /ajax/\nDisallow: /client_error/\nDisallow: /deck/\nDisallow: /intent/\nDisallow: /logging/\nDisallow: /onboarding/\nDisallow: /publicapi/\nD"
    }
   }
  }
