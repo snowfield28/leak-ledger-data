@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7038,40 +7038,6 @@
    "pendingReason": "自動取得不可（公式 home.tsuku2.jp が HTTP 403）。件数・項目は報道のみ。manual/ に公式文面を貼れば反映できる。公式: https://home.tsuku2.jp/"
   },
   {
-   "id": "basic-ferret-one-2610",
-   "co": "株式会社ベーシック（「ferret One」）",
-   "date": "2026-10-27",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "mail"
-   ],
-   "itemsText": "導入企業のログイン用メールアドレスが閲覧・取得された可能性（報道による）。不正ログインされた計6アカウント内の情報は調査中",
-   "sum": "内部管理機能の不備を突かれ、10月14日に不正アカウントが作成され、10月26日に発見・遮断。ベーシック自身と導入企業のアカウント計6件で不正ログインが確認された（報道による）。",
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/basic-ferret-one-unauthorized-access-six-accounts/"
-    ]
-   ],
-   "status": "ongoing",
-   "statusText": "第一報（10月27日14時40分、報道による）。",
-   "resp": "不正アカウント削除、経路遮断、不備修正、2段階認証の必須化、対象アカウントのパスワード初期化（報道による）。",
-   "official": [
-    [
-     "当社サービスへの不正アクセスに関するお知らせ（第一報）（2026/10/27）",
-     "https://www.nikkei.com/nkd/disclosure/tdnr/20261027556805/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "cause": "cyber",
-   "pendingReason": "自動取得不可（公式の適時開示は日経の有料ページ、ferret-one.com のお知らせ本文も取得できず）。manual/ に公式文面を貼れば反映できる。公式: https://www.nikkei.com/nkd/disclosure/tdnr/20261027556805/"
-  },
-  {
    "id": "maruki-medical-2610",
    "co": "丸木医科器械株式会社（基幹システム）",
    "date": "2026-10-26",
@@ -7615,6 +7581,322 @@
     "不正アクセス"
    ],
    "pendingReason": "同社の公式発表が見つからず（報道は読売新聞・日テレNEWS・名古屋テレビ等）、公式本文で件数・項目を確認できていない。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "toyo-univ-accounts-2611",
+   "co": "東洋大学（学内アカウント）",
+   "date": "2026-11-05",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "本学関係者の一部アカウントに不正アクセスが確認され、影響範囲を調査中。文科省と個人情報保護委員会へ報告済み。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文で未照合（報道ベース）。",
+   "resp": "",
+   "official": [
+    [
+     "本学アカウントへの不正アクセスについて（お詫びとお知らせ）（2026/11/5）",
+     "https://www.toyo.ac.jp/news/20261105-20479.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/toyo-university-accounts-unauthorized-access/"
+    ]
+   ],
+   "ind": "大学・学校",
+   "pendingReason": "公式発表（2026/11/5）を読んだが「漏えい」の記載がなく、影響範囲調査中。漏えいの有無が公表されれば再確認する。"
+  },
+  {
+   "id": "yamaguchi-buchieco-arara-2611",
+   "co": "山口県（ぶちエコやまぐち省エネ家電等購入支援キャンペーン／委託事業者のメール配信 アララ）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 25911,
+   "label": "最大25,911件（申請者24,787件・店舗1,124件）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（氏名等は含まれない、と報道）",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "委託事業者（JTB・ギフトパッド共同企業体）が利用するアララメッセージへの不正アクセスで、申請者と参加店舗のメールアドレスが漏えいした恐れがあると県が発表した（報道ベース）。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文で未照合（報道ベース）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/yamaguchi_buchieco_arara_email_leak_risk_25911_20261106/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "県の公式発表本文が取得できず（取得できたのは県の事業概要ページと報道転載のみ）。件数は報道による。公式URLの確認後に反映。"
+  },
+  {
+   "id": "invenntit-mobiconnect-2611",
+   "co": "株式会社インヴェンティット（MDM「mobiconnect」）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "顧客がアップロードした一部ファイル（個人情報の有無・内容は要確認）",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "MDM「mobiconnect」へのサイバー攻撃で顧客がアップロードしたファイルの一部が流出したと報じられた。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文で未照合（報道ベース）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mobiconnect_cyberattack_uploaded_files_leaked_20261106/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式発表の本文が取得できなかった（取得できたのは製品トップページ・マニュアルのみ）。自動取得不可の可能性。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "surugaya-affiliate-2611",
+   "co": "株式会社駿河屋（アフィリエイト登録者）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 5500,
+   "label": "約5,500人",
+   "st": "p",
+   "items": [
+    "name",
+    "acct",
+    "id"
+   ],
+   "itemsText": "アフィリエイト登録者の氏名・口座情報・パスワード等（報道ベース）",
+   "notIncl": "",
+   "who": [
+    "biz"
+   ],
+   "sum": "アフィリエイト登録者約5,500人の情報が改ざんされ、パスワード・口座情報などが流出した可能性があると報じられた。通販サイトへの影響はないとされる。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文で未照合（報道ベース）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/surugaya_affiliate_5500_data_tampering_possible_leak_20261106/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表の本文が取得できなかった（inboxに無関係ページのみ・403）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "azon-azonet-2611",
+   "co": "株式会社アゾンインターナショナル（自社通販「AZONET」）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "サイバー攻撃を受けたリスクから自社通販AZONETを閉鎖し、ファンクラブも終了すると報じられた。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文で未照合（報道ベース）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/azone_azonet_closure_personal_data_minimization_20261106/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表の本文が取得できなかった（robots/取得不可）。漏えいの有無・件数も未確認。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "sbc-app-members-2611",
+   "co": "SBC信越放送（公式アプリ）",
+   "date": "2026-11-07",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 14000,
+   "label": "最大約14,000件",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "会員情報（暗号化パスワードを含む、と報道）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "公式アプリへの不正アクセスで会員情報最大約1万4,000件が漏えいした恐れがあると報じられた。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文で未照合（報道ベース）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sbc_app_14000_encrypted_password_20261107/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "pendingReason": "公式発表の本文が取得できなかった（robots）。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "life-netsuper-arara-2611",
+   "co": "株式会社ライフコーポレーション（ライフ ネットスーパー／富士通の再委託先 アララ）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 133330,
+   "label": "最大133,330件",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス等（報道ベース）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "業務委託先が利用するメール配信サービス（アララ）への不正アクセスにより、13万3,330件の個人情報が漏洩した恐れがあると報じられた。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文で未照合（報道ベース）。",
+   "resp": "",
+   "official": [
+    [
+     "業務委託先が利用するメール配信サービスへの不正アクセスによるメールアドレス等の流出の可能性に関するお詫びとお知らせ（2026/11/6）",
+     "https://www.lifecorp.jp/company/info/news/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/life_netsuper_133330_arara_20261106_article_updated_personal_corporate_seo/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表の個別ページ（2026/11/6付「業務委託先が利用するメール配信サービスへの不正アクセスによるメールアドレス等の流出の可能性…」）の本文が取得できず、一覧ページのみ。件数・項目は報道による。"
+  },
+  {
+   "id": "docomo-smtb-cardloan-smbccf-2611",
+   "co": "ドコモSMTBネット銀行（カードローン／委託先 SMBCコンシューマーファイナンス）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 122635,
+   "label": "最大122,635人",
+   "st": "p",
+   "items": [
+    "name"
+   ],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "提携先SMBCコンシューマーファイナンスの保証システムへの不正アクセスにより、ドコモSMTBネット銀行のカードローン顧客最大12万2,635人の情報が漏えいしたと報じられた。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文で未照合（報道ベース）。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/docomo_smtb_bank_122635_smbc_cf_guarantee_data_leak_20261106/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "ドコモSMTBネット銀行自身の公式発表が取得できなかった（403）。SMBC CF側の発表（11/5）は読めたが、同行分の件数・項目の記載は確認できていない。"
+  },
+  {
+   "id": "miyazaki-city-smart-shinsei-arara-2611",
+   "co": "宮崎市（スマート申請システム／委託先 TKC・メール送信 アララ）",
+   "date": "2026-11-05",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中（登録者39,412件）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "スマート申請システム登録メールアドレス（市分の流出は調査中）",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "システム構築事業者TKCが使うアララメッセージへの不正アクセスで、登録済みメールアドレスが流出した疑い。市の登録者数は39,412件（個人35,405、事業者4,007）。市分の流出は調査中。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文で未照合（報道ベース）。",
+   "resp": "",
+   "official": [
+    [
+     "「スマート申請システム」の不正アクセスに伴うメールアドレスの流出及び注意喚起について",
+     "https://www.city.miyazaki.miyazaki.jp/city/public_relations/press_material/419117.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/miyazaki_city_arara_smart_application_39412_registered_20261107/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表本文は読めたが、公表日が本文から確認できず（発表日の特定後に台帳へ移す）。"
   }
  ]
 }
