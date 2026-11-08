@@ -7654,41 +7654,6 @@
    "pendingReason": "県の公式発表本文が取得できず（取得できたのは県の事業概要ページと報道転載のみ）。件数は報道による。公式URLの確認後に反映。"
   },
   {
-   "id": "surugaya-affiliate-2611",
-   "co": "株式会社駿河屋（アフィリエイト登録者）",
-   "date": "2026-11-06",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 5500,
-   "label": "約5,500人",
-   "st": "p",
-   "items": [
-    "name",
-    "acct",
-    "id"
-   ],
-   "itemsText": "アフィリエイト登録者の氏名・口座情報・パスワード等（報道ベース）",
-   "notIncl": "",
-   "who": [
-    "biz"
-   ],
-   "sum": "アフィリエイト登録者約5,500人の情報が改ざんされ、パスワード・口座情報などが流出した可能性があると報じられた。通販サイトへの影響はないとされる。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文で未照合（報道ベース）。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/surugaya_affiliate_5500_data_tampering_possible_leak_20261106/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "公式発表の本文が取得できなかった（inboxに無関係ページのみ・403）。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "azon-azonet-2611",
    "co": "株式会社アゾンインターナショナル（自社通販「AZONET」）",
    "date": "2026-11-06",
