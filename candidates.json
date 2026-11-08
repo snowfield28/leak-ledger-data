@@ -7654,37 +7654,6 @@
    "pendingReason": "県の公式発表本文が取得できず（取得できたのは県の事業概要ページと報道転載のみ）。件数は報道による。公式URLの確認後に反映。"
   },
   {
-   "id": "azon-azonet-2611",
-   "co": "株式会社アゾンインターナショナル（自社通販「AZONET」）",
-   "date": "2026-11-06",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "who": [
-    "cust"
-   ],
-   "sum": "サイバー攻撃を受けたリスクから自社通販AZONETを閉鎖し、ファンクラブも終了すると報じられた。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文で未照合（報道ベース）。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/azone_azonet_closure_personal_data_minimization_20261106/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "公式発表の本文が取得できなかった（robots/取得不可）。漏えいの有無・件数も未確認。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "sbc-app-members-2611",
    "co": "SBC信越放送（公式アプリ）",
    "date": "2026-11-07",
