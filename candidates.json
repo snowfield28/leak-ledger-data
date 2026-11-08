@@ -7654,40 +7654,6 @@
    "pendingReason": "県の公式発表本文が取得できず（取得できたのは県の事業概要ページと報道転載のみ）。件数は報道による。公式URLの確認後に反映。"
   },
   {
-   "id": "docomo-smtb-cardloan-smbccf-2611",
-   "co": "ドコモSMTBネット銀行（カードローン／委託先 SMBCコンシューマーファイナンス）",
-   "date": "2026-11-06",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": 122635,
-   "label": "最大122,635人",
-   "st": "p",
-   "items": [
-    "name"
-   ],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "who": [
-    "cust"
-   ],
-   "sum": "提携先SMBCコンシューマーファイナンスの保証システムへの不正アクセスにより、ドコモSMTBネット銀行のカードローン顧客最大12万2,635人の情報が漏えいしたと報じられた。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文で未照合（報道ベース）。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/docomo_smtb_bank_122635_smbc_cf_guarantee_data_leak_20261106/"
-    ]
-   ],
-   "ind": "金融・保険",
-   "pendingReason": "ドコモSMTBネット銀行自身の公式発表が取得できなかった（403）。SMBC CF側の発表（11/5）は読めたが、同行分の件数・項目の記載は確認できていない。"
-  },
-  {
    "id": "miyazaki-city-smart-shinsei-arara-2611",
    "co": "宮崎市（スマート申請システム／委託先 TKC・メール送信 アララ）",
    "date": "2026-11-05",
