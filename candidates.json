@@ -7654,37 +7654,6 @@
    "pendingReason": "県の公式発表本文が取得できず（取得できたのは県の事業概要ページと報道転載のみ）。件数は報道による。公式URLの確認後に反映。"
   },
   {
-   "id": "invenntit-mobiconnect-2611",
-   "co": "株式会社インヴェンティット（MDM「mobiconnect」）",
-   "date": "2026-11-06",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "顧客がアップロードした一部ファイル（個人情報の有無・内容は要確認）",
-   "notIncl": "",
-   "who": [
-    "unk"
-   ],
-   "sum": "MDM「mobiconnect」へのサイバー攻撃で顧客がアップロードしたファイルの一部が流出したと報じられた。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文で未照合（報道ベース）。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/mobiconnect_cyberattack_uploaded_files_leaked_20261106/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "公式発表の本文が取得できなかった（取得できたのは製品トップページ・マニュアルのみ）。自動取得不可の可能性。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "surugaya-affiliate-2611",
    "co": "株式会社駿河屋（アフィリエイト登録者）",
    "date": "2026-11-06",
