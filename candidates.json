@@ -7654,45 +7654,6 @@
    "pendingReason": "県の公式発表本文が取得できず（取得できたのは県の事業概要ページと報道転載のみ）。件数は報道による。公式URLの確認後に反映。"
   },
   {
-   "id": "life-netsuper-arara-2611",
-   "co": "株式会社ライフコーポレーション（ライフ ネットスーパー／富士通の再委託先 アララ）",
-   "date": "2026-11-06",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": 133330,
-   "label": "最大133,330件",
-   "st": "p",
-   "items": [
-    "mail"
-   ],
-   "itemsText": "メールアドレス等（報道ベース）",
-   "notIncl": "",
-   "who": [
-    "cust"
-   ],
-   "sum": "業務委託先が利用するメール配信サービス（アララ）への不正アクセスにより、13万3,330件の個人情報が漏洩した恐れがあると報じられた。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文で未照合（報道ベース）。",
-   "resp": "",
-   "official": [
-    [
-     "業務委託先が利用するメール配信サービスへの不正アクセスによるメールアドレス等の流出の可能性に関するお詫びとお知らせ（2026/11/6）",
-     "https://www.lifecorp.jp/company/info/news/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/life_netsuper_133330_arara_20261106_article_updated_personal_corporate_seo/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "公式発表の個別ページ（2026/11/6付「業務委託先が利用するメール配信サービスへの不正アクセスによるメールアドレス等の流出の可能性…」）の本文が取得できず、一覧ページのみ。件数・項目は報道による。"
-  },
-  {
    "id": "docomo-smtb-cardloan-smbccf-2611",
    "co": "ドコモSMTBネット銀行（カードローン／委託先 SMBCコンシューマーファイナンス）",
    "date": "2026-11-06",
