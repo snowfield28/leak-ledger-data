@@ -7654,41 +7654,6 @@
    "pendingReason": "県の公式発表本文が取得できず（取得できたのは県の事業概要ページと報道転載のみ）。件数は報道による。公式URLの確認後に反映。"
   },
   {
-   "id": "sbc-app-members-2611",
-   "co": "SBC信越放送（公式アプリ）",
-   "date": "2026-11-07",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 14000,
-   "label": "最大約14,000件",
-   "st": "p",
-   "items": [
-    "name",
-    "mail",
-    "id"
-   ],
-   "itemsText": "会員情報（暗号化パスワードを含む、と報道）",
-   "notIncl": "",
-   "who": [
-    "cust"
-   ],
-   "sum": "公式アプリへの不正アクセスで会員情報最大約1万4,000件が漏えいした恐れがあると報じられた。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文で未照合（報道ベース）。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/sbc_app_14000_encrypted_password_20261107/"
-    ]
-   ],
-   "ind": "メディア・出版",
-   "pendingReason": "公式発表の本文が取得できなかった（robots）。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "life-netsuper-arara-2611",
    "co": "株式会社ライフコーポレーション（ライフ ネットスーパー／富士通の再委託先 アララ）",
    "date": "2026-11-06",
