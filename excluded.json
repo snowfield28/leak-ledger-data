@@ -752,6 +752,16 @@
     "https://www.azone-int.co.jp/"
    ],
    "checked": "2026-11-08"
+  },
+  {
+   "id": "morinaga-affiliates-web-2611",
+   "co": "森永乳業（関係会社17社18サイトへの不正アクセス）",
+   "date": "2026-11-04",
+   "reason": "公式発表（2026/11/4）に「現時点では個人情報の漏えいは確認されておりません」と明記。関係会社のウェブサイト17社18サイトを安全確保のため一時閉鎖して調査中。続報で漏えいが公表されれば対象に戻す。",
+   "official": [
+    "https://www.morinagamilk.co.jp/release/newsentry-4759.html"
+   ],
+   "checked": "2026-11-09"
   }
  ]
 }

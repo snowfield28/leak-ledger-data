@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7692,6 +7692,153 @@
    ],
    "ind": "公共機関",
    "pendingReason": "公式発表本文は読めたが、公表日が本文から確認できず（発表日の特定後に台帳へ移す）。"
+  },
+  {
+   "id": "shogakukan-arara-2611",
+   "co": "株式会社小学館（小学館ID等／メール配信委託先 アララ）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 1993665,
+   "label": "最大1,993,665件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "株式会社小学館（小学館ID等／メール配信委託先 アララ）で個人情報の漏えい（可能性）が報じられている。公式発表の本文を確認できていないため、詳細は未照合。",
+   "status": "ongoing",
+   "statusText": "公式発表との照合待ち",
+   "resp": "",
+   "official": [
+    [
+     "公式発表（2026/11/6）",
+     "https://www.shogakukan.co.jp/news/477708"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "pendingReason": "小学館のお知らせ（11/6）は概要のみで、件数・項目を記載した別添PDFを自動取得できなかった。報道の件数199万3,665件は公式本文で未照合。manual/ に別添PDF「弊社が委託する外部メール配信サービス会社『アララ社』への不正アクセスによる個人情報漏えいのおそれに関するお詫びとお知らせ」の文面を貼れば反映できる。"
+  },
+  {
+   "id": "fujio-food-arara-2611",
+   "co": "株式会社フジオフードグループ本社（串家物語・デリスデュパレ／委託先 アララ）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 316668,
+   "label": "316,668件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "株式会社フジオフードグループ本社（串家物語・デリスデュパレ／委託先 アララ）で個人情報の漏えい（可能性）が報じられている。公式発表の本文を確認できていないため、詳細は未照合。",
+   "status": "ongoing",
+   "statusText": "公式発表との照合待ち",
+   "resp": "",
+   "official": [
+    [
+     "公式発表（2026/11/6）",
+     "https://fujiogroup.com/company/news/2026/11/post-287.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/"
+    ]
+   ],
+   "ind": "飲食",
+   "pendingReason": "公式発表ページ（fujiogroup.com 2026/11/6）は本文が取得できず（208文字のみ）、件数31万6,668件は未照合。自動取得不可（本文が短い）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "wills-realestate-arara-2611",
+   "co": "株式会社ウィル（不動産／委託先 アララ）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 102369,
+   "label": "最大102,369件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "株式会社ウィル（不動産／委託先 アララ）で個人情報の漏えい（可能性）が報じられている。公式発表の本文を確認できていないため、詳細は未照合。",
+   "status": "ongoing",
+   "statusText": "公式発表との照合待ち",
+   "resp": "",
+   "official": [
+    [
+     "公式発表（2026/11/6）",
+     "https://www.wills.co.jp/corp/news/1895/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/"
+    ]
+   ],
+   "ind": "建設・不動産",
+   "pendingReason": "公式発表（wills.co.jp/corp/news/1893〜1895）がHTTP 403で自動取得不可。報道の10万2,369件（第3報）は公式本文で未照合。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "mitsui-direct-2611",
+   "co": "三井ダイレクト損害保険株式会社",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 234000,
+   "label": "最大23.4万件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "三井ダイレクト損害保険株式会社で個人情報の漏えい（可能性）が報じられている。公式発表の本文を確認できていないため、詳細は未照合。",
+   "status": "ongoing",
+   "statusText": "公式発表との照合待ち",
+   "resp": "",
+   "official": [
+    [
+     "公式発表（2026/11/6）",
+     "https://www.ms-ad-hd.com/ja/news_group/20261106_mitsui_direct/main/0/link/20261106_mitsuidirect.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "公式発表PDF（ms-ad-hd.com 2026/11/6）がHTTP 403で自動取得不可。報道の最大23万4,000件は公式本文で未照合。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }
