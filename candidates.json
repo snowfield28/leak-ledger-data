@@ -7729,42 +7729,6 @@
    ],
    "ind": "飲食",
    "pendingReason": "公式発表ページ（fujiogroup.com 2026/11/6）は本文が取得できず（208文字のみ）、件数31万6,668件は未照合。自動取得不可（本文が短い）。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
-   "id": "mitsui-direct-2611",
-   "co": "三井ダイレクト損害保険株式会社",
-   "date": "2026-11-06",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 234000,
-   "label": "最大23.4万件（報道）",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "who": [
-    "unk"
-   ],
-   "sum": "三井ダイレクト損害保険株式会社で個人情報の漏えい（可能性）が報じられている。公式発表の本文を確認できていないため、詳細は未照合。",
-   "status": "ongoing",
-   "statusText": "公式発表との照合待ち",
-   "resp": "",
-   "official": [
-    [
-     "公式発表（2026/11/6）",
-     "https://www.ms-ad-hd.com/ja/news_group/20261106_mitsui_direct/main/0/link/20261106_mitsuidirect.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/"
-    ]
-   ],
-   "ind": "金融・保険",
-   "pendingReason": "公式発表PDF（ms-ad-hd.com 2026/11/6）がHTTP 403で自動取得不可。報道の最大23万4,000件は公式本文で未照合。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }
