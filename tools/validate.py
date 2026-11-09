@@ -44,6 +44,8 @@ def validate():
             for w in x.get("who", []) or []:
                 if w not in who_labels:
                     errs.append(f"{tag} who に未定義の値 {w}")
+            if x.get("group") and x["group"] not in {g["id"] for g in D.get("groups", [])}:
+                errs.append(f"{tag} group が groups にない: {x['group']}")
             if "ind" in x and x["ind"] not in industries:
                 errs.append(f"{tag} ind が industries にない: {x['ind']}")
             if x.get("status") and x["status"] not in status_labels:

@@ -95,6 +95,13 @@ def main():
 
     D["updated"] = today
     D["pendingCount"] = len(C["cases"])
+    # 事件グループ: groups[].match のキーワードが co に含まれる事案へ group を自動付与（未設定のものだけ）
+    for c in D["cases"]:
+        if not c.get("group"):
+            for g in D.get("groups", []):
+                if any(m in c["co"] for m in g.get("match", [])):
+                    c["group"] = g["id"]
+                    break
     C["updated"] = today
 
     # 書く前に、メモリ上のデータで検証できるよう一時的に書き出して検証する

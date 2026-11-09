@@ -54,3 +54,7 @@ items のキー：name=氏名、addr=住所、tel=電話番号、mail=メール�
 コミットメッセージの末尾には次の2行を付ける：
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01VGDqpqnoK2rdSXg3eVnPts
+
+
+事件グループ（絞り込み用）
+data.json の groups[]（id, name, note, root, match）と、事案の group で、同じ事件（アララ、プレステージ・コアソリューション、コミューン、ユミルリンク、SMBC CF、柴田工事調査など）をまとめて絞り込める。apply.py は、group がない事案に、co が groups[].match のキーワードを含む場合に自動で group を付ける。同じ委託先・提供元の事件で新しい影響先が出たら、通常どおり add するだけでよい。新しい事件が複数の組織に広がったら、data.json の groups に {id,name,note,root（提供元自身の事案id・なければnull）,match:[co に含まれるキーワード]} を追加し、既存の事案に group を付ける。groups の追加以外で index.html は変更しない。
