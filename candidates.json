@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7653,6 +7653,356 @@
    ],
    "ind": "公共機関",
    "pendingReason": "公式発表本文は読めたが、公表日が本文から確認できず（発表日の特定後に台帳へ移す）。"
+  },
+  {
+   "id": "tpec-plusbaton-arara-2611",
+   "co": "ティーペック株式会社（健康相談サービス「plus Baton」／配信基盤 アララ）",
+   "date": "2026-11-09",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（plus Baton のメール配信に使われたもの）",
+   "who": [
+    "cust"
+   ],
+   "sum": "健康相談サービス「plus Baton」のメール配信に使われた外部基盤（アララ）への不正アクセスで、メールアドレスが流出したと報じられた。報道ベースで、公式発表の本文は未確認。",
+   "status": "ongoing",
+   "statusText": "公式発表未確認",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/plus-baton-234753-email-leak-kenpo-kyosai-organizations-2026/"
+    ]
+   ],
+   "ind": "団体",
+   "pendingReason": "自社の事故発表（件数234,753件とされる）の本文が inbox になく、取得したのは4月のプレスリリースのみ。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "nishinihon-packaging-kenpo-plusbaton-arara-2611",
+   "co": "西日本パッケージング健康保険組合（「plus Baton」／委託先 ティーペック・配信基盤 アララ）",
+   "date": "2026-11-09",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（plus Baton のメール配信に使われたもの）",
+   "who": [
+    "cust"
+   ],
+   "sum": "健康相談サービス「plus Baton」のメール配信に使われた外部基盤（アララ）への不正アクセスで、メールアドレスが流出したと報じられた。報道ベースで、公式発表の本文は未確認。",
+   "status": "ongoing",
+   "statusText": "公式発表未確認",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/plus-baton-234753-email-leak-kenpo-kyosai-organizations-2026/"
+    ]
+   ],
+   "ind": "団体",
+   "pendingReason": "報道で2026/11/9公表とされるが、公式発表のURL・本文が inbox に含まれず未確認。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "kanagawa-shichoson-kyosai-plusbaton-arara-2611",
+   "co": "神奈川県市町村職員共済組合（「plus Baton」／委託先 ティーペック・配信基盤 アララ）",
+   "date": "2026-11-09",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（plus Baton のメール配信に使われたもの）",
+   "who": [
+    "cust"
+   ],
+   "sum": "健康相談サービス「plus Baton」のメール配信に使われた外部基盤（アララ）への不正アクセスで、メールアドレスが流出したと報じられた。報道ベースで、公式発表の本文は未確認。",
+   "status": "ongoing",
+   "statusText": "公式発表未確認",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/plus-baton-234753-email-leak-kenpo-kyosai-organizations-2026/"
+    ]
+   ],
+   "ind": "団体",
+   "pendingReason": "報道で2026/11/9公表とされるが、公式発表のURL・本文が inbox に含まれず未確認。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "teket-vendor-2611",
+   "co": "株式会社teket（電子チケット販売・管理サービス「teket」）",
+   "date": "2026-11-08",
+   "occurred": "2026-11-05",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "birth",
+    "addr",
+    "tel"
+   ],
+   "itemsText": "全会員の氏名・メールアドレス。登録・購入状況に応じ生年月日、年齢、性別、住所、電話番号、チケット発券用コード、主催者発行のシリアルコード（主催者の転記・報道による）",
+   "who": [
+    "cust"
+   ],
+   "sum": "電子チケットサービス「teket」が2026年11月5日にサーバーへの不正アクセスの可能性が高いと判断して全サービスを停止し、11月6日に会員情報管理システムから情報が外部へ流出したことを確認、個人情報保護委員会へ報告した。全体の対象人数は未公表。各主催者（自治体、文化施設、大学、楽団、球団など）が個別に告知している。",
+   "status": "ongoing",
+   "statusText": "2026年11月8日に第一報。全体件数は未確認。",
+   "resp": "全サービス停止、個人情報保護委員会へ報告。主催者側は購入完了メール提示などの代替受付を案内。",
+   "official": [
+    [
+     "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）（2026/11/8）",
+     "https://corporate.teket.jp/news/privacy_261108"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab（teket影響先まとめ）",
+     "https://rocket-boys.co.jp/security-measures-lab/teket-data-breach-affected-organizations-summary-20261110/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。teket公式ページ（corporate.teket.jp）は本文がJS描画で取得できず、主催者の転記と報道で補った。"
+  },
+  {
+   "id": "fwd-life-navi-2611",
+   "co": "FWD生命保険株式会社（保険代理店向けシステム「FWD navi」）",
+   "date": "2026-11-09",
+   "occurred": "2026-11-07",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 9000,
+   "label": "最大9,000件",
+   "st": "p",
+   "items": [
+    "name",
+    "deal"
+   ],
+   "itemsText": "契約者名、被保険者名などの契約情報（報道ベース）。",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "代理店の募集人アカウントが第三者に不正利用され、FWD naviで最大9,000件の契約情報が閲覧可能な状態だった。11月7日に確認し、アカウント停止とインターネット経由のアクセス停止を行った。（報道に基づく。公式本文は未読）",
+   "status": "ongoing",
+   "statusText": "報道では2026年11月9日公表。公式本文が自動取得できず未確認。",
+   "resp": "（公式本文の確認待ち）",
+   "official": [
+    [
+     "代理店向けシステムへの不正アクセスに伴うお客さま情報の漏えいについて（2026/11/9）",
+     "https://www.fwdlife.co.jp/system-information/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/fwdlife_fwd_navi_9000_customer_contracts_unauthorized_access_2026/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "公式発表 https://www.fwdlife.co.jp/system-information/ は status thin（本文取得できず）、WebFetch/検索でも取得不可。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "belluna-martial-arts-arara-2611",
+   "co": "株式会社ベルーナ（債権回収委託先 弁護士法人Martial Arts／アララ メッセージ）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 1625,
+   "label": "1,519件（メールアドレスのみ）＋106件（氏名・請求情報等を含む）",
+   "st": "c",
+   "items": [
+    "mail",
+    "name",
+    "deal"
+   ],
+   "itemsText": "メールアドレス、一部は氏名・請求情報等（報道ベース）。",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "債権回収業務の委託先である弁護士法人Martial Artsが利用するアララ メッセージへの不正アクセスで、ベルーナの顧客の情報が流出したとされる（報道に基づく。公式PDF未読）。",
+   "status": "ongoing",
+   "statusText": "報道では2026年11月6日公表。公式本文未確認。",
+   "resp": "（公式本文の確認待ち）",
+   "official": [
+    [
+     "弁護士法人Martial Artsの利用先に対する不正アクセスについて（2026/11/6）",
+     "https://www.belluna.co.jp/pdf/20261106cc.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/gmo_commerce_arara_primary_gmo_group_brief_roundup_20261108/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式PDF https://www.belluna.co.jp/pdf/20261106cc.pdf は error:http403、WebFetchも不可。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "teamspirit-devserver-2611",
+   "co": "株式会社チームスピリット（勤怠・工数管理「TeamSpirit」／開発用サーバー）",
+   "date": "2026-11-06",
+   "announced": "2026-11-06",
+   "occurred": "2026-10-27",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 28824,
+   "label": "28,824件（重複除外後・要配慮個人情報35件含む）",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "契約企業の担当者・利用者の氏名、メールアドレス、ログインID等、問い合わせ記録の一部、現・元従業員の氏名・社員番号・業務用メール・入退社日等（報道による。公式文面は未確認）",
+   "notIncl": "契約企業が本番環境で運用する勤怠・工数データへの不正アクセスは未確認",
+   "who": [
+    "cust",
+    "biz",
+    "staff"
+   ],
+   "sum": "開発用サーバーへの不正ログインと、そこに保管されていた認証情報によるクラウド環境からのデータ取得で、顧客関係者や従業員・退職者などの個人情報が外部に流出した。10月27日に検知しサーバーを停止、10月30日に個人情報保護委員会へ報告、11月6日から個別通知。",
+   "status": "ongoing",
+   "statusText": "2026年11月6日の発表時点（報道ベース）。影響調査と再発防止策を検討中。",
+   "resp": "サーバー停止・外部接続遮断、認証情報の無効化、個別通知（連絡先不明者は公表で代替）、個人情報保護委員会へ報告。",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/teamspirit_dev_server_data_leak_28824_20261107/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式発表（チームスピリット 2026/11/6）の本文が inbox になく、検索でも公式URLを特定できず未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。報道の件数は28,824件。"
+  },
+  {
+   "id": "keishicho-arara-2611",
+   "co": "警視庁（職員の安否確認システム／委託先経由 アララ）",
+   "date": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "警視庁職員とその家族のメールアドレス（報道）。氏名・住所は漏えいせずと報道",
+   "notIncl": "",
+   "who": [
+    "staff"
+   ],
+   "sum": "警視庁が災害時の安否確認システムの運用を委託する事業者が、アララのメール配信サービスを利用しており、同社への不正アクセスにより職員・家族のメールアドレスが流出した可能性がある。安否確認メールの配信を停止。",
+   "status": "ongoing",
+   "statusText": "報道ベース。件数は精査中。",
+   "resp": "安否確認メールの配信停止、職員へ不審メールへの注意喚起（報道）。",
+   "official": [],
+   "src": [
+    [
+     "FNNプライムオンライン",
+     "https://www.fnn.jp/articles/-/1147540"
+    ],
+    [
+     "TBS NEWS DIG",
+     "https://newsdig.tbs.co.jp/articles/-/3069021"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/metropolitan_police_arara_safety_confirmation_email_leak/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "警視庁自身の公式発表の本文が見つからず、報道のみ（inboxの公式欄は報道・江戸川区・アララの資料）。警視庁の公式ページ未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "resona-kansai-minato-smbccf-2611",
+   "co": "りそな銀行・関西みらい銀行・みなと銀行（解約済みカードローン／フリーローンの保証提携先 SMBCコンシューマーファイナンス）",
+   "date": "2026-11-06",
+   "announced": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 5935,
+   "label": "計5,935件（りそな139・関西みらい5,793・みなと3）",
+   "st": "c",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "mail",
+    "work",
+    "deal",
+    "doc"
+   ],
+   "itemsText": "氏名、性別、生年月日、住所、電話番号、メールアドレス、運転免許証番号、勤務先情報（電話番号・年収等）、保証契約情報（報道による）",
+   "notIncl": "本人確認書類の画像、各行システムへの侵入",
+   "who": [
+    "cust"
+   ],
+   "sum": "SMBCコンシューマーファイナンスの保証業務システムへの不正アクセスに伴い、3行の解約済みカードローン・フリーローン契約者の情報が含まれていたと各行が公表（報道による）。",
+   "status": "ongoing",
+   "statusText": "2026年11月6日の公表（報道ベース）。",
+   "resp": "報道によれば、SMBCコンシューマーファイナンスの専用窓口を案内。",
+   "official": [
+    [
+     "りそなホールディングス ニュースリリース（2026/11/6）",
+     "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026/files/20261106_1k.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/resona_3banks_smbc_consumer_finance_5935_leaked/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "公式PDFが error:http403 で取得不可、WebFetchも不可。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }
