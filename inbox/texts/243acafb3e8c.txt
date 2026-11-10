@@ -1,0 +1,582 @@
+URL: https://cloudlinux.statuspage.io/
+
+CloudLinux Status
+Subscribe to Updates
+Subscribe
+ x
+ Get email notifications whenever CloudLinux 
+creates
+, 
+updates
+ or 
+resolves
+ an incident.
+Email address:
+Enter OTP:
+Resend OTP in: 
+ seconds 
+ Didn't receive the OTP?
+Resend OTP 
+ This site is protected by reCAPTCHA and the Google 
+Privacy Policy
+ and 
+Terms of Service
+ apply.
+ Get incident updates and maintenance status messages in Slack.
+Subscribe via Slack
+By subscribing you agree to the Atlassian 
+Cloud Terms of Service
+ and acknowledge Atlassian's 
+Privacy Policy
+.
+ Get the 
+Atom Feed
+ or 
+RSS Feed
+.
+cloudlinux-release update adds the TuxCare ELS repositories
+Subscribe
+Monitoring
+ - 
+Starting November 10, a 
+cloudlinux-release
+ update rolls out gradually to CloudLinux OS 7–10 and CloudLinux OS for Ubuntu servers. The update adds the TuxCare Extended Lifecycle Support (ELS) repositories for alt-PHP, alt-Python, alt-Node.js and alt-Ruby. Where 
+rhn-client-tools
+ is too old to fetch the token these repositories need, it also brings a newer one.
+TuxCare ELS will become the only source of 
+alt-*
+ updates, CVE fixes included. That switch hasn't happened yet: we'll announce it in advance, once most servers have these repositories switched on. After it, a server with them off gets no new 
+alt-*
+ updates.
+Registered with CLN and actively updating:
+ nothing to do. The ELS repositories switch on by themselves, usually within a minute of the update.
+No CLN registration:
+ the ELS repositories stay off, and yum, dnf and apt keep working with your other repositories.
+Broken registration or lapsed licence:
+ the ELS repositories answer 403 Forbidden. On CloudLinux OS 7–10 that stops the whole yum or dnf update; on Ubuntu, 
+apt-get update
+ exits with an error. Run 
+rhn_check
+ to fetch a fresh token. If that doesn't help, fix the registration or renew the licence, or disable the ELS repositories by hand: the update leaves a repository you disabled alone.
+Outbound allowlist:
+ allow HTTPS to repo.alt.tuxcare.com and rollout.alt.tuxcare.com, or updates can fail the same way as with a 403.
+Your own mirror:
+ add the four ELS repositories and the 
+alt-common
+ repository to it, and point the repository files at it. Mirror access is granted per IP address: ask your account manager or 
+sales@tuxcare.com
+. The update leaves a repository that points at another host alone.
+Excludes and version locks:
+ with 
+rhn-client-tools
+ excluded or locked, the server can't take this update, and on CloudLinux OS 7–10 the whole yum or dnf update stops. Remove the exclude or lock before you update. Keep 
+alt-common-release
+ and 
+alt-php-els-meta
+ out of any 
+alt-*
+ excludes.
+CloudLinux OS for Ubuntu:
+apt-get upgrade
+ keeps the update back; run 
+apt install rhn-client-tools cloudlinux-release
+ instead. On servers still on 
+rhn-client-tools
+ 2.12 it also replaces 
+python3-rhnlib
+ and 
+rhnlib
+; nothing else is removed. We recommend it rather than 
+apt full-upgrade
+, which may also propose removing 
+alt-phpXX-fpm
+ packages for reasons unrelated to this update.
+Nov 
+09
+, 
+2026
+ - 
+16:54
+ UTC
+×
+ Subscribe to Incident 
+ Subscribe to updates for 
+cloudlinux-release update adds the TuxCare ELS repositories
+ via email. You'll receive email notifications when incidents are updated.
+VIA EMAIL:
+Subscribe to Incident
+ This site is protected by reCAPTCHA and the Google 
+Privacy Policy
+ and 
+Terms of Service
+ apply.
+sock-gettstamp-uaf (CVE-2026-98276): UDP socket use-after-free, local crash, KernelCare status
+Subscribe
+Update
+ - 
+Fixed kernels are now available:
+- CloudLinux 7h and 8: 
+4.18.0-553.184.1.lve.1
+, in staged rollout. To install now: 
+yum update cloudlinux-release
+, then 
+yum update kernel --enablerepo=cloudlinux-rollout-10-bypass
+ and reboot.
+- CloudLinux 9: 
+kernel-5.14.0-687.66.2.el9_8
+, CloudLinux 10: 
+kernel-6.12.0-211.74.2.el10_2
+, in the AlmaLinux testing repository (Red Hat has not released a fix yet).
+- CloudLinux 8 LTS and 9 LTS: 
+kernel-lts
+els17
+ or newer, in the stable channel since November 2.
+- CloudLinux 7: fixed kernel in preparation.
+Install steps for each version and verification: 
+CVE-2026-98276 advisory
+.
+Nov 
+09
+, 
+2026
+ - 
+16:04
+ UTC
+Update
+ - 
+This update replaces older statements where they differ.
+- The privilege escalation exploit on AlmaLinux 8 is not stable, but it worked several times. The "about 70 seconds" in the previous update was one run.
+- AlmaLinux 9 and 10: reproduction is in progress. Not reproduced yet.
+- The KernelCare livepatch will most likely cover all EL family kernels (8, 9 and 10), including RHEL, AlmaLinux, Rocky, Oracle Linux and CloudLinux 9 and 10. No ETA yet.
+- CloudLinux 8 livepatch K20261105_0055 remains on the production feed since 2026-11-06 08:50 UTC. ePortal: still pending.
+To check a server:
+kcarectl --patch-info | grep 'CVE-2026-98276'
+Nov 
+06
+, 
+2026
+ - 
+19:53
+ UTC
+Update
+ - 
+This update replaces older statements in this doc where they differ.
+Privilege escalation is reproduced in-house. We got root on AlmaLinux 8 with the stock kernel 4.18.0-553.el8_10 in about 70 seconds. The exploit is built on the code taken from the attacked server. Treat this CVE as a local privilege escalation, not only a crash.
+On the attacked CloudLinux 8 server we see crashes only. Root on that server is not shown.
+CloudLinux 8 livepatch K20261105_0055 is on the production feed since 2026-11-06 08:50 UTC. ePortal: pending. Not yet confirmed against the privilege escalation exploit.
+A livepatch for RHEL and AlmaLinux 8 is expected. No ETA yet. EL 9 and 10: no decision yet.
+Correction: "Present since Linux 2.6.12" is not confirmed. The CVE record uses 2.6.12 as a default start point. The real start point is not verified. The affected list from Red Hat (RHEL 7, 8, 9 and 10) does not change.
+Nov 
+06
+, 
+2026
+ - 
+16:55
+ UTC
+Monitoring
+ - 
+State as of 2026-11-06, 09:35 UTC.
+- Published as 
+CVE-2026-98276
+ by the kernel CNA on 
+2026-10-06
+ (
+CVE record
+). CNA score 
+7.8 High
+, 
+AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+. Red Hat: 
+Moderate 7.0
+ (
+AC:H
+).
+- The upstream fix landed in Linux 7.3-rc4 and in all stable lines before any exploitation was reported. This is 
+not a zero-day
+.
+- A 
+local
+ user with a normal account can trigger it. It is not reachable from the network.
+- 
+A working exploit was used against one CloudLinux 8 server on 2026-11-04.
+ The server crashed 12 times. 
+No privilege escalation was seen.
+ No public exploit code found.
+- 
+CloudLinux 8, 9 and 10 kernels are affected.
+ Red Hat has no fixed kernel for RHEL 7, 8, 9 or 10 and lists no mitigation.
+Impact confirmed: kernel crash (denial of service) by a local user.
+ We reproduced the crash in-house. Privilege escalation is not reproduced and not shown.
+The KernelCare livepatch for CloudLinux 8 is released
+ (K20261105_0055, production feed since 2026-11-06 08:50 UTC). Run 
+kcarectl --update
+. We made it ahead of the vendor.
+Technical summary
+The bug is in 
+sock_gettstamp()
+ in 
+net/core/sock.c
+. This is the kernel handler for the 
+SIOCGSTAMP
+ and 
+SIOCGSTAMPNS
+ ioctls, which return the time a packet arrived.
+- On first use the handler sets a flag in the socket flags word without the socket lock.
+- The flag update is not atomic. A 
+bind()
+ on the same UDP socket at the same moment can lose its own update to the same word.
+- The lost flag is 
+SOCK_RCU_FREE
+. It tells the kernel to wait for readers before it frees the socket.
+- Without it, the socket is freed at once on close, while the UDP receive path can still use it. This is a use-after-free.
+- The fix takes the socket lock in 
+sock_gettstamp()
+, only when the flag must be set.
+- Present since Linux 2.6.12, so all supported kernels are affected.
+Crash signature on the attacked CloudLinux 8 server:
+- 
+WARNING ... at net/ipv4/af_inet.c:153
+ and 
+:156
+ in 
+inet_sock_destruct
+- then a NULL pointer dereference in 
+udp_destruct_common
+ (socket close) or in 
+__sk_mem_raise_allocated
+ called from 
+__udp_enqueue_schedule_skb
+ (UDP receive)
+- with 
+kernel.panic_on_oops = 1
+ each crash rebooted the server
+What the KernelCare livepatch does
+- Ports the upstream fix: take the socket lock around the flag update. Small change, no data structure change.
+- LibCare is out of scope (kernel bug).
+Mitigation
+There is no practical mitigation.
+ Install the livepatch where it is released.
+- No sysctl or kernel option turns the affected code off. Any user who can open a UDP socket can reach it.
+- A firewall does not help. The trigger is local socket calls and does not pass through iptables or nftables.
+- An SELinux policy can block the two ioctls, but control panels require SELinux to be disabled on CloudLinux. Not a usable option for most servers.
+- Restricting or suspending untrusted local accounts lowers the risk until the livepatch is installed.
+Coverage status, 2026-11-06
+Upstream stable:
+ fixed in 5.10.271, 5.15.222, 6.1.189, 6.6.158, 6.12.112, 6.18.54, 7.2.8 and 7.3.
+EL family
+ (RHEL, AlmaLinux, CloudLinux, Rocky, Oracle Linux RHCK) 8, 9 and 10, and RHEL 7: affected. Red Hat: "Affected", no fix, no date. CloudLinux 9 and 10 run AlmaLinux kernels.
+Debian:
+ fixed. trixie 6.12.113-1 (DSA-6568-1), bookworm 6.1.190-1 (DLA-4841-1) and linux-6.12 6.12.113-1~deb12u1 (DLA-4850-1).
+Ubuntu:
+ not verified.
+Livepatch status:
+- CloudLinux 8 (K20261105_0055): production feed since 2026-11-06 08:50 UTC. Not on ePortal yet.
+- Debian 13 (K20261024_0026): production feed since 2026-10-26 08:36 UTC, ePortal since 2026-10-28 12:07 UTC.
+- Debian 12 (K20261102_0001): production feed since 2026-11-03 08:16 UTC, ePortal since 2026-11-05 08:36 UTC.
+- RHEL, AlmaLinux, Rocky and Oracle Linux 8, and the EL 9 and 10 family including CloudLinux 9 and 10: not released. No ETA yet.
+How to install and verify
+Install:
+kcarectl --update
+Check:
+kcarectl --patch-info | grep 'CVE-2026-98276'
+Nov 
+06
+, 
+2026
+ - 
+09:40
+ UTC
+×
+ Subscribe to Incident 
+ Subscribe to updates for 
+sock-gettstamp-uaf (CVE-2026-98276): UDP socket use-after-free, local crash, KernelCare status
+ via email. You'll receive email notifications when incidents are updated.
+VIA EMAIL:
+Subscribe to Incident
+ This site is protected by reCAPTCHA and the Google 
+Privacy Policy
+ and 
+Terms of Service
+ apply.
+Node.js security releases, October 2026: CVE-2026-111497 and 9 other CVEs
+Subscribe
+Update
+ - 
+Correction to our updates of 22 and 26 October: ea-nodejs22 is still affected by CVE-2026-106071
+Our updates of 22 and 26 October listed 
+ea-nodejs22-22.23.4-1.el8.cloudlinux
+ as fixed. It includes the fixes from the Node.js 22.23.4 release, but it is still affected by CVE-2026-106071 (Low: it only matters for Node.js processes started with 
+--permission
+ and a wildcard filesystem grant)
+ea-nodejs22 ships the precompiled Node.js build from nodejs.org, as cPanel's package does, so the fix for it has to come with a Node.js 22 release. A fixed ea-nodejs22 will follow once a Node.js 22 release includes this fix and cPanel ships it. Node.js has announced security releases for the 22.x line on or shortly after 11 November; we will post the next update here after that release
+On CloudLinux OS 8 and 9, 
+alt-nodejs22-nodejs-22.23.4-2
+ includes the fix
+We apologize for the confusion
+Nov 
+09
+, 
+2026
+ - 
+16:01
+ UTC
+Update
+ - 
+Fixed 
+alt-nodejs22
+ and 
+alt-nodejs24
+ release 2 are now in the stable repositories for CloudLinux OS 8 and 9 and for CloudLinux OS for Ubuntu 22.04. They add a fix for CVE-2026-106071, a flaw in the Node.js permission model where a wildcard grant such as 
+--allow-fs-read=/tmp/test*
+ also allowed access to 
+/tmp/tes
+. Upstream lists it for Node.js 26 only, but we reproduced it on 22 and 24 and fixed it there.
+- 
+alt-nodejs22-nodejs-22.23.4-2
+- 
+alt-nodejs24-nodejs-24.22.1-2
+If you already installed release 1, update again.
+CloudLinux OS 8, 9:
+dnf clean all && dnf upgrade 'alt-nodejs22*' 'alt-nodejs24*'
+Ubuntu 22.04:
+apt-get update && apt-get install --only-upgrade 'alt-nodejs*'
+alt-nodejs26-nodejs-26.12.1-1
+ already includes this fix from upstream.
+Correction to our update of 22 October, 17:46 UTC. 
+alt-nodejs22
+ was never released for CloudLinux OS 7, so there is nothing to install there. Node.js 22 is available for CloudLinux OS 8 and 9 only.
+All other fixed packages are in the stable repositories. Fixed releases for CloudLinux OS 7, 8 and 9:
+- 
+alt-nodejs10-nodejs-10.24.1-7
+- 
+alt-nodejs12-nodejs-12.22.12-35
+- 
+alt-nodejs14-nodejs-14.21.3-37
+- 
+alt-nodejs16-nodejs-16.20.2-33
+- 
+alt-nodejs18-nodejs-18.20.8-26
+- 
+alt-nodejs19-nodejs-19.9.0-10
+- 
+alt-nodejs20-nodejs-20.20.2-15
+Fixed releases for CloudLinux OS for Ubuntu 22.04:
+- 
+alt-nodejs12-nodejs 12.22.12-33
+- 
+alt-nodejs14-nodejs 14.21.3-35
+- 
+alt-nodejs16-nodejs 16.20.2-32
+- 
+alt-nodejs18-nodejs 18.20.8-26
+- 
+alt-nodejs20-nodejs 20.20.2-14
+cPanel (EasyApache 4) on CloudLinux OS 8 gets 
+ea-nodejs22-22.23.4-1.el8.cloudlinux
+.
+alt-nodejs6
+, 
+alt-nodejs8
+, 
+alt-nodejs9
+ and 
+alt-nodejs11
+ are not patched, upgrade to a supported line.
+alt-nodejs
+ packages carry their own copy of Brotli, so the fix for CVE-2026-111497 is inside the package and you do not need to update the system 
+brotli
+ package for them. The system 
+brotli
+ package on CloudLinux OS 8, 9 and 10 comes from AlmaLinux and has no fix yet. For details, see the 
+TuxCare CVE tracker
+.
+To check a package on CloudLinux OS, compare its version with the lists above, for example:
+rpm -q alt-nodejs16-nodejs
+On Ubuntu:
+dpkg-query -W alt-nodejs16-nodejs
+TuxCare builds of the alt-nodejs versions are released for the platforms they support. 
+For AlmaLinux ESU, the native nodejs 16 package fixes CVE-2026-105481, CVE-2026-105482 and CVE-2026-106069, and the 
+brotli
+ package fixes CVE-2026-111497:
+- AlmaLinux 9.2 ESU: 
+nodejs-16.20.2-8.el9_2.tuxcare.els24
+ and 
+brotli-1.0.9-7.el9_2.tuxcare.els2
+- TuxCare 9.6 ESU: 
+nodejs-16.20.2-8.el9_6.tuxcare.els24
+ and 
+brotli-1.0.9-7.el9_5.tuxcare.els2
+- TuxCare 9.8 ESU: 
+nodejs-16.20.2-8.el9_8.tuxcare.els24
+ and 
+brotli-1.0.9-10.el9_8.tuxcare.els1
+Restart your Node.js applications after updating.
+Oct 
+26
+, 
+2026
+ - 
+13:10
+ UTC
+Update
+ - 
+Fixed alt-nodejs 10 and 19 are now in the stable repositories
+- alt-nodejs10: 
+alt-nodejs10-nodejs-10.24.1-7
+, for CloudLinux OS 7, 8, and 9.
+- alt-nodejs19: 
+alt-nodejs19-nodejs-19.9.0-10
+, for CloudLinux OS 7, 8, and 9.
+To update:
+CloudLinux OS 7: 
+yum clean all && yum update 'alt-nodejs10*' 'alt-nodejs19*'
+CloudLinux OS 8, 9: 
+dnf clean all && dnf upgrade 'alt-nodejs10*' 'alt-nodejs19*'
+Then restart your Node.js applications.
+Oct 
+23
+, 
+2026
+ - 
+04:27
+ UTC
+Update
+ - 
+Fixed alt-nodejs 16, 18 and 20 and ea-nodejs22 are now in the stable repositories
+- alt-nodejs16: 
+alt-nodejs16-nodejs-16.20.2-33
+, for CloudLinux OS 7, 8 and 9
+- alt-nodejs18: 
+alt-nodejs18-nodejs-18.20.8-26
+, for CloudLinux OS 7, 7 Hybrid, 8 and 9
+- alt-nodejs20: 
+alt-nodejs20-nodejs-20.20.2-15
+, for CloudLinux OS 7, 8 and 9
+- ea-nodejs22 (cPanel EasyApache 4): 
+ea-nodejs22-22.23.4-1.el8.cloudlinux
+, for CloudLinux OS 8
+To update:
+CloudLinux OS 7: 
+yum clean all && yum update 'alt-nodejs16*' 'alt-nodejs18*' 'alt-nodejs20*'
+CloudLinux OS 8, 9: 
+dnf clean all && dnf upgrade 'alt-nodejs16*' 'alt-nodejs18*' 'alt-nodejs20*'
+cPanel servers on CloudLinux OS 8: 
+dnf upgrade ea-nodejs22
+Then restart your Node.js applications. For alt-nodejs 16, 18 and 20 the CVE IDs are listed in the package changelog.
+Fixed builds are now available for alt-nodejs 12, 14, 16, 18, 20, 22, 24 and 26 on CloudLinux OS 8 and 9, and alt-nodejs 12, 14, 16, 18 and 20 on CloudLinux OS 7. alt-nodejs22 for CloudLinux OS 7 has been released and is reaching the repositories now.
+Fixed builds for other older versions, such as alt-nodejs10 and alt-nodejs19, are not released. We will post here if that changes.
+This incident covers alt-nodejs and ea-nodejs22. The operating system's own nodejs packages will be updated when the fix arrives through the regular RHEL / AlmaLinux updates.
+Oct 
+22
+, 
+2026
+ - 
+17:46
+ UTC
+Update
+ - 
+Fixed alt-nodejs 12 and 14 are now in the stable repositories
+- alt-nodejs12: 
+alt-nodejs12-nodejs-12.22.12-35
+, for CloudLinux OS 7, 8 and 9
+- alt-nodejs14: 
+alt-nodejs14-nodejs-14.21.3-37
+, for CloudLinux OS 7, 8 and 9
+- alt-nodejs24 is now also in stable for CloudLinux OS 10
+To update:
+CloudLinux OS 7: 
+yum clean all && yum update 'alt-nodejs12*' 'alt-nodejs14*'
+CloudLinux OS 8, 9: 
+dnf clean all && dnf upgrade 'alt-nodejs12*' 'alt-nodejs14*'
+Then restart your Node.js applications.
+For these versions the CVE IDs are listed in the package changelog:
+rpm -q --changelog alt-nodejs14-nodejs | grep -E 'CVE-2026-'
+If you run your own mirror of our repositories, make sure it has synced since 14:50 UTC.
+Still in progress: alt-nodejs 16, 18 and 20, and ea-nodejs22 (cPanel).
+Oct 
+22
+, 
+2026
+ - 
+15:03
+ UTC
+Update
+ - 
+Fixed alt-nodejs 22, 24 and 26 are now in the stable repositories for CloudLinux OS 8 and 9
+They have moved from the gradual rollout to stable, so a regular update installs them:
+dnf clean all && dnf upgrade 'alt-nodejs22*' 'alt-nodejs24*' 'alt-nodejs26*'
+Then restart your Node.js applications so they run the updated version.
+To confirm, check the version, which should be 22.23.4, 24.22.1 or 26.12.1 or later:
+rpm -q alt-nodejs22-nodejs alt-nodejs24-nodejs alt-nodejs26-nodejs
+Older alt-nodejs versions:
+ fixed builds of alt-nodejs 12, 14, 16, 18 and 20 are being released, and we expect them for all CloudLinux OS versions by 16:00 UTC.
+Still in progress: ea-nodejs22 (cPanel) and alt-nodejs for CloudLinux OS 7.
+Oct 
+22
+, 
+2026
+ - 
+13:59
+ UTC
+Update
+ - 
+Fixed alt-nodejs 22, 24 and 26 are being released for CloudLinux OS 8 and 9
+- alt-nodejs22: 
+alt-nodejs22-nodejs-22.23.4-1
+- alt-nodejs24: 
+alt-nodejs24-nodejs-24.22.1-1
+- alt-nodejs26: 
+alt-nodejs26-nodejs-26.12.1-1
+They are reaching servers gradually, so 
+dnf upgrade
+ may not find them on your server yet. We will confirm here when they are available on all servers.
+To update:
+dnf clean all && dnf upgrade 'alt-nodejs22*' 'alt-nodejs24*' 'alt-nodejs26*'
+Then restart your Node.js applications so they run the updated version.
+To confirm, check the version, which should be 22.23.4, 24.22.1 or 26.12.1 or later:
+rpm -q alt-nodejs22-nodejs alt-nodejs24-nodejs alt-nodejs26-nodejs
+Still in progress: ea-nodejs22 (cPanel), CloudLinux OS 7, and older alt-nodejs versions. We will post them here as they become available.
+Oct 
+22
+, 
+2026
+ - 
+13:33
+ UTC
+Update
+ - 
+Fixed builds are being built now for CloudLinux OS 7, 8 and 9 and TuxCare 7, 8, 9 and 10:
+- Node.js 22: version 22.23.4
+- Node.js 24: version 24.22.1
+- Node.js 26: version 26.12.1
+- ea-nodejs22 (cPanel): version 22.23.4
+These are the same versions as the Node.js project's fixed releases. We expect them in the stable repositories in about 2 hours, by 12:40 UTC.
+Builds for older alt-nodejs versions are also in progress, and we will post their status here separately. We will post the exact package versions and the update steps once the packages are available in the repositories.
+Oct 
+22
+, 
+2026
+ - 
+10:49
+ UTC
+Identified
+ - 
+On 21 October 2026 the Node.js project published security releases for the 22.x, 24.x and 26.x lines (v22.23.4, v24.22.1, v26.12.1). They fix 10 vulnerabilities, and the highest severity is High. The most serious one, CVE-2026-111497, is an out-of-bounds write in the Brotli decoder that can allow remote code execution. The Node.js project notes that end-of-life versions are always affected when a security release occurs.
+We are aware and are building updated alt-nodejs packages for CloudLinux OS, including the end-of-life Node.js versions we ship. They are not released yet. We will post an update here as soon as fixed packages are available in the repositories, with steps to install them.
+Upstream advisory: 
+Node.js October 2026 security releases
+Oct 
+22
+, 
+2026
+ - 
+10:28
+ UTC
+×
+ Subscribe to Incident 
+ Subscribe to updates for 
+Node.js security releases, October 2026: CVE-2026-111497 and 9 other CVEs
+ via email. You'll receive email notifications when incidents are updated.
+VIA EMAIL:
+Subscribe to Incident
+ This site is prot

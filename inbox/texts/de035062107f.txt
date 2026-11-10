@@ -1,0 +1,91 @@
+URL: https://www.chainalysis.com/blog/security-incident-october-30/
+
+Updated Nov 7: Chainalysis Security Incident Information - Chainalysis
+Company News
+Updated Nov 7: Chainalysis Security Incident Information
+October 30, 2026
+|
+Chainalysis Team
+Saturday Nov 7, 2026 1:50 P.M. EST Update:
+Reactor, KYT (UI and API) and Address Screening are now back online. We’ve restored these products with enhanced security measures, and we’re asking customers to reconnect in a specific way to keep accounts and data protected. We’re sending our customers an email with instructions. We know this week has been difficult, and we appreciate your patience. We’re here to help 24/7. If you’re having trouble, please contact support.
+Friday Nov 6, 2026 3:30 A.M. EST Update: 
+We have begun restoring access to KYT and Address Screening through a phased approach, with additional customers expected to regain access over the next several hours. We are proceeding carefully, monitoring each phase and validating our enhanced security controls to ensure services are brought back online safely.
+As we confirm that each phase is operating as expected, we will expand access to all remaining customers.
+To help us facilitate the restoration of your access, please take the following steps:
+Submit your trusted IP addresses: If you have not already done so, please send your trusted IP addresses for our allowlist to 
+[email protected]
+ or to your Chainalysis account team.
+Prepare to reset credentials: Once access is granted, all users will be required to reset their passwords and rotate API keys, as applicable, before registering transactions.
+In parallel, we are continuing to work around the clock with our external security experts to harden our systems and safely restore access to Reactor and Data Solutions. We will provide further updates as our restoration efforts progress.
+We recognize the disruption this incident has caused and appreciate your continued patience and partnership as we work to restore our services safely.
+Wednesday Nov 4, 2026  11:00 P.M. EST Update: 
+On Monday, we discovered certain customer information including names, usernames, password hashes and live tokens for all Chainalysis users were exposed to a malicious actor. While we investigated, we removed access to Reactor and Data Solutions. At this time we continue to have no evidence that any investigations data has been accessed or Chainalysis attribution data has been manipulated.
+Recognizing the importance of our compliance transaction monitoring products to our customers’ businesses, we implemented additional proactive monitoring systems for unusual activity. Today, we discovered abnormal activity and took KYT (the user interface and API) offline alongside other address screening products and the login page. We are directly notifying customers whose KYT accounts appear to have been accessed without authorization.
+Next Steps
+We intend to begin restoring access to KYT and Address Screening tomorrow. Contact 
+[email protected]
+ or your Chainalysis account team with trusted IP addresses for our allowlist. We will then grant access for users to reset their passwords and rotate API keys to register transactions.
+We are working around the clock to harden our systems and bring Reactor and Data Solutions back online. We will require additional protections to access accounts, including that every user will have to reset passwords and rotate API keys as appropriate. We will communicate these changes as necessary.
+We know how business critical these services are to our customers, and we are working expeditiously alongside our outside experts to restore them securely.
+Wednesday Nov 4, 2026  10:30 A.M. EST Update: 
+We have been actively monitoring our transaction screening products for suspicious activity. Due to abnormal activity, we have taken KYT (the user interface and API) offline alongside other address screening products and the login page. Reactor, Data Solutions, and Chain (Beta) are still offline while our team completes critical work. We are working to bring all of our products online as soon as possible.
+For customers who just received an email from us instructing you to reset your Chainalysis password, resetting this password won’t be possible right now. We still encourage you, where necessary, to reset your password on other systems where you may be reusing credentials.
+Wednesday Nov 4, 2026 9:50 A.M. EST Update: 
+Our teams are working to respond to ongoing cyber threats, ensure the safety of our systems, and bring offline products back online. We are sending the email below to certain customers whose Chainalysis passwords were exposed in an “on-path attack.”
+Our investigation is ongoing, and we will update this blog as new information becomes available.
+Dear customer,
+Chainalysis teams are working around the clock to investigate an ongoing multifront cyberattack, review the security of our systems, and bring our products back online. Today, we confirmed that as a part of this incident, an “on-path attack” exposed a subset of customer passwords, including yours. This attack vector has been contained and remediated. 
+Given this sensitive and urgent information, we are requiring you to reset your password. 
+We are locking your Chainalysis account as a precaution. 
+Please reset your password through the usual Chainalysis login page before signing in again:
+For your security, go directly to the Chainalysis login page noted above rather than clicking links in any password-reset emails you may have received. If you need help regaining access, please contact 
+[email protected]
+.
+As of this time, we have no evidence that your account has been improperly accessed. 
+If you used this same password for any other non-Chainalysis service, we recommend resetting it there as well and choosing a unique password.
+Our investigation is ongoing, and we will share relevant updates as we have them.
+Sincerely,
+Your Chainalysis Team
+Monday Nov 2, 2026 Update: 
+Chainalysis continues to respond to ongoing cyber threats associated with the security incident described below.
+Out of an abundance of caution, we have proactively taken certain products offline, including Reactor and Data Solutions, and are working alongside our third-party cybersecurity experts to complete additional security assessments before restoring service.
+Recognizing the importance of our compliance transaction monitoring products to our customers’ businesses, particularly their role in detecting money laundering across the ecosystem, we have made the decision based on information available to date to continue operating those products while we conduct our investigation. We are closely monitoring these systems for unusual activity and will keep you apprised of new information so you can make informed decisions for your business and operations.
+As our investigation continues, we recommend that our customers continue to follow their organization’s established security protocols, remain vigilant for suspicious communications or activity, and promptly report any concerns to your IT or security team. We will share relevant updates and any recommended additional actions as more information becomes available.
+Friday Oct 30, 2026 Update: 
+Chainalysis was recently the target of a cybersecurity incident, similar to many other tech platforms in recent weeks. Based on the investigation to date, we have found no evidence of unauthorized access to investigation content, authentication credentials, or session tokens.
+Our team is working with leading cybersecurity experts to investigate this activity and harden our systems. We’ve proactively notified all of our customers and will keep them updated as our work progresses. This security incident is not related to the recent crypto theft at Binance.
+Below, you can find the full text of the email that was sent to impacted customers.
+Chainalysis is committed to the security of our platform and the protection of our customers’ data. We are seeing an industry-wide rise in AI-driven cyberattacks, and we are taking a whole-of-company approach to make sure our security posture meets the evolving environment and our customers’ expectations. In keeping with our commitment to transparency, we are writing to inform you of a security incident affecting your organization. Some of you have been previously notified and we want to provide an update on our work. 
+Please note that this security incident is unrelated to the recent crypto theft involving Binance. 
+What happened
+This month, Chainalysis detected an external actor using offensive agentic techniques to gain unauthorized access to Chainalysis systems and internal tools. Our teams have been working around the clock to investigate unauthorized activity, patch vulnerabilities, and harden our systems. 
+Customer data impact
+Based on the evidence available to date, we have found no indication that these incidents resulted in the unauthorized access of investigation content (such as graphs, notes, or cases), transaction or query results, passwords in clear text, MFA secrets, or user session tokens.
+Some non-sensitive customer data, such as user IDs, full names, email addresses, and organization role labels for users provisioned on our platform were accessed, including such information relating to your organization and users. We are in the process of determining the records for your organization that were accessed and will provide a detailed breakdown as soon as that analysis is complete.
+What we have done
+We have engaged world-class third-party cybersecurity experts and are using sophisticated large language models to support a broader review of our platform’s security and strengthen our defenses. This work extends beyond the exploited vulnerabilities to enhance our security posture across the platform.  
+What you can do
+Chainalysis users should continue to be hyper-vigilant of unexpected password reset requests or authentication prompts. If your organization has not yet enabled two-factor authentication, we strongly recommend doing so. Your Chainalysis account manager can help you complete that process.
+What happens next
+We will provide you with updates relevant to your organization as our investigation progresses. 
+We take the security of your data seriously and regret that this incident occurred.
+Respectfully,
+Your Chainalysis Team
+Chainalysis
+Share
+Recent posts
+Company News
+Chainalysis Supports Arc with Automatic Token Support
+ September 16, 2026 
+Company News
+Chainalysis Supports HyperEVM with Automatic Token Support
+ September 3, 2026 
+Company News
+Penlink Plugs Into Trusted Blockchain Data With Chainalysis
+ August 6, 2026 
+Submit
+Type above and press 
+Enter
+ to search. Press 
+Esc
+ to cancel.

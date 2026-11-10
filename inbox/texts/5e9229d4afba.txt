@@ -1,0 +1,251 @@
+URL: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet
+
+Session Management - OWASP Cheat Sheet Series
+ Skip to content
+Session Management Cheat Sheet
+¶
+Introduction
+¶
+Web Authentication, Session Management, and Access Control
+:
+A web session is a sequence of network HTTP request and response transactions associated with the same user. Modern and complex web applications require the retaining of information or status about each user for the duration of multiple requests. Therefore, sessions provide the ability to establish variables – such as access rights and localization settings – which will apply to each and every interaction a user has with the web application for the duration of the session.
+Web applications can create sessions to keep track of anonymous users after the very first user request. An example would be maintaining the user language preference. Additionally, web applications will make use of sessions once the user has authenticated. This ensures the ability to identify the user on any subsequent requests as well as being able to apply security access controls, authorized access to the user private data, and to increase the usability of the application. Therefore, current web applications can provide session capabilities both pre and post authentication.
+Once an authenticated session has been established, the session ID (or token) is temporarily equivalent to the strongest authentication method used by the application, such as username and password, passphrases, one-time passwords (OTP), client-based digital certificates, smartcards, or biometrics (such as fingerprint or eye retina). See the OWASP 
+Authentication Cheat Sheet
+.
+HTTP is a stateless protocol (
+RFC2616
+ section 5), where each request and response pair is independent of other web interactions. Therefore, in order to introduce the concept of a session, it is required to implement session management capabilities that link both the authentication and access control (or authorization) modules commonly available in web applications:
+The session ID or token binds the user authentication credentials (in the form of a user session) to the user HTTP traffic and the appropriate access controls enforced by the web application. The complexity of these three components (authentication, session management, and access control) in modern web applications, plus the fact that its implementation and binding resides on the web developer's hands (as web development frameworks do not provide strict relationships between these modules), makes the implementation of a secure session management module very challenging.
+The disclosure, capture, prediction, brute force, or fixation of the session ID will lead to session hijacking (or sidejacking) attacks, where an attacker is able to fully impersonate a victim user in the web application. Attackers can perform two types of session hijacking attacks, targeted or generic. In a targeted attack, the attacker's goal is to impersonate a specific (or privileged) web application victim user. For generic attacks, the attacker's goal is to impersonate (or get access as) any valid or legitimate user in the web application.
+Session ID Properties
+¶
+In order to keep the authenticated state and track the users progress within the web application, applications provide users with a 
+session identifier
+ (session ID or token) that is assigned at session creation time, and is shared and exchanged by the user and the web application for the duration of the session (it is sent on every HTTP request). The session ID is a 
+name=value
+ pair.
+With the goal of implementing secure session IDs, the generation of identifiers (IDs or tokens) must meet the following properties.
+Session ID Name Fingerprinting
+¶
+The name used by the session ID should not be extremely descriptive nor offer unnecessary details about the purpose and meaning of the ID.
+The session ID names used by the most common web application development frameworks 
+can be easily fingerprinted
+, such as 
+PHPSESSID
+ (PHP), 
+JSESSIONID
+ (J2EE), 
+CFID
+ & 
+CFTOKEN
+ (ColdFusion), 
+ASP.NET_SessionId
+ (ASP .NET), etc. Therefore, the session ID name can disclose the technologies and programming languages used by the web application.
+It is recommended to change the default session ID name of the web development framework to a generic name, such as 
+id
+.
+Session ID Entropy
+¶
+Session identifiers must have at least 
+64 bits
+ of entropy to prevent brute-force session guessing attacks. Entropy refers to the amount of randomness or unpredictability in a value. Each “bit” of entropy doubles the number of possible outcomes, meaning a session ID with 64 bits of entropy can have 
+2^64
+ possible values.
+A strong 
+CSPRNG
+ (Cryptographically Secure Pseudorandom Number Generator) must be used to generate session IDs. This ensures the generated values are evenly distributed among all possible values. Otherwise, attackers may be able to use statistical analysis techniques to identify patterns in how the session IDs are created, effectively reducing the entropy and allowing the attacker to guess or predict valid session IDs more easily.
+NOTE
+:
+The expected time for an attacker to brute-force a valid session ID depends on factors such as the number of bits of entropy, the number of active sessions, session expiration times, and the attacker's guessing rate.
+If a web application generates session IDs with 64 bits of entropy, an attacker can expect to spend approximately 585 years to successfully guess a valid session ID, assuming the attacker can try 10,000 guesses per second with 100,000 valid simultaneous sessions available in the application.
+Further analysis of the expected time for an attacker to brute-force session identifiers is available 
+here
+.
+Session ID Length
+¶
+As mentioned in the previous 
+Session ID Entropy
+ section, a primary security requirement for session IDs is that they contain at least 
+64 bits
+ of entropy to prevent brute-force guessing attacks. Although session ID length matters, it's the entropy that ensures security. The session ID must be long enough to encode sufficient entropy, preventing brute force attacks where an attacker guesses valid session IDs.
+Different encoding methods can result in different lengths for the same amount of entropy. Session IDs are often represented using hexadecimal encoding. When using hexadecimal encoding, a session ID must be at least 16 hexadecimal characters long to achieve the required 64 bits of entropy. When using different encodings (e.g. Base64 or 
+Microsoft's encoding for ASP.NET session IDs
+) a different number of characters may be required to represent the minimum 64 bits of entropy.
+It’s important to note that if any part of the session ID is fixed or predictable, the effective entropy is reduced, and the length may need to be increased to compensate. For example, if half of a 16-character hexadecimal session ID is fixed, only the remaining 8 characters are random, providing just 32 bits of entropy — which is insufficient for strong security. To maintain security, ensure that the entire session ID is randomly generated and unpredictable, or increase the overall length if parts of the ID are not random.
+NOTE
+:
+More information about the relationship between Session ID Length and Session ID Entropy is available 
+here
+.
+Session ID Content (or Value)
+¶
+The session ID content (or value) must be meaningless to prevent information disclosure attacks, where an attacker is able to decode the contents of the ID and extract details of the user, the session, or the inner workings of the web application.
+The session ID must simply be an identifier on the client side, and its value must never include sensitive information or Personally Identifiable Information (PII). To read more about PII, refer to 
+Wikipedia
+ or this 
+post
+.
+The meaning and business or application logic associated with the session ID must be stored on the server side, and specifically, in session objects or in a session management database or repository.
+The stored information can include the client IP address, User-Agent, email, username, user ID, role, privilege level, access rights, language preferences, account ID, current state, last login, session timeouts, and other internal session details. If the session objects and properties contain sensitive information, such as credit card numbers, it is required to duly encrypt and protect the session management repository.
+It is recommended to use the session ID created by your language or framework. If you need to create your own sessionID, use a cryptographically secure pseudorandom number generator (CSPRNG) with a size of at least 128 bits and ensure that each sessionID is unique.
+Session Management Implementation
+¶
+The session management implementation defines the exchange mechanism that will be used between the user and the web application to share and continuously exchange the session ID. There are multiple mechanisms available in HTTP to maintain session state within web applications, such as cookies (standard HTTP header), URL parameters (URL rewriting – 
+RFC2396
+), URL arguments on GET requests, body arguments on POST requests, such as hidden form fields (HTML forms), or proprietary HTTP headers.
+The preferred session ID exchange mechanism should allow defining advanced token properties, such as the token expiration date and time, or granular usage constraints. This is one of the reasons why cookies (RFCs 
+2109
+ & 
+2965
+ & 
+6265
+) are one of the most extensively used session ID exchange mechanisms, offering advanced capabilities not available in other methods.
+The usage of specific session ID exchange mechanisms, such as those where the ID is included in the URL, might disclose the session ID (in web links and logs, web browser history and bookmarks, the Referer header or search engines), as well as facilitate other attacks, such as the manipulation of the ID or 
+session fixation attacks
+.
+Built-in Session Management Implementations
+¶
+Web development frameworks, such as J2EE, ASP .NET, PHP, and others, provide their own session management features and associated implementation. It is recommended to use these built-in frameworks versus building a home made one from scratch, as they are used worldwide on multiple web environments and have been tested by the web application security and development communities over time.
+However, be advised that these frameworks have also presented vulnerabilities and weaknesses in the past, so it is always recommended to use the latest version available, that potentially fixes all the well-known vulnerabilities, as well as review and change the default configuration to enhance its security by following the recommendations described along this document.
+The storage capabilities or repository used by the session management mechanism to temporarily save the session IDs must be secure, protecting the session IDs against local or remote accidental disclosure or unauthorized access.
+Server-Side Session Token Storage
+¶
+Storing random session tokens verbatim can be acceptable in a tightly controlled session store, but anyone who can read it can reuse unexpired tokens. High entropy protects against guessing; it does not protect exposed tokens. If read-only disclosure of the store is in your threat model, store a one-way verifier instead. 
+RFC 6819 recommends token hashes
+ for the corresponding OAuth access-token database threat.
+One approach is an 
+identifier and secret verifier split
+. The cookie carries both values; the server stores the public lookup identifier and the full SHA-256 hash of the verifier. On every request, look up the session by identifier, hash the supplied verifier, and compare it with the stored hash using a constant-time comparison. Never accept the identifier alone as proof of authentication. Use a consistent verifier representation when creating and validating the session. A fast hash is sufficient for these random verifiers; password hashing algorithms are unnecessary.
+Generate the token, or the secret verifier in the split design, using a CSPRNG with at least 128 bits of entropy; prefer 160 bits or more, following 
+OAuth's guidance for generated credentials
+. Generate the verifier independently of the identifier; the public identifier does not count toward the verifier's entropy.
+One-way storage protects against read-only disclosure of session records and backups that contain only verifier hashes. It does not protect against stolen cookies, modification of session records, or compromise of the application. Do not persist the raw verifier alongside its hash.
+In either design, restrict access to the session store and encrypt backups and replicas at rest. Follow the 
+session logging protections
+ and 
+session renewal guidance
+.
+Used vs. Accepted Session ID Exchange Mechanisms
+¶
+A web application should make use of cookies for session ID exchange management. If a user submits a session ID through a different exchange mechanism, such as a URL parameter, the web application should avoid accepting it as part of a defensive strategy to stop session fixation.
+NOTE
+:
+Even if a web application makes use of cookies as its default session ID exchange mechanism, it might accept other exchange mechanisms too.
+It is therefore required to confirm via thorough testing all the different mechanisms currently accepted by the web application when processing and managing session IDs, and limit the accepted session ID tracking mechanisms to just cookies.
+In the past, some web applications used URL parameters, or even switched from cookies to URL parameters (via automatic URL rewriting), if certain conditions are met (for example, the identification of web clients without support for cookies or not accepting cookies due to user privacy concerns).
+Transport Layer Security
+¶
+In order to protect the session ID exchange from active eavesdropping and passive disclosure in the network traffic, it is essential to use an encrypted HTTPS (TLS) connection for the entire web session, not only for the authentication process where the user credentials are exchanged. This may be mitigated by 
+HTTP Strict Transport Security (HSTS)
+ for a client that supports it.
+Additionally, the 
+Secure
+cookie attribute
+ must be used to ensure the session ID is only exchanged through an encrypted channel. The usage of an encrypted communication channel also protects the session against some session fixation attacks where the attacker is able to intercept and manipulate the web traffic to inject (or fix) the session ID on the victim's web browser.
+The following set of best practices are focused on protecting the session ID (specifically when cookies are used) and helping with the integration of HTTPS within the web application:
+Do not switch a given session from HTTP to HTTPS, or vice-versa, as this will disclose the session ID in the clear through the network.
+When redirecting to HTTPS, ensure that the cookie is set or regenerated 
+after
+ the redirect has occurred.
+Do not mix encrypted and unencrypted contents (HTML pages, images, CSS, JavaScript files, etc) in the same page, or from the same domain.
+Where possible, avoid offering public unencrypted contents and private encrypted contents from the same host. Where insecure content is required, consider hosting this on a separate insecure domain.
+Implement 
+HTTP Strict Transport Security (HSTS)
+ to enforce HTTPS connections.
+See the OWASP 
+Transport Layer Security Cheat Sheet
+ for more general guidance on implementing TLS securely.
+It is important to emphasize that TLS does not protect against session ID prediction, brute force, client-side tampering or fixation; however, it does provide effective protection against an attacker intercepting or stealing session IDs through a man in the middle attack.
+Cookies
+¶
+The session ID exchange mechanism based on cookies provides multiple security features in the form of cookie attributes that can be used to protect the exchange of the session ID:
+Secure Attribute
+¶
+The 
+Secure
+ cookie attribute instructs web browsers to only send the cookie through an encrypted HTTPS (SSL/TLS) connection. This session protection mechanism is mandatory to prevent the disclosure of the session ID through MitM (Man-in-the-Middle) attacks. It ensures that an attacker cannot simply capture the session ID from web browser traffic.
+Forcing the web application to only use HTTPS for its communication (even when port TCP/80, HTTP, is closed in the web application host) does not protect against session ID disclosure if the 
+Secure
+ cookie has not been set - the web browser can be deceived to disclose the session ID over an unencrypted HTTP connection. The attacker can intercept and manipulate the victim user traffic and inject an HTTP unencrypted reference to the web application that will force the web browser to submit the session ID in the clear.
+See also: 
+SecureFlag
+HttpOnly Attribute
+¶
+The 
+HttpOnly
+ cookie attribute instructs web browsers not to allow scripts (e.g. JavaScript or VBscript) an ability to access the cookies via the DOM document.cookie object. This session ID protection is mandatory to prevent session ID stealing through XSS attacks. However, if an XSS attack is combined with a CSRF attack, the requests sent to the web application will include the session cookie, as the browser always includes the cookies when sending requests. The 
+HttpOnly
+ cookie only protects the confidentiality of the cookie; the attacker cannot use it offline, outside of the context of an XSS attack.
+See the OWASP 
+XSS (Cross Site Scripting) Prevention Cheat Sheet
+.
+See also: 
+HttpOnly
+SameSite Attribute
+¶
+The 
+SameSite
+ attribute controls whether browsers send a cookie with cross-site requests. 
+SameSite=Strict
+ excludes cross-site requests, while 
+SameSite=Lax
+ permits top-level cross-site navigations that use safe HTTP methods. Treat 
+SameSite
+ as 
+defense in depth against CSRF
+, not as a replacement for a CSRF token. Session cookies must explicitly set 
+SameSite=Strict
+ (preferred) or 
+SameSite=Lax
+. Never use 
+SameSite=None
+ without 
+Secure
+, and do not rely on the browser-default value, which varies across browsers and versions.
+See also: 
+SameSite
+Cookie Name Prefixes
+¶
+Use cookie name prefixes to bind cookies to security properties at the browser level (
+RFC 6265bis §4.1.3
+):
+__Host-
+ — the cookie must be set with 
+Secure
+, must not have a 
+Domain
+ attribute, and must use 
+Path=/
+. Prevents subdomain forgery and HTTPS downgrade attacks. 
+Recommended for session IDs.
+__Secure-
+ — the cookie must be set with 
+Secure
+. Use only when subdomain sharing is required.
+Example:
+Set-Cookie: __Host-SessionID=<value>; Secure; HttpOnly; SameSite=Strict; Path=/
+Domain and Path Attributes
+¶
+The 
+Domain
+ cookie attribute
+ instructs web browsers to only send the cookie to the specified domain and all subdomains. If the attribute is not set, by default the cookie will only be sent to the origin server. The 
+Path
+ cookie attribute
+ instructs web browsers to only send the cookie to the specified directory or subdirectories (or paths or resources) within the web application. If the attribute is not set, by default the cookie will only be sent for the directory (or path) of the resource requested and setting the cookie.
+It is recommended to use a narrow or restricted scope for these two attributes. In this way, the 
+Domain
+ attribute should not be set (restricting the cookie just to the origin server) and the 
+Path
+ attribute should be set as restrictive as possible to the web application path that makes use of the session ID.
+Setting the 
+Domain
+ attribute to a too permissive value, such as 
+example.com
+ allows an attacker to launch attacks on the session IDs between different hosts and web applications belonging to the same domain, known as cross-subdomain cookies. For example, vulnerabilities in 
+www.example.com
+ might allow an attacker to get access to the session IDs from 
+secure.example.com
+.
+Additionally, it is recommended not to mix web applicati
