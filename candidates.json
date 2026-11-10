@@ -7956,53 +7956,6 @@
    ],
    "ind": "公共機関",
    "pendingReason": "警視庁自身の公式発表の本文が見つからず、報道のみ（inboxの公式欄は報道・江戸川区・アララの資料）。警視庁の公式ページ未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
-   "id": "resona-kansai-minato-smbccf-2611",
-   "co": "りそな銀行・関西みらい銀行・みなと銀行（解約済みカードローン／フリーローンの保証提携先 SMBCコンシューマーファイナンス）",
-   "date": "2026-11-06",
-   "announced": "2026-11-06",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": 5935,
-   "label": "計5,935件（りそな139・関西みらい5,793・みなと3）",
-   "st": "c",
-   "items": [
-    "name",
-    "birth",
-    "addr",
-    "tel",
-    "mail",
-    "work",
-    "deal",
-    "doc"
-   ],
-   "itemsText": "氏名、性別、生年月日、住所、電話番号、メールアドレス、運転免許証番号、勤務先情報（電話番号・年収等）、保証契約情報（報道による）",
-   "notIncl": "本人確認書類の画像、各行システムへの侵入",
-   "who": [
-    "cust"
-   ],
-   "sum": "SMBCコンシューマーファイナンスの保証業務システムへの不正アクセスに伴い、3行の解約済みカードローン・フリーローン契約者の情報が含まれていたと各行が公表（報道による）。",
-   "status": "ongoing",
-   "statusText": "2026年11月6日の公表（報道ベース）。",
-   "resp": "報道によれば、SMBCコンシューマーファイナンスの専用窓口を案内。",
-   "official": [
-    [
-     "りそなホールディングス ニュースリリース（2026/11/6）",
-     "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026/files/20261106_1k.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/resona_3banks_smbc_consumer_finance_5935_leaked/"
-    ]
-   ],
-   "ind": "金融・保険",
-   "pendingReason": "公式PDFが error:http403 で取得不可、WebFetchも不可。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }
