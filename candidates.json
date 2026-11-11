@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7956,6 +7956,159 @@
    ],
    "ind": "公共機関",
    "pendingReason": "警視庁自身の公式発表の本文が見つからず、報道のみ（inboxの公式欄は報道・江戸川区・アララの資料）。警視庁の公式ページ未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "biccamera-b2b-form-2611",
+   "co": "株式会社ビックカメラ（法人専用ビックカメラ・ドットコム 法人顧客向け問い合わせフォーム）",
+   "date": "2026-11-10",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 133039,
+   "label": "133,039件",
+   "st": "c",
+   "items": [
+    "name",
+    "work",
+    "mail"
+   ],
+   "itemsText": "企業名、部署名、担当者氏名、メールアドレスの全部またはいずれか",
+   "notIncl": "",
+   "sum": "報道によると、法人顧客向けお問い合わせフォームの設定不備を狙った不正アクセス（11月5〜6日）で計133,039件が漏えい。アララ経由の事案とは別。",
+   "status": "ongoing",
+   "statusText": "報道または一部の公式発表の確認にとどまる。",
+   "resp": "",
+   "official": [
+    [
+     "お知らせ（ビックカメラ、2026/11/10）",
+     "https://www.biccamera.co.jp/pdf/news/2026/20261110.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/20261110_biccamera_b2b_contact_form_133039_data_breach/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表PDFを取得できず（status error:ReadTimeout）、報道の件数・項目を公式本文で照合できていない。自動取得不可。manual/ に公式文面を貼れば反映できる",
+   "who": [
+    "biz"
+   ]
+  },
+  {
+   "id": "aeon-smarttech-gift-2611",
+   "co": "イオンスマートテクノロジー株式会社（イオングループ「ギフト承りシステム」）",
+   "date": "2026-11-10",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 414,
+   "label": "414件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel"
+   ],
+   "itemsText": "氏名、住所、電話番号（2024年度「イオンの夏ギフト」承り情報）",
+   "notIncl": "",
+   "sum": "報道によると、イオングループ各社のWebサイトへの不正アクセスにより、4店舗の2024年度「イオンの夏ギフト」承り情報414件が流出。",
+   "status": "ongoing",
+   "statusText": "報道または一部の公式発表の確認にとどまる。",
+   "resp": "",
+   "official": [
+    [
+     "イオングループ各社の一部Ｗｅｂサイトへの第三者による不正アクセスに伴う個人情報の流出に関するお詫びとお知らせ（イオン、2026/11/10）",
+     "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/11/20261110_1.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/aeon-summer-gift-414-customer-data-leak/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "イオン株式会社の公式発表（2026/11/10）で個人情報の流出が判明したことは確認したが、件数・項目はイオンスマートテクノロジーの個別ページ（https://www.aeon-st.co.jp/news/20261110_security-notice/）に記載されており、本文を取得できず未照合。manual/ に同ページの公式文面を貼れば反映できる",
+   "who": [
+    "cust"
+   ]
+  },
+  {
+   "id": "brangista-matomaru-ec-2611",
+   "co": "株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）",
+   "date": "2026-11-09",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "deal"
+   ],
+   "itemsText": "氏名、住所、注文商品名",
+   "notIncl": "",
+   "sum": "報道によると、サーバー上で注文情報を照会する不審なスクリプトが見つかり、Yahoo!ショッピング・Qoo10の購入者に実際の注文情報を含む偽返金メールが届いた。",
+   "status": "ongoing",
+   "statusText": "報道または一部の公式発表の確認にとどまる。",
+   "resp": "",
+   "official": [
+    [
+     "お知らせ（ブランジスタソリューション、2026/11/9）",
+     "https://www.ec-tencho.jp/news/sub_news_view.html?code=internet&tid=b0000835"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ec-tencho-suspicious-script-refund-line-order-data-20261109/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式発表のページを取得できず（status error:SSLError）、報道を公式本文で照合できていない。自動取得不可。manual/ に公式文面を貼れば反映できる",
+   "who": [
+    "cust"
+   ]
+  },
+  {
+   "id": "palma-web-2611",
+   "co": "株式会社パルマ（Webサービス）",
+   "date": "2026-11-10",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "Webサービスへの不正アクセスの痕跡を確認し、外部専門機関と情報漏えいの有無を調査中。",
+   "status": "ongoing",
+   "statusText": "報道または一部の公式発表の確認にとどまる。",
+   "resp": "",
+   "official": [
+    [
+     "当社Webサービスへの不正アクセスに関するお知らせ（パルマ、2026/11/10）",
+     "https://www.palma.jp/news/2794/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/palma-web-service-unauthorized-access-20261110/"
+    ]
+   ],
+   "ind": "建設・不動産",
+   "pendingReason": "公式発表(2026/11/10)は不正アクセスの痕跡と漏えいの有無の調査中のみで、漏えいの可能性や対象情報の記載がない。続報待ち"
   }
  ]
 }
