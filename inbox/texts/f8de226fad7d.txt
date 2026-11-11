@@ -1,0 +1,66 @@
+URL: https://wpscan.com/vulnerability/3a3556f0-fc36-4f68-b826-406a7b4c3f9e/
+
+WP Duplicate <= 1.1.11 – Unauthenticated Arbitrary File Upload via Authentication Bypass | CVE 2026-123751 | Plugin Vulnerabilities
+Skip to content
+Affects Plugins
+ local-sync 
+ No known fix 
+References
+ CVE 
+CVE-2026-123751
+Miscellaneous
+ Original Researcher 
+ Mike Gozdiskowski 
+ Submitter 
+ Mike Gozdiskowski 
+ Verified 
+ Yes 
+ WPVDB ID 
+3a3556f0-fc36-4f68-b826-406a7b4c3f9e
+Timeline
+ Publicly Published 
+ 2026-11-06 
+(about 4 days ago)
+ Added 
+ 2026-11-06 
+(about 4 days ago)
+ Last Updated 
+ 2026-11-10 
+(about 29 minutes ago)
+Other
+ Published 
+ Title 
+ Published 
+ 2021-07-02
+ Title 
+ Workreap < 2.2.2 - Unauthenticated Upload Leading to Remote Code Execution 
+ Published 
+ 2025-05-01
+ Title 
+ Smart Framework <= Multiple Plugins - Authenticated (Subscriber+) Arbitrary File Upload 
+ Published 
+ 2024-07-03
+ Title 
+ IMGspider < 2.3.11 - Authenticated (Contributor+) Arbitrary File Upload via 'upload' 
+ Published 
+ 2014-08-01
+ Title 
+ Deep-Blue 1.9.2 - Arbitrary File Upload 
+ Published 
+ 2014-08-01
+ Title 
+ VideoWhisper Video Conference Integration 4.51 - Arbitrary File Upload 
+Subscribe
+Subscribed
+WPScan
+Join 30,466 other subscribers
+Sign me up
+ Have a WordPress.com account? 
+Log in now.
+WPScan
+View site in Reader
+Manage subscriptions
+Sign up
+Log in
+Report this content
+Collapse this bar

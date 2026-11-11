@@ -1,0 +1,3 @@
+URL: https://www.cve.org/CVERecord?id=CVE-2026-123751
+
+Common vulnerabilities and Exposures (CVE)
