@@ -7958,46 +7958,6 @@
    "pendingReason": "警視庁自身の公式発表の本文が見つからず、報道のみ（inboxの公式欄は報道・江戸川区・アララの資料）。警視庁の公式ページ未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "brangista-matomaru-ec-2611",
-   "co": "株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）",
-   "date": "2026-11-09",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "name",
-    "addr",
-    "deal"
-   ],
-   "itemsText": "氏名、住所、注文商品名",
-   "notIncl": "",
-   "sum": "報道によると、サーバー上で注文情報を照会する不審なスクリプトが見つかり、Yahoo!ショッピング・Qoo10の購入者に実際の注文情報を含む偽返金メールが届いた。",
-   "status": "ongoing",
-   "statusText": "報道または一部の公式発表の確認にとどまる。",
-   "resp": "",
-   "official": [
-    [
-     "お知らせ（ブランジスタソリューション、2026/11/9）",
-     "https://www.ec-tencho.jp/news/sub_news_view.html?code=internet&tid=b0000835"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/ec-tencho-suspicious-script-refund-line-order-data-20261109/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "公式発表のページを取得できず（status error:SSLError）、報道を公式本文で照合できていない。自動取得不可。manual/ に公式文面を貼れば反映できる",
-   "who": [
-    "cust"
-   ]
-  },
-  {
    "id": "palma-web-2611",
    "co": "株式会社パルマ（Webサービス）",
    "date": "2026-11-10",

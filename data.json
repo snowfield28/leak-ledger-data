@@ -48162,6 +48162,51 @@
    ],
    "ind": "小売・EC",
    "verified": "2026-11-12"
+  },
+  {
+   "id": "brangista-matomaru-ec-2611",
+   "co": "株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）",
+   "date": "2026-11-09",
+   "announced": "2026-11-09",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "deal"
+   ],
+   "itemsText": "氏名、住所、ご注文商品名",
+   "notIncl": "クレジットカード情報など決済情報（同社では保持していない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "利用店舗の購入者に実際の注文情報が記載された不審な返金案内メール（LINE登録を誘導）が届いたとの報告を受けて調査した結果、「まとまるEC店長」のサーバー内で注文情報を照会する不審なプログラム・スクリプトが見つかり、第三者による不正アクセスと情報漏えいの可能性が判明した。Yahoo!ショッピングとQoo10の注文で同様の事象が報告されている。",
+   "status": "ongoing",
+   "statusText": "2026年11月9日の第一報時点。不正アクセスの有無、侵入経路、注文情報へのアクセス状況を調査中で、件数は未公表。",
+   "resp": "不審なスクリプトと関連ファイルを証拠保全のため隔離。被害拡大防止と再発防止の対応を進める。利用店舗へ、不審メールのURLアクセス・LINE登録・個人情報入力をしないよう購入者への案内を依頼。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし（まとまるEC店長 カスタマーサポートセンター名義。最新情報は専用ページ）",
+    "src": "https://www.ec-tencho.jp/info/access/index.html"
+   },
+   "official": [
+    [
+     "【重要】第一報・不審なメールの発生および不正アクセスの可能性に関するお詫びとご報告（まとまるEC店長、2026/11/9）",
+     "https://www.ec-tencho.jp/info/access/index.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ec-tencho-suspicious-script-refund-line-order-data-20261109/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-12"
   }
  ],
  "statusLabels": {
@@ -48194,7 +48239,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 324,
+ "pendingCount": 323,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
