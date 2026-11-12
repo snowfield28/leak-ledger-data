@@ -7958,46 +7958,6 @@
    "pendingReason": "警視庁自身の公式発表の本文が見つからず、報道のみ（inboxの公式欄は報道・江戸川区・アララの資料）。警視庁の公式ページ未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "biccamera-b2b-form-2611",
-   "co": "株式会社ビックカメラ（法人専用ビックカメラ・ドットコム 法人顧客向け問い合わせフォーム）",
-   "date": "2026-11-10",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 133039,
-   "label": "133,039件",
-   "st": "c",
-   "items": [
-    "name",
-    "work",
-    "mail"
-   ],
-   "itemsText": "企業名、部署名、担当者氏名、メールアドレスの全部またはいずれか",
-   "notIncl": "",
-   "sum": "報道によると、法人顧客向けお問い合わせフォームの設定不備を狙った不正アクセス（11月5〜6日）で計133,039件が漏えい。アララ経由の事案とは別。",
-   "status": "ongoing",
-   "statusText": "報道または一部の公式発表の確認にとどまる。",
-   "resp": "",
-   "official": [
-    [
-     "お知らせ（ビックカメラ、2026/11/10）",
-     "https://www.biccamera.co.jp/pdf/news/2026/20261110.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/20261110_biccamera_b2b_contact_form_133039_data_breach/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "公式発表PDFを取得できず（status error:ReadTimeout）、報道の件数・項目を公式本文で照合できていない。自動取得不可。manual/ に公式文面を貼れば反映できる",
-   "who": [
-    "biz"
-   ]
-  },
-  {
    "id": "aeon-smarttech-gift-2611",
    "co": "イオンスマートテクノロジー株式会社（イオングループ「ギフト承りシステム」）",
    "date": "2026-11-10",
