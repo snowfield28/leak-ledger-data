@@ -7958,46 +7958,6 @@
    "pendingReason": "警視庁自身の公式発表の本文が見つからず、報道のみ（inboxの公式欄は報道・江戸川区・アララの資料）。警視庁の公式ページ未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "aeon-smarttech-gift-2611",
-   "co": "イオンスマートテクノロジー株式会社（イオングループ「ギフト承りシステム」）",
-   "date": "2026-11-10",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 414,
-   "label": "414件",
-   "st": "c",
-   "items": [
-    "name",
-    "addr",
-    "tel"
-   ],
-   "itemsText": "氏名、住所、電話番号（2024年度「イオンの夏ギフト」承り情報）",
-   "notIncl": "",
-   "sum": "報道によると、イオングループ各社のWebサイトへの不正アクセスにより、4店舗の2024年度「イオンの夏ギフト」承り情報414件が流出。",
-   "status": "ongoing",
-   "statusText": "報道または一部の公式発表の確認にとどまる。",
-   "resp": "",
-   "official": [
-    [
-     "イオングループ各社の一部Ｗｅｂサイトへの第三者による不正アクセスに伴う個人情報の流出に関するお詫びとお知らせ（イオン、2026/11/10）",
-     "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/11/20261110_1.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/aeon-summer-gift-414-customer-data-leak/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "pendingReason": "イオン株式会社の公式発表（2026/11/10）で個人情報の流出が判明したことは確認したが、件数・項目はイオンスマートテクノロジーの個別ページ（https://www.aeon-st.co.jp/news/20261110_security-notice/）に記載されており、本文を取得できず未照合。manual/ に同ページの公式文面を貼れば反映できる",
-   "who": [
-    "cust"
-   ]
-  },
-  {
    "id": "brangista-matomaru-ec-2611",
    "co": "株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）",
    "date": "2026-11-09",
