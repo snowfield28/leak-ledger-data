@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7989,6 +7989,163 @@
    ],
    "ind": "建設・不動産",
    "pendingReason": "公式発表(2026/11/10)は不正アクセスの痕跡と漏えいの有無の調査中のみで、漏えいの可能性や対象情報の記載がない。続報待ち"
+  },
+  {
+   "id": "smbcnikko-mochikabukai-2611",
+   "co": "SMBC日興証券株式会社（持株会管理システム）",
+   "announced": "2026-11-11",
+   "occurred": "2026-11-09",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 56487,
+   "label": "最大56,487人",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "acct"
+   ],
+   "itemsText": "報道による：持株会名、投資銘柄情報、会員識別番号、氏名、住所、配当金・諸税、持分残高、振替先口座情報（電話番号・メールは対象外）",
+   "who": [
+    "cust"
+   ],
+   "sum": "持株会事務受託業務の管理システムが11月9日に不正アクセスを受け、一部会員の個人情報が漏えいしたと報じられた（公式発表は未確認）。",
+   "status": "ongoing",
+   "statusText": "報道ベース。",
+   "resp": "報道によれば、アクセス遮断・サービス一時停止、対象持株会へ個別連絡。",
+   "official": [
+    [
+     "SMBC日興証券 ニュースリリース（2026/11/11）",
+     "https://www.smbcnikko.co.jp/news/release/2026/pdf/261111_01.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/smbc-nikko-stock-ownership-association-data-breach-2026/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "公式発表PDFが自動取得不可（http403）。manual/ に公式文面を貼れば反映できる",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "naha-city-online-shinsei-arara-2611",
+   "co": "那覇市（オンライン申請システム／TKC・アララ）",
+   "announced": "2026-11-11",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 82000,
+   "label": "登録者約8.2万件（影響範囲調査中）",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（漏えいの可能性。項目は公表資料で要確認）",
+   "who": [
+    "cust"
+   ],
+   "sum": "那覇市オンライン申請システムが利用する外部メール送信サービス（アララメッセージ）への不正アクセスで、メール送信機能に障害が発生。登録者約8.2万件のメールアドレス流出の可能性を調査中と報じられた。",
+   "status": "ongoing",
+   "statusText": "市の掲載ページ(11/11更新)は送信障害と一部再開を説明し、流出については別ページ参照としている。",
+   "resp": "メール送信機能の一部を11/11から再開。",
+   "official": [
+    [
+     "那覇市オンライン申請システムにおける外部メール送信サービスへの不正アクセスに伴う影響について（2026/11/11更新）",
+     "https://www.city.naha.okinawa.jp/admin/kaikaku/1008233/1004100/1013242.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/naha-city-arara-tkc-online-application-20261109/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "市の読めたページは流出の有無・件数に触れず、流出を述べる別ページは未取得。TKC第6報も該当顧客を個別案内としているのみ",
+   "group": "arara",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "sourcenext-ir-form-2611",
+   "co": "ソースネクスト株式会社（株主・投資家向けお問い合わせフォーム設定不備）",
+   "announced": "2026-11-10",
+   "occurred": "2026-06-07",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "n": 137,
+   "label": "137件（うち企業・団体53件）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "報道による：メールアドレス、氏名、問い合わせ本文",
+   "who": [
+    "cust"
+   ],
+   "sum": "フォーム送信後のリンクから他の利用者の入力内容が閲覧できる設定不備があり、2026年6月7日〜11月9日に閲覧可能だったと報じられた（公式発表は未確認）。10/15公表の不正アクセスとは別事案。",
+   "status": "ongoing",
+   "statusText": "報道ベース。",
+   "resp": "報道によれば設定修正済み。",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sourcenext-ir-contact-form-exposure-137/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式発表のURLが記事から特定できず取得できなかった（robots等）。manual/ に公式文面を貼れば反映できる",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "diamond-society-claim-2611",
+   "co": "株式会社ダイヤモンドソサエティ",
+   "date": "2026-11-12",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 20000,
+   "label": "約2万件（攻撃者側の主張）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "報道による：資料請求・体験宿泊の申込情報に似た項目（攻撃者の主張）",
+   "who": [
+    "unk"
+   ],
+   "claim": "ハッカーがデータ販売を主張（攻撃者側の主張）",
+   "sum": "ハッカーが約2万件のデータを窃取し販売するとフォーラムに投稿したと報じられた。会社の公式見解は確認できていない。",
+   "status": "ongoing",
+   "statusText": "犯行声明のみ。",
+   "resp": "",
+   "official": [
+    [
+     "ダイヤモンドソサエティ お知らせ",
+     "https://www.diamond-s.co.jp/news/detail.php?id=147"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/diamond-society-sophia-data-sale-claim/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "pendingReason": "公式発表が見つからず/robotsで取得不可。公式に漏えいの記載があるか未確認"
   }
  ]
 }

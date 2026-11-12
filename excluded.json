@@ -772,6 +772,46 @@
     "https://contents.xj-storage.jp/xcontents/AS04721/9cd22cba/ef69/4403/bd9a/59025ae1c745/20261026193119181s.pdf"
    ],
    "checked": "2026-11-10"
+  },
+  {
+   "id": "cocolive-kasika-2611",
+   "co": "Cocolive株式会社（不動産営業支援「KASIKA」）",
+   "date": "2026-11-11",
+   "reason": "第一報(2026/11/11)に、KASIKAデータベースへの不正侵入や個人データ（顧客情報・閲覧履歴等）の外部持ち出しの事実は確認されていないと記載",
+   "official": [
+    "https://tdnet-pdf.kabutan.jp/20261111/140120261111573847.pdf"
+   ],
+   "checked": "2026-11-12"
+  },
+  {
+   "id": "anatc-erabel-egift-2610",
+   "co": "全日空商事株式会社（「選べるe-GIFT」）",
+   "date": "2026-10-30",
+   "reason": "第1報(2026/10/30)に、不正アクセスは確認したが個人情報の漏えいおよびギフトの不正利用は確認されていないと記載",
+   "official": [
+    "https://www.anatc.com/pressroom/20261030_02/"
+   ],
+   "checked": "2026-11-12"
+  },
+  {
+   "id": "fdma-anpi-system-2611",
+   "co": "消防庁（武力攻撃事態等における安否情報収集・提供システム／委託先 富士ソフト）",
+   "date": "2026-11-05",
+   "reason": "消防庁発表(2026/11/5)に、現時点で個人情報の漏えいは確認されていないと記載",
+   "official": [
+    "https://www.fdma.go.jp/pressrelease/houdou/items/261105_kokuun_1.pdf"
+   ],
+   "checked": "2026-11-12"
+  },
+  {
+   "id": "meijigakuin-psy-site-2611",
+   "co": "明治学院大学（心理学部Webサイト改ざん）",
+   "date": "2026-11-05",
+   "reason": "大学発表(2026/11/5)に、調査の結果個人情報の流出は確認されていないと記載",
+   "official": [
+    "https://www.meijigakuin.ac.jp/news/10265.html"
+   ],
+   "checked": "2026-11-12"
   }
  ]
 }
