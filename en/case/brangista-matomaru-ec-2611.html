@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>株式会社ブランジスタソリューション（受注管理「まとまるEC店長」） data breach (Nov 2026) | Japan Data Breach Ledger</title>
-<meta name="description" content="Personal data breach at 株式会社ブランジスタソリューション（受注管理「まとまるEC店長」） (Japan). Records: Under investigation. Cause: Cyber attack (Unauthorized access). Industry: Telecom &amp; IT.">
+<meta name="description" content="Personal data breach at 株式会社ブランジスタソリューション（受注管理「まとまるEC店長」） (Japan). Records: 21.9K. Cause: Cyber attack (Unauthorized access). Industry: Telecom &amp; IT.">
 <link rel="alternate" hreflang="ja" href="https://snowfield28.github.io/leak-ledger-data/case/brangista-matomaru-ec-2611.html">
 <link rel="alternate" hreflang="en" href="https://snowfield28.github.io/leak-ledger-data/en/case/brangista-matomaru-ec-2611.html">
 <link rel="alternate" hreflang="x-default" href="https://snowfield28.github.io/leak-ledger-data/case/brangista-matomaru-ec-2611.html">
 <link rel="canonical" href="https://snowfield28.github.io/leak-ledger-data/en/case/brangista-matomaru-ec-2611.html">
 <meta property="og:title" content="株式会社ブランジスタソリューション（受注管理「まとまるEC店長」） data breach (Nov 2026) | Japan Data Breach Ledger">
-<meta property="og:description" content="Personal data breach at 株式会社ブランジスタソリューション（受注管理「まとまるEC店長」） (Japan). Records: Under investigation. Cause: Cyber attack (Unauthorized access). Industry: Telecom &amp; IT.">
+<meta property="og:description" content="Personal data breach at 株式会社ブランジスタソリューション（受注管理「まとまるEC店長」） (Japan). Records: 21.9K. Cause: Cyber attack (Unauthorized access). Industry: Telecom &amp; IT.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://snowfield28.github.io/leak-ledger-data/en/case/brangista-matomaru-ec-2611.html">
 <meta property="og:site_name" content="Japan Data Breach Ledger">
@@ -160,20 +160,20 @@ document.addEventListener("DOMContentLoaded",function(){
 <nav class="crumb" aria-label="Breadcrumb"><a href="../">Ledger</a><span>›</span><a href="./">All incidents</a><span>›</span><span lang="ja">株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）</span></nav>
 <h1><span lang="ja">株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）</span>: personal data breach</h1>
 <div class="pills"><span class="pill p">Possible leak</span><span class="pill ongoing">Ongoing</span></div>
-<section><h2>Overview</h2><dl><dt>Records exposed</dt><dd>Under investigation <span class="note" lang="ja">（調査中）</span></dd><dt>First announced</dt><dd>Nov 9, 2026</dd><dt>Occurred / detected</dt><dd>Unverified</dd><dt>Industry</dt><dd>Telecom &amp; IT</dd><dt>Cause</dt><dd>Cyber attack (Unauthorized access)</dd><dt>Whose data</dt><dd>Customers / users</dd><dt>Last checked</dt><dd>Nov 12, 2026 (against the official release)</dd></dl></section>
+<section><h2>Overview</h2><dl><dt>Records exposed</dt><dd>21.9K <span class="note" lang="ja">（注文情報21,873件（重複除く・利用企業373社））</span></dd><dt>First announced</dt><dd>Nov 9, 2026</dd><dt>Occurred / detected</dt><dd>Nov 1, 2026</dd><dt>Latest update</dt><dd>Nov 10, 2026</dd><dt>Industry</dt><dd>Telecom &amp; IT</dd><dt>Cause</dt><dd>Cyber attack (Unauthorized access)</dd><dt>Whose data</dt><dd>Customers / users</dd><dt>Last checked</dt><dd>Nov 12, 2026 (against the official release)</dd></dl></section>
 <section><h2>Data exposed</h2><div class="items"><span>Name</span><span>Address</span><span>Contract / purchase records</span></div><p lang="ja">氏名、住所、ご注文商品名</p><p class="note" lang="ja">クレジットカード情報など決済情報（同社では保持していない）</p></section>
 <p class="note">Descriptions below are shown in Japanese, as written in the official release.</p>
-<section><h2>What happened</h2><p lang="ja">利用店舗の購入者に実際の注文情報が記載された不審な返金案内メール（LINE登録を誘導）が届いたとの報告を受けて調査した結果、「まとまるEC店長」のサーバー内で注文情報を照会する不審なプログラム・スクリプトが見つかり、第三者による不正アクセスと情報漏えいの可能性が判明した。Yahoo!ショッピングとQoo10の注文で同様の事象が報告されている。</p></section>
+<section><h2>What happened</h2><p lang="ja">利用店舗の購入者に実際の注文情報を使った不審な返金案内メール（LINE登録を誘導）が届いたことを受けて調査した結果、「まとまるEC店長」のサーバーで注文情報を照会する不審なスクリプトが見つかり、11月1日と11月6日の不正アクセスに関連する注文情報計21,873件（重複除く、利用企業373社、1社あたり最大392件）に情報流出の可能性があることが判明した（第二報）。第一報で示した漏えいの可能性のある項目は氏名、住所、ご注文商品名。</p></section>
 <div class="two">
-<section><h2>Investigation status</h2><p lang="ja">2026年11月9日の第一報時点。不正アクセスの有無、侵入経路、注文情報へのアクセス状況を調査中で、件数は未公表。</p></section>
-<section><h2>Organization response</h2><ul lang="ja"><li>不審なスクリプトと関連ファイルを証拠保全のため隔離。</li><li>被害拡大防止と再発防止の対応を進める。</li><li>利用店舗へ、不審メールのURLアクセス・LINE登録・個人情報入力をしないよう購入者への案内を依頼。</li></ul></section>
+<section><h2>Investigation status</h2><p lang="ja">2026年11月10日の第二報時点。流出の可能性がある情報の具体的な項目と影響範囲は調査中。EC店長のログイン情報の流出を示す事実は確認されていない。</p></section>
+<section><h2>Organization response</h2><ul lang="ja"><li>不正アクセスに関連すると推定されるスクリプトファイルと痕跡データを隔離し、データベースのパスワード変更と緊急の暫定措置を実施。</li><li>利用店舗へログインパスワードの変更を依頼し、購入者へ不審なメールのURLアクセス・LINE登録・個人情報入力をしないよう案内を依頼。</li><li>追加のセキュリティ対策を進める。</li></ul></section>
 </div>
 <section><h2>Contact</h2><p class="note" lang="ja">公式発表に窓口の記載なし（まとまるEC店長 カスタマーサポートセンター名義。最新情報は専用ページ）</p><p class="note">Source: the contact listed in the <a href="https://www.ec-tencho.jp/info/access/index.html" rel="noopener">official release</a>. The service period may have ended, so check the release before contacting them.</p></section>
-<section><h2>Official release (primary source)</h2><a class="lk off" href="https://www.ec-tencho.jp/info/access/index.html" rel="noopener"><span lang="ja">【重要】第一報・不審なメールの発生および不正アクセスの可能性に関するお詫びとご報告（まとまるEC店長、2026/11/9）</span><small>https://www.ec-tencho.jp/info/access/index.html</small></a></section>
+<section><h2>Official release (primary source)</h2><a class="lk off" href="https://www.ec-tencho.jp/info/access/index.html" rel="noopener"><span lang="ja">【重要・第二報】まとまるEC店長への不正アクセスに関する調査状況と今後の対応について（まとまるEC店長、2026/11/10）</span><small>https://www.ec-tencho.jp/info/access/index.html</small></a><a class="lk off" href="https://www.ec-tencho.jp/info/access/index.html" rel="noopener"><span lang="ja">【重要】第一報・不審なメールの発生および不正アクセスの可能性に関するお詫びとご報告（まとまるEC店長、2026/11/9）</span><small>https://www.ec-tencho.jp/info/access/index.html</small></a></section>
 <section><h2>News coverage</h2><a class="lk" href="https://rocket-boys.co.jp/security-measures-lab/ec-tencho-suspicious-script-refund-line-order-data-20261109/" rel="noopener"><span lang="ja">セキュリティ対策Lab</span></a></section>
 <p><a class="btn" href="../#brangista-matomaru-ec-2611">Compare with other incidents</a></p>
 <p class="note">This ledger lists only incidents whose details were matched against the organization's own official release. The descriptions are summaries of facts taken from the official release and news reports; please check the official release for exact wording. Report errors through <a href="../contact.html">Contact / corrections</a>.</p>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "株式会社ブランジスタソリューション（受注管理「まとまるEC店長」） data breach (Nov 2026)", "datePublished": "2026-11-09", "dateModified": "2026-11-12", "inLanguage": "en", "url": "https://snowfield28.github.io/leak-ledger-data/en/case/brangista-matomaru-ec-2611.html", "publisher": {"@type": "Organization", "name": "Japan Data Breach Ledger"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "株式会社ブランジスタソリューション（受注管理「まとまるEC店長」） data breach (Nov 2026)", "datePublished": "2026-11-09", "dateModified": "2026-11-10", "inLanguage": "en", "url": "https://snowfield28.github.io/leak-ledger-data/en/case/brangista-matomaru-ec-2611.html", "publisher": {"@type": "Organization", "name": "Japan Data Breach Ledger"}}</script>
 <nav class="foot" aria-label="Site information"><a href="../">Ledger</a><a href="../case/">All incidents</a><a href="../about.html">About</a><a href="../privacy.html">Privacy policy</a><a href="../contact.html">Contact / corrections</a><a href="https://snowfield28.github.io/leak-ledger-data/case/brangista-matomaru-ec-2611.html" hreflang="ja" lang="ja">日本語</a></nav>
 </main></body>
 </html>

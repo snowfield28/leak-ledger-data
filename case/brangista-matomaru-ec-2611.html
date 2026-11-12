@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）の個人情報漏えい（2026年11月）｜国内情報漏えい台帳</title>
-<meta name="description" content="株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）の情報漏えい事案。件数：調査中。原因：サイバー攻撃（不正アクセス）。流出した情報：氏名、住所、ご注文商品名">
+<meta name="description" content="株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）の情報漏えい事案。件数：注文情報21,873件（重複除く・利用企業373社）。原因：サイバー攻撃（不正アクセス）。流出した情報：氏名、住所、ご注文商品名">
 <link rel="canonical" href="https://snowfield28.github.io/leak-ledger-data/case/brangista-matomaru-ec-2611.html">
 <link rel="alternate" hreflang="ja" href="https://snowfield28.github.io/leak-ledger-data/case/brangista-matomaru-ec-2611.html">
 <link rel="alternate" hreflang="en" href="https://snowfield28.github.io/leak-ledger-data/en/case/brangista-matomaru-ec-2611.html">
 <link rel="alternate" hreflang="x-default" href="https://snowfield28.github.io/leak-ledger-data/case/brangista-matomaru-ec-2611.html">
 <meta property="og:title" content="株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）の個人情報漏えい（2026年11月）｜国内情報漏えい台帳">
-<meta property="og:description" content="株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）の情報漏えい事案。件数：調査中。原因：サイバー攻撃（不正アクセス）。流出した情報：氏名、住所、ご注文商品名">
+<meta property="og:description" content="株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）の情報漏えい事案。件数：注文情報21,873件（重複除く・利用企業373社）。原因：サイバー攻撃（不正アクセス）。流出した情報：氏名、住所、ご注文商品名">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://snowfield28.github.io/leak-ledger-data/case/brangista-matomaru-ec-2611.html">
 <meta property="og:site_name" content="国内情報漏えい台帳">
@@ -160,19 +160,19 @@ document.addEventListener("DOMContentLoaded",function(){
 <nav class="crumb" aria-label="パンくず"><a href="../">台帳</a><span>›</span><a href="./">全事案一覧</a><span>›</span><span>株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）</span></nav>
 <h1>株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）の個人情報漏えい</h1>
 <div class="pills"><span class="pill p">漏えいの可能性</span><span class="pill ongoing">調査中</span></div>
-<section><h2>事案の概要</h2><dl><dt>件数</dt><dd>調査中</dd><dt>第一報の発表日</dt><dd>2026年11月9日</dd><dt>発生・検知日</dt><dd>未確認</dd><dt>業種</dt><dd>通信・IT</dd><dt>原因</dt><dd>サイバー攻撃（不正アクセス）</dd><dt>誰の情報</dt><dd>顧客・利用者</dd><dt>最終確認日</dt><dd>2026年11月12日（公式発表と照合）</dd></dl></section>
+<section><h2>事案の概要</h2><dl><dt>件数</dt><dd>注文情報21,873件（重複除く・利用企業373社）</dd><dt>第一報の発表日</dt><dd>2026年11月9日</dd><dt>発生・検知日</dt><dd>2026年11月1日</dd><dt>最新の続報</dt><dd>2026年11月10日</dd><dt>業種</dt><dd>通信・IT</dd><dt>原因</dt><dd>サイバー攻撃（不正アクセス）</dd><dt>誰の情報</dt><dd>顧客・利用者</dd><dt>最終確認日</dt><dd>2026年11月12日（公式発表と照合）</dd></dl></section>
 <section><h2>流出した情報</h2><div class="items"><span>氏名</span><span>住所</span><span>契約・購入情報</span></div><p>氏名、住所、ご注文商品名</p><p class="note">含まれない情報：クレジットカード情報など決済情報（同社では保持していない）</p></section>
-<section><h2>何が起きたか</h2><p>利用店舗の購入者に実際の注文情報が記載された不審な返金案内メール（LINE登録を誘導）が届いたとの報告を受けて調査した結果、「まとまるEC店長」のサーバー内で注文情報を照会する不審なプログラム・スクリプトが見つかり、第三者による不正アクセスと情報漏えいの可能性が判明した。Yahoo!ショッピングとQoo10の注文で同様の事象が報告されている。</p></section>
+<section><h2>何が起きたか</h2><p>利用店舗の購入者に実際の注文情報を使った不審な返金案内メール（LINE登録を誘導）が届いたことを受けて調査した結果、「まとまるEC店長」のサーバーで注文情報を照会する不審なスクリプトが見つかり、11月1日と11月6日の不正アクセスに関連する注文情報計21,873件（重複除く、利用企業373社、1社あたり最大392件）に情報流出の可能性があることが判明した（第二報）。第一報で示した漏えいの可能性のある項目は氏名、住所、ご注文商品名。</p></section>
 <div class="two">
-<section><h2>調査の状況</h2><p>2026年11月9日の第一報時点。不正アクセスの有無、侵入経路、注文情報へのアクセス状況を調査中で、件数は未公表。</p></section>
-<section><h2>組織の対応</h2><ul><li>不審なスクリプトと関連ファイルを証拠保全のため隔離。</li><li>被害拡大防止と再発防止の対応を進める。</li><li>利用店舗へ、不審メールのURLアクセス・LINE登録・個人情報入力をしないよう購入者への案内を依頼。</li></ul></section>
+<section><h2>調査の状況</h2><p>2026年11月10日の第二報時点。流出の可能性がある情報の具体的な項目と影響範囲は調査中。EC店長のログイン情報の流出を示す事実は確認されていない。</p></section>
+<section><h2>組織の対応</h2><ul><li>不正アクセスに関連すると推定されるスクリプトファイルと痕跡データを隔離し、データベースのパスワード変更と緊急の暫定措置を実施。</li><li>利用店舗へログインパスワードの変更を依頼し、購入者へ不審なメールのURLアクセス・LINE登録・個人情報入力をしないよう案内を依頼。</li><li>追加のセキュリティ対策を進める。</li></ul></section>
 </div>
 <section><h2>お問い合わせ先</h2><p class="note">公式発表に窓口の記載なし（まとまるEC店長 カスタマーサポートセンター名義。最新情報は専用ページ）</p><p class="note">出典：<a href="https://www.ec-tencho.jp/info/access/index.html" rel="noopener">公式発表</a>に記載の窓口。受付期間が終わっていることがあるため、連絡の前に公式発表を確認してください。</p></section>
-<section><h2>一次情報（公式発表）</h2><a class="lk off" href="https://www.ec-tencho.jp/info/access/index.html" rel="noopener">【重要】第一報・不審なメールの発生および不正アクセスの可能性に関するお詫びとご報告（まとまるEC店長、2026/11/9）<small>https://www.ec-tencho.jp/info/access/index.html</small></a></section>
+<section><h2>一次情報（公式発表）</h2><a class="lk off" href="https://www.ec-tencho.jp/info/access/index.html" rel="noopener">【重要・第二報】まとまるEC店長への不正アクセスに関する調査状況と今後の対応について（まとまるEC店長、2026/11/10）<small>https://www.ec-tencho.jp/info/access/index.html</small></a><a class="lk off" href="https://www.ec-tencho.jp/info/access/index.html" rel="noopener">【重要】第一報・不審なメールの発生および不正アクセスの可能性に関するお詫びとご報告（まとまるEC店長、2026/11/9）<small>https://www.ec-tencho.jp/info/access/index.html</small></a></section>
 <section><h2>報道</h2><a class="lk" href="https://rocket-boys.co.jp/security-measures-lab/ec-tencho-suspicious-script-refund-line-order-data-20261109/" rel="noopener">セキュリティ対策Lab</a></section>
 <p><a class="btn" href="../#brangista-matomaru-ec-2611">台帳でほかの事案と比べる</a></p>
 <p class="note">この台帳は、報道や一覧で見つけた事案のうち、組織自身の公式発表を開いて内容が一致したものだけを載せています。概要は公式発表と報道から事実を取り出して書いたもので、正確な内容は公式発表で確認してください。誤りは<a href="../contact.html">お問い合わせ・訂正依頼</a>からお知らせください。</p>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）の個人情報漏えい（2026年11月）", "datePublished": "2026-11-09", "dateModified": "2026-11-12", "inLanguage": "ja", "url": "https://snowfield28.github.io/leak-ledger-data/case/brangista-matomaru-ec-2611.html", "publisher": {"@type": "Organization", "name": "国内情報漏えい台帳"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "株式会社ブランジスタソリューション（受注管理「まとまるEC店長」）の個人情報漏えい（2026年11月）", "datePublished": "2026-11-09", "dateModified": "2026-11-10", "inLanguage": "ja", "url": "https://snowfield28.github.io/leak-ledger-data/case/brangista-matomaru-ec-2611.html", "publisher": {"@type": "Organization", "name": "国内情報漏えい台帳"}}</script>
 <nav class="foot" aria-label="サイト情報"><a href="../">台帳</a><a href="../case/">全事案一覧</a><a href="../about.html">このサイトについて</a><a href="../privacy.html">プライバシーポリシー</a><a href="../contact.html">お問い合わせ・訂正依頼</a><a href="../en/" hreflang="en" lang="en">English</a></nav>
 </main></body>
 </html>
