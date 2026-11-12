@@ -1,0 +1,13 @@
+URL: https://www.thaiairways.com/de-de/content/news/amadeus-reports-unauthorized-access-to-thai-passenger-data/
+
+Amadeus Reports Unauthorized Access to THAI Passenger Data
+Amadeus Reports Unauthorized Access to THAI Passenger Data
+THAI Announcement
+|
+9 November 2026
+Thai Airways International Public Company Limited (THAI) has been informed by Amadeus IT Group S.A. (“Amadeus”), the provider of THAI’s passenger service systems, of a security incident involving unauthorized access to booking data stored in Amadeus systems between 10 August 2023 and 23 September 2026.
+Based on the investigation to date, the data of approximately 60,529 passenger records may have been accessed without authorization. The affected information included passenger names, booking reference (PNR), travel date, flight routing, and cabin class. In addition, approximately 376 passenger records may additionally involve. In addition to the information listed above, such data may have included email address, telephone number, passport number, nationality, frequent flyer number, flight number, ticket number, seat number, and other related information. However, THAI would like to assure passengers that credit card information was not affected by this incident, and as of the date of this notice, it has not been found that such data has been disclosed.
+Amadeus has also confirmed that the login credentials used in the unauthorized access have been revoked, all affected passwords have been reset, and monitoring, detection, and surveillance measures to help prevent similar incidents.
+The incident has not impacted THAI’s systems or operations.
+THAI takes the protection of personal data extremely seriously and has informed the relevant authorities of the incident. Meanwhile, THAI is continuing to investigate the incident, including thoroughly analysing the data and information provided by Amadeus. Affected passengers will be notified individually once the relevant details have been verified.
+THAI sincerely apologizes for any concern or inconvenience caused by this incident.
