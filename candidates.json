@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -7427,44 +7427,6 @@
    "pendingReason": "CBcloud自身の公式発表が自動取得不可（thin：本文が短い／JS描画の可能性）。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "wills-netmile-2611",
-   "co": "株式会社ウィルズ（ポイント交換サービス「ネットマイル」）",
-   "date": "2026-11-02",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 5490000,
-   "label": "最大約549万人（報道）",
-   "st": "p",
-   "items": [
-    "name",
-    "mail"
-   ],
-   "itemsText": "氏名、メールアドレス、ポイント・特典交換情報など（報道による）",
-   "who": [
-    "cust"
-   ],
-   "sum": "ネットマイルのシステム環境が第三者の不正アクセスを受け、退会者を含む最大約549万人の個人情報が漏えいした可能性があるとウィルズが11月2日に適時開示したと報じられている。",
-   "status": "ongoing",
-   "statusText": "11月2日に開示。原因・影響範囲は調査中（報道）。",
-   "resp": "",
-   "official": [
-    [
-     "「ネットマイル」における不正アクセスによる個人情報漏えいの可能性に関するお知らせ（TDnet）（2026/11/2）",
-     "https://www.nikkei.com/nkd/disclosure/tdnr/20261102562660/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/wills-netmile-5490000-possible-data-breach/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "自動取得不可（TDnetは日経サイトの有料会員向け表示、ネットマイル公式は503）。件数・項目を公式本文で確認できていない。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "johnsmedley-arara-2611",
    "co": "ジョン スメドレー（ジョンスメドレー日本公式）",
    "date": "2026-11-02",
@@ -8146,6 +8108,48 @@
    ],
    "ind": "生活サービス・レジャー",
    "pendingReason": "公式発表が見つからず/robotsで取得不可。公式に漏えいの記載があるか未確認"
+  },
+  {
+   "id": "progate-prototype-2609",
+   "co": "株式会社Progate（社内向けAI試作ツール）",
+   "date": "2026-09-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "氏名、メールアドレス、GitHub等のアカウントID、開発活動の記録、チャット発言、AIツールとの対話内容（報道による。対象人数は未公表）",
+   "who": [
+    "staff",
+    "cust"
+   ],
+   "sum": "サービスアカウント鍵の流出により社内向けAI試作ツールが不正利用され、従業員と2025年6月以降の主催イベント参加者の情報が漏えいしたおそれがあると、11月10日の調査結果で公表されたと報じられている。「Progate」「Progate Prospects」の利用者情報は対象外。",
+   "status": "ongoing",
+   "statusText": "2026年9月16日初報、11月10日に調査結果を公表（報道）。",
+   "official": [
+    [
+     "当社社内システムへの不正アクセス発生に関するお知らせとお詫び（2026/9/16）",
+     "https://progate.com/about/news/619"
+    ],
+    [
+     "当社社内システムへの不正アクセスに関する調査結果のお知らせとお詫び（2026/11/10）",
+     "https://progate.com/about/news/622"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/progate_internal_ai_tool_unauthorized_access_final_report/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "pendingReason": "自動取得不可（thin：JavaScript描画で公式本文を読めず、WebFetchでも取得できなかった）。件数・発表日・窓口を公式本文で確認できていない。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }
