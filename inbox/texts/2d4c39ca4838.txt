@@ -1,0 +1,110 @@
+URL: https://oag.ca.gov/system/files/Revolve%20-%20California%20Notification.pdf
+
+Secure Processing Center 
+P.O. Box 680 
+Central Islip, NY 11722-0680 
+ 
+ 
+Postal Endorsement Line 
+<<Full Name>> 
+<<Address 1>> 
+<<Address 2>>  
+<<Address 3>>        
+<<City>>, <<State>> <<Zip>> 
+<<Country>> 
+***Postal IMB Barcode 
+             <<Date>> 
+ 
+Notice of Data Breach 
+ 
+Dear <<Full Name>>, 
+ 
+Revolve Group, Inc. operates Revolve.com and FWRD.com. We are writing to make you aware of a data security 
+incident that involved some of your information. This letter explains the incident, measures we have taken, and 
+some steps you may consider taking.  
+ 
+What Happened?  We recently concluded an investigation into unauthorized activity involving our online 
+shopping platform. Upon learning of that activity, we immediately implemented measures to contain it and began 
+the investigation. We also notified law enforcement. Evidence from the investigation showed that, on September 
+11, 2026, an unauthorized actor accessed our platform and may have acquired certain customers’ information.  
+ 
+What Information Was Involved? We analyzed the data that may have been involved and, on September 29, 
+2026, determined that it contained your name and address, as well as the card number and expiration date for your 
+payment card(s) ending in <<Var Data 1 – Last 4>>. 
+ 
+What We Are Doing. We have taken, and will continue to take, measures to enhance the security of our systems 
+to help prevent something like this from happening in the future. 
+ 
+What You Can Do. It is always advisable to review your payment card statements for any unauthorized charges. 
+You should immediately report any such charges to the card issuer, as payment card rules generally provide that 
+cardholders are not responsible for unauthorized charges reported in a timely manner. The phone number to call 
+is usually on the back of your payment card. Information on additional steps you can take can be found on the 
+following pages.  
+ 
+For More Information. If you have any questions, please call 888-517-6458, Monday through Friday, from 9:00 
+a.m. to 9:00 p.m., Eastern Time, excluding some major U.S. holidays. 
+ 
+Sincerely, 
+ 
+Revolve Group, Inc. 
+ 
+ 
+
+ 
+ 
+ADDITIONAL STEPS YOU CAN TAKE 
+ 
+We remind you it is always advisable to be vigilant for incidents of fraud or identity theft by reviewing your 
+account statements and free credit reports for any unauthorized activity. You may obtain a copy of your credit 
+report, free of charge, once every week from each of the three nationwide credit reporting companies. To order 
+your weekly free credit report, please visit  www.annualcreditreport.com or call toll free at 1 -877-322-8228. 
+Contact information for the three nationwide credit reporting companies is as follows:  
+• Equifax, PO Box 740241, Atlanta, GA 30374, www.equifax.com, 1-888-378-4329  
+• Experian, PO Box 2002, Allen, TX 75013, www.experian.com, 1-888-397-3742  
+• TransUnion, PO Box 1000, Chester, PA 19016, www.transunion.com, 1-833-799-5355  
+If you believe you are the victim of identity theft or have reason to believe your personal information has been 
+misused, you should immediately contact the Federal Trade Commission and/or the Attorney General’s office in 
+your state. You can obtain informa tion from these sources about steps an individual can take to avoid identity 
+theft as well as information about fraud alerts and security freezes. You should also contact your local law 
+enforcement authorities and file a police report. Obtain a copy of the police report in case you are asked to provide 
+copies to creditors to correct your records. Contact information for the Federal Trade Commission is as follows:  
+• Federal Trade Commission , Consumer Response Center, 600 Pennsylvania Avenue NW, Washington, 
+DC 20580, 1-877-IDTHEFT (438-4338), www.identitytheft.gov  
+Fraud Alerts and Credit or Security Freezes:  
+Fraud Alerts: There are two types of general fraud alerts you can place on your credit report to put your creditors 
+on notice that you may be a victim of fraud —an initial alert and an extended alert. You may ask that  an initial 
+fraud alert be placed on your credit report if you suspect you have been, or are about to be, a victim of identity 
+theft. An initial fraud alert stays on your credit report for one year. You may have an extended alert placed on 
+your credit report if you have already been a victim of identity theft with the appropriate documentary proof. An 
+extended fraud alert stays on your credit report for seven years.  
+ 
+To place a fraud alert on your credit reports, contact one of the nationwide credit bureaus. A fraud alert is free. 
+The credit bureau you contact must tell the other two, and all three will place an alert on their versions of your 
+report.  
+For those in the military who want to protect their credit while deployed, an Active Duty  Military Fraud Alert 
+lasts for one year and can be renewed for the length of your deployment. The credit bureaus will also take you off 
+their marketing lists for pre-screened credit card offers for two years, unless you ask them not to.  
+Credit or Security Freezes:  You have the right to put a credit freeze, also known as a security freeze, on your 
+credit file, free of charge, which makes it more difficult for identity thieves to  open new accounts in your name. 
+That is because most creditors need to see your credit r eport before they approve a new account. If they cannot 
+see your report, they may not extend the credit.  
+How do I place a freeze on my credit reports?  There is no fee to place or lift a security freeze. Unlike a fraud 
+alert, you must separately place a security freeze on your credit file at each credit reporting company. For 
+information and instructions to place a security freeze, contact each of the cre dit reporting agencies at the 
+addresses below:  
+• Equifax Security Freeze, PO Box 105788, Atlanta, GA 30348, www.equifax.com 
+• Experian Security Freeze, PO Box 9554, Allen, TX 75013, www.experian.com  
+• TransUnion Security Freeze, PO Box 160, Woodlyn, PA 19094, www.transunion.com 
+You will need to supply your name, address, date of birth, Social Security number and other personal information.  
+ 
+ 
+ 
+After receiving your freeze request, each credit bureau will provide you with a unique PIN (personal identification 
+number) or password. Keep the PIN or password in a safe place. You will need it if you choose to lift the freeze.  
+How do I lift a freeze? A freeze remains in place until you ask the credit bureau to temporarily lift it or remove it 
+altogether. If the request is made online or by phone, a credit bureau must lift a freeze within one hour. If the 
+request is made by mail, then the bureau must li ft the freeze no later than three business days after getting your 
+request.  
+If you opt for a temporary lift because you are applying for credit or a job, and you can find out which credit 
+bureau the business will contact for your file, you can save some time by lifting the freeze only at that  particular 
+credit bureau. Otherwise, you need to make the request with all three credit bureaus.

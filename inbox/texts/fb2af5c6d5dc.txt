@@ -1,0 +1,253 @@
+URL: https://www.connectwise.com/company/trust/advisories
+
+Trust Center | Advisories | ConnectWise
+Latest Advisories
+From time to time, ConnectWise will provide communications on broader security related topics that may not be linked to a specific ConnectWise product or vulnerability, but are still of importance to our partner community.
+ScreenConnect security advisory: Precautionary extension disabling and partner guidance
+Latest update: ScreenConnect Security Investigation Update
+Status:
+ Investigation ongoing; protective actions identified
+Last updated:
+ November 12, 2026 | 18:45 UTC
+ConnectWise continues investigating unauthorized access to certain partner ScreenConnect environments. At this time, we have found no evidence of a compromise of ConnectWise infrastructure or that initial access involved a ScreenConnect vulnerability.
+Current assessment
+Our initial assessment suggests the activity may involve a threat actor's abuse of independent third-party extensions installed in partner environments to gain access and deploy unauthorized remote-access software. We are continuing to validate this assessment.
+We identified approximately 400 partner environments with at least one independently developed third-party extension from the RMM+ family installed. These extensions provide an API capable of executing remote commands, protected by a passphrase configured by partners during setup. The presence of these extensions alone does not establish compromise.
+A CVE has been assigned to the issue in the independently developed third-party extension. Additional technical details are available in the 
+CVE record
+ and our 
+GitHub Security Advisory
+.
+The third-party extensions identified for precautionary disabling are:
+Labtech Plus
+RMM Plus
+RMM+
+RMM Plus Password Link
+RMM+ Password Link
+Following initial access, third-party researchers report that attackers deployed a toolkit designed to spread from infected endpoints to connecting technician workstations.
+The toolkit's attempted endpoint-to-technician spread technique is blocked by the fix for CVE-2026-84869, released in ScreenConnect client version 26.6.5 on September 8, 2026. Details are available in 
+this security bulletin
+.
+All partners should verify that their ScreenConnect technician clients are running version 26.6.5 or later. Updating a cloud console does not automatically update technician clients.
+Third-party observations
+Researchers report that attackers used access to partner consoles to deploy unauthorized ScreenConnect clients and a malicious toolkit called SCKit.
+The analysis indicates that the toolkit is designed to spread from an infected endpoint to a connecting technician's workstation and then to other accessible endpoints. Researchers are reporting that they have not observed this spread technique succeed, at this time.
+They reported an authentication flaw in RMM+ versions 1.0.31 and 1.0.32 that could accept an empty access key when none had been configured. We are assessing these findings alongside our investigation.
+Researchers have also reported unauthorized ScreenConnect deployments, including commands that downloaded and silently installed an additional client and retrieved further scripts.
+Previously remediated vulnerability and client protection
+CVE-2026-84869 addressed a ScreenConnect client issue that could permit unauthorized file transfer and execution during an active remote session under certain circumstances. ConnectWise released the fix in ScreenConnect 26.6.5 on September 8, 2026. See the 
+security bulletin
+.
+ConnectWise has verified that client versions 26.6.5 and later block the endpoint-to-technician spread technique used by this toolkit. Clients running earlier versions require updating.
+This protection addresses the attempted spread technique. It does not establish how attackers initially accessed partner environments, prevent every form of unauthorized software deployment, or remove an existing compromise.
+Actions partners should take now
+Update every technician client to version 26.6.5 or later.
+ This applies to partners using cloud-hosted and on-premises ScreenConnect. Verify the installed client version on each technician workstation; do not rely on the console version alone. Follow the 
+technician host-client reinstallation instructions
+. Keep endpoint access agents current as well.
+Reduce file-transfer permissions while updates are pending.
+ Review roles and their session-group permissions and disable Transfer Files wherever it is not required. Older versions may label this permission TransferFilesInSession. This is a temporary risk-reduction measure, not a substitute for updating clients. Detailed instructions are in the 
+security bulletin
+.
+Keep the identified extensions disabled.
+ On-premises partners should disable them immediately. All partners with these extensions should verify their status and avoid re-enabling or reinstalling them pending further guidance. See the 
+extension removal instructions
+.
+Invalidate active sessions and secure administrative access.
+ From a trusted device, revoke all active ScreenConnect web sessions and associated identity-provider sessions, reset relevant credentials, and enforce MFA. Password resets alone do not invalidate all existing sessions.
+Use separate security tooling to investigate and remediate.
+ Do not use ScreenConnect to investigate or clean affected endpoints. Use EDR response capabilities or another trusted out-of-band method. Include technician workstations that connected to affected devices in your assessment.
+Preserve evidence and remove remaining access paths.
+ Review authentication, extension installation, administrative, Run Command, and Toolbox records. After preserving relevant evidence, clear queued commands and tools on the server, remove unauthorized software and persistence mechanisms, and validate remediation before reconnecting endpoints.
+Updating clients, disabling extensions, and resetting credentials do not replace investigation and remediation of an existing compromise.
+Actions ConnectWise is taking
+Disabled the identified extensions in approximately 400 cloud environments as a precaution. This number reflects environments with the extensions installed, not confirmed compromises.
+Advised on-premises partners to disable the extensions themselves.
+Initiated direct outreach to identified affected partners and broader email communication to ScreenConnect partners.
+Taken additional protective measures and coordinated efforts to disrupt reported malicious infrastructure.
+Visibility and ongoing guidance
+ConnectWise does not have visibility or telemetry into activity inside partner environments following initial access. We cannot independently determine what may have occurred within affected partner or customer environments. Partners should assess their environments with their security teams or providers, using the guidance and reported indicators published in this advisory.
+All partners should remain alert for unusual sign-ins, unexpected MFA prompts, new administrators, permission changes, unapproved remote-access software, and unexpected commands or extension installations.
+The previously published indicators remain available below to support investigation. An absence of matches does not rule out compromise.
+We will continue validating findings, reconciling scope information, and updating the ConnectWise Trust Center as information is confirmed.
+Previous update (November 12  |  02:45 UTC): ScreenConnect Security Investigation Update
+Status:
+ Investigation ongoing
+ConnectWise is investigating reports of unauthorized access to certain partner ScreenConnect environments. At this time, we have found no evidence of a compromise of ConnectWise infrastructure or a vulnerability in ScreenConnect itself.
+Current assessment
+Our initial assessment suggests the activity may involve a threat actor's abuse of independent third-party extensions installed in partner environments. We are continuing to validate this assessment. The initial access method and full scope remain under investigation.
+We identified approximately 400 partner environments with at least one independently developed third-party extension from the RMM+ family installed. Their presence alone does not establish compromise. These extensions provide an API capable of executing remote commands. Access to that API is protected by a passphrase configured by the partner during setup.
+The third-party extensions identified for precautionary disabling are:
+Labtech Plus
+RMM Plus
+RMM+
+RMM Plus Password Link
+RMM+ Password Link
+Actions ConnectWise is taking
+Precautionary disabling:
+ We disabled the third-party extensions in the approximately 400 identified partner environments wherever ConnectWise can take action. This represents environments with the extensions installed, not confirmed compromises.
+On-premises guidance:
+ We advised on-premises partners to disable the extensions. ConnectWise cannot perform this action on their behalf.
+Trust Center advisory:
+ We published investigation and initial security guidance in the ConnectWise Trust Center 11/11/2026 at 22:45 UTC.
+Direct outreach:
+ We are contacting all ScreenConnect partners to direct them to the advisory.
+What partners should do
+Verify that the listed extensions are disabled. On-premises partners should disable them immediately. Do not re-enable or reinstall them pending further guidance.
+ See the 
+extension removal instructions
+.
+ConnectWise does not have visibility or telemetry into activity within partner environments following initial access. We cannot independently determine what actions may have occurred within affected partner or customer environments. Partners must assess their own environments with their security teams or providers.
+Partners with these extensions should:
+Investigate through separate security tooling.
+ Avoid interactive ScreenConnect connections to suspected compromised devices. Include technician workstations that connected to those devices in the assessment.
+Preserve and review evidence.
+ Retain authentication, extension installation, administrative, Run Command, and Toolbox records. Investigate unexpected accounts, permission changes, commands, and remote-access installations.
+Secure access from a trusted device.
+ Revoke active ScreenConnect and associated identity-provider sessions, reset relevant credentials, enforce MFA, use unique passwords, and remove unnecessary administrative access. Review extension API access and configuration as part of the investigation.
+Contain and remediate suspected compromise.
+ Follow established incident-response procedures, isolate affected devices, preserve evidence before removing artifacts, and validate remediation before restoring connectivity.
+Maintain security controls.
+ Keep servers, technician clients, endpoint agents, operating systems, browsers, and endpoint protection current. Follow the 
+ScreenConnect hardening guide
+.
+Disabling extensions and resetting credentials alone may not remove unauthorized software, persistence mechanisms, or access already established on endpoints.
+Stay on heightened alert
+All partners, whether or not they use the identified extensions, should:
+Watch for unusual sign-ins, unfamiliar locations, repeated login failures, and unexpected MFA prompts.
+Investigate new administrator accounts or changes to user permissions.
+Review unexpected extension installations, remote commands, and Toolbox activity.
+Check for unapproved remote-access software on customer devices and technician workstations.
+Verify unexpected support requests, password-reset messages, and software downloads through a trusted channel.
+Confirm endpoint protection is running and investigate alerts promptly.
+Preserve suspicious activity logs and escalate concerns to your security team or provider.
+Reported indicators of compromise for investigation
+The following indicators support investigation. They do not establish the initial access method or confirmed root cause. Assess matches alongside logs, execution history, and other evidence. Filenames, account names, and legitimate utilities alone may not establish compromise.
+Addresses and domains are defanged to prevent accidental access. Do not browse to or execute suspected malicious resources.
+IP addresses
+IP address
+Reported association
+185.99.255[.]28
+Attacker-controlled ScreenConnect relay; hostname screen
+155.94.150[.]39
+Secondary command-and-control infrastructure; hostname WIN-FB5CKHMU4E1
+Domains and URLs
+Domain or URL
+Reported association
+ns[.]mo7sen[.]dev
+Malicious PowerShell loader delivery
+hxxps://ns[.]mo7sen[.]dev/EadF.php?p=4
+Specific payload staging URL
+sc[.]payproofkit[.]com
+Rogue ScreenConnect deployment and secondary command-and-control infrastructure
+cdn007-digitaldownloads[.]com
+Additional rogue ScreenConnect deployment
+newnewnew[.]gotdns[.]org
+Attacker command-and-control infrastructure
+soxnewwork[.]homedns[.]org
+Attacker command-and-control infrastructure
+Files and scripts
+Filename
+Reported association
+sckit-run.bat
+Retrieves and executes the malicious loader
+sckit-decoder.ps1
+PowerShell decoder and loader
+TrapWatch.ps1
+Persistent SYSTEM-level execution
+Panel-Lateral.ps1
+Lateral movement component; filename partially visible in the original evidence and requires confirmation
+Run-Lateral-Full.bat
+Lateral movement and trap payload
+runnew.cmd
+Malware execution script
+ToolboxRelayUploader.exe
+Tool associated with malicious ScreenConnect deployment
+sqlite3.exe
+Legitimate utility reportedly abused to access browser-stored session and authentication data; its presence alone is not evidence of compromise
+Filesystem and persistence indicators
+Indicator
+Reported association
+C:\ProgramData\RelayTrap\
+Malware installation and persistence directory
+C:\ProgramData\RelayTrap\TrapWatch.ps1
+Persistent PowerShell payload
+%TEMP%\sckit-*
+Malware staging directories
+TrapWatch
+Scheduled task executing as SYSTEM, reportedly every 10 seconds
+RelayTrapLiteAlert
+Registry Run-key persistence value
+ScreenConnect-specific indicators
+Indicator
+Reported association
+2588ef5c15954b10
+Rogue ScreenConnect client fingerprint or ID
+ed630cc2c873b091
+Second rogue ScreenConnect client fingerprint or ID
+Addmin, rmmserver
+Reported attacker-associated operator or account names
+An absence of matches does not rule out compromise. These indicators may change as the investigation progresses.
+Further updates
+We will continue our investigation and provide updates through the Trust Center.
+Original ScreenConnect security advisory
+Published:
+ 11/11/2026 at 22:45 UTC
+Status:
+ Cause and scope under investigation
+ConnectWise is aware of reports of unauthorized access to ScreenConnect partner accounts and the deployment of unauthorized remote-access software in customer environments.
+As part of our investigation, we identified five independent 3rd party extensions that may be associated with this activity. We identified approximately 400 partner environments with one or more of these extensions, and we disabled the extensions as a precaution.
+If you are an on-premise partner with the below extensions, ConnectWise is unable to take action on your behalf. We advise that you take immediate action to disable these extensions.
+The presence of these 3rd party extensions does not, by itself, establish impact.
+Extensions disabled as a precaution
+Labtech Plus
+RMM Plus
+RMM+
+RMM Plus Password Link
+RMM+ Password Link
+Partners should verify that these 3rd party extensions are disabled in their environments. If any remain enabled, disable them. Do not re-enable or reinstall them, pending further guidance.
+Disabling these 3rd party extensions is a precautionary containment measure. It does not establish that unauthorized software, persistence mechanisms, or access already present on affected devices has been removed.
+What remains under investigation
+We have received reports describing attackers using ScreenConnect functionality after gaining unauthorized account access. The initial access method and full scope have not been established.
+Our initial assessment leads us to suspect the threat actor deployed additional remote-access software through independent 3rd party extensions that partners may have added to their environments. They also describe potential compromise of technician workstations during interactive connections to affected devices. These reported behaviors remain subject to validation.
+Precautionary actions for partners who have enabled these independent 3rd party extensions:
+Verify extension status.
+ Confirm that the 3rd party extensions listed above are disabled. Preserve related installation records and activity logs. Do not re-enable or reinstall these extensions pending further guidance.
+Investigate suspected compromise through separate security tooling.
+ As a precaution, avoid opening interactive ScreenConnect sessions to suspected compromised devices. Use your security provider's response tools or another trusted investigation method.
+Secure administrative access from a trusted device.
+ Revoke active ScreenConnect and associated identity-provider sessions, reset relevant passwords, and verify that multifactor authentication is enforced. If a technician workstation may be compromised, use a separate, trusted device for these actions.
+Review and preserve evidence.
+ Retain authentication, extension installation, administrative, Run Command, and Toolbox records. Investigate unexpected users, permission changes, software deployments, and commands.
+Contain and remediate suspected compromise.
+ Follow your incident-response procedures to isolate affected devices, including potentially affected technician workstations. Preserve evidence before removing malicious software, and validate remediation before restoring connectivity. Disabling extensions and resetting credentials alone may not remove access already established on endpoints.
+Verify software maintenance.
+ Confirm that servers, technician clients, and endpoint agents meet current published security guidance. Updating software does not replace investigation and remediation of a suspected compromise.
+If you have not deployed these independent 3rd party extensions, we have no reason to believe you are impacted by this incident but encourage all partners to be on heightened alert.
+We encourage partners to follow the 
+ScreenConnect hardening guide
+. Instructions for disabling extensions can be found 
+here
+.
+We will update this advisory as information is validated.
+November 4, 2026: Cloud Backup (formerly known as SkyKick) Service Interruption
+This advisory was originally published on October 16 at 17:47 UTC and last updated on November 4 at 18:55 UTC.
+See 
+FAQs below
+ for further information.
+Update: Wednesday, November 4, 2026 at 18:55 UTC
+Cloud Backup restoration update
+Restoration of Cloud Backup, formerly SkyKick, continues.
+Many partners have re-enrolled their tenants, and we are focused on helping the remaining partners reconnect and resume protection for their customers.
+Since our last update, Backup Health reporting, Export jobs, and Marketplace APIs have become available. Billing and other remaining capabilities are still being restored.
+If you have not yet re-authorized your customer tenants, please take action now. Re-authorization is required to resume Microsoft 365 backups and restores.
+Restoration progress
+Phase 1 complete — Backups and restores:
+ Backup and restore capabilities are available for re-authorized Microsoft 365 tenants.
+Phase 2 complete — Customer access and monitoring:
+ The End-Customer Self-Service Portal and Backup Monitoring dashboards are available.
+Phase 3 partially complete — Reporting and additional features:
+ Backup Health reporting and Export jobs became available on November 3. Billing functionality, including the Billing API and Management portal billing reports, remains in progress.
+Phase 4 partially available — Notifications:
+ Core notifications are live. Additional notifications are being enabled gradually to reduce excessive alerts during recovery.
+Additional

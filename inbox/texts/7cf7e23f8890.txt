@@ -1,0 +1,110 @@
+URL: https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/
+
+Revolve Puts Data Breach Victim Count at 1.5 Million - SecurityWeek
+ CONFERENCE 
+ CISO Forum Virtual Summit 2026 - View all Sessions 
+SECURITYWEEK NETWORK:
+Cybersecurity News
+Webcasts
+Virtual Events
+Podcast
+ICS:
+ICS Cybersecurity Conference
+Connect with us
+Hi, what are you looking for?
+Online fashion retailer Revolve has informed the Indiana Attorney General’s Office that 1,515,073 individuals were impacted by the data breach it disclosed in October.
+The company 
+revealed the incident
+ on October 29 in a filing with the US Securities and Exchange Commission (SEC). It started sending notification letters to impacted customers around the same time.
+Revolve had not publicly shared a total. Its notices to regulators in Iowa, Massachusetts, South Carolina, Texas, and Vermont covered roughly 197,000 people combined.
+The retailer says an unauthorized party broke into some of its systems, including its e-commerce platform, on September 11. Per the Indiana Attorney General’s records, Revolve became aware of the intrusion on September 29.
+According to the company, the intruder may have relied on “automated means” to collect customers’ names and contact information, including mailing addresses, along with their card numbers and expiration dates.
+The exposure is limited to shoppers who chose to store a payment method in their online accounts.
+Advertisement. Scroll to continue reading.
+Revolve reported the attack to federal law enforcement and enlisted external cybersecurity experts to help with its response. 
+The company has yet to explain how the hackers got into its systems. So far, the attack has not been publicly claimed by any hacker group.
+Related
+: 
+Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers
+Related
+: 
+Amplifon Americas Data Breach Impacts 1.3 Million
+Related
+: 
+Over 3 Million People Hit by Frontline Education Data Breach
+Written By
+Eduard Kovacs
+Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.
+Daily Briefing Newsletter
+ Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert
+ insights.
+More from 
+Eduard Kovacs
+Critical Red Hat Quay Vulnerability Could Expose Private Container Images
+Maersk Confirms Data Theft Amid $5 Million Extortion Attempt
+ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure
+Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD
+Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms
+Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft
+Adobe Patches 110 Vulnerabilities Across 9 Products
+Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code
+Latest News
+Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams
+Apache Patches Critical HTTP Server RCE Found by Anthropic, Google
+Chrome, Firefox Updates Patch Over 180 Vulnerabilities
+Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign
+Daylight Lands $80 Million for AI-Powered Security Operations
+Notion Customer Data Compromised in Fireworks AI Hack
+Hackers Deploy Malware in Fresh ScreenConnect Campaign
+Hackers Target N-central Zero-Days as N-able Rushes Patches 
+Trending
+Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft
+Fortinet Patches Nearly 100 Vulnerabilities
+Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities
+Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign
+Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation
+Maersk Confirms Data Theft Amid $5 Million Extortion Attempt
+N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days
+Notion Customer Data Compromised in Fireworks AI Hack
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts.
+NOW LIVE:
+ CISO Forum 2026 Summit
+November 10 & 11, 2026
+Join as we bring together CISOs, senior cybersecurity executives, practitioners, industry experts, and other security leaders to share practical experience and examine the issues shaping enterprise cybersecurity strategy.
+Register
+Webinar:
+ The Agentic SDLC Security Playbook
+December 3, 2026
+Join to learn the four levels of architecting security into the agentic SDLC – from securing the code your developers' agents write to running a coordinated system of security agents you've built yourself.
+Register
+People on the Move
+Jensen Huang has resigned as President and Chief Executive Officer at NVIDIA.
+Sean Sweeney has become CIO of the City of Charleston, South Carolina.
+Commerce has appointed Amalie Combs as CISO.
+More People On The Move
+Expert Insights
+The Agent Smith Dilemma: Governing Agentic Identities
+Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter.
+(Danelle Au)
+Passkeys Are Better Than Passwords. But They Are Not Enough.
+As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it.
+(Torsten George)
+When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis
+Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you.
+(Steve Durbin)
+Nobody Trusts the Security Questionnaire. We Rely on It Anyway.
+The process that gates nearly every B2B deal is a self-assessment the sender distrusts and the receiver accepts. There is finally a better basis for trust between companies.
+(Sravish Sridhar)
+This is Fine: What NetScaler Zero-Days Tell Us About the New Normal
+Keep your patch management pipelines primed in case another round of Citrix NetScaler patches get released soon.
+(Tod Beardsley)
+Flipboard
+Reddit
+Whatsapp
+Whatsapp
+Email
+Daily Briefing Newsletter
+ Subscribe to the SecurityWeek Email Briefing to stay informed on the latest cybersecurity
+ news, threats, and expert insights. Unsubscribe at any time.
+ Close
