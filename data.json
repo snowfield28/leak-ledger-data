@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -50567,6 +50567,741 @@
    "ind": "人材・教育・業務支援",
    "verified": "2026-11-14",
    "last": "2026-11-10"
+  },
+  {
+   "id": "itami-icuco-book-2611",
+   "co": "伊丹市（公立就学前施設の運営管理システム「icuco book」／提供 icuco株式会社）",
+   "announced": "2026-11-12",
+   "occurred": "2026-11-07",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "birth",
+    "addr",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "児童の氏名・性別・生年月日、保護者の氏名・住所・電話番号・児童との続柄・メールアドレス、施設と保護者の連絡事項など",
+   "notIncl": "クレジットカード等の決済情報（当該システムでは保有していない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "伊丹市の公立就学前施設（幼稚園・こども園・保育所・あすぱる）が使う運営管理システム「icuco book」で、個人情報を含む一部のファイルが外部から閲覧可能な状態になり、第三者の不正アクセスが確認された。流出の有無や範囲は調査中。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日公表。流出の有無・影響範囲は調査中。二次被害の報告は受けていない。",
+   "resp": "事業者が外部から閲覧可能だったファイルへのアクセス遮断、アクセス制御・監視体制の強化を実施。新たな事実が判明したら公表する。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "072-744-2261",
+      "hours": "こども未来部 幼児教育保育室 幼児教育課"
+     }
+    ],
+    "note": "伊丹市 こども未来部 幼児教育保育室 幼児教育課",
+    "src": "https://www.city.itami.lg.jp/oshirase/50774.html"
+   },
+   "official": [
+    [
+     "伊丹市が提供するサービスにかかる不正アクセスによる情報漏えいの可能性について（icuco book）（2026/11/12）",
+     "https://www.city.itami.lg.jp/oshirase/50774.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/itami-icuco-book-unauthorized-access-20261113/"
+    ]
+   ],
+   "ind": "公共機関",
+   "cause": "cyber",
+   "date": "2026-11-12",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "shijonawate-icuco-2611",
+   "co": "四條畷市（午睡チェック支援システム「icuco touch&care」／提供 icuco株式会社）",
+   "announced": "2026-11-12",
+   "occurred": "2026-11-07",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 44,
+   "label": "園児18人・職員26人",
+   "st": "p",
+   "items": [
+    "name",
+    "birth"
+   ],
+   "itemsText": "児童の氏名・生年月日・性別・園名・クラス名・期間、職員氏名（岡部保育所、忍ヶ丘あおぞらこども園の分）",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "午睡チェック支援システムを提供するicuco株式会社から、個人情報を含む一部のファイルが外部から閲覧可能な状態になり第三者のアクセスが確認されたとの報告を受けた。市は園児18人と職員26人の情報が漏えいした可能性があるとしている。業者側の調査は継続中。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日公表。業者が施設ごとの対象データ・人数を調査中。",
+   "resp": "事業者がファイルへのアクセス遮断、権限見直し、外部アクセス制御強化、脆弱性修正、監視強化を実施。サービスは11月7日から停止し9日に再開。ログイン用パスワードは変更済み。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0532-22-8053",
+      "hours": "icuco株式会社 カスタマー受付窓口（平日9:00〜18:00）"
+     },
+     {
+      "tel": "072-877-2121",
+      "hours": "四條畷市 こども政策課（代表）"
+     }
+    ],
+    "note": "icuco株式会社には24時間受付の専用お問合せフォームもあり",
+    "src": "https://www.city.shijonawate.lg.jp/page/122452.html"
+   },
+   "official": [
+    [
+     "午睡チェック支援システムにおける不正アクセスについて（2026/11/12）",
+     "https://www.city.shijonawate.lg.jp/page/122452.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/shijonawate-icuco-touch-care-unauthorized-access-202611/"
+    ]
+   ],
+   "ind": "公共機関",
+   "cause": "cyber",
+   "date": "2026-11-12",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "cao-okinawa41-2611",
+   "co": "内閣府（委託事業「OKINAWA41」／委託先 JTB・再委託先 ベートーベン）",
+   "announced": "2026-11-13",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 5973,
+   "label": "5,973人（報道）",
+   "st": "p",
+   "items": [
+    "tel",
+    "mail"
+   ],
+   "itemsText": "「フォトコンテスト」「かりゆしウェアデザインコンテスト」応募者の電話番号・メールアドレス、フォトコンテストの顔画像を含む投稿画像（ホームページで公表済みのもの）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "内閣府が委託する広報事業「OKINAWA41」で使っていたレンタルサーバー（さくらインターネット運営）にマルウェアによる不正アクセスがあり、保存されていた応募者の個人情報が漏えいしたおそれが生じた（本年8月発生）。件数は公式発表に記載がなく、共同通信の報道による5,973人分。アララ事案とは別件。",
+   "status": "ongoing",
+   "statusText": "2026年11月13日公表。具体的な被害は確認されていない。",
+   "resp": "連絡先が確認できる方へ個人情報保護法に基づく本人通知を順次実施。個別通知が難しい方には公表で周知。事業者に適切な対応を求め、再発防止に努める。",
+   "contact": {
+    "mails": [
+     "okinawa41@bsec.jp"
+    ],
+    "note": "OKINAWA41事務局",
+    "src": "https://www8.cao.go.jp/okinawa/rireki/20261113okinawa41.pdf"
+   },
+   "official": [
+    [
+     "委託事業「OKINAWA41」で使用するレンタルサーバーに対する不正アクセスによる個人情報の漏えいのおそれについて（2026/11/13）",
+     "https://www8.cao.go.jp/okinawa/rireki/20261113okinawa41.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/cabinet_office_okinawa41_sakura_server_5973_possible_leak_20261113/"
+    ],
+    [
+     "共同通信（NEWSjp）",
+     "https://news.jp/i/1493886879813812684"
+    ]
+   ],
+   "ind": "公共機関",
+   "cause": "cyber",
+   "date": "2026-11-13",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "qoo10-2611",
+   "co": "Qoo10（運営：eBay Japan）",
+   "announced": "2026-11-12",
+   "occurred": "2026-11-06",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth"
+   ],
+   "itemsText": "氏名、ニックネーム、メールアドレス・電話番号、生年月日、性別、プロフィール情報、住所・配送先住所と住所の地理座標、顧客セグメント情報、任意入力の身体的特徴、アカウント識別情報、IPアドレス、個人メモ、サイト内ポイント残高",
+   "notIncl": "決済情報・パスワードが漏えいした証拠は現時点で確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "2026年11月6日に外部の第三者が同社システムへ不正アクセスし、一部の個人情報が閲覧された。対象となり得る情報は広範で、件数は公表されていない。詳細を調査中。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日公表。詳細な調査を継続中。",
+   "resp": "不正アクセスの遮断、不正に発行・利用された可能性のある認証トークンの全無効化、対象となり得るアカウントの強制ログアウト。不審な連絡への注意喚起。",
+   "contact": {
+    "forms": [
+     [
+      "Qoo10 お客様相談窓口（カスタマーサービスセンター）",
+      "https://www.qoo10.jp/gmkt.inc/cs/NHelpHome.aspx"
+     ]
+    ],
+    "note": "出店者向けの窓口は別途案内あり",
+    "src": "https://www.qoo10.jp/gmkt.inc/Main/PopupNotice.aspx?nid=6246"
+   },
+   "official": [
+    [
+     "[Qoo10] セキュリティインシデントおよび個人情報漏えいに関するお知らせ（2026/11/12）",
+     "https://www.qoo10.jp/gmkt.inc/Main/PopupNotice.aspx?nid=6246"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/qoo10-unauthorized-access-personal-data-viewed-202611/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "cause": "cyber",
+   "date": "2026-11-12",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "paiza-staging-2611",
+   "co": "paiza株式会社（開発用ステージング環境）",
+   "announced": "2026-11-13",
+   "occurred": "2026-07-17",
+   "cause": "config",
+   "types": [
+    "設定ミス・不具合"
+   ],
+   "n": 902576,
+   "label": "最大902,576件",
+   "st": "p",
+   "items": [
+    "id",
+    "birth",
+    "mail",
+    "tel",
+    "work"
+   ],
+   "itemsText": "ユーザーID・ログインID・GitHub ID・ニックネーム・学籍番号、生年月日・性別・職歴・学歴・在住都道府県、スキルチェック・学習実績、応募履歴・求人希望条件、メールアドレス（一部期間）、取引先担当者情報（組織名・部署・役職・氏名カナ・携帯電話番号等）",
+   "notIncl": "氏名・住所・電話番号・メインのメールアドレス・パスワードはマスク処理されていた（一部項目に未実施期間あり）。具体的に外部へ流出した事実は確認されていない",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "開発用の動作検証環境で認証情報（ベーシック認証等）を長期間変更せず運用していたため、退職者など元の権限保有者から外部経由でアクセスされ得る状態が2013年の構築時から2026年8月13日まで続いていた。2026年7月17日の行政機関からの照会を契機に判明。",
+   "status": "ongoing",
+   "statusText": "2026年11月13日公表。外部への流出の事実は確認されていない。緊急対策を実施し、行政機関へ報告中。",
+   "resp": "対象環境の遮断・アクセス制御の強化（8月13日）、社内セキュリティ管理マニュアルの整備（9月4日）、行政機関への報告。",
+   "contact": {
+    "mails": [
+     "privacy-contact@paiza.co.jp"
+    ],
+    "src": "https://www.paiza.co.jp/news/20261113/access-management-notice/"
+   },
+   "official": [
+    [
+     "【重要】開発用ステージング環境における個人情報漏えいのおそれに関するご報告とお詫び（2026/11/13）",
+     "https://www.paiza.co.jp/news/20261113/access-management-notice/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/paiza_staging_personal_information_engineer_risks_20261113/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "date": "2026-11-13",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "ntt-sonority-notion-2611",
+   "co": "NTTソノリティ株式会社（クラウドサービスNotion／委託先 Fireworks AI）",
+   "announced": "2026-11-12",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "Notion AIに入力した文章とAIの応答文の一部（2026年10月5日〜24日分）。個人情報の含有は調査中（項目は公表資料で要確認）",
+   "notIncl": "Notionのページ・データベース・添付ファイルなど他のデータは対象外とNotion Labs社から説明を受けている",
+   "who": [
+    "work",
+    "unk"
+   ],
+   "sum": "同社が使うNotionの委託先Fireworks AIが不正アクセスを受け、Notion AIへの入力文と応答文の一部が流出した可能性がある。記録には誰が入力したかの情報は付かないが入力文自体は含まれるため、同社が内容ごとに影響を確認中。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日第一報。第三者による取得の有無と範囲は未確定で、件数・項目は調査中。",
+   "resp": "対象記録の内容確認を進め、情報が含まれていた顧客・取引先には個別連絡。個人情報が含まれると確認されれば個人情報保護委員会へ報告予定。不審な連絡への注意喚起。",
+   "contact": {
+    "forms": [
+     [
+      "お問い合わせフォーム（種別「情報流出の可能性に関するお問い合わせ」を選択）",
+      "https://form.ntt-sonority.com/form/pub/corporate/contact"
+     ]
+    ],
+    "note": "24時間受付",
+    "src": "https://ntt-sonority.com/blogs/news/261112-2"
+   },
+   "official": [
+    [
+     "当社が利用するクラウドサービス「Notion」の委託先への不正アクセスに伴う、AI機能での入力情報の流出の可能性に関するお知らせとお詫び（第一報）（2026/11/12）",
+     "https://ntt-sonority.com/blogs/news/261112-2"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ntt_sonority_notion_ai_fireworks_data_exposure_20261112/"
+    ]
+   ],
+   "ind": "製造",
+   "cause": "cyber",
+   "date": "2026-11-12",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "athome-chintai-2611",
+   "co": "アットホーム株式会社（賃貸管理システム）",
+   "announced": "2026-11-13",
+   "occurred": "2026-11-09",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 6901,
+   "label": "6,901件（詳細調査中）",
+   "st": "p",
+   "items": [
+    "name",
+    "birth",
+    "tel",
+    "addr",
+    "deal"
+   ],
+   "itemsText": "氏名、生年月日、電話番号・携帯電話番号、住所・所在地、契約情報（建物名・部屋番号・契約状況）ほか",
+   "notIncl": "口座情報は漏えいが確認されていない。クレジットカード情報は本システムで保有していない",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "不動産会社向け「賃貸管理システム」の管理サイトに第三者が不正アクセス・ログインし、加盟不動産会社が登録した入居者・オーナー・取引先の個人情報が漏えいした可能性が確認された。",
+   "status": "ongoing",
+   "statusText": "2026年11月13日公表。詳細を調査中。二次被害は確認されていない。",
+   "resp": "不正アクセス元の遮断、原因調査、アクセスログ確認、影響の可能性のある加盟不動産会社への個別連絡、個人情報保護委員会等への報告（11月12日）。管理体制・セキュリティの強化。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "050-5538-0939",
+      "hours": "アットホームカスタマーセンター 9:00〜17:00（日・祝、夏季・年末年始を除く）"
+     }
+    ],
+    "src": "https://www.athome.co.jp/corporate/news/topics/oshirase-202611/"
+   },
+   "official": [
+    [
+     "「賃貸管理システム」の管理サイトへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとご報告（2026/11/13）",
+     "https://www.athome.co.jp/corporate/news/topics/oshirase-202611/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/athome_rental_management_unauthorized_access_6901_2026/"
+    ]
+   ],
+   "ind": "建設・不動産",
+   "cause": "cyber",
+   "date": "2026-11-13",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "dassai-blastmail-2610",
+   "co": "株式会社獺祭（メールマガジン配信委託先 ラクスライトクラウド「ブラストメール」）",
+   "announced": "2026-10-23",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 40000,
+   "label": "約4万件",
+   "st": "c",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "メールアドレスと、登録済みの属性情報（お名前、性別、都道府県名）",
+   "notIncl": "クレジットカード情報・銀行口座・住所・電話番号・パスワードは同システム上に保持していない。獺祭ストアWEB店本体のデータベースへの影響はない",
+   "who": [
+    "cust"
+   ],
+   "sum": "メールマガジン配信を委託するラクスライトクラウドの「ブラストメール」への不正アクセスにより、同社が登録していた読者データ（約4万件）が漏えい対象に含まれていたことが10月23日に確定した。それまではシステム障害として案内していた。",
+   "status": "ongoing",
+   "statusText": "2026年10月23日公表。二次被害や不審メールは確認されていない。",
+   "resp": "個人情報保護委員会への報告手続きを完了。安全性が担保されるまで同サービスの利用を停止。対象者への個別対応は準備でき次第順次実施。不審メールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0827-86-0120",
+      "hours": "業務部 平日9:00〜17:00"
+     }
+    ],
+    "mails": [
+     "shop@dassai.com"
+    ],
+    "src": "https://dassai.com/news/info/007802.html"
+   },
+   "official": [
+    [
+     "【重要】委託先サービスへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（2026/10/23）",
+     "https://dassai.com/news/info/007802.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/dassai-store-security-emergency-suspension-20261113/"
+    ]
+   ],
+   "ind": "製造",
+   "cause": "cyber",
+   "date": "2026-10-23",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "teac-store-arara-2611",
+   "co": "ティアック株式会社（ティアックストア／委託先 GMOメイクショップ・アララ）",
+   "announced": "2026-11-12",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026年7月1日〜10月28日の配信先に指定されていた会員・注文者のメールアドレス。自社のお客様が対象に含まれるかは確認中",
+   "notIncl": "パスワード・クレジットカード情報は当該外部サービスに関与しておらず対象外",
+   "who": [
+    "cust"
+   ],
+   "sum": "「MakeRepeater」「メール配信プラス」（GMOメイクショップ提供）がメール配信に使う「アララメッセージ」への不正アクセスにより、配信先メールアドレスが外部に流出した。ティアックストアのお客様のアドレスが含まれるかを確認している。件数は公式ストアのお知らせには記載がない。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日公表。対象の確認中。",
+   "resp": "不審メールへの注意喚起。今後新情報はWebサイトで案内。",
+   "contact": {
+    "forms": [
+     [
+      "本件専用お問い合わせフォーム",
+      "https://store.teac.co.jp/shop/enq202611120"
+     ]
+    ],
+    "src": "https://store.teac.co.jp/view/news/20261112200750"
+   },
+   "official": [
+    [
+     "【重要】委託先メール配信サービスへの不正アクセスに関するお詫びとお知らせ（2026/11/12）",
+     "https://store.teac.co.jp/view/news/20261112200750"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/teac_store_arara_makerepeater_mailplus_email_leak_2026/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "group": "arara",
+   "cause": "cyber",
+   "date": "2026-11-12",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "imh-sol-arara-2611",
+   "co": "株式会社三越伊勢丹ヒューマン・ソリューションズ（アルバイト求人配信／委託先 アララ）",
+   "announced": "2026-11-12",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 2511,
+   "label": "2,511件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026年7月1日〜10月31日の求人情報配信ログに記録されていたメールアドレス",
+   "notIncl": "氏名・電話番号等の属性情報は含まれないとアララから報告を受けている",
+   "who": [
+    "staff"
+   ],
+   "sum": "三越伊勢丹雇用アルバイトへの仕事情報配信に使うアララのメール配信サービスへの不正アクセスで、配信ログのメールアドレス2,511件が流出した。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日公表。対象者へ個別連絡済み。",
+   "resp": "対象者へ個別にメール連絡。当該メール配信サービスの利用停止。個人情報保護委員会へ報告済み。委託先の管理状況確認を含む再発防止。",
+   "contact": {
+    "mails": [
+     "mi_info@imh-sol.co.jp"
+    ],
+    "note": "三越伊勢丹アルバイト採用問合せ窓口",
+    "src": "https://www.imh-sol.co.jp/news/news/N261112.html"
+   },
+   "official": [
+    [
+     "外部委託先への不正アクセスによるメールアドレス流出に関するお知らせとお詫び（2026/11/12）",
+     "https://www.imh-sol.co.jp/news/news/N261112.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mitsukoshi-isetan-human-solutions-arara-email-leak-2511/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "group": "arara",
+   "cause": "cyber",
+   "date": "2026-11-12",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "appeal-watts-arara-2611",
+   "co": "株式会社ワッツ（カラコン通販「Appeal」／委託先 データX・アララ「repica」）",
+   "announced": "2026-11-12",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 38904,
+   "label": "38,904件（11月11日時点）",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026年10月8日〜29日に配信されたメールアドレス（件数は人数と一致しない）",
+   "notIncl": "氏名・住所・電話番号・パスワード・クレジットカード情報は対象外",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信に使う株式会社データXのサービスの基盤であるアララの「repica」への不正アクセスで、メールアドレスが流出した。11月3日にデータXからの報告で判明。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日公表。引き続き事実確認中。",
+   "resp": "関係するメール配信機能を停止。対象者へ個別にメール案内。再発防止に向けた管理体制の点検。",
+   "contact": {
+    "mails": [
+     "info@appeal-w.co.jp"
+    ],
+    "note": "Appeal カスタマーセンター",
+    "src": "https://appeal-w.co.jp/data-breach"
+   },
+   "official": [
+    [
+     "メール配信サービスへの不正アクセスによるメールアドレス流出に関するお詫びとお知らせ（2026/11/12）",
+     "https://appeal-w.co.jp/data-breach"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/appeal-watts-datax-arara-repica-email-leak-38904-20261112/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "group": "arara",
+   "cause": "cyber",
+   "date": "2026-11-12",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "avantistaff-arara-2611",
+   "co": "株式会社アヴァンティスタッフ（委託先 アララ）",
+   "announced": "2026-11-06",
+   "occurred": "2026-10-28",
+   "last": "2026-11-11",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 78322,
+   "label": "78,322件（メールアドレス78,310件・氏名とメール12件）",
+   "st": "c",
+   "items": [
+    "mail",
+    "name"
+   ],
+   "itemsText": "メールアドレス78,310件、氏名とメールアドレス12件（同一アドレスの重複を含み実人数ではない）",
+   "notIncl": "委託先からは上記以外の漏えいは確認されていないと報告。就業スタッフ向け安否確認システム経由の影響は確認中",
+   "who": [
+    "staff"
+   ],
+   "sum": "スタッフ向け案内メールや仕事紹介メールに使う委託先アララのメール配信サービスで不正アクセスがあり、登録スタッフ等のメールアドレスが漏えいした。第2報(11/11)で件数が判明。発生日は委託先が不正アクセスを確認した日。",
+   "status": "ongoing",
+   "statusText": "2026年11月11日の第2報時点。安否確認システム経由の影響を確認中。",
+   "resp": "漏えい対象者への案内を進め、委託先等と連携して詳細調査。情報管理体制の強化。不審メールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-668-119",
+      "hours": "平日10:00〜18:00（土日祝・12/29〜1/3除く）"
+     }
+    ],
+    "mails": [
+     "privacy@avantistaff.com"
+    ],
+    "note": "個人情報お問い合わせ窓口",
+    "src": "https://www.avantistaff.com/staff/topics/detail/139"
+   },
+   "official": [
+    [
+     "当社委託先が提供するメール配信サービスにおける情報漏えいについて（第２報）（2026/11/11）",
+     "https://www.avantistaff.com/staff/topics/detail/139"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/avantistaff-arara-email-data-leak-78322-20261111/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "group": "arara",
+   "cause": "cyber",
+   "date": "2026-11-06",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "tgg-arara-2611",
+   "co": "株式会社TOKYO GLOBAL GATEWAY（学研グループ／委託先 アララ）",
+   "announced": "2026-11-11",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 14143,
+   "label": "14,143件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（2026/10/2配信のメルマガ会員、8/27〜9/7利用の学校団体、8/30開催の個人向けイベント参加者）",
+   "notIncl": "要配慮個人情報に該当する項目は確認されていない。クレジットカード番号は流出なし",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信を委託するアララのサービスへの不正アクセスで、同社分として合計14,143件のメールアドレスが漏えいしたことが確認された（学研グループ全体の集計とは別の同社単独の発表）。",
+   "status": "ongoing",
+   "statusText": "2026年11月11日公表。二次被害は確認されていない。",
+   "resp": "当該サービスへのデータ連携を停止し別の配信方法へ切替。アララ社と影響範囲を精査。不審メールへの注意喚起。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://tokyo-global-gateway.com/information/email_delivery_system_20261111/"
+   },
+   "official": [
+    [
+     "委託先メール配信サービスへの不正アクセスによる個人情報漏えいに関するお知らせとお詫び（2026/11/11）",
+     "https://tokyo-global-gateway.com/information/email_delivery_system_20261111/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tokyo-global-gateway-arara-email-leak-14143/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "group": "arara",
+   "cause": "cyber",
+   "date": "2026-11-11",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "omu",
+   "co": "大阪公立大学（委託先 NEC・再委託先経由）",
+   "announced": "2026-10-02",
+   "occurred": "2026-10-02",
+   "date": "2026-10-02",
+   "last": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "n": 170000,
+   "label": "約17万名分（NEC管理クラウドストレージ）",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "birth",
+    "id",
+    "acct",
+    "doc"
+   ],
+   "itemsText": "学生・教職員のID・氏名・メールアドレス・生年月日など約17万名分。うち約1,400名分に銀行口座番号（約20名）、健康関連情報（約200名）、パスポート画像（約200名）、旅券番号（約1,000名）を含む",
+   "notIncl": "大学の情報システム自体からの個人情報漏えいは、現時点で明確な事実は確認されていない（可能性は否定できない）",
+   "who": [
+    "cust",
+    "staff"
+   ],
+   "sum": "2026年10月2日のサイバー攻撃による情報基盤の大規模障害。調査により、委託先NECの再委託先の端末が不正アクセスを受け、NECが管理するクラウドストレージから大学関連データが漏えいし、その情報を悪用して大学システムに侵入されたと判断した。2021年度のシステム移行データが作業後も同ストレージに残っていた。",
+   "status": "ongoing",
+   "statusText": "2026年11月13日の第6報時点。NECが対象者の範囲・個人情報の種別を調査中。",
+   "resp": "対象者が判明次第、個別に説明・謝罪。専用の相談・問い合わせ窓口を設置。委託先の業務履行状況の管理徹底など再発防止を強化。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-45-3021",
+      "hours": "NEC問い合わせ窓口 11:30〜14:00（土日祝を除く）"
+     }
+    ],
+    "note": "大阪公立大学の相談・問い合わせ窓口（卒業生・保護者向け等）も設置",
+    "src": "https://www.omu.ac.jp/news/12123"
+   },
+   "official": [
+    [
+     "本学情報基盤システムにおける障害の発生について【第6報】（2026/11/13）",
+     "https://www.omu.ac.jp/news/12123"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/osaka_metropolitan_university_nec_cloud_170/"
+    ],
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/osaka-metropolitan-university-ransomware-update-20261005/"
+    ]
+   ],
+   "ind": "大学・学校",
+   "verified": "2026-11-15"
   }
  ],
  "statusLabels": {
@@ -50599,7 +51334,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 326,
+ "pendingCount": 325,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",

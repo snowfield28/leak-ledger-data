@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -211,52 +211,6 @@
    "ind": "小売・EC",
    "cause": "cyber",
    "pendingReason": "10/12再確認：検索回数の上限に達し、再検索できなかった。前回の理由（公式発表 contents/882 がrobots.txtで自動取得を拒否）は解消していない",
-   "auto": true
-  },
-  {
-   "id": "omu",
-   "co": "大阪公立大学",
-   "date": "2026-10-02",
-   "types": [
-    "ランサムウェア"
-   ],
-   "n": 130000,
-   "label": "少なくとも約13万件（保管分）",
-   "st": "p",
-   "items": [
-    "addr",
-    "mail",
-    "tel"
-   ],
-   "itemsText": "在学生・卒業生などの住所、メールアドレス、携帯電話番号など（旧大阪市立大学は1995年以降、旧大阪府立大学は2005年以降の学生を含む）。13万件は被害を受けたシステムに保管されていた件数で、漏えい件数ではない",
-   "notIncl": "",
-   "sum": "情報システムを動かす仮想化基盤に侵入され、約500台のサーバーが停止。バックアップの多くも暗号化された。10月5日にランサムウェア攻撃と判断したと公表。",
-   "status": "ongoing",
-   "statusText": "10月5日時点で、持ち出しの有無を調査中。復旧の見通しは未公表。",
-   "resp": "10月2〜8日の全授業を休講し、対面授業は10月9日に再開予定。被災した基盤とは別の緊急お知らせサイトで情報発信。経済支援の申請・手続きの期限を10月22日まで延長。",
-   "official": [
-    [
-     "第1報（2026/10/2）",
-     "https://www.omu.moe/news/2026-10-02-outage-1.html"
-    ],
-    [
-     "第2報",
-     "https://www.omu.moe/news/2026-10-02-outage-2.html"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/osaka-metropolitan-university-ransomware-update-20261005/"
-    ],
-    [
-     "MBSニュース",
-     "https://newsdig.tbs.co.jp/articles/mbs/2990268?display=1"
-    ]
-   ],
-   "ind": "大学・学校",
-   "cause": "cyber",
-   "pendingReason": "10/12再確認：報道（セキュリティ対策Lab p=42984）で、10月8日15時に第4報が出たこと（対面授業再開、病院・獣医臨床センターへの影響なし、個人情報の流出は引き続き調査中）を確認。ただし公式サイトomu.moeのURLはWebFetchが拒否（PROVENANCE_REQUIRED）、site:検索でも出てこず、本文を照合できず。e.omu.ac.jpにはこの事案の記載なし",
    "auto": true
   },
   {
