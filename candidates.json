@@ -8108,48 +8108,6 @@
    ],
    "ind": "生活サービス・レジャー",
    "pendingReason": "公式発表が見つからず/robotsで取得不可。公式に漏えいの記載があるか未確認"
-  },
-  {
-   "id": "progate-prototype-2609",
-   "co": "株式会社Progate（社内向けAI試作ツール）",
-   "date": "2026-09-16",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "name",
-    "mail"
-   ],
-   "itemsText": "氏名、メールアドレス、GitHub等のアカウントID、開発活動の記録、チャット発言、AIツールとの対話内容（報道による。対象人数は未公表）",
-   "who": [
-    "staff",
-    "cust"
-   ],
-   "sum": "サービスアカウント鍵の流出により社内向けAI試作ツールが不正利用され、従業員と2025年6月以降の主催イベント参加者の情報が漏えいしたおそれがあると、11月10日の調査結果で公表されたと報じられている。「Progate」「Progate Prospects」の利用者情報は対象外。",
-   "status": "ongoing",
-   "statusText": "2026年9月16日初報、11月10日に調査結果を公表（報道）。",
-   "official": [
-    [
-     "当社社内システムへの不正アクセス発生に関するお知らせとお詫び（2026/9/16）",
-     "https://progate.com/about/news/619"
-    ],
-    [
-     "当社社内システムへの不正アクセスに関する調査結果のお知らせとお詫び（2026/11/10）",
-     "https://progate.com/about/news/622"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/progate_internal_ai_tool_unauthorized_access_final_report/"
-    ]
-   ],
-   "ind": "人材・教育・業務支援",
-   "pendingReason": "自動取得不可（thin：JavaScript描画で公式本文を読めず、WebFetchでも取得できなかった）。件数・発表日・窓口を公式本文で確認できていない。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }
