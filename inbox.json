@@ -546,9 +546,366 @@
      "text_file": "inbox/texts/5348a3689af1.txt"
     }
    ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/axa-myaxa-597000-data-exposure-second-report-20261113/",
+   "title": "アクサ損害保険「MyAXA」に不正アクセス、約59万7,000件の個人情報漏洩の恐れ 氏名・住所・生年月日などが対象",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-15",
+   "article_text_file": "inbox/texts/7a7ec16457c3.txt",
+   "official": [
+    {
+     "url": "https://www.prestigein.com/Portals/0/pdf/NEWS/news_20261106_01.pdf",
+     "status": "ok",
+     "chars": 1515,
+     "text_file": "inbox/texts/91a7b1fd1513.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/yamada-denki-reform-unauthorized-access-2026/",
+   "title": "ヤマダデンキのリフォーム管理システムに不正アクセス、最大350万件の個人情報漏洩の恐れ 氏名・住所・施工履歴などが対象",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-15",
+   "article_text_file": "inbox/texts/3f8154a1f0fd.txt",
+   "official": [
+    {
+     "url": "https://www.yamada-denki.jp/information/pdf/261113_1.pdf",
+     "status": "error:ConnectTimeout",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/keihan-hd-comsbi-saas-line-data-exposure-202611/",
+   "title": "京阪HD、グループ4社のLINE利用者情報に流出のおそれ プロフィール情報は最大延べ22万4,386名、氏名なども対象",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-15",
+   "article_text_file": "inbox/texts/0082f048725d.txt",
+   "official": [
+    {
+     "url": "https://www.keihan.co.jp/corporate/info/release/assets/261114_keihan-holdings.pdf",
+     "status": "ok",
+     "chars": 2032,
+     "text_file": "inbox/texts/7e62ad31522a.txt"
+    },
+    {
+     "url": "https://sonicmoov.com/news/5ttj9ndzh",
+     "status": "ok",
+     "chars": 1952,
+     "text_file": "inbox/texts/18506794a486.txt"
+    },
+    {
+     "url": "https://sonicmoov.com/news/xr5qdn-cnfsn",
+     "status": "ok",
+     "chars": 2007,
+     "text_file": "inbox/texts/fbc93b9af9cb.txt"
+    },
+    {
+     "url": "https://sonicmoov.com/news/t_ujy0ugk",
+     "status": "ok",
+     "chars": 1444,
+     "text_file": "inbox/texts/d6a9a777340d.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/osaka-abeno-english-event-arara-245-email-leak-20261/",
+   "title": "大阪市阿倍野区、小学生向けイベント当選者245名のメールアドレス流出 アララへの不正アクセスで",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-15",
+   "article_text_file": "inbox/texts/09a8a2d57e21.txt",
+   "official": [
+    {
+     "url": "https://www.arara.com/news/info/20261106_arara",
+     "status": "ok",
+     "chars": 3334,
+     "text_file": "inbox/texts/cccdc16512fd.txt"
+    },
+    {
+     "url": "https://www.city.osaka.lg.jp/hodoshiryo/abeno/0000691524.html",
+     "status": "ok",
+     "chars": 1863,
+     "text_file": "inbox/texts/a4613290524a.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/ota-city-hanamaru-renrakucho-arara-email-leak-risk-20261112/",
+   "title": "群馬県太田市、学校連絡アプリ「はなまる連絡帳」でメールアドレス漏えいのおそれ アララ不正アクセス、こどもプラッツなどに影響",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-15",
+   "article_text_file": "inbox/texts/d69f36b8c15d.txt",
+   "official": [
+    {
+     "url": "https://news.livedoor.com/article/detail/32802743/",
+     "status": "ok",
+     "chars": 9824,
+     "text_file": "inbox/texts/3ea384ef4bbd.txt"
+    },
+    {
+     "url": "https://np-schools.com/news/29569/",
+     "status": "ok",
+     "chars": 2316,
+     "text_file": "inbox/texts/ab12a60110a5.txt"
+    },
+    {
+     "url": "https://www.arara.com/news/info/20261106_arara",
+     "status": "ok",
+     "chars": 3334,
+     "text_file": "inbox/texts/cccdc16512fd.txt"
+    },
+    {
+     "url": "https://www.city.ota.gunma.jp/site/kosodate/1066354.html",
+     "status": "ok",
+     "chars": 1546,
+     "text_file": "inbox/texts/df74ab772c1c.txt"
+    },
+    {
+     "url": "https://www.ota-sports-academy.com/topics/i_etc/%E3%81%AF%E3%81%AA%E3%81%BE%E3%82%8B%E9%80%A3%E7%B5%A1%E5%B8%B3%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E4%BC%B4%E3%81%86%E5%80%8B%E4%BA%BA/",
+     "status": "ok",
+     "chars": 881,
+     "text_file": "inbox/texts/4a6ff58a4c4d.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/snow_peak_four_incidents_reuse_events_community_store_20261113/",
+   "title": "スノーピーク、4件の不正アクセス・不正ログインを公表 2万4,948人の個人情報漏洩の恐れのおそれ",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-15",
+   "article_text_file": "inbox/texts/8b9945cb805c.txt",
+   "official": [
+    {
+     "url": "https://www.snowpeak.co.jp/news/p20261113-0/",
+     "status": "ok",
+     "chars": 3356,
+     "text_file": "inbox/texts/ffa59d2b50cf.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    },
+    {
+     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
+     "status": "thin",
+     "chars": 38,
+     "text_file": "inbox/texts/36d77daa127a.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/sanfrecce-hiroshima-tss-mobile-arara-email-leak-2900-20261113/",
+   "title": "サンフレッチェ広島、公式モバイルサイトのメールアドレス2,900件が漏えい アララへの不正アクセスで",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-15",
+   "article_text_file": "inbox/texts/8d5c55afdcf0.txt",
+   "official": [
+    {
+     "url": "https://www.tss-tv.co.jp/archives/001/202611/b4243df6459ed8064b57d638657400e2506ec756dba4bf7694445f0a0be7e044.pdf",
+     "status": "ok",
+     "chars": 2331,
+     "text_file": "inbox/texts/c30126fbd4be.txt"
+    },
+    {
+     "url": "https://www.sanfrecce.co.jp/news/other/13058",
+     "status": "ok",
+     "chars": 1224,
+     "text_file": "inbox/texts/2f5fc219c2e4.txt"
+    },
+    {
+     "url": "https://sanfrecce.mopita.com/info/info_info/109058",
+     "status": "ok",
+     "chars": 864,
+     "final_url": "https://sanfrecce.mopita.com/unsupported.php",
+     "text_file": "inbox/texts/466e7e379326.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/nasushiobara_city_tkc_arara_5652_email_leak_20261113/",
+   "title": "栃木県那須塩原市、行政サービスのメールアドレス5,652件が漏えい TKC委託先アララへの不正アクセスで",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-15",
+   "article_text_file": "inbox/texts/a4fd97520e9e.txt",
+   "official": [
+    {
+     "url": "https://www.tkc.jp/news/2026/20261109_1/",
+     "status": "ok",
+     "chars": 2085,
+     "text_file": "inbox/texts/4f48973fa2ae.txt"
+    },
+    {
+     "url": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/digitalsuishinka/huseiakusesu_zyouhourouei/24640.html",
+     "status": "ok",
+     "chars": 1881,
+     "text_file": "inbox/texts/5cbbd0548ee4.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://mastodon.social/@securityLab_jp",
+     "status": "thin",
+     "chars": 63,
+     "text_file": "inbox/texts/3bc62ca4b423.txt"
+    }
+   ]
+  },
+  {
+   "article_url": "https://rocket-boys.co.jp/security-measures-lab/osaka_premium_voucher_2026_48537_email_leak_final_20261113/",
+   "title": "大阪市プレミアム付商品券2026、メールアドレス4万8,537件が漏えい 利用者・参加店舗への影響を終報で確定",
+   "source": "セキュリティ対策Lab 情報漏えい",
+   "found": "2026-11-15",
+   "article_text_file": "inbox/texts/2c61bb8af295.txt",
+   "official": [
+    {
+     "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000691292.html",
+     "status": "ok",
+     "chars": 2655,
+     "text_file": "inbox/texts/143c6325eb1a.txt"
+    },
+    {
+     "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000691115.html",
+     "status": "ok",
+     "chars": 2012,
+     "text_file": "inbox/texts/76b1501ad138.txt"
+    },
+    {
+     "url": "https://www.city.osaka.lg.jp/hodoshiryo/ictsenryakushitsu/0000691472.html",
+     "status": "ok",
+     "chars": 2405,
+     "text_file": "inbox/texts/92c4b2db735a.txt"
+    },
+    {
+     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
+     "status": "robots",
+     "chars": 0
+    },
+    {
+     "url": "https://www.linkedin.com/company/107134396",
+     "status": "robots",
+     "chars": 0
+    }
+   ]
+  },
+  {
+   "article_url": "https://scan.netsecurity.ne.jp/article/2025/10/28/53895.html",
+   "title": "SMBC日興証券 即時入金サービス当面停止 フィッシング詐欺等による不正アクセス被害拡大防止",
+   "source": "ScanNetSecurity 月別 1",
+   "found": "2026-11-15",
+   "article_text_file": "inbox/texts/4bf2fa4c5d9c.txt",
+   "official": [
+    {
+     "url": "https://www.smbcnikko.co.jp/news/customer/2025/n_20251017_01.html",
+     "status": "error:http403",
+     "chars": 0
+    },
+    {
+     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
+     "status": "ok",
+     "chars": 4732,
+     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
+     "text_file": "inbox/texts/b77453ec9305.txt"
+    }
+   ]
   }
  ],
- "generated": "2026-11-14 09:19 JST",
+ "generated": "2026-11-15 07:56 JST",
  "last_report": {
   "sources_ok": 9,
   "sources_failed": [],
@@ -556,14 +913,6 @@
    "https://www.linkedin.com": {
     "status": 200,
     "text": "# Notice: The use of robots or other automated means to access LinkedIn without\n# the express permission of LinkedIn is strictly prohibited.\n# See https://www.linkedin.com/legal/user-agreement.\n# LinkedIn may, in its discretion, permit certain automated access to certain LinkedIn pages,\n# for the limited purpose of including content in approved publicly available search engines.\n# If you would like to apply for permission to crawl LinkedIn, please email whitelist-crawl@linkedin.com.\n# Any and all permitted crawling of LinkedIn is subject to LinkedIn's Crawling Terms and Conditions.\n# See http://www.linkedin.com/legal/crawling-terms.\n\nUser-agent: __usage_ai-training\nDisallow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: Googlebot\nDisallow: /addContacts*\nDisallow: /addressBookExport*\nDisallow: /ambry\nDisallow: /analytics/\nDisallow: /answers*\nDisallow: /authwall\nDisallow: /badges/profile/create\nDisallow: /cap/\nDisallow: /chat/\nDisallow: /checkpoint/\nDisallow: /companyDir*\nDisallow: /connections*\nDisallow: /csp/\nDisallow: /e/\nDisallow: /edurec*\nDisallow: /embed/feed/update/\nDisallow: /endorsements\nDisallow: /feed/update/\nDisallow: /find/\nDisallow: /fizzy/admin\nDisallow: /groups/\nDisallow: /groupAnswers*\nDisallow: /groupSharingMsg*\nDisallow: /inviteFromProfile*\nDisallow: /inviteMany*\nDisallow: /jobs?runSearch*\nDisallow: /jobs/view/externalApply/\nDisallow: /jobs-guest/\nDisallow: /api/jobPostings/jobs*\nDisallow: /jsearch*\nDisallow: /job-apply/\nDisallow: /learning*?auth=true\nDisa"
-   },
-   "https://www.release.tdnet.info": {
-    "status": 200,
-    "text": "User-agent: *\nDisallow: /\n"
-   },
-   "https://www.threads.com": {
-    "status": 200,
-    "text": "# Notice: Collection of data on Threads through automated means is\n# prohibited unless you have express written permission from Threads\n# and may only be conducted for the limited purpose contained in said\n# permission.\n# All authorized user-agents listed on this page must comply with Meta’s\n# Automated Data Collection Terms available at:\n# https://www.facebook.com/legal/automated_data_collection_terms\nUser-agent: __usage_ai-training\nDisallow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Brightbot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: Scrapy\nDisallow: /\n\nUser-agent: uptimerobot\nDisallow: /\n\nUser-agent: viberbot\nDisallow: /\n\nUser-agent: YaK\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /\n\nUser-agent: Yeti\nDisallow: /\n\nUser-agent: Applebot\nDisallow: /accounts/\nDisallow: /activity/\nDisallow: /ajax/\nDisallow: /client_error/\nDisallow: /deck/\nDisallow: /intent/\nDisallow: /logging/\nDisallow: /onboarding/\nDisallow: /publicapi/\nDisallow: /qp/batch_fetch_web/\nDisallow: /query/\nDisallow: /settings/\n\nUser-agent: Bingbot\nDisallow: /*/c/\nDisallow: /*/comments/\nDisallow: /*/liked_by/\nDisallow: /*/p/\nDisallow: /accounts/\nDisallow: /activity/\nDisallow: /ajax/\nDisallow: /client_error/\nDisallow: /deck/\nDisallow: /intent/\nDisallow: /logging/\nDisallow: /onboarding/\nDisallow: /publicapi/\nD"
    }
   }
  }
