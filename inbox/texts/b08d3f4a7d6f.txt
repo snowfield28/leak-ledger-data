@@ -1,0 +1,218 @@
+URL: https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/reviewing-your-security-log
+
+セキュリティ ログをレビューする - GitHubドキュメント
+Skip to main content
+Skip to content
+サイドバーを折りたたむ
+サイドバーを展開する
+この記事で
+セキュリティ ログをレビューする
+個人アカウントのセキュリティ ログを確認して、自分が実行したアクションと、他のユーザーが実行したアクションについて詳しく知ることができます。
+Markdownをコピー
+この記事で
+セキュリティログにアクセスする
+セキュリティ ログには、過去 90 日以内に実行されたすべてのアクションが一覧表示されます。
+GitHub の任意のページの右上隅にあるプロフィール写真をクリックし、
+[
+ Settings]
+ をクリックします。
+サイドバーの[アーカイブ]セクションで、[
+セキュリティログ
+ クリックします。
+セキュリティログを検索する
+各監査ログ エントリの名前は、イベントのカテゴリと、それに続く操作タイプで構成されます。 たとえば、
+repo.create
+ エントリは 
+repo
+ カテゴリに対する 
+create
+ 操作を意味します。
+各 Audit log エントリには、次のようなイベントに関する適切な情報が表示されます:
+アクションが実行された 組織
+アクションを実行したユーザー (アクター)
+アクションによって影響を受けたユーザー
+アクションの対象となったリポジトリ
+実行されたアクションです
+アクションが実行された国
+アクションが発生した日時
+テキストを使用してエントリを検索することはできません。 ただし、さまざまなフィルターを使用すれば検索クエリを作成できます。 ログにクエリを実行するときに使用される多くの演算子 (
+-
+、
+>
+、
+<
+ など) は、GitHub 全体で検索するときのものと同じ形式です。 詳しくは、「
+GitHubでの検索について
+」をご覧ください。
+操作に基づく検索
+operation
+ 修飾子は、アクションを特定の操作の種類に限定するときに使ってください。 たとえば次のような点です。
+operation:access
+ は、リソースがアクセスされたすべてのイベントを検索します。
+operation:authentication
+ は、認証イベントが実行されたすべてのイベントを検索します。
+operation:create
+ は、リソースが作成されたすべてのイベントを検索します。
+operation:modify
+ は、既存のリソースが変更されたすべてのイベントを検索します。
+operation:remove
+ は、既存のリソースが削除されたすべてのイベントを検索します。
+operation:restore
+ は、既存のリソースが復元されたすべてのイベントを検索します。
+operation:transfer
+ は、既存のリソースが移動されたすべてのイベントを検索します。
+リポジトリに基づく検索
+repo
+ 修飾子は、アクションを特定のリポジトリに限定するときに使ってください。 次に例を示します。
+repo:my-org/our-repo
+ は、
+my-org
+ 組織内の 
+our-repo
+ リポジトリで発生したすべてのイベントを検索します。
+repo:my-org/our-repo repo:my-org/another-repo
+ は、
+my-org
+組織内の 
+our-repo
+ および 
+another-repo
+ リポジトリで発生したすべてのイベントを検索します。
+-repo:my-org/not-this-repo
+ は、
+my-org
+ 組織内の 
+not-this-repo
+ リポジトリで発生したすべてのイベントを除外します。
+repo
+ 修飾子内にアカウント名を含める必要があります。
+repo:our-repo
+ を検索するだけでは作動しません。
+アクターに基づく検索
+actor
+修飾子は、アクションを実行したユーザーまたはエージェントに基づいてイベントのスコープを設定できます。 たとえば次のような点です。
+actor:octocat
+ は 
+octocat
+ によって実行されたすべてのイベントを検索します。
+actor:octocat actor:Copilot
+ を使うと、
+octocat
+ または 
+Copilot
+ によって実行されたすべてのイベントを検索できます。
+-actor:Copilot
+ は 
+Copilot
+ によって実行されたすべてのイベントを除外します。
+使用できるのは GitHub のユーザー名のみであり、個人の実名ではないことに注意してください。
+実行されたアクションに基づく検索
+セキュリティログにリストされているイベントは、アクションによってトリガーされます。 アクションは、さまざまなカテゴリにグループ化されます。 各カテゴリの全イベントの一覧については、「
+セキュリティ ログのイベント
+」を参照してください。
+カテゴリ名
+説明
+billing
+課金情報に関連するすべてのアクティビティが対象です。
+codespaces
+GitHub Codespacesに関連するすべてのアクティビティが含まれます。 詳しくは、「
+GitHub Codespaces のクイックスタート
+」をご覧ください。
+copilot
+Copilot Businessに関連するすべてのアクティビティが含まれます。 詳しくは、「
+GitHub Copilotについて
+」をご覧ください。
+marketplace_agreement_
+signature
+GitHub Marketplace開発者契約の署名に関連するすべてのアクティビティが含まれます。
+marketplace_listing
+GitHub Marketplaceでのアプリの一覧表示に関連するすべてのアクティビティが含まれます。
+oauth_access
+OAuth アクセス トークンに関連するすべてのアクティビティが含まれます。
+oauth_authorization
+OAuth appsの承認に関連するすべてのアクティビティが含まれます。 詳しくは、「
+OAuth アプリの承認
+」をご覧ください。
+passkey
+パスキーに関連するアクティビティを含んでいます。 「
+パスキーの概要
+」を参照してください。
+payment_method
+GitHub サブスクリプションの支払に関連するすべてのアクティビティが含まれます。
+personal_access_
+token
+fine-grained personal access tokenに関連するアクティビティが含まれています。 詳しくは、「
+個人用アクセス トークンを管理する
+」をご覧ください。
+profile_picture
+プロフィール画像に関連するすべてのアクティビティが含まれます。
+project
+プロジェクトに関連するすべてのアクティビティが含まれます。
+public_key
+パブリック SSH キー
+に関連するすべてのアクティビティが含まれます。
+repo
+お客様が所有するリポジトリに関連するすべてのアクティビティが含まれます。
+sponsors
+GitHub Sponsorsボタンとスポンサー ボタンに関連するすべてのイベントが含まれています (
+GitHubスポンサーについて
+ と 
+リポジトリにスポンサーボタンを表示する
+ を参照)
+two_factor_authentication
+2 要素認証
+に関連するすべてのアクティビティが含まれます。
+user
+アカウントに関連するすべてのアクティビティが含まれます。
+セキュリティログをエクスポートする
+[エクスポート]
+ ドロップダウン メニューを使うと、ログを JSON データまたはコンマ区切り値 (CSV) ファイルとしてエクスポートできます。
+エクスポートの結果をフィルター処理するには、 
+[エクスポート]
+ ドロップダウン メニューを使う前に、以下のサポートされている修飾子を 1 つ以上使って検索してください。
+修飾子
+値の例
+action
+team.create
+actor
+octocat
+user
+codertocat
+org
+octo-org
+repo
+octo-org/documentation
+created
+2019-06-01
+エクスポートされたログの出力ファイルには、以下のキーと値があります。
+Key
+値の例
+action
+team.create
+actor
+octocat
+user
+codertocat
+actor_location.country_
+code
+US
+org
+octo-org
+repo
+octo-org/documentation
+created_at
+1429548104000 (タイムスタンプは Epoch からの経過時間をミリ秒で示します。)
+data.email
+octocat@nowhere.com
+data.hook_id
+245
+data.events
+["issues", "issue_comment", "pull_request", "pull_request_review_comment"]
+data.events_were
+["push", "pull_request", "issues"]
+data.target_login
+octocat
+data.old_user
+hubot
+data.team
+octo-org/engineering

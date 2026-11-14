@@ -1,0 +1,29 @@
+URL: https://docs.github.com/en/apps/oauth-apps/using-oauth-apps/reviewing-your-authorized-oauth-apps?apiVersion=2022-11-28
+
+Reviewing your authorized OAuth apps - GitHub Docs
+Skip to main content
+Skip to content
+Collapse sidebar
+Expand sidebar
+Reviewing your authorized OAuth apps
+You should review your authorized applications to verify that no new applications with expansive permissions are authorized, such as those that have access to your private repositories.
+Copy markdown
+In the upper-right corner of any page on GitHub, click your profile picture, then click 
+ Settings
+.
+In the "Integrations" section of the sidebar, click 
+ Applications
+.
+Click the 
+Authorized OAuth Apps
+ tab.
+Review the tokens that have access to your account. For those that you don't recognize or that are out-of-date, click 
+, then click 
+Revoke
+. To revoke all tokens, click 
+Revoke all
+.
+Further reading
+About GitHub integrations
+Reviewing and revoking authorization of GitHub Apps
+Privileged OAuth apps
