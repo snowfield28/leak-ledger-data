@@ -1,42 +1,6 @@
 {
  "items": [
   {
-   "article_url": "https://rocket-boys.co.jp/security-measures-lab/giants-club-giants-email-leak-807030-2026/",
-   "title": "読売巨人軍「CLUB GIANTS」にサイバー攻撃、メールアドレス80万7,030件が情報流出 会員情報の追加被害を調査",
-   "source": "セキュリティ対策Lab 情報漏えい",
-   "found": "2026-11-14",
-   "article_text_file": "inbox/texts/1409ea13aa1a.txt",
-   "official": [
-    {
-     "url": "https://www.giants.jp/news/31752/",
-     "status": "error:http403",
-     "chars": 0
-    },
-    {
-     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
-     "status": "robots",
-     "chars": 0
-    },
-    {
-     "url": "https://www.linkedin.com/company/107134396",
-     "status": "robots",
-     "chars": 0
-    },
-    {
-     "url": "https://mastodon.social/@securityLab_jp",
-     "status": "thin",
-     "chars": 63,
-     "text_file": "inbox/texts/3bc62ca4b423.txt"
-    },
-    {
-     "url": "https://bsky.app/profile/securitylab-jp.bsky.social",
-     "status": "thin",
-     "chars": 38,
-     "text_file": "inbox/texts/36d77daa127a.txt"
-    }
-   ]
-  },
-  {
    "article_url": "https://rocket-boys.co.jp/security-measures-lab/human-adjust-comsbi-saas-line-data-leak-risk-2026/",
    "title": "ヒューマンアジャスト、LINE友だち情報最大11万6,518人の情報漏えいのおそれ 委託先COMSBI（SaaS版）への不正アクセスで",
    "source": "セキュリティ対策Lab 情報漏えい",

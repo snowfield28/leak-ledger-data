@@ -51368,6 +51368,59 @@
    ],
    "ind": "金融・保険",
    "verified": "2026-11-15"
+  },
+  {
+   "id": "yomiuri-giants-clubgiants-2611",
+   "co": "読売巨人軍（公式ファンクラブ「CLUB GIANTS」）",
+   "date": "2026-11-13",
+   "announced": "2026-11-13",
+   "occurred": "2026-11-12",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 807030,
+   "label": "80万7,030件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "会員のメールアドレス。メールアドレス以外の情報が流出していないかは調査中",
+   "notIncl": "クレジットカード情報は当該システムで保持しておらず対象外。不正利用等の報告はない",
+   "who": [
+    "cust"
+   ],
+   "sum": "会員情報を管理するシステムが外部からサイバー攻撃を受け、会員のメールアドレス807,030件が流出した。攻撃は11月12日午前3時頃に始まり、同日午前9時頃までに流出、13日午後1時に判明した。",
+   "status": "ongoing",
+   "statusText": "2026年11月13日公表。メールアドレス以外の情報流出の有無は調査中。",
+   "resp": "原因を特定し攻撃を直ちに遮断、継続監視中（その後の攻撃は確認されていない）。11月13日に個人情報保護委員会へ報告。対象会員へ個別にメール等で連絡予定。セキュリティ対策強化と再発防止。不審メールへの注意喚起。",
+   "contact": {
+    "mails": [
+     "fcinfo@giants.co.jp"
+    ],
+    "forms": [
+     [
+      "CLUB GIANTS お問い合わせフォーム",
+      "https://www.giants.jp/news/31752/"
+     ]
+    ],
+    "note": "CLUB GIANTS 事務局",
+    "src": "https://www.giants.jp/news/31752/"
+   },
+   "official": [
+    [
+     "サイバー攻撃によるメールアドレス流出に関するお詫びとお知らせ（2026/11/13）",
+     "https://www.giants.jp/news/31752/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/giants-club-giants-email-leak-807030-2026/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-11-15"
   }
  ],
  "statusLabels": {
