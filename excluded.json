@@ -812,6 +812,16 @@
     "https://www.meijigakuin.ac.jp/news/10265.html"
    ],
    "checked": "2026-11-12"
+  },
+  {
+   "id": "tochigi-gurutochi-2611",
+   "co": "栃木県（サイクルツーリズムポータルサイト「ぐるとち」）",
+   "date": "2026-11-12",
+   "reason": "県の公式発表に、サイトは観光・サイクリング情報の発信が目的で利用者の個人情報を収集・保有しておらず、個人情報の流出はないと明記（不正アクセスによる改ざんと偽サイトの確認のみ）",
+   "official": [
+    "https://www.pref.tochigi.lg.jp/c09/syougai/20261112.html"
+   ],
+   "checked": "2026-11-15"
   }
  ]
 }
