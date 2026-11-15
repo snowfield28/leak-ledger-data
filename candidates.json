@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -8062,6 +8062,146 @@
    ],
    "ind": "生活サービス・レジャー",
    "pendingReason": "公式発表が見つからず/robotsで取得不可。公式に漏えいの記載があるか未確認"
+  },
+  {
+   "id": "digitalarts-cloud-2610",
+   "co": "デジタルアーツ株式会社（クラウドサービス運用環境）",
+   "date": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "クラウドサービスの運用環境と社内環境への不正アクセスで、一部の顧客の情報が閲覧された可能性があるとして公表。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/shibuya_city_digital_arts_web_filtering_educn_civic_ict_unauthorized_access_2026/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式発表（2026/10/21 daj.jp/webtopics/1354/）は「一部のお客様の情報が第三者に閲覧された可能性」「外部への持ち出しは確認されていない」とあるが、個人情報の漏えいかどうかの記載がなく、台帳の対象か判断できない。続報待ち。"
+  },
+  {
+   "id": "shibuya-daj-filtering-2611",
+   "co": "東京都渋谷区（教育ICT基盤・民生ICT基盤／Webフィルタリング提供事業者 デジタルアーツ）",
+   "date": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "区が利用するWebフィルタリングサービスのクラウドへの不正アクセスにより、区の情報の一部が閲覧された可能性があると公表。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/shibuya_city_digital_arts_web_filtering_educn_civic_ict_unauthorized_access_2026/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表（渋谷区 2026/11/13）は「区の教育ICT基盤・民生ICT基盤に関する情報の一部が第三者に閲覧された可能性」「外部に持ち出された事実は確認されていない」とあり、個人情報の漏えいかが明記されていない。続報待ち。"
+  },
+  {
+   "id": "axa-myaxa-2611",
+   "co": "アクサ損害保険株式会社（契約者向けマイページ「MyAXA」）",
+   "date": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 597000,
+   "label": "約59万7,000件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "報道によると、11月9日にMyAXAへの不審なアクセスを検知し遮断。第2報（11月13日）で約59万7,000件に影響の可能性。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/axa-myaxa-597000-data-exposure-second-report-20261113/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "報道（セキュリティ対策Lab）では約59万7,000件・氏名・住所・生年月日・メール・電話の漏えいの可能性。公式発表の本文が inbox になく（取得できたのは別事案のプレステージ・インターナショナル第2報のみ）、開けなかったため未照合。自動取得不可。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "yamada-denki-reform-2611",
+   "co": "株式会社ヤマダデンキ（リフォーム管理システム）",
+   "date": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 3500000,
+   "label": "最大約350万件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "報道によるとリフォーム管理システムへの不正アクセスで最大350万件の個人情報が漏えいした恐れ。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/yamada-denki-reform-unauthorized-access-2026/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "報道では最大350万件の個人情報漏洩の恐れ。公式PDF（yamada-denki.jp/information/pdf/261113_1.pdf）の取得が ConnectTimeout で失敗し、本文を読めていない。自動取得不可。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "ecad-solutions-2611",
+   "co": "ECADソリューションズ株式会社",
+   "date": "2026-11-12",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "報道によると9月末から不正アクセスによるシステム障害が続き、サポート・ダウンロード機能に影響。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ecad-solutions-unauthorized-access-service-outage-202611/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "報道では不正アクセスとシステム障害が続いているとされるが、公式サイト（ecad-sol.com）の取得が SSLError で失敗し、個人情報漏えいの有無を確認できていない。自動取得不可。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }

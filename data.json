@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -29965,33 +29965,41 @@
    "types": [
     "不正アクセス"
    ],
-   "n": null,
-   "label": "調査中",
+   "n": 1720000,
+   "label": "最大約172万件（重複を含む）",
    "st": "p",
    "items": [
     "name",
+    "addr",
     "tel",
-    "mail"
+    "mail",
+    "birth",
+    "id"
    ],
-   "itemsText": "リビングWeb・シティリビングWeb・まちっと等の会員（退会者を含む）やアンケート利用者の氏名・連絡先など（項目は登録内容により異なる）",
-   "notIncl": "クレジットカード情報（預かっていない）",
+   "itemsText": "氏名、住所、電話番号、生年月日、性別、メールアドレス、ハッシュ化されたパスワードなど（登録内容はお客様・サービスにより異なる）",
+   "notIncl": "クレジットカード情報はお預かりしていないと公表",
    "who": [
     "cust"
    ],
-   "sum": "10月16日にWebサイトへの不正アクセスを確認。サーバーに保管する個人情報が漏えいした可能性があるとして第一報を公表し、一部Webサービスを停止した。公式ページに発表日の表記がなく、10月21日時点の状況が記載されている。委託元の自治体が別途発表している。",
+   "sum": "10月16日にWebサイトへの不正アクセスを確認し、サーバーに保管する個人情報が外部へ漏えいした可能性があるとして10月21日に第一報を公表、一部Webサービスを停止した。11月9日の第二報で、漏えいした可能性のある個人情報は最大約172万件（重複・退会者を含み、人数ではない）と判明した。委託元の自治体・団体にも個別に報告している。",
    "status": "ongoing",
-   "statusText": "第一報（10月21日時点の状況）。対象件数は調査中。",
+   "statusText": "2026年11月9日の第二報時点。調査継続中で件数は変わる可能性がある。",
    "resp": "不正なアクセスを遮断し、個人情報保護委員会へ速報。外部専門機関と調査し、安全確認までWebサービスを一時停止。",
    "contact": {
     "mails": [
      "toiawase@sankeiliving.co.jp"
     ],
-    "src": "https://oshirase.living.jp/"
+    "note": "お問い合わせ窓口（集中時は回答に時間がかかる場合あり）",
+    "src": "https://oshirase.living.jp/news/20261109.html"
    },
    "official": [
     [
-     "当社サーバーへの不正アクセスによる個人情報漏えいの可能性とサービスの一時停止に関するお詫びとお知らせ（第一報）（2026/10/21時点）",
-     "https://oshirase.living.jp/"
+     "当社サーバーへの不正アクセスによる個人情報漏えいの可能性とサービスの一時停止に関するお詫びとお知らせ（第一報）（2026/10/21）",
+     "https://oshirase.living.jp/news/20261021.html"
+    ],
+    [
+     "当社サーバーへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（第二報）（2026/11/09）",
+     "https://oshirase.living.jp/news/20261109.html"
     ]
    ],
    "src": [
@@ -30001,7 +30009,9 @@
     ]
    ],
    "ind": "メディア・出版",
-   "verified": "2026-10-26"
+   "verified": "2026-11-15",
+   "announced": "2026-10-21",
+   "last": "2026-11-09"
   },
   {
    "id": "tome-city-sankeiliving-2610",
@@ -39099,8 +39109,8 @@
     "委託先経由",
     "不正アクセス"
    ],
-   "n": null,
-   "label": "調査中",
+   "n": 1078713,
+   "label": "1,078,713件",
    "st": "p",
    "items": [
     "mail"
@@ -39111,8 +39121,8 @@
     "cust"
    ],
    "sum": "行政オンラインシステムの提供事業者TKCから、利用するアララのメール配信サービスが不正アクセスを受け、利用者の情報が漏えいした可能性があるとの報告があった。",
-   "status": "ongoing",
-   "statusText": "11月3日に第1報を公表。対象件数は漏えいの有無も含め確認中。",
+   "status": "closed",
+   "statusText": "2026年11月13日の終報で件数が確定。対象者への個別通知は検討中。",
    "resp": "システム提供事業者と連携して調査。10月31日からメール送信が停止し、利用者登録・メールアドレス変更・パスワード再設定ができない。クレジットカード会社を装うメールへの注意喚起。",
    "contact": {
     "tels": [
@@ -39127,6 +39137,10 @@
     [
      "大阪市行政オンラインシステムにおいて利用するメール配信サービスでの情報漏えいの可能性について（第1報）（2026/11/3）",
      "https://www.city.osaka.lg.jp/hodoshiryo/ictsenryakushitsu/0000690714.html"
+    ],
+    [
+     "大阪市行政オンラインシステムにおいて利用するメール配信サービスでの情報漏えいについて（終報）（2026/11/13）",
+     "https://www.city.osaka.lg.jp/hodoshiryo/ictsenryakushitsu/0000691472.html"
     ]
    ],
    "src": [
@@ -39136,8 +39150,9 @@
     ]
    ],
    "ind": "公共機関",
-   "verified": "2026-11-05",
-   "group": "arara"
+   "verified": "2026-11-15",
+   "group": "arara",
+   "last": "2026-11-13"
   },
   {
    "id": "stcousair-arara-2611",
@@ -51474,6 +51489,805 @@
    ],
    "ind": "人材・教育・業務支援",
    "verified": "2026-11-15"
+  },
+  {
+   "id": "hange-ensapia-2611",
+   "co": "ENSAPIA Tokyo株式会社（オンラインゲームポータル「ハンゲ」）",
+   "date": "2026-11-06",
+   "occurred": "2026-11-03",
+   "last": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中（項目別に最大6.2万件）",
+   "st": "c",
+   "items": [
+    "mail",
+    "birth",
+    "name",
+    "addr",
+    "tel",
+    "id",
+    "card"
+   ],
+   "itemsText": "ハッシュ化パスワード61,962件、メールアドレス51,025件、生年月日28,251件、氏名・住所・郵便番号・電話番号2,994件、外部サービスIDのメールアドレス36,545件、カード番号の一部（マスク済）2,961件、セキュリティコード6件、カード名義2件ほか",
+   "notIncl": "カード番号の全桁は含まれないと公表（マスク処理済みの一部のみ）",
+   "who": [
+    "cust"
+   ],
+   "sum": "ポータルサイト「ハンゲ」のサーバーに第三者が不正アクセスし、会員情報や決済時の情報の一部が外部に漏えいしたことが11月13日の第4報で判明した。11月3日に不正アクセスの可能性を検知し、通信経路の遮断とサービス停止を実施している。件数は項目ごとの内訳で、人数は公表されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月13日の第4報時点。外部専門企業が侵入経路を調査中で、サービス再開時期は未定。",
+   "resp": "対象者へメールで個別案内。パスワードの変更と不審な連絡・利用明細への注意を呼びかけ。不正通信経路の遮断、監視とアクセス制限の強化、個人情報保護委員会と警察への報告。",
+   "contact": {
+    "forms": [
+     [
+      "ハンゲ ヘルプセンター",
+      "https://help.hange.jp/hc/ja/requests/new?ticket_form_id=64146822195737"
+     ]
+    ],
+    "src": "https://ensapia-tokyo.com/news/topics/id=21412/"
+   },
+   "official": [
+    [
+     "不正アクセスについて（第4報）（2026/11/13）",
+     "https://ensapia-tokyo.com/news/topics/id=21412/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hange-ensapia-20261113-fourth-report-password-hashes-card-data-lea/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "terravie-aw-arara-2611",
+   "co": "株式会社Terravie（アドベンチャーワールドのチケット販売／メール配信委託先 アララ）",
+   "date": "2026-11-12",
+   "announced": "2026-11-12",
+   "occurred": "2026-10-28",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 5709,
+   "label": "5,709件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026年7月1日〜10月31日にメールを送ったお客様のメールアドレスと、一部のお客様宛メール本文の一部（会員登録の認証メール・購入完了メールの定型文の一部）",
+   "notIncl": "氏名、住所、電話番号、パスワード、クレジットカード情報、チケットの券種・来園日・予約番号は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "チケット販売会社Terravieが使うメール配信サービス「アララ メッセージ」への不正アクセスで、購入者らのメールアドレス5,709件が流出した。認証用URLは期限切れで第三者は利用できないとしている。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日の公表時点。アララ社との連名で個人情報保護委員会へ報告予定。",
+   "resp": "対象者へ個別にメールで案内。当該サービスの利用を停止し別のメール配信基盤へ移行。外部サービスの選定・管理体制を見直し。",
+   "contact": {
+    "forms": [
+     [
+      "Terravie お客様情報に関するお問い合わせ窓口",
+      "https://form.run/@terravie-customer-support"
+     ]
+    ],
+    "src": "https://terravie-app.com/page/%E3%83%A1%E3%83%BC%E3%83%AB%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E3%81%AE%E6%B5%81%E5%87%BA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+   },
+   "official": [
+    [
+     "メール配信サービスへの不正アクセスによるお客様情報の流出について（Terravie）（2026/11/12）",
+     "https://terravie-app.com/page/%E3%83%A1%E3%83%BC%E3%83%AB%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E3%81%AE%E6%B5%81%E5%87%BA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    ],
+    [
+     "【重要】Terravieでのメール配信サービスへの不正アクセスによるお客様情報の流出について（アドベンチャーワールド）（2026/11/12）",
+     "https://www.aws-s.com/topics/detail?id=top4787"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/adventure-world-terravie-arara-email-leak-5709-20261112/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-11-15",
+   "group": "arara"
+  },
+  {
+   "id": "higashimatsushima-sankeiliving-2610",
+   "co": "宮城県東松島市（婚活事業／委託事業者の親会社 サンケイリビング新聞社）",
+   "date": "2026-10-26",
+   "announced": "2026-10-26",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 47,
+   "label": "47人",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "birth",
+    "tel",
+    "work",
+    "mail"
+   ],
+   "itemsText": "「恋、飛び立つ。東松島婚 2026」申込者の氏名、住所、生年月日、性別、電話番号、勤務先または業種、メールアドレス",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "婚活事業の委託事業者（仙台リビング新聞社）の親会社サンケイリビング新聞社のサーバーへの不正アクセスで、申込者47人の情報が漏えいした可能性があると市が公表した。不正利用の事実は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年10月26日の発表時点。委託事業者と親会社が調査中。",
+   "resp": "委託事業者が対象者へ連絡予定。委託事業者運営のWebサービス（リビング仙台Web）を一時停止。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0225-82-1111（内線3800）",
+      "hours": "東松島市総務部市民協働課"
+     }
+    ],
+    "mails": [
+     "kyodo@city.higashimatsushima.miyagi.jp"
+    ],
+    "src": "https://www.city.higashimatsushima.miyagi.jp/kurashi/manabu-tanoshimu/kekkonshien/261026.files/1.pdf"
+   },
+   "official": [
+    [
+     "株式会社サンケイリビング新聞社で発生した不正アクセスに伴う個人情報漏えいの可能性について（2026/10/26）",
+     "https://www.city.higashimatsushima.miyagi.jp/kurashi/manabu-tanoshimu/kekkonshien/261026.files/1.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sankei-living-172man-second-report-article-update-202611/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "ms-insurance-fleekdrive-2611",
+   "co": "三井住友海上火災保険株式会社（Fleekdrive／委託先 アララ）",
+   "date": "2026-11-13",
+   "announced": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 15000,
+   "label": "約1.5万件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026年7月1日〜10月30日にFleekdriveの配信メールを受信したお客さまのメールアドレス",
+   "notIncl": "氏名、住所、電話番号、契約情報、ドライブレコーダー映像、配信メールの件名・本文は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "ドライブレコーダー映像の共有に使うオンラインストレージ「Fleekdrive」の提供元が委託するメール配信（アララ）への不正アクセスで、同サービスの配信メールを受けた当社のお客さまのメールアドレスが漏えいした。11月10日にFleekdrive社から報告を受けた。不正使用は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月13日9時時点。新たな事実が判明すれば公式サイトで案内。",
+   "resp": "対象者へ準備が整い次第、個別に案内（連絡が困難な場合は本公表に代える）。当社を装った不審な連絡への注意を呼びかけ。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-610-514",
+      "hours": "平日9〜17時（契約内容等・三井住友海上窓口）"
+     }
+    ],
+    "mails": [
+     "support@fleekdrive.com"
+    ],
+    "note": "情報漏えいはFleekdriveサポートデスク（メール）、契約内容は当社窓口",
+    "src": "https://www.ms-ins.com/news/fy2026/pdf/1113_1.pdf"
+   },
+   "official": [
+    [
+     "アララ社の不正アクセスに伴う情報漏えいについて（2026/11/13）",
+     "https://www.ms-ins.com/news/fy2026/pdf/1113_1.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/msad_3companies_arara_fleekdrive_email_leak_202611/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-11-15",
+   "group": "arara"
+  },
+  {
+   "id": "aioi-nissay-dowa-fleekdrive-2611",
+   "co": "あいおいニッセイ同和損害保険株式会社（Fleekdrive／委託先 アララ）",
+   "date": "2026-11-13",
+   "announced": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 16000,
+   "label": "約1.6万件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026年7月1日〜10月30日にFleekdriveの配信メールを受信したお客さまのメールアドレス",
+   "notIncl": "氏名、住所、電話番号、契約情報、ドライブレコーダー映像、配信メールの件名・本文は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "ドライブレコーダー映像の共有に使うオンラインストレージ「Fleekdrive」の提供元が委託するメール配信（アララ）への不正アクセスで、同サービスの配信メールを受けた当社のお客さまのメールアドレスが漏えいした。11月10日にFleekdrive社から報告を受けた。不正使用は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月13日9時時点。新たな事実が判明すれば公式サイトで案内。",
+   "resp": "対象者へ準備が整い次第、個別に案内（連絡が困難な場合は本公表に代える）。当社を装った不審な連絡への注意を呼びかけ。",
+   "contact": {
+    "tels": [],
+    "mails": [
+     "support@fleekdrive.com"
+    ],
+    "note": "情報漏えいはFleekdriveサポートデスク（メール）。契約内容等の窓口は公式発表参照",
+    "src": "https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2026/news_2026111301533.pdf"
+   },
+   "official": [
+    [
+     "アララ社の不正アクセスに伴う情報漏えいについて（2026/11/13）",
+     "https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2026/news_2026111301533.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/msad_3companies_arara_fleekdrive_email_leak_202611/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-11-15",
+   "group": "arara"
+  },
+  {
+   "id": "openlogi-2611",
+   "co": "株式会社オープンロジ（物流委託サービス）",
+   "date": "2026-11-11",
+   "announced": "2026-11-11",
+   "occurred": "2026-11-08",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "出荷データ（2026年4月8日〜11月8日分）に含まれるお届け先の氏名、住所、電話番号、メールアドレス（登録分）、商品名・数量",
+   "notIncl": "クレジットカード番号は保有しておらず対象外",
+   "who": [
+    "cust"
+   ],
+   "sum": "物流代行サービスのシステムが11月8〜9日に第三者の不正アクセスを受け、委託元各社の出荷データに含まれるお届け先情報が外部に持ち出された。経路は11月9日に遮断済み。対象件数は調査中で、悪用や二次被害は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月11日の公表時点。外部専門機関と原因・影響範囲を調査中。",
+   "resp": "不正アクセス経路の遮断、緊急メンテナンス、個人情報保護委員会への報告と警察への相談を進行。委託元へ配送業者等を装った連絡への注意喚起の協力を依頼。",
+   "contact": {
+    "mails": [
+     "cs@openlogi.com"
+    ],
+    "note": "24時間受付（回答は平日8:30〜17:00）。報道機関向けは別窓口のため省略",
+    "src": "https://corp.openlogi.com/news/notice/notice-20261111/"
+   },
+   "official": [
+    [
+     "当社システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（2026/11/11）",
+     "https://corp.openlogi.com/news/notice/notice-20261111/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/brave-group-vspo-openlogi-data-breach-202611/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "brave-group-openlogi-2611",
+   "co": "株式会社Brave group（ぶいすぽっ！オフィシャルオンラインストア等11サービス／委託先 オープンロジ）",
+   "date": "2026-11-12",
+   "announced": "2026-11-12",
+   "occurred": "2026-11-08",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "2026年4月8日〜11月8日の出荷データに含まれるお届け先の氏名、住所、電話番号、メールアドレス（登録分）、商品名・数量",
+   "notIncl": "クレジットカード情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "EC物流の委託先オープンロジのシステムへの不正アクセスにより、グループが運営するオンラインストア11サービスの出荷データに含まれるお届け先情報が持ち出された。11月10日に委託先から連絡を受けた。不正利用は確認されていない。",
+   "status": "ongoing",
+   "statusText": "公表時点（2026年11月）。委託先が原因・侵入経路・範囲を調査中。",
+   "resp": "認証情報の再設定、個人情報保護委員会への報告済み。委託先に原因の全容究明と再発防止策の実施を要請。",
+   "contact": {
+    "mails": [
+     "cs@openlogi.com"
+    ],
+    "note": "委託先オープンロジ社の専用窓口（24時間受付、回答は平日8:30〜17:00）",
+    "src": "https://bravegroup.co.jp/news/12429/"
+   },
+   "official": [
+    [
+     "委託先による不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び（2026/11/12）",
+     "https://bravegroup.co.jp/news/12429/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/brave-group-vspo-openlogi-data-breach-202611/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "tv-tokyo-com-openlogi-2611",
+   "co": "株式会社テレビ東京コミュニケーションズ（エンしゃべストア等3ストア／委託先 オープンロジ）",
+   "date": "2026-11-11",
+   "announced": "2026-11-11",
+   "occurred": "2026-11-08",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "2026年4月8日〜11月8日の出荷データに含まれる配送先情報の一部（氏名、住所、電話番号、メールアドレス、商品名など）",
+   "notIncl": "決済関連情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "EC物流の委託先オープンロジへの不正アクセスで、「エンしゃべストア」「東京パソコンクラブ公式オンラインストア」「お互いさまっす公式オンラインショップ」の配送先情報の一部が外部に持ち出された可能性がある。件数はオープンロジ社に特定を要請中。",
+   "status": "ongoing",
+   "statusText": "2026年11月11日の公表時点。具体的な件数と対象者の特定を委託先に要請中。",
+   "resp": "不審な連絡への注意喚起。対象件数・対象者の特定を委託先に要請。",
+   "contact": {
+    "forms": [
+     [
+      "テレビ東京コミュニケーションズ お客様窓口",
+      "https://formrun.txcom.jp/@com-info"
+     ]
+    ],
+    "src": "https://www.tv-tokyo.co.jp/kaisha/pdf/20261111.pdf"
+   },
+   "official": [
+    [
+     "EC業務委託先における不正アクセスに伴う個人情報流出について（2026/11/11）",
+     "https://www.tv-tokyo.co.jp/kaisha/pdf/20261111.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tv-tokyo-communications-openlogi-3-stores-shipping-data-breach/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "keihan-hd-comsbi-saas-2611",
+   "co": "京阪ホールディングス株式会社（京阪電気鉄道・京阪流通システムズ・京阪百貨店・京阪ホテルズ＆リゾーツの公式LINE／委託先 ソニックムーブ「COMSBI（SaaS版）」）",
+   "date": "2026-11-14",
+   "announced": "2026-11-14",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 224386,
+   "label": "最大延べ224,386名（LINEプロフィール情報）",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth"
+   ],
+   "itemsText": "LINE表示名・プロフィール画像URL・LINEユーザーID（最大延べ224,386名）。一部は氏名、住所、電話番号、メールアドレス、生年月日、性別（百貨店最大28,000名、ホテル最大1,298名、京都タワーサンド最大9名、枚方モール最大35,025名は生年月日・性別）",
+   "notIncl": "クレジットカード情報は保持しておらず、記載以外の流出は確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "グループ4社の公式LINEが使う「COMSBI（SaaS版）」への不正アクセスにより、友だち登録者の情報が流出した可能性がある。11月11日にソニックムーブから報告を受けた。数値は現時点で確認できた最大範囲で、アカウント間の重複を含む。",
+   "status": "ongoing",
+   "statusText": "2026年11月14日の公表時点。個人情報保護委員会への報告と対象者への連絡は準備が整い次第実施。",
+   "resp": "委託先でアクセス遮断と認証情報の無効化を実施。委託先の情報セキュリティ管理の確認と監督を強化。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://www.keihan.co.jp/corporate/info/release/assets/261114_keihan-holdings.pdf"
+   },
+   "official": [
+    [
+     "お客さま情報の流出に関するお詫びとお知らせ（2026/11/14）",
+     "https://www.keihan.co.jp/corporate/info/release/assets/261114_keihan-holdings.pdf"
+    ],
+    [
+     "ソニックムーブ公表（COMSBI SaaS版）",
+     "https://sonicmoov.com/news/5ttj9ndzh"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/keihan-hd-comsbi-saas-line-data-exposure-202611/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "snowpeak-4cases-2611",
+   "co": "株式会社スノーピーク（リユース買取・イベント予約・コミュニティアプリ・公式オンラインストア／会員アプリ）",
+   "date": "2026-11-13",
+   "announced": "2026-11-13",
+   "occurred": "2026-11-09",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 24948,
+   "label": "最大24,948名（リユース買取）ほか3件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "acct",
+    "deal"
+   ],
+   "itemsText": "リユース買取（24,948名）：会員番号、氏名、生年月日、メール、電話、住所、注文情報、振込先口座情報など。イベント予約（5,923名）：氏名、連絡先、同伴者情報、申込内容など。コミュニティアプリ（21,553名）：会員番号、表示名、自己紹介文ほか。不正ログイン（最大445アカウント）：氏名、住所、購入履歴、カード種類・番号の一部が閲覧された可能性",
+   "notIncl": "リユース買取はパスワード・クレジットカード番号・口座暗証番号を含まない。オンラインストアのカード番号は全桁流出なし",
+   "who": [
+    "cust"
+   ],
+   "sum": "リユース買取サービス、イベント予約システム、コミュニティアプリの脆弱性を突かれた不正アクセスと、公式オンラインストア・会員アプリへの認証情報を使った不正ログインの計4件を公表した。",
+   "status": "ongoing",
+   "statusText": "2026年11月13日の公表時点。対象人数・範囲は調査中。",
+   "resp": "対象と思われるお客様へ個別連絡。該当サービスを一時停止しオンラインストアは11月13日に再開、認証強化。個人情報保護委員会等へ報告中。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-010-660",
+      "hours": "平日9〜17時（ユーザーサービス係）"
+     }
+    ],
+    "src": "https://www.snowpeak.co.jp/news/p20261113-0/"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報流出に関するお詫びとお知らせ（2026/11/13）",
+     "https://www.snowpeak.co.jp/news/p20261113-0/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/snow_peak_four_incidents_reuse_events_community_store_20261113/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "tss-sanfrecce-arara-2611",
+   "co": "株式会社テレビ新広島・サンフレッチェ広島（TSSサンフレッチェ広島公式モバイルサイト等／委託先 アララ）",
+   "date": "2026-11-09",
+   "announced": "2026-11-09",
+   "last": "2026-11-12",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 5192,
+   "label": "5,192件（うち公式モバイルサイト2,900件）",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026年7月1日〜10月31日に「アララメッセージ」経由でメールを送ったお客様のメールアドレス（公式モバイルサイト2,900件、はじめてばこ1,496件、マネーセミナー199件ほか）",
+   "notIncl": "氏名、住所、電話番号、生年月日、クレジットカード情報はアララに提供しておらず漏えいなし",
+   "who": [
+    "cust"
+   ],
+   "sum": "テレビ新広島が使うメール配信サービス「アララメッセージ」への不正アクセスで、同社サービス利用者のメールアドレス5,192件が漏えいした。サンフレッチェ広島と共同運営するモバイルサイトの2,900件を含む。内訳は速報値で、その他企画は調査中。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日の第二報時点。内訳は速報値。",
+   "resp": "メール配信停止（11月1日〜）、関係行政機関へ報告（11月9日）、対象者へ個別メール予定。外部サービスを含む情報セキュリティ体制を見直し。",
+   "contact": {
+    "forms": [
+     [
+      "テレビ新広島メール配信サービスに関するお問い合わせフォーム",
+      "https://tssweb03.tss-tv.co.jp/main/v2/form/entry/id/FNzJhz2s3Sfk"
+     ]
+    ],
+    "src": "https://www.tss-tv.co.jp/archives/001/202611/b4243df6459ed8064b57d638657400e2506ec756dba4bf7694445f0a0be7e044.pdf"
+   },
+   "official": [
+    [
+     "お客様情報の漏えいに関するお詫びとお知らせ（第二報）（テレビ新広島）（2026/11/12）",
+     "https://www.tss-tv.co.jp/archives/001/202611/b4243df6459ed8064b57d638657400e2506ec756dba4bf7694445f0a0be7e044.pdf"
+    ],
+    [
+     "メール配信委託先への不正アクセスによるお客様情報の漏えいに関するお詫びとお知らせ（サンフレッチェ広島）（2026/11/12）",
+     "https://www.sanfrecce.co.jp/news/other/13058"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sanfrecce-hiroshima-tss-mobile-arara-email-leak-2900-20261113/"
+    ]
+   ],
+   "ind": "メディア・出版",
+   "verified": "2026-11-15",
+   "group": "arara"
+  },
+  {
+   "id": "nasushiobara-tkc-arara-2611",
+   "co": "栃木県那須塩原市（スマート申請システム・マイナンバーカード交付予約管理システム／委託先 TKC・メール送信 アララ）",
+   "date": "2026-11-12",
+   "announced": "2026-11-12",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 5652,
+   "label": "5,652件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレスのみ",
+   "notIncl": "氏名やマイナンバー等その他の個人情報の漏えいは確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "委託先TKCが使う外部メール配信サービス（アララ）への不正アクセスで、市のスマート申請システムとマイナンバーカード交付予約管理システムの利用者のメールアドレス5,652件が漏えいした。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日更新時点。委託事業者と詳細を調査中。",
+   "resp": "メール配信機能は11月11日に一部復旧。不審なメール・SMSへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0287-37-6253",
+      "hours": "企画部デジタル推進課システム管理係"
+     }
+    ],
+    "src": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/digitalsuishinka/huseiakusesu_zyouhourouei/24640.html"
+   },
+   "official": [
+    [
+     "スマート申請システム（どこでも窓口）、マイナンバーカード交付予約管理システムのメール配信システムへの不正アクセスについて（2026/11/12）",
+     "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/digitalsuishinka/huseiakusesu_zyouhourouei/24640.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nasushiobara_city_tkc_arara_5652_email_leak_20261113/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-11-15",
+   "group": "arara"
+  },
+  {
+   "id": "osaka-abeno-english-arara-2611",
+   "co": "大阪市阿倍野区（令和8年度阿倍野区小学生英語等支援事業／委託先 イング・メール配信 アララ）",
+   "date": "2026-11-12",
+   "announced": "2026-11-12",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 245,
+   "label": "245名",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "イベント当選者245名のメールアドレス",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "事業の委託先イングが利用するアララのメール配信サービスへの不正アクセスで、小学生向け英語等支援事業のイベント当選者のメールアドレス245名分が漏えいした。二次被害は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日17時10分の発表時点。",
+   "resp": "委託先は別の配信方法に切り替え。不審なメールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "06-6622-9786",
+      "hours": "阿倍野区役所市民協働課（教育支援）"
+     }
+    ],
+    "src": "https://www.city.osaka.lg.jp/hodoshiryo/abeno/0000691524.html"
+   },
+   "official": [
+    [
+     "「令和8年度阿倍野区小学生英語等支援事業」における個人情報の漏えいについて（2026/11/12）",
+     "https://www.city.osaka.lg.jp/hodoshiryo/abeno/0000691524.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/osaka-abeno-english-event-arara-245-email-leak-20261112/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-11-15",
+   "group": "arara"
+  },
+  {
+   "id": "ota-kodomoplatz-hanamaru-arara-2611",
+   "co": "群馬県太田市（こどもプラッツ連絡アプリ「はなまる連絡帳」／運営 サテライト・メール配信 アララ）",
+   "date": "2026-11-12",
+   "announced": "2026-11-12",
+   "occurred": "2026-11-09",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 5400,
+   "label": "延べ約5,400件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレスのみ（2024年1月〜2026年10月の延べ登録者数、重複含む）",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "市が使う連絡アプリ「はなまる連絡帳」（運営 サテライト）のメール配信委託先アララへの不正アクセスで、こどもプラッツ利用者のメールアドレスが漏洩した可能性がある。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日更新時点。",
+   "resp": "配信を別の事業者のシステムに切り替えて再開（11月9日）。不審なメール等への注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "06-6695-7290",
+      "hours": "平日10〜17時（サテライト・保護者向け）"
+     },
+     {
+      "tel": "0276-47-3301",
+      "hours": "太田市児童施設課"
+     }
+    ],
+    "mails": [
+     "info@c-satellite.jp"
+    ],
+    "src": "https://www.city.ota.gunma.jp/site/kosodate/1066354.html"
+   },
+   "official": [
+    [
+     "【こどもプラッツ】連絡アプリシステム（はなまる連絡帳）の不正アクセスに伴う注意喚起（2026/11/12）",
+     "https://www.city.ota.gunma.jp/site/kosodate/1066354.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ota-city-hanamaru-renrakucho-arara-email-leak-risk-20261112/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-11-15",
+   "group": "arara"
+  },
+  {
+   "id": "osaka-premium-voucher-arara-2611",
+   "co": "大阪市（プレミアム付商品券2026事業／受注事業者のメール配信サービス アララ）",
+   "date": "2026-11-06",
+   "announced": "2026-11-06",
+   "last": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 48537,
+   "label": "48,537件（利用者33,868件・参加店舗14,669件）",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026年7月1日以降に配信されたメールの宛先メールアドレス（利用者33,868件、参加店舗14,669件）",
+   "notIncl": "利用者・参加店舗の管理システムへの不正アクセスは確認されていない",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "受注事業者が使うメール配信サービスへの不正アクセスで、利用者と参加店舗のメールアドレス計48,537件が漏えいした。11月6日に第一報を発表、13日の終報で件数を確定した。",
+   "status": "closed",
+   "statusText": "2026年11月13日の終報で件数が確定。",
+   "resp": "不審なメールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "06-6615-8509",
+      "hours": "経済戦略局産業振興部産業振興課"
+     }
+    ],
+    "src": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000691292.html"
+   },
+   "official": [
+    [
+     "大阪市プレミアム付商品券2026事業において利用するメール配信サービスでの情報漏えいについて（終報）（2026/11/13）",
+     "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000691292.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/osaka_premium_voucher_2026_48537_email_leak_final_20261113/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-11-15",
+   "group": "arara"
   }
  ],
  "statusLabels": {
@@ -51506,7 +52320,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 325,
+ "pendingCount": 330,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
