@@ -1,0 +1,67 @@
+URL: https://www.jpcert.or.jp/at/2026/at260031.html
+
+2026年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起
+HOME
+緊急情報を確認する
+2026年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起
+通常レイアウトに戻す
+印刷
+印刷用レイアウト
+印刷
+2026年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起
+最終更新: 2026-10-14
+JPCERT-AT-2026-0031
+JPCERT/CC
+2026-10-14
+I. 概要
+マイクロソフトから同社製品の脆弱性を修正する2026年10月のセキュリティ更新プログラムが公開されました。これらの脆弱性が悪用された場合、リモートから任意のコードを実行されたり、セキュリティ機能を回避されるなどの可能性があります。
+マイクロソフト株式会社
+2026 年 10 月のセキュリティ更新プログラム (月例)
+https://www.microsoft.com/msrc/blog/2026/10/202610-security-update
+マイクロソフトは、これらの脆弱性のうち、次の脆弱性が悪用されていることを公表しています。マイクロソフトが提供する最新の情報をご確認の上、「II. 対策」を実施してください。
+CVE-2026-96951
+Windows シェル セキュリティ機能のバイパスの脆弱性
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96951
+II. 対策
+Microsoft Update、もしくはWindows Updateなどを用いて、セキュリティ更新プログラムを適用してください。
+Microsoft Update カタログ
+https://www.catalog.update.microsoft.com/
+Windows Update: よくあるご質問
+https://support.microsoft.com/ja-JP/help/12373/windows-update-faq
+III. 参考情報
+マイクロソフト株式会社
+2026 年 10 月のセキュリティ更新プログラム
+https://msrc.microsoft.com/update-guide/ja-jp/releaseNote/2026-Oct
+マイクロソフト株式会社
+セキュリティ更新プログラム ガイド
+https://msrc.microsoft.com/update-guide/
+今回の件につきまして提供いただける情報がございましたら、JPCERT/CCまでご連絡ください。
+一般社団法人JPCERTコーディネーションセンター（JPCERT/CC）
+サイバーセキュリティコーディネーショングループ
+Email：ew-info@jpcert.or.jp
+Topへ
+このページは役に立ちましたか？
+はい
+いいえ
+その他、ご意見・ご感想などございましたら、ご記入ください。
+こちらはご意見・ご感想用のフォームです。各社製品については、各社へお問い合わせください。
+※本フォームにいただいたコメントへの返信はできません。
+返信をご希望の方は「お問合せ」
+ をご利用ください。
+javascriptを有効にすると、ご回答いただけます。
+ありがとうございました。
+インシデント報告はこちらから
+<< 前へ
+次へ >>
+緊急情報を確認する
+注意喚起
+インターネット定点観測
+JVN
+脆弱性対策情報
+おすすめ情報
+JPCERT/CC Eyes「連続不正アクセス事案の攻撃手法に関する調査」
+JPCERT/CC Eyes「TSUBAMEレポート Overflow（2026年4～6月）」
+JPCERT/CC Eyes「APT-C-60による2026年の攻撃」
+JPCERT/CC Eyes「ツール分析結果シートのアップデート」
+JPCERT/CC Eyes「TSUBAMEレポート Overflow（2026年1～3月）」
+侵入型ランサムウェア攻撃を受けたら読むFAQ
