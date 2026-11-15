@@ -1,49 +1,6 @@
 {
  "items": [
   {
-   "article_url": "https://rocket-boys.co.jp/security-measures-lab/human-adjust-comsbi-saas-line-data-leak-risk-2026/",
-   "title": "ヒューマンアジャスト、LINE友だち情報最大11万6,518人の情報漏えいのおそれ 委託先COMSBI（SaaS版）への不正アクセスで",
-   "source": "セキュリティ対策Lab 情報漏えい",
-   "found": "2026-11-14",
-   "article_text_file": "inbox/texts/1a0c22f8132c.txt",
-   "official": [
-    {
-     "url": "https://www.release.tdnet.info/inbs/140120261113579962.pdf",
-     "status": "robots",
-     "chars": 0
-    },
-    {
-     "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113579962.pdf",
-     "status": "ok",
-     "chars": 1650,
-     "mirror_of": "https://www.release.tdnet.info/inbs/140120261113579962.pdf",
-     "text_file": "inbox/texts/5ff6757c16a1.txt"
-    },
-    {
-     "url": "https://sonicmoov.com/news/5ttj9ndzh",
-     "status": "ok",
-     "chars": 1952,
-     "text_file": "inbox/texts/18506794a486.txt"
-    },
-    {
-     "url": "https://www.linkedin.com/in/%E6%8B%93-%E6%B2%B3%E9%87%8E-3598aa1ba/",
-     "status": "robots",
-     "chars": 0
-    },
-    {
-     "url": "https://www.linkedin.com/company/107134396",
-     "status": "robots",
-     "chars": 0
-    },
-    {
-     "url": "https://mastodon.social/@securityLab_jp",
-     "status": "thin",
-     "chars": 63,
-     "text_file": "inbox/texts/3bc62ca4b423.txt"
-    }
-   ]
-  },
-  {
    "article_url": "https://rocket-boys.co.jp/security-measures-lab/hange-ensapia-20261113-fourth-report-password-hashes-card-data-lea/",
    "title": "オンラインゲームポータルサイト ハンゲ、会員パスワードのハッシュ6万1,962件が情報漏えい、一部には個人情報漏洩の恐れ",
    "source": "セキュリティ対策Lab 情報漏えい",
