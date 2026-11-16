@@ -15,32 +15,6 @@
      "text_file": "inbox/texts/b77453ec9305.txt"
     }
    ]
-  },
-  {
-   "article_url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56789.html",
-   "title": "インシデント・情報漏えい ScanNetSecurity 2026.11.16 Mon 8:05 アイリスオーヤマ公式通販サイト「アイリスプラザ」に不正アクセス、約770万人の個人情報が漏えいした可能性 アイリスオーヤマ株式会社は11月5日、10月29日に公表したアイリスグループの株式会社アイリスプラザが運営するアイリスオーヤマ公式通販サイト「アイリスプラザ」への不正アクセスについて、第2報を発表した。",
-   "source": "ScanNetSecurity 月別 1",
-   "found": "2026-11-16",
-   "article_text_file": "inbox/texts/5efc0317a05f.txt",
-   "official": [
-    {
-     "url": "https://www.irisohyama.co.jp/news/2026/amp/?date=1105",
-     "status": "error:http403",
-     "chars": 0
-    },
-    {
-     "url": "https://www.irisohyama.co.jp/news/2026/?date=1029",
-     "status": "error:http403",
-     "chars": 0
-    },
-    {
-     "url": "https://itunes.apple.com/jp/podcast/id1391532897",
-     "status": "ok",
-     "chars": 4471,
-     "final_url": "https://podcasts.apple.com/jp/podcast/scannetsecurity-%E6%9C%80%E6%96%B0%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%83%85%E5%A0%B1/id1391532897",
-     "text_file": "inbox/texts/b77453ec9305.txt"
-    }
-   ]
   }
  ],
  "generated": "2026-11-16 08:23 JST",
