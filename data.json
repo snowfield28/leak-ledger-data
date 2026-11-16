@@ -52715,6 +52715,56 @@
    ],
    "ind": "生活サービス・レジャー",
    "verified": "2026-11-17"
+  },
+  {
+   "id": "kintetsu-paradis-comsbi-2611",
+   "co": "近鉄不動産株式会社（商業施設「パラディ学園前」LINE公式アカウント／委託先経由 ソニックムーブ「COMSBI（SaaS版）」）",
+   "date": "2026-11-13",
+   "announced": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 3716,
+   "label": "最大3,716件（友だち情報）／うち利用者情報最大137件",
+   "st": "c",
+   "items": [
+    "addr"
+   ],
+   "itemsText": "LINE友だち情報（LINE表示名、プロフィール画像URL、LINEユーザー識別子）最大3,716件、利用者情報（住所、性別）最大137件",
+   "notIncl": "",
+   "who": [
+    "cust"
+   ],
+   "sum": "LINE配信を委託する事業者のサービス提供元ソニックムーブの「COMSBI（SaaS版）」が不正アクセスを受け、「パラディ学園前」LINE公式アカウントの友だち情報最大3,716件と利用者情報最大137件が漏えいした。11月12日に委託先から報告。",
+   "status": "ongoing",
+   "statusText": "原因・影響範囲を調査中。件数は変わる可能性がある。",
+   "resp": "委託先・ソニックムーブ社とともに原因究明と影響範囲の調査を進め、再発防止を徹底。当社を装った不審なLINEメッセージへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0742-41-3535",
+      "hours": "9:00〜17:50、土日祝休み（11/14・11/15は受付）"
+     }
+    ],
+    "note": "近鉄不動産 アセット事業本部 賃貸事業部（学園前事務所）",
+    "src": "https://www.kintetsu-re.co.jp/r/pdf/261113.pdf"
+   },
+   "official": [
+    [
+     "業務委託先におけるLINE配信サービスへの不正アクセスによるLINEの登録情報等の漏えいに関するお詫びとお知らせ（2026/11/13）",
+     "https://www.kintetsu-re.co.jp/r/pdf/261113.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kintetsu_paradis_gakuenmae_comsbi_saas_line_3716_137_2026/"
+    ]
+   ],
+   "ind": "建設・不動産",
+   "verified": "2026-11-17"
   }
  ],
  "statusLabels": {
@@ -52747,7 +52797,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 335,
+ "pendingCount": 334,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",

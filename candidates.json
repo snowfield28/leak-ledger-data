@@ -8305,35 +8305,6 @@
    "pendingReason": "公式発表（11/5）は流出対象に含まれるか未判明としており件数なし。報道の約3万5,600件は公式で未照合。続報待ち。"
   },
   {
-   "id": "kintetsu-paradis-comsbi-2611",
-   "co": "近鉄不動産株式会社（「パラディ学園前」LINE／委託先 ソニックムーブ COMSBI）",
-   "date": "2026-11-13",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス",
-    "委託先経由"
-   ],
-   "n": 3716,
-   "label": "最大3,716件（報道）",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "notIncl": "",
-   "sum": "報道によると、COMSBI（SaaS版）への不正アクセスでLINE登録情報が漏えい。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文を確認できていない。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/kintetsu_paradis_gakuenmae_comsbi_saas_line_3716_137_2026/"
-    ]
-   ],
-   "ind": "建設・不動産",
-   "pendingReason": "自動取得不可（公式PDF https://www.kintetsu-re.co.jp/r/pdf/261113.pdf がHTTP 403）。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "keisei-skyliner-2611",
    "co": "京成電鉄株式会社（スカイライナー予約システム）",
    "date": "2026-11-13",
