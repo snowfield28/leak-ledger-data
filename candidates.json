@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -8202,6 +8202,164 @@
    ],
    "ind": "通信・IT",
    "pendingReason": "報道では不正アクセスとシステム障害が続いているとされるが、公式サイト（ecad-sol.com）の取得が SSLError で失敗し、個人情報漏えいの有無を確認できていない。自動取得不可。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "kokusen-digitalarts-2611",
+   "co": "独立行政法人国民生活センター（メール誤送信防止「m-FILTER MailAdviser」／提供元 デジタルアーツ）",
+   "date": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "デジタルアーツのクラウド運用環境への不正アクセスにより、センターが利用するメール誤送信防止ツールの環境内の情報が閲覧された可能性がある。",
+   "status": "ongoing",
+   "statusText": "事業者が調査中。",
+   "resp": "",
+   "official": [
+    [
+     "デジタルアーツ株式会社のクラウドサービスへの不正アクセスについて（2026/11/13）",
+     "https://www.kokusen.go.jp/hello/pdf/da-20261113.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kokusen-digitalarts-mailadviser-unauthorized-access-20261113/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表は「利用者の情報が閲覧された可能性」「対象情報は事業者が調査中」「個人情報が閲覧された事実は未確認」とするのみで、個人情報の漏えいかどうか判断できない（デジタルアーツ案件と同様）。続報待ち。"
+  },
+  {
+   "id": "eicoh-ransom-2611",
+   "co": "株式会社エイコー",
+   "date": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "11月9日に一部システムが第三者の不正アクセスを受けランサムウェア被害が発生。情報の外部流出の有無・範囲は調査中。",
+   "status": "ongoing",
+   "statusText": "調査・復旧中。",
+   "resp": "",
+   "official": [
+    [
+     "当社システムへの不正アクセスに関するお知らせ（2026/11/13）",
+     "https://www.eicoh.com/news/detail/127"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/eicoh-ransomware-unauthorized-access-payment-change-2026/"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "公式発表は情報流出の有無を調査中とするのみで、個人情報への言及がない。続報待ち。"
+  },
+  {
+   "id": "sasebo-ecoin-arara-2611",
+   "co": "佐世保市（地域通貨「させぼeコイン」／外部メール配信 アララ）",
+   "date": "2026-11-05",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "自動送信メールに使う外部メール配信サービス（アララ）への不正アクセスで、登録情報が含まれるか調査中。",
+   "status": "ongoing",
+   "statusText": "影響範囲を確認中。",
+   "resp": "当該メール配信サービスの利用を停止し、別サービスに切替。",
+   "official": [
+    [
+     "地域通貨「させぼeコイン」発行事業（2026/11/5更新）",
+     "https://www.city.sasebo.lg.jp/keizai/syouko/saseboecoin2024.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sasebo-e-coin-arara-email-leak-35600-2026/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "公式発表（11/5）は流出対象に含まれるか未判明としており件数なし。報道の約3万5,600件は公式で未照合。続報待ち。"
+  },
+  {
+   "id": "kintetsu-paradis-comsbi-2611",
+   "co": "近鉄不動産株式会社（「パラディ学園前」LINE／委託先 ソニックムーブ COMSBI）",
+   "date": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 3716,
+   "label": "最大3,716件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "報道によると、COMSBI（SaaS版）への不正アクセスでLINE登録情報が漏えい。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kintetsu_paradis_gakuenmae_comsbi_saas_line_3716_137_2026/"
+    ]
+   ],
+   "ind": "建設・不動産",
+   "pendingReason": "自動取得不可（公式PDF https://www.kintetsu-re.co.jp/r/pdf/261113.pdf がHTTP 403）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "keisei-skyliner-2611",
+   "co": "京成電鉄株式会社（スカイライナー予約システム）",
+   "date": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 3370000,
+   "label": "約337万件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "notIncl": "",
+   "sum": "報道によると、予約システムへの不正アクセスで約337万件の個人情報が漏えいした恐れ。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/keisei-skyliner-reservation-unauthorized-access-3370000/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "pendingReason": "自動取得不可（公式PDF https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/OVIfkjTf.pdf がHTTP 503）。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }

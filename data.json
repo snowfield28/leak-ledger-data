@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -2129,8 +2129,8 @@
    "types": [
     "不正アクセス"
    ],
-   "n": 5784,
-   "label": "5,784件（吉野家・はなまる分）",
+   "n": 396920,
+   "label": "39万6,920人（うち ApplyNow Sign で雇用契約の30,067人）",
    "st": "p",
    "items": [
     "name",
@@ -2139,12 +2139,13 @@
     "birth",
     "addr",
     "work",
+    "acct",
     "id"
    ],
-   "itemsText": "吉野家4,998件・はなまる368件の応募者：カナ氏名、メールアドレス、電話番号、一部は生年月日・性別・住所の一部・職業。従業員アカウント418件：ユーザー名、メールアドレス、暗号化されたパスワード",
+   "itemsText": "応募者・契約者の氏名・フリガナ・電話・メール、一部は選考情報・生年月日・性別・住所・職業・受験番号・学校名、ApplyNow Signでは一部の個人番号・口座情報・基礎年金番号・在留カード番号など。企業ユーザーの氏名・メール・パスワード（ハッシュ）・権限",
    "sum": "採用管理サービスが利用するデータ分析ツールの脆弱性を突かれ、データベースの一部に不正アクセスされた。吉野家・はなまるなど利用企業が9月30日に影響を公表。ApplyNow自身の公式発表は自動では読み取れず、利用企業の公表で確認。",
-   "status": "ongoing",
-   "statusText": "9月9日に公表。",
+   "status": "closed",
+   "statusText": "フォレンジック調査完了。最終報を11月4日に公表。",
    "resp": "顧客向けにお詫びと通知を公表。",
    "official": [
     [
@@ -2154,6 +2155,10 @@
     [
      "吉野家・はなまるのお知らせ",
      "https://www.yoshinoya.com/wp-content/uploads/2026/09/30185541/news_2026093004.pdf"
+    ],
+    [
+     "調査結果および再発防止策のご報告（最終報）（2026/11/4）",
+     "https://applynow.co.jp/news/20261104"
     ]
    ],
    "src": [
@@ -2169,7 +2174,7 @@
    "notIncl": "",
    "ind": "人材・教育・業務支援",
    "cause": "cyber",
-   "verified": "2026-10-09",
+   "verified": "2026-11-16",
    "contact": {
     "tels": [
      {
@@ -2187,9 +2192,11 @@
     "src": "https://www.yoshinoya.com/wp-content/uploads/2026/09/30185541/news_2026093004.pdf"
    },
    "who": [
-    "staff"
+    "cust",
+    "biz"
    ],
-   "announced": "2026-09-09"
+   "announced": "2026-09-09",
+   "last": "2026-11-04"
   },
   {
    "id": "fuso-dentsu",
@@ -52288,6 +52295,426 @@
    "ind": "公共機関",
    "verified": "2026-11-15",
    "group": "arara"
+  },
+  {
+   "id": "hiroshima-gas-ryomo-elec-2611",
+   "co": "広島ガス株式会社（電気関連／委託先 両毛システムズ）",
+   "date": "2026-11-13",
+   "announced": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア",
+    "委託先経由"
+   ],
+   "n": 3200,
+   "label": "約3,200件",
+   "st": "p",
+   "items": [
+    "addr",
+    "deal"
+   ],
+   "itemsText": "使用場所の住所、電力の月間使用量、月額料金・関連する年月日、契約開始日、契約者番号",
+   "notIncl": "氏名、電話番号、メールアドレス、口座情報、クレジットカード情報は含まれないことを確認",
+   "who": [
+    "cust"
+   ],
+   "sum": "システム維持管理の委託先・両毛システムズのランサムウェア被害（8月12日）について、当初は個人情報の漏えいなしとの報告だったが、調査で電気契約者の一部（約3,200件）の情報が含まれていた可能性が判明した。",
+   "status": "ongoing",
+   "statusText": "対象のお客さまへ書面を順次発送。二次被害は確認されていない。",
+   "resp": "対象のお客さまへ書面を順次発送。関係機関へ報告し、委託先の管理体制を含めた再発防止を実施。不審な電話・メール・SMSへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0570-002-888",
+      "hours": "8:50〜17:30（土・日・祝・年末年始・5/1を除く）"
+     }
+    ],
+    "note": "広島ガス お客さまセンター",
+    "src": "https://www.hiroshima-gas.co.jp/com/w_new/info/2026/fusei1113.htm"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報漏えいの可能性（電気関連）に関するお詫びとお知らせ（2026/11/13）",
+     "https://www.hiroshima-gas.co.jp/com/w_new/info/2026/fusei1113.htm"
+    ],
+    [
+     "システム維持管理事業者への不正アクセスに関するお知らせ（2026/9/30）",
+     "https://www.hiroshima-gas.co.jp/com/w_new/info/2026/security0930.htm"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hiroshima-gas-ryomo-electric-customer-data-3200-risk-2026/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "verified": "2026-11-17"
+  },
+  {
+   "id": "goqsystem-2611",
+   "co": "株式会社GoQSystem（受注管理システム「GoQSystem」）",
+   "date": "2026-11-12",
+   "announced": "2026-11-12",
+   "occurred": "2026-11-10",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 4367390,
+   "label": "約436万7,390人（注文4,984,595件・1,694社）",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "ご注文者・お届け先の氏名、住所、電話番号、メールアドレス、注文内容",
+   "notIncl": "クレジットカード情報は非保持のため対象外",
+   "who": [
+    "cust"
+   ],
+   "sum": "EC事業者向け受注管理システムが、お問い合わせフォームの脆弱性を悪用した不正アクセスを受け、11月10〜11日に注文データが外部に持ち出された。第二報（11月13日）で対象は1,694店舗・注文498万件超・本人数約436万7千人と公表。",
+   "status": "ongoing",
+   "statusText": "侵入経路など詳細を調査中。",
+   "resp": "11月11日に侵入経路を遮断しサービスを一時停止、接続元を限定して再開。警察に被害届を提出し個人情報保護委員会へ報告。対象店舗へ注文情報の提供と注意喚起文掲載を案内。",
+   "contact": {
+    "mails": [
+     "support@goqsystem.com"
+    ],
+    "note": "受付24時間（回答は平日9:00〜18:00）",
+    "src": "https://goq.co.jp/security-incident-2.html"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（2026/11/12）",
+     "https://goq.co.jp/security-incident.html"
+    ],
+    [
+     "同 第二報：対象規模および今後の対応について（2026/11/13）",
+     "https://goq.co.jp/security-incident-2.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/goqsystem-order-data-breach-4367390-202611/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-17"
+  },
+  {
+   "id": "honda-giftpad-arara-2611",
+   "co": "本田技研工業株式会社（個人株主／委託先 ギフトパッド・アララ）",
+   "date": "2026-11-13",
+   "announced": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 1741,
+   "label": "1,741件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "第102回定時株主総会でネット議決権行使し、電子ギフトに申し込んだ個人株主のメールアドレス",
+   "notIncl": "氏名、住所、株主番号などは漏えいなし",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信を委託したギフトパッドが利用するアララのメール配信サービスへの不正アクセスにより、電子ギフトに申し込んだ個人株主のメールアドレス1,741件が漏えいした。11月5日にギフトパッドから第一報、11日に詳細の連絡を受けた。",
+   "status": "ongoing",
+   "statusText": "ギフトパッドに原因分析・再発防止策の報告を求める予定。",
+   "resp": "ギフトパッド社サービスの利用を停止。対象株主へ個別連絡。不審メールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-181-525",
+      "hours": "平日9:00〜17:00（受付期間2026/11/12〜11/30）"
+     }
+    ],
+    "src": "https://global.honda/jp/news/2026/c261113.html"
+   },
+   "official": [
+    [
+     "当社の委託先が利用したメール配信サービス先への不正アクセスについて（2026/11/13）",
+     "https://global.honda/jp/news/2026/c261113.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/honda-shareholder-giftpad-arara-email-leak-1741-2026/"
+    ]
+   ],
+   "ind": "製造",
+   "verified": "2026-11-17",
+   "group": "arara"
+  },
+  {
+   "id": "atlas-confit-2611",
+   "co": "株式会社アトラス（学術大会向けシステム「Confit」）",
+   "date": "2026-11-14",
+   "announced": "2026-11-14",
+   "occurred": "2026-11-12",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 10000,
+   "label": "約1万件（63学会）",
+   "st": "c",
+   "items": [
+    "name",
+    "work",
+    "mail"
+   ],
+   "itemsText": "発表者氏名、所属情報、発表者メールアドレス（演題名も含む）",
+   "notIncl": "パスワード等の認証情報、身分証情報、クレジットカード情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "学術大会向けシステムConfitのオプション機能（発表データ収集公開機能）が不正アクセスを受け、63学会の発表情報約1万件が外部に取得された。11月12日に確認。",
+   "status": "ongoing",
+   "statusText": "第1報。原因と再発防止策は調査完了後に公表予定。",
+   "resp": "11月12日21時までに該当サーバーへのアクセス遮断など技術的対策を実施。警察・個人情報保護委員会へ報告・相談。対象学会へ個別連絡済み、対象個人へは今後個別連絡。",
+   "contact": {
+    "note": "公式発表のお問い合わせフォームのみ（URLの記載なし）",
+    "src": "https://www.atlas.jp/news/2026-11-14"
+   },
+   "official": [
+    [
+     "Confit への不正アクセスに関するお知らせとお詫び（第1報）（2026/11/14）",
+     "https://www.atlas.jp/news/2026-11-14"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/atlas_confit_63_societies_10000_personal_corporate_risks_seo_links_20261115/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "verified": "2026-11-17"
+  },
+  {
+   "id": "niigata-city-enigata-arara-2611",
+   "co": "新潟市（オンライン申請システム「e-NIIGATA」／委託先 TKC・メール送信 アララ）",
+   "date": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 37931,
+   "label": "37,931件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026/7/1〜10/31にe-NIIGATAから送信した通知メールのメールアドレス（テスト用アドレス等を含む可能性）",
+   "notIncl": "利用者の氏名・申請情報は含まれない",
+   "who": [
+    "cust"
+   ],
+   "sum": "外部メール送信サービスのアララへの不正アクセスにより、e-NIIGATA利用者のメールアドレス37,931件が漏えいした。11月12日にTKCから市へ件数の報告があった。",
+   "status": "ongoing",
+   "statusText": "委託事業者に原因究明と再発防止を求めている。",
+   "resp": "市から個別メールは送らず、HPで周知。不審メール・電話・SMSへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "025-226-2472",
+      "hours": "新潟市総務部デジタル行政推進課"
+     }
+    ],
+    "src": "https://www.city.niigata.lg.jp/shisei/seisaku/it/keikaku/e-niigata-info202611.html"
+   },
+   "official": [
+    [
+     "e-NIIGATA利用者メールアドレスの情報漏えいについて（お詫び）（2026/11/13）",
+     "https://www.city.niigata.lg.jp/shisei/seisaku/it/keikaku/e-niigata-info202611.files/20261113_apology_e-niigata.pdf"
+    ],
+    [
+     "外部メール送信サービスへの不正アクセスに伴う影響について（2026/11/13更新）",
+     "https://www.city.niigata.lg.jp/shisei/seisaku/it/keikaku/e-niigata-info202611.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/niigata-city-e-niigata-arara-email-leak-37931-202611/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-11-17",
+   "group": "arara"
+  },
+  {
+   "id": "hepco-kirameku-arara-2611",
+   "co": "北海道電力株式会社（ECサイト「きらめくストア」／委託先 GMOメイクショップ・アララ）",
+   "date": "2026-11-13",
+   "announced": "2026-11-13",
+   "occurred": "2026-10-27",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 5664,
+   "label": "5,664件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "2026/7/1〜10/28にメール配信先として登録されていたメールアドレス",
+   "notIncl": "氏名、住所、電話番号、パスワード、クレジットカード情報は流出なし",
+   "who": [
+    "cust"
+   ],
+   "sum": "メルマガ配信に使うMakeRepeaterが利用するアララメッセージのWebサーバーへの不正アクセス（10/27〜31）で、きらめくストアのメールアドレス5,664件が流出した。",
+   "status": "ongoing",
+   "statusText": "GMOメイクショップ・アララと連携し影響を確認中。",
+   "resp": "アララメッセージとの連携を停止。個別連絡が困難なため公表で周知し、不審メールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-956-688",
+      "hours": "ガイダンス1番／平日9:00〜17:00（土日祝・12/29〜1/3・5/1を除く）"
+     }
+    ],
+    "note": "ほくでんお客さま相談センター",
+    "src": "https://www.hepco.co.jp/info/2026/1253239_2073.html"
+   },
+   "official": [
+    [
+     "当社ECサイト「きらめくストア」で利用する外部メール配信サービスへの不正アクセスによるメールアドレスの一部流出について（2026/11/13）",
+     "https://www.hepco.co.jp/info/2026/1253239_2073.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hokkaido_electric_kirameku_store_arara_makerepeater_5664_20261113/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "verified": "2026-11-17",
+   "group": "arara"
+  },
+  {
+   "id": "kochi-city-applynow-2611",
+   "co": "高知市（職員採用資格試験の録画動画面接／委託先 ApplyNow）",
+   "date": "2026-11-11",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 1464,
+   "label": "1,464件",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "birth"
+   ],
+   "itemsText": "氏名（フリガナ含む）、メールアドレス、電話番号、生年月日",
+   "notIncl": "録画動画、選考内容・合否結果は対象外",
+   "who": [
+    "cust"
+   ],
+   "sum": "採用管理サービスApplyNowへの不正アクセス（9月7日検知）で、令和3・4・6・8年度の職員採用試験で録画動画面接を使った受験者1,464件の情報が漏えいした。11月9日にApplyNowから対象者へ個別メールで通知。",
+   "status": "ongoing",
+   "statusText": "二次被害は確認されていない。",
+   "resp": "ApplyNowが対象者へお詫びと注意喚起のメールを11月9日に送信。サポート事務局で問い合わせ対応。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-401-373",
+      "hours": "全日9:00〜18:00（令和8年12月1日以降はメールのみ）／ApplyNowサポート事務局"
+     }
+    ],
+    "mails": [
+     "support_biz@applynow.co.jp"
+    ],
+    "forms": [
+     [
+      "ApplyNow サポートページ",
+      "https://biz.applynow.jp/support/"
+     ]
+    ],
+    "src": "https://www.city.kochi.kochi.jp/site/syokuin-saiyo/2026rokugafusei.html"
+   },
+   "official": [
+    [
+     "職員採用資格試験受験者の個人情報の漏えいについて（2026/11/11更新）",
+     "https://www.city.kochi.kochi.jp/site/syokuin-saiyo/2026rokugafusei.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kochi-city-applynow-applicants-data-leak-2026/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-11-17"
+  },
+  {
+   "id": "appleworld-rikisha-2611",
+   "co": "株式会社アップルワールド（旅行会社向け予約手配システム「Rikisha Easy REZ!」）",
+   "date": "2026-11-13",
+   "announced": "2026-11-13",
+   "occurred": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 582024,
+   "label": "最大58万2,024件（旅行者の予約情報）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "deal",
+    "card"
+   ],
+   "itemsText": "旅行者の氏名・予約内容・備考欄、旅行会社（最大3,542社・13,834名）の会社名・担当者名・メール・電話・請求情報、送迎予約の決済画面入力カード情報（最大39件）、宿泊予約の決済情報など",
+   "notIncl": "",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "サーバーへの不正アクセスで、予約情報と旅行会社情報が流出したおそれがある。外部への持ち出しの有無と範囲は調査中で、保存情報全体を対象として公表。原因は認証鍵の不正使用と、開発委託先のソースコード保管場所が閲覧可能だったこと。",
+   "status": "ongoing",
+   "statusText": "調査継続中。サービス・API予約受付を停止中。",
+   "resp": "サーバー停止、不正プログラム削除、決済代行会社の認証情報を失効・再発行。個人情報保護委員会・JIPDEC・警察・決済代行会社・カード会社へ報告。対象旅行者へは旅行会社と協議の上で連絡。",
+   "contact": {
+    "note": "公式発表に旅行者向け窓口の記載あり（本文末尾の窓口表記を要確認）",
+    "src": "https://appleworld.co.jp/news/cp6xtywu279"
+   },
+   "official": [
+    [
+     "「Rikisha Easy REZ!」への不正アクセスによる個人情報流出のおそれに関するお詫びとお知らせ（2026/11/13）",
+     "https://appleworld.co.jp/news/cp6xtywu279"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/appleworld_rikisha_easy_rez_582024_reservations_data_breach_20261115/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-11-17"
   }
  ],
  "statusLabels": {
@@ -52320,7 +52747,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 330,
+ "pendingCount": 335,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
