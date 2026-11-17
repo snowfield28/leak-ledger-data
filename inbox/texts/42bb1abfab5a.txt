@@ -1,0 +1,80 @@
+URL: https://www.cdjapan.co.jp/info/20261113
+
+CDJapan : Notice Regarding the Potential Leakage of Personal Information (Initial Report)
+November 13, 2026
+Neowing Corporation
+Fumio Katagiri
+President and Representative Director
+Notice Regarding the Potential Leakage of Personal Information (Initial Report)
+Neowing Corporation (headquartered in Nihonbashi, Tokyo; President: Fumio Katagiri; hereinafter referred to as "the Company") has confirmed that customers' personal information may have been exposed to unauthorized third parties as a result of unauthorized access to CDJapan and Neowing, the online shopping websites operated by the Company.
+We sincerely apologize for the significant concern and inconvenience this situation has caused our customers.
+We are currently investigating the cause of the incident and the extent of its impact. Below, we provide the information confirmed as of this date, along with important precautions for our customers.
+1. Details of the Incident
+On November 11, 2026, we confirmed that an issue with a web page had allowed unauthorized external access to Neowing System (our internal system), resulting in data tampering that may have exposed customers' credit card information to third parties.
+We immediately blocked the affected access route and implemented measures to prevent further damage. We are continuing our investigation in cooperation with an independent cybersecurity investigation firm.
+2. Information Potentially Affected
+Customers Who May Be Affected
+Customers who used CDJapan between November 9, 2026, at 12:00 PM and November 11, 2026, at 5:00 PM (JST).
+Number of potentially affected cases: 285
+Information That May Have Been Exposed
+Credit card information newly registered or updated during the above period, including:
+Credit card numbers
+Expiration dates
+Cardholder names
+Security codes (CVV/CVC)
+At this time, no actual leakage of personal information or secondary damage, such as unauthorized use, has been confirmed.
+3. Actions Taken and Ongoing Measures
+We are taking the following actions:
+Investigation: Investigating the cause of the incident and the extent of its impact in cooperation with an independent cybersecurity investigation firm.
+Regulatory notification: Submitted an initial report to Japan's Personal Information Protection Commission on November 13, 2026.
+Police notification: Reported the incident to the National Police Agency's cybercrime reporting desk.
+Customer notification: Preparing to contact potentially affected customers individually.
+Credit card payments: As a precautionary measure, we have temporarily suspended credit card payments to ensure customer safety and prevent further potential risks.
+4. Important Precautions for Customers
+We kindly ask our customers to take the following precautions:
+Beware of suspicious emails and SMS messages.
+ Do not click on links in emails or text messages that you do not recognize. We will never ask you to provide your password or credit card information via email or SMS.
+Review your passwords.
+ If you use the same password for other online services, we recommend changing those passwords.
+Check your credit card statements.
+ Please review your credit card transactions for any unfamiliar or unauthorized charges. If you notice any suspicious transactions, contact your credit card issuer immediately.
+5. Next Steps
+We will provide further updates on our website as soon as new information becomes available through our ongoing investigation.
+Customers who may have been affected will be contacted individually by email or other appropriate means.
+6. Fulfillment of Existing Orders
+We will continue to take full responsibility for fulfilling and delivering all orders that have already been placed.
+7. Contact Information
+For inquiries regarding the potential leakage of personal information, please contact CDJapan Customer Support.
+Email: info@cdjapan.co.jp
+Once again, we sincerely apologize for the significant inconvenience and concern this incident has caused our customers.
+Article of Related Department
+2018-12-19 16:01:00
+ Tokusatsu / Super Sentai Deals
+2026-11-17 00:00:00
+ Anime Special Bonus Archive
+2026-06-03 09:40:00
+ Japanese Movie/TV with English Subtitles
+2026-11-16 17:00:00
+ Afterglow mini-album "OVERGLOW" with Exclusive Bonus!
+2026-11-16 08:13:00
+ All Participants in the 77th NHK Kohaku Uta Gassen
+Recommended Article
+2018-12-19 16:01:00
+ Tokusatsu / Super Sentai Deals
+2026-11-17 00:00:00
+ Anime Special Bonus Archive
+2026-06-03 09:40:00
+ Japanese Movie/TV with English Subtitles
+2026-11-16 17:00:00
+ Afterglow mini-album "OVERGLOW" with Exclusive Bonus!
+2026-11-16 08:13:00
+ All Participants in the 77th NHK Kohaku Uta Gassen
+Items You Recently Viewed
+Delete Browsing History
+See more
+Items You Recently Viewed
+Update to our Privacy Policy
+We have recently updated our privacy policy, which will be implemented from May 25, 2018 onwards.
+Read our Privacy Policy here.
+OK
+close

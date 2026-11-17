@@ -1,0 +1,11 @@
+URL: https://www.lapostegroupe.com/fr/actualite/cyberattaque-de-maileva-ce-quil-faut-savoir
+
+Cyberattaque de Maileva, ce qu'il faut savoir | La Poste Groupe
+Publié le 15 novembre 2026
+Cyberattaque de Maileva, ce qu'il faut savoir
+Numérique
+National
+Maileva, filiale de Docaposte, est un prestataire d'envois de documents pour le compte d'entreprises. Mi-septembre, Maileva a été victime d’une cyberattaque complexe. Ses équipes se sont immédiatement mobilisées afin de sécuriser rapidement les systèmes. Aucune altération ni destruction de données n’a été constatée. L’information des entreprises et institutions clientes concernées a été engagée dans les jours qui ont suivi l’identification de l’incident. La Commission nationale de l’informatique et des libertés (CNIL) a été notifiée, une plainte a été déposée et une enquête judiciaire est en cours.
+Comme la presse s’en est fait l’écho, 22 millions de personnes destinataires d’envois par des entreprises et institutions clientes de Maileva, sont concernées par une fuite de leurs données d’identification (nom, prénom, adresse postale). Le contenu des informations présentes dans les documents n’appartient pas à Maileva mais relève de la relation entre les clients de Maileva et leurs propres clients destinataires de ces documents.
+Maileva a donc tenu informées ses entreprises clientes concernées par les conséquences de cette cyberattaque. Ces entreprises ont ainsi pu prévenir leurs clients ou destinataires de l’exposition de certaines de leurs données, dont la nature est liée aux contenus des documents envoyés.
+Toutes les équipes sont mobilisées pour accompagner au mieux les clients de Maileva et poursuivent leur engagement pour déployer avec rigueur et professionnalisme les moyens nécessaires à la sécurité de ses activités et de celles de ses clients.

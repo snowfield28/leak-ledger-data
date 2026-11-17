@@ -1,0 +1,267 @@
+URL: https://www.tf1info.fr/justice-faits-divers/maileva-cyberattaque-massive-contre-une-filiale-de-la-poste-ce-que-l-on-sait-du-vol-des-donnees-de-22-millions-de-personnes-2475941.html
+
+Cyberattaque massive contre une filiale de La Poste : ce que l'on sait du vol des données de 22 millions de personnes | TF1 Info
+Fermer le menu
+Découvrez tout
+l’univers TF1 INFO
+Lancer votre recherche de programme
+Créer un compte
+Se connecter
+Regarder le direct
+Regarder les JT en direct
+Regarder votre JT personnalisé
+Paramétrer mes cookies
+Télécharger l'application TF1 info
+Cyberattaque massive contre une filiale de La Poste : ce que l'on sait du vol des données de 22 millions de personnes
+ (nouvelle fenêtre)
+par 
+Matthieu DELACHARLERY
+ (nouvelle fenêtre)
+ et Raphaël MAILLOCHON
+Publié le 
+15 novembre 2026 à 16h46
+, mis à jour le 
+15 novembre 2026 à 18h03
+Lire dans l'app
+TF1 Info
+Pas une semaine ou presque ne passe sans l'annonce d'une nouvelle cyberattaque ou d'une fuite massive de données personnelles.
+Maileva, filiale du groupe La Poste, a reconnu avoir été victime d'un piratage ayant conduit au vol de données d'identification de 22 millions de personnes.
+TF1info fait le point.
+Ajoutez TF1info à vos sources sur Google
+C'est une cyberattaque d'ampleur. Filiale de Docaposte, la branche numérique du groupe La Poste, l'entreprise Maileva a reconnu, samedi 14 novembre, avoir été victime d'un piratage qui a conduit au 
+vol de données d'identification de plus de 22 millions de personnes
+ (nouvelle fenêtre)
+. Plateforme spécialisée dans l'envoi de courriers pour les entreprises (bulletins de paie, recommandés, factures, convocations d'assemblées générales...), elle revendique plus de 70.000 utilisateurs, avec 180 millions de documents envoyés en 2024, selon son 
+site internet
+ (nouvelle fenêtre)
+.
+Que s'est-il passé exactement ? 
+Nous sommes le matin du 23 septembre lorsque la société Maileva ralentit puis suspend totalement l'ensemble de ses services. En cause : une activité anormale détectée dans les serveurs informatiques. Dès le lendemain, conformément à la réglementation, elle informe ces dernières du piratage, avec le message suivant : 
+"Les comptes concernés par cette fuite ont été bloqués et les services sont interrompus"
+. En parallèle, la société notifie la Commission nationale de l'informatique et des libertés (Cnil) et dépose une plainte.
+La filiale du groupe La Poste n'a pas ébruité la fuite de données dont elle a été victime, car, souligne-t-elle dans un communiqué, l'information des personnes concernées et de la nature des données qui leur ont été subtilisées relève des organisations clientes. Le 9 octobre, l'association Santé au Travail en Cornouaille, basée à Quimper (Finistère), ouvre le bal, faisant état d'un 
+"incident de sécurité"
+ ayant affecté l'un de ses prestataires, la société Maileva, qu'elle utilise notamment pour l'envoi de certains courriers postaux. 
+Quelles données ont fuité ?
+Les 22 millions de personnes touchées sont des destinataires des entreprises clientes de Maileva. Les données exposées sont le prénom, le nom et l'adresse postale, a précisé la plateforme dans une déclaration transmise par La Poste à l'AFP, confirmant des informations données par le site spécialisé 
+FrenchBreaches
+ (nouvelle fenêtre)
+. Au total, plusieurs milliers d'entreprises clientes de cette filiale de La Poste sont potentiellement concernées par cet "incident de sécurité". Parmi elles, on trouve des bailleurs sociaux, dont Flandre Opale Habitat, basé dans les Hauts-de-France, ou encore le bailleur Altéal, implanté en Occitanie, ainsi que des clients de laboratoires médicaux (Inovie AXBIO, BioMedilab ou Biofusion du groupe Inovie) ou des patients d'hôpitaux comme l'hôpital Foch à Suresnes (Hauts-de-Seine), via un sous-traitant.
+Dans ce dernier cas, un pirate informatique aurait consulté le contenu de certains courriers de relance de paiement, contenant également des numéros de facture, des dates de soins et des montants à payer, selon le site spécialisé 
+Cyberattaque.org
+ (nouvelle fenêtre)
+. Le vol de données de l'hôpital Foch aurait en outre été réalisé via Kiwee.care, une entreprise spécialisée dans le recouvrement amiable et la gestion des créances médicales, qui utilise lui-même Maileva pour l'impression et l'expédition des courriers. D'autres établissements de santé clients de Kiwee.care, qui intervient auprès de nombreux acteurs du secteur, seraient concernés, indique Cyberattaque.org.
+Lire aussi
+Cyberattaque des chambres froides de l'Établissement français du sang : une enquête ouverte par le parquet de Paris
+Où en sont les investigations ?
+La Brigade de lutte contre la cybercriminalité est chargée de l'enquête sur la cyberattaque massive mi-septembre visant Maileva, filiale du groupe La Poste, a confirmé dimanche le parquet de Paris, sollicité par l'AFP. Les investigations ont été ouvertes pour "atteinte à un système de traitement automatisé de données" par la section cybercriminalité du parquet parisien et confiées à la BL2C, service d'enquête spécialisé. À ce stade, il n'y a eu aucune interpellation, selon nos informations. 
+La France figure parmi les pays les plus ciblés par des cyberattaques, en raison d'une certaine attractivité économique et aussi de prises de position à l'international, notamment sur le conflit en Ukraine, pointent plusieurs rapports et experts. Selon les chiffres publiés par la CNIL en 2025, les fuites de données sont en augmentation depuis plusieurs années.
+Sur le 
+ même thème
+#
+Cybersécurité
+Les coordonnées de 22 millions de personnes volées : La Poste annonce que sa filiale Maileva a été victime d'une cyberattaque
+Vidéo
+Publié le 14 novembre 2026 à 20h51
+Panne mondiale d'Outlook : ce que l'on sait de l'incident qui touche le géant Microsoft
+Vidéo
+Publié le 13 novembre 2026 à 11h22
+"Tout le monde devrait le faire, c'est hyper simple" : les conseils d'un hacker éthique pour se protéger des fuites de données
+Vidéo
+Publié le 12 novembre 2026 à 17h44
+"Des attaques peuvent être conduites" : quels risques pour les clients après le vol de données d'une filiale de La Poste ?
+Vidéo
+Publié le 15 novembre 2026 à 18h45
+La Protection Civile visée par une cyberattaque en mars, des données personnelles de ses bénévoles piratées
+Vidéo
+Publié le 21 août 2026 à 23h27
+Qui se cache derrière ZeroBytes, le duo de hackers revendiquant le vol massif de données au fisc ?
+Vidéo
+Publié le 17 août 2026 à 18h16
+Une cyberattaque frappe un prestataire de Santé publique France, près de 80.000 données de contact ciblées
+Vidéo
+Publié le 13 août 2026 à 18h36
+Le spécialiste du tiers payant Almerys confirme une fuite de données après une cyberattaque
+Vidéo
+Publié le 25 mai 2026 à 20h39
+Mondial Relay victime d'une fuite de données, des clients "potentiellement exposés"
+Vidéo
+Publié le 27 décembre 2025 à 20h32
+Fuite de données de clients chez Free : une entreprise risque-t-elle des poursuites après une cyberattaque ?
+Vidéo
+Publié le 31 octobre 2024 à 19h35
+Voir plus
+- Voir plus d'article sur le même thème
+TOUT TF1 INFO
+Les + lus
+Dernière minute
+Tendance
+Dernières vidéos
+1
+"C'est notre or blanc à nous" : ces deux frères ont inventé le "marbre des mers" à partir de coquilles Saint-Jacques
+Vidéo
+Publié le 15 novembre 2026 à 19h00
+2
+"Je m'occuperai d'elle plus tard" : sur LCI, Marine Tondelier règle ses comptes avec Sandrine Rousseau
+Vidéo
+Publié hier à 9h48
+3
+Le RN séduit 21% des électeurs CGT : "Le mouvement syndical n'est pas en dehors de la société", observe Philippe Martinez
+Vidéo
+Publié hier à 17h19
+4
+"On a dix côtes de bœuf par semaine pour 1.000 demandes" : cette viande produite dans la Meuse est la plus chère du monde
+Vidéo
+Publié hier à 13h41
+5
+"Quelle société pour demain ?" : précarité, logement, retraites... revoyez les temps forts du débat organisé par LCI en association avec les Restos du Cœur
+Vidéo
+Publié le 21 octobre 2026 à 19h18
+6
+Mobilisation du 17 novembre : à Lyon, la justice autorise une manifestation dans l'hypercentre pour la première fois depuis un mois
+Vidéo
+Publié hier à 6h45
+7
+Gironde : très gravement brûlée par son conjoint, une mère de trois enfants décède
+Vidéo
+Publié le 15 novembre 2026 à 17h50
+8
+"Ils sont capables de comprendre deux façons de voir le monde" : qui sont les "Zillennials", cette génération passerelle entre les Millennials et la Gen Z ?
+Vidéo
+Publié le 14 novembre 2026 à 18h30
+9
+"Il n'y a jamais de débat là-bas" : la Grèce retarde l'âge de départ à la retraite à... 72 ans, l'analyse de Nicolas Doze
+Vidéo
+Publié hier à 16h28
+10
+VÉRIF' - "Un black-out le 17 novembre" : d'où vient cette rumeur qui circule sur les réseaux sociaux ?
+Vidéo
+Publié le 14 novembre 2026 à 21h19
+Voir plus d'actualités
+- Afficher plus d'actualités de la rubrique Les + lus
+1
+États-Unis : des banques américaines touchées par des bugs massifs
+Vidéo
+Publié aujourd'hui à 0h27
+2
+"Quelle société pour demain ?" : précarité, logement, retraites... revoyez les temps forts du débat organisé par LCI en association avec les Restos du Cœur
+Vidéo
+Publié le 21 octobre 2026 à 19h18
+3
+"Pas capables de respecter notre peuple" : prison requise contre deux saisonniers qui ont dégradé une statue de la Vierge en Corse
+Vidéo
+Publié hier à 23h13
+4
+Une "réforme historique" : les femmes britanniques ayant été condamnées pour avoir avorté graciées
+Vidéo
+Publié hier à 22h54
+5
+Transférer les migrants expulsés d'Europe vers un centre au Rwanda : ce que l'on sait du projet porté par cinq pays
+Vidéo
+Publié hier à 22h45
+6
+Certaines relations peuvent être motivées par un intérêt : si votre partenaire se comporte ainsi, c'est qu'il ne vous "aime" pas pour les bonnes raisons
+Vidéo
+Publié hier à 22h00
+7
+Mobilisation du 17 novembre : à Lyon, la justice autorise une manifestation dans l'hypercentre pour la première fois depuis un mois
+Vidéo
+Publié hier à 6h45
+8
+Violences du 17 octobre : le maire de Paris évoque un niveau historique "d'atteinte aux biens privés"
+Vidéo
+Publié hier à 21h50
+9
+Ado tué lors d'une course de voitures sauvage près de Clermont-Ferrand : deux hommes mis en examen
+Vidéo
+Publié hier à 21h29
+10
+Le ski français en deuil : Louis Mezentzeff, figure du snowboard tricolore, décède à l'âge de 31 ans
+Vidéo
+Publié hier à 21h07
+Voir plus d'actualités
+- Afficher plus d'actualités de la rubrique Dernière minute
+1
+Des ossements dans une cuve, un homme retrouvé pendu... Un conflit de voisinage a-t-il viré au drame dans les Côtes-d'Armor ?
+Vidéo
+Publié hier à 18h21
+2
+Mort d'un homme de 18 ans entré par effraction chez des gens : le propriétaire qui l'a "maîtrisé" et sa compagne mis en examen
+Vidéo
+Publié le 13 novembre 2026 à 15h12
+3
+Gironde : très gravement brûlée par son conjoint, une mère de trois enfants décède
+Vidéo
+Publié le 15 novembre 2026 à 17h50
+4
+Gims jugé prochainement dans une affaire de corruption
+Vidéo
+Publié hier à 19h36
+5
+Belgique : un chauffard activement recherché après avoir renversé trois enfants non loin de la frontière française
+Vidéo
+Publié hier à 17h34
+6
+Tué pour un téléphone portable : un homme de 22 ans mis en examen pour le meurtre d'un commerçant en Ardèche
+Vidéo
+Publié le 15 novembre 2026 à 21h44
+7
+Ado tué lors d'une course de voitures sauvage près de Clermont-Ferrand : deux hommes mis en examen
+Vidéo
+Publié hier à 21h29
+8
+Triple narchomicide à Marseille : deux peines de perpétuité et un "message à la narcocratie"
+Vidéo
+Publié hier à 18h29
+9
+"Pas capables de respecter notre peuple" : prison requise contre deux saisonniers qui ont dégradé une statue de la Vierge en Corse
+Vidéo
+Publié hier à 23h13
+10
+Toulouse : un homme de 19 ans tué par balles dans le parking d'un bowling
+Vidéo
+Publié le 15 novembre 2026 à 10h55
+Voir plus d'actualités
+- Afficher plus d'actualités de la rubrique Tendance
+1
+"J'assume cette condamnation" : Gérard Depardieu renonce à faire appel de sa condamnation pour agressions sexuelles 
+Publié hier à 22h20
+2
+Ils vandalisent une statue de la Vierge : un procès corse détonant
+Publié hier à 21h10
+3
+Ardèche : un pâtissier tué en pleine rue, un village sous le choc 
+Publié hier à 15h05
+4
+Depardieu s'excuse : "Je me suis longtemps caché derrière la grivoiserie"
+Publié hier à 13h55
+5
+Le pâtissier tué pour un portable : un village sous le choc
+Publié hier à 13h55
+6
+Nantes : le lycée Nelson Mandela, incendié, rouvre ses portes 
+Publié hier à 9h30
+7
+Au cœur de l'actu : Black Friday, les camions ciblés
+Publié hier à 7h35
+8
+Manifestations, blocages : les mortiers interdits à la vente
+Publié le 15 novembre 2026 à 20h55
+9
+ Cocaïne : l'opération coup de poing de la Marine 
+Publié le 15 novembre 2026 à 20h45
+10
+Crypto-rapts : les monnaies de la peur
+Publié le 15 novembre 2026 à 19h50
+Voir plus d'actualités
+- Afficher plus d'actualités de la rubrique Dernières vidéos
+Culture, médias et divertissement
+Miss France 2027 : qui succédera à la Tahitienne Hinaupoko Devèze ?
+Culture, médias et divertissement
+"La Comtesse de Monte-Cristo" : l'adaptation moderne du chef-d'œuvre d'Alexandre Dumas sur TF1
+International
+Trafic aérien, écoles... Alertes à la bombe en série en Europe
+International
+L'Espagne endeuillée par une nouvelle tragédie ferroviaire
+Police, justice et faits divers
+Attentat terroriste raciste dans les Yvelines : un mort et sept blessés
