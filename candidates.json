@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -8303,6 +8303,163 @@
    ],
    "ind": "公共機関",
    "pendingReason": "公式発表（11/5）は流出対象に含まれるか未判明としており件数なし。報道の約3万5,600件は公式で未照合。続報待ち。"
+  },
+  {
+   "id": "gdo-karte-2611",
+   "co": "株式会社ゴルフダイジェスト・オンライン（会員／委託先 プレイド「KARTE」）",
+   "date": "2026-11-17",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 6974506,
+   "label": "最大697万4,506件（重複を含む）",
+   "st": "c",
+   "items": [
+    "birth"
+   ],
+   "itemsText": "識別子ID、誕生日または誕生月、年代、郵便番号、メール配信可否の管理情報（報道）",
+   "notIncl": "氏名、メールアドレス、電話番号、パスワード、決済情報（報道）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、GDOが利用するプレイド「KARTE」への不正アクセスで会員情報の一部が漏えいした可能性があり、11月17日にGDOが公表。10月の別の不正アクセス（gdo-unauthorized-2610）とは別事案。",
+   "status": "ongoing",
+   "statusText": "11月17日公表（報道）。人数は精査中。",
+   "resp": "報道によるとKARTE連携の停止、認証情報の無効化、個人情報保護委員会への連名報告方針。",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/gdo-karte-member-data-leak-6974506-personal-countermeasures-202611/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "group": "karte",
+   "pendingReason": "inboxにGDO自身の公式発表URL・本文がなく（official[]はプレイドと公的機関の解説のみ）、WebFetchでも公式ページに到達できなかったため未照合。manual/ にGDOの11月17日付公式文面（URL付き）を貼れば反映できる。"
+  },
+  {
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "st": "c",
+   "status": "ongoing",
+   "group": "karte",
+   "who": [
+    "biz"
+   ],
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-13",
+   "id": "misumi-karte-2611",
+   "co": "株式会社ミスミグループ本社（委託先 プレイド「KARTE」）",
+   "n": 140000,
+   "label": "約14万件",
+   "items": [
+    "name",
+    "work"
+   ],
+   "itemsText": "氏名、所属会社名、支店名（報道による。メールアドレス・電話番号・住所はKARTEに提供していないとのこと）",
+   "sum": "報道によると、一部利用していたプレイド「KARTE」への不正アクセスで顧客情報約14万件が漏えいしたと11月17日に発表。11月15日にプレイドから漏えいの報告を受け、データ連携を停止しKARTEの利用停止を決定した。",
+   "statusText": "2026年11月17日公表（報道による）。",
+   "resp": "KARTEとのデータ連携停止、同サービスの利用停止を決定（報道による）。",
+   "official": [
+    [
+     "お知らせ（ミスミ）（2026/11/17）",
+     "https://www.misumi.co.jp/news/news_261117"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/misumi-karte-140000-b2b-abuse-risk-and-response/"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "公式発表（https://www.misumi.co.jp/news/news_261117）は error:http403 で取得できず。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "st": "c",
+   "status": "ongoing",
+   "group": "karte",
+   "who": [
+    "cust"
+   ],
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-13",
+   "id": "club-tourism-karte-2611",
+   "co": "クラブツーリズム株式会社（インターネット会員／委託先 プレイド「KARTE」）",
+   "n": 4060000,
+   "label": "約406万件",
+   "items": [
+    "birth",
+    "id"
+   ],
+   "itemsText": "会員番号（変換後）、顧客番号、性別、年齢、生年月日（報道による。氏名・住所・メール・電話等は対象外とされる）",
+   "sum": "報道によると、プレイド「KARTE」への不正アクセスで、2026年11月12日時点のインターネット会員約406万件の情報が漏えいした可能性があると11月17日に公表。10月31日公表の自社サーバー不正アクセス（club-tourism-2610）とは別件と同社が説明しているとのこと。",
+   "statusText": "2026年11月17日公表（報道による）。",
+   "resp": "KARTEの利用停止、対象の可能性がある顧客へ順次連絡、個人情報保護委員会等への報告を予定（報道による）。",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/club-tourism-karte-406m-member-data-possible-leak/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "pendingReason": "クラブツーリズム自身の11月17日付公式発表のURL・本文が inbox になく未確認（公式URLは推測しない）。公式文面を manual/ に貼れば反映できる。既存 club-tourism-2610（10/31の別件）の続報ではなく別事案として扱った。"
+  },
+  {
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "st": "c",
+   "status": "ongoing",
+   "group": "karte",
+   "who": [
+    "cust"
+   ],
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-13",
+   "id": "francfranc-karte-2611",
+   "co": "Francfranc（委託先 プレイド「KARTE」）",
+   "n": 5980000,
+   "label": "会員情報最大約598万件（別途購入履歴関連データ最大約400万件）",
+   "items": [
+    "name",
+    "birth",
+    "id"
+   ],
+   "itemsText": "会員情報：氏名、生年月日、ユーザーID、都道府県・市区町村。購入履歴関連データ：性別、生年月日、郵便番号、年代（報道による）",
+   "sum": "報道によると、顧客データ分析に使うプレイド「KARTE」への不正アクセスで、会員情報最大約598万件と公式EC購入履歴関連データ最大約400万件が流出した可能性があると11月17日に公表。11月15日にプレイドから連絡を受けた。カード情報・パスワードの流出は確認されていない。",
+   "statusText": "2026年11月17日公表（報道による）。",
+   "resp": "KARTEとの顧客情報連携を停止、対象者の範囲を調査中（報道による）。",
+   "official": [
+    [
+     "Francfranc お客さま情報流出の可能性について（2026/11/17）",
+     "https://help.francfranc.com/hc/ja/articles/64371011900313-Francfranc%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%81%8A%E5%AE%A2%E3%81%95%E3%81%BE%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/francfranc_karte_member_598m_purchase_400m_data_leak/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表は error:http403 で取得できず。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
   }
  ]
 }

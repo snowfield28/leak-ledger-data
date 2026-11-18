@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -24673,7 +24673,7 @@
     "不正アクセス"
    ],
    "n": 98256,
-   "label": "会員最大98,256名（利用中71,456・退会26,800）。うち本人確認書類画像は最大7,261名。会員以外の問い合わせ最大1,364件",
+   "label": "会員最大98,256名（利用中71,456・退会26,800）。うち本人確認書類画像は最大7,261名。会員以外の問い合わせ最大1,364件。第2報で、本人確認書類の縮小画像が最大32,916名分（旧書類提出者）で追加対象に",
    "st": "p",
    "items": [
     "mail",
@@ -24681,15 +24681,15 @@
     "birth",
     "doc"
    ],
-   "itemsText": "全会員（退会者を含む）：メールアドレス、パスワード、生年月日・都道府県などのプロフィール、サイト内メッセージ、ログイン時のIPアドレス。本人確認書類提出者：2025年12月1日〜2026年10月12日提出分の書類画像",
-   "notIncl": "2025年11月30日以前に提出された本人確認書類画像、10月12日午前3時20分頃より後の登録会員の情報",
+   "itemsText": "全会員（退会者を含む）：メールアドレス、パスワード、生年月日・都道府県などのプロフィール、サイト内メッセージ、ログイン時のIPアドレス。本人確認書類提出者：2025年12月1日〜2026年10月12日提出分の書類画像。第2報（10/22）：2025年11月30日以前提出分や削除済みの書類についても、自動生成された縮小画像（320×240px程度）が残っており流出した可能性（2020年9月以降提出分、追加で最大32,916名・精査中）",
+   "notIncl": "10月12日午前3時20分頃より後の登録会員の情報",
    "who": [
     "cust"
    ],
-   "sum": "会員制マッチングサイトのサーバーに、2026年7月11日から10月6日まで第三者が不正侵入し、会員のパスワードを読み取るプログラムが設置されていた。10月6日に不審なプログラムに気付き、10月11日夜にも別経路から再侵入されたが、12日未明に遮断した。悪用の報告は受けていない。人数は精査中。",
+   "sum": "会員制マッチングサイトのサーバーに、2026年7月11日から10月6日まで第三者が不正侵入し、会員のパスワードを読み取るプログラムが設置されていた。10月6日に不審なプログラムに気付き、10月11日夜にも別経路から再侵入されたが、12日未明に遮断した。悪用の報告は受けていない。人数は精査中。 10月22日の第2報で、第1報の「2025年11月30日以前の書類画像は対象外」を訂正。確認用の縮小画像がサーバーに残っていたため、これらも流出した可能性がある（取得は未確認）。",
    "status": "ongoing",
-   "statusText": "人数は精査中で、新事実は随時公表するとしている。",
-   "resp": "全会員のパスワードを無効化し再設定を依頼、不審プログラムの削除、改ざん検知の導入。個人情報保護委員会に報告し警察に相談。脆弱性診断、監視強化、権限の厳格化、本人確認書類を審査後に削除する運用への見直しなどを実施予定。",
+   "statusText": "第2報（2026年10月22日）で本人確認書類の対象範囲を訂正。人数は引き続き精査中。",
+   "resp": "全会員のパスワードを無効化し再設定を依頼、不審プログラムの削除、改ざん検知の導入。個人情報保護委員会に報告し警察に相談。脆弱性診断、監視強化、権限の厳格化、本人確認書類を審査後に削除する運用への見直しなどを実施予定。 第2報後：縮小画像が作られないようシステムを修正（10/20）、残存画像をネット接続サーバーから削除（10/22）、個人情報保護委員会へ追加報告。",
    "contact": {
     "mails": [
      "support@lili-jo.com"
@@ -24701,16 +24701,25 @@
     [
      "【重要】不正アクセスによる個人情報の漏えいの可能性について（2026/10/14）",
      "https://lili-jo.com/notice/20261014.html"
+    ],
+    [
+     "不正アクセスによる個人情報の漏えいの可能性について（第2報：本人確認書類の画像に関する訂正）（2026/10/22）",
+     "https://lili-jo.com/notice/20261022.html"
     ]
    ],
    "src": [
     [
      "セキュリティ対策Lab",
      "https://rocket-boys.co.jp/security-measures-lab/lili-unauthorized-access-98256-password-identity-document-clickfix-20261014/"
+    ],
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/11/18/56821.html"
     ]
    ],
    "ind": "生活サービス・レジャー",
-   "verified": "2026-10-19"
+   "verified": "2026-11-18",
+   "last": "2026-10-22"
   },
   {
    "id": "mouse-computer-idcf-2610",
@@ -54289,6 +54298,1339 @@
    "announced": "2026-10-26",
    "occurred": "2026-10-15",
    "verified": "2026-11-18"
+  },
+  {
+   "id": "caitech-arara-2611",
+   "co": "カイテク株式会社（メール配信委託先 アララ「アララ メッセージ」）",
+   "date": "2026-11-06",
+   "announced": "2026-11-06",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 6842,
+   "label": "6,842件",
+   "st": "c",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "メールアドレス6,842件（うち8件は氏名と当社管理用IDも含む）",
+   "notIncl": "パスワード、電話番号、住所、資格証、本人確認書類、銀行口座情報（委託していない）",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "メールマガジン配信に使うアララ社のサービスへの不正アクセスで、カイテクが登録していたワーカー・事業所のメールアドレス6,842件が流出した。対象は「カイテク薬剤師」「カイテクドクター」を中心とする登録者の一部。",
+   "status": "ongoing",
+   "statusText": "2026年11月6日公表。対象者へ個別連絡中。",
+   "resp": "アララ社の利用を停止しメール配信を別手段へ切替、送信ドメイン認証設定を削除、個人情報保護委員会へ11月5日に報告（アララ社を通じた連名報告も手続き中）、対象者へメールで個別連絡、委託先管理の強化。",
+   "contact": {
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://help.caitech.co.jp/hc/ja/requests/new?ticket_form_id=63735536306841"
+     ]
+    ],
+    "src": "https://corp.caitech.co.jp/news/notice261106/"
+   },
+   "official": [
+    [
+     "委託先メール配信サービスへの不正アクセスによる個人情報流出に関するお知らせとお詫び（2026/11/6）",
+     "https://corp.caitech.co.jp/news/notice261106/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/caitech-karte-for-app-post-contract-data-retention-breach/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "verified": "2026-11-18",
+   "group": "arara"
+  },
+  {
+   "id": "caitech-karte-2611",
+   "co": "カイテク株式会社（過去の委託先 プレイド「KARTE for App」）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "ユーザーID、メールアドレス、姓名、性別、年齢・生年月日、居住地の都道府県",
+   "notIncl": "パスワード、銀行口座情報、本人確認書類",
+   "who": [
+    "cust"
+   ],
+   "sum": "2025年1月まで利用していたプレイド「KARTE for App」への不正アクセスで、2023年2月〜2025年1月に「カイテク」に登録していたワーカーの一部の情報が流出した。契約終了後90日以内に消去される取り決めだったが、プレイド側に残存していた。件数は精査中。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日公表。件数・対象者を精査中。",
+   "resp": "プレイドからの通知（11月15日）後にKARTEとのデータ連携を確認、対象者へメールと案内画面で個別連絡、プレイドへ事実解明と報告を要求、委託先管理の強化。",
+   "contact": {
+    "forms": [
+     [
+      "お問い合わせフォーム",
+      "https://help.caitech.co.jp/hc/ja/requests/new?ticket_form_id=64356967987865"
+     ]
+    ],
+    "src": "https://corp.caitech.co.jp/news/notice261117/"
+   },
+   "official": [
+    [
+     "過去の委託先における不正アクセスによる個人情報流出に関するお知らせとお詫び（2026/11/17）",
+     "https://corp.caitech.co.jp/news/notice261117/"
+    ],
+    [
+     "プレイド：不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ（2026/11/16）",
+     "https://plaid.co.jp/news/20261116/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/caitech-karte-for-app-post-contract-data-retention-breach/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "verified": "2026-11-18",
+   "group": "karte"
+  },
+  {
+   "id": "rizap-zapid-karte-2611",
+   "co": "RIZAP株式会社・RIZAPグループ株式会社（ZAP ID／委託先 プレイド「KARTE」）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 4320000,
+   "label": "最大約432万件（氏名を含むもの最大約6万件）",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "メールアドレス最大約432万件、うち氏名を含むもの最大約6万件。会員ID、性別、年代、都道府県、LINE連携用の識別番号（件数は重複を含む最大値）",
+   "notIncl": "クレジットカード等の決済情報、ZAP IDのパスワード、LINEのログイン情報、住所、電話番号、生年月日",
+   "who": [
+    "cust"
+   ],
+   "sum": "RIZAPが一部Webサービスで利用するプレイド「KARTE」への不正アクセスで、ZAP ID登録者（chocoZAP、RIZAP、各通販サイト等の利用経験者）の情報が漏えいした可能性がある。対象期間を含め精査中。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日公表。件数・対象期間を精査中。",
+   "resp": "11月13日からRIZAP・chocoZAPの一部Webサービスを一時停止。プレイドと連携して原因・影響範囲を確認中。不審な連絡への注意喚起。chocoZAPの店舗・アプリ・会費支払いは通常利用可。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-990-299",
+      "hours": "RIZAP株式会社。通話料無料・年中無休 9:00-18:00"
+     }
+    ],
+    "src": "https://chocozap.jp/info/25114"
+   },
+   "official": [
+    [
+     "chocoZAP：外部サービス「KARTE」への不正アクセスによる個人情報漏えいの可能性および一部サービスの一時停止について（2026/11/17）",
+     "https://chocozap.jp/info/25114"
+    ],
+    [
+     "プレイド：不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ（2026/11/16）",
+     "https://plaid.co.jp/news/20261116/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/rizap_chocozap_zapid_karte_432man_possible_leak_2026/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-11-18",
+   "group": "karte"
+  },
+  {
+   "id": "freaks-store-daytona-karte-2611",
+   "co": "DAYTONA INTERNATIONAL（Daytona Park: FREAK'S STORE公式通販／委託先 プレイド「KARTE」）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 970000,
+   "label": "約97万件（重複を含む場合あり）",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "氏名、メールアドレス、性別、生年月日、年齢、会員ID（人により項目は異なる）",
+   "notIncl": "パスワード、クレジットカード情報、住所、電話番号、購入履歴（現時点で漏えい未確認）",
+   "who": [
+    "cust"
+   ],
+   "sum": "「Daytona Park」のサイト・アプリで使うプレイド「KARTE」への不正アクセスで、会員の一部の情報が漏えいした（第一報）。子会社Innovation Studioの「+PLUS MIRROR」でも利用者情報149件（氏名・メール・会員ID）の漏えいを確認。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日の第一報。プレイドが他の情報を調査中で、変更があれば続報。",
+   "resp": "KARTEとの連携鍵情報の無効化、個人情報保護委員会等へ報告中、対象者へメールで個別連絡予定、不審メールへの注意喚起。",
+   "contact": {
+    "forms": [
+     [
+      "Daytona Park お問い合わせフォーム（種類は「個人情報漏洩について」）",
+      "https://www.daytona-park.com/inquiry/form"
+     ]
+    ],
+    "src": "https://daytonajp.com/news/3821/"
+   },
+   "official": [
+    [
+     "業務委託先への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ(第一報)（2026/11/17）",
+     "https://daytonajp.com/news/3821/"
+    ],
+    [
+     "プレイド：不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ（2026/11/16）",
+     "https://plaid.co.jp/news/20261116/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/daytona-park-freaks-store-karte-970000-personal-protection/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-18",
+   "group": "karte"
+  },
+  {
+   "id": "alpen-online-karte-2611",
+   "co": "株式会社アルペン（Alpen Online／委託先 プレイド「KARTE」）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 86494,
+   "label": "86,494件",
+   "st": "c",
+   "items": [
+    "name",
+    "mail"
+   ],
+   "itemsText": "氏名、メールアドレス（Alpen Onlineにログインしたことがある顧客）",
+   "notIncl": "クレジットカード番号等（プレイドへ提供していない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "メールマガジン配信等のマーケティング業務の委託先プレイドの「KARTE」への不正アクセスで、Alpen Online利用者の一部の情報が漏えいした。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日公表。プレイドの原因調査の結果を確認して対応予定。",
+   "resp": "KARTEの利用を即時停止、対象者へ個別にメール案内予定、不審なメール等への注意喚起、プレイドの調査結果・再発防止策を確認。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "(052)559-0160",
+      "hours": "お客さま係"
+     }
+    ],
+    "src": "https://store.alpen-group.jp/corporate/news/files/pdf/6e42f9dfe660cb08b2c43664b1e512c6_1.pdf"
+   },
+   "official": [
+    [
+     "業務委託先システムへの不正アクセスによる個人情報漏えいに関するお知らせ（2026/11/17）",
+     "https://store.alpen-group.jp/corporate/news/files/pdf/6e42f9dfe660cb08b2c43664b1e512c6_1.pdf"
+    ],
+    [
+     "プレイド：不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ（2026/11/16）",
+     "https://plaid.co.jp/news/20261116/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/alpen-online-karte-customer-86494-data-leak-personal-countermeasures/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-18",
+   "group": "karte"
+  },
+  {
+   "id": "subsclife-karte-2611",
+   "co": "株式会社ソーシャルインテリア（subsclife by TOKYOROOMS／委託先 プレイド「KARTE」）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 29194,
+   "label": "29,194件",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "氏名、メールアドレス、LINEユーザーID",
+   "who": [
+    "cust"
+   ],
+   "sum": "ECサービス「subsclife by TOKYOROOMS」が利用するプレイド「KARTE」への第三者による不正アクセスにより、KARTEに連携していた会員情報の一部が外部に漏えいしたことを確認した。11月15日にプレイドから報告を受けた。他のデータへの影響は調査継続中。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日公表。プレイドと連携して影響範囲を調査中。",
+   "resp": "関係当局への報告を進め、委託先の管理状況と安全管理体制を再確認して再発防止に努める。不審メールのURL・添付ファイルを開かないよう注意喚起。続報は同ページで案内予定。",
+   "contact": {
+    "note": "同社お問い合わせフォーム（公式発表ページにリンクあり）",
+    "src": "https://socialinterior.com/corporate/news/290/"
+   },
+   "official": [
+    [
+     "外部サービス「KARTE」への不正アクセスに伴うお客様情報漏えいのお詫びとご報告（2026/11/17）",
+     "https://socialinterior.com/corporate/news/290/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-18",
+   "group": "karte",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/subsclife_socialinterior_karte_29194_confirmed_leak_2026/"
+    ]
+   ]
+  },
+  {
+   "id": "ainz-tulpe-ayura-karte-2611",
+   "co": "アインズ＆トルペ・アユーラ（委託先 プレイド「KARTE」）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 2600000,
+   "label": "最大約260万件",
+   "st": "c",
+   "items": [
+    "name",
+    "birth",
+    "mail",
+    "tel"
+   ],
+   "itemsText": "氏名、生年月日、性別、メールアドレス、電話番号（アインズ＆トルペ会員・アユーラ会員の合計）",
+   "who": [
+    "cust"
+   ],
+   "sum": "アインズ＆トルペ公式アプリ・公式オンラインストアおよびアユーラLINE公式アカウントが利用するプレイド「KARTE」への不正アクセスにより、会員情報が最大約260万件（両ブランド合計）外部に流出した可能性がある。11月15日にプレイドから連絡を受けて把握。公式アプリ等との連携がないオンラインメンバーは対象外。件数・範囲は調査で変わる可能性がある。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日公表。プレイドと連携して影響範囲を調査中。",
+   "resp": "プレイドと連携して対象者と範囲を調査中。対象のお客様へは調査結果を踏まえて連絡予定。個人情報保護法に基づく対応を進める。不審な連絡への注意喚起。アプリ・オンラインストア等は別システムで運用しておりサービス継続。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-001-318",
+      "hours": "9:00〜21:00（アインズ＆トルペ・アユーラ・Francfranc共通のお客さまサポートセンター）"
+     }
+    ],
+    "note": "お問い合わせフォームあり（アインズ＆トルペ、アユーラそれぞれ）",
+    "src": "https://www.ayura.co.jp/news/279/"
+   },
+   "official": [
+    [
+     "お客さま情報流出の可能性について（アユーラ）（2026/11/17）",
+     "https://www.ayura.co.jp/news/279/"
+    ],
+    [
+     "お客さま情報流出の可能性について（アインズ＆トルペ）（2026/11/17）",
+     "https://ainz-tulpe.jp/blogs/information/%E3%82%A2%E3%82%A4%E3%83%B3%E3%82%BA-%E3%83%88%E3%83%AB%E3%83%9A%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA%E5%8F%8A%E3%81%B3%E5%85%AC%E5%BC%8F%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%82%A2%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B-%E3%81%8A%E5%AE%A2%E3%81%95%E3%81%BE%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-18",
+   "group": "karte",
+   "notIncl": "クレジットカード情報、ログインパスワード",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/ainz_tulpe_ayura_karte_2_6million_potential_leak/"
+    ]
+   ]
+  },
+  {
+   "id": "morisawa-fonts-karte-2611",
+   "co": "株式会社モリサワ（Morisawa Fonts／委託先 プレイド「KARTE」）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 23957,
+   "label": "23,957件",
+   "st": "c",
+   "items": [
+    "name",
+    "mail",
+    "id"
+   ],
+   "itemsText": "氏名、メールアドレス、ユーザーID（2023年5月以降にMorisawa Fontsサービスサイトで購入した顧客の一部）",
+   "who": [
+    "cust"
+   ],
+   "sum": "Morisawa Fontsの利用状況分析やログイン状態の維持、コンテンツ配信に使っていたプレイド「KARTE」への不正アクセスで、顧客の個人情報が外部に漏えいしたことを確認した。11月15日にプレイドから報告を受けた。対象範囲の詳細とその他の情報は調査中。Morisawa Fontsの利用への影響はない。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日公表。プレイドと連携して影響範囲を調査中。",
+   "resp": "プレイドと連携して経緯と影響範囲を確認し再発防止策を検討。漏えいが確認された顧客へは個別に案内予定。フィッシングメールへの注意喚起。続報は同社サイトで案内。",
+   "contact": {
+    "note": "公式発表ページ内の問い合わせリンクを参照（連絡先は本文に記載なし）",
+    "src": "https://www.morisawa.co.jp/about/news/19310"
+   },
+   "official": [
+    [
+     "当社委託先サービスへの不正アクセスによる個人情報漏洩に関するお詫びとお知らせ（2026/11/17）",
+     "https://www.morisawa.co.jp/about/news/19310"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-18",
+   "group": "karte",
+   "notIncl": "クレジットカード情報、ログインパスワード",
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/morisawa_fonts_karte_23957_data_breach/"
+    ]
+   ]
+  },
+  {
+   "id": "gunze-sports-2611",
+   "co": "グンゼスポーツ株式会社",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-11",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 139394,
+   "label": "最大13万9,394件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "birth",
+    "tel",
+    "mail",
+    "deal"
+   ],
+   "itemsText": "氏名、住所、生年月日、性別、電話番号、メールアドレス、会員番号、店舗名、退会・休会理由、今後の連絡可否、法人企業名、申請日、退会希望月、会員区分（成人会員／ジュニアスクール）",
+   "notIncl": "銀行口座情報、クレジットカード情報、会員サイトのパスワード",
+   "who": [
+    "cust"
+   ],
+   "sum": "公式ホームページが第三者に不正アクセスされ、10月29日と11月5日に不正プログラムが設置されていたことが判明した。閲覧数の急増を11月11日に確認して調査した。10月下旬から11月初旬に個人情報データを削除していたが、設置時点で残っていた分が流出したおそれがある。対象は2016年6月〜2026年10月にWeb入会届・退会届・休会届・体験予約・問い合わせ等を利用した顧客。",
+   "resp": "不正プログラムの無効化とネットワーク隔離・削除、11月13日にホームページを停止、11月16日に個人情報保護委員会へ報告。対象者へメールで順次連絡。監視体制とセキュリティ対策を強化。フィッシング等への注意喚起。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日公表。調査継続中。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-112-558",
+      "hours": "平日10:00〜18:00"
+     }
+    ],
+    "mails": [
+     "support@gunzesports.com"
+    ],
+    "note": "グンゼスポーツ個人情報お問い合わせ窓口",
+    "src": "https://www.gunzesports.com/close_20261117.pdf"
+   },
+   "official": [
+    [
+     "不正アクセスによる個人情報流出のおそれに関するお詫びとお知らせ（2026/11/17）",
+     "https://www.gunzesports.com/close_20261117.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/gunze_sports_website_unauthorized_access_139394/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "kawasaki-e-kawasaki-arara-2611",
+   "co": "川崎市（オンライン手続かわさき e-KAWASAKI／委託先 TKC・メール送信 アララ）",
+   "date": "2026-11-02",
+   "announced": "2026-11-02",
+   "occurred": "2026-10-31",
+   "last": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 66451,
+   "label": "66,451件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "e-KAWASAKIに利用者登録されたメールアドレス（2026/7/1〜10/31に通知メールを送信した宛先）",
+   "notIncl": "メールアドレス以外の流出はない",
+   "who": [
+    "cust"
+   ],
+   "sum": "電子申請サービスe-KAWASAKIの通知メール送信に使うアララのメール送信サービスが不正アクセスを受けた。11月2日の第1報では影響を調査中としていたが、11月13日の第2報で、委託先TKCの調査により利用者メールアドレス66,451件の漏えいが確認されたと公表した。",
+   "status": "ongoing",
+   "statusText": "2026年11月13日の第2報時点。システムの完全復旧時期は未定。",
+   "resp": "利用者登録・パスワード再設定は11月13日に再開したが、確認メールの一部は未送信。対象者へのお詫びと注意喚起を予定（方法はTKCと調整中）。TKCへ原因究明と再発防止を要求。不審メールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "044-200-3567",
+      "hours": "総務企画局デジタル化施策推進室（報道発表PDFの問合せ先・内線22802）"
+     },
+     {
+      "tel": "044-200-2077",
+      "hours": "総務企画局デジタル化施策推進室（市ページの問合せ先）"
+     }
+    ],
+    "mails": [
+     "17digital@city.kawasaki.jp"
+    ],
+    "src": "https://www.city.kawasaki.jp/templates/prs/170/0000191731.html"
+   },
+   "official": [
+    [
+     "オンライン手続かわさきの外部メール送信サービスへの不正アクセスに伴う影響について（第2報）（2026/11/13）",
+     "https://www.city.kawasaki.jp/templates/prs/cmsfiles/contents/0000191/191731/houdou.pdf"
+    ],
+    [
+     "同 報道発表資料ページ（2026/11/13）",
+     "https://www.city.kawasaki.jp/templates/prs/170/0000191731.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/kawasaki-e-kawasaki-arara-email-leak-66451-2026/"
+    ]
+   ],
+   "ind": "公共機関",
+   "group": "arara",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "rococo-arara-2611",
+   "co": "株式会社ロココ（運営サービスのメール配信／委託先 アララ）",
+   "date": "2026-11-16",
+   "announced": "2026-11-16",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 105731,
+   "label": "105,731件（重複除く）",
+   "st": "c",
+   "items": [
+    "mail",
+    "name"
+   ],
+   "itemsText": "メールアドレス（一部サービスは配信用に登録した氏名など）。対象は2026/7/1〜10/31にメール配信を受けた顧客",
+   "notIncl": "メール本文、パスワード、クレジットカード情報",
+   "who": [
+    "cust"
+   ],
+   "sum": "メール配信に利用していたアララのサービスが不正アクセスを受け、預けていた顧客メールアドレス105,731件が漏えいした。10月29日にアララから受けた「影響なし」の回答は、11月9日の連絡で漏えいありに変わった。同社システムへの不正アクセスは確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月16日公表。新たな事実が判明次第、同ページで案内。",
+   "resp": "個人情報保護委員会へ11月13日に報告。対象者へは各サービスから個別連絡の場合あり。メール配信は別システムに切り替え、アララへ原因究明・再発防止を要求。不審メールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "050-3318-4213",
+      "hours": "ロココ個人情報漏洩専用窓口 平日9〜18時（2026/11/17〜12/31）"
+     }
+    ],
+    "src": "https://www.rococo.co.jp/news/20261113/"
+   },
+   "official": [
+    [
+     "委託先メール配信サービスへの不正アクセスによる個人情報漏洩に関するお詫びとお知らせ（2026/11/16）",
+     "https://www.rococo.co.jp/news/20261113/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/rococo_arara_message_105731_data_breach_2026/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "group": "arara",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "sekiguchi-makerepeater-arara-2611",
+   "co": "株式会社セキグチ（公式オンラインショップ本店／委託先 GMOメイクショップ「MakeRepeater」・アララ）",
+   "date": "2026-11-16",
+   "announced": "2026-11-16",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 22629,
+   "label": "最大22,629件",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（2026/7/1〜10/28にMakeRepeaterの配信先に登録されていた過去のメルマガ会員・ゲスト購入者を含む）",
+   "notIncl": "クレジットカード情報、パスワード等メールアドレス以外の情報",
+   "who": [
+    "cust"
+   ],
+   "sum": "公式オンラインショップが利用するGMOメイクショップのMakeRepeaterが連携するアララ メッセージへの不正アクセスにより、配信先メールアドレスが外部へ流出した。件数は配信先登録の最大値で、実際の流出件数と対象アドレスはアララ・GMOメイクショップが調査中。",
+   "status": "ongoing",
+   "statusText": "2026年11月16日公表。実際の流出件数・対象は調査中。",
+   "resp": "MakeRepeater経由のメルマガ配信を停止。GMOメイクショップへ対象アドレスの特定、確報、再発防止策を要請。個人情報保護委員会へ報告予定。対象の顧客へ必要な案内を行う。不審メールへの注意喚起。",
+   "contact": {
+    "mails": [
+     "sekiguchi.shop@sekiguchi.co.jp"
+    ],
+    "note": "セキグチ公式オンラインショップ お問い合わせ窓口。メール対応 9〜17時（土日祝を除く）",
+    "src": "https://www.sekiguchi.co.jp/information/10866/"
+   },
+   "official": [
+    [
+     "業務委託先が利用するメール配信サービスへの不正アクセスによるお客様メールアドレスの流出に関するお詫びとお願い（2026/11/16）",
+     "https://www.sekiguchi.co.jp/information/10866/"
+    ],
+    [
+     "GMOメイクショップ お知らせ（11/12更新）",
+     "https://www.makeshop.co.jp/news/info/2026-11-05_2/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sekiguchi_monchhichi_arara_makerepeater_email_22629/"
+    ]
+   ],
+   "ind": "製造",
+   "group": "arara",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "sakai-eshinsei-arara-2611",
+   "co": "堺市（電子申請システム／提供事業者 TKC・メール配信 アララ）",
+   "date": "2026-11-05",
+   "announced": "2026-11-05",
+   "occurred": "2026-10-31",
+   "last": "2026-11-17",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 64073,
+   "label": "64,073件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "電子申請システム利用者のメールアドレス（2026/7/1〜10/31にシステムからメールを受信した方）",
+   "notIncl": "メールアドレス以外（氏名等は含まれない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "電子申請システムが使うアララのメール配信サービスへの不正アクセスで、提供事業者TKCから、漏えいした情報に利用者のメールアドレスが含まれると報告があった。11月5日の第1報では漏えいのおそれとして公表。11月17日に件数64,073件が確定した。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日の公表時点。メール送信機能は一部復旧、一部は停止中。",
+   "resp": "対象者へ個別にメール連絡（リンク・添付なし）。TKCへ原因と再発防止策の報告を要求し、個人情報の取扱い・連携体制を検証。堺市を名乗るメールへの注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "072-228-7264",
+      "hours": "ICTイノベーション推進室システム活用担当"
+     }
+    ],
+    "src": "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf"
+   },
+   "official": [
+    [
+     "堺市電子申請システムで利用するメール配信サービスにおける不正アクセスに伴う情報漏えいについて（2026/11/17）",
+     "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.html"
+    ],
+    [
+     "同 報道提供資料PDF（2026/11/17）",
+     "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sakai_city_eapplication_tkc_arara_64073_confirmed_2026/"
+    ]
+   ],
+   "ind": "公共機関",
+   "group": "arara",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "nipponham-otodoke-makerepeater-arara-2611",
+   "co": "日本ハム株式会社（ニッポンハムお届けネット／委託先 GMOメイクショップ「MakeRepeater」・アララ）",
+   "date": "2026-11-16",
+   "announced": "2026-11-16",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 7729,
+   "label": "7,729件",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス（2026/7/1〜10/28にメール配信先に指定された会員・注文者）",
+   "notIncl": "パスワード、クレジットカード情報などの決済情報",
+   "who": [
+    "cust"
+   ],
+   "sum": "お届けネットが使うMakeRepeaterの外部連携先アララのメール配信サービスが不正アクセスを受け、会員・注文者のメールアドレス7,729件が流出対象と確認された。同社システム・MakeRepeaterへの不正アクセスは確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月16日公表。委託先の調査報告を踏まえ対応中。",
+   "resp": "GMOメイクショップ・アララの調査報告を踏まえて対応し再発防止に努める。不審メールへの注意喚起。新事実は同サイトで案内。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-175-955",
+      "hours": "日本ハム お客様サービス室 9〜17時（土日祝・年末年始を除く）"
+     }
+    ],
+    "mails": [
+     "nhmk_otodoke@nipponham.co.jp"
+    ],
+    "src": "https://www.nipponham-eshop.jp/new/2026-11-16-111155.html"
+   },
+   "official": [
+    [
+     "【重要】メールアドレス流出に関するお詫びとお知らせ（2026/11/16）",
+     "https://www.nipponham-eshop.jp/new/2026-11-16-111155.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nipponham_otodoke_net_arara_makerepeater_email_leak_7729_202611/"
+    ]
+   ],
+   "ind": "製造",
+   "group": "arara",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "mtg-goqsystem-2611",
+   "co": "株式会社MTG（一部ECモール内MTGショップのデータ一括管理／委託先 GoQSystem）",
+   "date": "2026-11-16",
+   "announced": "2026-11-16",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 15033,
+   "label": "15,033名",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "deal"
+   ],
+   "itemsText": "ソーシャルギフト機能を使ったお届け先の配送情報（氏名、住所、電話番号、注文内容）",
+   "notIncl": "クレジットカード情報（同システムでは保存していない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "ECモール内MTGショップのデータ管理に使うGoQSystemが、問い合わせフォームへの不正アクセスを受け、ソーシャルギフトのお届け先情報の一部が漏えいしたと報告を受けた。対象は15,033名。不正利用等の被害は確認されていない。LINE公式アカウント経由の別事案（mtg-style-comsbi-2611）とは別。",
+   "status": "ongoing",
+   "statusText": "2026年11月16日公表。新たな事実は同社サイトで案内。",
+   "resp": "漏えいが確認された顧客へ個別に連絡。お問い合わせ窓口は準備中。MTGをかたる不審な電話・メール・LINEへの注意喚起。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし（お問い合わせ窓口は準備中と記載）",
+    "src": "https://www.mtg.gr.jp/news/detail/2026/11/article_2683.html"
+   },
+   "official": [
+    [
+     "一部ECモール内MTGショップの外部サービス提供元における不正アクセスの発生について（2026/11/16）",
+     "https://www.mtg.gr.jp/news/detail/2026/11/article_2683.html"
+    ],
+    [
+     "GoQSystem 第二報（2026/11/13）",
+     "https://goq.co.jp/security-incident-2.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mtg-goqsystem-social-gift-delivery-data-leak-15033-202611/"
+    ]
+   ],
+   "ind": "製造",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "hokkaido-kanko-line-comsbi-2611",
+   "co": "公益社団法人北海道観光機構（LINE公式アカウント「HOKKAIDO LOVE！」／委託先 ソニックムーブ「COMSBI」）",
+   "date": "2026-11-16",
+   "announced": "2026-11-16",
+   "occurred": "2026-11-09",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 63708,
+   "label": "LINE友だち情報最大63,708件・キャンペーン応募者最大14名",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "addr",
+    "id"
+   ],
+   "itemsText": "キャンペーン応募者（最大14名）の氏名・電話番号・住所、LINE友だち情報（最大63,708件）のLINE表示名・プロフィール画像・LINEユーザーID。両者は重複を含む",
+   "notIncl": "メールアドレス、生年月日、クレジットカード情報。友だち情報は提供元から個人情報に該当しないと報告されている",
+   "who": [
+    "cust"
+   ],
+   "sum": "LINE公式アカウントの運用で使うソニックムーブ提供COMSBI（SaaS版）が、社内用アカウントの認証情報を悪用した第三者の不正アクセスを受け（11月9日夜〜10日朝）、同機構の応募者情報と友だち情報が流出した。11月12日に報告を受けた。件数は現時点の最大値。",
+   "status": "ongoing",
+   "statusText": "2026年11月16日公表。対象者の詳細を確認中。件数は調査で変わる可能性がある。",
+   "resp": "サービス提供側で不正アクセスの遮断・認証情報変更、2段階認証必須化、接続元制限、応募フォームを個人情報を取得しない仕様に変更。個人情報保護委員会へ速報済み。警察へ被害相談予定。対象者へ個別にお詫びと案内の予定。不審な連絡への注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "011-231-0941",
+      "hours": "総務本部総務部 平日8:45〜17:30（土日祝・年末年始を除く）"
+     }
+    ],
+    "src": "https://www.visit-hokkaido.jp/asset/company/comsbi%28261116_1900%29"
+   },
+   "official": [
+    [
+     "当機構LINE公式アカウントに関する個人情報の流出について（2026/11/16）",
+     "https://www.visit-hokkaido.jp/asset/company/comsbi%28261116_1900%29"
+    ],
+    [
+     "ソニックムーブ COMSBI（SaaS版）不正アクセスのお知らせ（2026/11/12）",
+     "https://sonicmoov.com/news/5ttj9ndzh"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/hokkaido_tourism_hokkaido_love_comsbi_line_63708_14_2026/"
+    ]
+   ],
+   "ind": "団体",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "smarthr-notionai-fireworks-2611",
+   "co": "株式会社SmartHR（Notion AI／Notion委託先 Fireworks AI）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（役職員がNotion AIに入力したテキストとAIの返答の一部。対象期間2026/10/6〜10/24。含まれる情報は調査中）",
+   "notIncl": "",
+   "who": [
+    "unk"
+   ],
+   "sum": "業務で使うNotionのAI機能の委託先Fireworks AIが第三者の不正アクセスを受け、役職員とNotion AIとのやり取りの一部が外部に流出したおそれがある。Notion社から報告を受け、含まれる情報と影響範囲を調査中。Studio経由の別事案（smarthr-group-studio-2610）とは別。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日の第一報時点。対象情報の内容・影響範囲は調査中。",
+   "resp": "個人情報保護委員会へ報告済み。Notion社・関係機関の情報に基づき精査中。新事実は同ページで案内。SmartHR・Notion社を装う不審な連絡への注意喚起。",
+   "contact": {
+    "forms": [
+     [
+      "本件お問い合わせ窓口",
+      "https://smarthr.co.jp/contact-2611/"
+     ]
+    ],
+    "note": "調査中のため詳細を回答できない場合がある",
+    "src": "https://smarthr.co.jp/news/info/20261117/"
+   },
+   "official": [
+    [
+     "クラウドサービス「Notion」のAI機能委託先への不正アクセスに関するお知らせ（第一報）（2026/11/17）",
+     "https://smarthr.co.jp/news/info/20261117/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/smarthr_notion_ai_fireworks_chat_records_possible_leak/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "chatplus-2611",
+   "co": "チャットプラス株式会社（ChatPlus・AI AgentPlus・FAQPlus）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（顧客から預かる個人データ。詳細は調査中）",
+   "who": [
+    "cust"
+   ],
+   "sum": "チャットボット等のサービスに使うWebサーバーの一部が、11月13日に第三者から不正アクセスを受けた。11月17日にシステム監視で痕跡を検知し、同日遮断した。預かっている個人データが閲覧または取得された可能性があり、有無と範囲は外部専門機関と調査中。各サービスは通常どおり稼働している。",
+   "status": "ongoing",
+   "statusText": "第一報（2026年11月17日16時時点）。漏えいの有無と影響範囲を調査中で、判明次第公表するとしている。",
+   "resp": "該当サーバーのネットワーク遮断・隔離、監視体制の強化、原因箇所の遮断とセキュリティ対策、外部専門機関と連携した調査。不審メールへの注意喚起。",
+   "contact": {
+    "mails": [
+     "support@chatplus.jp"
+    ],
+    "note": "チャットプラス株式会社 サポート窓口",
+    "src": "https://www.chatplus.jp/news/news20261117/"
+   },
+   "official": [
+    [
+     "【重要】当社システムへの不正アクセスに関するお知らせ（2026/11/17）",
+     "https://www.chatplus.jp/news/news20261117/"
+    ],
+    [
+     "当社サービスに対する不正アクセスに関するお知らせ（第一報）（2026/11/17）",
+     "https://kabuyoho-sls-disclose.ifis.co.jp/9fc/140120261117582334.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/chatplus_aiagentplus_faqplus_unauthorized_access_2026/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "keiyogas-with-2611",
+   "co": "京葉ガス株式会社（会員サイト「ウィズ京葉ガス」）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 275,
+   "label": "275件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "id",
+    "deal"
+   ],
+   "itemsText": "氏名、郵便番号、住所、電話番号、メールアドレス、お客さま番号、供給地点特定番号、需給契約番号、会員ID、パスワード（暗号化済み）、初期パスワード、秘密の質問・回答、接続元IPアドレス、請求情報",
+   "notIncl": "銀行口座情報、クレジットカード情報",
+   "who": [
+    "cust"
+   ],
+   "sum": "会員サイトに第三者が不正アクセスし、会員サイトで保有する顧客情報の一部275件が外部に漏えいした可能性がある。原因・侵入経路・影響範囲は外部専門機関と調査を継続中。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日公表。原因・侵入経路・影響範囲を調査継続中。",
+   "resp": "会員サイトの停止、不正アクセスを受けたネットワークへの外部からのアクセス経路の遮断。対象の顧客へ個別に案内。二次被害（不審な電話・メール・SMS）への注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "047-361-0211",
+      "hours": "月〜土 9:00〜19:00（京葉ガスお客さまコンタクトセンター）"
+     }
+    ],
+    "src": "https://www.keiyogas.co.jp/press/20261117-01.html"
+   },
+   "official": [
+    [
+     "当社会員サイト「ウィズ京葉ガス」における不正アクセスによる情報漏えいの可能性についてのお詫びとお知らせ（2026/11/17）",
+     "https://www.keiyogas.co.jp/press/20261117-01.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/keiyogas_with_keiyogas_unauthorized_access_275_possible_leak_20261117/"
+    ]
+   ],
+   "ind": "エネルギー",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "nihon-u-web-2611",
+   "co": "日本大学（全学統合Web基盤の不正アクセス・Webサイト改ざん）",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-10-22",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [
+    "id"
+   ],
+   "itemsText": "各サイトのWeb管理アカウント情報、各サイトのバックアップ等に含まれる非公開データ（フォーム入力データ・非公開ファイル等）、通信教育部サイトの改ざん期間（11月5〜10日）のログイン認証情報（ID・パスワード）",
+   "notIncl": "クレジットカード・金融機関口座等の決済・財務情報（保持していない）",
+   "who": [
+    "cust",
+    "unk"
+   ],
+   "sum": "全学統合Web基盤に外部から不正プログラムが設置され、学部等の24サイトでファイル改ざんなどが確認された。管理者権限の不正利用により、管理アカウント情報、非公開データ、通信教育部サイトのログイン認証情報が閲覧されたおそれがある。外部への一括持ち出しや不正利用は確認されていない。10月22日以降に発生、11月5日に検知。教員メールアカウントの乗っ取り（nihon-u-mail-2609）や理工学部の事案とは別件。",
+   "status": "ongoing",
+   "statusText": "第一報（2026年11月17日）。今後の調査結果を第二報で公表するとしている。",
+   "resp": "対象サーバーの隔離・侵入経路の遮断・不正プログラム駆除と一部復旧、個人情報保護委員会と文部科学省へ報告、連絡先が特定できる対象者へ個別連絡、通信教育部サイト利用者へパスワード変更依頼。ファイルアクセス権限の分離、学内統合認証・多要素認証の義務化、監視強化を実施予定。",
+   "contact": {
+    "forms": [
+     [
+      "日本大学情報イノベーションセンター事務局 問合せフォーム",
+      "https://forms.gle/rj9W2fdJZPntrWrM7"
+     ]
+    ],
+    "note": "日本大学情報イノベーションセンター事務局",
+    "src": "https://www.nihon-u.ac.jp/hojin_news/others/20261117-314.html"
+   },
+   "official": [
+    [
+     "不正アクセスによるWebサイト改ざん及び個人情報漏えいのおそれに関するおわびと御報告（第一報）（2026/11/17）",
+     "https://www.nihon-u.ac.jp/hojin_news/others/20261117-314.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/nihon-university-24-sites-web-defacement-login-credential-risk-incidents/"
+    ]
+   ],
+   "ind": "大学・学校",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "pwc-japan-vendor-2611",
+   "co": "PwC Japanグループ（研修運営委託先ベンダー経由）",
+   "date": "2026-11-16",
+   "announced": "2026-11-16",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "work"
+   ],
+   "itemsText": "従業員番号、氏名（アルファベット）、業務用メールアドレス・電話番号、所属法人等",
+   "notIncl": "クライアントの情報。業務委託先の方々の所属先情報",
+   "who": [
+    "staff",
+    "biz"
+   ],
+   "sum": "グローバルで使う社内研修・人材育成プログラムの運営委託先ベンダーのホスト環境が第三者の不正アクセスを受け、調査の結果、PwC Japanグループの従業員、退職者、業務委託先等の個人情報が閲覧され外部へ流出したことを確認した。件数は公表されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月16日公表。件数・原因の詳細は公式発表に記載なし。",
+   "resp": "関係者向けにお問い合わせフォームで窓口を設置。",
+   "contact": {
+    "note": "PwC Japanグループのお問い合わせフォームから。種類「その他のお問い合わせ」、内容に【個人情報の漏洩について】と記載",
+    "src": "https://www.pwc.com/jp/ja/notice-261116.html"
+   },
+   "official": [
+    [
+     "重要なお知らせ：従業員等の個人情報漏洩について（2026/11/16）",
+     "https://www.pwc.com/jp/ja/notice-261116.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/pwc-japan-everest-data-leak-202611/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "rakuten-sec-2611",
+   "co": "楽天証券株式会社",
+   "date": "2026-11-17",
+   "announced": "2026-11-17",
+   "occurred": "2026-11-16",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 11250000,
+   "label": "最大約1,125万口座（うち最大約447万口座は氏名・住所・資産情報等を含む）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "work",
+    "acct",
+    "deal",
+    "id"
+   ],
+   "itemsText": "全対象（最大約1,125万口座）：部店・お客様コード、ログインID。うち最大約447万口座：氏名、カナ氏名、生年月日、住所、電話番号、メールアドレス、勤務先、出金先口座（金融機関・口座番号・名義人）、年収・金融資産（申告情報）、商品別資産情報、最終ログイン日（退会者を含む）",
+   "notIncl": "ログイン用パスワード・暗証番号など取引に必要な情報（漏えいは確認していない）。楽天IDとは別",
+   "who": [
+    "cust"
+   ],
+   "sum": "11月16日に不正アクセスの可能性を検知。調査で、11月11日にテスト環境のシステム内で管理していた情報が外部に漏えいしたおそれがあると確認した。不正ログイン・不正取引は確認されていない。影響を受ける顧客の特定は完了。",
+   "status": "ongoing",
+   "statusText": "2026年11月17日公表。原因や詳細な経緯は調査中。",
+   "resp": "該当箇所のアクセス遮断と修正、該当の顧客へ個別に報告、不審なメール・SMS・電話への注意喚起、パスキー認証の必須化推進、取引・出金の一時停止設定の案内。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-862-274",
+      "hours": "平日8:30〜17:00、土日9:00〜17:00（楽天証券カスタマーサポートセンター）"
+     }
+    ],
+    "src": "https://www.rakuten-sec.co.jp/smartphone/info/info20261117-02.html"
+   },
+   "official": [
+    [
+     "当社お客様の情報漏えいの可能性に関するお詫びとお知らせ（2026/11/17）",
+     "https://www.rakuten-sec.co.jp/smartphone/info/info20261117-02.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/rakuten_securities_test_environment_1125m_447m_possible_data_leak_202611/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "jaj-chiba-2611",
+   "co": "一般財団法人司法協会（千葉出張所）",
+   "date": "2026-11-10",
+   "announced": "2026-11-10",
+   "occurred": "2026-10-15",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail"
+   ],
+   "itemsText": "千葉出張所の口座へ振り込んだ人が払込取扱票等に記載した氏名・住所・電話番号、千葉出張所とメール送受信した人の氏名・メールアドレス",
+   "notIncl": "口座情報・クレジットカード情報（協会は保持していない）",
+   "who": [
+    "cust"
+   ],
+   "sum": "千葉出張所の端末に10月15日、第三者の不正アクセスが確認され、保有する個人情報の一部が外部に漏えいしたおそれがある。二次被害は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月10日公表。件数は公表されていない。",
+   "resp": "端末のインターネット接続遮断、個人情報保護委員会へ報告、ホームページで公表し対象者へ書面またはメールで案内、セキュリティ・監視体制の強化。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-3591-3700",
+      "hours": "複写事業部"
+     }
+    ],
+    "src": "https://www.jaj.or.jp/topics"
+   },
+   "official": [
+    [
+     "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ（2026/11/10）",
+     "https://www.jaj.or.jp/topics"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/japan_judicial_association_chiba_office_unaurized_access_possible_data_leak/"
+    ]
+   ],
+   "ind": "団体",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "keio-dentetsu-2609",
+   "co": "京王電鉄（ランサムウェア攻撃）",
+   "date": "2026-09-26",
+   "announced": "2026-09-26",
+   "occurred": "2026-09-26",
+   "last": "2026-10-21",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "未公表",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "unk"
+   ],
+   "sum": "9月26日未明にグループのサーバーへのランサムウェア攻撃を確認し、一部グループ会社の営業システムに障害が出た。当初は情報漏えいを確認できていなかったが、10月21日の第3報で、攻撃者を名乗る組織が窃取を主張する情報が公開されたと外部専門家から報告があり、個人情報漏えいの可能性もあるとみて個人情報保護委員会へ報告したと公表。公開情報の内容と範囲は調査中。",
+   "status": "ongoing",
+   "statusText": "2026年10月21日（第3報）時点で、公開された情報の内容・影響範囲を調査中。",
+   "resp": "ネットワーク遮断、対策本部の設置、警察・外部専門家と連携した調査、個人情報保護委員会へ報告。影響を受けた人へは個別に通知する方針。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "042-337-3106",
+      "hours": "広報部"
+     }
+    ],
+    "src": "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261021_newsrelease.pdf"
+   },
+   "official": [
+    [
+     "ランサムウェア攻撃によるシステム障害に関するお知らせとお詫び（2026/9/26）",
+     "https://www.keio.co.jp/news/update/announce/nr260926v13404/"
+    ],
+    [
+     "ランサムウェア攻撃によるシステム障害に関するお知らせ 第３報（2026/10/21）",
+     "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261021_newsrelease.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/keio_pressoinn_ransomware_lodging_revenue_18oku_2026/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "verified": "2026-11-18"
+  },
+  {
+   "id": "tokyo-suido-hdd2-2611",
+   "co": "東京都水道局（工業用水道事業のユーザー情報等を記録した外付けHDD・新たに1台）",
+   "date": "2026-11-16",
+   "announced": "2026-11-16",
+   "cause": "loss",
+   "types": [
+    "紛失・盗難"
+   ],
+   "n": 871,
+   "label": "871件",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "acct",
+    "deal"
+   ],
+   "itemsText": "氏名、住所、電話番号、使用水量等（うち51件は口座情報を含む）",
+   "who": [
+    "cust"
+   ],
+   "sum": "令和4年度末に廃止した工業用水道事業のユーザー情報等を記録した外付けHDD1台の所在が不明になった。10月に続いた外付けHDD紛失等を受け、10月23日から11月6日まで全部署で実施した情報資産の緊急総点検で判明した。執務室内の捜索を続けているが見つかっておらず、現時点で記録情報の流出などの二次被害は確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月16日公表。捜索継続中で、二次被害は確認されていない。",
+   "resp": "個人情報の該当者に連絡し、紛失について謝罪と説明を実施。全職員を対象とした自己点検・研修と、契約中の事業者への点検を実施する再発防止策を公表。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "03-5320-6311",
+      "hours": "水道局総務部主計課（直通）"
+     }
+    ],
+    "src": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111610"
+   },
+   "official": [
+    [
+     "個人情報を含む情報を記録した外付けハードディスク（HDD）の紛失について（2026/11/16）",
+     "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111610"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/tokyo_waterworks_new_hdd_lost_871_bank_51_20261117/"
+    ]
+   ],
+   "ind": "公共機関",
+   "verified": "2026-11-18"
   }
  ],
  "statusLabels": {
@@ -54321,7 +55663,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 333,
+ "pendingCount": 337,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
