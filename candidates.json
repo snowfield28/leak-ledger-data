@@ -8305,41 +8305,6 @@
    "pendingReason": "公式発表（11/5）は流出対象に含まれるか未判明としており件数なし。報道の約3万5,600件は公式で未照合。続報待ち。"
   },
   {
-   "id": "yamazen-corp-2611",
-   "co": "株式会社山善（コーポレートサイト・関連サイトの問い合わせ情報）",
-   "date": "2026-11-13",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": 10508,
-   "label": "延べ最大10,508件",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認（問い合わせフォームに登録された個人情報とされる）",
-   "who": [
-    "unk"
-   ],
-   "sum": "コーポレートサイトと関連サイトが利用する外部サーバーへの不正アクセスで、問い合わせフォームに登録された個人情報が延べ10,508件漏えいした可能性があると、11月13日の第2報で報じられた。11月11日に保守委託先が外部サーバー上の不審なファイルを発見した。件数は報道（セキュリティ対策Lab）による。",
-   "status": "ongoing",
-   "statusText": "報道ベース。公式発表本文は未確認。",
-   "resp": "報道によると、関連サイトの停止、アクセス遮断、不審ファイル除去、ソフトウェア更新、復旧対応。",
-   "official": [
-    [
-     "山善 お知らせ（本文未確認・URLのみ）",
-     "https://www.yamazen.co.jp/news/entry-2948.html"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/yamazen-corporate-site-bizcom-unauthorized-access-202611/"
-    ]
-   ],
-   "ind": "製造",
-   "pendingReason": "公式発表（yamazen.co.jp/news/entry-2948.html）がHTTP 403で自動取得不可。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "gowebcloud-goweb-2610",
    "co": "株式会社GoWebクラウド（入居申込サービス「GoWeb」）",
    "date": "2026-10-26",
