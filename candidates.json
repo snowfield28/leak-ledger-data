@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -8460,6 +8460,292 @@
    ],
    "ind": "小売・EC",
    "pendingReason": "公式発表は error:http403 で取得できず。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "sbi-shinsei-monex-account-2611",
+   "co": "株式会社SBI新生銀行（金融商品仲介／マネックス証券の口座開設システム）",
+   "date": "2026-11-18",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "sum": "金融商品仲介先であるマネックス証券の口座開設システム（外部委託先が運営・管理）への不正アクセスで、同行経由の利用者も漏えいの対象に含まれる可能性があると報道。マネックス証券分（メールアドレス最大113万件、本人確認書類等の画像1,592件）は別案件（monex-account-opening-2611）として掲載済み。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sbi_shinsei_monex_customer_impact_20261119/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "pendingReason": "公式発表（sbishinseibank.co.jp/info/news2611_monex.html）は error:ReadTimeout、再試行（WebFetch）でも取得できず、本文未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "cocooncity-comsbi-2611",
+   "co": "片倉工業株式会社（さいたま新都心コクーンシティ公式LINE／過去の委託先 ソニックムーブ「COMSBI（SaaS版）」）",
+   "date": "2026-11-16",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 31065,
+   "label": "LINE友だち最大31,065件（うち住所・生年月日を含む最大1,417人）",
+   "st": "p",
+   "items": [
+    "addr",
+    "birth",
+    "id"
+   ],
+   "itemsText": "LINEの表示名・プロフィール画像URL・LINEユーザーID（最大31,065件）、住所（郵便番号〜町名まで）・生年月日（最大1,417人）（報道による）",
+   "sum": "2022年9〜12月に利用したCOMSBI（SaaS版）に利用終了後もデータとLINE連携が残り、不正アクセスで友だち情報が漏えいしたと報道。両区分には重複がある。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/cocooncity-comsbi-line-data-breach-after-contract-2026/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表（cocooncity.jp/event/detail/2927、/contact）は error:ConnectTimeout、再試行（WebFetch）でも取得できず、報道の件数を公式本文で照合できていない。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。",
+   "who": [
+    "cust"
+   ]
+  },
+  {
+   "id": "osaki-electric-ransomware-2611",
+   "co": "大崎電気工業株式会社（ランサムウェアによる生産停止）",
+   "date": "2026-11-18",
+   "cause": "cyber",
+   "types": [
+    "ランサムウェア"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（第一報に個人情報の記載なし）",
+   "sum": "11月17日にサーバー内データの暗号化を確認。埼玉事業所・岩手大崎電気・大崎プラテックの生産関連システムを停止し、スマートメーター等の生産・出荷ができない。データが外部に流出した可能性も含め外部専門機関と調査中。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "緊急対策本部を設置し、警察・関係当局に相談・報告。外部専門機関と調査・復旧を進める。",
+   "official": [
+    [
+     "ランサムウェアによるサイバー攻撃に伴う生産停止に関するお知らせ（第一報）（2026/11/18）",
+     "https://www.osaki.co.jp/ja/notice/20261118.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/osaki-electric-ransomware-smart-meter-production-shutdown/"
+    ]
+   ],
+   "ind": "製造",
+   "pendingReason": "公式第一報（2026/11/18）は暗号化・生産停止の報告で、「データ流出の可能性を含め調査中」とするのみで個人情報の漏えいの記載がなく、台帳の対象か判断できない。続報待ち。"
+  },
+  {
+   "id": "sms-karte-eichie-nurse-senka-2611",
+   "co": "株式会社エス・エム・エス（「エイチエ」「エイチエ 転職」「ナース専科 就職」／委託先 プレイド「KARTE」）",
+   "date": "2026-11-18",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 484504,
+   "label": "延べ484,504件（エイチエ191,039／エイチエ転職197,985／ナース専科就職95,480）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "tel",
+    "addr",
+    "birth",
+    "id"
+   ],
+   "itemsText": "氏名、メールアドレス、電話番号、住所、生年月日、会員IDなど（サービスにより異なる。報道による）",
+   "sum": "KARTEへの不正アクセスにより3サービスの利用者情報の一部が漏えいした可能性があると報道。同一利用者の重複を含む可能性がある。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [
+    [
+     "プレイド：不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ（2026/11/16）",
+     "https://plaid.co.jp/news/20261116/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sms-karte-eichie-nurse-senka-484504-potential-data-leak/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "pendingReason": "公式発表（bm-sms.co.jp/news-info/info_20261118/）は error:http403、再試行（WebFetch）でも取得できず、本文未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。",
+   "who": [
+    "cust"
+   ]
+  },
+  {
+   "id": "uniform-next-karte-2611",
+   "co": "ユニフォームネクスト株式会社（通販サイト／委託先 プレイド「KARTE」）",
+   "date": "2026-11-18",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 1701006,
+   "label": "最大1,701,006件",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "tel",
+    "work"
+   ],
+   "itemsText": "会社名、氏名、メールアドレス、電話番号、郵便番号、職種、業種（報道による）",
+   "sum": "利用するKARTEへの不正アクセスで顧客登録情報の一部が漏えいしたと報道。11月13日の不正アクセス、15日に漏えい報告を受けたとされる。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [
+    [
+     "プレイド：不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ（2026/11/16）",
+     "https://plaid.co.jp/news/20261116/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/uniform_next_karte_1701006_corporate_abuse_countermeasures_2026/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "収集時に同社の公式発表が見つからず（inboxにはプレイドの発表のみ）、件数・項目を公式本文で照合できていない。公式URLが分かれば manual/ に貼ればよい。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。",
+   "who": [
+    "cust",
+    "biz"
+   ]
+  },
+  {
+   "id": "sapporo-ekisogo-xmas-lottery-2611",
+   "co": "札幌駅総合開発株式会社（札幌ステラプレイス・アピアのクリスマス抽選会システム／委託先の抽選システム提供事業者）",
+   "date": "2026-11-17",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "抽選システムの事前テストで使用した同社社員のメールアドレス（報道による）",
+   "sum": "抽選システムの事前テスト時に、システム提供事業者から不正アクセスの報告を受け、テストに使った社員のメールアドレスが第三者に閲覧された可能性があるとして、クリスマス抽選会の中止を発表したと報道。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [
+    [
+     "JRタワー：当社ホームページのメンテナンス実施について（2026/11/13）",
+     "https://www.jr-tower.jp/topics/20261113_01.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sapporo-stellarplace-apia-christmas-lottery-vendor-cyberattack/"
+    ],
+    [
+     "STVニュース北海道",
+     "https://www.stv.jp/news/stvnews/kiji/stb5e1324065fa49efa0438f4002d24c61.html"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "pendingReason": "抽選会中止と社員メールアドレス閲覧の可能性に触れた公式発表の本文を確認できていない（取得できた公式ページ2件は「ホームページのセキュリティ対策」「情報漏えい等の事実は確認されていない」とのみ記載）。公式文面が分かれば manual/ に貼れば反映できる。",
+   "who": [
+    "staff"
+   ]
+  },
+  {
+   "id": "okamura-foods-port-arara-2611",
+   "co": "オカムラ食品工業株式会社（運営終了した通販サイト／委託先 GMOメイクショップ経由 アララ）",
+   "date": "2026-11-16",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 8197,
+   "label": "8,197件",
+   "st": "p",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールマガジン登録者のメールアドレス（報道による）",
+   "sum": "10月まで運営していたオンラインショップのメールマガジン登録者のアドレス8,197件が、委託先GMOメイクショップが利用するアララのサービスへの不正アクセスで流出したと報道。11月12日に流出の報告を受けたとされる。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "青森テレビ（TBS NEWS DIG）",
+     "https://newsdig.tbs.co.jp/articles/atv/3089546?display=1"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "同社の公式発表（port-aomori.com/view/news/20250109112816）は error:http503、再試行（WebFetch）でも取得できず、報道のみ。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。",
+   "who": [
+    "cust"
+   ]
+  },
+  {
+   "id": "securenavi-notionai-fireworks-2611",
+   "co": "SecureNavi株式会社（Notion AI／Notion委託先 Fireworks AI）",
+   "date": "2026-11-11",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "顧客の会社名・担当者の氏名、問い合わせ・相談の内容、サービス利用状況に関する内容（報道による。調査中）",
+   "sum": "業務で利用するNotion AIの処理委託先Fireworks AIの不正アクセスで、Notion AIへの入力内容や回答を含むやり取りの記録の一部が漏えいした可能性があり、顧客に関する情報が含まれるおそれがあると報道。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/11/19/56841.html"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式発表（secure-navi-inc.jp/news/news_20261111）は status thin（本文63文字程度）で、再試行（WebFetch）でも取得できず、本文未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。",
+   "who": [
+    "biz"
+   ]
   }
  ]
 }
