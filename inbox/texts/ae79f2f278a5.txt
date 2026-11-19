@@ -1,0 +1,56 @@
+URL: https://terilogy-sw.com/ict-solutions/cloudtriage_ms365/
+
+CloudTriage MS365監視サービス | 株式会社テリロジーサービスウェア
+会社概要
+多言語&インバウンドソリューション
+ICTソリューション
+お知らせ
+イベント
+採用情報
+お問い合わせ
+SOLUTION
+CloudTriage MS365監視サービス
+ HOME
+ICTソリューション
+CloudTriage MS365監視サービス
+クラウドトリアージ
+ MS365監視サービス
+MS365の障害を検知しサービス品質を可視化するサービスです。
+実現できること
+構成イメージ
+2つの監視方法
+シンセティックモニタリング
+MS365専用ダッシュボード
+ こんな問題ありませんか？ 
+MS365に障害が発生しても気づけない
+サービス品質が全く分からない
+クラウドに問題があるのか、自社に問題があるのか切り分けに時間がかかる
+実現できること
+構成イメージ
+2つの監視方法
+MS365のAPIを活用し、MS365をご利用中のユーザーの品質データを取得します。また、シンセティックモニタリングにより、利用者がいない拠点や時間帯の品質チェックが可能となります。
+シンセティックモニタリング
+測定端末から疑似的に通信を行い、MS365ポータル、SharePoint Online、Exchange Online、Teams、OneDriveの品質を確認します。
+MS365専用ダッシュボード
+MS365専用のダッシュボードで各サービスの品質が一目で確認できます。API監視、シンセティックモニタリングの情報をもとにMS365テナント、SharePoint Online、Exchange Online、Teams、Microsoft Teams、OneDrive for Businessのサービスごとに専用のダッシュボードをご用意しています。
+14日間のフリートライアルで
+ お試しください
+デモンストレーションや14日間のフリートライアルも可能です。お気軽にお問い合わせください。
+お問い合わせください
+その他のICTソリューション
+MORA VPN Zero-Con
+Zero-Con SASE
+IPoEX Powered by IIJ
+palton AI
+EzAvater
+CloudTriage QoEサービス
+CloudTriage MS365監視サービス
+CloudTriage
+ エンドポイント性能監視サービス
+CloudTriage
+ Chromebook監視サービス
+NW・セキュリティソリューション
+PC Matic
+Zoom
+WEB会議 関連製品
+IP無線アプリ（インカム）
