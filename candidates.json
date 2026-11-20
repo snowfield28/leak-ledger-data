@@ -8462,34 +8462,6 @@
    "pendingReason": "公式発表は error:http403 で取得できず。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "sbi-shinsei-monex-account-2611",
-   "co": "株式会社SBI新生銀行（金融商品仲介／マネックス証券の口座開設システム）",
-   "date": "2026-11-18",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "sum": "金融商品仲介先であるマネックス証券の口座開設システム（外部委託先が運営・管理）への不正アクセスで、同行経由の利用者も漏えいの対象に含まれる可能性があると報道。マネックス証券分（メールアドレス最大113万件、本人確認書類等の画像1,592件）は別案件（monex-account-opening-2611）として掲載済み。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文を確認できていない。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/sbi_shinsei_monex_customer_impact_20261119/"
-    ]
-   ],
-   "ind": "金融・保険",
-   "pendingReason": "公式発表（sbishinseibank.co.jp/info/news2611_monex.html）は error:ReadTimeout、再試行（WebFetch）でも取得できず、本文未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "cocooncity-comsbi-2611",
    "co": "片倉工業株式会社（さいたま新都心コクーンシティ公式LINE／過去の委託先 ソニックムーブ「COMSBI（SaaS版）」）",
    "date": "2026-11-16",
