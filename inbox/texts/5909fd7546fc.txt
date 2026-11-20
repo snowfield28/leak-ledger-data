@@ -1,0 +1,53 @@
+URL: https://nulab.statuspal.io/?lang=ja
+
+ヌーラボ Status
+現在進行中の障害があります
+ヌーラボサービスのステータス情報を確認できます。
+ここに掲載されている内容に同意されない場合 お問い合わせ先 
+[email protected]
+.
+Sorry! No service was found!
+Backlog (Japan)
+利用できます
+90
+日前
+% の稼働率
+本日
+Backlog (Global)
+利用できます
+90
+日前
+% の稼働率
+本日
+Cacoo
+Major incident
+90
+日前
+% の稼働率
+本日
+Nulab Flowbase
+利用できます
+90
+日前
+% の稼働率
+本日
+Nulab Apps
+利用できます
+90
+日前
+% の稼働率
+本日
+現在発生している障害
+Major incident
+【Cacoo】利用できません。
+[対応中] 
+利用できません。
+Cacoo
+更新日時
+11月 18, 2026 · 04:58 UTC
+% の稼働率
+90
+ 日前
+本日
+障害＆メンテナンス履歴
+このページは60秒ごとに自動更新されます
