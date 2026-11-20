@@ -8644,37 +8644,6 @@
    "who": [
     "cust"
    ]
-  },
-  {
-   "id": "securenavi-notionai-fireworks-2611",
-   "co": "SecureNavi株式会社（Notion AI／Notion委託先 Fireworks AI）",
-   "date": "2026-11-11",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "顧客の会社名・担当者の氏名、問い合わせ・相談の内容、サービス利用状況に関する内容（報道による。調査中）",
-   "sum": "業務で利用するNotion AIの処理委託先Fireworks AIの不正アクセスで、Notion AIへの入力内容や回答を含むやり取りの記録の一部が漏えいした可能性があり、顧客に関する情報が含まれるおそれがあると報道。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文を確認できていない。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/11/19/56841.html"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "公式発表（secure-navi-inc.jp/news/news_20261111）は status thin（本文63文字程度）で、再試行（WebFetch）でも取得できず、本文未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。",
-   "who": [
-    "biz"
-   ]
   }
  ]
 }

@@ -57514,6 +57514,57 @@
    "ind": "人材・教育・業務支援",
    "group": "karte",
    "verified": "2026-11-20"
+  },
+  {
+   "id": "securenavi-notionai-fireworks-2611",
+   "co": "SecureNavi株式会社（Notion AI／Notion委託先 Fireworks AI）",
+   "date": "2026-11-11",
+   "announced": "2026-11-11",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [
+    "name"
+   ],
+   "itemsText": "お客様の会社名・ご担当者様の氏名、お問い合わせ・ご相談の内容（打ち合わせ内容を含む）、サービスの利用状況に関する内容（含まれる情報の詳細・範囲は調査中）",
+   "notIncl": "システムのパスワード等の認証情報",
+   "who": [
+    "biz"
+   ],
+   "sum": "業務で利用するNotionのAI機能の処理委託先Fireworks AIが不正アクセスを受け、Notion AIとのやりとりの記録の一部が外部に漏えいしたおそれがある。お客様支援業務でも利用しており、顧客に関する情報が含まれているおそれがある。11月10日にNotion社から通知を受けた。同社システムへの不正アクセスは確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月11日に第一報を公表。対象の詳細・範囲は調査中。二次被害は確認されていない。",
+   "resp": "Notion社提供の対象データで漏えいのおそれのある情報を調査。顧客情報が含まれる場合は該当のお客様へ個別連絡。個人情報保護委員会等へ報告予定。不審な連絡への注意喚起。",
+   "contact": {
+    "mails": [
+     "security_and_privacy@secure-navi.jp"
+    ],
+    "note": "SecureNavi株式会社 情報セキュリティに関するお問い合わせ窓口",
+    "src": "https://secure-navi-inc.jp/news/news_20261111"
+   },
+   "official": [
+    [
+     "当社が利用するクラウドサービスの委託先への不正アクセスに伴う、お客様に関する情報漏えいの可能性についてのお詫びとお知らせ（第一報）（2026/11/11）",
+     "https://secure-navi-inc.jp/news/news_20261111"
+    ],
+    [
+     "Notion社：一部のNotionワークスペースに影響が及ぶ可能性のあるFireworks AIのインシデントに関する通知",
+     "https://www.notion.com/ja/help/security-incident-involving-a-third-party-ai-vendor"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/11/19/56841.html"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-20"
   }
  ],
  "statusLabels": {
@@ -57546,7 +57597,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 343,
+ "pendingCount": 342,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
