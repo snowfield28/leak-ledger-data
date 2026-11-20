@@ -8529,49 +8529,6 @@
    "pendingReason": "公式第一報（2026/11/18）は暗号化・生産停止の報告で、「データ流出の可能性を含め調査中」とするのみで個人情報の漏えいの記載がなく、台帳の対象か判断できない。続報待ち。"
   },
   {
-   "id": "sms-karte-eichie-nurse-senka-2611",
-   "co": "株式会社エス・エム・エス（「エイチエ」「エイチエ 転職」「ナース専科 就職」／委託先 プレイド「KARTE」）",
-   "date": "2026-11-18",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": 484504,
-   "label": "延べ484,504件（エイチエ191,039／エイチエ転職197,985／ナース専科就職95,480）",
-   "st": "p",
-   "items": [
-    "name",
-    "mail",
-    "tel",
-    "addr",
-    "birth",
-    "id"
-   ],
-   "itemsText": "氏名、メールアドレス、電話番号、住所、生年月日、会員IDなど（サービスにより異なる。報道による）",
-   "sum": "KARTEへの不正アクセスにより3サービスの利用者情報の一部が漏えいした可能性があると報道。同一利用者の重複を含む可能性がある。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文を確認できていない。",
-   "resp": "",
-   "official": [
-    [
-     "プレイド：不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ（2026/11/16）",
-     "https://plaid.co.jp/news/20261116/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/sms-karte-eichie-nurse-senka-484504-potential-data-leak/"
-    ]
-   ],
-   "ind": "人材・教育・業務支援",
-   "pendingReason": "公式発表（bm-sms.co.jp/news-info/info_20261118/）は error:http403、再試行（WebFetch）でも取得できず、本文未確認。自動取得不可（robots/画像/JS）。manual/ に公式文面を貼れば反映できる。",
-   "who": [
-    "cust"
-   ]
-  },
-  {
    "id": "uniform-next-karte-2611",
    "co": "ユニフォームネクスト株式会社（通販サイト／委託先 プレイド「KARTE」）",
    "date": "2026-11-18",

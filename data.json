@@ -57454,6 +57454,66 @@
    ],
    "ind": "金融・保険",
    "verified": "2026-11-20"
+  },
+  {
+   "id": "sms-karte-eichie-nurse-senka-2611",
+   "co": "株式会社エス・エム・エス（「エイチエ」「エイチエ 転職」「ナース専科 就職」／委託先 プレイド「KARTE」）",
+   "date": "2026-11-18",
+   "announced": "2026-11-18",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 484504,
+   "label": "延べ484,504件（エイチエ191,039／エイチエ転職197,985／ナース専科就職95,480。重複を含む）",
+   "st": "p",
+   "items": [
+    "name",
+    "tel",
+    "addr",
+    "mail",
+    "birth",
+    "id"
+   ],
+   "itemsText": "エイチエ：氏名、ニックネーム、メールアドレス、電話番号、住所、郵便番号、都道府県、生年月日、年齢、性別、メルマガ配信可否、会員ID、KARTE ID。エイチエ 転職：電話番号、生年月日、年齢、会員ID、KARTE ID。ナース専科 就職：都道府県（居住・スカウト希望）、生年月日、性別、会員ID",
+   "notIncl": "パスワード、クレジットカード情報",
+   "who": [
+    "cust"
+   ],
+   "sum": "プレイドの「KARTE」への不正アクセスにより、同社が管理していた3サービスのお客様情報の一部が漏えいした可能性がある。11月13日にプレイドから連絡を受けた。件数は同一のお客様の重複を含む。",
+   "status": "ongoing",
+   "statusText": "2026年11月18日公表（第一報）。情報・件数は調査中で変わる場合がある。",
+   "resp": "KARTEの利用を安全確認まで停止（3サービスは通常利用可）。対象確定後に該当のお客様へメールで個別連絡。プレイドと連名で個人情報保護委員会へ報告予定。不審な連絡への注意喚起。",
+   "contact": {
+    "mails": [
+     "info@eichie.jp",
+     "info-ejb@eichie.jp",
+     "info@recruit.nurse-senka.com"
+    ],
+    "note": "エイチエ／エイチエ 転職／ナース専科 就職の順",
+    "src": "https://www.bm-sms.co.jp/news-info/info_20261118/"
+   },
+   "official": [
+    [
+     "当社委託先システムへの不正アクセスに伴う、情報漏えいに関するお詫びとお知らせ（第一報）（2026/11/18）",
+     "https://www.bm-sms.co.jp/news-info/info_20261118/"
+    ],
+    [
+     "プレイド：不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ（2026/11/16）",
+     "https://plaid.co.jp/news/20261116/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/sms-karte-eichie-nurse-senka-484504-potential-data-leak/"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "group": "karte",
+   "verified": "2026-11-20"
   }
  ],
  "statusLabels": {
@@ -57486,7 +57546,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 344,
+ "pendingCount": 343,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
