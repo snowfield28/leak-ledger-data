@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -6752,7 +6752,12 @@
    "status": "ongoing",
    "statusText": "10月23日15時30分の適時開示（報道）。10月28日を目途にサービス再開予定。",
    "resp": "",
-   "official": [],
+   "official": [
+    [
+     "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（2026/10/23）",
+     "https://www.treasure-f.com/info/detail/st825/"
+    ]
+   ],
    "src": [
     [
      "セキュリティ対策Lab",
@@ -6760,8 +6765,17 @@
     ]
    ],
    "ind": "小売・EC",
-   "pendingReason": "公式の適時開示（https://www.nikkei.com/nkd/disclosure/tdnr/20261023555328/）は有料会員限定で本文が読めない。inboxにあるカインドオルの公式発表（8月の別事案）とは別件。manual/ に公式文面を貼れば反映できる。",
-   "announced": "2026-10-23"
+   "pendingReason": "公式発表（treasure-f.com）の本文は取得できたが、顧客情報の件数を示す箇条書きが取得テキストに欠けており、746,277件を公式で確認できていない（取引先業者・従業員等750件と端末情報1,000件の記載は確認）。専用窓口 0120-007-074（平日10〜18時）。manual/ に公式文面の影響範囲の項を貼れば反映できる。",
+   "announced": "2026-10-23",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-007-074",
+      "hours": "平日10:00〜18:00"
+     }
+    ],
+    "src": "https://www.treasure-f.com/info/detail/st830/"
+   }
   },
   {
    "id": "green-expo-assoc-blastmail-2610",
@@ -8733,6 +8747,73 @@
    ],
    "ind": "病院・医療",
    "pendingReason": "公式第1報の本文を確認したが、取得テキストでは区分別の人数表が欠落しており、約162.4万名・各区分の人数は報道でのみ確認できた（公式の個人特定困難区分103万349名等の数字は報道と一致）。公式の表で件数を照合できれば追加可能。"
+  },
+  {
+   "id": "yokohama-bank-karte-2611",
+   "co": "株式会社横浜銀行（はまぎん365／委託先 プレイド「KARTE」）",
+   "date": "2026-11-19",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 116500,
+   "label": "約11万6,500件（報道）",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、プレイドのKARTEへの不正アクセスで「はまぎん365」の情報約11万6,500件が漏えいした。",
+   "status": "ongoing",
+   "statusText": "報道ベース。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/yokohama_bank_hamagin365_karte_116500_data_breach/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "group": "karte",
+   "pendingReason": "自動取得不可（robots/画像/JS）。公式の開示資料（https://ssl4.eir-parts.net/doc/7186/ir_material33/290732/00.pdf）はrobotsで取得できず未照合。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "smarriage-se-mobile-2611",
+   "co": "SEモバイル・アンド・オンライン株式会社（オンライン結婚相談所「スマリッジ」）",
+   "date": "2026-11-19",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "unk"
+   ],
+   "sum": "スマリッジが外部から不正アクセスを受け、サービスを一時停止した。第一報は個人情報の流出の有無を含め調査中とする。",
+   "status": "ongoing",
+   "statusText": "2026年11月19日第一報。",
+   "resp": "サービスの一時停止と緊急メンテナンス。",
+   "official": [
+    [
+     "【重要】不正アクセスの発生およびサービスの一時停止について（第一報）（2026/11/19）",
+     "https://s-marriage.jp/maintenance/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/smarriage_se_mobile_online_unauthorized_access_service_suspension/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "pendingReason": "第一報は個人情報の流出の有無を調査中とするのみで、漏えい・漏えいの可能性は公表されていない。続報待ち。適時開示PDFはrobotsで未取得。"
   }
  ]
 }

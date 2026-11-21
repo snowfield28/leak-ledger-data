@@ -833,6 +833,16 @@
     "https://www.intage.co.jp/news/8967/"
    ],
    "checked": "2026-11-21"
+  },
+  {
+   "id": "tokyo-akachan-rinbell-2611",
+   "co": "東京都（赤ちゃんファーストポイント交換サイト／委託先 リンベル）",
+   "date": "2026-11-19",
+   "reason": "委託先リンベルのサーバーへの不正アクセスでサイトを停止したが、都は個人情報の不正閲覧・漏えいは確認されていないと公表。",
+   "official": [
+    "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111905"
+   ],
+   "checked": "2026-11-22"
   }
  ]
 }
