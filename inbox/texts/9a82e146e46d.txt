@@ -1,0 +1,12 @@
+URL: https://www.notion.com/security/advisories/security-incident-involving-a-third-party-ai-vendor
+
+Fireworks AI incident
+←
+All security advisories
+Updates
+Investigating
+In addition to previously notifying the impacted customers, on November 12 we reported exposed third-party API keys found in affected user messages to the vendors that issued them.
+November 13, 2026
+Investigating
+On November 11, we revoked exposed Notion API keys that were found in affected user messages during our investigation.
+November 11, 2026
