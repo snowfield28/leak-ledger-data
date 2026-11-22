@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -59657,6 +59657,231 @@
    ],
    "ind": "公共機関",
    "verified": "2026-11-22"
+  },
+  {
+   "id": "marui-epos-karte-2611",
+   "co": "株式会社丸井グループ（マルイウェブチャネル・エポスカード／委託先 プレイド「KARTE」）",
+   "date": "2026-11-20",
+   "announced": "2026-11-20",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 17330000,
+   "label": "約883万件＋約850万件（単純合計 約1,733万件）",
+   "st": "c",
+   "items": [
+    "name",
+    "birth",
+    "mail"
+   ],
+   "itemsText": "マルイウェブチャネル利用者・メール配信希望者（約883万件）：氏名・性別・生年月日・メールアドレス・顧客管理番号。エポスカード会員（退会者含む、約850万件）：顧客管理番号・性別（うち約6万件は氏名・年齢・年収・キャッシング限度額が漏れた可能性）",
+   "notIncl": "カード番号・暗証番号・セキュリティコードの漏えいは確認されていない",
+   "who": [
+    "cust"
+   ],
+   "sum": "丸井グループのグループ会社（エポスカード、丸井）が利用するマーケティング支援ツール「KARTE」への不正アクセスで、顧客情報の一部が漏えいした。丸井グループ側のシステムからの漏えいではなく、提供元プレイド社によるものとしている。二つの対象群の重複は公表されておらず、合計件数は単純合算。",
+   "status": "ongoing",
+   "statusText": "2026年11月20日公表。今後新たに判明した事項は速やかに公表するとしている。",
+   "resp": "KARTEとのアクセス遮断、対象の顧客へ順次個別連絡、プレイド社と連携した影響範囲の確認、委託先の管理・監督強化。不審メール等への注意喚起。二次被害は現時点で確認されていない。",
+   "contact": {
+    "forms": [
+     [
+      "マルイ通販カスタマーセンター（問い合わせフォーム）",
+      "https://voi.0101.co.jp/voi/mailInquiryCatSelect"
+     ],
+     [
+      "エポスカスタマーセンター（問い合わせフォーム）",
+      "https://www.eposcard.co.jp/memberservice/pc/eposinquiry/inquiryAttentionRedirect.do"
+     ]
+    ],
+    "note": "フォームでは「その他のお問い合わせ」を選択",
+    "src": "https://www.0101maruigroup.co.jp/nr/26_1120_1"
+   },
+   "official": [
+    [
+     "当社グループが利用するマーケティング支援ツール「KARTE」への不正アクセスによるお客さまの個人情報の一部漏えいについて（2026/11/20）",
+     "https://www.0101maruigroup.co.jp/nr/26_1120_1"
+    ],
+    [
+     "エポスカードが利用するマーケティング支援ツール「KARTE」への不正アクセスによるお客さまの個人情報の一部漏えいについて（2026/11/20）",
+     "https://www.eposcard.co.jp/articles/ownernet/news/ow_261120.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/marui-group-epos-card-karte-customer-data-breach-1733million/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "group": "karte",
+   "verified": "2026-11-23"
+  },
+  {
+   "id": "zozo-karte-2611",
+   "co": "株式会社ZOZO（ZOZOTOWN・WEAR by ZOZO／委託先 プレイド「KARTE」）",
+   "date": "2026-11-20",
+   "announced": "2026-11-20",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 15180000,
+   "label": "ZOZOTOWN 約1,518万人／WEAR 約1,393万人／出店ブランド担当者 約2.4万人",
+   "st": "c",
+   "items": [
+    "name",
+    "tel",
+    "mail",
+    "id"
+   ],
+   "itemsText": "ZOZOTOWN（退会者含む）：会員ID・年齢・性別・郵便番号（約1,518万人）、うち約4.7万人はログイン名・メールアドレス・電話番号も。WEAR：会員ID・年齢・性別（約1,393万人）。出店ブランド担当者（過去含む）：会員ID・企業名・氏名（約2.4万人）。項目は人ごとに異なる",
+   "notIncl": "パスワードはKARTE上で管理しておらず対象外。クレジットカード情報の漏えいは確認されていない",
+   "who": [
+    "cust",
+    "biz"
+   ],
+   "sum": "ZOZOが情報発信やキャンペーンに利用する外部サービス「KARTE」への不正アクセスにより、同サービス上で管理していた顧客情報等が漏えいした。11月15日に判明。件数はサービスごとの数字で、重複は公表されていないため単純合算していない（nは最大のZOZOTOWN分）。",
+   "status": "ongoing",
+   "statusText": "2026年11月20日公表。追加の漏えい有無・範囲はプレイド社が調査中で、判明次第公表するとしている。",
+   "resp": "KARTEとのデータ連携を停止。対象の顧客・出店ブランド担当者へ順次個別連絡。外部サービス上の情報の棚卸しを定期的に行うなど取扱いを見直し、再発防止に努める。便乗した不審なメール・SMS・電話への注意喚起。二次被害は現時点で確認されていない。",
+   "contact": {
+    "forms": [
+     [
+      "ZOZOTOWNお客様向け",
+      "https://zozo.jp/_help/help_faq_info.html"
+     ],
+     [
+      "WEAR by ZOZOお客様向け",
+      "https://wear.jp/contact/"
+     ]
+    ],
+    "note": "出店ブランド担当者は当社営業担当へ",
+    "src": "https://corp.zozo.com/information/20261120-482917/"
+   },
+   "official": [
+    [
+     "当社利用の外部サービス「KARTE」への不正アクセスについて（2026/11/20）",
+     "https://corp.zozo.com/information/20261120-482917/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/zozo_zozotown_wear_karte_data_breach_1518_1393_2026/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "group": "karte",
+   "verified": "2026-11-23"
+  },
+  {
+   "id": "smbc-karte-2611",
+   "co": "株式会社三井住友銀行（ホームページ・アプリのお知らせ配信／委託先 プレイド「KARTE」）",
+   "date": "2026-11-20",
+   "announced": "2026-11-20",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 14000000,
+   "label": "最大約1,400万件",
+   "st": "c",
+   "items": [
+    "birth"
+   ],
+   "itemsText": "生年月日、年齢帯・性別・電話番号の登録有無（区分値のみ）、お知らせ要否判定用のフラグ",
+   "notIncl": "氏名・住所・電話番号・メールアドレス・口座番号・暗証番号・ネットバンキングのID/パスワードは含まれない。氏名等と紐づかず個人の特定はできないとしている",
+   "who": [
+    "cust"
+   ],
+   "sum": "銀行ホームページとスマートフォンアプリのお知らせ表示・配信に使うプレイド「KARTE」への不正アクセスで、一部の顧客の情報が外部に漏えいした。11月19日にプレイドから漏えい範囲の報告を受けて確認。",
+   "status": "ongoing",
+   "statusText": "2026年11月20日公表。プレイドと連携して経緯・影響範囲を確認中で、関係当局へ報告予定。",
+   "resp": "プレイドと連携して発生経緯・影響範囲を確認、関係当局への報告。不審な連絡への注意喚起（銀行からパスワード等の入力を依頼しない旨）。資産・取引への影響は現時点で確認されていない。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-559-622",
+      "hours": "お客さま専用窓口。2026/11/21〜12/23、平日9〜17時・土日祝10〜17時"
+     }
+    ],
+    "src": "https://www.smbc.co.jp/news/pdf/j20261120_01.pdf"
+   },
+   "official": [
+    [
+     "業務委託先への不正アクセスによる情報漏えいについて（2026/11/20）",
+     "https://www.smbc.co.jp/news/pdf/j20261120_01.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/smbc-bank-karte-customer-attribute-14million-data-leak/"
+    ]
+   ],
+   "ind": "金融・保険",
+   "group": "karte",
+   "verified": "2026-11-23"
+  },
+  {
+   "id": "bonaventura-karte-2611",
+   "co": "BONAVENTURA（レザー製品・スマートフォンケース／委託先 プレイド「KARTE」）",
+   "date": "2026-11-18",
+   "announced": "2026-11-18",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 576742,
+   "label": "最大57万6,742件",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth"
+   ],
+   "itemsText": "メールアドレス、氏名、電話番号、住所、年齢、誕生日、性別（KARTEに連携していた顧客情報）",
+   "notIncl": "クレジットカード情報・ログインパスワードは連携しておらず対象外",
+   "who": [
+    "cust"
+   ],
+   "sum": "ウェブサイト分析・顧客への案内配信に使うプレイド「KARTE」への不正アクセスにより、連携していた顧客情報が外部に漏えいしたおそれがある。11月15日にプレイドから連絡を受けた。件数は現時点で報告されている最大値。",
+   "status": "ongoing",
+   "statusText": "2026年11月18日公表。対象者・範囲が判明次第、同ページで報告するとしている。",
+   "resp": "KARTEへの新たな情報送信の停止と連携用認証情報の無効化、プレイドと連携した影響範囲の特定、個人情報保護委員会への報告を進める。対象者へメール等で個別連絡予定。不審な連絡への注意喚起。",
+   "contact": {
+    "mails": [
+     "support@mybonaventura.com"
+    ],
+    "src": "https://kr.bonaventura.shop/blogs/news/security-notice-1"
+   },
+   "official": [
+    [
+     "【重要】当社が利用する外部サービスへの不正アクセスに伴う、お客様情報漏洩に関するお知らせ（2026/11/18）",
+     "https://kr.bonaventura.shop/blogs/news/security-notice-1"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/bonaventura_karte_576742_data_leak_20261120/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "group": "karte",
+   "verified": "2026-11-23"
   }
  ],
  "statusLabels": {
@@ -59689,7 +59914,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 345,
+ "pendingCount": 347,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",

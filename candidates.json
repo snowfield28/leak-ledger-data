@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -8814,6 +8814,86 @@
    ],
    "ind": "生活サービス・レジャー",
    "pendingReason": "第一報は個人情報の流出の有無を調査中とするのみで、漏えい・漏えいの可能性は公表されていない。続報待ち。適時開示PDFはrobotsで未取得。"
+  },
+  {
+   "id": "peach-cuenote-2611",
+   "co": "Peach Aviation株式会社（メール配信／委託先 ユミルリンク「Cuenote FC」）",
+   "date": "2026-11-20",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 8997106,
+   "label": "8,997,106件（報道）",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth"
+   ],
+   "itemsText": "報道によると氏名・生年月日・性別・住所・電話番号・メールアドレス・旅程。公式発表で要確認",
+   "notIncl": "報道によるとクレジットカード情報・パスポート情報は対象外",
+   "who": [
+    "unk"
+   ],
+   "sum": "報道によると、メール配信委託先ユミルリンクの「Cuenote FC」への不正アクセスにより、Peachの顧客情報が11月20日に漏えいと公表された。10月公表の別件（IDCフロンティア）とは別事案。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式発表本文で未照合。",
+   "resp": "報道によると11月20日から対象者へメール通知、個人情報保護委員会へ報告済み。",
+   "official": [
+    [
+     "Peach Aviation お知らせ（2026/11/20）",
+     "https://www.flypeach.com/application/files/3617/9515/4415/20261120_INFO_JP.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/peach_aviation_cuenote_fc_8997106_itinerary_data_breach/"
+    ]
+   ],
+   "ind": "運輸・交通",
+   "group": "ymirlink",
+   "pendingReason": "公式発表PDFが error:ReadTimeout、WebFetchも不可（URL制約）で本文を読めず、件数・項目を照合できていない。自動取得不可。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "mercari-notionai-fireworks-2611",
+   "co": "株式会社メルカリ・株式会社メルペイ・株式会社メルコイン（Notion AI／Notion委託先 Fireworks AI）",
+   "date": "2026-11-20",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 3796,
+   "label": "3,796名分（報道。4区分の単純合計）",
+   "st": "p",
+   "items": [],
+   "itemsText": "報道によると顧客1,522名・取引先担当者等571名・採用応募者169名・派遣社員等1,534名分の個人情報を含むNotion AI入力記録。公式発表で要確認",
+   "who": [
+    "unk"
+   ],
+   "sum": "報道によると、Notion AIの処理委託先Fireworks AIへの不正アクセスで、従業員がNotion AIに入力した内容と回答記録の一部が流出した可能性がある。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式発表本文で未照合。",
+   "resp": "報道によると関係当局への報告、対象者への連絡、AIツールで扱う情報の制限などを進めている。",
+   "official": [
+    [
+     "メルカリ お知らせ（2026/11/20）",
+     "https://about.mercari.com/press/news/articles/20261120_incidentreport/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mercari-notion-ai-fireworks-3796-data-leak-risk-202611/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "公式発表が error:http403 で取得できず、WebFetchも不可（URL制約）。自動取得不可。manual/ に公式文面を貼れば反映できる"
   }
  ]
 }
