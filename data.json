@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "itemLabels": {
   "name": "氏名",
   "addr": "住所",
@@ -59882,6 +59882,108 @@
    "ind": "小売・EC",
    "group": "karte",
    "verified": "2026-11-23"
+  },
+  {
+   "id": "wow-world-2611",
+   "co": "株式会社WOW WORLD（メール配信・マーケティング関連サービスの運用サーバー／クライアント企業4社分）",
+   "date": "2026-11-20",
+   "announced": "2026-11-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス",
+    "委託先経由"
+   ],
+   "n": 49000,
+   "label": "延べ約4.9万件（重複の可能性あり・11/20 15時時点）",
+   "st": "c",
+   "items": [
+    "mail"
+   ],
+   "itemsText": "メールアドレス等（項目はクライアント企業ごとに異なる）",
+   "notIncl": "クレジットカード情報、マイナンバー（現時点で漏えいが確認された情報には含まれない）",
+   "who": [
+    "unk"
+   ],
+   "sum": "同社サービスの運用に使うサーバーの一部が第三者から不正アクセスを受け、クライアント企業4社から預かっていた情報の一部が外部に持ち出された。件数は延べ件数で重複を含む可能性がある。対象者の区分は公式発表に記載がない。報道によるとVポイントマーケティングが過去の配信対象のメールアドレス9,313件の流出を公表している（公式発表は未確認）。",
+   "status": "ongoing",
+   "statusText": "第一報（2026年11月20日）。侵入経路・影響範囲・件数・項目を調査中で、変更の可能性がある。",
+   "resp": "不正アクセスの遮断と被害拡大防止措置、対象4社へ個別連絡済み、関係機関へ報告済み。本人への通知は各クライアント企業が実施予定。原因究明・システムの安全性確認・再発防止策を進める。",
+   "contact": {
+    "mails": [
+     "security-contact@wow-world.co.jp"
+    ],
+    "src": "https://www.wow-world.co.jp/release/001621.html"
+   },
+   "official": [
+    [
+     "当社サービスの一部サーバーへの不正アクセスによる情報漏えいに関するお詫びとお知らせ（第一報）（2026/11/20）",
+     "https://www.wow-world.co.jp/release/001621.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/wow-world-unauthorized-access-49000/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "verified": "2026-11-24"
+  },
+  {
+   "id": "pola-karte-2611",
+   "co": "株式会社ポーラ（お客さま情報／委託先 プレイド「KARTE」）",
+   "date": "2026-11-20",
+   "announced": "2026-11-20",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 56349,
+   "label": "56,349件",
+   "st": "c",
+   "items": [
+    "name",
+    "id"
+   ],
+   "itemsText": "氏名、ポーラ固有の管理用ID（POLA ID）",
+   "notIncl": "住所、電話番号、メールアドレス、パスワード等。氏名と管理用IDのみでログイン等はできないとしている",
+   "who": [
+    "cust"
+   ],
+   "sum": "ポーラが利用するプレイドのサービス「KARTE」への第三者の不正アクセスにより、ポーラのお客さまの一部の氏名とPOLA IDが外部に流出した。プレイドが11月13日に不正アクセスを公表し、11月15日の連絡で当社のお客さま情報が含まれる可能性を把握した。",
+   "status": "ongoing",
+   "statusText": "2026年11月20日公表。プレイドと連携して事実関係の確認を継続。二次被害は確認されていない。",
+   "resp": "KARTEへのデータ連携を停止。お客さまの手続きは不要。メールアドレスを把握している該当のお客さまには個別連絡予定。新たな事項は公式サイト等で案内する。",
+   "contact": {
+    "forms": [
+     [
+      "お客さま相談室 お問い合わせフォーム",
+      "https://www.pola.co.jp/ec/contact/contact.aspx?type=CS"
+     ]
+    ],
+    "src": "https://www.pola.co.jp/notice/unauthorized-access-20261120/index.html"
+   },
+   "official": [
+    [
+     "【重要】外部委託先への不正アクセスに伴うお客さま情報の流出について（2026/11/20）",
+     "https://www.pola.co.jp/notice/unauthorized-access-20261120/index.html"
+    ],
+    [
+     "プレイド：「KARTE」への不正アクセスに関する当社調査結果と、サービス再開の見通し等のお知らせ（2026/11/20）",
+     "https://plaid.co.jp/news/20261120/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/pola_karte_pola_id_56349_data_leak_20261120/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "group": "karte",
+   "verified": "2026-11-24"
   }
  ],
  "statusLabels": {
@@ -59914,7 +60016,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 347,
+ "pendingCount": 349,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",

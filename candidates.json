@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -8893,6 +8893,94 @@
     ]
    ],
    "ind": "小売・EC",
+   "pendingReason": "公式発表が error:http403 で取得できず、WebFetchも不可（URL制約）。自動取得不可。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "mercedes-benz-japan-pcs-2611",
+   "co": "メルセデス・ベンツ日本合同会社（24時間ツーリングサポート／委託先 プレステージ・コアソリューション）",
+   "date": "2026-11-20",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 18000,
+   "label": "約1.8万人（報道・11/17時点）",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "deal"
+   ],
+   "itemsText": "報道によると氏名、住所、車台番号、自動車登録番号、委託先内の受付番号。公式発表で要確認",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、ロードサービスの委託先プレステージ・コアソリューションの業務システムへの不正アクセスで、同サービス利用者の情報が流出した。PCS側の公式発表（プレステージ・インターナショナル 2026/11/2）は最大約550万件としているが、メルセデス・ベンツ日本の分の記載はない。",
+   "status": "ongoing",
+   "statusText": "報道ベース。委託元の公式発表本文は未照合。",
+   "resp": "報道によると利用者へメールまたは郵送で順次連絡。公式発表で要確認。",
+   "official": [
+    [
+     "メルセデス・ベンツ日本 お知らせ（2026/11/20）",
+     "https://www.mercedes-benz.co.jp/passengercars/brand/notification/261120-information.html"
+    ],
+    [
+     "プレステージ・インターナショナル 適時開示（2026/11/2）",
+     "https://www.prestigein.com/Portals/0/pdf/NEWS/news_20261102_01.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mercedes_benz_japan_pcs_touring_support_18000_vehicle_info_breach/"
+    ]
+   ],
+   "ind": "製造",
+   "group": "prestige",
+   "pendingReason": "公式発表が error:http403 で取得できず、WebFetchも不可（URL制約）。自動取得不可。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "beams-karte-2611",
+   "co": "株式会社ビームス（BEAMS CLUB会員／委託先 プレイド「KARTE」）",
+   "date": "2026-11-20",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 56187,
+   "label": "56,187件（報道）",
+   "st": "p",
+   "items": [
+    "id"
+   ],
+   "itemsText": "報道によると会員ID（BEAMS CLUB ID）。公式発表で要確認",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、プレイド「KARTE」への不正アクセスにより、2021年6月〜2022年3月にBEAMS公式サイトを訪れた会員の一部の会員IDが漏えいした可能性がある。",
+   "status": "ongoing",
+   "statusText": "報道ベース。公式発表本文は未照合。",
+   "resp": "報道によると不審なメール・SMS・電話への注意喚起。公式発表で要確認。",
+   "official": [
+    [
+     "ビームス お知らせ（2026/11/20）",
+     "https://www.beams.co.jp/company/information/detail/282"
+    ],
+    [
+     "プレイド：調査結果のお知らせ（2026/11/20）",
+     "https://plaid.co.jp/news/20261120/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/beams_club_56187_karte_member_id_possible_leak_20261/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "group": "karte",
    "pendingReason": "公式発表が error:http403 で取得できず、WebFetchも不可（URL制約）。自動取得不可。manual/ に公式文面を貼れば反映できる"
   }
  ]
