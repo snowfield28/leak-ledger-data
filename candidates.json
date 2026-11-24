@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -8813,6 +8813,75 @@
    "ind": "運輸・交通",
    "group": "ymirlink",
    "pendingReason": "公式発表PDFが error:ReadTimeout、WebFetchも不可（URL制約）で本文を読めず、件数・項目を照合できていない。自動取得不可。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "suntory-wellness-comado-karte-2611",
+   "co": "サントリーウエルネス株式会社（アプリ「Comado」／委託先 プレイド「KARTE」）",
+   "date": "2026-11-19",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 947667,
+   "label": "最大947,667件",
+   "st": "c",
+   "items": [
+    "id"
+   ],
+   "itemsText": "報道ではComadoのニックネーム、性別、年齢、購入商品名、Comado ID、支払方法の区分情報（公式本文は未確認）",
+   "sum": "プレイド「KARTE」への不正アクセスにより、アプリ「Comado」の顧客情報の一部が漏えいしたと報じられている。",
+   "status": "ongoing",
+   "statusText": "公式本文を未確認。",
+   "resp": "公式本文を未確認。",
+   "official": [
+    [
+     "サントリーウエルネス お知らせ",
+     "https://www.suntory-kenko.com/information/273/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/suntory-wellness-comado-karte-947667-data-leak/"
+    ]
+   ],
+   "ind": "医療・製薬",
+   "cause": "cyber",
+   "group": "karte",
+   "pendingReason": "公式発表（suntory-kenko.com/information/273/）が自動取得でReadTimeout、別経路でも開けず本文未確認。自動取得不可。manual/ に公式文面を貼れば反映できる"
+  },
+  {
+   "id": "persol-career-doda-tonariwa-2611",
+   "co": "パーソルキャリア株式会社（「doda」LINE公式アカウント／委託先 電通デジタル「TONARIWA」）",
+   "date": "2026-11-12",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "sum": "委託先の電通デジタルが提供する「TONARIWA」への不正アクセスで、パーソルキャリアがTONARIWA上で保持していた情報が漏えいした可能性があると報じられている。dodaのLINE公式アカウントの運用を停止。",
+   "status": "ongoing",
+   "statusText": "公式本文を未確認。",
+   "resp": "公式本文を未確認。",
+   "official": [
+    [
+     "外部委託先への不正アクセスによるお客様情報漏えいの可能性について（2026/11/12）",
+     "https://www.persol-career.co.jp/info/20261112_2370/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/11/24/56877.html"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "cause": "cyber",
+   "pendingReason": "公式発表（persol-career.co.jp/info/20261112_2370/）が自動取得でHTTP 403、別経路でも開けず本文未確認。自動取得不可。manual/ に公式文面を貼れば反映できる"
   }
  ]
 }
