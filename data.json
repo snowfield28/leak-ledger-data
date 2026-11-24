@@ -60156,6 +60156,58 @@
    ],
    "ind": "金融・保険",
    "verified": "2026-11-24"
+  },
+  {
+   "id": "mercari-notionai-fireworks-2611",
+   "co": "株式会社メルカリ・株式会社メルペイ・株式会社メルコイン（Notion AI／Notion委託先 Fireworks AI）",
+   "date": "2026-11-20",
+   "announced": "2026-11-20",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 3796,
+   "label": "3,796名分（4区分の単純合計）",
+   "st": "p",
+   "items": [
+    "name",
+    "addr",
+    "tel",
+    "mail",
+    "birth",
+    "deal"
+   ],
+   "itemsText": "従業員がNotion AIに入力した内容と回答記録の一部に含まれる個人情報。お客さま1,522名分（識別番号のみ1,061名、識別番号と利用・問い合わせ内容314名、識別番号・氏名・メールアドレス61名、その他86名）、取引先担当者等571名分（氏名・電話番号・メールアドレス等）、採用応募者169名分（氏名・住所・電話番号・メールアドレス・生年月日・選考情報等）、派遣社員・業務委託先・退職者1,534名分（氏名・業務上の連絡先・人事情報等）。項目は対象者により異なる",
+   "notIncl": "マイナンバー、クレジットカード番号、お客さまのログインパスワード（含まれていることは確認されていない）",
+   "who": [
+    "cust",
+    "biz",
+    "staff",
+    "work"
+   ],
+   "sum": "Notion社がNotion AIの処理の一部を委託していたFireworks AIが第三者から不正アクセスを受け、メルカリグループの従業員が2026年10月5日〜24日にNotion AIへ入力した内容と回答記録の一部が流出した可能性がある。在籍中の従業員の情報、業務情報、業務システムの認証情報の一部（無効化・再発行済み）も含まれる。グループのサービス・システムへの不正アクセスは確認されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月20日公表。一次調査は完了。Notion社からの調査結果の報告を受け、監視を継続。不正ログイン等は確認されていない。",
+   "resp": "Notion社がFireworks社との接続を遮断し対象記録を削除。業務システムの認証情報を無効化・再発行。個人情報保護委員会など関係当局へ報告。連絡先を把握している対象者へ11月20日から個別案内。Notion AIのチャット機能で扱う情報を限定。外部サービスの利用方法を見直し再発防止に取り組む。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://about.mercari.com/press/news/articles/20261120_incidentreport/"
+   },
+   "official": [
+    [
+     "当社グループが利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性について（2026/11/20）",
+     "https://about.mercari.com/press/news/articles/20261120_incidentreport/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mercari-notion-ai-fireworks-3796-data-leak-risk-202611/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "verified": "2026-11-24"
   }
  ],
  "statusLabels": {
@@ -60188,7 +60240,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 346,
+ "pendingCount": 345,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
