@@ -8894,49 +8894,6 @@
    ],
    "ind": "小売・EC",
    "pendingReason": "公式発表が error:http403 で取得できず、WebFetchも不可（URL制約）。自動取得不可。manual/ に公式文面を貼れば反映できる"
-  },
-  {
-   "id": "beams-karte-2611",
-   "co": "株式会社ビームス（BEAMS CLUB会員／委託先 プレイド「KARTE」）",
-   "date": "2026-11-20",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": 56187,
-   "label": "56,187件（報道）",
-   "st": "p",
-   "items": [
-    "id"
-   ],
-   "itemsText": "報道によると会員ID（BEAMS CLUB ID）。公式発表で要確認",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道によると、プレイド「KARTE」への不正アクセスにより、2021年6月〜2022年3月にBEAMS公式サイトを訪れた会員の一部の会員IDが漏えいした可能性がある。",
-   "status": "ongoing",
-   "statusText": "報道ベース。公式発表本文は未照合。",
-   "resp": "報道によると不審なメール・SMS・電話への注意喚起。公式発表で要確認。",
-   "official": [
-    [
-     "ビームス お知らせ（2026/11/20）",
-     "https://www.beams.co.jp/company/information/detail/282"
-    ],
-    [
-     "プレイド：調査結果のお知らせ（2026/11/20）",
-     "https://plaid.co.jp/news/20261120/"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/beams_club_56187_karte_member_id_possible_leak_20261/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "group": "karte",
-   "pendingReason": "公式発表が error:http403 で取得できず、WebFetchも不可（URL制約）。自動取得不可。manual/ に公式文面を貼れば反映できる"
   }
  ]
 }
