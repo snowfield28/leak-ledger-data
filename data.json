@@ -60100,6 +60100,62 @@
    "ind": "小売・EC",
    "group": "karte",
    "verified": "2026-11-24"
+  },
+  {
+   "id": "smbcnikko-mochikabukai-2611",
+   "co": "SMBC日興証券株式会社（持株会管理システム）",
+   "date": "2026-11-11",
+   "announced": "2026-11-11",
+   "occurred": "2026-11-09",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 56487,
+   "label": "最大56,487人",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "deal",
+    "acct"
+   ],
+   "itemsText": "持株会名、投資銘柄情報、会員識別番号、氏名、住所、配当金および諸税、持分残高、振替先口座情報（項目は会員ごとに異なる）",
+   "notIncl": "電話番号、メールアドレス",
+   "who": [
+    "cust"
+   ],
+   "sum": "持株会事務受託業務で使うシステムが第三者から不正アクセスを受け、持株会の会員の個人情報が外部に漏えいした。11月9日に不正アクセスを確認し、同日中にアクセス遮断とサービスの一時停止を実施。調査の過程で漏えいを確認した。人数は最大値。",
+   "status": "ongoing",
+   "statusText": "2026年11月11日公表。原因と影響範囲を調査中。二次被害は確認されていない。",
+   "resp": "アクセス遮断とサービス一時停止。対象の持株会へ個別連絡。再発防止と情報管理態勢の強化。システム再開時は個別連絡やHPで案内。不審な連絡への注意喚起。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-715-250",
+      "hours": "持株会の会員さま専用窓口 平日9〜18時、土日祝9〜17時"
+     }
+    ],
+    "src": "https://www.smbcnikko.co.jp/news/release/2026/pdf/261111_01.pdf"
+   },
+   "official": [
+    [
+     "当社持株会管理システムへの不正アクセスによる個人情報の漏えいについて（2026/11/11）",
+     "https://www.smbcnikko.co.jp/news/release/2026/pdf/261111_01.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/smbc-nikko-stock-ownership-association-data-breach-2026/"
+    ],
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/11/20/56861.html"
+    ]
+   ],
+   "ind": "金融・保険",
+   "verified": "2026-11-24"
   }
  ],
  "statusLabels": {
@@ -60132,7 +60188,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 347,
+ "pendingCount": 346,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
