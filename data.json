@@ -59984,6 +59984,62 @@
    "ind": "小売・EC",
    "group": "karte",
    "verified": "2026-11-24"
+  },
+  {
+   "id": "mercedes-benz-japan-pcs-2611",
+   "co": "メルセデス・ベンツ日本合同会社（24時間ツーリングサポート／委託先 プレステージ・コアソリューション）",
+   "date": "2026-11-20",
+   "occurred": "2026-10-29",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 18000,
+   "label": "約1.8万人（2026年11月17日現在）",
+   "st": "c",
+   "items": [
+    "name",
+    "addr",
+    "deal"
+   ],
+   "itemsText": "氏名、住所、車台番号、自動車登録番号、委託先内管理用の受付番号",
+   "notIncl": "クレジットカード情報、銀行口座情報",
+   "who": [
+    "cust"
+   ],
+   "sum": "ロードサービス（24時間ツーリングサポート）の委託先プレステージ・コアソリューションの業務システムが第三者から不正アクセスを受け、2025年12月10日〜2026年10月30日の利用者の情報が外部に流出した。委託先の調査では、Webアプリケーションのアクセス制御と認証情報管理に不備があり、悪用されたとみられる。10月29日に委託先が検知、30日にシステムを停止し、同日メルセデス・ベンツ日本が報告を受けた。",
+   "status": "ongoing",
+   "statusText": "2026年11月20日更新の公表。二次被害は確認されていない。委託先はシステム改修による是正措置を予定。",
+   "resp": "対象のお客様へメールまたは郵送で順次個別連絡（困難な場合は公表をもって代える）。委託先は認証情報の変更等の暫定対策を実施しシステム改修を予定。委託先への管理・監督を強化。",
+   "contact": {
+    "tels": [
+     {
+      "tel": "0120-190-610",
+      "hours": "メルセデスコール 8時〜20時、365日（メンテナンス等で休止の場合あり）"
+     }
+    ],
+    "src": "https://www.mercedes-benz.co.jp/passengercars/brand/notification/261120-information.html"
+   },
+   "official": [
+    [
+     "業務委託先における個人情報漏えいに関するお詫びとご報告（2026/11/20）",
+     "https://www.mercedes-benz.co.jp/passengercars/brand/notification/261120-information.html"
+    ],
+    [
+     "プレステージ・インターナショナル 適時開示（2026/11/2）",
+     "https://www.prestigein.com/Portals/0/pdf/NEWS/news_20261102_01.pdf"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/mercedes_benz_japan_pcs_touring_support_18000_vehicle_info_breach/"
+    ]
+   ],
+   "ind": "製造",
+   "group": "prestige",
+   "verified": "2026-11-24"
   }
  ],
  "statusLabels": {
@@ -60016,7 +60072,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 349,
+ "pendingCount": 348,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
