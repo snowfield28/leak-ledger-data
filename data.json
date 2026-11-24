@@ -60892,6 +60892,47 @@
    "ind": "医療・製薬",
    "group": "karte",
    "verified": "2026-11-25"
+  },
+  {
+   "id": "persol-career-doda-tonariwa-2611",
+   "co": "パーソルキャリア株式会社（「doda」LINE公式アカウント／委託先 電通デジタル「TONARIWA」）",
+   "date": "2026-11-12",
+   "announced": "2026-11-12",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "unk"
+   ],
+   "sum": "転職サービス「doda」のLINE公式アカウント運用に使う電通デジタルの「TONARIWA」が不正アクセスを受け、パーソルキャリアが同サービス上で保持していた情報が外部に漏えいした可能性がある。自社システムへの不正アクセスは確認されていない。11月11日午前1時9分以降にLINE友だち登録した人の情報はTONARIWAに連携されていない。",
+   "status": "ongoing",
+   "statusText": "2026年11月12日公表。件数・項目は公表されていない。",
+   "resp": "電通デジタルがTONARIWAを停止し、不正アクセス経路の遮断、システムの隔離、当社LINE公式アカウントとの連携リセットを実施。「doda」LINE公式アカウントの運用を停止中で、担当キャリアアドバイザーへの連絡は電話またはメールを案内。漏えい情報のインターネット上での公開・拡散は確認されていない。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし（運用停止中は担当キャリアアドバイザーへ電話またはメール）",
+    "src": "https://www.persol-career.co.jp/info/20261112_2370/"
+   },
+   "official": [
+    [
+     "外部委託先への不正アクセスによるお客様情報漏えいの可能性について（2026/11/12）",
+     "https://www.persol-career.co.jp/info/20261112_2370/"
+    ]
+   ],
+   "src": [
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/11/24/56877.html"
+    ]
+   ],
+   "ind": "人材・教育・業務支援",
+   "verified": "2026-11-25"
   }
  ],
  "statusLabels": {
@@ -60924,7 +60965,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 346,
+ "pendingCount": 345,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
