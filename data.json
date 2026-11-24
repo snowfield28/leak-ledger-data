@@ -60842,6 +60842,56 @@
    ],
    "ind": "小売・EC",
    "verified": "2026-11-25"
+  },
+  {
+   "id": "suntory-wellness-comado-karte-2611",
+   "co": "サントリーウエルネス株式会社（アプリ「Comado」／委託先 プレイド「KARTE」）",
+   "date": "2026-11-19",
+   "announced": "2026-11-19",
+   "occurred": "2026-11-13",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 947667,
+   "label": "最大947,667件",
+   "st": "c",
+   "items": [
+    "id"
+   ],
+   "itemsText": "Comadoニックネーム、性別、年齢、購入した商品名、Comado ID（弊社側で顧客を識別するためのID）、支払い方法に関する区分情報（フラグのみ）",
+   "notIncl": "氏名、メールアドレス、クレジットカード番号・金融口座情報、パスワード、生年月日、住所、電話番号",
+   "who": [
+    "cust"
+   ],
+   "sum": "アプリ「Comado」と連携していたプレイドの「KARTE」が11月13日に不正アクセスを受け、11月18日にプレイドからの連絡で顧客情報の一部の漏えいが判明。件数は判明している最大値。",
+   "status": "ongoing",
+   "statusText": "2026年11月19日公表。KARTE停止に伴いComadoの一部機能が停止し、復旧時期は未定。",
+   "resp": "漏えいを確認した顧客へメール等で個別連絡。ライブ配信時のコメント投稿・アンケート機能など一部機能を停止。偽メール・SMSへの注意喚起。再発防止と委託先を含むセキュリティ対策の強化に取り組む。不正利用・二次被害は確認されていない。",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": "https://www.suntory-kenko.com/information/273/"
+   },
+   "official": [
+    [
+     "外部サービス「KARTE」への不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ（2026/11/19）",
+     "https://www.suntory-kenko.com/information/273/"
+    ],
+    [
+     "プレイド：不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ（2026/11/16）",
+     "https://plaid.co.jp/news/20261116/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/suntory-wellness-comado-karte-947667-data-leak/"
+    ]
+   ],
+   "ind": "医療・製薬",
+   "group": "karte",
+   "verified": "2026-11-25"
   }
  ],
  "statusLabels": {
@@ -60874,7 +60924,7 @@
   "config": "設定ミス・不具合"
  },
  "verifyRule": "組織自身の公式発表を開き、報道・一覧の内容と一致したものだけを掲載。確認できない候補は candidates.json に保留。",
- "pendingCount": 347,
+ "pendingCount": 346,
  "whoLabels": {
   "cust": "顧客・利用者",
   "biz": "取引先・法人顧客",
