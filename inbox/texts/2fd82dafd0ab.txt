@@ -1,0 +1,89 @@
+URL: https://scan.netsecurity.ne.jp/article/2026/11/25/56897.html
+
+Microsoft Defender のクラウド関連処理における不備により特権レジストリキーが操作可能となる脆弱性（Scan Tech Report） | ScanNetSecurity
+ホーム
+ › 
+インシデント・事故
+ › 
+インシデント・情報漏えい
+ › 
+記事
+515
+views
+Scan Tech Report
+WordPress バージョン 6 系および 7 系における遠隔からの任意のコード実行が可能となる複数の脆弱性（Scan Tech Report）
+Microsoft Defender におけるアップデート処理の妨害によりサービス停止が可能となる脆弱性（Scan Tech Report）
+Linux カーネルのネットワーク機能におけるページキャッシュの上書きが可能となるデータ検証不備の脆弱性（Scan Tech Report）
+編集部にメッセージを送る
+ ◆概要
+ 2026 年 4 月に修正された Microsoft Defender の脆弱性を悪用するエクスプロイトコードが公開されています。脆弱性の悪用により、攻撃者は侵入に成功した Microsoft Windows OS の管理者権限を奪取できます。セキュリティ更新プログラムの適用により対策してください。
+◆分析者コメント
+ 本記事が取り上げている脆弱性は、Nightmare Eclipse 氏により公開された一連の 0-day 脆弱性の 1 つであり、「MiniPlasma」という名称で知られており世界的に注目度が高いものです。Microsoft Windows OS への侵入に成功した攻撃者が悪用する可能性が高いため、セキュリティ更新プログラムの適用による早急な対策が推奨されます。
+◆深刻度(CVSS)
+[CVSS v3.1]
+7.8
+https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?cveId=CVE-2026-33825&vector=CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&sourceName=Microsoft%20Corporation
+◆影響を受けるソフトウェア
+ Microsoft Defender Antimalware Platform バージョン 4.18.26030.3011 未満が当該脆弱性の影響を受けると報告されています。
+◆解説
+ Microsoft Defender Antimalware Platform に、Microsoft Windows OS の管理者権限の奪取につながる脆弱性が報告されています。
+ 脆弱性は、2020 年 12 月に公開された CVE-2020-17103 のセキュリティ更新プログラムを回避するものであり、クラウド関連処理のファイル操作を担うカーネルドライバー Cldflt.sys の HsmOsBlockPlaceholderAccess ルーチンに存在するものです。脆弱性が存在する環境では、Anonymous ユーザーとして当該ルーチンを呼び出すと、HKEY_USERS:\.DEFAULT 配下のレジストリキーが操作され、この際の検証に不備が存在します。攻撃者は、Anonymous 権限になりすますスレッド処理と、HKEY_USERS:\.DEFAULT の操作を呼び出すスレッド処理を作成して競合状態を引き起こすことで、HKEY_USERS:\.DEFAULT 配下に任意のレジストリ値を設定可能となります。
+◆対策
+ Microsoft 公式が 2026 年 4 月に公開したセキュリティ更新プログラムの適用により対策してください。
+◆関連情報
+[1] Microsoft 公式
+ https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33825
+[2] Microsoft 公式
+ https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-17103
+[3] National Vulnerability Database (NVD)
+ https://nvd.nist.gov/vuln/detail/CVE-2026-33825
+[4] CVE
+ https://www.cve.org/CVERecord?id=CVE-2026-33825
+[5] National Vulnerability Database (NVD)
+ https://nvd.nist.gov/vuln/detail/CVE-2020-17103
+[6] CVE
+ https://www.cve.org/CVERecord?id=CVE-2020-17103
+◆エクスプロイト
+以下の Web サイトにて、当該脆弱性の悪用により SYSTEM 権限の奪取を試み
+るエクスプロイトコードが公開されています。
+ Project Nightcrawler - MiniPlasma
+ https://git.projectnightcrawler.dev/NightmareEclipse/MiniPlasma/src/branch/main/PoC_AbortHydration_ArbitraryRegKey_EoP
+//-- で始まる行は執筆者によるコメントです。
+《株式会社ラック デジタルペンテスト部》
+一次情報または関連リンク
+株式会社ラック デジタルペンテスト部
+関連記事
+Microsoft Defender におけるアップデート処理の妨害によりサービス停止が可能となる脆弱性（Scan Tech Report）
+2026.10.27 Tue 8:15
+Microsoft Malware Protection Engine における任意の特権ファイルの書き込みが可能となるファイル操作での検証不備（Scan Tech Report）
+2026.10.1 Thu 8:20
+Microsoft Defender における特権昇格につながる定義更新時のファイル操作不備（Scan Tech Report）
+2026.8.27 Thu 8:20
+Microsoft Defender に擬装しマルウェアを歓迎する攻撃ツール
+2024.1.18 Thu 8:10
+ScanNetSecurityをフォローしよう！
+@scannetsecurityをフォロー
+facebook
+シェア
+ポスト
+hatebu
+ブックマーク
+Pocket
+後で読む
+閲覧数ランキング(24時間)
+マネックス証券の口座開設システムに不正アクセス、本人確認書類画像データが漏えいした可能性
+IPA が PHP のセキュリティリリース公開に向けて事前準備を呼びかけ
+ニトリホールディングスに不正アクセス、最大3,762万件の個人情報が漏えい
+電通デジタル「TONARIWA」に不正アクセス、導入企業 2 社で個人情報漏えい
+スカイライナー座席予約システムに不正アクセス、最大約337万件の顧客情報が取得された可能性
+ロート製薬のシステムに不正アクセス、クレジットカード番号含む通話音声データが漏えい
+NGINX に複数の脆弱性、CVSS v4.0 で 9.2（Critical）評価
+Microsoft Defender のクラウド関連処理における不備により特権レジストリキーが操作可能となる脆弱性（Scan Tech Report）
+電通デジタル「TONARIWA」に不正アクセス、パーソルキャリアが保持していた情報が漏えいした可能性
+債権回収事業者に不正アクセス、地銀の個人情報漏えい
+ランキングをもっと見る
+「経理」「営業」「企画」「プログラミング」「デザイン」と並ぶ、事業で成功するためのビジネスセンスが「セキュリティ」
+ページ右上「ユーザー登録」から会員登録すれば会員限定記事を閲覧できます。毎週月曜の朝、先週一週間のセキュリティ動向を総括しふりかえるメルマガをお届け。（写真：ScanNetSecurity 永世名誉編集長 りく）
+Scan PREMIUM とは？
+×
+Scan PREMIUM 登録方法
