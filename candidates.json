@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -2493,7 +2493,7 @@
      "https://scan.netsecurity.ne.jp/article/2026/03/24/54893.html"
     ]
    ],
-   "pendingReason": "公式発表・初回公表日を確認できない（取得制限）"
+   "pendingReason": "公式PDF(dangoya.com/html/user_data/customerdata.pdf、2026/1/13発表)の所在は特定したが本文を開けず（取得制限）。自動取得不可。manual/ に公式文面を貼れば反映できる"
   },
   {
    "id": "north-bicycle-hokkaido",
@@ -2534,7 +2534,7 @@
      "https://scan.netsecurity.ne.jp/article/2026/03/24/54893.html"
     ]
    ],
-   "pendingReason": "公式発表・公表日・件数を確認できない（取得制限）"
+   "pendingReason": "公式PDF(2026/1/19公表、2025/10/17発生)の所在は検索で特定したが本文を開けず件数未確認（取得制限）。報道では約14,638名の氏名・PCログインID"
   },
   {
    "id": "scan-54588-unknown",
@@ -2640,7 +2640,17 @@
      "https://scan.netsecurity.ne.jp/article/2026/02/26/54707.html"
     ]
    ],
-   "pendingReason": "公式発表を開けず、初回公表日・漏えい対象を未確認（取得制限）"
+   "pendingReason": "公式第2報(2026/2/20)・第6報(2026/8/19)を確認。カード情報を含む個人情報の漏えい可能性を公表するも、件数・項目は未確定で第一報の公表日も公式ページに記載なし。調査結果の確定待ち（2026/8/12から再調査中）",
+   "official": [
+    [
+     "お知らせ第2報（2026/2/20）",
+     "https://www.beautygarage.jp/topics/news_card-issue2"
+    ],
+    [
+     "第6報（2026/8/19）",
+     "https://www.beautygarage.jp/topics/news_card-issue4"
+    ]
+   ]
   },
   {
    "id": "machiene",
@@ -2675,7 +2685,7 @@
      "https://scan.netsecurity.ne.jp/article/2026/02/27/54721.html"
     ]
    ],
-   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
+   "pendingReason": "公式サイト2ページ(2026/1/23初報・1/28続報)の所在は特定したが本文を開けず、個人情報への言及の有無未確認（取得制限）"
   },
   {
    "id": "feature-2602",
@@ -2692,7 +2702,7 @@
      "https://scan.netsecurity.ne.jp/article/2026/02/27/54719.html"
     ]
    ],
-   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
+   "pendingReason": "TDnet最終報(2026/5/13)の所在は特定したが本文を開けず、個人情報の外部流出の有無・件数未確認（取得制限）。2/12初報、2/9発見"
   },
   {
    "id": "mg-sekizai",
@@ -2707,23 +2717,6 @@
     [
      "ScanNetSecurity",
      "https://scan.netsecurity.ne.jp/article/2026/02/27/54718.html"
-    ]
-   ],
-   "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
-  },
-  {
-   "id": "ulvac-korea",
-   "co": "アルバック（韓国連結子会社）",
-   "cause": "cyber",
-   "types": [
-    "ランサムウェア"
-   ],
-   "st": "p",
-   "sum": "ランサムウェア等のサイバー攻撃を受けたと公表（報道見出し）。",
-   "src": [
-    [
-     "ScanNetSecurity",
-     "https://scan.netsecurity.ne.jp/article/2026/02/24/54686.html"
     ]
    ],
    "pendingReason": "記事・公式発表とも開けず（取得制限・検索枠上限）、個人情報の漏えい・可能性への言及の有無を未確認。言及がなければ対象外"
@@ -8111,7 +8104,7 @@
    "items": [],
    "itemsText": "項目は公表資料で要確認",
    "notIncl": "",
-   "sum": "11月9日に一部システムが第三者の不正アクセスを受けランサムウェア被害が発生。情報の外部流出の有無・範囲は調査中。",
+   "sum": "11月9日に一部システムが第三者の不正アクセスを受けランサムウェア被害が発生。情報の外部流出の有無・範囲は調査中。ランサムウェアグループがデータリークサイトに掲載したと報じられたが、掲載はフォルダ名等の一覧で、中身や個人情報の有無は未確認。",
    "status": "ongoing",
    "statusText": "調査・復旧中。",
    "resp": "",
@@ -8125,10 +8118,15 @@
     [
      "セキュリティ対策Lab",
      "https://rocket-boys.co.jp/security-measures-lab/eicoh-ransomware-unauthorized-access-payment-change-2026/"
+    ],
+    [
+     "セキュリティ対策Lab（犯行声明）",
+     "https://rocket-boys.co.jp/security-measures-lab/eicoh-the-gentlemen-ransomware-folder-disclosure-2026/"
     ]
    ],
    "ind": "製造",
-   "pendingReason": "公式発表は情報流出の有無を調査中とするのみで、個人情報への言及がない。続報待ち。"
+   "pendingReason": "2026/11/13付の公式発表の再確認でも、情報の外部流出の有無・範囲は調査中とするのみで個人情報への言及がない。犯行声明側の主張は公式の裏付けがないため採用しない。続報待ち。",
+   "last": "2026-11-24"
   },
   {
    "id": "sasebo-ecoin-arara-2611",
@@ -8368,12 +8366,16 @@
    "label": "調査中",
    "st": "p",
    "items": [],
-   "itemsText": "項目は公表資料で要確認（第一報に個人情報の記載なし）",
-   "sum": "11月17日にサーバー内データの暗号化を確認。埼玉事業所・岩手大崎電気・大崎プラテックの生産関連システムを停止し、スマートメーター等の生産・出荷ができない。データが外部に流出した可能性も含め外部専門機関と調査中。",
+   "itemsText": "個人情報の漏えいは確認・言及なし（第二報は技術情報の掲載を認知、他の情報の漏えいの有無は調査中。個人情報の漏えいが確認された場合は個人情報保護委員会への報告と本人通知を行うとしている）",
+   "sum": "11月17日にサーバー内データの暗号化を確認。侵入は11月15日、VPN機器の認証突破（多要素認証未適用アカウント）によるとみられる。一部の仮想サーバーが暗号化され、生産関連システムを停止中。11月19日にネット上のサイトへ同社システム内のものと思われる技術情報が掲載されたと認知した。",
    "status": "ongoing",
-   "statusText": "公式発表の本文を確認できていない。",
+   "statusText": "2026年11月20日に第二報を公表。調査・復旧中で、情報漏えいの有無は調査中。",
    "resp": "緊急対策本部を設置し、警察・関係当局に相談・報告。外部専門機関と調査・復旧を進める。",
    "official": [
+    [
+     "ランサムウェアによるサイバー攻撃に伴う生産停止に関するお知らせ（第二報）（2026/11/20）",
+     "https://www.osaki.co.jp/ja/notice/20261120.html"
+    ],
     [
      "ランサムウェアによるサイバー攻撃に伴う生産停止に関するお知らせ（第一報）（2026/11/18）",
      "https://www.osaki.co.jp/ja/notice/20261118.html"
@@ -8383,10 +8385,15 @@
     [
      "セキュリティ対策Lab",
      "https://rocket-boys.co.jp/security-measures-lab/osaki-electric-ransomware-smart-meter-production-shutdown/"
+    ],
+    [
+     "ScanNetSecurity",
+     "https://scan.netsecurity.ne.jp/article/2026/11/25/56895.html"
     ]
    ],
    "ind": "製造",
-   "pendingReason": "公式第一報（2026/11/18）は暗号化・生産停止の報告で、「データ流出の可能性を含め調査中」とするのみで個人情報の漏えいの記載がなく、台帳の対象か判断できない。続報待ち。"
+   "pendingReason": "公式第二報（2026/11/20）の本文を確認したが、掲載が認知されたのは技術情報で、個人情報の漏えいは確認されていない。「確認された場合は通知する」とするのみで個人情報漏えいの事実はなく、除外もできないため続報待ち。",
+   "last": "2026-11-20"
   },
   {
    "id": "uniform-next-karte-2611",
@@ -8769,6 +8776,118 @@
    ],
    "ind": "生活サービス・レジャー",
    "pendingReason": "第一報は個人情報の流出の有無を調査中とするのみで、漏えい・漏えいの可能性は公表されていない。続報待ち。適時開示PDFはrobotsで未取得。"
+  },
+  {
+   "id": "fujisaki-karte-2611",
+   "co": "株式会社藤崎（FUJISAKI online／委託先 プレイド「KARTE」）",
+   "date": "2026-11-18",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": 75000,
+   "label": "最大約7万5,000件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（報道では氏名、メールアドレス、オンライン会員番号、居住地域など）",
+   "who": [
+    "cust"
+   ],
+   "sum": "報道によると、藤崎が利用するプレイドの「KARTE」への不正アクセスで、公式通販サイト会員の情報が最大約7万5,000件漏えいした可能性がある。",
+   "status": "ongoing",
+   "statusText": "報道ベース。藤崎自身の発表本文は未確認。",
+   "resp": "",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/fujisaki_online_karte_75000_data_breach_20261124/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "group": "karte",
+   "pendingReason": "自動取得不可（藤崎公式 https://www.fujisaki.co.jp/event/post-35.html が ConnectTimeout、検索でも別経路の公式本文を確認できず）。プレイドの発表のみでは add できない。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "infonet-infocms-2611",
+   "co": "株式会社インフォネット（infoCMS）",
+   "date": "2026-11-22",
+   "announced": "2026-11-22",
+   "last": "2026-11-24",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "who": [
+    "unk"
+   ],
+   "sum": "CMS「infoCMS」の共用サーバーの一部で第三者の不正アクセスの痕跡を確認し、11月21日20時頃に対象サーバー上の顧客Webサイトを停止。影響範囲を調査中。",
+   "status": "ongoing",
+   "statusText": "第2報（11月24日）時点で影響範囲・原因を調査中。公式発表は個人情報の漏えいに言及していない。",
+   "contact": {
+    "mails": [
+     "cs_support@infonet.jp"
+    ],
+    "note": "サポートデスク",
+    "src": "https://www.e-infonet.jp/news/detail.html?dispmid=594&itemid=1068"
+   },
+   "official": [
+    [
+     "当社運用サーバーへの不正アクセスおよびお客様Webサイトの一時停止に関するお知らせ（2026/11/22）",
+     "https://e-infonet.jp/news/detail.html?dispmid=594&itemid=1067"
+    ],
+    [
+     "【第2報】経過報告（2026/11/24）",
+     "https://www.e-infonet.jp/news/detail.html?dispmid=594&itemid=1068"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/infonet-infocms-shared-server-unauthorized-access-20261124/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "公式発表（11/22・11/24）は不正アクセスとサイト停止のみで、個人情報の漏えい・閲覧の有無は調査中として言及なし。漏えい（可能性）の公表を待つ。親会社IR（第1報）本文は未取得。"
+  },
+  {
+   "id": "usen-trust-2611",
+   "co": "株式会社USEN TRUST（U-NEXT HOLDINGSグループ）",
+   "date": "2026-11-18",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 32075,
+   "label": "3万2,075件",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（報道では申込者名、申込番号、建物名、部屋番号・区画番号等）",
+   "who": [
+    "biz"
+   ],
+   "sum": "報道によれば、事業用物件の家賃保証サービスの申込情報3万2,075件に漏えいのおそれ（10月27日に不正アクセスの痕跡を確認、11月18日公表）。",
+   "status": "ongoing",
+   "statusText": "公式本文未確認",
+   "contact": {
+    "note": "公式発表に窓口の記載なし",
+    "src": ""
+   },
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/u-next-holdings%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97%e3%81%aeusen-trust%e3%81%ab%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%80%81%e5%ae%b6%e8%b3%83%e4%bf%9d%e8%a8%bc%e7%94%b3%e8%be%bc/"
+    ]
+   ],
+   "ind": "建設・不動産",
+   "pendingReason": "公式発表（USEN TRUST 2026/11/18「不正アクセスによるお客様情報流出の可能性に関するお詫びとお知らせ」）のURLが取得資料になく、本文を読めていない。公式文面を manual/ に貼れば反映できる。"
   }
  ]
 }

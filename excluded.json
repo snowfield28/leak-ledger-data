@@ -843,6 +843,16 @@
     "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111905"
    ],
    "checked": "2026-11-22"
+  },
+  {
+   "id": "ulvac-korea",
+   "co": "アルバック（韓国連結子会社 Pure Surface Technology）",
+   "date": "2026-02-04",
+   "reason": "公式発表（2026/2/4）は韓国子会社のサーバ・PCのファイルが暗号化されたとの内容で、個人情報の漏えい・可能性に言及がなく対象外",
+   "official": [
+    "https://www.ulvac.co.jp/en/news/20260203a/"
+   ],
+   "checked": "2026-11-26"
   }
  ]
 }
