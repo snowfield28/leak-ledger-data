@@ -8769,50 +8769,6 @@
    ],
    "ind": "生活サービス・レジャー",
    "pendingReason": "第一報は個人情報の流出の有無を調査中とするのみで、漏えい・漏えいの可能性は公表されていない。続報待ち。適時開示PDFはrobotsで未取得。"
-  },
-  {
-   "id": "peach-cuenote-2611",
-   "co": "Peach Aviation株式会社（メール配信／委託先 ユミルリンク「Cuenote FC」）",
-   "date": "2026-11-20",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": 8997106,
-   "label": "8,997,106件（報道）",
-   "st": "c",
-   "items": [
-    "name",
-    "addr",
-    "tel",
-    "mail",
-    "birth"
-   ],
-   "itemsText": "報道によると氏名・生年月日・性別・住所・電話番号・メールアドレス・旅程。公式発表で要確認",
-   "notIncl": "報道によるとクレジットカード情報・パスポート情報は対象外",
-   "who": [
-    "unk"
-   ],
-   "sum": "報道によると、メール配信委託先ユミルリンクの「Cuenote FC」への不正アクセスにより、Peachの顧客情報が11月20日に漏えいと公表された。10月公表の別件（IDCフロンティア）とは別事案。",
-   "status": "ongoing",
-   "statusText": "報道ベース。公式発表本文で未照合。",
-   "resp": "報道によると11月20日から対象者へメール通知、個人情報保護委員会へ報告済み。",
-   "official": [
-    [
-     "Peach Aviation お知らせ（2026/11/20）",
-     "https://www.flypeach.com/application/files/3617/9515/4415/20261120_INFO_JP.pdf"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/peach_aviation_cuenote_fc_8997106_itinerary_data_breach/"
-    ]
-   ],
-   "ind": "運輸・交通",
-   "group": "ymirlink",
-   "pendingReason": "公式発表PDFが error:ReadTimeout、WebFetchも不可（URL制約）で本文を読めず、件数・項目を照合できていない。自動取得不可。manual/ に公式文面を貼れば反映できる"
   }
  ]
 }
