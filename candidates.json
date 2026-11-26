@@ -8778,38 +8778,6 @@
    "pendingReason": "第一報は個人情報の流出の有無を調査中とするのみで、漏えい・漏えいの可能性は公表されていない。続報待ち。適時開示PDFはrobotsで未取得。"
   },
   {
-   "id": "fujisaki-karte-2611",
-   "co": "株式会社藤崎（FUJISAKI online／委託先 プレイド「KARTE」）",
-   "date": "2026-11-18",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": 75000,
-   "label": "最大約7万5,000件（報道）",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認（報道では氏名、メールアドレス、オンライン会員番号、居住地域など）",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道によると、藤崎が利用するプレイドの「KARTE」への不正アクセスで、公式通販サイト会員の情報が最大約7万5,000件漏えいした可能性がある。",
-   "status": "ongoing",
-   "statusText": "報道ベース。藤崎自身の発表本文は未確認。",
-   "resp": "",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/fujisaki_online_karte_75000_data_breach_20261124/"
-    ]
-   ],
-   "ind": "小売・EC",
-   "group": "karte",
-   "pendingReason": "自動取得不可（藤崎公式 https://www.fujisaki.co.jp/event/post-35.html が ConnectTimeout、検索でも別経路の公式本文を確認できず）。プレイドの発表のみでは add できない。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "infonet-infocms-2611",
    "co": "株式会社インフォネット（infoCMS）",
    "date": "2026-11-22",
