@@ -8778,53 +8778,6 @@
    "pendingReason": "第一報は個人情報の流出の有無を調査中とするのみで、漏えい・漏えいの可能性は公表されていない。続報待ち。適時開示PDFはrobotsで未取得。"
   },
   {
-   "id": "infonet-infocms-2611",
-   "co": "株式会社インフォネット（infoCMS）",
-   "date": "2026-11-22",
-   "announced": "2026-11-22",
-   "last": "2026-11-24",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "who": [
-    "unk"
-   ],
-   "sum": "CMS「infoCMS」の共用サーバーの一部で第三者の不正アクセスの痕跡を確認し、11月21日20時頃に対象サーバー上の顧客Webサイトを停止。影響範囲を調査中。",
-   "status": "ongoing",
-   "statusText": "第2報（11月24日）時点で影響範囲・原因を調査中。公式発表は個人情報の漏えいに言及していない。",
-   "contact": {
-    "mails": [
-     "cs_support@infonet.jp"
-    ],
-    "note": "サポートデスク",
-    "src": "https://www.e-infonet.jp/news/detail.html?dispmid=594&itemid=1068"
-   },
-   "official": [
-    [
-     "当社運用サーバーへの不正アクセスおよびお客様Webサイトの一時停止に関するお知らせ（2026/11/22）",
-     "https://e-infonet.jp/news/detail.html?dispmid=594&itemid=1067"
-    ],
-    [
-     "【第2報】経過報告（2026/11/24）",
-     "https://www.e-infonet.jp/news/detail.html?dispmid=594&itemid=1068"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/infonet-infocms-shared-server-unauthorized-access-20261124/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "公式発表（11/22・11/24）は不正アクセスとサイト停止のみで、個人情報の漏えい・閲覧の有無は調査中として言及なし。漏えい（可能性）の公表を待つ。親会社IR（第1報）本文は未取得。"
-  },
-  {
    "id": "usen-trust-2611",
    "co": "株式会社USEN TRUST（U-NEXT HOLDINGSグループ）",
    "date": "2026-11-18",

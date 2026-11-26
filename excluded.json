@@ -853,6 +853,16 @@
     "https://www.ulvac.co.jp/en/news/20260203a/"
    ],
    "checked": "2026-11-26"
+  },
+  {
+   "id": "infonet-infocms-2611",
+   "co": "株式会社インフォネット（infoCMS）",
+   "date": "2026-11-22",
+   "reason": "公式発表（2026/11/22）は共用サーバーへの不正アクセスの痕跡とWebサイト公開の一時停止を伝えるのみで、個人情報の漏えい・可能性に触れていないため対象外。影響範囲は調査中で、続報で漏えいが公表されれば再確認する。",
+   "official": [
+    "https://e-infonet.jp/news/detail.html?dispmid=594&itemid=1067"
+   ],
+   "checked": "2026-11-26"
   }
  ]
 }
