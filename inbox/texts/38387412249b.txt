@@ -1,0 +1,317 @@
+URL: https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
+
+Secrets Management - OWASP Cheat Sheet Series
+ Skip to content
+Secrets Management Cheat Sheet
+¶
+1 Introduction
+¶
+Secrets are being used everywhere nowadays, especially with the popularity of the DevOps movement. Application Programming Interface (API) keys, database credentials, Identity and Access Management (IAM) permissions, Secure Shell (SSH) keys, certificates, etc. Many organizations have them hardcoded within the source code in plaintext, littered throughout configuration files and configuration management tools.
+There is a growing need for organizations to centralize the storage, provisioning, auditing, rotation and management of secrets to control access to secrets and prevent them from leaking and compromising the organization. Often, services share the same secrets, which makes identifying the source of compromise or leak challenging.
+This cheat sheet offers best practices and guidelines to help properly implement secrets management.
+2 General Secrets Management
+¶
+The following sections address the main concepts relating to secrets management.
+2.1 High Availability
+¶
+It is vital to select a technology that is robust enough to service traffic reliably:
+Users (e.g., SSH keys, root account passwords). In an incident response scenario, users expect to be provisioned with credentials rapidly, so they can recover services that have gone offline. Having to wait for credentials could impact the responsiveness of the operations team.
+Applications (e.g., database credentials and API keys). If the service is not performant, it could degrade the availability of dependent applications or increase application startup times.
+Such a service could receive a considerable volume of requests within a large organization.
+2.2 Centralize and Standardize
+¶
+Secrets used by your DevOps teams for your applications might be consumed differently than secrets stored by your marketeers or your SRE team. You often find poorly maintained secrets where the needs of secret consumers or producers mismatch. Therefore, you must standardize and centralize the secrets management solution with care. Standardizing and centralizing can mean that you use multiple secret management solutions. For instance: your cloud-native development teams choose to use the solution provided by the cloud provider, while your private cloud uses a third-party solution, and everybody has an account for a selected password manager.
+By making sure that the teams standardize the interaction with these different solutions, they remain maintainable and usable in the event of an incident.
+Even when a company centralizes its secrets management to just one solution, you will often have to secure the primary secret of that secrets management solution in a secondary secrets management solution. For instance, you can use a cloud provider's facilities to store secrets, but that cloud provider's root/management credentials need to be stored somewhere else.
+Standardization should include Secrets life cycle management, Authentication, Authorization, and Accounting of the secrets management solution, and life cycle management. Note that it should be immediately apparent to an organization what a secret is used for and where to find it. The more Secrets management solutions you use, the more documentation you need.
+2.3 Access Control
+¶
+When users can read and/or update the secret in a secret management system, it means that the secret can now leak through that user and the system they used to touch the secret.
+Therefore, engineers should not have access to all secrets in the secrets management system, and the Least Privilege principle should be applied. The secret management system needs to provide the ability to configure fine-grained access controls on each object and component to accomplish the Least Privilege principle.
+2.4 Automate Secrets Management
+¶
+Manual maintenance not only increases the risk of leakage; it also introduces the risk of human errors while maintaining the secret. Furthermore, it can become wasteful.
+Therefore, it is better to limit or remove the human interaction with the actual secrets. You can restrict human interaction in multiple ways:
+Secrets pipeline:
+ Having a secrets pipeline that does large parts of the secret management (e.g., creation, rotation, etc.)
+Using dynamic secrets:
+ When an application starts, it could request its database credentials, which, when dynamically generated, will be provided with new credentials for that session. Dynamic secrets should be used where possible to reduce the surface area of credential reuse. Configure a short 
+lease duration
+ and revoke credentials when they are no longer needed. Restarting the application does not itself revoke stolen credentials; they remain usable until the backing service expires or revokes them.
+Automated rotation of static secrets:
+ Key rotation is a challenging process when implemented manually, and can lead to mistakes. It is therefore better to automate the rotation of keys or at least ensure that the process is sufficiently supported by IT.
+Rotating certain keys, such as encryption keys, might trigger full or partial data re-encryption. Different strategies for rotating keys exist:
+Gradual rotation
+Introducing new keys for Write operations
+Leaving old keys for Read operations
+Rapid rotation
+Scheduled rotation
+and more...
+2.4.1 Architectural Patterns for Automated Rotation
+¶
+To illustrate how to design systems that support automated secret rotation, here are a few architectural patterns:
+Example 1: Kubernetes with a Sidecar Container
+¶
+In a Kubernetes environment, a common pattern is to use a sidecar container that is responsible for retrieving secrets from a secrets manager and making them available to the main application container. This decouples the application from the specifics of the secrets management solution.
+Architecture:
+A Pod contains two containers: the main application container and a sidecar container (e.g., HashiCorp Vault Agent, CyberArk Conjur Secrets Provider).
+The sidecar container authenticates with the secrets manager (e.g., using a Kubernetes Service Account).
+It retrieves the secret and writes it to a shared in-memory volume.
+The application container reads the secret from the shared volume.
+The sidecar container can periodically refresh the secret, ensuring the application always has a valid, short-lived credential.
+Kubernetes Manifest Snippet:
+apiVersion
+:
+v1
+kind
+:
+Pod
+metadata
+:
+name
+:
+my-app
+spec
+:
+serviceAccountName
+:
+my-app-sa
+containers
+:
+-
+name
+:
+my-app-container
+image
+:
+my-app-image
+volumeMounts
+:
+-
+name
+:
+secrets-volume
+mountPath
+:
+"/mnt/secrets"
+readOnly
+:
+true
+-
+name
+:
+vault-agent-sidecar
+image
+:
+vault:latest
+args
+:
+[
+"agent"
+,
+"-config=/etc/vault/vault-agent-config.hcl"
+]
+volumeMounts
+:
+-
+name
+:
+secrets-volume
+mountPath
+:
+"/mnt/secrets"
+volumes
+:
+-
+name
+:
+secrets-volume
+emptyDir
+:
+medium
+:
+"Memory"
+Example 2: Serverless Function for Database Credential Rotation
+¶
+Cloud-native secret managers often provide built-in support for automated rotation using serverless functions (e.g., AWS Lambda, Azure Functions).
+Architecture:
+A secret is stored in a cloud secrets manager (e.g., AWS Secrets Manager).
+The secrets manager is configured to trigger a rotation Lambda function on a schedule.
+The Lambda function has the necessary permissions to update the database password and the secret value in the secrets manager.
+The rotation process typically involves multiple steps (create new secret, set new secret, test new secret, finish rotation) to ensure a safe transition.
+For AWS, start from the 
+rotation function templates
+. Secrets Manager invokes the function 
+separately for each rotation step
+; retrieve the pending credential from the secret version identified by 
+ClientRequestToken
+, rather than relying on a local variable from an earlier invocation.
+Follow the 
+rotation function security checks
+ and 
+template validation
+: ensure rotation is enabled and the request token identifies a known secret version. Safely return if that version is already 
+AWSCURRENT
+; otherwise, require 
+AWSPENDING
+. Before changing credentials, validate the current credential and confirm that the pending version targets the intended database and user under the chosen rotation strategy. These checks prevent the privileged function from being redirected to another resource. Test the pending credential before promoting its version to 
+AWSCURRENT
+.
+These examples demonstrate how you can create architectures that not only manage secrets securely but also automate the rotation process, significantly reducing the risk of compromised credentials.
+2.5 Handling Secrets in Memory
+¶
+An additional level of security can be achieved by minimizing the time window
+where a secret is in memory and limiting the access to its memory space.
+Depending on your application's particular circumstances, this can be difficult
+to implement in a manner that ensures memory security. Because of this potential
+implementation complexity, you are first encouraged to develop a threat model in order to clearly
+surface your implicit assumptions about both your application's deployment environment as well
+as understand the capabilities of your adversaries.
+Often attempting to protect secrets in memory will be considered overkill
+because as you evaluate a threat model, the potential threat
+actors that you consider either do not have the capabilities to carry out such attacks
+or the cost of defense far exceeds the likely impact of a compromise arising from
+exposing secrets in memory. Also, it should be kept in mind while developing an
+appropriate threat model, that if an attacker already has access to the memory of
+the process handling the secret, by that time a security breach may have already
+occurred. Furthermore, it should be recognized that with the advent of attacks like
+Rowhammer
+, or
+Meltdown and Spectre
+, it is important
+to understand that the operating system alone is not sufficient to protect your process
+memory from these types of attacks. This becomes especially important when your
+application is deployed to the cloud. The only foolproof approach to protecting memory
+against these and similar attacks is to fully physically isolate your process memory from all other
+untrusted processes.
+Despite the implementation difficulties, in highly sensitive
+environments, protecting secrets in memory can
+be a valuable additional layer of security. For example, in scenarios where an
+advanced attacker can cause a system to crash and gain access to a memory dump,
+they may be able to extract secrets from it. Therefore, carefully safeguarding
+secrets in memory is recommended for untrusted environments or situations where
+tight security is of utmost importance.
+Furthermore, in lower-level languages like C/C++, it is relatively easy to protect
+secrets in memory. Thus, it may be worthwhile to implement this practice even if
+the risk of an attacker gaining access to the memory is low. On the other hand, for
+programming languages that rely on garbage collection, securing secrets in memory
+generally is much more difficult.
+Structures and Classes:
+ In .NET and Java, do not use immutable structures
+ such as Strings to store secrets, since it is impossible to force them to
+ be garbage collected. Instead, use primitive types such as byte arrays or
+ char arrays, where the memory can be directly overwritten.
+Zeroing Memory:
+ After a secret has been used, the memory it occupied
+ should be zeroed out to prevent it from lingering in memory where it could
+ potentially be accessed.
+Memory Encryption:
+ In some cases, it may be possible to use hardware or
+ operating system features to encrypt the entire memory space of the process
+ handling the secret. This can provide an additional layer of security.
+Remember, the goal is to minimize the time window where the secret is in
+plaintext in memory as much as possible.
+For more detailed information, see
+Testing Memory for Sensitive Data
+from the OWASP MAS project.
+2.6 Auditing
+¶
+Auditing is an essential part of secrets management due to the nature of the application. You must implement auditing securely to be resilient against attempts to tamper with or delete the audit logs. At a minimum, you should audit the following:
+Who requested a secret and for what system and role.
+Whether the secret request was approved or rejected.
+When the secret was used and by whom/what.
+When the secret has expired.
+Whether there were any attempts to reuse expired secrets.
+If there have been any authentication or authorization errors.
+When the secret was updated and by whom/what.
+Any administrative actions and possible user activity on the underlying supporting infrastructure stack.
+It is essential that all auditing has correct timestamps. Therefore, the secret management solution should have proper time sync protocols set up at its supporting infrastructure. You should monitor the stack on which the solution runs for possible clock-skew and manual time adjustments.
+2.7 Secret Lifecycle
+¶
+Secrets follow a lifecycle. The stages of the lifecycle are as follows:
+Creation
+Rotation
+Revocation
+Expiration
+2.7.1 Creation
+¶
+New secrets must be securely generated and cryptographically robust enough for their purpose. Secrets must have the minimum privileges assigned to them to enable their required use/role.
+You should transmit credentials securely, such that ideally, you don't send the password along with the username when requesting user accounts. Instead, you should send the password via a secure channel (e.g., mutually authenticated connection) or a side-channel such as push notification, SMS, email. Refer to the 
+Multi-Factor Authentication Cheat Sheet
+ to learn about the pros and cons of each channel.
+Applications may not benefit from having multiple communication channels, so you must provision credentials securely.
+See 
+the Open CRE project on secrets lookup
+ for more technical recommendations on secret creation.
+2.7.2 Rotation
+¶
+You should regularly rotate secrets so that any stolen credentials will only work for a short time. Regular rotation will also reduce the tendency for users to fall back to bad habits such as reusing credentials.
+Depending on a secret's function and what it protects, the lifetime could be from minutes (think end-to-end encrypted chats with perfect forward secrecy) to years (consider hardware secrets).
+User credentials are excluded from regular rotation. These should only be rotated if there is suspicion or evidence that they have been compromised, according to 
+NIST recommendations
+.
+2.7.3 Revocation
+¶
+When secrets are no longer required or potentially compromised, you must securely revoke them to restrict access. With (TLS) certificates, this also involves certificate revocation.
+2.7.4 Expiration
+¶
+You should create secrets to expire after a defined time where possible. This expiration can either be active expiration by the secret consuming system, or an expiration date set at the secrets management system forcing supporting processes to be triggered, resulting in a secret rotation.
+You should apply policies through the secrets management solution to ensure credentials are only made available for a limited time appropriate for the type of credentials. Applications should verify that the secret is still active before trusting it.
+2.8 Transport Layer Security (TLS) Everywhere
+¶
+Never transmit secrets via plaintext. In this day and age, there is no excuse given the ubiquitous adoption of TLS.
+Furthermore, you can effectively use secrets management solutions to provision TLS certificates.
+2.9 Downtime, Break-glass, Backup and Restore
+¶
+Consider the possibility that a secrets management service becomes unavailable for various reasons, such as scheduled downtime for maintenance. It could be impossible to retrieve the credentials required to restore the service if you did not previously acquire them. Thus, choose maintenance windows carefully based on earlier metrics and audit logs.
+Next, the backup and restore procedures of the system should be regularly tested and audited for their security. A few requirements regarding backup & restore. Ensure that:
+An automated backup procedure is in place and executed periodically; base the frequency of the backups and snapshots on the number of secrets and their lifecycle.
+Frequently test restore procedures to guarantee that the backups are intact.
+Encrypt backups and put them on secure storage with reduced access rights. Monitor the backup location for (unauthorized) access and administrative actions.
+Lastly, you should implement emergency ("break-glass") processes to restore the service if the system becomes unavailable for reasons other than regular maintenance. Therefore, emergency break-glass credentials should be regularly backed up securely in a secondary secrets management system and tested routinely to verify they work.
+2.10 Policies
+¶
+Consistently enforce policies defining the minimum complexity requirements of passwords and approved encryption algorithms at an organization-wide level. Using a centralized secrets management solution can help companies implement these policies.
+Next, having an organization-wide secrets management policy can help enforce applying the best practices defined in this cheat sheet.
+2.11 Metadata: prepare to move the secret
+¶
+A secret management solution should provide the capability to store at least the following metadata about a secret:
+When it was created/consumed/archived/rotated/deleted
+Who created/consumed/archived/rotated/deleted it (e.g., both the actual producer and the engineer using the production method)
+What created/consumed/archived/rotated/deleted it
+Who to contact when having trouble with the secret or having questions about it
+For what the secret is used (e.g., designated intended consumers and purpose of the secret)
+What type of secret it is (e.g., AES Key, HMAC key, RSA private key)
+When you need to rotate it, if done manually
+Note: if you don't store metadata about the secret nor prepare to move, you will increase the probability of vendor lock-in.
+2.12 Passwordless Authentication and Token Security
+¶
+OpenID Connect (OIDC) lets an application delegate user authentication to an identity provider (IdP), instead of storing and verifying the user's password itself. It does not require passwordless authentication: 
+OpenID Connect Core Section 3.1.2.3
+ leaves the IdP's authentication method, including passwords, outside the protocol's scope.
+OIDC alone does not eliminate phishing, credential stuffing, or weak passwords at the IdP. Choose an IdP that enforces appropriate authentication controls; for phishing resistance, require 
+phishing-resistant authentication
+, such as WebAuthn. See the 
+Multifactor Authentication Cheat Sheet
+.
+Federation still requires protecting issued tokens and any client credentials. Follow the 
+OAuth2 Cheat Sheet
+ for token transmission, storage, validation, expiration, and refresh-token protection. OIDC does not replace other application secrets, such as database credentials or API keys.
+3 Continuous Integration (CI) and Continuous Deployment (CD)
+¶
+Continuous Integration (CI) and Continuous Deployment (CD) tools frequently store secrets to configure applications or interact with secrets management systems during deployment. For general CI/CD pipeline hardening, runner isolation, and build-log masking, see the 
+CI/CD Security Cheat Sheet
+. This section covers architectural patterns and controls for managing secrets accessed or delivered by pipelines.
+3.1 Hardening your CI/CD pipeline
+¶
+For guidance on securing CI/CD infrastructure, pipeline execution environments, and source control configurations, see the 
+CI/CD Security Cheat Sheet
+ (specifically 
+Secure SCM Configuration
+ and 
+Pipeline and Execution Environment
+).
+3.2 Where should a secret be?
+¶
+When deploying applications, select a secret delivery model based on your environment's isolation and lifecycle requirements:
+3.2.1 As part of you
