@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "note": "公式発表と照合できていない候補。毎日の更新で再確認する。",
  "cases": [
   {
@@ -8163,41 +8163,6 @@
    "pendingReason": "公式発表（11/5）は流出対象に含まれるか未判明としており件数なし。報道の約3万5,600件は公式で未照合。続報待ち。"
   },
   {
-   "id": "gdo-karte-2611",
-   "co": "株式会社ゴルフダイジェスト・オンライン（会員／委託先 プレイド「KARTE」）",
-   "date": "2026-11-17",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": 6974506,
-   "label": "最大697万4,506件（重複を含む）",
-   "st": "c",
-   "items": [
-    "birth"
-   ],
-   "itemsText": "識別子ID、誕生日または誕生月、年代、郵便番号、メール配信可否の管理情報（報道）",
-   "notIncl": "氏名、メールアドレス、電話番号、パスワード、決済情報（報道）",
-   "who": [
-    "cust"
-   ],
-   "sum": "報道によると、GDOが利用するプレイド「KARTE」への不正アクセスで会員情報の一部が漏えいした可能性があり、11月17日にGDOが公表。10月の別の不正アクセス（gdo-unauthorized-2610）とは別事案。",
-   "status": "ongoing",
-   "statusText": "11月17日公表（報道）。人数は精査中。",
-   "resp": "報道によるとKARTE連携の停止、認証情報の無効化、個人情報保護委員会への連名報告方針。",
-   "official": [],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/gdo-karte-member-data-leak-6974506-personal-countermeasures-202611/"
-    ]
-   ],
-   "ind": "生活サービス・レジャー",
-   "group": "karte",
-   "pendingReason": "inboxにGDO自身の公式発表URL・本文がなく（official[]はプレイドと公的機関の解説のみ）、WebFetchでも公式ページに到達できなかったため未照合。manual/ にGDOの11月17日付公式文面（URL付き）を貼れば反映できる。"
-  },
-  {
    "cause": "cyber",
    "types": [
     "委託先経由",
@@ -8439,48 +8404,6 @@
    "who": [
     "cust",
     "biz"
-   ]
-  },
-  {
-   "id": "sapporo-ekisogo-xmas-lottery-2611",
-   "co": "札幌駅総合開発株式会社（札幌ステラプレイス・アピアのクリスマス抽選会システム／委託先の抽選システム提供事業者）",
-   "date": "2026-11-17",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [
-    "mail"
-   ],
-   "itemsText": "抽選システムの事前テストで使用した同社社員のメールアドレス（報道による）",
-   "sum": "抽選システムの事前テスト時に、システム提供事業者から不正アクセスの報告を受け、テストに使った社員のメールアドレスが第三者に閲覧された可能性があるとして、クリスマス抽選会の中止を発表したと報道。",
-   "status": "ongoing",
-   "statusText": "公式発表の本文を確認できていない。",
-   "resp": "",
-   "official": [
-    [
-     "JRタワー：当社ホームページのメンテナンス実施について（2026/11/13）",
-     "https://www.jr-tower.jp/topics/20261113_01.html"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/sapporo-stellarplace-apia-christmas-lottery-vendor-cyberattack/"
-    ],
-    [
-     "STVニュース北海道",
-     "https://www.stv.jp/news/stvnews/kiji/stb5e1324065fa49efa0438f4002d24c61.html"
-    ]
-   ],
-   "ind": "運輸・交通",
-   "pendingReason": "抽選会中止と社員メールアドレス閲覧の可能性に触れた公式発表の本文を確認できていない（取得できた公式ページ2件は「ホームページのセキュリティ対策」「情報漏えい等の事実は確認されていない」とのみ記載）。公式文面が分かれば manual/ に貼れば反映できる。",
-   "who": [
-    "staff"
    ]
   },
   {
@@ -8854,6 +8777,173 @@
    "ind": "小売・EC",
    "group": "karte",
    "pendingReason": "公式発表（jinsholdings.com）が自動取得不可（HTTP 403）で本文を読めていない。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "sano-eco-action-point-2611",
+   "co": "佐野市（さのまるエコ・アクション・ポイント／運営事業者 ティーエムエルデ）",
+   "date": "2026-11-27",
+   "occurred": "2026-11-16",
+   "cause": "cyber",
+   "types": [
+    "委託先経由",
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中（運営事業者全体は最大9.8万人）",
+   "st": "p",
+   "items": [
+    "name",
+    "mail",
+    "birth",
+    "addr",
+    "tel"
+   ],
+   "itemsText": "氏名、メールアドレス、生年月日、性別、住所、電話番号（パスワードは暗号化）。一部の会員は商品交換時に入力した発送先情報（氏名、住所、電話番号、メールアドレス等）も対象の可能性",
+   "who": [
+    "cust"
+   ],
+   "sum": "市が参加する「エコ・アクション・ポイント」サイトの運営事業者への不正アクセスで、利用者情報の一部が漏えいした可能性がある。市の登録者数は記載なし。",
+   "status": "ongoing",
+   "statusText": "運営事業者がサービス停止中。",
+   "official": [
+    [
+     "エコ・アクション・ポイントサイトへの不正アクセスによる個人情報漏えいのおそれについて",
+     "https://www.city.sano.lg.jp/soshikiichiran/nourin/kikouhendou/gyomuannai/ondanka/eco-action-point/29381.html"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/eco-action-point-data-breach/"
+    ]
+   ],
+   "ind": "公共機関",
+   "pendingReason": "佐野市の公式ページ本文は読めたが、掲載日が本文に書かれておらず、第一報の公表日と市の登録者数を確認できない。掲載日が分かれば反映できる。"
+  },
+  {
+   "id": "earthbrain-smartconstruction-2611",
+   "co": "株式会社EARTHBRAIN（Smart Construction／コマツ子会社）",
+   "date": "2026-11-27",
+   "occurred": "2026-11-20",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "c",
+   "items": [],
+   "itemsText": "企業名・住所・電話番号が記載されたファイル（企業名欄に個人の氏名が記載されたデータを含む）、システム開発者など関係者のメールアドレス・電話番号",
+   "who": [
+    "biz"
+   ],
+   "sum": "2026年11月20日夕方に外部から不正アクセスがあり、システム全体を緊急停止。過去のメンテナンス時に作成されたファイルが不正に持ち出され、企業名欄の個人氏名や関係者のメール・電話番号が含まれていたと公表。件数の記載なし。",
+   "status": "ongoing",
+   "statusText": "2026年11月27日掲載のお知らせ。11月24日から順次サービス再開。",
+   "official": [
+    [
+     "サービス停止に関するお詫びとお知らせ（2026/11/27）",
+     "https://www.earthbrain.com/news-20261127-515/"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/earthbrain_smart_construction_github_wfx_loot_data_breach_20261125/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "contact": {
+    "mails": [
+     "sec-information@earthbrain.com"
+    ],
+    "note": "株式会社EARTHBRAIN",
+    "src": "https://www.earthbrain.com/news-20261127-515/"
+   },
+   "pendingReason": "公式お知らせ（earthbrain.com）は読めたが、本文を自分で全文確認できておらず、サブ経路（要約）での確認にとどまる。件数・項目の確定を確認でき次第、台帳へ移す。"
+  },
+  {
+   "id": "yamap-unauthorized-2611",
+   "co": "株式会社ヤマップ（YAMAP）",
+   "date": "2026-11-25",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": null,
+   "label": "調査中",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "sum": "公式ページの表題・概要から、2026年11月25日に社内システムへの不正アクセスがあり、利用者の個人情報の一部が閲覧された可能性が判明したとされる。報道は社員3名のアカウントへの不正ログインと伝えている。",
+   "status": "ongoing",
+   "statusText": "公式ページの本文を読めていない。",
+   "official": [
+    [
+     "【お詫び】当社システムへの不正アクセスによる個人情報漏えいのおそれについて",
+     "https://corporate.yamap.co.jp/news/UgX5Wjfy"
+    ]
+   ],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/yamap-779-personal-data-breach-location-password-reset-2026/"
+    ]
+   ],
+   "ind": "通信・IT",
+   "pendingReason": "自動取得不可（JS描画で本文が空）。公式ページの表題・概要のみ確認でき、件数・項目・窓口と公表日を読めていない。manual/ に公式文面を貼れば反映できる。"
+  },
+  {
+   "id": "create-download-site-2611",
+   "co": "クリエイト（請求書・納品書ダウンロードサイト）",
+   "date": "2026-11-27",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 2764,
+   "label": "2,764名（報道）",
+   "st": "c",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認",
+   "sum": "請求書・納品書のダウンロードサイトへの不正アクセスで、2,764名の情報が漏えいし、パスワードが解読された可能性が高いと報じられている（報道による。公式発表は未確認）。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/create-web-download-2764-password-data-breach-202611/"
+    ]
+   ],
+   "ind": "小売・EC",
+   "pendingReason": "記事（inbox）に組織自身の公式発表URLがなく、検索でも該当の公式ページを特定できなかった（運営企業の正式名も未確認）。manual/ に公式文面（URL付き）を貼れば反映できる。"
+  },
+  {
+   "id": "gdo-credential-stuffing-2611",
+   "co": "株式会社ゴルフダイジェスト・オンライン（GDO）",
+   "date": "2026-11-25",
+   "cause": "cyber",
+   "types": [
+    "不正アクセス"
+   ],
+   "n": 1001,
+   "label": "1,001件（報道）",
+   "st": "p",
+   "items": [],
+   "itemsText": "項目は公表資料で要確認（報道は世帯年収、クレジットカード情報などと伝える）",
+   "sum": "不正ログインにより会員1,001件の情報が流出したおそれがあると報じられている（報道による。公式発表は未確認）。",
+   "status": "ongoing",
+   "statusText": "公式発表の本文を確認できていない。",
+   "official": [],
+   "src": [
+    [
+     "セキュリティ対策Lab",
+     "https://rocket-boys.co.jp/security-measures-lab/gdo-credential-stuffing-1001-data-breach-20261125/"
+    ]
+   ],
+   "ind": "生活サービス・レジャー",
+   "pendingReason": "GDOの公式ページを検索で探したが、本件（2026年11月25日頃）に該当する発表を見つけられなかった（確認できたのは11月17日のKARTE件、10月16日の件、2024年の不正ログイン）。manual/ にGDOの公式文面（URL付き）を貼れば反映できる。"
   }
  ]
 }
