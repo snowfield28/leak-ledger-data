@@ -8863,37 +8863,6 @@
    "pendingReason": "公式お知らせ（earthbrain.com）は読めたが、本文を自分で全文確認できておらず、サブ経路（要約）での確認にとどまる。件数・項目の確定を確認でき次第、台帳へ移す。"
   },
   {
-   "id": "yamap-unauthorized-2611",
-   "co": "株式会社ヤマップ（YAMAP）",
-   "date": "2026-11-25",
-   "cause": "cyber",
-   "types": [
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中",
-   "st": "p",
-   "items": [],
-   "itemsText": "項目は公表資料で要確認",
-   "sum": "公式ページの表題・概要から、2026年11月25日に社内システムへの不正アクセスがあり、利用者の個人情報の一部が閲覧された可能性が判明したとされる。報道は社員3名のアカウントへの不正ログインと伝えている。",
-   "status": "ongoing",
-   "statusText": "公式ページの本文を読めていない。",
-   "official": [
-    [
-     "【お詫び】当社システムへの不正アクセスによる個人情報漏えいのおそれについて",
-     "https://corporate.yamap.co.jp/news/UgX5Wjfy"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/yamap-779-personal-data-breach-location-password-reset-2026/"
-    ]
-   ],
-   "ind": "通信・IT",
-   "pendingReason": "自動取得不可（JS描画で本文が空）。公式ページの表題・概要のみ確認でき、件数・項目・窓口と公表日を読めていない。manual/ に公式文面を貼れば反映できる。"
-  },
-  {
    "id": "create-download-site-2611",
    "co": "クリエイト（請求書・納品書ダウンロードサイト）",
    "date": "2026-11-27",
