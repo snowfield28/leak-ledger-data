@@ -8779,48 +8779,6 @@
    "pendingReason": "公式発表（jinsholdings.com）が自動取得不可（HTTP 403）で本文を読めていない。manual/ に公式文面を貼れば反映できる。"
   },
   {
-   "id": "sano-eco-action-point-2611",
-   "co": "佐野市（さのまるエコ・アクション・ポイント／運営事業者 ティーエムエルデ）",
-   "date": "2026-11-27",
-   "occurred": "2026-11-16",
-   "cause": "cyber",
-   "types": [
-    "委託先経由",
-    "不正アクセス"
-   ],
-   "n": null,
-   "label": "調査中（運営事業者全体は最大9.8万人）",
-   "st": "p",
-   "items": [
-    "name",
-    "mail",
-    "birth",
-    "addr",
-    "tel"
-   ],
-   "itemsText": "氏名、メールアドレス、生年月日、性別、住所、電話番号（パスワードは暗号化）。一部の会員は商品交換時に入力した発送先情報（氏名、住所、電話番号、メールアドレス等）も対象の可能性",
-   "who": [
-    "cust"
-   ],
-   "sum": "市が参加する「エコ・アクション・ポイント」サイトの運営事業者への不正アクセスで、利用者情報の一部が漏えいした可能性がある。市の登録者数は記載なし。",
-   "status": "ongoing",
-   "statusText": "運営事業者がサービス停止中。",
-   "official": [
-    [
-     "エコ・アクション・ポイントサイトへの不正アクセスによる個人情報漏えいのおそれについて",
-     "https://www.city.sano.lg.jp/soshikiichiran/nourin/kikouhendou/gyomuannai/ondanka/eco-action-point/29381.html"
-    ]
-   ],
-   "src": [
-    [
-     "セキュリティ対策Lab",
-     "https://rocket-boys.co.jp/security-measures-lab/eco-action-point-data-breach/"
-    ]
-   ],
-   "ind": "公共機関",
-   "pendingReason": "佐野市の公式ページ本文は読めたが、掲載日が本文に書かれておらず、第一報の公表日と市の登録者数を確認できない。掲載日が分かれば反映できる。"
-  },
-  {
    "id": "create-download-site-2611",
    "co": "クリエイト（請求書・納品書ダウンロードサイト）",
    "date": "2026-11-27",
